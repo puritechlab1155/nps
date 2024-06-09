@@ -18,8 +18,6 @@
 
 		$connect = mysqli_connect($hostname, $username, $password, $database);
 		mysqli_select_db($connect, $database) or die('DB 선택 실패');
-
-
 	?>
 
 	<script type="text/javascript">

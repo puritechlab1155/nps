@@ -1192,16 +1192,14 @@
 .sub12 .section01 .content .title img { width:100%; }
 .sub12 .section01 .content .title .img_mo { display: none ;}
 .sub12 .section01 .content .text { max-width: 664px; color: #fff; width: 100%; margin: 54px auto 16px auto; text-align: center; line-height: 32px; }
-/* .sub12 .section01 .content .text img { height: 24px; margin-top: -5px; } */
 
 .sub12 .gift { text-align: center; background: linear-gradient(#b36ef9 50%, #d9ede5 50%); width:100%; }
 .sub12 .gift img { width:100%; max-width: 610px; }
 
 .sub12 .section02 {position: relative; padding: 32px 0; margin: 0; background: #d9ede5; }
 .sub12 .section02 .content { position: relative; display: block; width: 100%; max-width: 960px; margin: 0 auto;  padding:0 20px; } 
-.sub12 .section02 .content .date_area { max-width: 664px; width: 100%; margin: 0 auto 50px auto; border-top: 2px solid #b36ef9; border-bottom: 2px solid #b36ef9; padding: 10px 0; display: flex; }
-.sub12 .section02 .content .date_area .left { width: 50%; color:#000; }
-.sub12 .section02 .content .date_area .right { width: 48%; padding-left: 2%; border-left: 1px solid #b36ef9; color:#000;}
+.sub12 .section02 .content .date_area { max-width: 664px; width: 100%; margin: 0 auto 50px auto; border-top: 0.5px solid #000; border-bottom: 0.5px solid #000; padding: 10px 0; display: flex; flex-direction: column; }
+.sub12 .section02 .content .date_area .mid { margin: 10px 0; padding: 10px 0; border-top: 0.5px solid #000; border-bottom: 0.5px solid #000;}
 .sub12 .section02 .content .date_area span { font-weight: 700; margin-right: 20px; color: #b36ef9; }
 .sub12 .section02 .content .quiz { text-align: center; margin: 30px 0 50px 0; }
 .sub12 .section02 .content .quiz img { width:100%; max-width: 810px; }

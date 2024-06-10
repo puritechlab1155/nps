@@ -20,15 +20,10 @@
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="title"><img src="img/sub11/sub11_01.svg"></div>
-				<div class="subtitle">따뜻한 가정의 달을 맞이해<br>감사의 메시지를 전달하는 이벤트를 마련했습니다.</div>
-				<div class="sub_icon"><img src="img/sub11/sub11_02.svg"></div>
 				<div class="text pc_display">
-					<ul>
-						<li><span>부모님, 조부모님, 은사님, 직장 선배 등</span>에게 보내는</li>
-						<li><span>감사의 메시지</span>를 보내주시는 분 중</li>
-						<li>추첨을 통해 선정된 열 분에게는</li>
-						<li>1만원 상당의 모바일 상품권을 보내 드립니다.</li>
-					</ul>
+					앞으로 내곁에 국민연금에 소개되길 바라는 연금제도, 궁금한 연금제도 등을 뽑아 주세요. <br>
+					다양한 국민연금 제도 중 궁금한 연금제도에 투표를 해 주시는 분들 중 <br>
+					추첨을 통해 선정된 10분께 1만원 상당의 모바일 상품권을 드립니다.
 				</div>
 				<div class="text mobile_display">
 					<span>부모님, 조부모님, 은사님, 직장 선배 등</span>에게 보내는 <span>감사의 메시지</span>를 보내주시는 분 중 추첨을 통해 선정된 열 분에게는 1만원 상당의 모바일 상품권을 보내 드립니다.

@@ -9,7 +9,7 @@
 
 	<!-- kruddo add -->
 	<?
-		$vol_idx = "199";		// kruddo modify - 호차 번호. 191호가 아닌경우 변경, inc/like_share.php 에서도 변경
+		$vol_idx = "200";		// kruddo modify - 호차 번호. 191호가 아닌경우 변경, inc/like_share.php 에서도 변경
 
 		$hostname = "localhost";
 		$username = "nps2022";

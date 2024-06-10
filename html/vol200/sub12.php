@@ -32,15 +32,15 @@
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
 				<div class="date_area">
-					<div class="left"><span>응모 기간</span> 4월 24일 ~ 6월 23일</div>
-					<div class="right"><span>당첨 발표</span> 7월 1일</div>
-				</div>
+					<div class="left"><span>응모 기간</span> 7월 10일 ~ 8월 30일</div>
+					<div class="right"><span>당첨 발표</span> 9월 6일</div>
+				</div> 
 				<div class="quiz"><img src="img/sub12/sub12_03.svg"></div>
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/57rKnITh" target="_blank">의견 보내기</a><span class="end" href="#" >마감되었습니다</span></div>
 				<div class="info">
 					<ul>
 						<li>본 이벤트 경품은 당사 사정에 따라 변경될 수 있습니다.</li>
-						<li>이벤트 응모 시 개인정보 활용에 동의한 것으로 간주됩니다.</li>
+						<li>이벤트 응모 시 개인정보 활용에 동의한 것으로 간주됩니다.</li >
 						<li>부정행위를 통해 이벤트 참여 시 제재를 받으며, 당첨 경품도 취소됩니다.</li>
 						<li>많은 분들께 이벤트 혜택을 드리기 위해 중복 당첨 시 경품 지급은 한 번만 이뤄집니다.</li>
 						<li>당첨자에 한해 개인정보가 경품 발송 대행사에 전달되며 경품 발송 후 즉시 폐기됩니다.</li>

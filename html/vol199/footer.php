@@ -16,7 +16,8 @@
 				국민연금 고객센터 : 국번없이 1355 <span>(해외+82-63-713-6900  평일 09:00 ~ 18:00)</span><br>
 				54870 전북특별자치도 전주시 덕진구 기지로 180 (만성동, 국민연금공단)<br>
 				간행물 등록번호 : 전주, 바 00034<br>
-				© nps.or.kr. All rights reserved.
+				© nps.or.kr. All rights reserved. 
+				
 			</div>
 		</div>
 	</footer>

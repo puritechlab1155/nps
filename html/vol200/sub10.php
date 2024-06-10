@@ -26,8 +26,9 @@
 					독자 여러분이 남겨 주신 다양한 의견을 소개합니다. 국민연금 여름호 웹진에 대한 리뷰, 여름호 중 가장 좋았던 콘텐츠 선정, 국민연금 제도에 대한 희망이 담긴 조언, 기대감 등 독자 여러분의 목소리를 기다리고 있겠습니다. 늘 관심을 갖고 웹진을 아껴 주시는 독자 여러분께 감사의 말씀을 전합니다.<br>
 				</div>
 				<div class="date_area">
-					<div class="left"><span>응모 기간</span> 7월 10일~8월 30일</div>
-					<div class="right"><span>당첨 발표</span> 9월 6일</div>
+					<div class="top"><span>응모 기간</span><em>7월 10일 오후 2시 ~ 8월 25일 오후 11시 30분</em></div>
+					<div class="mid"><span>당첨 발표</span><em>9월 2일 오전 1시</em></div>
+					<div><span>경품 발송</span><em>9월 2일 오후 5시</em></div>
 				</div>
 				<div class="gift"><img src="img/sub10/sub10_02.png"></div>
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/Fu6dXCjB" target="_blank">의견 보내기</a><span class="end" href="#" >마감되었습니다</span></div>

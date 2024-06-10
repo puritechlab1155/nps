@@ -1190,20 +1190,22 @@
 .sub12 .section01 {position: relative; padding: 100px 0 10px 0; margin: 0; background: #b36ef9; }
 .sub12 .section01 .content { position: relative; display: block; width: 100%; max-width: 1100px; margin: 0 auto;  padding:0 20px; } 
 .sub12 .section01 .content .title img { width:100%; }
-.sub12 .section01 .content .text { max-width: 664px; color: #fff; width: 100%; margin: 54px auto 50px auto; text-align: center; line-height: 32px; }
-.sub12 .section01 .content .text img { height: 24px; margin-top: -5px; }
+.sub12 .section01 .content .title .img_mo { display: none ;}
+.sub12 .section01 .content .text { max-width: 664px; color: #fff; width: 100%; margin: 54px auto 16px auto; text-align: center; line-height: 32px; }
+/* .sub12 .section01 .content .text img { height: 24px; margin-top: -5px; } */
 
 .sub12 .gift { text-align: center; background: linear-gradient(#b36ef9 50%, #d9ede5 50%); width:100%; }
 .sub12 .gift img { width:100%; max-width: 610px; }
 
 .sub12 .section02 {position: relative; padding: 32px 0; margin: 0; background: #d9ede5; }
 .sub12 .section02 .content { position: relative; display: block; width: 100%; max-width: 960px; margin: 0 auto;  padding:0 20px; } 
-.sub12 .section02 .content .date_area { max-width: 664px; width: 100%; margin: 20px auto 50px auto; border-top: 2px solid #b36ef9; border-bottom: 2px solid #b36ef9; padding: 10px 0; display: flex; }
+.sub12 .section02 .content .date_area { max-width: 664px; width: 100%; margin: 0 auto 50px auto; border-top: 2px solid #b36ef9; border-bottom: 2px solid #b36ef9; padding: 10px 0; display: flex; }
 .sub12 .section02 .content .date_area .left { width: 50%; color:#000; }
 .sub12 .section02 .content .date_area .right { width: 48%; padding-left: 2%; border-left: 1px solid #b36ef9; color:#000;}
 .sub12 .section02 .content .date_area span { font-weight: 700; margin-right: 20px; color: #b36ef9; }
 .sub12 .section02 .content .quiz { text-align: center; margin: 30px 0 50px 0; }
 .sub12 .section02 .content .quiz img { width:100%; max-width: 810px; }
+.sub12 .section02 .content .quiz .img_mo { display: none; }
 .sub12 .section02 .content .button { display: flex; justify-content: center; margin: 0 0 50px 0;  }
 .sub12 .section02 .content .button a.subscribe { background: #424242; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; }
 .sub12 .section02 .content .button a.send { background: #288CF4; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; }
@@ -1214,10 +1216,15 @@
 @media only all and (max-width:767px) {
 	.sub12 #contents { padding: 0; }
 	.sub12 .section01 { padding: 30px 0; }
-	.sub12 .section01 .content .text { margin: 0px auto 50px auto; }
+	.sub12 .section01 .content .title .img_pc { display: none; }
+	.sub12 .section01 .content .title .img_mo { display: block; }
+	.sub12 .section01 .content .text { margin: 44px auto 0 auto; text-align: left; font-size: 17px; }
+	.sub12 .gift img { width:100%; max-width: calc(100% - 88px); }
 	.sub12 .section02 .content .date_area { display: inline-block; }
 	.sub12 .section02 .content .date_area .left { width: 100%; padding-bottom: 10px; }
-	.sub12 .section02 .content .date_area .right { width: 100%; padding-left: 0; border-top: 1px solid #fff; border-left: 0px; padding-top: 10px;}
+	.sub12 .section02 .content .date_area .right { width: 100%; padding-left: 0; border-top: 1px solid #b36ef9; border-left: 0px; padding-top: 10px;}
+	.sub12 .section02 .content .quiz .img_pc { display: none; }
+	.sub12 .section02 .content .quiz .img_mo { display: block; }
 	.sub12 .section02 .content .button { display: flex; justify-content: center; margin: 0 0 50px 0;  }
 	.sub12 .section02 .content .button a.subscribe { max-width: 220px; width: 100%; height: 55px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; }
 	.sub12 .section02 .content .button a.send { max-width: 220px; width: 100%; height: 55px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; }

@@ -26,14 +26,15 @@
 					추첨을 통해 선정된 10분께 1만원 상당의 모바일 상품권을 드립니다.
 				</div>
 				<div class="text mobile_display">
-					<span>부모님, 조부모님, 은사님, 직장 선배 등</span>에게 보내는 <span>감사의 메시지</span>를 보내주시는 분 중 추첨을 통해 선정된 열 분에게는 1만원 상당의 모바일 상품권을 보내 드립니다.
+					앞으로 내곁에 국민연금에 소개되길 바라는 연금제도,궁금한 연금제도 등을 뽑아 주세요. 다양한 국민연금 제도 중 궁금한 연금제도에 투표를 해 주시는 분들 중 추첨을 통해 선정된 10분께 3만원 상당의 치킨 기프티콘을 드립니다.
 				</div>
 				<div class="date_area">
-					<div class="left"><span>응모 기간</span> 4월 24일 ~ 6월 23일</div>
-					<div class="right"><span>당첨 발표</span> 7월 1일</div>
+					<div class="top"><span>응모 기간</span><em>7월 10일 오후 2시 ~ <br>8월 25일 오후 11시 30분</em></div>
+					<div class="mid"><span>당첨 발표</span><em>9월  2일 오전 1시</em></div>
+					<div><span>경품 발송</span><em>9월  2일 오후 5시</em></div>
 				</div>
 				<div class="gift"><img src="img/sub11/sub11_03.png"></div>
-				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/5AcUIsLS" target="_blank">이벤트 참여하기</a><span class="end" href="#" >마감되었습니다</span></div>
+				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/5AcUIsLS" target="_blank">투표하기</a><span class="end" href="#" >마감되었습니다</span></div>
 				<div class="info">
 					<ul>
 						<li>본 이벤트 경품은 당사 사정에 따라 변경될 수 있습니다.</li>

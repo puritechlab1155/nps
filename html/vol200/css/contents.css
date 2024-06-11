@@ -1118,12 +1118,12 @@
 .sub10 .section01 .content .subtitle { background: #fbf471; border-radius: 20px; color: #000; text-align: center; padding: 5px 20px; max-width: 664px; width: 100%; margin: 50px auto 30px auto; font-family: 'Meetme'; font-size: 24px; letter-spacing: 0; }
 .sub10 .section01 .content .text { max-width: 664px; width: 100%; margin: 0px auto 0px auto; color: #fff; font-weight: 400; font-size: 17px; line-height: 27px;}
 .sub10 .section01 .content .text img { height: 24px; margin-top: -5px; }
-.sub10 .section01 .content .date_area { max-width: 664px; width: 100%; margin: 20px auto 50px auto; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff; padding: 10px 0; display: flex; color: #fff; font-size: 17px; font-weight: 400; flex-direction: column; font-weight: 400; }
+.sub10 .section01 .content .date_area { max-width: 664px; width: 100%; margin: 20px auto 50px auto; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff; padding: 10px 0; display: flex; color: #fff; font-size: 17px; font-weight: 400; flex-direction: column; }
 .sub10 .section01 .content .date_area .top br {display: none;}
 .sub10 .section01 .content .date_area .mid { margin: 10px 0; padding: 10px 0; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff;}
 .sub10 .section01 .content .date_area span { font-weight: 700; margin-right: 44px; font-weight: 700; }
 .sub10 .section01 .content .gift { text-align: center; margin: 20px 0 50px 0; }
-.sub10 .section01 .content .gift img { width:100%; max-widt h: 610px; }
+.sub10 .section01 .content .gift img { width:100%; max-width: 610px; }
 .sub10 .section01 .content .button { display: flex; justify-content: center; margin: 0 0 50px 0;  }
 .sub10 .section01 .content .button a.subscribe { background: #00d7ff; border: 0.7px solid #000; text-align: center; color: #000; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 25px; margin:10px; }
 .sub10 .section01 .content .button a.send { background: #004fff; border: 0.7px solid #000; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 25px; margin:10px; }
@@ -1147,38 +1147,39 @@
 }
 
 /* 이벤트2 */
-.sub11 #contents { position: relative; padding: 116px 0 100px; margin: 0; background: #f1adc6;}
-.sub11 #contents::before { content: ''; width: 100%; height: 826px; background-image: url(../img/sub11/sub11_01-bg.svg); background-repeat: no-repeat; background-size: cover; position: absolute; left: 0; top: 0;}
+.sub11 #contents { position: relative; padding: 120px 0 100px; margin: 0; background: #f1adc6;}
+.sub11 #contents::before { content: ''; width: 100%; height: 40%; background-image: url(../img/sub11/sub11_01-bg.svg); background-repeat: no-repeat; background-size: cover; position: absolute; left: 0; top: 0;}
 .sub11 .section01 {position: relative; display: block; width: 100%; max-width: 960px; margin: 0 auto;  padding:0 20px; }
 .sub11 .section01 .content { position: relative; } 
 .sub11 .section01 .content .title img { width:100%; }
-.sub11 .section01 .content .text { max-width: 690px; width: 100%; margin: 0px auto 50px auto; color: #684d3c; text-align: center; font-size: 17px; font-weight: 400; }
-.sub11 .section01 .content .date_area { max-width: 550px; width: 100%; margin: 20px auto 50px auto; border-top: 2px solid #fff; border-bottom: 2px solid #fff; padding: 10px 0; display: flex; }
-.sub11 .section01 .content .date_area .left { width: 50%; }
-.sub11 .section01 .content .date_area .right { width: 48%; padding-left: 2%; border-left: 1px solid #fff; }
-.sub11 .section01 .content .date_area span { font-weight: 700; margin-right: 20px; }
-.sub11 .section01 .content .gift { text-align: center; margin: 20px 0 -30px 0; position: relative; }
+.sub11 .section01 .content .text { max-width: 690px; width: 100%; margin: 0px auto 54px auto; color: #684d3c; text-align: center; font-size: 17px; font-weight: 400; line-height: 27px; }
+.sub11 .section01 .content .date_area { max-width: 664px; width: 100%; margin: 23px auto 50px auto; border-top: 0.5px solid #684d3c; border-bottom: 0.5px solid #684d3c; padding: 10px 0; display: flex; color: #000; font-size: 17px; font-weight: 400; flex-direction: column; font-weight: 400; }
+.sub11 .section01 .content .date_area .top br {display: none;}
+.sub11 .section01 .content .date_area .mid { margin: 10px 0; padding: 10px 0; border-top: 0.5px solid #684d3c; border-bottom: 0.5px solid #684d3c;}
+.sub11 .section01 .content .date_area span { font-weight: 700; margin-right: 44px; font-weight: 700; color: #684d3c; }
+.sub11 .section01 .content .gift { text-align: center; margin: 51px 0 27px 0; position: relative; }
 .sub11 .section01 .content .gift img { width:100%; max-width: 610px; }
 .sub11 .section01 .content .button { position: relative; display: flex; justify-content: center; margin: 0 0 50px 0; }
 .sub11 .section01 .content .button a.subscribe { background: #424242; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; }
-.sub11 .section01 .content .button a.send { background: #eb605a; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; }
+.sub11 .section01 .content .button a.send { background: #01d6a9; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; }
 .sub11 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; }
 .sub11 .section01 .content .info {  max-width: 664px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 15px; }
 .sub11 .section01 .content .info ul { padding-inline-start: 1.5em; }
 .sub11 .section01 .content .info li { list-style: disc; }
 @media only all and (max-width:767px) {
-	.sub11 #contents { padding: 20px 0; }
+	.sub11 section#contents { padding: 40px 0; }
+	.sub11 #contents::before { height: 10%;}
 	.sub11 .section01 .content .date_area { display: inline-block; }
-	.sub11 .section01 .content .date_area .left { width: 100%; padding-bottom: 10px; }
-	.sub11 .section01 .content .date_area .right { width: 100%; padding-left: 0; border-top: 1px solid #fff; border-left: 0px; padding-top: 10px;}
+	.sub11 .section01 .content .date_area > div { display: flex; }
+	.sub11 .section01 .content .date_area span { margin-right: 20px; width: 20% }
+	.sub11 .section01 .content .date_area .top br{display: block;}
 
-	.sub11 .section01 .content .text { max-width: 550px; width: 100%; margin: 0px auto 30px auto; padding: 0px; font-family: 'WavvePADO'; font-size: 22px; text-align: center; text-decoration: underline #333 solid 1px; text-underline-offset: 15px; line-height: 2; }
-	.sub11 .section01 .content .text span { color:#ff5252; }
-	.sub11 .section01 .content .gift { margin: 20px 0 -20px 0; }
-	.sub11 .section01 .content .button { display: flex; justify-content: center; margin: 0 0 50px 0; }
-	.sub11 .section01 .content .button a.subscribe { max-width: 220px; width: 100%; height: 55px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; }
-	.sub11 .section01 .content .button a.send { max-width: 220px; width: 100%; height: 55px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; }
-	.sub11 .section01 .content .button span.end { max-width: 220px; width: 100%; height: 55px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; }
+	.sub11 .section01 .content .text { max-width: 550px; width: 100%; margin: 25px auto 24px auto; padding: 0px; text-align: left; }
+	.sub11 .section01 .content .gift { margin: 20px 0 0 0; }
+	.sub11 .section01 .content .button { display: flex; justify-content: center; margin: 28px 0 50px 0; }
+	.sub11 .section01 .content .button a.subscribe { max-width: 220px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; margin:5px; }
+	.sub11 .section01 .content .button a.send { max-width: 220px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; margin:5px; }
+	.sub11 .section01 .content .button span.end { max-width: 220px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; margin:5px; }
 }
 
 /* 이벤트3 */

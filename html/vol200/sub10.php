@@ -31,7 +31,7 @@
 					<div class="mid"><span>당첨 발표</span><em>9월 2일 오전 1시</em></div>
 					<div><span>경품 발송</span><em>9월 2일 오후 5시</em></div>
 				</div>
-				<div class="gift"><img src="img/sub10/sub10_02.png"></div>
+				<div class="gift"><img src="img/sub10/sub10_03.png"></div>
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/Fu6dXCjB" target="_blank">의견 보내기</a><span class="end" href="#" >마감되었습니다</span></div>
 				<div class="info">
 					<ul>

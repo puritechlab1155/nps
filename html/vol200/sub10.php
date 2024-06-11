@@ -21,7 +21,7 @@
 			<div class="content">
 				<div class="title"><img src="img/sub10/sub10_01.svg" class="tit_pc"></div>
 				<div class="title"><img src="img/sub10/sub10_01_mo.svg" class="tit_mo"></div>
-				<div class="subtitle">좋은 의견을 남겨 주신 10분께는 1만원 상당의 아이스크림 기프티콘을 보내 드립니다.</div>
+				<div class="subtitle">좋은 의견을 남겨 주신 10분께는 1만원 상당의 <br>아이스크림 기프티콘을 보내 드립니다.</div>
 				<div class="text">
 					독자 여러분이 남겨 주신 다양한 의견을 소개합니다. 국민연금 여름호 웹진에 대한 리뷰, 여름호 중 가장 좋았던 콘텐츠 선정, 국민연금 제도에 대한 희망이 담긴 조언, 기대감 등 독자 여러분의 목소리를 기다리고 있겠습니다. 늘 관심을 갖고 웹진을 아껴 주시는 독자 여러분께 감사의 말씀을 전합니다.<br>
 				</div>

@@ -1228,9 +1228,9 @@
 	.sub12 .section02 .content .quiz { margin: 0; }
 	.sub12 .section02 .content .quiz .img_pc { display: none; }
 	.sub12 .section02 .content .quiz .img_mo { display: block; }
-	.sub12 .section02 .content .button { display: flex; justify-content: center; margin: 35px 0;  }
-	.sub12 .section02 .content .button a.subscribe { display: inline-flex; max-width: 220px; width: 100%; height: 42px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; justify-content: center; align-items: center;}
-	.sub12 .section02 .content .button a.send { display: inline-flex; max-width: 220px; width: 100%; height: 42px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; justify-content: center; align-items: center;}
+	.sub12 .section02 .content .button { display: inline-flex; justify-content: center; margin: 35px 0;  }
+	.sub12 .section02 .content .button a.subscribe { display: inline-flex; max-width: 220px; width: 100%; height: 42px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px;  align-items: center;}
+	.sub12 .section02 .content .button a.send { display: inline-flex; max-width: 220px; width: 100%; height: 42px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; align-items: center;}
 	.sub12 .section02 .content .button span.end { max-width: 220px; width: 100%; height: 55px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; }
 }
 

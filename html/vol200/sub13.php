@@ -34,18 +34,18 @@
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> </div>
 				<!-- <a class="send" href="https://naver.me/FZWH1Fh4" target="_blank">의견 보내기</a><span class="end" href="#" >마감되었습니다</span> -->
 				<div class="draw">
-					<div><img src="img/sub14/sub14_05-blue.svg"></div>
-					<div><img src="img/sub14/sub14_05-red.svg"></div>
-					<div><img src="img/sub14/sub14_05-yellow.svg"></div>
-					<div><img src="img/sub14/sub14_05-red.svg"></div>
-					<div><img src="img/sub14/sub14_05-yellow.svg"></div>
-					<div><img src="img/sub14/sub14_05-blue.svg"></div>
-					<div><img src="img/sub14/sub14_05-yellow.svg"></div>
-					<div><img src="img/sub14/sub14_05-blue.svg"></div>
-					<div><img src="img/sub14/sub14_05-red.svg"></div>
-					<div><img src="img/sub14/sub14_05-blue.svg"></div>
-					<div><img src="img/sub14/sub14_05-red.svg"></div>
-					<div><img src="img/sub14/sub14_05-yellow.svg"></div>
+					<div><img src="img/sub13/sub13_05-blue.svg"></div>
+					<div><img src="img/sub13/sub13_05-red.svg"></div>
+					<div><img src="img/sub13/sub13_05-yellow.svg"></div>
+					<div><img src="img/sub13/sub13_05-red.svg"></div>
+					<div><img src="img/sub13/sub13_05-yellow.svg"></div>
+					<div><img src="img/sub13/sub13_05-blue.svg"></div>
+					<div><img src="img/sub13/sub13_05-yellow.svg"></div>
+					<div><img src="img/sub13/sub13_05-blue.svg"></div>
+					<div><img src="img/sub13/sub13_05-red.svg"></div>
+					<div><img src="img/sub13/sub13_05-blue.svg"></div>
+					<div><img src="img/sub13/sub13_05-red.svg"></div>
+					<div><img src="img/sub13/sub13_05-yellow.svg"></div>
 				</div>
 				<div class="text">
 					<ul>

@@ -32,7 +32,7 @@
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
 				<div class="date_area">
-					<div class="top"><span>응모 기간</span><em>7월 10일 오후 2시 ~ 8월 25일 오후 11시 30분</em></div>
+					<div class="top"><span>응모 기간</span><em>7월 10일 오후 2시 ~ <br>8월 25일 오후 11시 30분</em></div>
 					<div class="mid"><span>당첨 발표</span><em>9월  2일 오전 1시</em></div>
 					<div><span>경품 발송</span><em>9월  2일 오후 5시</em></div>
 				</div>

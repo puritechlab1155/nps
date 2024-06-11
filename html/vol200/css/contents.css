@@ -1277,32 +1277,37 @@
 }
 
 /* 이벤트5 */
-.sub14 #contents { position: relative; padding: 100px 0; margin: 0; background: #d8e144;}
-.sub14 .section01 {position: relative; display: block; width: 100%; max-width: 860px; margin: 0 auto;  padding:0 20px; }
-.sub14 .section01 .content { position: relative; } 
-.sub14 .section01 .content .title img { width:100%; }
-.sub14 .section01 .content .gift { text-align: center; margin: 20px 0 50px 0; }
-.sub14 .section01 .content .gift img { width:100%; max-width: 625px; }
-.sub14 .section01 .content .text { max-width: 365px; width: 100%; margin: -220px auto 0px auto;letter-spacing: -1px; line-height: 32px;}
-.sub14 .section01 .content .text img { height: 24px; margin-top: -5px; }
-.sub14 .section01 .content .date_area { max-width: 365px; width: 100%; margin: 20px auto 50px auto; border-top: 2px solid #fff; border-bottom: 2px solid #fff; padding: 10px 0; display: block; }
-.sub14 .section01 .content .date_area .item1 { width: 100%; padding-bottom: 10px; }
-.sub14 .section01 .content .date_area .item2 { width: 100%; border-top: 1px solid #fff; padding-top: 10px; }
-.sub14 .section01 .content .date_area span { font-weight: 700; margin-right: 20px; }
-.sub14 .section01 .content .button { display: flex; justify-content: center; margin: 0 0 50px 0;  }
-.sub14 .section01 .content .button a.subscribe { background: #424242; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; transition: background-color 0.3s ease, color 0.3s ease; }
-.sub14 .section01 .content .button a.send { background: #857aff; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; transition: background-color 0.3s ease, color 0.3s ease; }
-.sub14 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; }
-.sub14 .section01 .content .info {  max-width: 664px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 15px; }
-.sub14 .section01 .content .info ul { padding-inline-start: 1.5em; }
-.sub14 .section01 .content .info li { list-style: disc; }
-
+.sub11 #contents { position: relative; padding: 120px 0 100px; margin: 0; background: #f1adc6;}
+.sub11 #contents::before { content: ''; width: 100%; height: 40%; background-image: url(../img/sub11/sub11_01-bg.svg); background-repeat: no-repeat; background-size: cover; position: absolute; left: 0; top: 0;}
+.sub11 .section01 {position: relative; display: block; width: 100%; max-width: 960px; margin: 0 auto;  padding:0 20px; }
+.sub11 .section01 .content { position: relative; } 
+.sub11 .section01 .content .title img { width:100%; }
+.sub11 .section01 .content .text { max-width: 690px; width: 100%; margin: 0px auto 54px auto; color: #684d3c; text-align: center; font-size: 17px; font-weight: 400; line-height: 27px; }
+.sub11 .section01 .content .date_area { max-width: 664px; width: 100%; margin: 23px auto 50px auto; border-top: 0.5px solid #684d3c; border-bottom: 0.5px solid #684d3c; padding: 10px 0; display: flex; color: #000; font-size: 17px; font-weight: 400; flex-direction: column; font-weight: 400; }
+.sub11 .section01 .content .date_area .top br {display: none;}
+.sub11 .section01 .content .date_area .mid { margin: 10px 0; padding: 10px 0; border-top: 0.5px solid #684d3c; border-bottom: 0.5px solid #684d3c;}
+.sub11 .section01 .content .date_area span { font-weight: 700; margin-right: 44px; font-weight: 700; color: #684d3c; }
+.sub11 .section01 .content .gift { text-align: center; margin: 51px 0 27px 0; position: relative; }
+.sub11 .section01 .content .gift img { width:100%; max-width: 610px; }
+.sub11 .section01 .content .button { position: relative; display: flex; justify-content: center; margin: 0 0 50px 0; }
+.sub11 .section01 .content .button a.subscribe { background: #424242; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; }
+.sub11 .section01 .content .button a.send { background: #01d6a9; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; }
+.sub11 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; }
+.sub11 .section01 .content .info {  max-width: 664px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 15px; }
+.sub11 .section01 .content .info ul { padding-inline-start: 1.5em; }
+.sub11 .section01 .content .info li { list-style: disc; }
 @media only all and (max-width:767px) {
-	.sub14 #contents { padding: 20px 0; }
-	.sub14 .section01 .content .date_area { display: block; }
-	.sub14 .section01 .content .text { margin: -120px auto 0px auto; }
-	.sub14 .section01 .content .button { display: flex; justify-content: center; margin: 0 0 50px 0;  }
-	.sub14 .section01 .content .button a.subscribe { max-width: 220px; width: 100%; height: 55px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; }
-	.sub14 .section01 .content .button a.send { max-width: 220px; width: 100%; height: 55px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; }
-	.sub14 .section01 .content .button span.end { max-width: 220px; width: 100%; height: 55px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; }
+	.sub11 section#contents { padding: 40px 0; }
+	.sub11 #contents::before { height: 10%;}
+	.sub11 .section01 .content .date_area { display: inline-block; }
+	.sub11 .section01 .content .date_area > div { display: flex; }
+	.sub11 .section01 .content .date_area span { margin-right: 20px; width: 20% }
+	.sub11 .section01 .content .date_area .top br{display: block;}
+
+	.sub11 .section01 .content .text { max-width: 550px; width: 100%; margin: 25px auto 24px auto; padding: 0px; text-align: left; }
+	.sub11 .section01 .content .gift { margin: 20px 0 0 0; }
+	.sub11 .section01 .content .button { display: flex; justify-content: center; margin: 28px 0 50px 0; }
+	.sub11 .section01 .content .button a.subscribe { max-width: 220px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; margin:5px; }
+	.sub11 .section01 .content .button a.send { max-width: 220px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; margin:5px; }
+	.sub11 .section01 .content .button span.end { max-width: 220px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; margin:5px; }
 }

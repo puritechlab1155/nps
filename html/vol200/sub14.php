@@ -19,22 +19,22 @@
 	<section id="contents">
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
-				<div class="title"><img src="img/sub14/sub14_01.svg"></div>
-				<div class="gift"><img src="img/sub14/sub14_02.png"></div>
-				<div class="text">
-					새롭게 리뉴얼된 2024 <img src="img/nps_logo.svg">이<br>
-					더욱 다채로운 콘텐츠로 독자 여러분을 만났습니다.<br>
-					여러 콘텐츠 중 여러분의 마음을 사로잡은<br>
-					이야기는 무엇인가요? <img src="img/nps_logo.svg"> 봄호 콘텐츠 중<br>
-					여러분의 원픽 기사가 무엇이며,<br>
-					그 이유를 메시지로 보내주시는 분들 중<br>
-					추첨을 통해 선정된 15분께 치킨을 보내 드립니다!
+				<div class="title"><img src="img/sub11/sub11_01.svg"></div>
+				<div class="text pc_display">
+					앞으로 내곁에 국민연금에 소개되길 바라는 연금제도, 궁금한 연금제도 등을 뽑아 주세요. <br>
+					다양한 국민연금 제도 중 궁금한 연금제도에 투표를 해 주시는 분들 중 <br>
+					추첨을 통해 선정된 10분께 1만원 상당의 모바일 상품권을 드립니다.
+				</div>
+				<div class="text mobile_display">
+					앞으로 내곁에 국민연금에 소개되길 바라는 연금제도,궁금한 연금제도 등을 뽑아 주세요. 다양한 국민연금 제도 중 궁금한 연금제도에 투표를 해 주시는 분들 중 추첨을 통해 선정된 10분께 3만원 상당의 치킨 기프티콘을 드립니다.
 				</div>
 				<div class="date_area">
-					<div class="item1"><span>응모 기간</span> 4월 24일 ~ 6월 23일</div>
-					<div class="item2"><span>당첨 발표</span> 7월 1일</div>
+					<div class="top"><span>응모 기간</span><em>7월 10일 오후 2시 ~ <br>8월 25일 오후 11시 30분</em></div>
+					<div class="mid"><span>당첨 발표</span><em>9월  2일 오전 1시</em></div>
+					<div><span>경품 발송</span><em>9월  2일 오후 5시</em></div>
 				</div>
-				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/FZWH1Fh4" target="_blank">의견 보내기</a><span class="end" href="#" >마감되었습니다</span></div>
+				<div class="gift"><img src="img/sub11/sub11_03.png"></div>
+				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/5AcUIsLS" target="_blank">투표하기</a><span class="end" href="#" >마감되었습니다</span></div>
 				<div class="info">
 					<ul>
 						<li>본 이벤트 경품은 당사 사정에 따라 변경될 수 있습니다.</li>

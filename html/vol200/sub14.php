@@ -19,7 +19,7 @@
 	<section id="contents">
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
-				<div class="title"><img src="img/sub11/sub11_01.svg"></div>
+				<div class="title"><img src="img/sub14/sub14_01.svg"></div>
 				<div class="text pc_display">
 					앞으로 내곁에 국민연금에 소개되길 바라는 연금제도, 궁금한 연금제도 등을 뽑아 주세요. <br>
 					다양한 국민연금 제도 중 궁금한 연금제도에 투표를 해 주시는 분들 중 <br>
@@ -33,7 +33,7 @@
 					<div class="mid"><span>당첨 발표</span><em>9월  2일 오전 1시</em></div>
 					<div><span>경품 발송</span><em>9월  2일 오후 5시</em></div>
 				</div>
-				<div class="gift"><img src="img/sub11/sub11_03.png"></div>
+				<div class="gift"><img src="img/sub14/sub14_03.png"></div>
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/5AcUIsLS" target="_blank">투표하기</a><span class="end" href="#" >마감되었습니다</span></div>
 				<div class="info">
 					<ul>

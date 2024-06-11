@@ -1229,7 +1229,7 @@
 	.sub12 .section02 .content .quiz .img_pc { display: none; }
 	.sub12 .section02 .content .quiz .img_mo { display: block; }
 	.sub12 .section02 .content .button { display: flex; justify-content: center; margin: 35px 0;  }
-	.sub12 .section02 .content .button a.subscribe { max-width: 220px; width: 100%; height: 55px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; }
+	.sub12 .section02 .content .button a.subscribe { padding: 12px 48px 10px 49px; max-width: 220px; width: 100%; height: 42px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; }
 	.sub12 .section02 .content .button a.send { max-width: 220px; width: 100%; height: 55px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; }
 	.sub12 .section02 .content .button span.end { max-width: 220px; width: 100%; height: 55px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; }
 }

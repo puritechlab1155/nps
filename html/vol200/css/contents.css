@@ -1124,7 +1124,7 @@
 .sub10 .section01 .content .date_area .mid { margin: 10px 0; padding: 10px 0; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff;}
 .sub10 .section01 .content .date_area span { font-weight: 700; margin-right: 44px; font-weight: 700; }
 .sub10 .section01 .content .gift { text-align: center; margin: 20px 0 50px 0; }
-.sub10 .section01 .content .gift img { width:100%; max-width: 610px; }
+.sub10 .section01 .content .gift img { width:390px; height:246.42px; max-width: 610px; }
 .sub10 .section01 .content .button { display: flex; justify-content: center; margin: 0 0 50px 0;  }
 .sub10 .section01 .content .button a.subscribe { background: #00d7ff; border: 0.7px solid #000; text-align: center; color: #000; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 25px; margin:10px; }
 .sub10 .section01 .content .button a.send { background: #004fff; border: 0.7px solid #000; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 25px; margin:10px; }

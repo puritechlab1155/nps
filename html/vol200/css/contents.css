@@ -1218,6 +1218,7 @@
 	.sub12 .section01 .content .title .img_pc { display: none; }
 	.sub12 .section01 .content .title .img_mo { display: block; }
 	.sub12 .section01 .content .text { margin: 44px auto 0 auto; text-align: left; font-size: 17px; }
+	.sub12 .section01 .content .text br { display: none; }
 	.sub12 .gift img { width:100%; max-width: calc(100% - 88px); }
 	.sub12 .section02 { padding: 32px 0 44px; }
 	.sub12 .section02 .content .date_area { display: inline-block; margin: 10px auto 46px; }

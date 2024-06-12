@@ -1281,7 +1281,7 @@
 
 @media only all and (max-width:767px) {
 	.sub13 #contents { padding-bottom: 32px; }
-	.sub13 .section01 .content .title .prize { max-width: 274px; width: 100%;}
+	.sub13 .section01 .content .title .prize { padding: 0 62px; }
 	.sub13 .section01 .content .howto { max-width: 360px; width: 100%; margin: 50px auto 0; }
 	.sub13 .section01 .content .date_area { display: block; max-width: 360px; width: 100%; margin: 40px auto; }
 	.sub13 .section01 .content .date_area > div { display: flex; }

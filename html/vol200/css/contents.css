@@ -1128,16 +1128,13 @@
 .sub10 .section01 .content .button a.subscribe { background: #00d7ff; border: 0.7px solid #000; text-align: center; color: #000; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 .sub10 .section01 .content .button a.send { background: #004fff; border: 0.7px solid #000; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 .sub10 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
-.sub10 .section01 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top:  0.5px solid #fff; padding-top: 20px; font-size: 15px; font-weight: 400; }
 /*
 .sub10 .section01 .content .info ul { padding-inline-start: 0.7em; }
 */
-
-.sub10 .section01 .content .info ul { width:592px; margin: 0 8px 0 0;}
-.sub10 .section01 .content .info li { display:inline-block ; color: #fff; }
-.sub10 .section01 .content .info li img {display:inline-block ; justify-content: center; align-items: center; width: 3px; height: 3px; margin: auto 4px auto 0;}
-
-
+.sub10 .section01 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top:  0.5px solid #fff; padding-top: 20px; font-size: 14.5px; }
+.sub10 .section01 .content .info ul { padding-inline-start: 1.5em; }
+.sub10 .section01 .content .info li { list-style: disc;  letter-spacing: -0.3px;}
+.sub10 .section01 .content .info li span { position: relative; }
 
 /*
 .sub10 .section01 .content .info li { list-style: url(../img/info_bullet.svg); list-style-position: outside; color: #fff; letter-spacing: -0.3px; }
@@ -1159,10 +1156,10 @@
 	.sub10 .section01 .content .button a.subscribe { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
 	.sub10 .section01 .content .button a.send { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
 	.sub10 .section01 .content .button span.end { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
-
-	.sub10 .section01 .content .info ul { width:360px; margin: 0;}
-	.sub10 .section01 .content .info img {display:inline-block ;  width: 3px; height: 3px; margin: auto 10px auto 0; }
-	.sub10 .section01 .content .info li { font-style: normal; line-height: normal; width:347px; letter-spacing: -0.75px;}
+	.sub10 .section01 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 14.5px; }
+	.sub10 .section01 .content .info ul { padding-inline-start: 1.5em; }
+	.sub10 .section01 .content .info li { list-style: disc;  letter-spacing: -0.3px;}
+	.sub10 .section01 .content .info li span { position: relative; }
 
 }
 
@@ -1275,9 +1272,10 @@
 .sub13 .section01 .content .text { max-width: 600px; width: 100%; background: #fff; margin: 0 auto 67px; padding: 19px; box-sizing: border-box; font-size: 15px; color: #000; line-height: 22px; }
 .sub13 .section01 .content .text ul { padding-left: 14px; }
 .sub13 .section01 .content .text ul li{ list-style: disc; font-family: 'GmarketSans'; font-weight: 500;}
-.sub13 .section01 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 15px; }
+.sub13 .section01 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 14.5px; }
 .sub13 .section01 .content .info ul { padding-inline-start: 1.5em; }
-.sub13 .section01 .content .info li { list-style: disc;  }
+.sub13 .section01 .content .info li { list-style: disc;  letter-spacing: -0.3px;}
+.sub13 .section01 .content .info li span { position: relative; }
 
 @media only all and (max-width:767px) {
 	.sub13 #contents { padding-bottom: 32px; }

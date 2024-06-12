@@ -240,10 +240,10 @@
 	.main_section2 { padding: 60px 50px; }
 	.main_section2 .main_section2_container { width: 100%; margin: 0 auto; }
 	.main_section3 { position: relative; padding: 50px; width: 100%; margin: 0 auto; }
-	#footer .footer_container { width: 100%; margin: 0 auto; display: flex; }
-	#footer .footer_container .footer_logo {margin:0px; width: 210px;}
-	#footer .footer_container .sns_group {display:inline-block;vertical-align:middle; width: calc(50% - 240px); text-align: left; margin: 12px 0px 0 15px; }
-	#footer .footer_container .address { margin-top: 10px; font-size: 14px; font-weight: 500; color: #333; line-height: 21px; width: 50%; text-align: left; }
+	#footer .footer_container { width: 100%; margin: 0 auto; padding: 0 50px; }
+	#footer .footer_container .footer_logo {margin:0px; width: 210px; float: left;}
+	#footer .footer_container .sns_group {display:inline-block;vertical-align:middle; width: calc(50% - 240px); float: left; text-align: left; margin: 12px 0px 0 15px; }
+	#footer .footer_container .address { margin-top: 10px; font-size: 14px; font-weight: 500; color: #333; line-height: 21px; width: 50%; float: left; text-align: left; }
 }
 @media only all and (max-width:1070px) {
 	#footer .footer_container .footer_logo {margin:0px; width: 210px; float: left;}

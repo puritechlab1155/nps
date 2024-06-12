@@ -1211,7 +1211,7 @@
 .sub12 .section01 .content .text { max-width: 664px; color: #fff; width: 100%; margin: 54px auto 16px auto; text-align: center; line-height: 32px; }
 
 .sub12 .gift { text-align: center; background: linear-gradient(#b36ef9 50%, #d9ede5 50%); width:100%; }
-.sub12 .gift img { width:100%; max-width: 610px; }
+.sub12 .gift img { padding: 0 54px; }
 .sub12 .gift .img_mo{ display: none; }
 
 .sub12 .section02 {position: relative; padding: 32px 0 101px; margin: 0; background: #d9ede5; }
@@ -1227,7 +1227,7 @@
 .sub12 .section02 .content .button a.subscribe { background: #424242; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 .sub12 .section02 .content .button a.send { background: #288CF4; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 .sub12 .section02 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
-.sub12 .section02 .content .info {  max-width: 664px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 15px; }
+.sub12 .section02 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 15px; }
 .sub12 .section02 .content .info ul { padding-inline-start: 1.5em; }
 .sub12 .section02 .content .info li { list-style: disc; }
 @media only all and (max-width:767px) {
@@ -1237,7 +1237,7 @@
 	.sub12 .section01 .content .title .img_mo { display: block; }
 	.sub12 .section01 .content .text { margin: 44px auto 0 auto; text-align: left; font-size: 17px; }
 	.sub12 .section01 .content .text br { display: none; }
-	.sub12 .gift img { width:100%; max-width: 266px; margin: 0 auto; }
+	.sub12 .gift img { padding: 0 24px; margin: 0 auto; }
 	.sub12 .gift .img_pc { display: none; }
 	.sub12 .gift .img_mo { display: block; }
 	.sub12 .section02 { padding: 32px 0 44px; }

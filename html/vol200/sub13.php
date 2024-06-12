@@ -20,11 +20,13 @@
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="title">
-					<img src="img/sub13/sub13_01.svg" class="cv_bg">
+					<img src="img/sub13/sub13_01.svg" class="cv_bg pc_display">
+					<img src="img/sub13/sub13_01_mo.svg" class="mobile_display">
 					<img src="img/sub13/sub13_02.png" class="prize">
 				</div>
 				<div class="howto">
-					<img src="img/sub13/sub13_03.svg">
+					<img src="img/sub13/sub13_03.svg" class="pc_display">
+					<img src="img/sub13/sub13_03_mo.svg" class="mobile_display">
 				</div>
 				<div class="date_area">
 					<div class="top"><span>응모 기간</span><em>7월 10일 오후 2시 ~ <br>8월 25일 오후 11시 30분</em></div>

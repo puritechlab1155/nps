@@ -1245,31 +1245,41 @@
 .sub13 .section01 .content .title { position: relative; width: 100%; }
 .sub13 .section01 .content .title .cv_bg { width: 100%; }
 .sub13 .section01 .content .title .prize { position: absolute; left: 50%; bottom: 26px; transform: translateX(-50%); width: 100%; max-width: 550px; }
-.sub13 .section01 .content .howto { max-width: 600px; width: 100%; margin: 86px auto 0;letter-spacing: -1px; line-height: 32px; }
+.sub13 .section01 .content .howto { max-width: 600px; width: 100%; margin: 86px auto 0; }
 .sub13 .section01 .content .date_area { max-width: 600px; width: 100%; margin: 48px auto 57px auto; border-top: 0.5px solid #000; border-bottom: 0.5px solid #000; padding: 10px 0; display: flex; flex-direction: column; }
 .sub13 .section01 .content .date_area .top br { display: none; }
 .sub13 .section01 .content .date_area .mid { border-top: 0.5px solid #000; border-bottom: 0.5px solid #000; padding: 10px 0; margin: 10px 0; }
 .sub13 .section01 .content .date_area span { font-weight: 700; margin-right: 20px; }
 .sub13 .section01 .content .button { display: flex; justify-content: center; margin: 0 0 69px 0;  }
-.sub13 .section01 .content .button a.subscribe { background: #1375db; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; transition: background-color 0.3s ease, color 0.3s ease; }
-/* .sub14 .section01 .content .button a.send { background: #857aff; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; transition: background-color 0.3s ease, color 0.3s ease; }
-.sub14 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; } */
+.sub13 .section01 .content .button a.subscribe { background: #1375db; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; margin: 10px; transition: background-color 0.3s ease, color 0.3s ease; }
+/* .sub14 .section01 .content .button a.send { background: #857aff; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; transition: background-color 0.3s ease, color 0.3s ease; } */
+.sub14 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; }
 .sub13 .section01 .content .draw { max-width: 692px; width: 100%; background-image: url(../img/sub13/sub13_04.svg); background-repeat: no-repeat; margin: 0 auto 52px; display: flex; flex-wrap: wrap; gap: 38px; padding: 87px 90px; }
 .sub13 .section01 .content .draw div { flex-basis: 142px; }
-.sub13 .section01 .content .text { width: 567px; background: #fff; margin: 0 auto 67px; padding: 19px; color: #000; font-family: 'GmarketSansBold'; font-weight: 700; }
-.sub13 .section01 .content .text 
+.sub13 .section01 .content .text { max-width: 567px; width: 100%; background: #fff; margin: 0 auto 67px; padding: 19px; box-sizing: border-box; font-size: 15px; color: #000; font-family: 'GmarketSansBold'; font-weight: 700; line-height: 22px; }
+.sub13 .section01 .content .text ul { padding-left: 14px; }
+.sub13 .section01 .content .text ul li{ list-style: disc; }
 .sub13 .section01 .content .info {  max-width: 664px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 15px; }
 .sub13 .section01 .content .info ul { padding-inline-start: 1.5em; }
 .sub13 .section01 .content .info li { list-style: disc; }
 
 @media only all and (max-width:767px) {
-	.sub13 #contents { padding: 20px 0; }
-	.sub13 .section01 .content .date_area { display: block; }
-	.sub13 .section01 .content .text { margin: -120px auto 0px auto; }
-	.sub13 .section01 .content .button { display: flex; justify-content: center; margin: 0 0 50px 0;  }
-	.sub13 .section01 .content .button a.subscribe { max-width: 220px; width: 100%; height: 55px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; }
-	.sub13 .section01 .content .button a.send { max-width: 220px; width: 100%; height: 55px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; }
+	.sub13 #contents { padding-bottom: 32px; }
+	.sub13 .section01 .content .title .prize { max-width: 274px; width: 100%;}
+	.sub13 .section01 .content .howto { max-width: 360px; width: 100%; margin: 50px auto 0; }
+	.sub13 .section01 .content .date_area { display: block; max-width: 360px; width: 100%; margin: 40px auto; }
+	.sub13 .section01 .content .date_area > div { display: flex; }
+	.sub13 .section01 .content .date_area span { margin-right: 20px; width: 20% }
+	.sub13 .section01 .content .date_area .top br { display: block; }
+	.sub13 .section01 .content .button { display: flex; justify-content: center; margin: 0 0 39px 0;  }
+	.sub13 .section01 .content .button a.subscribe { max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; margin:5px; }
+	/* .sub13 .section01 .content .button a.send { max-width: 220px; width: 100%; height: 55px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; } */
 	.sub13 .section01 .content .button span.end { max-width: 220px; width: 100%; height: 55px; line-height: 55px; border-radius: 36px; font-size: 20px; margin:5px; }
+
+	.sub13 .section01 .content .draw { max-width: 357px; width: 100%; background-size: contain; gap: 19px; padding: 45px 46px; margin-bottom: 62px; }
+	.sub13 .section01 .content .draw div { flex-basis: 74px; }
+	.sub13 .section01 .content .text { max-width: 360px; width: 100%; font-size: 14px; margin-bottom: 47px; }
+	.sub13 .section01 .content .info { max-width: 360px; width: 100%; }
 }
 
 /* 이벤트 당첨자리스트 */

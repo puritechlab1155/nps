@@ -1162,7 +1162,7 @@
 
 	.sub10 .section01 .content .info ul { width:360px; margin: 0;}
 	.sub10 .section01 .content .info img {display:inline-block ;  width: 3px; height: 3px; margin: auto 10px auto 0;}
-	.sub10 .section01 .content .info li { line-height: normal; width:347px; letter-spacing: -0.75px;}
+	.sub10 .section01 .content .info li { font-style: normal; line-height: normal; width:347px; letter-spacing: -0.75px;}
 
 }
 

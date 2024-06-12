@@ -98,7 +98,8 @@
   font-family: 'GmarketSans';
   font-style: normal;
   font-weight: 700;
-  src: url(../../../font/GmarketSansBold.woff) format('woff'),
+  src: url(../../../font/GmarketSansBold.woff2) format('woff2'),
+       url(../../../font/GmarketSansBold.woff) format('woff'),
        url(../../../font/GmarketSansBold.otf) format('opentype');
 } 
 

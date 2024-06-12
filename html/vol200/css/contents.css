@@ -1152,7 +1152,7 @@
 	.sub10 .section01 .content .date_area span { margin-right: 20px; width: 20% }
 	.sub10 .section01 .content .date_area .top br{display: block;}
 	.sub10 .section01 .content .gift img { width:292.5px; height:183.6px; margin: ;}
-	.sub10 .section01 .content .button { display: flex; gap: 20px; justify-content: center; margin: 40px 0 46px 0;  }
+	.sub10 .section01 .content .button { display: flex; gap: 20px; justify-content: center; margin: 0px 0 46px 0;  }
 	.sub10 .section01 .content .button a.subscribe { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
 	.sub10 .section01 .content .button a.send { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
 	.sub10 .section01 .content .button span.end { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
@@ -1225,9 +1225,13 @@
 .sub12 .section02 .content .button a.subscribe { background: #424242; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 .sub12 .section02 .content .button a.send { background: #288CF4; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 .sub12 .section02 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
-.sub12 .section02 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 15px; }
+
+.sub12 .section02 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 14.5px; }
 .sub12 .section02 .content .info ul { padding-inline-start: 1.5em; }
 .sub12 .section02 .content .info li { list-style: disc; }
+.sub12 .section01 .content .info li span { position: relative; letter-spacing: -0.3px;}
+
+
 @media only all and (max-width:767px) {
 	.sub12 #contents { padding: 0; }
 	.sub12 .section01 { padding: 30px 0 21px; }
@@ -1250,6 +1254,11 @@
 	.sub12 .section02 .content .button a.subscribe { display: inline-flex; max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px;  justify-content: center;align-items: center;}
 	.sub12 .section02 .content .button a.send { display: inline-flex; max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; justify-content: center; align-items: center;}
 	.sub12 .section02 .content .button span.end { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
+
+	.sub12 .section01 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #fff; padding-top: 20px; font-size: 14.5px; }
+	.sub12 .section01 .content .info ul { padding-inline-start: 1.5em; letter-spacing: -0.75px; }
+	.sub12 .section01 .content .info li { list-style: disc;  }
+	.sub12 .section01 .content .info li span { position: relative; }
 }
 
 /* 이벤트4 */

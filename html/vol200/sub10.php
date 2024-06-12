@@ -38,7 +38,7 @@
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/Fu6dXCjB" target="_blank">의견 보내기</a><span class="end" href="#" >마감되었습니다</span></div>
 				<div class="info">
 					<ul>
-						<li>본 이벤트 경품은 당사 사정에 따라 변경될 수 있습니다.</li>
+						<img src="img/info_bullet.svg"><li>본 이벤트 경품은 당사 사정에 따라 변경될 수 있습니다.</li>
 						<li>이벤트 응모 시 개인정보 활용에 동의한 것으로 간주됩니다.</li>
 						<li>부정행위를 통해 이벤트 참여 시 제재를 받으며, 당첨 경품도 취소됩니다.</li>
 						<li>많은 분들께 이벤트 혜택을 드리기 위해 중복 당첨 시 경품 지급은 한 번만 이뤄집니다.</li>

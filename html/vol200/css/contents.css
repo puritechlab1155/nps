@@ -1156,12 +1156,7 @@
 	.sub10 .section01 .content .button a.subscribe { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
 	.sub10 .section01 .content .button a.send { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
 	.sub10 .section01 .content .button span.end { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
-
-	.sub10 .section01 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #fff; padding-top: 20px; font-size: 14.5px; }
-	.sub10 .section01 .content .info ul { padding-inline-start: 1.5em; letter-spacing: -0.3px; }
-	.sub10 .section01 .content .info li { list-style: disc;  }
-	.sub10 .section01 .content .info li span { position: relative; }
-
+	.sub10 .section01 .content .info ul { letter-spacing: -0.75px; }
 }
 
 /* 이벤트2 */
@@ -1227,9 +1222,9 @@
 .sub12 .section02 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 
 .sub12 .section02 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 14.5px; }
-.sub12 .section02 .content .info ul { padding-inline-start: 1.5em; }
+.sub12 .section02 .content .info ul { padding-inline-start: 1.5em; letter-spacing: -0.3px;}
 .sub12 .section02 .content .info li { list-style: disc; }
-.sub12 .section01 .content .info li span { position: relative; letter-spacing: -0.3px;}
+.sub12 .section02 .content .info li span { position: relative; }
 
 
 @media only all and (max-width:767px) {
@@ -1254,11 +1249,8 @@
 	.sub12 .section02 .content .button a.subscribe { display: inline-flex; max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px;  justify-content: center;align-items: center;}
 	.sub12 .section02 .content .button a.send { display: inline-flex; max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; justify-content: center; align-items: center;}
 	.sub12 .section02 .content .button span.end { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
-
-	.sub12 .section01 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #fff; padding-top: 20px; font-size: 14.5px; }
-	.sub12 .section01 .content .info ul { padding-inline-start: 1.5em; letter-spacing: -0.75px; }
-	.sub12 .section01 .content .info li { list-style: disc;  }
-	.sub12 .section01 .content .info li span { position: relative; }
+	.sub12 .section02 .content .info ul { letter-spacing: -0.75px; }
+	
 }
 
 /* 이벤트4 */
@@ -1284,9 +1276,9 @@
 .sub13 .section01 .content .text ul li{ list-style: disc; font-family: 'GmarketSans'; font-weight: 500;}
 
 .sub13 .section01 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 14.5px; }
-.sub13 .section01 .content .info ul { padding-inline-start: 1.5em; }
+.sub13 .section01 .content .info ul { padding-inline-start: 1.5em; letter-spacing: -0.3px;}
 .sub13 .section01 .content .info li { list-style: disc;  }
-.sub13 .section01 .content .info li span { position: relative; letter-spacing: -0.3px;}
+.sub13 .section01 .content .info li span { position: relative; }
 
 @media only all and (max-width:767px) {
 	.sub13 #contents { padding-bottom: 32px; }
@@ -1304,8 +1296,11 @@
 	.sub13 .section01 .content .draw { max-width: 357px; width: 100%; background-size: contain; gap: 19px; padding: 45px 46px; margin-bottom: 62px; }
 	.sub13 .section01 .content .draw div { flex-basis: 74px; }
 	.sub13 .section01 .content .text { max-width: 360px; width: 100%; font-size: 14px; margin-bottom: 47px; }
-	.sub13 .section01 .content .info { max-width: 360px; width: 100%; }
-}
+
+    .sub13 .section01 .content .info ul {  letter-spacing: -0.75px;}
+
+
+
 
 /* 이벤트 당첨자리스트 */
 .winner-list #passwordForm { position: relative; width: 100%; max-width: 1020px;  padding: 0; margin: 100px auto; background: #fff; text-align: center; }
@@ -1359,9 +1354,12 @@
 .sub14 .section01 .content .button a.subscribe { background: #424242; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 .sub14 .section01 .content .button a.send { background: #01d6a9; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 .sub14 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
-.sub14 .section01 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 15px; }
-.sub14 .section01 .content .info ul { padding-inline-start: 1.5em; }
+
+.sub14 .section01 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 14.5px; }
+.sub14 .section01 .content .info ul { padding-inline-start: 1.5em; letter-spacing: -0.3px;}
 .sub14 .section01 .content .info li { list-style: disc; }
+.sub14 .section01 .content .info li span { position: relative; }
+
 @media only all and (max-width:767px) {
 	.sub14 section#contents { padding: 53px 0 40px; }
 	.sub14 #contents::before { height: 10%;}
@@ -1377,6 +1375,8 @@
 	.sub14 .section01 .content .button { display: flex; gap: 20px; justify-content: center; margin: 28px 0 47px 0; }
 	.sub14 .section01 .content .button a.subscribe { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
 	.sub14 .section01 .content .button a.send { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
-	.sub14 .section01 .content .button span.end { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
+	.sub14 .section01 .content .info ul { letter-spacing: -0.75px;}
 }
 
+/* ight: 45px; border-radius: 36px; font-size: 20px; }
+	.sub14 .section01 .content .button span.end { max-width: 170px; width: 100%; height: 45px; line- */

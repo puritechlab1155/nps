@@ -1131,7 +1131,7 @@
 /*
 .sub10 .section01 .content .info ul { padding-inline-start: 0.7em; }
 */
-.sub10 .section01 .content .info { max-width: 600px; width: 100%; color: #fff; margin: 0px auto; border-top:  0.5px solid #fff; padding-top: 20px; font-size: 14.5px; }
+.sub10 .section01 .content .info { max-width: 600px; width: 100%;  margin: 0px auto; border-top:  0.5px solid #fff; padding-top: 20px; font-size: 14.5px; }
 .sub10 .section01 .content .info ul { padding-inline-start: 1.5em; }
 .sub10 .section01 .content .info li { list-style: disc;  letter-spacing: -0.3px;}
 .sub10 .section01 .content .info li span { position: relative; }

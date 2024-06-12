@@ -1133,10 +1133,11 @@
 .sub10 .section01 .content .info ul { padding-inline-start: 0.7em; }
 */
 
-.sub10 .section01 .content .info ul { display: inline-block: 585px; margin: 0 8px 0 0;}
+.sub10 .section01 .content .info ul { display: inline-block; width:585px; margin: 0 8px 0 0;}
 .sub10 .section01 .content .info img {display:block ; width: 3px; margin: auto 4px auto 0;}
 
 .sub10 .section01 .content .info li { color: #fff; letter-spacing: -0.3px;}
+
 /*
 .sub10 .section01 .content .info li { list-style: url(../img/info_bullet.svg); list-style-position: outside; color: #fff; letter-spacing: -0.3px; }
 */

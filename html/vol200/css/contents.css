@@ -1132,11 +1132,12 @@
 /*
 .sub10 .section01 .content .info ul { padding-inline-start: 0.7em; }
 */
-.sub10 .section01 .content .info ul { font-style: normal; line-height: normal;}
+
+.sub10 .section01 .content .info ul {width: 585px; margin: 0 8px 0 0;}
+.sub10 .section01 .content .info img {width: 3px; margin: auto 4px auto 0;}
 /*
 .sub10 .section01 .content .info li { list-style: url(../img/info_bullet.svg); list-style-position: outside; color: #fff; letter-spacing: -0.3px; }
 */
-.sub10 .section01 .content .info li { color: #fff; letter-spacing: -0.3px; }
 
 @media only all and (max-width:767px) {
 	.sub10 #contents { padding: 43px 0 35px; }

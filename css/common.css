@@ -97,24 +97,30 @@
     src: url(../font/NotoSansCJKkr-Bold.woff) format('woff')
   }
 
-  @font-face {
+  @font-face { 
     font-family: 'GmarketSans';
     font-style: normal;
     font-weight: 300;
-    src: url(../font/GmarketSansLight.woff) format('woff');
-  }
+    src: url(../../../font/GmarketSansLight.woff) format('woff'),
+         url(../../../font/GmarketSansLight.otf) format('opentype');
+  } 
   @font-face {
     font-family: 'GmarketSans';
     font-style: normal;
     font-weight: 500;
-    src: url(../font/GmarketSansMedium.woff) format('woff');
+    src: url(../../../font/GmarketSansMedium.woff2) format('woff2'),
+         url(../../../font/GmarketSansMedium.woff) format('woff'),
+         url(../../../font/GmarketSansMedium.ttf) format('ttf'),
+         url(../../../font/GmarketSansMedium.otf) format('opentype');
   }
   @font-face {
     font-family: 'GmarketSans';
     font-style: normal;
     font-weight: 700;
-    src: url(../font/GmarketSansBold.woff) format('woff');
-  }
+    src: url(../../../font/GmarketSansBold.woff2) format('woff2'),
+         url(../../../font/GmarketSansBold.woff) format('woff'),
+         url(../../../font/GmarketSansBold.otf) format('opentype');
+  } 
 
 /* reset */
 * {margin:0;padding:0;box-sizing:border-box;}

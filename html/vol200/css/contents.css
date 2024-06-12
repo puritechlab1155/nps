@@ -1129,11 +1129,14 @@
 .sub10 .section01 .content .button a.send { background: #004fff; border: 0.7px solid #000; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 .sub10 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 .sub10 .section01 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top:  0.5px solid #fff; padding-top: 20px; font-size: 15px; font-weight: 400; }
+/*
 .sub10 .section01 .content .info ul { padding-inline-start: 0.7em; }
+*/
 /*
 .sub10 .section01 .content .info li { list-style: url(../img/info_bullet.svg); list-style-position: outside; color: #fff; letter-spacing: -0.3px; }
 */
 .sub10 .section01 .content .info li { color: #fff; letter-spacing: -0.3px; }
+
 @media only all and (max-width:767px) {
 	.sub10 #contents { padding: 43px 0 35px; }
 	.sub10 .section01 { max-width: 360px; width: 100%; }

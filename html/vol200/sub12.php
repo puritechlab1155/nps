@@ -28,7 +28,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="gift"><img src="img/sub12/sub12_02.png"></div>
+		<div class="gift"><img src="img/sub12/sub12_02.png" class="img_pc"><img src="img/sub12/sub12_02_mo.png" class="img_mo"></div>
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
 				<div class="date_area">

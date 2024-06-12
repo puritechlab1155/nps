@@ -1136,7 +1136,7 @@
 .sub10 .section01 .content .info ul { width: 585px; margin: 0 8px 0 0;}
 .sub10 .section01 .content .info img {display: flex; width: 3px; margin: auto 4px auto 0;}
 
-.sub10 .section01 .content .info li {display:inline-block; color: #fff; letter-spacing: -0.3px;}
+.sub10 .section01 .content .info li { color: #fff; letter-spacing: -0.3px;}
 /*
 .sub10 .section01 .content .info li { list-style: url(../img/info_bullet.svg); list-style-position: outside; color: #fff; letter-spacing: -0.3px; }
 */

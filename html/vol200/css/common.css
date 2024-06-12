@@ -77,12 +77,14 @@
   font-weight:700;
   src: url(../../../font/NotoSansCJKkr-Bold.woff) format('woff')
 }
-/* @font-face { 
+
+ @font-face { 
   font-family: 'GmarketSans';
   font-style: normal;
   font-weight: 300;
-  src: url(../../../font/GmarketSansLight.woff) format('woff');
-} */
+  src: url(../../../font/GmarketSansLight.woff) format('woff'),
+       url(../../../font/GmarketSansLight.otf) format('opentype');
+} 
 @font-face {
   font-family: 'GmarketSans';
   font-style: normal;
@@ -91,12 +93,13 @@
        url(../../../font/GmarketSansMedium.woff) format('woff'),
        url(../../../font/GmarketSansMedium.otf) format('opentype');
 }
-/* @font-face {
+@font-face {
   font-family: 'GmarketSans';
   font-style: normal;
   font-weight: 700;
-  src: url(../../../font/GmarketSansBold.woff) format('woff');
-} */
+  src: url(../../../font/GmarketSansBold.woff) format('woff'),
+       url(../../../font/GmarketSansBold.otf) format('opentype');
+} 
 
 html { padding:0; margin:0;  }
 body { padding:0; margin:0; font-size:16px; overflow-x: hidden; overflow-y: auto; }

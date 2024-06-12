@@ -1275,8 +1275,8 @@
 .sub13 .section01 .content .text ul { padding-left: 14px; }
 .sub13 .section01 .content .text ul li{ list-style: disc; font-family: 'GmarketSans'; font-weight: 500;}
 
-.sub13 .section01 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 14.5px; }
-.sub13 .section01 .content .info ul { padding-inline-start: 1.5em; letter-spacing: -0.3px;}
+.sub13 .section01 .content .info {  max-width: 600px; width: 100%; font-size: 14.5px;}
+.sub13 .section01 .content .info ul { padding-inline-start: 1.5em; border-top: 0.5px solid #424242; padding-top: 20px; letter-spacing: -0.3px; margin: 0 20px; }
 .sub13 .section01 .content .info li { list-style: disc;  }
 .sub13 .section01 .content .info li span { position: relative; }
 
@@ -1355,10 +1355,9 @@
 .sub14 .section01 .content .button a.send { background: #01d6a9; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 .sub14 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 
-.sub14 .section01 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 14.5px; }
-.sub14 .section01 .content .info ul { padding-inline-start: 1.5em; letter-spacing: -0.3px;}
+.sub14 .section01 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 15px; }
+.sub14 .section01 .content .info ul { padding-inline-start: 1.5em; }
 .sub14 .section01 .content .info li { list-style: disc; }
-.sub14 .section01 .content .info li span { position: relative; }
 
 @media only all and (max-width:767px) {
 	.sub14 section#contents { padding: 53px 0 40px; }
@@ -1378,5 +1377,5 @@
 	.sub14 .section01 .content .info ul { letter-spacing: -0.75px;}
 }
 
-/* ight: 45px; border-radius: 36px; font-size: 20px; }
-	.sub14 .section01 .content .button span.end { max-width: 170px; width: 100%; height: 45px; line- */
+
+	.sub14 .section01 .content .button span.end { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }

@@ -19,7 +19,7 @@
 	<section id="contents">
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
-				<div class="title"><img src="img/sub14/sub14_01.svg"></div>
+				<div class="title"><img src="img/sub14/sub14_01.svg" class="pc_display"><img src="img/sub14/sub14_01_mo.svg" class="mobile_display"></div>
 				<div class="text pc_display">
 					앞으로 내곁에 국민연금에 소개되길 바라는 연금제도, 궁금한 연금제도 등을 뽑아 주세요. <br>
 					다양한 국민연금 제도 중 궁금한 연금제도에 투표를 해 주시는 분들 중 <br>

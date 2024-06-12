@@ -180,12 +180,12 @@ a:hover {color:#F6A13C;text-decoration:none;}
 }
 
 /* footer */
-#footer {position:relative;padding:50px 0px;clear:both;background:#d4d4d4;text-align:center;}
+#footer {position:relative; padding:52px 0 38px; clear:both;background:#d4d4d4;text-align:center;}
 #footer:after {content:"";clear:both;display:block;}
-#footer .footer_container { width: 1500px; margin: 0 auto;  padding: 0 20px; }
-#footer .footer_container .footer_logo {margin:0px; width: 210px; float: left;}
+#footer .footer_container { width: 1500px; margin: 0 auto; display: flex; }
+#footer .footer_container .footer_logo {margin:0px; width: 210px;}
 #footer .footer_container .footer_logo .logo {display:inline-block;width:210px;height:56px;background:url("../img/nps_footer_logo.png") no-repeat 50% 50%; background-size: contain; text-indent:-9999px;overflow:hidden;}
-#footer .footer_container .sns_group {display:inline-block;vertical-align:middle; width: calc(50% - 240px); float: left; text-align: left; margin: 12px 0px 0 15px; }
+#footer .footer_container .sns_group {display:inline-block;vertical-align:middle; width: calc(50% - 240px); text-align: left; margin: 12px 0px 0 15px; }
 #footer .footer_container .sns_group a {display:inline-block;width:36px;height:36px;margin:0px;text-indent:-9999px;overflow:hidden;border-radius:36px;}
 #footer .footer_container .sns_group .naverpost {background:#fff url('../../../img/common/ico_naver.png') no-repeat 50% 50%;}
 #footer .footer_container .sns_group .instagram {background:#fff url('../../../img/common/ico_instagram.png') no-repeat 50% 50%;}
@@ -193,7 +193,7 @@ a:hover {color:#F6A13C;text-decoration:none;}
 #footer .footer_container .sns_group .youtube {background:#fff url('../../../img/common/ico_youtube.png') no-repeat 50% 50%;}
 #footer .footer_container .sns_group .navertv {background:#fff url('../../../img/common/ico_navertv.png') no-repeat 50% 50%;}
 #footer .footer_container .sns_group .blog {background:#fff url('../../../img/common/ico_blog.png') no-repeat 50% 50%;}
-#footer .footer_container .address {margin-top:0;font-size:14px;font-weight:500;color:#333;line-height:21px; width: 50%; float: right; text-align: left;}
+#footer .footer_container .address {margin-top:0;font-size:14px;font-weight:500;color:#333;line-height:21px; width: 50%; text-align: left;}
 @media only all and (max-width:767px) {
     #footer .footer_container {padding:30px 20px 40px;}
     #footer .footer_container .sns_group a {width:24px;height:24px;margin:0px;}

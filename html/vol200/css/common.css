@@ -91,6 +91,7 @@
   font-weight: 500;
   src: url(../../../font/GmarketSansMedium.woff2) format('woff2'),
        url(../../../font/GmarketSansMedium.woff) format('woff'),
+       url(../../../font/GmarketSansMedium.ttf) format('ttf'),
        url(../../../font/GmarketSansMedium.otf) format('opentype');
 }
 @font-face {

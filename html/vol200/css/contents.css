@@ -1257,14 +1257,15 @@
 .sub13 #contents { position: relative; padding-top: 0; padding-bottom: 100px; margin: 0; background: #c0f5fe;}
 .sub13 .section01 {position: relative; display: block; width: 100%; margin: 0 auto; }
 .sub13 .section01 .content { position: relative; }
-.sub13 .section01 .content .title { position: relative; width: 100%; }
-.sub13 .section01 .content .title .cv_bg { width: 100%; }
-.sub13 .section01 .content .title .sub_box { position: absolute; left: 50%; top: 102px; bottom: 26px; transform: translateX(-50%) scale(1); display: flex; flex-direction: column; justify-content: center; width: 100%; max-width: 600px; text-align: center; }
+/* .sub13 .section01 .content .title { position: relative; width: 100%; } */
+/* .sub13 .section01 .content .title .cv_bg { width: 100%; } */
+/* .sub13 .section01 .content .title .sub_box { position: absolute; left: 50%; top: 0; padding: 102px 0 26px; transform: translateX(-50%); display: flex; flex-direction: column; justify-content: center; width: 100%; max-width: 600px; text-align: center; height: 100%; } */
+.sub13 .section01 .content .title .sub_box { background-image: url(../img/sub13/sub13_01.svg); background-repeat: no-repeat; background-size: cover; display: flex; flex-direction: column; justify-content: 50% 50%; width: 100%; text-align: center; padding: 102px 0 26px; }
 /* .sub13 .section01 .content .title .sub_box .main_title { margin: 0 auto; text-align: center; } */
 .sub13 .section01 .content .title .sub_box .main_title img { width: 100%; max-width: 402px; padding-bottom: 28px; }
 .sub13 .section01 .content .title .sub_box .text1 { color: #053c95; font-family: 'GmarketSans'; font-size: 23px; font-weight: 500; letter-spacing: -1.38px; }
 .sub13 .section01 .content .title .sub_box .text1 br { display: none; }
-.sub13 .section01 .content .title .sub_box .text2 { color: #000; line-height: 27px; letter-spacing: -0.68px; font-weight: 400; margin: 40px 0 71px; }
+.sub13 .section01 .content .title .sub_box .text2 { color: #000; line-height: 27px; letter-spacing: -0.68px; font-weight: 400; padding: 40px 0 71px; }
 .sub13 .section01 .content .title .sub_box .img_box { width: 100%; max-width: 364px; margin: 0 auto; }
 .sub13 .section01 .content .howto { max-width: 600px; width: 100%; margin: 86px auto 0; }
 .sub13 .section01 .content .date_area { max-width: 600px; width: 100%; margin: 48px auto 57px auto; border-top: 0.5px solid #000; border-bottom: 0.5px solid #000; padding: 10px 0; display: flex; flex-direction: column; color: #000; font-size: 17px; }
@@ -1275,7 +1276,7 @@
 .sub13 .section01 .content .button a.subscribe { background: #1375db; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; margin: 10px; transition: background-color 0.3s ease, color 0.3s ease; }
 /* .sub13 .section01 .content .button a.send { background: #857aff; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; transition: background-color 0.3s ease, color 0.3s ease; } */
 .sub13 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; }
-.sub13 .section01 .content .draw { max-width: 688px; width: 100%; background-image: url(../img/sub13/sub13_04.svg); background-repeat: no-repeat; background-size: contain; margin: 0 auto 52px; display: flex; flex-wrap: wrap; gap: 38px; padding: 87px 90px; }
+.sub13 .section01 .content .draw { max-width: 688px; width: 100%; background-image: url(../img/sub13/sub13_04.svg); background-repeat: no-repeat; background-size: contain; background-position: center; margin: 0 auto 52px; display: flex; flex-wrap: wrap; gap: 38px; padding: 87px 90px; }
 .sub13 .section01 .content .draw div { flex-basis: 142px; transition: all .5s; }
 .sub13 .section01 .content .draw div:hover { transform: scale(1.2); }
 .sub13 .section01 .content .text { max-width: 600px; width: 100%; background: #fff; margin: 0 auto 67px; padding: 19px; box-sizing: border-box; font-size: 15px; color: #000; line-height: 22px; }
@@ -1287,13 +1288,13 @@
 .sub13 .section01 .content .info li { list-style: disc;  }
 .sub13 .section01 .content .info li span { position: relative; }
 
-@media only all and (min-width:1441px) {
-	.sub13 .section01 .content .title .sub_box { height: 100%; transform: translateX(-50%) scale(1.2); top: 50px; }
-}
+/* @media only all and (min-width:1441px) {
+	.sub13 .section01 .content .title .sub_box .main_title img { width: 100%; max-width: 500px; }
+} */
 
 @media only all and (max-width:767px) {
 	.sub13 #contents { padding-bottom: 32px; }
-	.sub13 .section01 .content .title .sub_box { padding-top: 113px; }
+	.sub13 .section01 .content .title .sub_box { background-image: url(../img/sub13/sub13_01_mo.svg); padding: 113px 0 21px; }
 	.sub13 .section01 .content .title .sub_box .main_title img { width: 100%; max-width: 241px; padding-bottom: 25px; }
 	.sub13 .section01 .content .title .sub_box .text1 { font-size: 18px; letter-spacing: -1.08px; }
 	.sub13 .section01 .content .title .sub_box .text1 br { display: block; }

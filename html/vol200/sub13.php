@@ -20,8 +20,8 @@
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="title">
-					<img src="img/sub13/sub13_01.svg" class="cv_bg pc_display">
-					<img src="img/sub13/sub13_01_mo.svg" class="mobile_display">
+					<!-- <img src="img/sub13/sub13_01.svg" class="cv_bg pc_display">
+					<img src="img/sub13/sub13_01_mo.svg" class="mobile_display"> -->
 					<div class="sub_box">
 						<div class="main_title"><img src="img/sub13/sub13_01-title.svg"></div>
 						<div class="text1">덥다 더워~ 행운 잡고,<br> 무더위 날리자~</div>

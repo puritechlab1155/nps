@@ -1259,7 +1259,7 @@
 .sub13 .section01 .content { position: relative; }
 .sub13 .section01 .content .title { position: relative; width: 100%; }
 .sub13 .section01 .content .title .cv_bg { width: 100%; }
-.sub13 .section01 .content .title .sub_box { position: absolute; left: 50%; top: 102px; transform: translateX(-50%) scale(1); display: flex; flex-direction: column; justify-content: center; width: 100%; max-width: 600px; text-align: center; }
+.sub13 .section01 .content .title .sub_box { position: absolute; left: 50%; top: 102px; bottom: 26px; transform: translateX(-50%) scale(1); display: flex; flex-direction: column; justify-content: center; width: 100%; max-width: 600px; text-align: center; }
 /* .sub13 .section01 .content .title .sub_box .main_title { margin: 0 auto; text-align: center; } */
 .sub13 .section01 .content .title .sub_box .main_title img { width: 100%; max-width: 402px; padding-bottom: 28px; }
 .sub13 .section01 .content .title .sub_box .text1 { color: #053c95; font-family: 'GmarketSans'; font-size: 23px; font-weight: 500; letter-spacing: -1.38px; }

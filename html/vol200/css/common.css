@@ -101,7 +101,23 @@
   src: url(../../../font/GmarketSansBold.woff2) format('woff2'),
        url(../../../font/GmarketSansBold.woff) format('woff'),
        url(../../../font/GmarketSansBold.otf) format('opentype');
-} 
+}
+@font-face {
+  font-family: 'laundrygothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../../font/laundrygothic-regular.woff2) format('woff2');
+  src: url(../../../font/laundrygothic-regular.woff) format('woff');
+  src: url(../../../font/laundrygothic-regular.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'laundrygothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../../../font/laundrygothic-bold.woff2) format('woff2');
+  src: url(../../../font/laundrygothic-bold.woff) format('woff');
+  src: url(../../../font/laundrygothic-bold.ttf) format('ttf');
+}
 
 html { padding:0; margin:0;  }
 body { padding:0; margin:0; font-size:16px; overflow-x: hidden; overflow-y: auto; }

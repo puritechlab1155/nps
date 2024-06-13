@@ -116,7 +116,7 @@ html, body, input, select, button, textarea, h1, h2, h3, h4, h5, h6, .h1, .h2, .
 /* reset */
 * {margin:0;padding:0;box-sizing:border-box;}
 html,body {width:100%;height:100%;min-height:100%;background:#fff;}
-body,input,select,textarea,button,label { font-size: 17px; font-family:'Noto Sans CJK Kr';color:#333;letter-spacing:-0.3px;}
+body,input,select,textarea,button,label { font-size: 17px; font-family:'Noto Sans CJK Kr';color:#333; letter-spacing: -0.34px;}
 ul,ol,li{list-style:none;}
 table {border-spacing:0;border:0;border-collapse:collapse;}
 table td {word-wrap:break-word;word-break:break-all;}
@@ -204,7 +204,8 @@ a:hover {color:#F6A13C;text-decoration:none;}
 @media only all and (max-width:767px) {
     #footer .footer_container { padding:44px 0 57px; flex-direction: column; gap: 13px; }
     #footer .footer_container .footer_logo { margin-right: 0; flex-basis: 45px; }
-    #footer .footer_container .sns_group { margin-top: 0; margin-right: 0; justify-content: center; }
+    #footer .footer_container .footer_logo .logo { width: 180px; height: 45px; }
+    #footer .footer_container .sns_group { margin-top: -6px; margin-right: 0; justify-content: center; }
     #footer .footer_container .sns_group a { width:24px; height:24px; margin:0px; }
     #footer .footer_container .sns_group .naverpost {background:#fff url('../../../img/common/ico_naver@2x.png') no-repeat 50% 50%;background-size:8px;}
     #footer .footer_container .sns_group .instagram {background:#fff url('../../../img/common/ico_instagram@2x.png') no-repeat 50% 50%;background-size:12px;}
@@ -212,6 +213,7 @@ a:hover {color:#F6A13C;text-decoration:none;}
     #footer .footer_container .sns_group .youtube {background:#fff url('../../../img/common/ico_youtube@2x.png') no-repeat 50% 50%;background-size:12px;}
     #footer .footer_container .sns_group .navertv {background:#fff url('../../../img/common/ico_navertv@2x.png') no-repeat 50% 50%;background-size:11px;}
     #footer .footer_container .sns_group .blog {background:#fff url('../../../img/common/ico_blog@2x.png') no-repeat 50% 50%;background-size:16px;}
+    #footer .footer_container .address { flex-basis: 85px; }
     #footer .footer_container .address span {display:block;}
     #footer .footer_container .address span + br {display:none;}
 }

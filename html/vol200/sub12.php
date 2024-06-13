@@ -27,8 +27,9 @@
 					1만원 상당의 편의점 기프티콘을 드립니다.
 				</div>
 			</div>
+			<div class="gift"><div><img src="img/sub12/sub12_02.png" class="pc_display"><img src="img/sub12/sub12_02_mo.png" class="mobile_display"></div></div>
 		</div>
-		<div class="gift"><div><img src="img/sub12/sub12_02.png" class="pc_display"><img src="img/sub12/sub12_02_mo.png" class="mobile_display"></div></div>
+		
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
 				<div class="date_area">

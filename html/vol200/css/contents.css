@@ -308,8 +308,8 @@
 	.sub_title { font-size:22px; letter-spacing: -0.3px; color:#ff80c6; margin-bottom: 30px; font-weight: 600; }
 	.sub_title img { margin-right:5px; margin-bottom: 0px; width:25px;}
 
-	#footer { padding: 50px 0px 100px 0px; }
-	#footer .footer_container { width: 100%; margin: 0 auto; padding: 0 10px; }
+	#footer { padding: 44px 0; }
+	#footer .footer_container { width: 100%; margin: 0 auto; padding: 0 10px 57px; }
 	#footer .footer_container .footer_logo {margin:0px; width: 100%; }
 	#footer .footer_container .footer_logo .logo {display:inline-block;width:180px;height:56px;background:url("../img/nps_footer_logo.png") no-repeat 50% 50%; background-size: contain; text-indent:-9999px;overflow:hidden;}
 	#footer .footer_container .sns_group { display: inline-flex; vertical-align:middle; width: 100%; text-align: center; }
@@ -1114,20 +1114,20 @@
 .sub10 .section01 {position: relative; display: block; width: 100%; max-width: 600px; margin: 0 auto; font-family:'Noto Sans CJK Kr'; }
 .sub10 .section01 .content { position: relative; }
 .sub10 .section01 .content .title img { width:100%; margin: 0 auto; }
-.sub10 .section01 .content .title_txt { width:100%; text-align:center; font-family: 'WavvePADO'; font-size: 18px; letter-spacing: -0.36px; color: #fff; line-height: normal; margin:16px auto;}
+.sub10 .section01 .content .title_txt { width: 100%; text-align: center; font-family: 'WavvePADO'; font-size: 18px; letter-spacing: -0.36px; color: #fff; margin: 16px auto;}
 .sub10 .section01 .content .subtitle { background: #fbf471; border-radius: 50px; border: 0.7px solid #000; color: #000; text-align: center; padding: 9px 0 5px; max-width: 600px; width: 100%; margin: 41px auto 45px; font-family: 'Meetme'; font-size: 20px; letter-spacing: 0; }
 .sub10 .section01 .content .subtitle br{ display: none;}
 .sub10 .section01 .content .text { max-width: 600px; width: 100%; margin: 0px auto; color: #fff; font-weight: 400; font-size: 17px; line-height: 27px;}
-.sub10 .section01 .content .date_area { max-width: 664px; width: 100%; margin: 41px auto 40px; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff; padding: 10px 0; display: flex; color: #fff; font-size: 17px; font-weight: 400; flex-direction: column; }
+.sub10 .section01 .content .date_area { width: 100%; margin: 41px auto 40px; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff; padding: 10px 0; display: flex; color: #fff; font-size: 17px; font-weight: 400; flex-direction: column; }
 .sub10 .section01 .content .date_area .top br {display: none;}
 .sub10 .section01 .content .date_area .mid { margin: 10px 0; padding: 10px 0; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff;}
-.sub10 .section01 .content .date_area span { font-weight: 700; margin-right: 44px; font-weight: 700; }
+.sub10 .section01 .content .date_area span { font-weight: 700; margin-right: 44px; }
 .sub10 .section01 .content .gift { text-align: center; }
 .sub10 .section01 .content .gift img { width:390px; height:246.42px; max-width: 610px; }
-.sub10 .section01 .content .button { display: flex; gap: 45px; justify-content: center; margin: 54px 0 40px 0;  }
-.sub10 .section01 .content .button a.subscribe { background: #00d7ff; border: 0.7px solid #000; text-align: center; color: #000; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
-.sub10 .section01 .content .button a.send { background: #004fff; border: 0.7px solid #000; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
-.sub10 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
+.sub10 .section01 .content .button { display: flex; gap: 45px; justify-content: center; margin: 54px 0 40px 0; }
+.sub10 .section01 .content .button a.subscribe { background: #00d7ff; border: 0.7px solid #000; text-align: center; color: #000; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; letter-spacing: -0.5px; }
+.sub10 .section01 .content .button a.send { background: #004fff; border: 0.7px solid #000; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; letter-spacing: -0.5px; }
+.sub10 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; letter-spacing: -0.5px; }
 /*
 .sub10 .section01 .content .info ul { padding-inline-start: 0.7em; }
 */

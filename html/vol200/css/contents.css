@@ -241,12 +241,12 @@
 	.main_section2 .main_section2_container { width: 100%; margin: 0 auto; }
 	.main_section3 { position: relative; padding: 50px; width: 100%; margin: 0 auto; }
 	#footer .footer_container { width: 100%; margin: 0 auto; padding: 0 50px; }
-	#footer .footer_container .footer_logo {margin:0px; width: 210px; float: left;}
+	#footer .footer_container .footer_logo {margin:0px; width: 210px; }
 	#footer .footer_container .sns_group {display:inline-block;vertical-align:middle; width: calc(50% - 240px); float: left; text-align: left; margin: 12px 0px 0 15px; }
 	#footer .footer_container .address { margin-top: 10px; font-size: 14px; font-weight: 500; color: #333; line-height: 21px; width: 50%; float: left; text-align: left; }
 }
 @media only all and (max-width:1070px) {
-	#footer .footer_container .footer_logo {margin:0px; width: 210px; float: left;}
+	#footer .footer_container .footer_logo {margin:0px; width: 210px; }
 	#footer .footer_container .sns_group {display:inline-block;vertical-align:middle; width: calc(100% - 240px); float: left; text-align: left; margin: 12px 0px 0 15px; }
 	#footer .footer_container .address { margin-top: 10px; font-size: 14px; font-weight: 500; color: #333; line-height: 21px; width: 100%; float: left; text-align: left; }
 }
@@ -310,9 +310,9 @@
 
 	#footer { padding: 50px 0px 100px 0px; }
 	#footer .footer_container { width: 100%; margin: 0 auto; padding: 0 10px; }
-	#footer .footer_container .footer_logo {margin:0px; width: 100%; float: left;}
+	#footer .footer_container .footer_logo {margin:0px; width: 100%; }
 	#footer .footer_container .footer_logo .logo {display:inline-block;width:180px;height:56px;background:url("../img/nps_footer_logo.png") no-repeat 50% 50%; background-size: contain; text-indent:-9999px;overflow:hidden;}
-	#footer .footer_container .sns_group {display:inline-block;vertical-align:middle; width: 100%; text-align: center; margin: 10px 0 0 0; }
+	#footer .footer_container .sns_group { display: inline-flex; vertical-align:middle; width: 100%; text-align: center; }
 	#footer .footer_container .address { margin-top: 10px; font-size: 12px; font-weight: 500; color: #333; line-height:1.2; width: 100%; text-align: center; }
 
 	.mpage_ctrl { position: fixed; bottom: 0; left: 0; z-index: 999; background: #000; width: 100vw; height: 45px; align-items: center; }

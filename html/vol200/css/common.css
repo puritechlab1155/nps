@@ -116,7 +116,7 @@ html, body, input, select, button, textarea, h1, h2, h3, h4, h5, h6, .h1, .h2, .
 /* reset */
 * {margin:0;padding:0;box-sizing:border-box;}
 html,body {width:100%;height:100%;min-height:100%;background:#fff;}
-body,input,select,textarea,button,label {font-size:18px; font-family:'Noto Sans CJK Kr';color:#333;letter-spacing:-0.3px;}
+body,input,select,textarea,button,label { font-size: 17px; font-family:'Noto Sans CJK Kr';color:#333;letter-spacing:-0.3px;}
 ul,ol,li{list-style:none;}
 table {border-spacing:0;border:0;border-collapse:collapse;}
 table td {word-wrap:break-word;word-break:break-all;}
@@ -187,23 +187,25 @@ a:hover {color:#F6A13C;text-decoration:none;}
 }
 
 /* footer */
-#footer {position:relative;padding:50px 0px;clear:both;background:#d4d4d4;text-align:center;}
+#footer {position:relative; padding:52px 0 38px; clear:both;background:#d4d4d4;text-align:center;}
 #footer:after {content:"";clear:both;display:block;}
-#footer .footer_container { width: 1500px; margin: 0 auto;  padding: 0 20px; }
-#footer .footer_container .footer_logo {margin:0px; width: 210px; float: left;}
-#footer .footer_container .footer_logo .logo {display:inline-block;width:210px;height:56px;background:url("../img/nps_footer_logo.png") no-repeat 50% 50%; background-size: contain; text-indent:-9999px;overflow:hidden;}
-#footer .footer_container .sns_group {display:inline-block;vertical-align:middle; width: calc(50% - 240px); float: left; text-align: left; margin: 12px 0px 0 15px; }
-#footer .footer_container .sns_group a {display:inline-block;width:36px;height:36px;margin:0px;text-indent:-9999px;overflow:hidden;border-radius:36px;}
+#footer .footer_container { width: 1500px; margin: 0 auto; display: flex; justify-content: center; }
+#footer .footer_container .footer_logo { flex-basis: 207px; margin-right: 31px; }
+#footer .footer_container .footer_logo .logo { width: 210px; height: 56px; background: url("../img/nps_footer_logo.png") no-repeat 50% 50%; background-size: contain; text-indent:-9999px;overflow:hidden;}
+#footer .footer_container .sns_group { display: inline-flex; gap: 7px; vertical-align:middle; text-align: left; margin-top: 9px; margin-right: 37px; }
+#footer .footer_container .sns_group a { width:36px;height:36px;margin:0px; text-indent:-9999px; overflow:hidden;border-radius:36px;}
 #footer .footer_container .sns_group .naverpost {background:#fff url('../../../img/common/ico_naver.png') no-repeat 50% 50%;}
 #footer .footer_container .sns_group .instagram {background:#fff url('../../../img/common/ico_instagram.png') no-repeat 50% 50%;}
 #footer .footer_container .sns_group .facebook {background:#fff url('../../../img/common/ico_facebook.png') no-repeat 50% 50%;}
 #footer .footer_container .sns_group .youtube {background:#fff url('../../../img/common/ico_youtube.png') no-repeat 50% 50%;}
 #footer .footer_container .sns_group .navertv {background:#fff url('../../../img/common/ico_navertv.png') no-repeat 50% 50%;}
 #footer .footer_container .sns_group .blog {background:#fff url('../../../img/common/ico_blog.png') no-repeat 50% 50%;}
-#footer .footer_container .address {margin-top:0;font-size:14px;font-weight:500;color:#333;line-height:21px; width: 50%; float: right; text-align: left;}
+#footer .footer_container .address { flex-basis: 472px; margin-top:0;font-size:14px;font-weight:500;color:#333;line-height:21px; width: 50%; text-align: left;}
 @media only all and (max-width:767px) {
-    #footer .footer_container {padding:30px 20px 40px;}
-    #footer .footer_container .sns_group a {width:24px;height:24px;margin:0px;}
+    #footer .footer_container { padding:44px 0 57px; flex-direction: column; gap: 13px; }
+    #footer .footer_container .footer_logo { margin-right: 0; flex-basis: 45px; }
+    #footer .footer_container .sns_group { margin-top: 0; margin-right: 0; justify-content: center; }
+    #footer .footer_container .sns_group a { width:24px; height:24px; margin:0px; }
     #footer .footer_container .sns_group .naverpost {background:#fff url('../../../img/common/ico_naver@2x.png') no-repeat 50% 50%;background-size:8px;}
     #footer .footer_container .sns_group .instagram {background:#fff url('../../../img/common/ico_instagram@2x.png') no-repeat 50% 50%;background-size:12px;}
     #footer .footer_container .sns_group .facebook {background:#fff url('../../../img/common/ico_facebook@2x.png') no-repeat 50% 50%;background-size:16px;}
@@ -213,6 +215,7 @@ a:hover {color:#F6A13C;text-decoration:none;}
     #footer .footer_container .address span {display:block;}
     #footer .footer_container .address span + br {display:none;}
 }
+
 
 /* slider common */
 .slick-slider {position:relative;display:block;box-sizing:border-box;}

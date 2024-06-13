@@ -81,14 +81,14 @@
  @font-face { 
   font-family: 'GmarketSans';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 100;
   src: url(../../../font/GmarketSansLight.woff) format('woff'),
        url(../../../font/GmarketSansLight.otf) format('opentype');
 } 
 @font-face {
   font-family: 'GmarketSans';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 300;
   src: url(../../../font/GmarketSansMedium.woff2) format('woff2'),
        url(../../../font/GmarketSansMedium.woff) format('woff'),
        url(../../../font/GmarketSansMedium.ttf) format('ttf'),
@@ -97,7 +97,7 @@
 @font-face {
   font-family: 'GmarketSans';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   src: url(../../../font/GmarketSansBold.woff2) format('woff2'),
        url(../../../font/GmarketSansBold.woff) format('woff'),
        url(../../../font/GmarketSansBold.otf) format('opentype');

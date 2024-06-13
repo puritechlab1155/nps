@@ -22,8 +22,18 @@
 				<div class="title">
 					<img src="img/sub13/sub13_01.svg" class="cv_bg pc_display">
 					<img src="img/sub13/sub13_01_mo.svg" class="mobile_display">
-					<img src="img/sub13/sub13_02.png" class="prize">
+					<div class="sub_box">
+						<div class="main_title"><img src="img/sub13/sub13_01-title.svg"></div>
+						<div class="text1">덥다 더워~ 행운 잡고,<br> 무더위 날리자~</div>
+						<div class="text2">
+							내곁에 국민연금을 방문해 주신 구독자 여러분께 <br>
+							감사의 마음을 담아 뽑기 이벤트를 준비했습니다. <br>
+							이벤트 기간 내 뽑기를 해 주신 구독자님들 중 100분께 경품을 드립니다.
+						</div>
+						<div class="img_box"><img src="img/sub13/sub13_02.png" class="prize"></div>
+					</div>
 				</div>
+				
 				<div class="howto">
 					<img src="img/sub13/sub13_03.svg" class="pc_display">
 					<img src="img/sub13/sub13_03_mo.svg" class="mobile_display">
@@ -57,12 +67,12 @@
 				</div>
 				<div class="info">
 					<ul>
-						<li><span>본 이벤트 경품은 당사 사정에 따라 변경될 수 있습니다.</span></li>
-						<li><span>이벤트 응모 시 개인정보 활용에 동의한 것으로 간주됩니다.</span></li>
-						<li><span>부정행위를 통해 이벤트 참여 시 제재를 받으며, 당첨 경품도 취소됩니다.</span></li>
-						<li><span>많은 분들께 이벤트 혜택을 드리기 위해 중복 당첨 시 경품 지급은 한 번만 이뤄집니다.</span></li>
-						<li><span>당첨자에 한해 개인정보가 경품 발송 대행사에 전달되며 경품 발송 후 즉시 폐기됩니다.</span></li>
-						<li><span>정확하지 않은 개인정보로 인해 당첨자 연락이 되지 않거나 확인이 불가능할 경우, 당첨 취소됩니다.</span></li>
+						<li>본 이벤트 경품은 당사 사정에 따라 변경될 수 있습니다.</li>
+						<li>이벤트 응모 시 개인정보 활용에 동의한 것으로 간주됩니다.</li>
+						<li>부정행위를 통해 이벤트 참여 시 제재를 받으며, 당첨 경품도 취소됩니다.</li>
+						<li>많은 분들께 이벤트 혜택을 드리기 위해 중복 당첨 시 경품 지급은 한 번만 이뤄집니다.</li>
+						<li>당첨자에 한해 개인정보가 경품 발송 대행사에 전달되며 경품 발송 후 즉시 폐기됩니다.</li>
+						<li>정확하지 않은 개인정보로 인해 당첨자 연락이 되지 않거나 확인이 불가능할 경우, 당첨 취소됩니다.</li>
 					</ul>
 				</div>
 			</div>

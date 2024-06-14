@@ -18,11 +18,16 @@
 	<!-- contents -->
 	<section id="contents">
 		<div class="section01 wow fadeBigInUp">
-			<div class="content">   니다.<br>
+			<div class="content">
+				<div class="title"><img src="img/sub14/sub14_01.svg"></div>
+				<div class="gift"><img src="img/sub14/sub14_02.png"></div>
+				<div class="text">
+					새롭게 리뉴얼된 2024 <img src="img/nps_logo.svg">이<br>
+					더욱 다채로운 콘텐츠로 독자 여러분을 만났습니다.<br>
 					여러 콘텐츠 중 여러분의 마음을 사로잡은<br>
 					이야기는 무엇인가요? <img src="img/nps_logo.svg"> 봄호 콘텐츠 중<br>
 					여러분의 원픽 기사가 무엇이며,<br>
-					그 이유를 메시지로 보내주시는 분들 중<br> 
+					그 이유를 메시지로 보내주시는 분들 중<br>
 					추첨을 통해 선정된 15분께 치킨을 보내 드립니다!
 				</div>
 				<div class="date_area">

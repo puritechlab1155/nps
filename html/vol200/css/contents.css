@@ -241,8 +241,8 @@
 	.main_section2 .main_section2_container { width: 100%; margin: 0 auto; }
 	.main_section3 { position: relative; padding: 50px; width: 100%; margin: 0 auto; }
 	#footer .footer_container { width: 100%; margin: 0 auto; padding: 0 50px; }
-	#footer .footer_container .footer_logo {margin:0px; width: 210px; }
-	#footer .footer_container .sns_group {display:inline-block;vertical-align:middle; width: calc(50% - 240px); float: left; text-align: left; }
+	#footer .footer_container .footer_logo { margin-right: 31px; width: 210px; }
+	#footer .footer_container .sns_group { display: inline-flex; }
 	#footer .footer_container .address { font-size: 12px; font-weight: 500; color: #000; width: 50%; float: left; text-align: left; }
 }
 @media only all and (max-width:1070px) {

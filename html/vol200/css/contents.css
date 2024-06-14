@@ -1174,12 +1174,12 @@
 .sub11 .section02 .content .text_area .text_box1 span { color: #553835; font-family: 'Meetme'; font-size: 26px; line-height: 27px; letter-spacing: -0.52px; }
 .sub11 .section02 .content .text_area .text_box2 { background: url(../img/sub11/sub11_02.svg); background-repeat: no-repeat; background-size: cover; text-align: center; padding: 30px 10px; box-sizing: border-box; }
 .sub11 .section02 .content .text_area .text_box2 p { color: #553835; font-family: 'WavvePADO'; font-weight: 400; line-height: 27px; letter-spacing: -0.34px; padding-top: 24px; }
-.sub11 .section02 .content .text_area .text_box2 span { color: #34fd68; -webkit-text-stroke-width: 2; -webkit-text-stroke-color: #553835; font-family: 'WavvePADO'; font-size: 18px; font-weight: 400; line-height: 27px; letter-spacing: -0.36px; text-shadow: -2px 0px #553835, 0px 2px #553835, 2px 0px #553835, 0px -2px #553835; display: block; padding-bottom: 18px; }
+.sub11 .section02 .content .text_area .text_box2 span { color: #34fd68; -webkit-text-stroke-width: 2; -webkit-text-stroke-color: #553835; font-family: 'WavvePADO'; font-size: 18px; font-weight: 400; line-height: 27px; letter-spacing: -0.36px; text-shadow: -2px 0px #553835, -2px 2px #553835, 2px -2px #553835, -2px -2px #553835, 2px 2px #553835, 0px 2px #553835, 2px 0px #553835, 0px -2px #553835; display: block; padding-bottom: 18px; }
 
 .sub11 .section02 .content .date_area { max-width: 600px; width: 100%; margin: 43px auto 47px; border-top: 0.5px solid #553835; border-bottom: 0.5px solid #553835; padding: 10px 0; display: flex; color: #553835; font-weight: 400; flex-direction: column; }
 .sub11 .section02 .content .date_area .top br { display: none; }
 .sub11 .section02 .content .date_area .mid { margin: 10px 0; padding: 10px 0; border-top: 0.5px solid #553835; border-bottom: 0.5px solid #553835; }
-.sub11 .section02 .content .date_area span { font-weight: 700; margin-right: 44px; color: #684d3c; }
+.sub11 .section02 .content .date_area span { font-weight: 700; margin-right: 44px; }
 .sub11 .section02 .content .gift { text-align: center; position: relative; }
 .sub11 .section02 .content .gift img { padding: 0 76px 0 77px; }
 .sub11 .section02 .content .button { position: relative; display: flex; gap: 45px; justify-content: center; margin: 40px 0 53px; }

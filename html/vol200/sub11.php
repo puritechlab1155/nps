@@ -20,13 +20,29 @@
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="title"><img src="img/sub11/sub11_01.svg"></div>
-				<div class="text pc_display">
-					앞으로 내곁에 국민연금에 소개되길 바라는 연금제도, 궁금한 연금제도 등을 뽑아 주세요. <br>
-					다양한 국민연금 제도 중 궁금한 연금제도에 투표를 해 주시는 분들 중 <br>
-					추첨을 통해 선정된 10분께 1만원 상당의 모바일 상품권을 드립니다.
-				</div>
-				<div class="text mobile_display">
-					앞으로 내곁에 국민연금에 소개되길 바라는 연금제도,궁금한 연금제도 등을 뽑아 주세요. 다양한 국민연금 제도 중 궁금한 연금제도에 투표를 해 주시는 분들 중 추첨을 통해 선정된 10분께 3만원 상당의 치킨 기프티콘을 드립니다.
+				<div class="text">웹진 &lt;내 곁에 국민연금&gt; 200호 기념! <br><span>웹진과 함께한 사연 이벤트</span></div>
+			</div>
+		</div>
+		<div class="section02 wow fadeBigInUp">
+			<div class="content">
+				<div class="text_area">
+					<div class="text_box1">
+						<p>
+							국민연금 웹진 &lt;내 곁에 국민연금&gt;이 발간 200호를 맞이했습니다. <br>
+							1호부터 200호까지 정말 다양한 이야기로 독자 여러분과 만났는데요! 독자 여러분들께서 &lt;내 곁에 국민연금&gt;을 보고 웃을 때도 <br>
+							감동받으실 때도 있었을 것 같습니다.
+						</p> <br>
+						<span>그래서 준비했습니다. 200호 기념 사연 이벤트!</span>
+					</div>
+					<div class="text_box2">
+						<p>
+							그동안 국민연금 사보나 웹진을 통해 읽었던 다양한 이야기들 중 <br>
+							기억에 남는 에피소드, 혹은 국민연금 사보나 웹진을 통해 읽었던 이야기와 <br>
+							일상 속에서 함께한 순간들 등 국민연금 사보나 웹진과 관련된 사연을 <br>
+							보내 주시는 분들 중 추첨을 통해 선정된 
+						</p>
+						<span>15분께는 3만원 상당의 치킨 기프티콘을 보내 드립니다.</span>
+					</div>
 				</div>
 				<div class="date_area">
 					<div class="top"><span>응모 기간</span><em>7월 10일 오후 2시 ~ <br>8월 25일 오후 11시 30분</em></div>

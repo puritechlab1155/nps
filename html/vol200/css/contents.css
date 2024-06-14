@@ -1299,8 +1299,24 @@
 /* .sub13 .section01 .content .title { position: relative; width: 100%; } */
 /* .sub13 .section01 .content .title .cv_bg { width: 100%; } */
 /* .sub13 .section01 .content .title .sub_box { position: absolute; left: 50%; top: 0; padding: 102px 0 26px; transform: translateX(-50%); display: flex; flex-direction: column; justify-content: center; width: 100%; max-width: 600px; text-align: center; height: 100%; } */
-.sub13 .section01 .content .title .sub_box { background-image: url(../img/sub13/sub13_01.svg); background-repeat: no-repeat; background-size: cover; display: flex; flex-direction: column; justify-content: 50% 50%; width: 100%; text-align: center; padding: 102px 0 26px; position: relative; overflow: hidden; transition: all; transform: translate(0, -10px); }
-.sub13 .section01 .content .title .sub_box::before { content: ''; width: 120%; height: 120%; background-image: url(../img/sub13/sub13_01_move.svg); background-repeat: no-repeat; background-size: 100%; position: absolute; left: -100px; top: -120px; animation: wave_move 4.5s infinite; z-index: -1; }
+
+/* ver1 */
+/* .sub13 .section01 .content .title .sub_box { background: #35ddfb; background-repeat: no-repeat; background-size: cover; display: flex; flex-direction: column; justify-content: 50% 50%; width: 100%; text-align: center; padding: 102px 0 26px; position: relative; overflow: hidden; transition: all; transform: translate(0, -10px); }
+.sub13 .section01 .content .title .sub_box::before { content: ''; width: 120%; height: 120%; background-image: url(../img/sub13/sub13_01_move.svg); background-repeat: no-repeat; background-size: 100%; background-position: center; position: absolute; left: -100px; top: -120px; animation: wave_move 4.5s infinite; z-index: -1; } */
+
+/* ver2 */
+/* .sub13 .section01 .content .title .sub_box { background-image: url(../img/sub13/sub13_01.svg); background-repeat: no-repeat; background-size: cover; display: flex; flex-direction: column; justify-content: 50% 50%; width: 100%; text-align: center; padding: 102px 0 26px; position: relative; overflow: hidden; transition: all; transform: translate(0, -10px); }
+.sub13 .section01 .content .title .sub_box::before { content: ''; width: 120%; height: 120%; background-image: url(../img/sub13/sub13_01_wave.svg); background-repeat: no-repeat; background-size: 100%; background-position: center; position: absolute; left: -100px; top: -120px; animation: wave_move 4.5s infinite; z-index: -1; } */
+
+/* ver3 */
+.sub13 .section01 .content .title .sub_box { background: #35ddfb; display: flex; flex-direction: column; justify-content: 50% 50%; width: 100%; text-align: center; padding: 102px 0 26px; position: relative; overflow: hidden; transition: all; transform: translate(0, -10px); }
+.sub13 .section01 .content .title .sub_box::before { content: ''; width: 100%; height: 100%; background-image: url(../img/sub13/sub13_01_items.svg); background-repeat: no-repeat; background-size: 60%; background-position: center; z-index: -1; position: absolute; left: 0; top: 0; animation: wave_move2 4.5s infinite; }
+@keyframes wave_move2 {
+	0%{ transform: translate(0, 0); }
+	50%{ transform: translate(-10px, 0); }
+	100%{ transform: translate(0, 0); }
+}
+.sub13 .section01 .content .title .sub_box::after { content: ''; width: 120%; height: 120%; background-image: url(../img/sub13/sub13_01_wave.svg); background-repeat: no-repeat; background-size: 100%; background-position: center; position: absolute; left: -100px; top: -120px; animation: wave_move 4.5s infinite; z-index: -2; }
 @keyframes wave_move {
 	0%{ transform: translate(0, 0); }
 	40%{ transform: translate(20px, 17px); }
@@ -1313,6 +1329,7 @@
 .sub13 .section01 .content .title .sub_box .text1 br { display: none; }
 .sub13 .section01 .content .title .sub_box .text2 { color: #000; line-height: 27px; letter-spacing: -0.68px; font-weight: 400; padding: 40px 0 71px; }
 .sub13 .section01 .content .title .sub_box .img_box { width: 100%; max-width: 364px; margin: 0 auto; }
+.sub13 .section01 .content .title .sub_box .img_box img { animation: bounce 1s; }
 .sub13 .section01 .content .howto { max-width: 600px; width: 100%; margin: 86px auto 0; }
 .sub13 .section01 .content .date_area { max-width: 600px; width: 100%; margin: 48px auto 57px auto; border-top: 0.5px solid #000; border-bottom: 0.5px solid #000; padding: 10px 0; display: flex; flex-direction: column; color: #000; font-size: 17px; }
 .sub13 .section01 .content .date_area .top br { display: none; }

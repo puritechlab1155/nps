@@ -51,7 +51,7 @@
 					<div><span>경품 발송</span><em>9월  2일 오후 5시</em></div>
 				</div>
 				<div class="gift"><img src="img/sub11/sub11_03.png"></div>
-				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/5AcUIsLS" target="_blank">투표하기</a><span class="end" href="#" >마감되었습니다</span></div>
+				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/5AcUIsLS" target="_blank">의견 보내기</a><span class="end" href="#" >마감되었습니다</span></div>
 				<div class="info">
 					<ul>
 						<li>본 이벤트 경품은 당사 사정에 따라 변경될 수 있습니다.</li>

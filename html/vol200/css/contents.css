@@ -1165,7 +1165,7 @@
 .sub11 .section01 .content { position: relative; }
 .sub11 .section01 .content .title { width: 100%; max-width: 823px; margin: 0 auto; }
 .sub11 .section01 .content .title img { width:100%; }
-.sub11 .section01 .content .sub_title { font-family: 'WavvePADO'; color: #553835; width: 100%; margin: 0 auto; text-align: center; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; padding: 29px 0 78px; }
+.sub11 .section01 .content .sub_title { font-family: 'WavvePADO'; color: #553835; width: 100%; margin: 0 auto; text-align: center; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; padding: 29px 0 78px; line-height: 1.8em; }
 .sub11 .section01 .content .sub_title span { font-size: 24px; letter-spacing: -0.48px; }
 
 .sub11 .section02 { max-width: 600px; width: 100%; margin: 0 auto; padding-bottom: 77px; }

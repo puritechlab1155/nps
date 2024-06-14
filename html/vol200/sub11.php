@@ -19,8 +19,8 @@
 	<section id="contents">
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
-				<div class="title"><img src="img/sub11/sub11_01.svg"></div>
-				<div class="text">웹진 &lt;내 곁에 국민연금&gt; 200호 기념! <br><span>웹진과 함께한 사연 이벤트</span></div>
+				<div class="title"><img src="img/sub11/sub11_01.svg" class="pc_display"><img src="img/sub11/sub11_01_mo.svg" class="mobile_display"></div>
+				<div class="sub_title">웹진 &lt;내 곁에 국민연금&gt; 200호 기념! <br><span>웹진과 함께한 사연 이벤트</span></div>
 			</div>
 		</div>
 		<div class="section02 wow fadeBigInUp">
@@ -32,7 +32,7 @@
 							1호부터 200호까지 정말 다양한 이야기로 독자 여러분과 만났는데요! 독자 여러분들께서 &lt;내 곁에 국민연금&gt;을 보고 웃을 때도 <br>
 							감동받으실 때도 있었을 것 같습니다.
 						</p> <br>
-						<span>그래서 준비했습니다. 200호 기념 사연 이벤트!</span>
+						<span>그래서 준비했습니다. <br class="mobile_display"> 200호 기념 사연 이벤트!</span>
 					</div>
 					<div class="text_box2">
 						<p>
@@ -41,7 +41,7 @@
 							일상 속에서 함께한 순간들 등 국민연금 사보나 웹진과 관련된 사연을 <br>
 							보내 주시는 분들 중 추첨을 통해 선정된 
 						</p>
-						<span>15분께는 3만원 상당의 치킨 기프티콘을 보내 드립니다.</span>
+						<span>15분께는 3만원 상당의<br class="mobile_display"> 치킨 기프티콘을 보내 드립니다.</span>
 					</div>
 				</div>
 				<div class="date_area">

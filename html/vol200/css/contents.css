@@ -1127,9 +1127,9 @@
 
 .sub10 .section01 .content .button { display: flex; gap: 45px; justify-content: center; margin: 54px 0 40px 0; }
 .sub10 .section01 .content .button a.subscribe { background: #00d7ff; border: 0.7px solid #000; text-align: center; color: #000; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; letter-spacing: -0.5px; transition: all .5s; }
-.sub10 .section01 .content .button a.subscribe:hover { background: #000; color: #00d7ff; }
+.sub10 .section01 .content .button a.subscribe:hover { transform: translateY(-10px); box-shadow: 5px 5px #4a4a4a; }
 .sub10 .section01 .content .button a.send { background: #004fff; border: 0.7px solid #000; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; letter-spacing: -0.5px; transition: all 500ms; }
-.sub10 .section01 .content .button a.send:hover { background: #fff; color: #004fff; }
+.sub10 .section01 .content .button a.send:hover { transform: translateY(-10px); box-shadow: 5px 5px #4a4a4a; }
 .sub10 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; letter-spacing: -0.5px; }
 
 /*
@@ -1188,9 +1188,9 @@
 .sub11 .section02 .content .gift img { padding: 0 76px 0 77px; }
 .sub11 .section02 .content .button { position: relative; display: flex; gap: 45px; justify-content: center; margin: 40px 0 53px; }
 .sub11 .section02 .content .button a.subscribe { background: #553835; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; border: 0.7px solid #fff; transition: all 500ms; }
-.sub11 .section02 .content .button a.subscribe:hover { background: #fff; color: #553835; }
+.sub11 .section02 .content .button a.subscribe:hover { transform: translateY(-10px); box-shadow: 5px 5px #4a4a4a; }
 .sub11 .section02 .content .button a.send { background: #34fd68; text-align: center; color: #553835; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; border: 0.7px solid #000; transition: all 500ms; }
-.sub11 .section02 .content .button a.send:hover { background: #553835; color: #34fd68; }
+.sub11 .section02 .content .button a.send:hover { transform: translateY(-10px); box-shadow: 5px 5px #4a4a4a; }
 .sub11 .section02 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 
 .sub11 .section02 .content .info { max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #553835; padding-top: 20px; font-size: 14.5px; }
@@ -1253,9 +1253,9 @@
 
 .sub12 .section02 .content .button { display: flex; gap: 45px; justify-content: center; margin: 44px 0 43px 0;  }
 .sub12 .section02 .content .button a.subscribe { background: #424242; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; transition: all 500ms; }
-.sub12 .section02 .content .button a.subscribe:hover { background: #fff; color: #424242; }
+.sub12 .section02 .content .button a.subscribe:hover { transform: translateY(-10px); box-shadow: 5px 5px #4a4a4a; }
 .sub12 .section02 .content .button a.send { background: #288cf4; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; transition: all 500ms; }
-.sub12 .section02 .content .button a.send:hover { background: #fff; color: #288cf4; }
+.sub12 .section02 .content .button a.send:hover { transform: translateY(-10px); box-shadow: 5px 5px #4a4a4a; }
 .sub12 .section02 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 
 .sub12 .section02 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 14.5px; }
@@ -1309,7 +1309,7 @@
 .sub13 .section01 .content .date_area span { font-weight: 700; margin-right: 20px; color: #053c95; }
 .sub13 .section01 .content .button { display: flex; justify-content: center; margin: 0 0 69px 0;  }
 .sub13 .section01 .content .button a.subscribe { background: #1375db; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; margin: 10px; transition: all 500ms; }
-.sub13 .section01 .content .button a.subscribe:hover { background: #fff; color: #1375db; }
+.sub13 .section01 .content .button a.subscribe:hover { transform: translateY(-10px); box-shadow: 5px 5px #4a4a4a; }
 /* .sub13 .section01 .content .button a.send { background: #857aff; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; transition: background-color 0.3s ease, color 0.3s ease; } */
 .sub13 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 300px; width: 100%; height: 60px; line-height: 60px; border-radius: 36px; font-size: 27px; margin:10px; }
 
@@ -1414,9 +1414,9 @@
 .sub14 .section01 .content .gift img { padding: 0 9px; }
 .sub14 .section01 .content .button { position: relative; display: flex; gap: 45px; justify-content: center; margin: 0 0 67px 0; }
 .sub14 .section01 .content .button a.subscribe { background: #424242; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; transition: all 500ms; }
-.sub14 .section01 .content .button a.subscribe:hover { background: #fff; color: #424242; }
+.sub14 .section01 .content .button a.subscribe:hover { transform: translateY(-10px); box-shadow: 5px 5px #4a4a4a; }
 .sub14 .section01 .content .button a.send { background: #01d6a9; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; transition: all 500ms; }
-.sub14 .section01 .content .button a.send:hover { background: #fff; color: #01d6a9; }
+.sub14 .section01 .content .button a.send:hover { transform: translateY(-10px); box-shadow: 5px 5px #4a4a4a; }
 .sub14 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 
 .sub14 .section01 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; font-size: 14.5px; }

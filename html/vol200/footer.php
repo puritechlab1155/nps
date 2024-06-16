@@ -22,6 +22,8 @@
 	</footer>
 	<!-- //footer -->
 
+	
+
 	<!-- mpage ctrl -->
 	<div class="mpage_ctrl mobile_display">
 		<?php include("mpage_ctrl.php"); ?>

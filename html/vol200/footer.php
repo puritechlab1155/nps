@@ -23,12 +23,12 @@
 	<!-- //footer -->
 
 <<<<<<< HEAD
+=======
 
 
+>>>>>>> parent of d3284fd (Revert "crash")
 	
 
-=======
->>>>>>> parent of 506ac82 (crash)
 	<!-- mpage ctrl -->
 	<div class="mpage_ctrl mobile_display">
 		<?php include("mpage_ctrl.php"); ?>

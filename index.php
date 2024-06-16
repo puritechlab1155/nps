@@ -11,7 +11,6 @@
 <meta property="og:url" content="http://npswebzine.kr">
 <title>내곁에 국민연금</title>
 </head>
-
 <body>
     <!-- 새로운 URL -->
     <script language="javascript">
@@ -21,7 +20,6 @@
             window.location.href = "html/vol199/";
         }
     </script>
-
     <!-- 이전 URL -->
     <script language="javascript">
         var currentDate = new Date();

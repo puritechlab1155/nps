@@ -22,10 +22,13 @@
 	</footer>
 	<!-- //footer -->
 
+<<<<<<< HEAD
 
 
 	
 
+=======
+>>>>>>> parent of 506ac82 (crash)
 	<!-- mpage ctrl -->
 	<div class="mpage_ctrl mobile_display">
 		<?php include("mpage_ctrl.php"); ?>

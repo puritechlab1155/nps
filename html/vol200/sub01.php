@@ -9,6 +9,7 @@
 </head>
 <body>
 <div id="wrap" class="sub01">
+
 	<!-- header  -->
 	<?php include("header.php"); ?>
 	<!-- //header -->

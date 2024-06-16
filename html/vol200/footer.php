@@ -22,8 +22,6 @@
 	</footer>
 	<!-- //footer -->
 
-
-
 	
 
 	<!-- mpage ctrl -->

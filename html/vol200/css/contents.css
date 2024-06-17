@@ -846,8 +846,9 @@
 
 
 @media only all and (max-width:767px) {
-	.sub06 .section01 { height: 275px; }
-	.sub06 .section01 .content { text-align: center; margin-bottom: 0px; color: #fff; }
+	.sub06 .section01 { height: 275px; position: relative; }
+	.sub06 .section01::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); }
+	.sub06 .section01 .content { position: relative; z-index: 1; text-align: center; margin-bottom: 0px; color: #fff; }
 	.sub06 .section01 .content .title { font-size: 20px; font-weight: 700; }
 
 	.sub06 .section02 { margin: 50px auto; padding:0 20px; }
@@ -1265,7 +1266,9 @@
 @media only all and (max-width:375px) {
 	.sub11 .section01 { padding: 43px 20px 0; }
 	.sub11 .section02 { padding: 0 20px 50px; }
-	.sub11 .section02 .content .text_area .text_box2 { background: url(../img/sub11/sub11_02_mo.svg); background-repeat: no-repeat; background-size: contain; text-align: left; padding: 20px 5px; }
+	.sub11 .section02 .content .text_area .text_box2 { background: url(../img/sub11/sub11_02_mo.svg); background-repeat: no-repeat; background-size: cover; text-align: left; }
+	.sub11 .section02 .content .text_area .text_box2 p { line-height: 1.3em; max-width: 274px; width: 100%; }
+	.sub11 .section02 .content .text_area .text_box2 span { line-height: 1.35em; max-width: 274px; width: 100%; font-size: 17px; padding-bottom: 2px; }
 }
 
 /* 이벤트3 */

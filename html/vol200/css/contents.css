@@ -892,11 +892,11 @@
 	.sub06 .section04 .content .item4 div { font-size: 17px; line-height: 32px; width: 100%; padding: 0.25em 0; }
 }
 
-@media only all and (max-width:460px) {
+/* @media only all and (max-width:460px) {
 	.sub06 .section02 .content .subtitle { font-size: 18px; letter-spacing: -1px; }
 	.sub06 .section02 .content .title { font-size: 30px; letter-spacing: -1px; }
 	.sub06 .section02 .content .line { margin: 30px 0 20px 0; }
-}
+} */
 
 /* 키워드로 보는 세상 */
 .sub07 #contents { position: relative; padding: 0; }

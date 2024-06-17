@@ -98,6 +98,18 @@
     window.onload = controlSendEnd;
 </script>
 
+<script>
+	// scroll event
+	$(window).scroll(function(){
+		var st = $(this).scrollTop();
+		var evTop = $('.gift').offset().top - 500;
+
+		if(st>=evTop){
+			$('.gift > img').addClass('on');
+		}
+	});
+</script>
+
 <!-- footer -->
 	<?php include("footer.php"); ?>
 	<!-- //footer -->

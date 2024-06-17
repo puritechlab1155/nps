@@ -308,7 +308,7 @@
 	.sub_title { font-size:22px; letter-spacing: -0.3px; color:#ff80c6; margin-bottom: 30px; font-weight: 600; }
 	.sub_title img { margin-right:5px; margin-bottom: 0px; width:25px;}
 
-	#footer { padding: 44px 0; }
+	#footer { padding: 44px 0 0; }
 	#footer .footer_container { width: 100%; margin: 0 auto; padding: 0 10px 57px; }
 	#footer .footer_container .footer_logo {margin:0px; width: 100%; }
 	#footer .footer_container .footer_logo .logo {display:inline-block;width:180px;height:56px;background:url("../img/nps_footer_logo.png") no-repeat 50% 50%; background-size: contain; text-indent:-9999px;overflow:hidden;}
@@ -1264,8 +1264,8 @@
 
 @media only all and (max-width:375px) {
 	.sub11 .section01 { padding: 43px 20px 0; }
-	.sub11 .section02 { padding: 0 20px; }
-	.sub11 .section02 .content .text_area .text_box2 { background: url(../img/sub11/sub11_02_mo.svg); background-repeat: no-repeat; background-size: contain; text-align: left; }
+	.sub11 .section02 { padding: 0 20px 50px; }
+	.sub11 .section02 .content .text_area .text_box2 { background: url(../img/sub11/sub11_02_mo.svg); background-repeat: no-repeat; background-size: contain; text-align: left; padding: 20px 5px; }
 }
 
 /* 이벤트3 */
@@ -1318,7 +1318,7 @@
 	.sub12 .section02 .content .date_area .top br { display: block; }
 
 	.sub12 .section02 .content .quiz { margin: 0; }
-	.sub12 .section02 .content .quiz .text_box { top: 107px; padding: 0 22px 0 23px; text-align: left;}
+	.sub12 .section02 .content .quiz .text_box { top: 107px; padding: 0 22px 0 23px; text-align: left; line-height: 1.25em; }
 	.sub12 .section02 .content .quiz .text_box br { display: none; }
 
 	.sub12 .section02 .content .button { display: flex; gap: 20px; margin: 35px 0;  }

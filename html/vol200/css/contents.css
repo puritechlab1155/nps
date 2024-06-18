@@ -968,9 +968,9 @@
 .sub08 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub08/sub08_01.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; }
 .sub08 .section01 .content { text-align: center; margin-bottom: 20px; font-size: 27px; color: #333; font-weight: 700; }
 
-.sub08 .section02 { position: relative; display: flex; width: 100%; max-width: 1020px; margin: 150px auto; padding:0 20px;   }
+.sub08 .section02 { position: relative; display: flex; width: 100%; max-width: 1020px; margin: 120px auto; padding:0 20px;   }
 .sub08 .section02 .col1 { width: 45%; float: left; }
-.sub08 .section02 .col1 .subtitle { font-size: 24px; font-weight: 700; color: #706ee0; letter-spacing: -0.3px; line-height: 1.2; margin-bottom: 10px; }
+.sub08 .section02 .col1 .subtitle { font-size: 24px; font-weight: 700; color: #70C6F3; letter-spacing: -0.3px; line-height: 1.2; margin-bottom: 10px; }
 .sub08 .section02 .col1 .title { font-size: 50px; font-weight: 900; color: #222; letter-spacing: -0.3px; line-height: 1.2; margin-bottom: 30px;}
 .sub08 .section02 .col1 .headcopy { font-size: 23px; font-weight: 700; color: #222; letter-spacing: -0.3px; line-height: 38px; }
 .sub08 .section02 .col1 .subcopy { font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; }

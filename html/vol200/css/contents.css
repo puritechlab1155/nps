@@ -968,26 +968,47 @@
 .sub08 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub08/sub08_01.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; }
 .sub08 .section01 .content { text-align: center; margin-bottom: 20px; font-size: 27px; color: #333; font-weight: 700; }
 
-.sub08 .section02 { position: relative; display: flex; width: 100%; max-width: 1020px; margin: 120px auto; padding:0 20px;   }
-.sub08 .section02 .col1 { width: 45%; float: left; }
-.sub08 .section02 .col1 .subtitle { font-size: 24px; font-weight: 700; color: #70C6F3; letter-spacing: -0.3px; line-height: 1.2; margin-bottom: 10px; }
-.sub08 .section02 .col1 .title { font-size: 50px; font-weight: 900; color: #222; letter-spacing: -0.3px; line-height: 1.2; margin-bottom: 30px;}
-.sub08 .section02 .col1 .headcopy { font-size: 23px; font-weight: 700; color: #222; letter-spacing: -0.3px; line-height: 38px; }
-.sub08 .section02 .col1 .subcopy { font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; }
-.sub08 .section02 .col1 .line { margin: 50px 0; border-bottom: 1px solid #333;  }
-.sub08 .section02 .col2 { width: 45%; float: right; }
+.sub08 .section02 { position: relative; display: block; width: 100%; max-width: 1020px; margin: 120px auto 100px; padding:0 20px;   }
+.sub08 .section02 .content { position: relative; width: 100%; max-width: 980px; margin-bottom:100px; text-align: center;}
+.sub08 .section02 .subtitle { font-size: 24px; font-weight: 700; color: #70C6F3; letter-spacing: -0.3px; line-height: 1.2; margin-bottom: 10px; }
+.sub08 .section02 .title { font-size: 50px; font-weight: 700; color: #000; letter-spacing: -0.3px; line-height: 1.2; margin-bottom: 30px;}
+.sub08 .section02 .headcopy { font-size: 23px; font-weight: 700; color: #000; text-align:left; -0.3px; line-height: 38px; }
+.sub08 .section02 .subcopy { font-size: 18px; font-weight: 400; color: #000; margin: 98px auto 36px; text-align:left; -0.3px; line-height: 32px; }
+.sub08 .section02 .subcopy b { font-family: LaundryGothicOTF; font-size: 23px; font-weight: 700;  color: #70C6F3; letter-spacing: -0.3px; line-height: 32px; }
+.sub08 .section02 .line { margin: 30px 0 35px 0; border-bottom: 1px solid #000;  }
+.sub08 .section02  { width: 100%; }
 
-.sub08 .section03 { position: relative; display: flex; background:#c681ea }
-.sub08 .section03 .content { width: 100%; max-width: 1020px; margin: 100px auto; padding:0 20px;  }
+.sub08 .section03 { position: relative; display: flex; background:#fff }
+.sub08 .section03 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding:0 20px;  }
+
+.sub08 .section03 .content .all_col {margin : 32px auto; display:flex; justify-content: center; align-items: center;}
+
+.sub08 .section03 .content .col1 {width: 33.3%;} 
+.sub08 .section03 .content .col1 .arm_foot_img { width: 300px; max-width: 300px;}
+.sub08 .section03 .content .col1 .circle_img { width: 300px; max-width: 300px; height:41px;  margin:28px auto 20px; align-items: left;}
+.sub08 .section03 .content .col1 .item_text { color: #000; font-size: 16px; font-style: normal; font-weight: 400; line-height: 25px;}
+
+.sub08 .section03 .content .col2 {width: 33.3%; margin: 0 40px;}
+.sub08 .section03 .content .col2 .men1_img { width: 100%; max-width: 300px; }
+.sub08 .section03 .content .col2 .circle_img { width: 100%; max-width: 300px; height:41px;  margin:28px auto 20px; align-items: left;}
+.sub08 .section03 .content .col2 .item_text { color: #000; font-size: 16px; font-style: normal; font-weight: 400; line-height: 25px;}
+
+.sub08 .section03 .content .col3 {width: 33.3%;}
+.sub08 .section03 .content .col3 .men2_img { width: 100%; max-width: 300px; }
+.sub08 .section03 .content .col3 .circle_img { width: 100%; max-width: 300px; height:41px;  margin:28px auto 20px; align-items: left;}
+.sub08 .section03 .content .col3 .item_text { color: #000; font-size: 16px; font-style: normal; font-weight: 400; line-height: 25px;}
+
+.sub08 .section03 .subcopy { font-size: 18px; font-weight: 400; color: #000; text-align:left; -0.3px; line-height: 32px; }
+.sub08 .section03 .subcopy b { font-family: LaundryGothicOTF; font-size: 23px; font-weight: 700; margin-bottom: 23px; color: #70C6F3; margin: color: #70C6F3;  letter-spacing: -0.3px; line-height: 32px; }
 .sub08 .section03 .content .title { width: 100%; max-width: 370px; margin: 0 auto; }
 .sub08 .section03 .content .item1 { border-bottom: 1px solid #fff; display: inline-block; }
 .sub08 .section03 .content .item2 { border-bottom: 1px solid #fff; display: inline-block; }
 .sub08 .section03 .content .item1 li { width: 50%; float: left; height: 680px; }
 .sub08 .section03 .content .item2 li { width: 50%; float: left; height: 720px; }
 .sub08 .section03 .content .item3 li { width: 50%; float: left; height: 740px; }
-.sub08 .section03 .content .female_img { width: 100%; max-width: 380px; position: absolute; bottom: 0; }
-.sub08 .section03 .content li { display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative; }
-.sub08 .section03 .content li .circle_img { width: 370px; height: 370px; border-radius: 50%;  overflow: hidden; display: flex; justify-content: center; align-items: center; background:#fff; padding-top: 60px; margin: 50px 0 0 0; }
+
+.sub08 .section03 .content .col1 li { display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative; }
+.sub08 .section03 .content li .circle_img { width: 300px; height: 41px; border-radius: 45%; display: block;  padding-top: 20px; margin: 0 auto 20px; }
 .sub08 .section03 .content li .circle_img img { max-width: 100%; max-height: 100%; }
 .sub08 .section03 .content li .item_title.line01{ background-color: #706ee0; color: #fff; padding: 3px 5px; text-align: center; font-size: 25px; font-weight: 700; letter-spacing: -0.3px; line-height: 25px; margin-top: -40px; }
 .sub08 .section03 .content li .item_title.line02{ background-color: #706ee0; color: #fff; padding: 3px 5px; text-align: center; font-size: 25px; font-weight: 700; letter-spacing: -0.3px; line-height: 25px; }

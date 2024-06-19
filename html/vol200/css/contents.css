@@ -1089,6 +1089,7 @@
 .sub09 .section01 .content .text { font-size: 16px; font-weight: 400; padding: 13px 0; }
 
 .sub09 .section02 { position: relative; display: flex; width: 100%; max-width: 980px; margin: 119px auto 102px; }
+.sub09 .section02 .content .subtitle { color: #148c26; font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; }
 .sub09 .section02 .content01 { width: 100%;}
 .sub09 .section02 .content01 .subtitle_top { color: #148c26; font-size: 24px; font-weight: 700; text-align: center; }
 .sub09 .section02 .content01 .title { font-size: 50px; font-weight: 700; line-height: 68px; padding-bottom: 30px; border-bottom: 1px solid #000; text-align: center; }

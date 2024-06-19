@@ -216,7 +216,7 @@ a:hover {color:#F6A13C;text-decoration:none;}
 #footer .footer_container .sns_group .youtube {background:#fff url('../../../img/common/ico_youtube.png') no-repeat 50% 50%;}
 #footer .footer_container .sns_group .navertv {background:#fff url('../../../img/common/ico_navertv.png') no-repeat 50% 50%;}
 #footer .footer_container .sns_group .blog {background:#fff url('../../../img/common/ico_blog.png') no-repeat 50% 50%;}
-#footer .footer_container .address { flex-basis: 472px; margin-top:0;font-size:14px;font-weight:500;color:#333;line-height:21px; width: 50%; text-align: left;}
+#footer .footer_container .address { flex-basis: 472px; margin-top: 0; font-size:14px; font-weight: 500; color: #000; line-height: normal; width: 50%; text-align: left;}
 @media only all and (max-width:767px) {
     #footer .footer_container { padding:44px 0 57px; flex-direction: column; gap: 13px; }
     #footer .footer_container .footer_logo { margin-right: 0; flex-basis: 45px; }

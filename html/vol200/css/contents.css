@@ -313,7 +313,7 @@
 	#footer .footer_container .footer_logo {margin:0px; width: 100%; }
 	#footer .footer_container .footer_logo .logo {display:inline-block;width:180px;height:56px;background:url("../img/nps_footer_logo.png") no-repeat 50% 50%; background-size: contain; text-indent:-9999px;overflow:hidden;}
 	#footer .footer_container .sns_group { display: inline-flex; vertical-align:middle; width: 100%; text-align: center; }
-	#footer .footer_container .address { font-size: 12px; font-weight: 500; color: #333; line-height:1.2; width: 100%; text-align: center; }
+	#footer .footer_container .address { font-family:'Noto Sans KR'; font-size: 12px; font-weight: 500; color: #333; line-height: normal; width: 100%; text-align: center; }
 
 	.mpage_ctrl { position: fixed; bottom: 0; left: 0; z-index: 999; background: #000; width: 100vw; height: 45px; align-items: center; }
 	.mpage_ctrl .move { float: left; }
@@ -906,7 +906,7 @@
 .sub07 .section01 .content .title { font-size: 27px; font-weight: 700; }
 .sub07 .section01 .content .cover_text { opacity: 0; padding: 13px 0; font-size: 16px; }
 
-.sub07 .section02 { position: relative; display: block; width: 100%; max-width: 980px; margin: 119px auto 100px; }
+.sub07 .section02 { position: relative; display: block; width: 100%; max-width: 980px; margin: 120px auto 100px; }
 .sub07 .section02 .content { position: relative; width: 100%; max-width: 980px; }
 .sub07 .section02 .content .subtitle_top { color: #6e91e0; font-size: 24px; font-weight: 700; text-align: center;}
 .sub07 .section02 .content .title { font-size: 50px; font-weight: 700; line-height: 68px; padding-bottom: 30px; text-align: center; border-bottom: 1px solid #000; }
@@ -958,11 +958,11 @@
 	.sub07 .section04 .content .img_box { margin: 16px 0; }
 }
 
-@media only all and (max-width:460px) {
+/* @media only all and (max-width:460px) {
 	.sub07 .section02 .content .subtitle { font-size: 18px; }
 	.sub07 .section02 .content .title { font-size: 32px; }
 	.sub07 .section02 .content .title br { display: none;}
-}
+} */
 
 /* 헬스 앤 라이프 */
 .sub08 #contents { position: relative; padding: 0; }
@@ -1083,8 +1083,9 @@
 
 /* 오늘의 레시피 */
 .sub09 #contents { position: relative; padding: 0; }
-.sub09 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub09/sub09_01.jpg'); background-size: cover; background-position: top center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; }
-.sub09 .section01 .content { text-align: center; margin-bottom: 20px; font-size: 27px; color: #fff; font-weight: 700; }
+.sub09 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub09/sub09_01.jpg'); background-size: cover; background-position: center 38%; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; position: relative; }
+.sub09 .section01::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); }
+.sub09 .section01 .content { text-align: center; margin-bottom: 20px; font-size: 27px; color: #fff; font-weight: 700; position: relative; z-index: 1; }
 .sub09 .section01 .content .text { font-size: 16px; font-weight: 400; }
 
 .sub09 .section02 { position: relative; display: flex; width: 100%; max-width: 1020px; margin: 50px auto; padding:0 20px; }

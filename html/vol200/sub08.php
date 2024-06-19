@@ -19,8 +19,9 @@
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="title">헬스 앤 라이프</div>
-				<div class="angle-down"><i class="xi-angle-down-min"></i></div>
-			</div>
+				<div class="angle-down"><i class="xi-angle-down-min"></i></div> 
+				 <div><img src="img/sub08/angle-down.svg" alt="angle img"></div>
+			</div> 
 		</div>
 
 		<div class="section02 wow fadeBigInUp">

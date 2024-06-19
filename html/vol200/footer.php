@@ -22,12 +22,6 @@
 	</footer>
 	<!-- //footer -->
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> parent of d3284fd (Revert "crash")
-	
 
 	<!-- mpage ctrl -->
 	<div class="mpage_ctrl mobile_display">

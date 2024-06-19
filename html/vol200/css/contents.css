@@ -1356,7 +1356,7 @@
 @media only all and (max-width:767px) {
 	.sub12 #contents { padding: 0; }
 	.sub12 .section01 { padding-top: 33px; }
-	.sub12 .section01 .content .text { margin: 44px auto 21px; text-align: left; font-size: 17px; }
+	.sub12 .section01 .content .text { margin: 44px auto 21px; text-align: left; font-size: 17px; line-height: 27px; }
 	.sub12 .section01 .content .text br { display: none; }
 	.sub12 .gift img { padding: 0 24px; width: 100%; max-width: 360px; margin: 0 auto; }
 	.sub12 .section02 { padding: 49px 0 44px; }
@@ -1366,7 +1366,7 @@
 	.sub12 .section02 .content .date_area .top br { display: block; }
 
 	.sub12 .section02 .content .quiz { margin: 0; }
-	.sub12 .section02 .content .quiz .text_box { top: 107px; padding: 0 22px 0 23px; text-align: left; line-height: 1.25em; }
+	.sub12 .section02 .content .quiz .text_box { top: 107px; padding: 0 22px 0 23px; text-align: left; line-height: 27px; }
 	.sub12 .section02 .content .quiz .text_box br { display: none; }
 
 	.sub12 .section02 .content .button { display: flex; gap: 20px; margin: 35px 0;  }
@@ -1375,6 +1375,10 @@
 	.sub12 .section02 .content .button span.end { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
 	.sub12 .section02 .content .info ul { letter-spacing: -0.75px; }
 	
+}
+
+@media only all and (max-width:375px) {
+	.sub12 .section02 .content .quiz .text_box { line-height: 1.25em; }
 }
 
 /* 이벤트4 */
@@ -1527,6 +1531,8 @@
 .sub14 .section01 {position: relative; display: block; width: 100%; max-width: 960px; margin: 0 auto;  padding:0 20px; }
 .sub14 .section01 .content { position: relative; }
 .sub14 .section01 .content .title img { width:100%; }
+.sub14 .section01 .content .sub_img { max-width: 560px; width: 100%; margin: 0 auto 59px; text-align: center; }
+.sub14 .section01 .content .sub_img img { width:100%; }
 .sub14 .section01 .content .text { max-width: 690px; width: 100%; margin: 10px auto 54px auto; color: #684d3c; text-align: center; font-size: 17px; font-weight: 400; line-height: 27px; }
 .sub14 .section01 .content .date_area { max-width: 500px; width: 100%; margin: 23px auto 51px auto; border-top: 0.5px solid #684d3c; border-bottom: 0.5px solid #684d3c; padding: 10px 0; display: flex; color: #000; font-size: 17px; font-weight: 400; flex-direction: column; font-weight: 400; }
 .sub14 .section01 .content .date_area .top br {display: none;}
@@ -1553,6 +1559,8 @@
 	.sub14 section#contents { padding: 53px 0 40px; }
 	.sub14 #contents::before { height: 10%;}
 	.sub14 .section01 .content .title img { transform: scale(1.1); }
+	.sub14 .section01 .content .sub_img { margin: 33px auto 47px; }
+	.sub14 .section01 .content .sub_img img { padding: 0 8px 0 7px; }
 	.sub14 .section01 .content .date_area { display: inline-block; margin: 0 auto 50px; }
 	.sub14 .section01 .content .date_area > div { display: flex; }
 	.sub14 .section01 .content .date_area span { margin-right: 20px; width: 20% }

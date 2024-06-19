@@ -243,12 +243,12 @@
 	#footer .footer_container { width: 100%; margin: 0 auto; padding: 0 50px; }
 	#footer .footer_container .footer_logo { margin-right: 31px; width: 210px; }
 	#footer .footer_container .sns_group { display: inline-flex; }
-	#footer .footer_container .address { font-size: 12px; font-weight: 500; color: #000; width: 50%; float: left; text-align: left; }
+	#footer .footer_container .address { font-family:'Noto Sans KR'; font-size: 14px; font-weight: 500; color: #000; width: 50%; float: left; text-align: left; }
 }
 @media only all and (max-width:1070px) {
 	#footer .footer_container .footer_logo {margin:0px; width: 210px; }
 	#footer .footer_container .sns_group {display:inline-block;vertical-align:middle; width: calc(100% - 240px); float: left; text-align: left; }
-	#footer .footer_container .address { font-size: 12px; font-weight: 500; color: #000; width: 100%; float: left; text-align: left; }
+	#footer .footer_container .address { font-family:'Noto Sans KR'; font-size: 14px; font-weight: 500; color: #000; width: 100%; float: left; text-align: left; }
 }
 @media only all and (max-width:767px) {
 	.angle-down img { width: 16px; }
@@ -1085,10 +1085,11 @@
 .sub09 #contents { position: relative; padding: 0; }
 .sub09 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub09/sub09_01.jpg'); background-size: cover; background-position: center 38%; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; position: relative; }
 .sub09 .section01::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); }
-.sub09 .section01 .content { text-align: center; margin-bottom: 20px; font-size: 27px; color: #fff; font-weight: 700; position: relative; z-index: 1; }
-.sub09 .section01 .content .text { font-size: 16px; font-weight: 400; }
+.sub09 .section01 .content { text-align: center; margin-bottom: 90px; color: #fff; position: relative; z-index: 1; }
+.sub09 .section01 .content .title { font-size: 27px; font-weight: 700; }
+.sub09 .section01 .content .text { font-size: 16px; font-weight: 400; padding: 13px 0; }
 
-.sub09 .section02 { position: relative; display: flex; width: 100%; max-width: 1020px; margin: 50px auto; padding:0 20px; }
+.sub09 .section02 { position: relative; display: flex; width: 100%; max-width: 980px; margin: 119px auto 102px; }
 .sub09 .section02 .content01 { width: 100%;}
 .sub09 .section02 .content01 .subtitle { font-size: 24px; font-weight: 700; color: #1eb239; letter-spacing: -0.3px; line-height: 1.2; text-align: center; }
 .sub09 .section02 .content01 .title { font-size: 50px; font-weight: 900; color: #222; letter-spacing: -0.3px; line-height: 1.2; margin-bottom: 30px; text-align: center; }

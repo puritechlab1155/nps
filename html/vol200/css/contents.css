@@ -313,7 +313,7 @@
 	#footer .footer_container .footer_logo {margin:0px; width: 100%; }
 	#footer .footer_container .footer_logo .logo {display:inline-block;width:180px;height:56px;background:url("../img/nps_footer_logo.png") no-repeat 50% 50%; background-size: contain; text-indent:-9999px;overflow:hidden;}
 	#footer .footer_container .sns_group { display: inline-flex; vertical-align:middle; width: 100%; text-align: center; }
-	#footer .footer_container .address { font-family:'Noto Sans KR'; font-size: 12px; font-weight: 500; color: #333; line-height: normal; width: 100%; text-align: center; }
+	#footer .footer_container .address { font-family:'Noto Sans KR'; font-size: 12px; font-weight: 500; color: #000; line-height: normal; width: 100%; text-align: center; }
 
 	.mpage_ctrl { position: fixed; bottom: 0; left: 0; z-index: 999; background: #000; width: 100vw; height: 45px; align-items: center; }
 	.mpage_ctrl .move { float: left; }
@@ -832,9 +832,8 @@
 .sub06 .section04 .content .item2 .conts .credit_info { display: flex; flex-wrap: wrap; justify-content: center; }
 .sub06 .section04 .content .item2 .conts .credit_info .info_text { flex-basis: 340px; box-sizing: border-box; }
 .sub06 .section04 .content .item2 .conts .credit_info .info_text:nth-child(1) { position: relative; padding-right: 16px; border-right: 1px solid #888; margin-bottom: 16px; }
-.sub06 .section04 .content .item2 .conts .credit_info .info_text:nth-child(1)::after { content: ''; width: 100%; height: 1px; background: #888; position: absolute; left: 0; bottom: -16px; }
+.sub06 .section04 .content .item2 .conts .credit_info .info_text:nth-child(1)::after { content: ''; width: 100%; height: 1px; background: #888; transform: scaleX(2) translateX(25%); position: absolute; left: 0; bottom: -16px; }
 .sub06 .section04 .content .item2 .conts .credit_info .info_text:nth-child(2) { position: relative; padding-left: 16px; margin-bottom: 16px; }
-.sub06 .section04 .content .item2 .conts .credit_info .info_text:nth-child(2)::after { content: ''; width: 100%; height: 1px; background: #888; position: absolute; left: 0; bottom: -16px; }
 .sub06 .section04 .content .item2 .conts .credit_info .info_text:nth-child(3) { padding-right: 16px; border-right: 1px solid #888; margin-top: 16px; }
 .sub06 .section04 .content .item2 .conts .credit_info .info_text:nth-child(4) { padding-left: 16px; margin-top: 16px; }
 .sub06 .section04 .content .item2 .conts .credit_info .info_text span { position: relative; color: #ef9ae3; font-family: 'laundrygothic'; font-size: 20px; font-weight: 700; line-height: 50px; padding-left: 41px; margin-left: 4px; }
@@ -1082,7 +1081,7 @@
 }
 
 /* 오늘의 레시피 */
-.sub09 #contents { position: relative; padding: 0; }
+.sub09 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; color: #000; }
 .sub09 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub09/sub09_01.jpg'); background-size: cover; background-position: center 38%; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; position: relative; }
 .sub09 .section01::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); }
 .sub09 .section01 .content { text-align: center; margin-bottom: 90px; color: #fff; position: relative; z-index: 1; }
@@ -1091,12 +1090,10 @@
 
 .sub09 .section02 { position: relative; display: flex; width: 100%; max-width: 980px; margin: 119px auto 102px; }
 .sub09 .section02 .content01 { width: 100%;}
-.sub09 .section02 .content01 .subtitle { font-size: 24px; font-weight: 700; color: #1eb239; letter-spacing: -0.3px; line-height: 1.2; text-align: center; }
-.sub09 .section02 .content01 .title { font-size: 50px; font-weight: 900; color: #222; letter-spacing: -0.3px; line-height: 1.2; margin-bottom: 30px; text-align: center; }
-.sub09 .section02 .content01 .headcopy { font-size: 23px; font-weight: 700; color: #222; letter-spacing: -0.3px; line-height: 38px; text-align: center; }
-.sub09 .section02 .content01 .subcopy { font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; margin-bottom:50px;  }
-.sub09 .section02 .content01 .subcopy b { color: #1eb239; font-family:'RundigodicB'; margin-bottom:20px; }
-.sub09 .section02 .content01 .line { margin: 50px 0; border-bottom: 1px solid #333;  }
+.sub09 .section02 .content01 .subtitle_top { color: #148c26; font-size: 24px; font-weight: 700; text-align: center; }
+.sub09 .section02 .content01 .title { font-size: 50px; font-weight: 700; line-height: 68px; padding-bottom: 30px; border-bottom: 1px solid #000; text-align: center; }
+.sub09 .section02 .content01 .subcopy { font-size: 20px; font-weight: 700; line-height: 32px; margin-top: 35px; }
+
 .sub09 .section02 .content02 { position: relative; width: 100%; margin-bottom:50px; }
 .sub09 .section02 .content03 { margin-bottom:100px;}
 .sub09 .section02 .content03 .text { font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; }

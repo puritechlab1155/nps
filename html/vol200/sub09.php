@@ -28,16 +28,14 @@
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
 				<div class="content01 fadeBigInUp">
-					<div class="subtitle">입속에서 알알이 터지는 여름 간식 옥수수</div>
-					<div class="title">언제 먹어도 든든한<br>‘옥수수 크림 스프’ 레시피</div>
-					<div class="headcopy">
+					<div class="subtitle_top">입속에서 알알이 터지는 여름 간식 옥수수</div>
+					<div class="title pc_display">언제 먹어도 든든한<br>‘옥수수 크림 스프’ 레시피</div>
+					<div class="title mobile_display">언제 먹어도 든든한<br>‘옥수수 크림 스프’<br> 레시피</div>
+					<div class="subcopy">
 						때이른 무더위에 입맛은 뚝 떨어지고 기력은 도무지 되살아날 기미가 보이지 않는다. 이럴 때 입에 착착 감기는 제철 식재료 옥수수가 필요하다. 여름의 시작부터 끝까지 다양한 모습으로 변모하며 우리 밥상을 수놓는 옥수수를 소개한다.
 					</div>
-					<div class="line"></div>
-					<div class="subcopy">
-						멕시코의 옥수수 사랑
-					</div>
 				</div>
+				<div class="subitle">멕시코의 옥수수 사랑</div>
 				<div class="content02 fadeBigInUp"><img src="img/sub09/sub09_02.jpg"></div>
 				<div class="content03 fadeBigInUp">
 					<div class="text">옥수수를 이야기하는데 뜬금없이 멕시코가 나온다고 생각할 수 있지만, 옥수수와 멕시코는 떼려야 뗄 수 없는 관계다. 옥수수의 최초 탄생이 멕시코와 연결돼 있기 때문이다. <br>

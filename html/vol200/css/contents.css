@@ -900,46 +900,37 @@
 
 /* 키워드로 보는 세상 */
 .sub07 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; color: #000; }
+
 .sub07 .section01 { height: 550px; width: 100%;  background: #d8f7fa url('../img/sub07/sub07_00.svg'); background-size: contain; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; }
 .sub07 .section01 .content { text-align: center; margin-bottom: 73px; }
 .sub07 .section01 .content .title { font-size: 27px; font-weight: 700; }
-.sub07 .section01 .content .text { opacity: 0; padding: 13px 0; }
+.sub07 .section01 .content .cover_text { opacity: 0; padding: 13px 0; }
 
 .sub07 .section02 { position: relative; display: block; width: 100%; max-width: 980px; margin: 119px auto 100px; }
 .sub07 .section02 .content { position: relative; width: 100%; max-width: 980px; }
-.sub07 .section02 .content .subtitle { color: #6e91e0; font-size: 24px; font-weight: 700; text-align: center;}
+.sub07 .section02 .content .subtitle_top { color: #6e91e0; font-size: 24px; font-weight: 700; text-align: center;}
 .sub07 .section02 .content .title { font-size: 50px; font-weight: 700; line-height: 68px; padding-bottom: 30px; text-align: center; border-bottom: 1px solid #000; }
 .sub07 .section02 .content .subcopy { font-size: 20px; font-weight: 700; line-height: 32px; margin-top: 35px; }
 
+.sub07 .content .subtitle { font-family: 'laundrygothic'; font-size: 23px;font-weight: 700; line-height: 32px; text-align: left; color:#6e91e0; }
+.sub07 .content .text { font-size: 18px; font-weight: 400; line-height: 32px; }
+
 .sub07 .section03 { position: relative; width: 100%; display: block; }
 .sub07 .section03 .content { width: 100%; max-width: 980px; margin: 0 auto;  }
-.sub07 .section03 .content .subtitle { font-family: 'Rundigodic'; font-size: 23px; letter-spacing: -0.3px; line-height: 32px; text-align: left; color:#6172e8; }
-.sub07 .section03 .content .text { font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; margin: 30px 0 50px 0;}
-.sub07 .section03 .content .card-img { display: inline-block; padding: 0px; }
-.sub07 .section03 .content .card-img li { width: 48%; float: left; position: relative; text-align: center; margin: 1%; }
-.sub07 .section03 .content .card-img li img { width: 100%; max-width: 475px; }
+.sub07 .section03 .content .second_st { padding-top: 70px; }
+.sub07 .section03 .content .card-img { width: 100%; max-width: 980px; padding: 0; margin: 20px 0 70px; }
+.sub07 .section03 .content .card-img ul { width: 100%; display: flex; flex-wrap: wrap; gap: 36px; }
+.sub07 .section03 .content .card-img li { width: 100%; max-width: 472px; position: relative; text-align: center; }
+.sub07 .section03 .content .card-img li img { width: 100%; }
 .sub07 .section03 .content .card-img li .basic { width: 100%; height: 100%; }
 .sub07 .section03 .content .card-img li .hover { position: absolute; top: 0; left: 0; opacity: 0; transition: opacity 0.3s ease, transform 0.3s ease; transform-origin: center; width: 100%; height: 100%; }
 .sub07 .section03 .content .card-img li:hover .hover { opacity: 1; transform: scaleX(-1); }
 .sub07 .section03 .content .card-img li .hover img { width: 100%; height: 100%; object-fit: cover; }
 
-.sub07 .section04 { position: relative; width: 100%; display: block; }
-.sub07 .section04 .content { width: 100%; max-width: 1020px; margin: 50px auto; padding:0 20px;  }
-.sub07 .section04 .content .subtitle { font-family: 'Rundigodic'; font-size: 23px; letter-spacing: -0.3px; line-height: 32px; text-align: left; color:#6172e8; }
-.sub07 .section04 .content .text { font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; margin: 30px 0 50px 0;}
-.sub07 .section04 .content .img {  width: 100%; max-width: 100%; }
-
-.sub07 .section05 { position: relative; width: 100%; display: block; }
-.sub07 .section05 .content { width: 100%; max-width: 1020px; margin: 50px auto 100px auto; padding:0 20px;  }
-.sub07 .section05 .content .subtitle { font-family: 'Rundigodic'; font-size: 23px; letter-spacing: -0.3px; line-height: 32px; text-align: left; color:#6172e8; }
-.sub07 .section05 .content .text { font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; margin: 30px 0 50px 0;}
-
-.sub07 .section06 { position: relative; width: 100%; display: block; }
-.sub07 .section06 .content { width: 100%; max-width: 1020px; margin: 50px auto 150px auto; padding:0 20px;  }
-.sub07 .section06 .content .subtitle { font-family: 'Rundigodic'; font-size: 23px; letter-spacing: -0.3px; line-height: 32px; text-align: left; color:#6172e8; }
-.sub07 .section06 .content .text { font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; margin: 30px 0 50px 0;}
-.sub07 .section06 .content .img {  width: 100%; max-width: 100%; text-align: center; }
-.sub07 .section06 .content .img img {  width: 100%; max-width: 740px; }
+.sub07 .section04 { position: relative; width: 100%; display: block; padding-bottom: 120px; }
+.sub07 .section04 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding:0 20px;  }
+.sub07 .section04 .content .text { letter-spacing: normal; }
+.sub07 .section04 .content .img_box { margin: 64px 0; }
 
 @media only all and (max-width:767px) {
 	.sub07 .section01 { height: 275px; }

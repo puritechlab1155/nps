@@ -230,7 +230,7 @@
 .pc_display { display:block!important; }
 .mobile_display { display:none!important; }
 
-.angle-down { font-size: 3rem; }
+.angle-down img { padding: 10px 0; }
 
 @media only all and (max-width:1500px) {
 	.main_section1 { width: 100%; margin: 0 auto; padding: 0 20px; }
@@ -902,7 +902,7 @@
 .sub07 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; color: #000; }
 
 .sub07 .section01 { height: 550px; width: 100%;  background: #d8f7fa url('../img/sub07/sub07_00.svg'); background-size: contain; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; }
-.sub07 .section01 .content { text-align: center; margin-bottom: 73px; }
+.sub07 .section01 .content { text-align: center; margin-bottom: 90px; }
 .sub07 .section01 .content .title { font-size: 27px; font-weight: 700; }
 .sub07 .section01 .content .cover_text { opacity: 0; padding: 13px 0; }
 

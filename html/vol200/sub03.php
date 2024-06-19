@@ -19,7 +19,7 @@
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="title">M&Z일상수다</div>
-				<div class="angle-down"><i class="xi-angle-down-min"></i></div>
+				<div class="angle-down"><img src="../../img/common/ico_angle_down_wh.svg"></div>
 			</div>
 		</div>
 

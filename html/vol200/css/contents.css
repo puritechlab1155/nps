@@ -251,7 +251,7 @@
 	#footer .footer_container .address { font-size: 12px; font-weight: 500; color: #000; width: 100%; float: left; text-align: left; }
 }
 @media only all and (max-width:767px) {
-	.angle-down { font-size: 1rem; }
+	.angle-down img { width: 16px; }
 	.main_section1 { width: 100%; margin: 0 auto; padding: 0 20px; }
 	.main_section1 .main_slider1 { overflow: hidden; width: 100%; }
 	.main_section1 .ctrl_wrap { padding:10px 0 25px 0; text-align: center; }
@@ -904,7 +904,7 @@
 .sub07 .section01 { height: 550px; width: 100%;  background: #d8f7fa url('../img/sub07/sub07_00.svg'); background-size: contain; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; }
 .sub07 .section01 .content { text-align: center; margin-bottom: 90px; }
 .sub07 .section01 .content .title { font-size: 27px; font-weight: 700; }
-.sub07 .section01 .content .cover_text { opacity: 0; padding: 13px 0; }
+.sub07 .section01 .content .cover_text { opacity: 0; padding: 13px 0; font-size: 16px; }
 
 .sub07 .section02 { position: relative; display: block; width: 100%; max-width: 980px; margin: 119px auto 100px; }
 .sub07 .section02 .content { position: relative; width: 100%; max-width: 980px; }
@@ -928,23 +928,34 @@
 .sub07 .section03 .content .card-img li .hover img { width: 100%; height: 100%; object-fit: cover; }
 
 .sub07 .section04 { position: relative; width: 100%; display: block; padding-bottom: 120px; }
-.sub07 .section04 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding:0 20px;  }
+.sub07 .section04 .content { width: 100%; max-width: 980px; margin: 0 auto; }
 .sub07 .section04 .content .text { letter-spacing: normal; }
 .sub07 .section04 .content .img_box { margin: 64px 0; }
 
 @media only all and (max-width:767px) {
-	.sub07 .section01 { height: 275px; }
-	.sub07 .section01 .content { text-align: center; margin-bottom: 0px; color: #fff; }
-	.sub07 .section01 .content .title { font-size: 20px; font-weight: 700; text-align: center;}
+	.sub07 .section01 { height: 275px; background: #d8f7fa url(../img/sub07/sub07_00_mo.svg); background-repeat: no-repeat; background-position: center 25%; background-size: 356px 213px; }
+	.sub07 .section01 .content { margin-bottom: 20px; }
+	.sub07 .section01 .content .title { font-size: 20px; text-align: center;}
+	.sub07 .section01 .content .cover_text { padding: 0; }
 
-	.sub07 .section02 { position: relative; display: block; width: 100%; margin: 50px auto; padding:0 20px; }
-	.sub07 .section02 .content .title { font-size: 42px; }
-	.sub07 .section02 .content .subcopy { font-size: 18px; line-height: 27px; }
+	.sub07 .section02 { margin: 50px auto 36px; padding:0 20px; }
+	.sub07 .section02 .content .subtitle_top { line-height: 30px; }
+	.sub07 .section02 .content .title { font-size: 36px; line-height: 48px; padding: 8px 0 35px; }
+	.sub07 .section02 .content .subcopy { font-size: 18px; line-height: 29px; }
 
-	.sub07 .section03 .content .card-img li { width: 100%; float: left; padding: 10px; position: relative; text-align: center; }
-	.sub07 .section03 .content .card-img li img { width: 100%; max-width: 475px; }
+	.sub07 .content .subtitle { font-size: 16px; line-height: 28px; }
+	.sub07 .content .text { font-size: 16px; line-height: 28px; }
 
-	.sub07 .section06 .content .img img {  width: 100%; max-width: 100%; margin: 0.5%; }
+	.sub07 .section03 { padding: 0 20px; }
+	.sub07 .section03 .content .second_st { padding-top: 24px; }
+	.sub07 .section03 .content .card-img { margin: 16px 0 24px; }
+	.sub07 .section03 .content .card-img ul { gap: 27px; flex-wrap: nowrap; flex-direction: column; }
+	.sub07 .section03 .content .card-img li { width: 100%; }
+	.sub07 .section03 .content .card-img li img { width: 100%; }
+
+	.sub07 .section04 { padding-bottom: 50px; }
+	.sub07 .section04 .content { width: 100%; padding: 0 20px; margin: 0 auto; }
+	.sub07 .section04 .content .img_box { margin: 16px 0; }
 }
 
 @media only all and (max-width:460px) {

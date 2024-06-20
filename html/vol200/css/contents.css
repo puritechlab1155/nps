@@ -853,7 +853,7 @@
 @media only all and (max-width:767px) {
 	.sub06 .section01 { height: 275px; position: relative; }
 	.sub06 .section01::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); }
-	.sub06 .section01 .content { position: relative; z-index: 1; text-align: center; margin-bottom: 22px; color: #fff; }
+	.sub06 .section01 .content { position: relative; z-index: 1; text-align: center; margin-bottom: 12px; color: #fff; }
 	.sub06 .section01 .content .title { font-size: 20px; font-weight: 700; }
 	.sub06 .section01 .content .text { padding: 0; }
 
@@ -938,9 +938,9 @@
 
 @media only all and (max-width:767px) {
 	.sub07 .section01 { height: 275px; background: #d8f7fa url(../img/sub07/sub07_00_mo.svg); background-repeat: no-repeat; background-position: center 9px; background-size: auto; }
-	.sub07 .section01 .content { margin-bottom: 22px; }
+	.sub07 .section01 .content { margin-bottom: 12px; }
 	.sub07 .section01 .content .title { font-size: 20px; text-align: center;}
-	.sub07 .section01 .content .cover_text { padding: 0; font-size: 10px; }
+	.sub07 .section01 .content .cover_text { padding: 0; height: 23px; }
 
 	.sub07 .section02 { margin: 50px auto 36px; padding:0 20px; }
 	.sub07 .section02 .content .subtitle_top { line-height: 30px; }
@@ -1095,13 +1095,14 @@
 
 .sub09 .section02 { position: relative; display: flex; width: 100%; max-width: 980px; margin: 119px auto 102px; }
 .sub09 .section02 .content .subtitle { color: #148c26; font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; }
+.sub09 .section02 .content .text { font-size: 18px; font-weight: 400; line-height: 32px; }
 .sub09 .section02 .content01 { width: 100%;}
 .sub09 .section02 .content01 .subtitle_top { color: #148c26; font-size: 24px; font-weight: 700; text-align: center; }
 .sub09 .section02 .content01 .title { font-size: 50px; font-weight: 700; line-height: 68px; padding-bottom: 30px; border-bottom: 1px solid #000; text-align: center; }
 .sub09 .section02 .content01 .subcopy { font-size: 20px; font-weight: 700; line-height: 32px; margin-top: 35px; }
 
 .sub09 .section02 .content02 { position: relative; width: 100%; margin: 102px 0 70px; }
-.sub09 .section02 .content02 .img_box {  }
+.sub09 .section02 .content02 .img_box { margin: 30px 0 48px; }
 
 .sub09 .section02 .content03 { margin-bottom:100px;}
 .sub09 .section02 .content03 .text { font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; }

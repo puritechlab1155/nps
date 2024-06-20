@@ -94,31 +94,33 @@
 					<div class="title fadeBigInUp">
 						<img src="img/sub09/sub09_05.png">
 					</div>
-					<div class="item1 fadeBigInUp">
-						<div class="item_title"><img src="img/sub09/sub09_07.svg"></div>
-						<div class="item_text">옥수수 2개, 버터 2조각, 우유 1컵+1/2컵, 생크림 1/2컵, 체다치즈 1장, 파마산 치즈가루 1스푼, 소금, 빠네 빵</div>
-						<div class="item_img"><img src="img/sub09/sub09_08.png"></div>
-					</div>
-					<div class="item2 fadeBigInUp">
-						<div class="item_title"><img src="img/sub09/sub09_09.svg"></div>
-						<div class="item_text">옥수수는 씻어서 칼로 알을 긁어 낸다.</div>
-						<div class="item_img"><img src="img/sub09/sub09_10.png"></div>
-					</div>
-					<div class="item3 fadeBigInUp">
-						<div class="item_title"><img src="img/sub09/sub09_11.svg"></div>
-						<div class="item_text">냄비에 넣은 버터가 녹기 시작하면 옥수수 알을 넣고 볶는다.</div>
-						<div class="item_img"><img src="img/sub09/sub09_12.png"></div>
-					</div>
-					<div class="item4 fadeBigInUp">
-						<div class="item_title"><img src="img/sub09/sub09_13.svg"></div>
-						<div class="item_text">우유, 생크림, 소금을 넣고 한소끔 끓인다.</div>
-						<div class="item_img"><img src="img/sub09/sub09_14.png"></div>
-					</div>
-					<div class="item5 fadeBigInUp">
-						<div class="item_title"><img src="img/sub09/sub09_15.svg"></div>
-						<div class="item_text">체다치즈와 파마산 치즈가루를 넣고 고루 저어가며 마무리한다.</div>
-						<div class="item_img"><img src="img/sub09/sub09_16.png"></div>
-					</div>
+					<ul>
+						<li class="item1 fadeBigInUp">
+							<div class="item_title"><img src="img/sub09/sub09_07.svg"></div>
+							<div class="item_text">옥수수 2개, 버터 2조각, 우유 1컵+1/2컵, 생크림 1/2컵, 체다치즈 1장, 파마산 치즈가루 1스푼, 소금, 빠네 빵</div>
+							<div class="item_img"><img src="img/sub09/sub09_08.png"></div>
+						</li>
+						<li class="item2 fadeBigInUp">
+							<div class="item_title"><img src="img/sub09/sub09_09.svg"></div>
+							<div class="item_text">옥수수는 씻어서 칼로 알을 긁어 낸다.</div>
+							<div class="item_img"><img src="img/sub09/sub09_10.png"></div>
+						</li>
+						<li class="item3 fadeBigInUp">
+							<div class="item_title"><img src="img/sub09/sub09_11.svg"></div>
+							<div class="item_text">냄비에 넣은 버터가 녹기 시작하면 옥수수 알을 넣고 볶는다.</div>
+							<div class="item_img"><img src="img/sub09/sub09_12.png"></div>
+						</li>
+						<li class="item4 fadeBigInUp">
+							<div class="item_title"><img src="img/sub09/sub09_13.svg"></div>
+							<div class="item_text">우유, 생크림, 소금을 넣고 한소끔 끓인다.</div>
+							<div class="item_img"><img src="img/sub09/sub09_14.png"></div>
+						</li>
+						<li class="item5 fadeBigInUp">
+							<div class="item_title"><img src="img/sub09/sub09_15.svg"></div>
+							<div class="item_text">체다치즈와 파마산 치즈가루를 넣고 고루 저어가며 마무리한다.</div>
+							<div class="item_img"><img src="img/sub09/sub09_16.png"></div>
+						</li>
+					</ul>
 				</div>
 			</div>
 

@@ -1180,6 +1180,17 @@
 	.sub09 .section03 .content { margin: 0 auto 35px; padding: 0 20px; }
 	.sub09 .section03 .content .title { margin: 0 auto 33px; }
 	.sub09 .section03 .content .title img { transform: scale(1.05); }
+
+	.sub09 .section03 .content .title .shaking-image{ width: 100%; height: auto; animation: shake 3s infinite;}
+
+	@keyframes shake {
+		0% { transform: translate(0, 0) rotate(0deg); }
+		25% { transform: translate(-5px, 5px) rotate(-5deg); }
+		50% { transform: translate(5px, -5px) rotate(5deg); }
+		75% { transform: translate(-5px, 5px) rotate(-5deg); }
+		100% { transform: translate(0, 0) rotate(0deg); }
+	}  
+	
 	.sub09 .section03 .content .item_title { margin: 29px auto 0; max-width: 47px; }
 	.sub09 .section03 .content .item1 .item_title { margin-top: 0; max-width: 96px; }
 	.sub09 .section03 .content .item2 .item_title { margin-top: 25px; }

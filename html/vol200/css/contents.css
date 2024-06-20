@@ -468,7 +468,7 @@
 .sub03 .section02 .content img:hover {transform: translateY(-5px); box-shadow: 7px 7px #4a4a4a;}
 @media only all and (max-width:767px) {
 	.sub03 .section01 { height: 275px; }
-	.sub03 .section01 .content { text-align: center; margin-bottom: 0px; color: #fff; }
+	/* .sub03 .section01 .content { margin-bottom: 0; } */
 	.sub03 .section01 .content .title { font-size: 20px; font-weight: 700; }
 	.sub03 .section02 { position: relative; display: block; width: 100%; margin: 50px auto 0 auto; }
 	.sub03 .section02 .content { padding: 0 15px; margin-bottom: 20px;}
@@ -896,11 +896,9 @@
 	.sub06 .section04 .content .item4 div { font-size: 17px; line-height: 32px; width: 100%; padding: 0.25em 0; }
 }
 
-/* @media only all and (max-width:460px) {
-	.sub06 .section02 .content .subtitle { font-size: 18px; letter-spacing: -1px; }
-	.sub06 .section02 .content .title { font-size: 30px; letter-spacing: -1px; }
-	.sub06 .section02 .content .line { margin: 30px 0 20px 0; }
-} */
+@media only all and (max-width: 375px) {
+	
+}
 
 /* 키워드로 보는 세상 */
 .sub07 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; color: #000; }

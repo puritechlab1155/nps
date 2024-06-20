@@ -18,7 +18,7 @@
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="title">키워드로 보는 세상</div>
-				<div class="cover_text">참고자료. 도서『트렌드 코리아 2024』</div>
+				<div class="cover_text">-</div>
 				<div class="angle-down"><img src="../../img/common/ico_angle_down.svg"></div>
 			</div>
 		</div>

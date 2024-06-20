@@ -30,7 +30,7 @@
 			<div class="section02 wow fadeBigInUp">
 				<div class="content">
 					<div class="content01 fadeBigInUp">
-						<div class="subtitle_top">입속에서 알알이 터지는 여름 간식 옥수수</div>
+						<div class="subtitle_top">입속에서 알알이 터지는<br class="mobile_display"> 여름 간식 옥수수</div>
 						<div class="title pc_display">언제 먹어도 든든한<br>‘옥수수 크림 스프’ 레시피</div>
 						<div class="title mobile_display">언제 먹어도 든든한<br>‘옥수수 크림 스프’<br> 레시피</div>
 						<div class="subcopy">

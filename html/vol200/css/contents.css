@@ -791,7 +791,7 @@
 }
 
 /* 연금엔씨네마 */
-.sub06 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; }
+.sub06 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; letter-spacing: -2%; }
 .sub06 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub06/sub06_00.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; }
 .sub06 .section01 .content { text-align: center; margin-bottom: 89px; color: #000; }
 .sub06 .section01 .content .title { font-size: 27px; font-weight: 700; }
@@ -929,7 +929,7 @@
 }
 
 /* 키워드로 보는 세상 */
-.sub07 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; color: #000; }
+.sub07 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; color: #000; letter-spacing: -2%; }
 
 .sub07 .section01 { height: 550px; width: 100%;  background: #d8f7fa url('../img/sub07/sub07_00.svg'); background-size: contain; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; }
 .sub07 .section01 .content { text-align: center; margin-bottom: 90px; }
@@ -1115,7 +1115,7 @@
 }
 
 /* 오늘의 레시피 */
-.sub09 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; color: #000; }
+.sub09 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; color: #000; letter-spacing: -2%; }
 .sub09 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub09/sub09_01.jpg'); background-size: cover; background-position: center 38%; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; position: relative; }
 .sub09 .section01::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); }
 .sub09 .section01 .content { text-align: center; margin-bottom: 90px; color: #fff; position: relative; z-index: 1; }
@@ -1152,14 +1152,21 @@
 .sub09 .section03 .content .item_img img { width: 100%; }
 
 /* 레시피 키프레임 */
-.sub09 .section03 .content .title img { animation: item1-move 3s; }
+.sub09 .section03 .content .title.on img { animation: item1-move 1500ms; }
+.sub09 .section03 .content ul li.on .item_img img { animation: top-move 750ms; }
 
 @keyframes item1-move {
 	0%{ transform: translateX(0); }
 	30%{ transform: translateX(10px); }
-	35%{ transform: translateX(5px); }
-	55%{ transform: translateX(30px); }
+	60%{ transform: translateX(-10px); }
 	100%{ transform: translateX(0); }
+}
+@keyframes top-move {
+	0%{ transform: translateY(0); }
+	25%{ transform: translateY(-30px); }
+	50%{ transform: translateY(0); }
+	75%{ transform: translateY(-20px); }
+	100%{ transform: translateY(0); }
 }
 
 @media only all and (max-width:767px) {

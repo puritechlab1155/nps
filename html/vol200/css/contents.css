@@ -1187,9 +1187,9 @@
 
 }
 @media only all and (max-width: 375px) {
-	.sub09 .section02 .content02 .note { background-image: url(../img/sub09/sub09_03_mo.svg); background-repeat: no-repeat; background-size: 100%; margin: 24px 0; box-sizing: border-box; padding: 70px 40px 41px; }
+	.sub09 .section02 .content02 .note { background-image: url(../img/sub09/sub09_03_mo.svg); background-repeat: no-repeat; background-size: 100%; margin: 24px 0; box-sizing: border-box; padding: 65px 30px 23px; }
 	.sub09 .section02 .content02 .note p { font-size: 18px; line-height: 26px; }
-	.sub09 .section02 .content02 .note p span { width: 166px; margin: 0 auto 29px; font-size: 26px; line-height: 25px; }
+	.sub09 .section02 .content02 .note p span { width: 166px; margin: 0 auto 15px; font-size: 26px; line-height: 25px; }
 	.sub09 .section02 .content02 .note p span::before { content: ''; width: 26px; height: 36px; background-image: url(../img/sub09/sub09_03_1.svg); background-repeat: no-repeat; background-size: contain; position: absolute; left: 0; top: 50%; transform: translateY(-50%); }
 	.sub09 .section02 .content02 .note p span::after { content: ''; width: 26px; height: 36px; background-image: url(../img/sub09/sub09_03_1.svg); background-repeat: no-repeat; background-size: contain; position: absolute; right: 0; top: 50%; transform: translateY(-50%); }
 }

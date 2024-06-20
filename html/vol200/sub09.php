@@ -94,6 +94,16 @@
 					<div class="title fadeBigInUp">
 						<img src="img/sub09/sub09_05.png">
 					</div>
+					<script>
+						$(window).scroll(function(){
+							var st = $(this).scrollTop();
+							var titTop = $('.section03 .content .title').offset().top() - 500;
+
+							if(st >= titTop){
+								$('.section03 .content .title').addClass('on');
+							}
+						});
+					</script>
 					<ul>
 						<li class="item1 fadeBigInUp">
 							<div class="item_title"><img src="img/sub09/sub09_07.svg"></div>

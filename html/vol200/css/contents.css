@@ -1133,21 +1133,13 @@
 .sub09 .section03 .content .item_img img { width: 100%; }
 
 /* 레시피 키프레임 */
-.sub09 .section03 .content .title.on img { animation: item1-move 1500ms; }
-.sub09 .section03 .content ul li.on .item_img img { animation: top-move 750ms; }
+.sub09 .section03 .content .title.on img { animation: title-move 1500ms; }
 
-@keyframes item1-move {
+@keyframes title-move {
 	0%{ transform: translateX(0); }
 	30%{ transform: translateX(10px); }
 	60%{ transform: translateX(-10px); }
 	100%{ transform: translateX(0); }
-}
-@keyframes top-move {
-	0%{ transform: translateY(0); }
-	25%{ transform: translateY(-30px); }
-	50%{ transform: translateY(0); }
-	75%{ transform: translateY(-20px); }
-	100%{ transform: translateY(0); }
 }
 
 @media only all and (max-width:767px) {

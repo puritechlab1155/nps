@@ -897,7 +897,7 @@
 }
 
 @media only all and (max-width: 375px) {
-	
+	.sub06 .section04 .content .item2 .conts .credit_title span { padding: 0.4em 0 180px; }
 }
 
 /* 키워드로 보는 세상 */

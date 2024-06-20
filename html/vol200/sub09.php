@@ -92,7 +92,7 @@
 			<div class="section03 wow fadeBigInUp">
 				<div class="content">
 					<div class="title fadeBigInUp">
-						<img src="img/sub09/sub09_05.png">
+						<img src="img/sub09/sub09_05.png" class="shaking-image">
 					</div>
 					<script>
 						$(window).scroll(function(){

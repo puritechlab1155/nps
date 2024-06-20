@@ -19,9 +19,9 @@
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="title">헬스 앤 라이프</div>
-				<div class="angle-down"><i class="xi-angle-down-min"></i></div> 
-				 <div><img src="img/sub08/angle-down.svg" alt="angle img"></div>
-			</div> 
+				<div class="cover_text"></div>
+				<div class="angle-down"><img src="../../img/common/ico_angle_down.svg"></div>
+			</div>
 		</div>
 
 		<div class="section02 wow fadeBigInUp">
@@ -37,7 +37,7 @@
 						시험을 볼 때 시험지가 다 젖거나, 다른 사람과 악수를 꺼리거나, 발냄새로 쉽게 신발을 벗지 못했던 기억이 떠오른다면 다한증을 의심해 볼만 하다. 심리적으로 신체적으로 불편함을 유발하는 다한증에 대해 알아본다.
 					</div>
 					<div class="subcopy">
-						<>필요 이상으로 땀이 흐른다면</ b><br>
+						<b>필요 이상으로 땀이 흐른다면</b><br>
 						  다한증은 필요 이상으로 열이 발생해 특정 부위에 비정상적으로 땀을 흘리는 질환이다. 보통 사계절 내내 증상이 나타나지만, 여름은 무더위라는 고온 자극 때문에 다한증 환자들에게 가장 고통스러운 계절이다. 종류도 다양하다. 손발에 증상이 나타나는 수족 다한증, 수면 중 땀이 많이 나는 도한증, 겨드랑이에 땀이 많이 나는 액한증 등이다. 유독 땀이 많이 나서 여름이 두렵다면, 아래의 다한증 자가 진단 테스트를 해보자.
 					</div>
 				</div>

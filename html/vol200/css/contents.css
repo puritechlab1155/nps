@@ -897,6 +897,7 @@
 }
 
 @media only all and (max-width: 375px) {
+	.sub06 .section04 .content .item2 { height: auto; }
 	.sub06 .section04 .content .item2 .conts .credit_title span { padding: 0.4em 0 180px; }
 }
 
@@ -1099,6 +1100,8 @@
 .sub09 .section02 .content01 .subcopy { font-size: 20px; font-weight: 700; line-height: 32px; margin-top: 35px; }
 
 .sub09 .section02 .content02 { position: relative; width: 100%; margin: 102px 0 70px; }
+.sub09 .section02 .content02 .img_box {  }
+
 .sub09 .section02 .content03 { margin-bottom:100px;}
 .sub09 .section02 .content03 .text { font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; }
 .sub09 .section02 .content03 .subitle { font-size: 18px; font-family:'RundigodicB'; color: #1eb239; letter-spacing: -0.3px; line-height: 32px; margin:50px 0 20px 0; }

@@ -814,6 +814,15 @@
         box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
     }
 }
+@keyframes film-anim {
+    0%{ background-color: #000; }
+    10%{ background-color: #ffef7b; }
+    15%{ background-color: #000; }
+    20%{ background-color: #ffef7b; }
+    25%{ background-color: #000; }
+    25%{ background-color: #ffef7b; }
+    100%{ background-color: #ffef7b; }
+}
 
 .sub06 .section03 .content { width: 100%; max-width: 1020px; margin: 80px auto; padding:0 20px;  }
 .sub06 .section03 .content .text { font-size: 18px; font-weight: 400; color: #000; line-height: 32px; letter-spacing: -0.36px; }
@@ -1142,16 +1151,6 @@
 .sub09 .section03 .content .item1 .item_text { margin: 37px 0; }
 .sub09 .section03 .content .item_img { width: 100%; max-width: 980px; margin: 0 auto; }
 .sub09 .section03 .content .item_img img { width: 100%; }
-
-/* 레시피 키프레임 */
-.sub09 .section03 .content .title.on img { animation: title-move 1500ms; }
-
-@keyframes title-move {
-	0%{ transform: translateX(0); }
-	30%{ transform: translateX(10px); }
-	60%{ transform: translateX(-10px); }
-	100%{ transform: translateX(0); }
-}
 
 @media only all and (max-width:767px) {
 	.sub09 .section01 { height: 275px; }

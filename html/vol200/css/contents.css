@@ -832,8 +832,8 @@
 
 .sub06 .section04 { position: relative; width: 100%; display: block; background:#fff;}
 .sub06 .section04 .content { width: 100%;max-width: 1020px; margin: 80px auto 88px; padding:0 20px; z-index: 10;}
-.sub06 .section04 .content h4 { color: #6e91e0; font-size: 23px; font-weight: 700; line-height: 32px; font-family: 'laundrygothic'; }
-.sub06 .section04 .content .item_text { color: #000; font-size: 18px; font-weight: 400; line-height: 32px; }
+.sub06 .section04 .content h4 { color: #6e91e0; font-size: 23px; font-weight: 700; line-height: 32px; font-family: 'laundrygothic'; letter-spacing: normal; }
+.sub06 .section04 .content .item_text { color: #000; font-size: 18px; font-weight: 400; line-height: 32px; letter-spacing: -0.36px; }
 
 .sub06 .section04 .content .item2 {  margin: 48px 0 70px; width: 100%; height: 1148px; position: relative; }
 .sub06 .section04 .content .item2 .conts { position: absolute; left: 0; top: 63px; }
@@ -881,8 +881,8 @@
 	.sub06 .section03 .content .line1 { margin-top: 16px; }
 	
 	.sub06 .section04 .content { width: 100%; margin: 40px auto; }
-	.sub06 .section04 .content h4 { font-size: 16px; line-height: 28px; }
-	.sub06 .section04 .content .item_text { font-size: 16px; line-height: 28px; }
+	.sub06 .section04 .content h4 { font-size: 16px; line-height: 28px; letter-spacing: normal; }
+	.sub06 .section04 .content .item_text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
 	.sub06 .section04 .content .item2 { margin: 16px auto 36px; height: 989px; }
 	.sub06 .section04 .content .item2 .conts { top: 30px; width: 100%; margin: 0 auto; }
 	.sub06 .section04 .content .item2 .conts .credit_title { font-size: 22px; line-height: 32.937px; }
@@ -1123,7 +1123,7 @@
 .sub09 .section03 { position: relative; display: flex; background-image: url('../img/sub09/sub09_04.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
 .sub09 .section03 .content { width: 100%; max-width: 980px; margin: 0 auto 130px; }
 .sub09 .section03 .content .title { width: 100%; max-width: 980px; margin: 0 auto 91px; }
-.sub09 .section03 .content .item_title { width: 100%; margin: 80px auto 0; }
+.sub09 .section03 .content .item_title { width: 100%; margin: 80px auto 0; max-width: 128px; }
 .sub09 .section03 .content .item_title img { width: 100%; }
 .sub09 .section03 .content .item1 .item_title { margin-top: 0; max-width: 163px; }
 .sub09 .section03 .content .item2 .item_title { margin-top: 70px; }
@@ -1176,12 +1176,11 @@
 
 	.sub09 .section03 .content { margin: 0 auto 35px; }
 	.sub09 .section03 .content .title { margin: 0 auto 33px; }
-	.sub09 .section03 .content .item_title { margin: 29px auto 0; }
-	.sub09 .section03 .content .item_title img { width: 100%; }
-	.sub09 .section03 .content .item1 .item_title { margin-top: 0; max-width: 163px; }
-	.sub09 .section03 .content .item2 .item_title { margin-top: 70px; }
-	.sub09 .section03 .content .item_text { font-family: 'Meetme'; font-size: 30px; font-weight: 400; line-height: 32px; text-align: center; margin: 20px 0; }
-	.sub09 .section03 .content .item1 .item_text { margin: 37px 0; }
+	.sub09 .section03 .content .item_title { margin: 29px auto 0; max-width: 47px; }
+	.sub09 .section03 .content .item1 .item_title { margin-top: 0; max-width: 96px; }
+	.sub09 .section03 .content .item2 .item_title { margin-top: 25px; }
+	.sub09 .section03 .content .item_text { font-size: 20px; line-height: 26px; margin: 7px 0; }
+	.sub09 .section03 .content .item1 .item_text { margin: 13px 0; }
 	.sub09 .section03 .content .item_img { width: 100%; max-width: 980px; margin: 0 auto; }
 	.sub09 .section03 .content .item_img img { width: 100%; }
 

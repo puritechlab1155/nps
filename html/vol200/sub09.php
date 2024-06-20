@@ -97,7 +97,8 @@
 					<ul>
 						<li class="item1 fadeBigInUp">
 							<div class="item_title"><img src="img/sub09/sub09_07.svg"></div>
-							<div class="item_text">옥수수 2개, 버터 2조각, 우유 1컵+1/2컵, 생크림 1/2컵, 체다치즈 1장, 파마산 치즈가루 1스푼, 소금, 빠네 빵</div>
+							<div class="item_text pc_display">옥수수 2개, 버터 2조각, 우유 1컵+1/2컵, 생크림 1/2컵, 체다치즈 1장, 파마산 치즈가루 1스푼, 소금, 빠네 빵</div>
+							<div class="item_text mobile_display">옥수수 2개, 버터 2조각, 우유 1컵+1/2컵,<br> 생크림 1/2컵, 체다치즈 1장,<br> 파마산 치즈가루 1스푼, 소금, 빠네 빵</div>
 							<div class="item_img"><img src="img/sub09/sub09_08.png"></div>
 						</li>
 						<li class="item2 fadeBigInUp">

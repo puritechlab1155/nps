@@ -108,7 +108,7 @@
 						</li>
 						<li class="item3 fadeBigInUp">
 							<div class="item_title"><img src="img/sub09/sub09_11.svg"></div>
-							<div class="item_text">냄비에 넣은 버터가 녹기 시작하면 옥수수 알을 넣고 볶는다.</div>
+							<div class="item_text">냄비에 넣은 버터가 녹기 시작하면<br class="mobile_display"> 옥수수 알을 넣고 볶는다.</div>
 							<div class="item_img"><img src="img/sub09/sub09_12.png"></div>
 						</li>
 						<li class="item4 fadeBigInUp">
@@ -118,7 +118,7 @@
 						</li>
 						<li class="item5 fadeBigInUp">
 							<div class="item_title"><img src="img/sub09/sub09_15.svg"></div>
-							<div class="item_text">체다치즈와 파마산 치즈가루를 넣고 고루 저어가며 마무리한다.</div>
+							<div class="item_text">체다치즈와 파마산 치즈가루를 넣고<br class="mobile_display"> 고루 저어가며 마무리한다.</div>
 							<div class="item_img"><img src="img/sub09/sub09_16.png"></div>
 						</li>
 					</ul>

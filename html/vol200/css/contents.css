@@ -1174,8 +1174,9 @@
 	.sub09 .section02 .content02 .note p span::before { content: ''; width: 26px; height: 36px; background-image: url(../img/sub09/sub09_03_1.svg); background-repeat: no-repeat; background-size: contain; position: absolute; left: 0; top: 50%; transform: translateY(-50%); }
 	.sub09 .section02 .content02 .note p span::after { content: ''; width: 26px; height: 36px; background-image: url(../img/sub09/sub09_03_1.svg); background-repeat: no-repeat; background-size: contain; position: absolute; right: 0; top: 50%; transform: translateY(-50%); }
 
-	.sub09 .section03 .content { margin: 0 auto 35px; }
+	.sub09 .section03 .content { margin: 0 auto 35px; padding: 0 20px; }
 	.sub09 .section03 .content .title { margin: 0 auto 33px; }
+	.sub09 .section03 .content .title img { transform: scale(1.05); }
 	.sub09 .section03 .content .item_title { margin: 29px auto 0; max-width: 47px; }
 	.sub09 .section03 .content .item1 .item_title { margin-top: 0; max-width: 96px; }
 	.sub09 .section03 .content .item2 .item_title { margin-top: 25px; }

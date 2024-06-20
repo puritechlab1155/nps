@@ -818,9 +818,10 @@
 .sub06 .section03 .content .conversation_box { position: relative; width: 100%; height: 245px; margin: 36px 0; }
 .sub06 .section03 .content .conversation_box .img_box { position: absolute; left: 0; top: 0; width: 100%; max-width: 980px; }
 .sub06 .section03 .content .conversation_box .talk { position: absolute; left: 216px; top: 35px; z-index: 1; display: flex; flex-direction: column; width: 547px; }
-.sub06 .section03 .content .conversation_box .talk p{ width: 100%; font-size: 20px; font-weight: 400; line-height: 32px; font-family:'Meetme'; padding: 5px 0; border-bottom: 0.5px dashed #777; }
+.sub06 .section03 .content .conversation_box .talk p{ width: 100%; font-size: 20px; line-height: 32px; font-family:'Meetme'; padding: 5px 0; border-bottom: 0.5px dashed #777; }
 .sub06 .section03 .content .conversation_box .talk p span{ color: #ef9ae3; display: inline-block; width: 40px; margin-right: 20px; }
 .sub06 .section03 .content .conversation_box .talk p:nth-child(even) span{ color: #7ea7ff; }
+.sub06 .section03 .content .conversation_box .talk p em { font-weight: 400; }
 
 .sub06 .section03 .content .sub_text { font-family: 'laundrygothic'; font-size: 19px;font-weight: 400; line-height: 32px; text-align: center; width: 600px; margin: 0 auto; border-bottom: 1px solid #000; padding: .3em; }
 .sub06 .section03 .content .line1 { margin-top: 36px; }
@@ -915,7 +916,7 @@
 .sub07 .section02 .content .title { font-size: 50px; font-weight: 700; line-height: 68px; padding-bottom: 30px; text-align: center; border-bottom: 1px solid #000; }
 .sub07 .section02 .content .subcopy { font-size: 20px; font-weight: 700; line-height: 32px; margin-top: 35px; }
 
-.sub07 .content .subtitle { font-family: 'laundrygothic'; font-size: 23px;font-weight: 700; line-height: 32px; text-align: left; color:#6e91e0; }
+.sub07 .content .subtitle { font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; text-align: left; color:#6e91e0; }
 .sub07 .content .text { font-size: 18px; font-weight: 400; line-height: 32px; }
 
 .sub07 .section03 { position: relative; width: 100%; display: block; }
@@ -932,7 +933,7 @@
 
 .sub07 .section04 { position: relative; width: 100%; display: block; padding-bottom: 120px; }
 .sub07 .section04 .content { width: 100%; max-width: 980px; margin: 0 auto; }
-.sub07 .section04 .content .text { letter-spacing: normal; }
+/* .sub07 .section04 .content .text { letter-spacing: normal; } */
 .sub07 .section04 .content .img_box { margin: 64px 0; }
 
 @media only all and (max-width:767px) {

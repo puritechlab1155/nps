@@ -687,8 +687,12 @@
 
 @media only all and (max-width:767px) {
 	.sub05 .section01 { height: 275px; }
-	.sub05 .section01 .content { text-align: center; margin-bottom: 0px; color: #fff; }
-	.sub05 .section01 .content .title { font-size: 20px; font-weight: 700; text-align: center;}
+	.sub05 .section01::before { background: rgba(0, 0, 0, 0.3); }
+	.sub05 .section01 .content { margin-bottom: 12px; }
+	.sub05 .section01 .content .cover_title { font-size: 20px; }
+	/* 
+	.sub05 .section01 .content .cover_title { font-size: 27px; font-weight: 700; }
+	.sub05 .section01 .content .cover_text { font-size: 16px; font-weight: 400; padding: 13px 0; } */	
 
 	.sub05 .section02 .content { padding:50px 20px 0 20px; }
 	.sub05 .section02 .content .line { margin: 30px 0 20px 0; border-bottom: 1px solid #fff;  }

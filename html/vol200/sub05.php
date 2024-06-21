@@ -96,11 +96,11 @@
 					</script>
 				<div class="info_area">
 					<div class="info_box">
-						<div class="info_title"><img src="img/sub05/sub05_info1.svg"></div>
+						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon1.svg"> 홈페이지</span> <a href="http://www.seonunsa.org/" target="_blank">seonunsa.org</a></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg"> 주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span> 전북 고창군 아산면 선운사로 250</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg"> 전화번호</span> 063-561-1422</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><a href="http://www.seonunsa.org/" target="_blank">seonunsa.org</a></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 고창군 아산면 선운사로 250</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-561-1422</div>
 						</div>
 					</div>
 				</div>
@@ -110,15 +110,15 @@
 		<div class="section04 wow fadeBigInUp">
 			<div class="content">
 				<div class="num_title fadeBigInUp">
-					<div class="number"><img src=""></div>
-					<span>오션뷰 캠핑장이 여기 있네? </span>
+					<div class="number"><img src="img/sub05/sub05_title-2.svg"></div>
+					<span>오션뷰 캠핑장이 여기 있네?</span>
 					<h3>동호해수욕장</h3>
 				</div>
 				<div class="text fadeBigInUp">
 					드넓은 백사장과 푸른 해송 숲이 그림처럼 어우러진 동호해수욕장은 모래가 곱고 수심이 얕아서 온 가족이 함께 물놀이를 즐기기 좋은 곳으로 유명하다. 어종이 풍부한 칠산 바다를 끼고 자리해 바다 낚시터로도 입소문이 자자하다. 특히 해송 숲에서 바라보는 서해의 붉은 노을이 아름답기로 손에 꼽히는데, 바로 이 위치에 국민여가캠핑장이 자리해 최고의 전망을 자랑하는 캠핑장으로 큰 인기를 누리고 있다. 동호 국민여가캠핑장은 올해 열린관광지로 선정되어 관광 약자는 물론 모두가 오션뷰 캠핑장을 즐길 수 있도록 배려할 예정이다.
 				</div>
-				<div class="glueglue">
-					<div class="img"><img src="img/sub05/sub05_04.jpg"></div>
+				<div class="img_area">
+					<div class="img_box"><img src="img/sub05/sub05_04.jpg"></div>
 					<div class="phototitle">동호해수욕장</div>
 				</div>
 				<div class="info_area">

@@ -741,6 +741,159 @@
     100%{ background-color: #ffef7b; }
 }
 
+.sub06 .section03 .film .film_box { width: 18px; height: auto; margin-top: 13px; margin-bottom:13px; margin-left: 42px; opacity: 0; animation: fadeIn 1s forwards; }
+
+.sub06 .section03 .film .film_box:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.sub06 .section03 .film .film_box:nth-child(2) {
+    animation-delay: 0.5s; 
+ } 
+
+ .sub06 .section03 .film .film_box:nth-child(3) {
+    animation-delay: 1s; 
+}
+.sub06 .section03 .film .film_box:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+.sub06 .section03 .film .film_box:nth-child(5) {
+    animation-delay: 2s; 
+ } 
+
+ .sub06 .section03 .film .film_box:nth-child(6) {
+    animation-delay: 2.5s; 
+}
+.sub06 .section03 .film .film_box:nth-child(7) {
+    animation-delay: 3s;
+}
+
+.sub06 .section03 .film .film_box:nth-child(8) {
+    animation-delay: 3.5s; 
+ } 
+
+ .sub06 .section03 .film .film_box:nth-child(9) {
+    animation-delay: 4s; 
+}
+.sub06 .section03 .film .film_box:nth-child(10) {
+	animation-delay: 4.5s;
+}
+ 
+ .sub06 .section03 .film .film_box:nth-child(11) {
+    animation-delay: 5s;
+}
+
+.sub06 .section03 .film .film_box:nth-child(12) {
+    animation-delay: 5.5s; 
+} 
+
+.sub06 .section03 .film .film_box:nth-child(13) {
+    animation-delay: 6s; 
+ } 
+
+ .sub06 .section03 .film .film_box:nth-child(14) {
+    animation-delay: 6.5s;
+}
+.sub06 .section03 .film .film_box:nth-child(15) {
+    animation-delay: 7s;
+}
+.sub06 .section03 .film .film_box:nth-child(16) {
+    animation-delay: 7.5s; 
+}
+
+.sub06 .section03 .film .film_box:nth-child(17) {
+    animation-delay: 8s;
+}
+ .sub06 .section03 .film .film_box:nth-child(18) {
+    animation-delay: 8.5s; 
+}
+.sub06 .section03 .film .film_box:nth-child(19) {
+    animation-delay: 9s; 
+} 
+
+.sub06 .section03 .film .film_box:nth-child(20) {
+    animation-delay: 9.5s; 
+ } 
+
+ .sub06 .section03 .film .film_box:nth-child(21) {
+    animation-delay: 10s;
+}
+.sub06 .section03 .film .film_box:nth-child(22) {
+    animation-delay: 10.5s;
+}
+.sub06 .section03 .film .film_box:nth-child(23) {
+    animation-delay: 11s; 
+}
+
+.sub06 .section03 .film .film_box:nth-child(24) {
+    animation-delay: 11.5s;
+}
+ .sub06 .section03 .film .film_box:nth-child(25) {
+    animation-delay: 12s; 
+}
+.sub06 .section03 .film .film_box:nth-child(26) {
+    animation-delay: 12.5s; 
+}
+
+.sub06 .section03 .film .film_box:nth-child(27) {
+    animation-delay: 13s;
+}
+ .sub06 .section03 .film .film_box:nth-child(28) {
+    animation-delay: 13.5s; 
+}
+.sub06 .section03 .film .film_box:nth-child(29) {
+    animation-delay: 14s;
+}
+.sub06 .section03 .film .film_box:nth-child(30) {
+    animation-delay: 14.5s;
+}
+.sub06 .section03 .film .film_box:nth-child(31) {
+    animation-delay: 15s; 
+}
+
+.sub06 .section03 .film .film_box:nth-child(32) {
+    animation-delay: 15.5s;
+}
+ .sub06 .section03 .film .film_box:nth-child(33) {
+    animation-delay: 16s; 
+}
+.sub06 .section03 .film .film_box:nth-child(34) {
+    animation-delay: 16.5s; 
+}
+
+.sub06 .section03 .film .film_box:nth-child(35) {
+    animation-delay: 17s;
+}
+ .sub06 .section03 .film .film_box:nth-child(36) {
+    animation-delay: 17.5s; 
+}
+.sub06 .section03 .film .film_box:nth-child(37) {
+    animation-delay: 18s; 
+}
+.sub06 .section03 .film .film_box:nth-child(38) {
+    animation-delay: 18.5s; 
+}
+.sub06 .section03 .film .film_box:nth-child(39) {
+    animation-delay: 19s; 
+}
+
+.sub06 .section03 .film .film_box:nth-child(40) {
+    animation-delay: 20s;
+}
+ .sub06 .section03 .film .film_box:nth-child(41) {
+    animation-delay: 20.5s; 
+}
+.sub06 .section03 .film .film_box:nth-child(42) {
+    animation-delay: 21.5s; 
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
 .sub06 .section03 .content { width: 100%; max-width: 1020px; margin: 80px auto; padding:0 20px;  }
 .sub06 .section03 .content .text { font-size: 18px; font-weight: 400; color: #000; line-height: 32px; letter-spacing: -0.36px; }
 .sub06 .section03 .content .text h3 { color: #7ea7ff; font-size: 23px; font-weight: 700; line-height: 32px; font-family: 'laundrygothic'; letter-spacing: normal; }

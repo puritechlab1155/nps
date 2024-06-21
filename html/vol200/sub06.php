@@ -37,7 +37,50 @@
 		</div>
 
 		<div class="section03 wow fadeBigInUp">
-			<div class="film"></div>
+			<div class="film">
+                <img src="img/sub06/film_box.png" alt="box1" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box2" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box3" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box4" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box5" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box6" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box7" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box8" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box9" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box10" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box11" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box12" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box13" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box14" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box15" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box16" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box17" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box18" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box19" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box20" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box21" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box22" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box23" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box24" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box25" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box26" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box27" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box28" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box29" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box30" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box31" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box32" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box33" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box34" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box35" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box36" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box37" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box38" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box39" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box40" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box41" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box42" class="film_box">
+			</div>
 			<div class="content">
 				<div class="text fadeBigInUp">
 					<h3>한 여자의 두 인생을 풀다</h3>
@@ -72,7 +115,50 @@
 					<div class="sub_text fadeBigInUp">난 아무것도 아닌 것 같아. 진짜로.”</div>
 				</div>
 			</div>
-			<div class="film"></div>
+			<div class="film">
+                <img src="img/sub06/film_box.png" alt="box1" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box2" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box3" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box4" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box5" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box6" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box7" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box8" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box9" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box10" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box11" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box12" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box13" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box14" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box15" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box16" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box17" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box18" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box19" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box20" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box21" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box22" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box23" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box24" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box25" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box26" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box27" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box28" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box29" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box30" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box31" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box32" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box33" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box34" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box35" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box36" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box37" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box38" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box39" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box40" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box41" class="film_box">
+                <img src="img/sub06/film_box.png" alt="box42" class="film_box">
+			</div>
 		</div>
 
 		<div class="section04 wow fadeBigInUp">

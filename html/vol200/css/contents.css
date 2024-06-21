@@ -591,7 +591,7 @@
 .sub05 .section03 .content .slider1 li img {width:100%;}
 .sub05 .section03 .content .slider1 li .vod {position:absolute;left:15px;bottom:15px;display:inline-block;width:50px;height:50px;text-indent:-9999px;overflow:hidden;background:url('../../img/vol197/main/ico_vod2.png') no-repeat 50% 50%;z-index:1;}
 
-.sub05 .content .phototitle { background: #000; color: #fff; display: inline; font-size: 15px; font-weight: 400; line-height: 32px; height: 32px; padding: 0 10px; border-radius: 0 0 8px 8px; position: absolute; top: 100%; left: 0; z-index: 0; }
+.sub05 .content .phototitle { background: #000; color: #fff; display: inline; font-size: 15px; font-weight: 400; line-height: 32px; height: 32px; padding: 0 10px; border-radius: 0 0 8px 8px; position: absolute; top: calc(100% - 49px); left: 0; z-index: 0; }
 
 .sub05 .content .info_area { background-color: #EBDED6; opacity: 1; background-image:  linear-gradient(#ffffff 1px, transparent 1px), linear-gradient(to right, #ffffff 1px, #EBDED6 1px); background-size: 18px 18px; margin-top: 48px; padding: 25px 25px 57px; }
 .sub05 .content .info_area .info_box { background: #fff; border: 2px solid #70C6F3; padding-top: 40px; }

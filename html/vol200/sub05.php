@@ -538,7 +538,7 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><a href="https://gochang.go.kr/gcdolmen" target="_blank">gochang.go.kr/gcdolmen</a></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><a href="https://www.gochang.go.kr/index.gochang" target="_blank">gochang.go.kr/gcdolmen</a></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 고창군 고창읍 고인돌공원길 74</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>하절기 09:00~18:00, 동절기 09:00~17:00(월요일 휴무)</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-560-8666</div>
@@ -615,7 +615,7 @@
 							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 고창군 신림면 왕림로 25</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>10:00~19:00(연중무휴)</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>0507-1327-1829</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">S&nbsp;&nbsp;N&nbsp;&nbsp;S</span>@thanksduck_cafe</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon6.svg">S&nbsp;&nbsp;N&nbsp;&nbsp;S</span>@thanksduck_cafe</div>
 						</div>
 					</div>
 				</div>

@@ -92,8 +92,6 @@
 
 		if(st>=evTop){
 			$('.gift > img').addClass('on');
-		}else{
-			$('.gift > img').removeClass('on');
 		}
 	});
 </script>

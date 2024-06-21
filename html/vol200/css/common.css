@@ -248,8 +248,8 @@ a:hover {color:#F6A13C;text-decoration:none;}
 .slider_wrap {position:relative;}
 .slider_wrap .slick-dots {text-align:center;}
 .slider_wrap .slick-dots li {display:inline-block;width:10px;height:10px;margin:0 10px;background:#b2b2b2;text-indent:-999px;overflow:hidden;border-radius:10px;cursor:pointer;vertical-align:middle; }
-.slider_wrap .slick-dots li.slick-active {width:10px;height:10px;background:#006d3c;}
-.slider_wrap .ctrl_wrap {display:inline-block;width:100%;margin:10px;text-align:center;}
+.slider_wrap .slick-dots li.slick-active {width:10px;height:10px;background:#70C6F3;}
+.slider_wrap .ctrl_wrap { display: inline-block; width: 100%; margin-top: 32px; text-align: center;}
 .slider_wrap .ctrl_wrap .btn_pause,.slider_wrap .ctrl_wrap .btn_play {display:inline-block;width:16px;height:16px;text-indent:-999px;overflow:hidden;vertical-align:middle;background:#262626;border-radius:24px;}
 .slider_wrap .ctrl_wrap .btn_play {background:#000 url(../img/ico_play.png) no-repeat 50% 50%; background-size: 5px; display:none;}
 .slider_wrap .ctrl_wrap .btn_pause {background:#000 url(../img/ico_pause.png) no-repeat 50% 50%; background-size: 5px; }

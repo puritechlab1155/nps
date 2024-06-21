@@ -313,11 +313,11 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon1.svg"> 홈페이지</span> <a href="https://sanghafarm.co.kr" target="_blank">sanghafarm.co.kr</a></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg"> 주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span> 전북 고창군 상하면 상하농원길 11-23</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg"> 운영시간</span> 09:30~21:00(연중무휴)</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg"> 전화번호</span> 1522-3698</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon5.svg"> 이용요금</span> 대인 9천 원, 소인 6천 원</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><a href="https://sanghafarm.co.kr" target="_blank">sanghafarm.co.kr</a></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 고창군 상하면 상하농원길 11-23</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>09:30~21:00(연중무휴)</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>1522-3698</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span>대인 9천 원, 소인 6천 원</div>
 						</div>
 					</div>
 				</div>
@@ -327,7 +327,7 @@
 		<div class="section07 wow fadeBigInUp">
 			<div class="content">
 				<div class="num_title fadeBigInUp">
-					<div class="number"><img src=""></div>
+					<div class="number"><img src="img/sub05/sub05_title-5.svg"></div>
 					<span>새콤달콤 머무는 즐거움</span>
 					<h3>복분자클러스터유원지</h3>
 				</div>
@@ -336,14 +336,14 @@
 				</div>
 				<div class="slider_wrap">
 					<ul class="slider5">
-						<li class="item"><img src="img/sub05/sub05_41.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_42.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_43.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_44.jpg"></li>
+						<li class="item"><img src="img/sub05/sub05_51.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_52.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_53.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_54.jpg"></li>
 					</ul>
 					<div class="phototitle">복분자클러스터유원지</div>
 					<div class="ctrl_wrap">
-						<span class="slider_dots4"></span>
+						<span class="slider_dots5"></span>
 						<button type="button" class="btn_pause">정지</button>
 						<button type="button" class="btn_play">재생</button>
 					</div>
@@ -385,10 +385,10 @@
 					</script>
 				<div class="info_area">
 					<div class="info_box">
-						<div class="info_title"><img src="img/sub05/sub05_info1.svg"></div>
+						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg"> 주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span> 전북 고창군 부안면 용산리 44-35</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg"> 전화번호</span> 063-561-2553</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 고창군 부안면 용산리 44-35</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-561-2553</div>
 						</div>
 					</div>
 				</div>
@@ -404,7 +404,7 @@
 		<div class="section09 wow fadeBigInUp">
 			<div class="content">
 				<div class="num_title fadeBigInUp">
-					<div class="number"><img src=""></div>
+					<div class="number"><img src="img/sub05/sub05_title-1.svg"></div>
 					<span>짙푸른 성곽 한 바퀴</span>
 					<h3>고창읍성</h3>
 				</div>
@@ -413,10 +413,10 @@
 				</div>
 				<div class="slider_wrap">
 					<ul class="slider6">
-						<li class="item"><img src="img/sub05/sub05_51.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_52.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_53.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_54.jpg"></li>
+						<li class="item"><img src="img/sub05/sub05_61.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_62.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_63.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_64.jpg"></li>
 					</ul>
 					<div class="phototitle">고창읍성</div>
 					<div class="ctrl_wrap">
@@ -462,12 +462,12 @@
 					</script>
 				<div class="info_area">
 					<div class="info_box">
-						<div class="info_title"><img src="img/sub05/sub05_info2.svg"></div>
+						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg"> 주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span> 전북 고창군 고창읍 읍내리 125-9</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg"> 운영시간</span> 5:00~22:00(연중무휴)</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg"> 전화번호</span> 063-560-8067</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon5.svg"> 이용요금</span> 어른 3천 원, 청소년 2천 원, 어린이 1천 원(*동일금액 고창사랑상품권 제공)</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 고창군 고창읍 읍내리 125-9</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>5:00~22:00(연중무휴)</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-560-8067</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span>어른 3천 원, 청소년 2천 원, 어린이 1천 원(*동일금액 고창사랑상품권 제공)</div>
 						</div>
 					</div>
 				</div>
@@ -477,20 +477,20 @@
 		<div class="section10 wow fadeBigInUp">
 			<div class="content">
 				<div class="num_title fadeBigInUp">
-					<div class="number"><img src=""></div>
+					<div class="number"><img src="img/sub05/sub05_title-2.svg"></div>
 					<span>수천 년 시간을 거슬러</span>
 					<h3>고창 고인돌유적</h3>
 				</div>
 				<div class="text fadeBigInUp">
-					고창 고인돌유적은 탁자식, 바둑판식, 개석식 등 다양한 형식과 크기의 고인돌 약 500기가 세계에서 가장 밀집해 분포한다. 동북아시아 고인돌 문화의 중요한 증거 자료로 인정받아 지난 2000년 유네스코 세계문화유산으로도 등재됐다. 고창고인돌박물관에서는 이 같은 고인돌의 역사와 의미, 제작 과정 등을 쉽게 이해할 수 있다. 특히 사진 촬영과 함께 간단한 질문에 답하면 과거 자신이 고인돌 제작 과정에서 어떤 역할을 담당했을 지 AI 이미지로 출력해 주는 ‘고인돌과 함께 살아온 그들’ 체험이 흥미를 끈다. 3층 체험 학습실에는 고인돌 만들기와 움집에서 청동기 보물찾기, 암각화 3D 색칠놀이 등 다양한 터치 모니터 게임과 다인용 인터랙티브 체험 존이 자리해 아이들과 함께 둘러보기 좋다.
+					고창 고인돌유적은 탁자식, 바둑판식, 개석식 등 다양한 형식과 크기의 고인돌 약 500기가 세계에서 가장 밀집해 분포한다. 동북아시아 고인돌 문화의 중요한 증거 자료로 인정받아 지난 2000년 유네스코 세계문화유산으로도 등재됐다. 고창고인돌박물관에서는 이 같은 고인돌의 역사와 의미, 제작 과정 등을 쉽게 이해할 수 있다. 특히 사진 촬영과 함께 간단한 질문에 답하면 과거 자신이 고인돌 제작 과정에서 어떤 역할을 담당했을 지 AI 이미지로 출력해 주는 ‘고인돌과 함께 살아온 그들’ 체험이 흥미를 끈다. 3층 체험 학습실에는 고인돌 만들기와 움집에서 청동기 보물찾기, 암각화 3D 색칠놀이 등 다양한 터치 모니터 게임과 다인용 인터랙티브 체험 존이 자리해 아이들과 함께 둘러보기 좋다.<br>
 					고인돌박물관에서 도보로 약 600m, 또는 탐방열차를 타고 이동하면 고인돌유적과 함께 죽림선사마을이 나타난다. 수천 년 세월을 품은 다채로운 모양의 고인돌이 싱그러운 녹음을 배경으로 세워진 모습이 인상적이다. 죽림선사마을에서는 반달돌칼과 돌화살촉을 비롯해 고창의 관광 캐릭터인 모로모로를 활용한 열쇠고리 만들기 등 색다른 체험도 가능하다.
 				</div>
 				<div class="slider_wrap">
 					<ul class="slider7">
-						<li class="item"><img src="img/sub05/sub05_61.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_62.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_63.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_64.jpg"></li>
+						<li class="item"><img src="img/sub05/sub05_71.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_72.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_73.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_74.jpg"></li>
 					</ul>
 					<div class="phototitle">고창 고인돌유적</div>
 					<div class="ctrl_wrap">
@@ -498,7 +498,7 @@
 						<button type="button" class="btn_pause">정지</button>
 						<button type="button" class="btn_play">재생</button>
 					</div>
-					<ul class="as_slider6">
+					<ul class="as_slider7">
 						<li></li><li></li><li></li><li></li>
 					</ul>
 				</div>
@@ -536,13 +536,13 @@
 					</script>
 				<div class="info_area">
 					<div class="info_box">
-						<div class="info_title"><img src="img/sub05/sub05_info2.svg"></div>
+						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon1.svg"> 홈페이지</span> <a href="https://gochang.go.kr/gcdolmen" target="_blank">gochang.go.kr/gcdolmen</a></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg"> 주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span> 전북 고창군 고창읍 고인돌공원길 74</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg"> 운영시간</span> 하절기 09:00~18:00, 동절기 09:00~17:00(월요일 휴무)</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg"> 전화번호</span> 063-560-8666</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon5.svg"> 이용요금</span> 어른 3천 원, 청소년 2천 원, 어린이 1천 원(*동일금액 고창사랑상품권 제공)</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><a href="https://gochang.go.kr/gcdolmen" target="_blank">gochang.go.kr/gcdolmen</a></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 고창군 고창읍 고인돌공원길 74</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>하절기 09:00~18:00, 동절기 09:00~17:00(월요일 휴무)</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-560-8666</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span>어른 3천 원, 청소년 2천 원, 어린이 1천 원(*동일금액 고창사랑상품권 제공)</div>
 						</div>
 					</div>
 				</div>
@@ -552,7 +552,7 @@
 		<div class="section11 wow fadeBigInUp">
 			<div class="content">
 				<div class="num_title fadeBigInUp">
-					<div class="number"><img src=""></div>
+					<div class="number"><img src="img/sub05/sub05_title-3.svg"></div>
 					<span>고창에서 즐기는 세레모니 에스프레소</span>
 					<h3>땡스덕 베르베르의집</h3>
 				</div>
@@ -561,10 +561,10 @@
 				</div>
 				<div class="slider_wrap">
 					<ul class="slider8">
-						<li class="item"><img src="img/sub05/sub05_71.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_72.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_73.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_74.jpg"></li>
+						<li class="item"><img src="img/sub05/sub05_81.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_82.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_83.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_84.jpg"></li>
 					</ul>
 					<div class="phototitle">땡스덕 베르베르의집</div>
 					<div class="ctrl_wrap">

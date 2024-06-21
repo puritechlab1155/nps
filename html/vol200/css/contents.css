@@ -1117,7 +1117,7 @@
 	.sub09 .section03 .content .item1 .item_title { margin-top: 0; max-width: 96px; }
 	.sub09 .section03 .content .item2 .item_title { margin-top: 25px; }
 	.sub09 .section03 .content .item_text { font-size: 20px; line-height: 26px; margin: 7px 0; }
-	.sub09 .section03 .content .item1 .item_text { margin: 13px 0; }
+	.sub09 .section03 .content .item1 .item_text { margin: 13px 0; font-size: 20px; line-height: 26px; }
 	.sub09 .section03 .content .item_img { width: 100%; max-width: 980px; margin: 0 auto; }
 	.sub09 .section03 .content .item_img img { width: 100%; }
 

@@ -100,7 +100,7 @@
 						<div class="info_title">INFO</div>
 						<div class="info_list">
 							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><a href="http://www.seonunsa.org/" target="_blank">seonunsa.org</a></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 고창군 아산면 선운사로 250</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 고창군 아산면 선운사로 250</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-561-1422</div>
 						</div>
 					</div>
@@ -398,7 +398,8 @@
 
 		<div class="section08 wow fadeBigInUp">
 			<div class="content">
-					<img src="img/sub05/sub05_05.svg">
+					<img src="img/sub05/sub05_05.svg" class="pc_display">
+					<img src="img/sub05/sub05_05_mo.svg" class="mobile_display">
 			</div>
 		</div>
 

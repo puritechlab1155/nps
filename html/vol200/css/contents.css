@@ -800,7 +800,7 @@
 
 .sub06 .section03 { position: relative; background:#ffef7b; width: 100%; display: block; }
 
-.sub06 .section03 .film { position: relative; width: 100%; height: 52px; display: block; background:#ffef7b url('../img/sub06/film_hole.png'); background-repeat: repeat-x; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); animation: shadowPulse 2s infinite;}
+.sub06 .section03 .film { position: relative; width: 100%; height: 52px; display: block; background:#ffef7b url('../img/sub06/film_hole_.png'); background-repeat: repeat-x; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); animation: shadowPulse 2s infinite;}
 @keyframes shadowPulse {
     0%, 100% {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);

@@ -29,7 +29,8 @@
 					<div class="subcopy">
 						조선시대 한 시인은 고창을 가리켜 “시냇물은 푸른 뱀이 달리는 듯하고 봉우리는 푸른 병풍을 비낀 듯하다”고 읊었다. 그로부터 수백 년이 흘렀음에도 여전히 청정한 자연에 풍성한 문화유산을 자랑하는 고창은 누구든, 언제든 찾아볼 만한 여행지다. 게다가 넉넉한 바다와 힘이 불끈 솟는 먹거리까지 갖췄으니 올여름은 고창에서 즐겨보면 어떨까, 우리 함께.
 					</div>
-					<img src="img/sub05/sub05_01.svg">
+					<img src="img/sub05/sub05_01.svg" class="pc_display">
+					<img src="img/sub05/sub05_01_mo.svg" class="mobile_display">
 			</div>
 		</div>
 

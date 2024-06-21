@@ -256,12 +256,13 @@ a:hover {color:#F6A13C;text-decoration:none;}
 .slider_wrap .slick-list li {position:relative;}
 .slider_wrap .slick-list li span {position:absolute;left:0;right:0;bottom:0;padding:17px 10px;font-size:16px;line-height:24px;color:#fff;text-align:center;background-color:rgba(0, 0, 0, 0.3);z-index:1;}
 @media only all and (max-width:767px) {
-    .slider_wrap .slick-dots li {width:10px;height:10px;margin:0 4px;}
-    .slider_wrap .slick-dots li.slick-active {width:10px;height:10px;}
+    .slider_wrap .slick-dots { gap: 17px; }
+    .slider_wrap .slick-dots li {width:7px; height:7px; }
+    .slider_wrap .slick-dots li.slick-active {width: 7px; height: 7px;}
     .slider_wrap .ctrl_wrap {margin-top:5px;}
-    .slider_wrap .ctrl_wrap .btn_pause,.slider_wrap .ctrl_wrap .btn_play {width:16px;height:16px;}
-    .slider_wrap .ctrl_wrap .btn_play {background:#000 url(../img/ico_play@2x.png) no-repeat 50% 50%;background-size:6px;}
-    .slider_wrap .ctrl_wrap .btn_pause {background:#000 url(../img/ico_pause@2x.png) no-repeat 50% 50%;background-size:6px;}
+    .slider_wrap .ctrl_wrap .btn_pause,.slider_wrap .ctrl_wrap .btn_play { width: 10px; height: 10px; margin-left: 17px; }
+    .slider_wrap .ctrl_wrap .btn_play {background:#000 url(../img/ico_play@2x.png) no-repeat; background-size: 5px;}
+    .slider_wrap .ctrl_wrap .btn_pause {background:#000 url(../img/ico_pause@2x.png) no-repeat 5% 5%;background-size: 5px;}
     .slider_wrap .slick-list li span {padding:12px 0;font-size:14px;line-height:20px;}
 }
 

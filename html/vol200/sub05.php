@@ -117,30 +117,6 @@
 				<div class="text fadeBigInUp">
 					드넓은 백사장과 푸른 해송 숲이 그림처럼 어우러진 동호해수욕장은 모래가 곱고 수심이 얕아서 온 가족이 함께 물놀이를 즐기기 좋은 곳으로 유명하다. 어종이 풍부한 칠산 바다를 끼고 자리해 바다 낚시터로도 입소문이 자자하다. 특히 해송 숲에서 바라보는 서해의 붉은 노을이 아름답기로 손에 꼽히는데, 바로 이 위치에 국민여가캠핑장이 자리해 최고의 전망을 자랑하는 캠핑장으로 큰 인기를 누리고 있다. 동호 국민여가캠핑장은 올해 열린관광지로 선정되어 관광 약자는 물론 모두가 오션뷰 캠핑장을 즐길 수 있도록 배려할 예정이다.
 				</div>
-				<div class="img_area">
-					<div class="img_box"><img src="img/sub05/sub05_04.jpg"></div>
-					<div class="phototitle">동호해수욕장</div>
-				</div>
-				<div class="info_area">
-					<div class="info_box">
-						<div class="info_title"><img src="img/sub05/sub05_info1.svg"></div>
-						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg"> 주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span> 전북 고창군 해리면 동호리 712</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="section05 wow fadeBigInUp">
-			<div class="content">
-				<div class="num_title fadeBigInUp">
-					<div class="number"><img src=""></div>
-					<span>책 한 권의 시원함</span>
-					<h3>책마을해리</h3>
-				</div>
-				<div class="text fadeBigInUp">
-					프랑스인들은 여름휴가를 떠날 때 제일 먼저 책을 챙긴다. 그들에게 휴가는 분주한 일상을 잊는 휴식의 시간인 동시에, 그동안 읽지 못했던 책을 마음껏 읽는 충전의 시간이기도 하다. 고창에도 이처럼 책과 함께 시원한 여름을 즐기기 좋은 공간이 있다. 낡은 폐교를 책마을로 꾸민 이곳은 아이들의 웃음소리로 가득했던 교실을 책으로 채웠다. 특히 책 한 권을 들고 들어가면 다 읽을 때까지 나올 수 없는 ‘책 감옥’은 감옥이라는 닫힌 공간이 책을 통해 오히려 광활한 세계와 만나게 하는 열린 공간이 되는 경험을 제공한다. 책과 함께 하룻밤을 지내는 북 스테이 공간도 운영된다.
-				</div>
 				<div class="slider_wrap">
 					<ul class="slider2">
 						<li class="item"><img src="img/sub05/sub05_21.jpg"></li>
@@ -148,7 +124,7 @@
 				   		<li class="item"><img src="img/sub05/sub05_23.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_24.jpg"></li>
 					</ul>
-					<div class="phototitle">책마을해리</div>
+					<div class="phototitle">동호해수욕장</div>
 					<div class="ctrl_wrap">
 						<span class="slider_dots2"></span>
 						<button type="button" class="btn_pause">정지</button>
@@ -181,39 +157,34 @@
 							appendDots: $('.slider_dots2'),
 							arrows: false
 						});
-						$('.section05 .ctrl_wrap .btn_pause').click(function() {
+						$('.section04 .ctrl_wrap .btn_pause').click(function() {
 							$mainSlider1.slick('slickPause');
 							$(this).hide().next('.btn_play').show().focus();
 						});
-						$('.section05 .ctrl_wrap .btn_play').click(function() {
+						$('.section04 .ctrl_wrap .btn_play').click(function() {
 							$mainSlider1.slick('slickPlay');
 							$(this).hide().prev('.btn_pause').show().focus();
 						});
 					</script>
 				<div class="info_area">
 					<div class="info_box">
-						<div class="info_title"><img src="img/sub05/sub05_info1.svg"></div>
+						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon1.svg"> 홈페이지</span> <a href="https://harrybook.kr" target="_blank">harrybook.kr</a></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg"> 주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span> 전북 고창군 해리면 월봉성산길 88</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg"> 운영시간</span> 금~월요일 10:00~18:00</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg"> 전화번호</span> 063-563-9173</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon5.svg"> 이용요금</span> 1인 8천 원 또는 책 구입 시 무료입장</div>
-						</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 고창군 해리면 동호리 712</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="section06 wow fadeBigInUp">
+		<div class="section05 wow fadeBigInUp">
 			<div class="content">
 				<div class="num_title fadeBigInUp">
-					<div class="number"><img src=""></div>
-					<span>자연 속에서 초록빛 힐링</span>
-					<h3>상하농원</h3>
+					<div class="number"><img src="img/sub05/sub05_title-3.svg"></div>
+					<span>책 한 권의 시원함</span>
+					<h3>책마을해리</h3>
 				</div>
 				<div class="text fadeBigInUp">
-					아이와 함께 고창을 찾았다면 고민 없이 상하농원으로 향해도 좋다. 매일유업의 유기농 브랜드이기도 한 상하농원은 고창의 깨끗한 자연 속에서 우리 농촌의 가치와 좋은 먹거리의 의미를 되돌아볼 수 있도록 꾸몄다. 초원을 자유롭게 누비는 젖소와 양 떼, 계절마다 달라지는 수확 체험과 쿠킹 클래스, 신선한 유제품과 햄 등이 생산되는 공장도 사전 예약을 통해 견학이 가능하다. 마켓에서는 이곳에서 생산되는 다양한 유기농 제품을 구입할 수 있고, 이들을 활용한 레스토랑도 운영 중이다. 목가적인 분위기가 매력적인 숙박시설 파머스빌리지는 여름이면 더욱 인기가 뜨겁다. 온통 푸른 언덕을 배경으로 자리한 야외 수영장이 문을 열기 때문이다. 올해는 6월 22일부터 9월 1일까지 운영될 예정이다.
+					프랑스인들은 여름휴가를 떠날 때 제일 먼저 책을 챙긴다. 그들에게 휴가는 분주한 일상을 잊는 휴식의 시간인 동시에, 그동안 읽지 못했던 책을 마음껏 읽는 충전의 시간이기도 하다. 고창에도 이처럼 책과 함께 시원한 여름을 즐기기 좋은 공간이 있다. 낡은 폐교를 책마을로 꾸민 이곳은 아이들의 웃음소리로 가득했던 교실을 책으로 채웠다. 특히 책 한 권을 들고 들어가면 다 읽을 때까지 나올 수 없는 ‘책 감옥’은 감옥이라는 닫힌 공간이 책을 통해 오히려 광활한 세계와 만나게 하는 열린 공간이 되는 경험을 제공한다. 책과 함께 하룻밤을 지내는 북 스테이 공간도 운영된다.
 				</div>
 				<div class="slider_wrap">
 					<ul class="slider3">
@@ -222,7 +193,7 @@
 				   		<li class="item"><img src="img/sub05/sub05_33.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_34.jpg"></li>
 					</ul>
-					<div class="phototitle">상하농원</div>
+					<div class="phototitle">책마을해리</div>
 					<div class="ctrl_wrap">
 						<span class="slider_dots3"></span>
 						<button type="button" class="btn_pause">정지</button>
@@ -255,39 +226,39 @@
 							appendDots: $('.slider_dots3'),
 							arrows: false
 						});
-						$('.section06 .ctrl_wrap .btn_pause').click(function() {
+						$('.section05 .ctrl_wrap .btn_pause').click(function() {
 							$mainSlider1.slick('slickPause');
 							$(this).hide().next('.btn_play').show().focus();
 						});
-						$('.section06 .ctrl_wrap .btn_play').click(function() {
+						$('.section05 .ctrl_wrap .btn_play').click(function() {
 							$mainSlider1.slick('slickPlay');
 							$(this).hide().prev('.btn_pause').show().focus();
 						});
 					</script>
 				<div class="info_area">
 					<div class="info_box">
-						<div class="info_title"><img src="img/sub05/sub05_info1.svg"></div>
+						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon1.svg"> 홈페이지</span> <a href="https://sanghafarm.co.kr" target="_blank">sanghafarm.co.kr</a></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg"> 주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span> 전북 고창군 상하면 상하농원길 11-23</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg"> 운영시간</span> 09:30~21:00(연중무휴)</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg"> 전화번호</span> 1522-3698</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon5.svg"> 이용요금</span> 대인 9천 원, 소인 6천 원</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><a href="https://harrybook.kr" target="_blank">harrybook.kr</a></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 고창군 해리면 월봉성산길 88</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>금~월요일 10:00~18:00</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-563-9173</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span>1인 8천 원 또는 책 구입 시 무료입장</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="section07 wow fadeBigInUp">
+		<div class="section06 wow fadeBigInUp">
 			<div class="content">
 				<div class="num_title fadeBigInUp">
-					<div class="number"><img src=""></div>
-					<span>새콤달콤 머무는 즐거움</span>
-					<h3>복분자클러스터유원지</h3>
+					<div class="number"><img src="img/sub05/sub05_title-4.svg"></div>
+					<span>자연 속에서 초록빛 힐링</span>
+					<h3>상하농원</h3>
 				</div>
 				<div class="text fadeBigInUp">
-					복분자는 고창하면 빼놓을 수 없는 특산품이다. 예부터 자양강장 효과가 뛰어난 열매로 꼽혔던 복분자는 차와 술은 물론 다양한 제품으로 생산·판매 중이다. 고창에서는 이 같은 복분자 관련 산업을 지원하고 활성화하기 위해 지난 2014년 테마단지를 조성했다. 복분자 농공단지와 연구소, 식품업체들이 입주했고 주민들을 위한 유원지도 조성됐다. 드넓은 공원에는 복분자를 주제로 한 조형물과 감성적인 포토존, 반려견 놀이터, 미니 동물원 등이 자리한다. 또 다른 고창 특산품인 풍천장어 식당과 식물원 카페도 인기다. 특히 복분자 모양의 펜션이 눈길을 사로잡는 국민여가캠핑장은 올해 열린관광지로 선정되어 모두가 장애물 없이 캠핑의 낭만을 즐길 수 있는 공간으로 변신을 앞두고 있다. 현재는 카라반과 오토캠핑장, 텐트사이트를 이용할 수 있다.
+					아이와 함께 고창을 찾았다면 고민 없이 상하농원으로 향해도 좋다. 매일유업의 유기농 브랜드이기도 한 상하농원은 고창의 깨끗한 자연 속에서 우리 농촌의 가치와 좋은 먹거리의 의미를 되돌아볼 수 있도록 꾸몄다. 초원을 자유롭게 누비는 젖소와 양 떼, 계절마다 달라지는 수확 체험과 쿠킹 클래스, 신선한 유제품과 햄 등이 생산되는 공장도 사전 예약을 통해 견학이 가능하다. 마켓에서는 이곳에서 생산되는 다양한 유기농 제품을 구입할 수 있고, 이들을 활용한 레스토랑도 운영 중이다. 목가적인 분위기가 매력적인 숙박시설 파머스빌리지는 여름이면 더욱 인기가 뜨겁다. 온통 푸른 언덕을 배경으로 자리한 야외 수영장이 문을 열기 때문이다. 올해는 6월 22일부터 9월 1일까지 운영될 예정이다.
 				</div>
 				<div class="slider_wrap">
 					<ul class="slider4">
@@ -296,7 +267,7 @@
 				   		<li class="item"><img src="img/sub05/sub05_43.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_44.jpg"></li>
 					</ul>
-					<div class="phototitle">복분자클러스터유원지</div>
+					<div class="phototitle">상하농원</div>
 					<div class="ctrl_wrap">
 						<span class="slider_dots4"></span>
 						<button type="button" class="btn_pause">정지</button>
@@ -327,6 +298,80 @@
 							asNavFor:'.slider4',
 							dots: true,
 							appendDots: $('.slider_dots4'),
+							arrows: false
+						});
+						$('.section06 .ctrl_wrap .btn_pause').click(function() {
+							$mainSlider1.slick('slickPause');
+							$(this).hide().next('.btn_play').show().focus();
+						});
+						$('.section06 .ctrl_wrap .btn_play').click(function() {
+							$mainSlider1.slick('slickPlay');
+							$(this).hide().prev('.btn_pause').show().focus();
+						});
+					</script>
+				<div class="info_area">
+					<div class="info_box">
+						<div class="info_title">INFO</div>
+						<div class="info_list">
+							<div class="list"><span><img src="img/sub05/sub05_icon1.svg"> 홈페이지</span> <a href="https://sanghafarm.co.kr" target="_blank">sanghafarm.co.kr</a></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg"> 주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span> 전북 고창군 상하면 상하농원길 11-23</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg"> 운영시간</span> 09:30~21:00(연중무휴)</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg"> 전화번호</span> 1522-3698</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon5.svg"> 이용요금</span> 대인 9천 원, 소인 6천 원</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section07 wow fadeBigInUp">
+			<div class="content">
+				<div class="num_title fadeBigInUp">
+					<div class="number"><img src=""></div>
+					<span>새콤달콤 머무는 즐거움</span>
+					<h3>복분자클러스터유원지</h3>
+				</div>
+				<div class="text fadeBigInUp">
+					복분자는 고창하면 빼놓을 수 없는 특산품이다. 예부터 자양강장 효과가 뛰어난 열매로 꼽혔던 복분자는 차와 술은 물론 다양한 제품으로 생산·판매 중이다. 고창에서는 이 같은 복분자 관련 산업을 지원하고 활성화하기 위해 지난 2014년 테마단지를 조성했다. 복분자 농공단지와 연구소, 식품업체들이 입주했고 주민들을 위한 유원지도 조성됐다. 드넓은 공원에는 복분자를 주제로 한 조형물과 감성적인 포토존, 반려견 놀이터, 미니 동물원 등이 자리한다. 또 다른 고창 특산품인 풍천장어 식당과 식물원 카페도 인기다. 특히 복분자 모양의 펜션이 눈길을 사로잡는 국민여가캠핑장은 올해 열린관광지로 선정되어 모두가 장애물 없이 캠핑의 낭만을 즐길 수 있는 공간으로 변신을 앞두고 있다. 현재는 카라반과 오토캠핑장, 텐트사이트를 이용할 수 있다.
+				</div>
+				<div class="slider_wrap">
+					<ul class="slider5">
+						<li class="item"><img src="img/sub05/sub05_41.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_42.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_43.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_44.jpg"></li>
+					</ul>
+					<div class="phototitle">복분자클러스터유원지</div>
+					<div class="ctrl_wrap">
+						<span class="slider_dots4"></span>
+						<button type="button" class="btn_pause">정지</button>
+						<button type="button" class="btn_play">재생</button>
+					</div>
+					<ul class="as_slider5">
+						<li></li><li></li><li></li><li></li>
+					</ul>
+				</div>
+					<script>
+						var $mainSlider1 = $('.slider5');
+							$mainSlider1.slick({
+				 			dots: true,
+				 			appendDots: $('.slider_tab5'),
+				 			asNavFor:'.as_slider5',
+				 			arrows: false,
+				 			autoplay: true,
+				 			autoplaySpeed: 3000,
+				 			speed: 500,
+				 			slidesToShow: 1,
+				 			pauseOnHover: false,
+				 			pauseOnDotsHover: false,
+				 			pauseOnFocus: false,
+							touchThreshold: 15,
+        					swipe: true
+						});
+						$('.as_slider5').slick({
+							asNavFor:'.slider5',
+							dots: true,
+							appendDots: $('.slider_dots5'),
 							arrows: false
 						});
 						$('.section07 .ctrl_wrap .btn_pause').click(function() {
@@ -367,7 +412,7 @@
 					조선시대에 만들어진 고창읍성은 고을 읍내 한복판의 나지막한 평지에 위치한 순천 낙안읍성, 서산 해미읍성과 달리 읍내 남쪽 반등산 자락을 따라 축조되었다. 고려 말부터 왜구의 침입이 잦았던 지역의 특성상 방어의 목적이 강화된 결과다. 기록에 따르면 고창읍성은 그 둘레만 1,684m에 높이는 4~6에 이르고, 관아를 비롯해 무려 22개 건물이 들어섰다고 한다. 대부분 건물은 잇따른 전쟁으로 모두 소실되었지만, 거칠게 다듬은 자연석으로 쌓은 성벽만큼은 지금껏 온전한 형태로 남아 문화유산으로서 높은 가치를 지닌다. 또한 고창읍성을 배경으로 한 성밟기놀이도 전해져 내려온다. 마을 여인들이 손바닥만 한 돌을 머리에 이고 성을 한 바퀴 돈 다음 그 돌을 입구에 쌓아 두면 병을 물리치고 건강하게 지낼 수 있다는 것. 이렇게 쌓인 돌은 전투가 벌어질 경우 무기로도 사용됐다니 이보다 더 실용적인 민간신앙이 있을까 싶다. 성 내에는 흥선대원군이 나라의 문을 걸어 잠그며 세웠던 척화비와 울창한 맹종죽림, 성 밖에는 조선 후기 판소리 대가로 꼽히는 신재효의 생가가 볼거리를 더한다.
 				</div>
 				<div class="slider_wrap">
-					<ul class="slider5">
+					<ul class="slider6">
 						<li class="item"><img src="img/sub05/sub05_51.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_52.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_53.jpg"></li>
@@ -375,20 +420,20 @@
 					</ul>
 					<div class="phototitle">고창읍성</div>
 					<div class="ctrl_wrap">
-						<span class="slider_dots5"></span>
+						<span class="slider_dots6"></span>
 						<button type="button" class="btn_pause">정지</button>
 						<button type="button" class="btn_play">재생</button>
 					</div>
-					<ul class="as_slider5">
+					<ul class="as_slider6">
 						<li></li><li></li><li></li><li></li>
 					</ul>
 				</div>
 					<script>
-						var $mainSlider1 = $('.slider5');
+						var $mainSlider1 = $('.slider6');
 							$mainSlider1.slick({
 				 			dots: true,
-				 			appendDots: $('.slider_tab5'),
-				 			asNavFor:'.as_slider5',
+				 			appendDots: $('.slider_tab6'),
+				 			asNavFor:'.as_slider6',
 				 			arrows: false,
 				 			autoplay: true,
 				 			autoplaySpeed: 3000,
@@ -400,10 +445,10 @@
 							touchThreshold: 15,
         					swipe: true
 						});
-						$('.as_slider5').slick({
-							asNavFor:'.slider5',
+						$('.as_slider6').slick({
+							asNavFor:'.slider6',
 							dots: true,
-							appendDots: $('.slider_dots5'),
+							appendDots: $('.slider_dots6'),
 							arrows: false
 						});
 						$('.section09 .ctrl_wrap .btn_pause').click(function() {
@@ -441,7 +486,7 @@
 					고인돌박물관에서 도보로 약 600m, 또는 탐방열차를 타고 이동하면 고인돌유적과 함께 죽림선사마을이 나타난다. 수천 년 세월을 품은 다채로운 모양의 고인돌이 싱그러운 녹음을 배경으로 세워진 모습이 인상적이다. 죽림선사마을에서는 반달돌칼과 돌화살촉을 비롯해 고창의 관광 캐릭터인 모로모로를 활용한 열쇠고리 만들기 등 색다른 체험도 가능하다.
 				</div>
 				<div class="slider_wrap">
-					<ul class="slider6">
+					<ul class="slider7">
 						<li class="item"><img src="img/sub05/sub05_61.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_62.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_63.jpg"></li>
@@ -449,7 +494,7 @@
 					</ul>
 					<div class="phototitle">고창 고인돌유적</div>
 					<div class="ctrl_wrap">
-						<span class="slider_dots6"></span>
+						<span class="slider_dots7"></span>
 						<button type="button" class="btn_pause">정지</button>
 						<button type="button" class="btn_play">재생</button>
 					</div>
@@ -458,11 +503,11 @@
 					</ul>
 				</div>
 					<script>
-						var $mainSlider1 = $('.slider6');
+						var $mainSlider1 = $('.slider7');
 							$mainSlider1.slick({
 				 			dots: true,
-				 			appendDots: $('.slider_tab6'),
-				 			asNavFor:'.as_slider6',
+				 			appendDots: $('.slider_tab7'),
+				 			asNavFor:'.as_slider7',
 				 			arrows: false,
 				 			autoplay: true,
 				 			autoplaySpeed: 3000,
@@ -474,10 +519,10 @@
 							touchThreshold: 15,
         					swipe: true
 						});
-						$('.as_slider6').slick({
-							asNavFor:'.slider6',
+						$('.as_slider7').slick({
+							asNavFor:'.slider7',
 							dots: true,
-							appendDots: $('.slider_dots6'),
+							appendDots: $('.slider_dots7'),
 							arrows: false
 						});
 						$('.section10 .ctrl_wrap .btn_pause').click(function() {
@@ -515,7 +560,7 @@
 					고창에서 가장 이국적인 공간을 꼽으라면 단연 황토색 지붕을 얹은 이 아프리카풍의 카페가 아닐까 싶다. 원래 오리 집이었던 것을 카페로 개조하면서 땡스덕이란 이름을 붙였고, 베르베르(BerBer)는 북아프리카에서 스스로를 자유로운 사람, 고귀한 사람이라 일컫는 이들을 의미한다. 여기선 고창 특산물을 활용한 복분자라테, 청보리라테를 비롯해 카페 콘셉트를 고민하다 선보였다는 세레모니 에스프레소를 맛볼 수 있다. 아프리카에서 귀한 손님을 대접하는 커피 문화에서 아이디어를 얻은 세레모니 에스프레소는 깊고 진한 에스프레소를 아포가토와 아인슈페너, 라떼 등 다양하게 즐길 수 있도록 구성했다. 메뉴 뿐만 아니라 공간 구석구석 소품 하나까지 주인장의 살가운 애정이 느껴져 머무는 내내 아프리카의 어느 느긋한 오후처럼 마음이 여유로워진다.
 				</div>
 				<div class="slider_wrap">
-					<ul class="slider7">
+					<ul class="slider8">
 						<li class="item"><img src="img/sub05/sub05_71.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_72.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_73.jpg"></li>
@@ -523,20 +568,20 @@
 					</ul>
 					<div class="phototitle">땡스덕 베르베르의집</div>
 					<div class="ctrl_wrap">
-						<span class="slider_dots7"></span>
+						<span class="slider_dots8"></span>
 						<button type="button" class="btn_pause">정지</button>
 						<button type="button" class="btn_play">재생</button>
 					</div>
-					<ul class="as_slider7">
+					<ul class="as_slider8">
 						<li></li><li></li><li></li><li></li>
 					</ul>
 				</div>
 					<script>
-						var $mainSlider1 = $('.slider7');
+						var $mainSlider1 = $('.slider8');
 							$mainSlider1.slick({
 				 			dots: true,
-				 			appendDots: $('.slider_tab7'),
-				 			asNavFor:'.as_slider7',
+				 			appendDots: $('.slider_tab8'),
+				 			asNavFor:'.as_slider8',
 				 			arrows: false,
 				 			autoplay: true,
 				 			autoplaySpeed: 3000,
@@ -548,10 +593,10 @@
 							touchThreshold: 15,
         					swipe: true
 						});
-						$('.as_slider7').slick({
-							asNavFor:'.slider7',
+						$('.as_slider8').slick({
+							asNavFor:'.slider8',
 							dots: true,
-							appendDots: $('.slider_dots7'),
+							appendDots: $('.slider_dots8'),
 							arrows: false
 						});
 						$('.section11 .ctrl_wrap .btn_pause').click(function() {

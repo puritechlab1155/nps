@@ -58,7 +58,7 @@
 						<span class="slider_dots"></span>
 						<button type="button" class="btn_pause">정지</button>
 						<button type="button" class="btn_play">재생</button>
-					</div>
+					</div> 
 					<ul class="as_slider1">
 						<li></li><li></li><li></li><li></li>
 					</ul>

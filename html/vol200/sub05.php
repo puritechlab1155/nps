@@ -610,12 +610,12 @@
 					</script>
 				<div class="info_area">
 					<div class="info_box">
-						<div class="info_title"><img src="img/sub05/sub05_info2.svg"></div>
+						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg"> 주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span> 전북 고창군 신림면 왕림로 25</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg"> 운영시간</span> 10:00~19:00(연중무휴)</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg"> 전화번호</span> 0507-1327-1829</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon5.svg"> S&nbsp;&nbsp;N&nbsp;&nbsp;S</span> @thanksduck_cafe</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 고창군 신림면 왕림로 25</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>10:00~19:00(연중무휴)</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>0507-1327-1829</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">S&nbsp;&nbsp;N&nbsp;&nbsp;S</span>@thanksduck_cafe</div>
 						</div>
 					</div>
 				</div>

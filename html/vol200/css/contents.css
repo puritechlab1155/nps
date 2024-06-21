@@ -690,12 +690,15 @@
 	.sub05 .section01::before { background: rgba(0, 0, 0, 0.3); }
 	.sub05 .section01 .content { margin-bottom: 12px; }
 	.sub05 .section01 .content .cover_title { font-size: 20px; }
-	/* 
-	.sub05 .section01 .content .cover_title { font-size: 27px; font-weight: 700; }
-	.sub05 .section01 .content .cover_text { font-size: 16px; font-weight: 400; padding: 13px 0; } */	
+	.sub05 .section01 .content .cover_text { padding: 0; }
 
-	.sub05 .section02 .content { padding:50px 20px 0 20px; }
-	.sub05 .section02 .content .line { margin: 30px 0 20px 0; border-bottom: 1px solid #fff;  }
+	.sub05 .section02 { padding-top: 47px; }
+	.sub05 .section02 .content { padding: 0 20px; }
+	.sub05 .section02 .content .title { font-size: 36px; line-height: 48px; padding-bottom: 35px; }
+	.sub05 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: normal; margin-bottom: 52px; }
+	/* 
+.sub05 .section02 .content .img {  width: 100%; max-width: 980px; text-align: center; margin: 0 auto; }
+.sub05 .section02 .content .img img { width: 100%; max-width: 980px; } */
 
 	.phototitle { font-size: 13px!important; }
 }

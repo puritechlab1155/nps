@@ -36,7 +36,7 @@
 		<div class="section03 wow fadeBigInUp">
 			<div class="content">
 				<div class="num_title fadeBigInUp">
-					<div class="number"><img src=""></div>
+					<div class="number"><img src="img/sub05/sub05_title-1.svg"></div>
 					<span>모두를 위한 사찰</span>
 					<h3>선운사</h3>
 				</div>

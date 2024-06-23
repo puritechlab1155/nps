@@ -760,14 +760,16 @@
 .sub06 .section03 { position: relative; background:#ffef7b; width: 100%; display: block; }
 
 .sub06 .section03 .film { position: relative; width: 100%; height: 52px; display: block; background:#ffef7b url('../img/sub06/film_hole_.png'); background-repeat: repeat-x; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); animation: shadowPulse 2s infinite;}
-@keyframes shadowPulse {
+.sub06 .section03 .film { display: flex; overflow: hidden; flex-wrap: nowrap;} 
+/* .sub06 .section03 .film { position: relative; width: 100%; height: 52px; display: block; background:#ffef7b url('../img/sub06/film_hole_.png'); background-repeat: repeat-x; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); animation: shadowPulse 2s infinite;} */
+/* @keyframes shadowPulse {
     0%, 100% {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    }
+    } 
     50% {
         box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
     }
-}
+} */
 @keyframes film-anim {
     0%{ background-color: #000; }
     10%{ background-color: #ffef7b; }
@@ -779,151 +781,152 @@
 }
 
 .sub06 .section03 .film .film_box { width: 18px; height: auto; margin-top: 13px; margin-bottom:13px; margin-left: 42px; opacity: 0; animation: fadeIn 1s forwards; }
-
+.sub06 .section03 .film .film_box { flex-wrap: nowrap; }
 .sub06 .section03 .film .film_box:nth-child(1) {
     animation-delay: 0s;
 }
 
 .sub06 .section03 .film .film_box:nth-child(2) {
-    animation-delay: 0.5s; 
+    animation-delay: 0.3s; 
  } 
 
  .sub06 .section03 .film .film_box:nth-child(3) {
-    animation-delay: 1s; 
+    animation-delay: 0.6s; 
 }
 .sub06 .section03 .film .film_box:nth-child(4) {
-    animation-delay: 1.5s;
+    animation-delay: 0.9s;
 }
 
 .sub06 .section03 .film .film_box:nth-child(5) {
-    animation-delay: 2s; 
+    animation-delay: 1.2s; 
  } 
 
  .sub06 .section03 .film .film_box:nth-child(6) {
-    animation-delay: 2.5s; 
+    animation-delay: 1.5s; 
 }
 .sub06 .section03 .film .film_box:nth-child(7) {
-    animation-delay: 3s;
+    animation-delay: 1.8s;
 }
 
 .sub06 .section03 .film .film_box:nth-child(8) {
-    animation-delay: 3.5s; 
+    animation-delay: 2.1s; 
  } 
 
  .sub06 .section03 .film .film_box:nth-child(9) {
-    animation-delay: 4s; 
+    animation-delay: 2.4s; 
 }
 .sub06 .section03 .film .film_box:nth-child(10) {
-	animation-delay: 4.5s;
+	animation-delay: 2.7s;
 }
  
  .sub06 .section03 .film .film_box:nth-child(11) {
-    animation-delay: 5s;
+    animation-delay: 3s;
 }
 
 .sub06 .section03 .film .film_box:nth-child(12) {
-    animation-delay: 5.5s; 
+    animation-delay: 3.3s; 
 } 
 
 .sub06 .section03 .film .film_box:nth-child(13) {
-    animation-delay: 6s; 
+    animation-delay: 3.6s; 
  } 
 
  .sub06 .section03 .film .film_box:nth-child(14) {
-    animation-delay: 6.5s;
+    animation-delay: 3.9s;
 }
 .sub06 .section03 .film .film_box:nth-child(15) {
-    animation-delay: 7s;
+    animation-delay: 4.2s;
 }
 .sub06 .section03 .film .film_box:nth-child(16) {
-    animation-delay: 7.5s; 
+    animation-delay: 4.5s; 
 }
 
 .sub06 .section03 .film .film_box:nth-child(17) {
-    animation-delay: 8s;
+    animation-delay: 4.8s;
 }
  .sub06 .section03 .film .film_box:nth-child(18) {
-    animation-delay: 8.5s; 
+    animation-delay: 5.1s; 
 }
 .sub06 .section03 .film .film_box:nth-child(19) {
-    animation-delay: 9s; 
+    animation-delay: 5.4s; 
 } 
 
 .sub06 .section03 .film .film_box:nth-child(20) {
-    animation-delay: 9.5s; 
+    animation-delay: 5.7s; 
  } 
 
  .sub06 .section03 .film .film_box:nth-child(21) {
-    animation-delay: 10s;
+    animation-delay: 6s;
 }
 .sub06 .section03 .film .film_box:nth-child(22) {
-    animation-delay: 10.5s;
+    animation-delay: 6.3s;
 }
 .sub06 .section03 .film .film_box:nth-child(23) {
-    animation-delay: 11s; 
+    animation-delay: 6.6s; 
 }
 
 .sub06 .section03 .film .film_box:nth-child(24) {
-    animation-delay: 11.5s;
+    animation-delay: 6.9s;
 }
  .sub06 .section03 .film .film_box:nth-child(25) {
-    animation-delay: 12s; 
+    animation-delay: 7.2s; 
 }
 .sub06 .section03 .film .film_box:nth-child(26) {
-    animation-delay: 12.5s; 
+    animation-delay: 7.5s; 
 }
 
 .sub06 .section03 .film .film_box:nth-child(27) {
-    animation-delay: 13s;
+    animation-delay: 7.8s;
 }
  .sub06 .section03 .film .film_box:nth-child(28) {
-    animation-delay: 13.5s; 
+    animation-delay: 8.1s; 
 }
 .sub06 .section03 .film .film_box:nth-child(29) {
-    animation-delay: 14s;
+    animation-delay: 8.4s;
 }
 .sub06 .section03 .film .film_box:nth-child(30) {
-    animation-delay: 14.5s;
+    animation-delay: 8.7s;
 }
 .sub06 .section03 .film .film_box:nth-child(31) {
-    animation-delay: 15s; 
+    animation-delay: 9s; 
 }
 
 .sub06 .section03 .film .film_box:nth-child(32) {
-    animation-delay: 15.5s;
+    animation-delay: 9.3s;
 }
  .sub06 .section03 .film .film_box:nth-child(33) {
-    animation-delay: 16s; 
+    animation-delay: 9.6s; 
 }
 .sub06 .section03 .film .film_box:nth-child(34) {
-    animation-delay: 16.5s; 
+    animation-delay: 9.9s; 
 }
 
 .sub06 .section03 .film .film_box:nth-child(35) {
-    animation-delay: 17s;
+    animation-delay: 10.2s;
 }
  .sub06 .section03 .film .film_box:nth-child(36) {
-    animation-delay: 17.5s; 
+    animation-delay: 10.5s; 
 }
 .sub06 .section03 .film .film_box:nth-child(37) {
-    animation-delay: 18s; 
+    animation-delay: 10.8s; 
 }
-.sub06 .section03 .film .film_box:nth-child(38) {
-    animation-delay: 18.5s; 
-}
+ .sub06 .section03 .film .film_box:nth-child(38) {
+    animation-delay: 11.1s; 
+ }
+
 .sub06 .section03 .film .film_box:nth-child(39) {
-    animation-delay: 19s; 
-}
+    animation-delay: 11.4s; 
+} 
 
 .sub06 .section03 .film .film_box:nth-child(40) {
-    animation-delay: 20s;
+    animation-delay: 11.7s;
 }
  .sub06 .section03 .film .film_box:nth-child(41) {
-    animation-delay: 20.5s; 
+    animation-delay: 12s; 
 }
 .sub06 .section03 .film .film_box:nth-child(42) {
-    animation-delay: 21.5s; 
-}
+    animation-delay: 12.3s; 
+} 
 
 @keyframes fadeIn {
     to {
@@ -1000,6 +1003,7 @@
 	.sub06 .section04 .content h4 { font-size: 16px; line-height: 28px; letter-spacing: normal; }
 	.sub06 .section04 .content .item_text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
 	.sub06 .section04 .content .item2 { margin: 16px auto 36px; height: 989px; }
+	.sub06 .section04 .content .item2 .img_box img{ height: 120%; }
 	.sub06 .section04 .content .item2 .conts { top: 30px; width: 100%; margin: 0 auto; }
 	.sub06 .section04 .content .item2 .conts .credit_title { font-size: 22px; line-height: 32.937px; }
 	.sub06 .section04 .content .item2 .conts .credit_title span { font-size: 35px; padding: 0.4em 0 222px; }

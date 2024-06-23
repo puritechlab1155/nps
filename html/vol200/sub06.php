@@ -173,7 +173,10 @@
 					통상적으로 저출생 지원은 출산과 육아에 집중돼 있다. 그런 점에서 노후에 도움을 주는 출산 크레딧은 의미가 크다. 공공이 출산에 대해 끝까지 지원한다는 시그널을 줄 수 있기 때문이다.
 				</div>
 				<div class="item2">
-					<div class="img_box"><img src="img/sub06/sub06_02.svg" class="pc_display"><img src="img/sub06/sub06_02_mo.svg" class="mobile_display"></div>
+					<div class="img_box">
+						<img src="img/sub06/sub06_02.svg" class="pc_display">
+						<img src="img/sub06/sub06_02_mo.png" class="mobile_display">
+					</div>
 					<div class="conts">
 						<div class="credit_title">한눈에 보는<span>출산 크레딧</span></div>
 						<div class="credit_info">

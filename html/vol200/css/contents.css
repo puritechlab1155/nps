@@ -1241,10 +1241,11 @@
 .sub09 .section02 .content02 .note p span::after { content: ''; width: 34px; height: 46px; background-image: url(../img/sub09/sub09_03_1.svg); background-repeat: no-repeat; position: absolute; right: 0; top: 50%; transform: translateY(-50%); }
 
 .sub09 .section03 { position: relative; display: flex; background-image: url('../img/sub09/sub09_04.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
-.sub09 .section03 .content { width: 100%; max-width: 980px; margin: 0 auto 130px; }
-.sub09 .section03 .content .title { width: 100%; max-width: 980px; margin: 0 auto 91px; }
+.sub09 .section03 .content { width:100%; max-width: 980px; margin: 0 auto 130px; }
+.sub09 .section03 .content .title { width: 100%; max-width: 980px;  margin: 0 auto 91px;}
 
-.sub09 .section03 .content .title .shaking-image{ width: 100%; height: auto; animation: shake 3s infinite;}
+/* .sub09 .section03 .content .title {  display: flex;justify-content: center; align-items: center; } */
+/* .sub09 .section03 .content .title .show-image{ width: 100%; height: auto; animation: shake 3s infinite;}
 
 @keyframes shake {
     0% { transform: translate(0, 0) rotate(0deg); }
@@ -1252,10 +1253,37 @@
     50% { transform: translate(5px, -5px) rotate(5deg); }
     75% { transform: translate(-5px, 5px) rotate(-5deg); }
     100% { transform: translate(0, 0) rotate(0deg); }
-}  
+}   */
+
+/* .sub09 .section03 .content .title   {
+	overflow: hidden;
+	} */
+	/* .sub09 .section03 .content .title .scroll-image {opacity: 0;} */
+
+.sub09 .section03 .content .title .scroll-image {
+    animation: slideIn 2s ease-out forwards; }
+	@keyframes slideIn {
+		0% {
+			transform: translateX(100%);
+			opacity: 0;
+		}
+		100% {
+			transform: translateX(0);
+			opacity: 1;
+		}
+	}
+/* 
+	.sub09 .section03 .content .title  .scroll-image {
+		position: absolute;
+		right: -100%; /* Start position off the screen */
+		/* transition: right 1s ease-out;
+	} */ 
+
+	
+
 
 .sub09 .section03 .content .item_title { width: 100%; margin: 80px auto 0; max-width: 128px; }
-.sub09 .section03 .content .item_title img { width: 100%; }
+.sub09 .section03 .content .item_title img { width: 100%;}
 .sub09 .section03 .content .item1 .item_title { margin-top: 0; max-width: 163px; }
 .sub09 .section03 .content .item2 .item_title { margin-top: 70px; }
 .sub09 .section03 .content .item_text { font-family: 'Meetme'; font-size: 31px; font-weight: 400; line-height: 40px; text-align: center; margin: 20px 0; }
@@ -1263,11 +1291,11 @@
 .sub09 .section03 .content .item_img { width: 100%; max-width: 980px; margin: 0 auto; }
 .sub09 .section03 .content .item_img img { width: 100%; }
 
-.sub09 .section03 .content .item1 .item_text span{ display: inline-block;  animation: upAndDown 0.9s infinite; animation-timing-function: ease-in-out;}
-.sub09 .section03 .content .item2 .item_text span{ display: inline-block;  animation: upAndDown 0.9s infinite; animation-timing-function: ease-in-out;}
-.sub09 .section03 .content .item3 .item_text span{ display: inline-block;  animation: upAndDown 0.9s infinite; animation-timing-function: ease-in-out;}
-.sub09 .section03 .content .item4 .item_text span{ display: inline-block;  animation: upAndDown 0.9s infinite; animation-timing-function: ease-in-out;}
-.sub09 .section03 .content .item5 .item_text span{ display: inline-block;  animation: upAndDown 0.9s infinite; animation-timing-function: ease-in-out;}
+.sub09 .section03 .content .item1 .item_title img { display: inline-block; text-align: center; animation: upAndDown 0.9s infinite; animation-timing-function: ease-in-out;}
+.sub09 .section03 .content .item2 .item_title img { display: inline-block;  animation: upAndDown 0.9s infinite; animation-timing-function: ease-in-out;}
+.sub09 .section03 .content .item3 .item_title img { display: inline-block;  animation: upAndDown 0.9s infinite; animation-timing-function: ease-in-out;}
+.sub09 .section03 .content .item4 .item_title img { display: inline-block;  animation: upAndDown 0.9s infinite; animation-timing-function: ease-in-out;}
+.sub09 .section03 .content .item5 .item_title img { display: inline-block;  animation: upAndDown 0.9s infinite; animation-timing-function: ease-in-out;}
 @keyframes upAndDown {
     0% {
         transform: translateY(0);

@@ -7,9 +7,13 @@
 	<meta property="og:image" content="../../img/logosns/logosns_vol199.jpg">
 	<?php include("../../inc/head.php"); ?>
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
-</head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
+    
+	
+</head>
 <body>
+	
 
 	<div id="wrap" class="sub09">
 
@@ -91,42 +95,40 @@
 
 			<div class="section03 wow fadeBigInUp">
 				<div class="content">
-					<div class="title fadeBigInUp">
-						<img src="img/sub09/sub09_05.png" class="shaking-image">
+					
+					<div class="title wow fadeBigInUp">
+						<img src="img/sub09/sub09_05.png" class="scroll-image">
 					</div>
+
 					<ul>
 						<li class="item1 fadeBigInUp">
 							<div class="item_title"><img src="img/sub09/sub09_07.svg"></div>
-							<div class="item_text pc_display"><span>옥수수 2개, 버터 2조각, 우유 1컵+1/2컵, 생크림 1/2컵, 체다치즈 1장, 파마산 치즈가루 1스푼, 소금, 빠네 빵</span></div>
-							<div class="item_text mobile_display"><span>옥수수 2개, 버터 2조각, 우유 1컵+1/2컵,<br> 생크림 1/2컵, 체다치즈 1장,<br> 파마산 치즈가루 1스푼, 소금, 빠네 빵</span></div>
+							<div class="item_text pc_display">옥수수 2개, 버터 2조각, 우유 1컵+1/2컵, 생크림 1/2컵, 체다치즈 1장, 파마산 치즈가루 1스푼, 소금, 빠네 빵</div>
+							<div class="item_text mobile_display">옥수수 2개, 버터 2조각, 우유 1컵+1/2컵,<br> 생크림 1/2컵, 체다치즈 1장,<br> 파마산 치즈가루 1스푼, 소금, 빠네 빵</div>
 							<div class="item_img"><img src="img/sub09/sub09_08.png"></div>
 						</li>
 
 						<li class="item2 fadeBigInUp">
 							<div class="item_title"><img src="img/sub09/sub09_09.svg"></div>
-
-							<div class="item_text"><span>옥수수는 씻어서 칼로 알을 긁어 낸다.</span></div>
-
+							<div class="item_text">옥수수는 씻어서 칼로 알을 긁어 낸다.</div>
 							<div class="item_img"><img src="img/sub09/sub09_10.png"></div>
 						</li>
 
 						<li class="item3 fadeBigInUp">
 							<div class="item_title"><img src="img/sub09/sub09_11.svg"></div>
-
-							<div class="item_text"><span>냄비에 넣은 버터가 녹기 시작하면<br class="mobile_display"> 옥수수 알을 넣고 볶는다.</span></div>
-
+							<div class="item_text">냄비에 넣은 버터가 녹기 시작하면<br class="mobile_display"> 옥수수 알을 넣고 볶는다.</div>
 							<div class="item_img"><img src="img/sub09/sub09_12.png"></div>
 						</li>
 
 						<li class="item4 fadeBigInUp">
 							<div class="item_title"><img src="img/sub09/sub09_13.svg"></div>
-							<div class="item_text"><span>우유, 생크림, 소금을 넣고 한소끔 끓인다.</span></div>
+							<div class="item_text">우유, 생크림, 소금을 넣고 한소끔 끓인다.</div>
 							<div class="item_img"><img src="img/sub09/sub09_14.png"></div>
 						</li>
 
 						<li class="item5 fadeBigInUp">
 							<div class="item_title"><img src="img/sub09/sub09_15.svg"></div>
-							<div class="item_text"><span>체다치즈와 파마산 치즈가루를 넣고<br class="mobile_display"> 고루 저어가며 마무리한다.</span></div>
+							<div class="item_text">체다치즈와 파마산 치즈가루를 넣고<br class="mobile_display"> 고루 저어가며 마무리한다.</div>
 							<div class="item_img"><img src="img/sub09/sub09_16.png"></div>
 						</li>
 					</ul>
@@ -148,6 +150,30 @@
 		</div>
 		<!-- //page ctrl -->
 	</div>
+	<script>
+	
+	// $(window).scroll(function(){
+	// 	var st = $(this).scrollTop();
+	// 	var evTop = $('.scroll-image').offset().top - 500;
+
+	// 	if(st>=evTop){
+	// 		$('.scroll-image' > img).addClass('show');
+	// 	}
+	// });
+	$(document).ready(function(){
+    $(".sub09 .section03 .content .title").scroll(function(){
+    $(".scroll-image").animate({left: '250px'});
+  });
+});
+
+$(document).ready(function(){
+  $(".scroll-image").srcoll(function(){
+    $("scroll-image").css("animation", "slideIn 2s ease-out forwards");
+  });
+});
+
+</script>
+
 
 	<!-- footer -->
 	<?php include("footer.php"); ?>

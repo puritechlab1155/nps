@@ -437,23 +437,33 @@
 .sub02 .section05 .content { width: 100%; max-width: 980px; margin: 0 auto 120px; }
 
 @media only all and (max-width:767px) {
-	.sub02 .section01 { height: 275px; }
-	.sub02 .section01 .content { text-align: center; margin-bottom: 0px; color: #fff; }
-	.sub02 .section01 .content .title { font-size: 20px; font-weight: 700; text-align: center;}
+	.sub02 .content .subtitle { font-size: 16px; line-height: 28px; }
+	.sub02 .content .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
+	.sub02 .content .text span { font-weight: 700; }
+	.sub02 .content .text span.mobile_normal { font-weight: 400; }
 
-	.sub02 .section02 { margin: 50px auto;}
-	.sub02 .section02 .content .title { font-size: 42px; }
-	.sub02 .section02 .content .subcopy { font-size: 18px; line-height: 27px; }
+	.sub02 .section01 { height: 275px; background: #b6dcff url('../img/sub02/sub02_00_mo.svg'); background-size: cover; }
+	.sub02 .section01 .content { margin-bottom: 12px; }
+	.sub02 .section01 .content .cover_title { font-size: 20px; }
+	.sub02 .section01 .content .cover_text { padding: 0; }
 
-	.sub02 .section03 .content .statistics li { width: 100%; float: left; border-bottom: 1px solid #333; padding: 10px; position: relative; text-align: center; }
-	.sub02 .section03 .content .statistics li img { width: 100%; max-width: 380px; }
-	.sub02 .section03 .content .statistics li:nth-child(even)::before { display: none; }
-	.sub02 .section03 .content .statistics li:nth-child(5) { border-bottom: 1px solid #333; } 
-	.sub02 .section03 .content .statistics li:nth-child(6) { border-bottom: 0px; }
+	.sub02 .section02 { margin: 50px auto 48px; }
+	.sub02 .section02 .content { padding: 0 20px; }
+	.sub02 .section02 .content .main_title { font-size: 36px; line-height: 48px; }
+	.sub02 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: -0.36px; margin-top: 36px; }
+
+	.sub02 .section03 .content { padding: 0 20px; }
+	.sub02 .section03 .content .question_box { margin: 16px auto; }
+
+	.sub02 .section04 .content { margin: 36px auto; padding: 0 20px; }
+	.sub02 .section04 .content .img_box1 { margin: 16px auto; }
+	.sub02 .section04 .content .img_box2 { margin-top: 16px; }
+
+	.sub02 .section05 .content { margin-bottom: 47px; padding: 0 20px; }	
 }
-@media only all and (max-width:460px) {
+/* @media only all and (max-width:460px) {
 	.sub02 .section02 .content .title { font-size: 32px; }
-}
+} */
 
 /* M&Z&X툰 */
 .sub03 #contents { position: relative; padding: 0; }

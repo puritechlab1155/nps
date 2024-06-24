@@ -1008,7 +1008,7 @@
 	.sub06 .section03 .content .sub_text { font-size: 17px; width: 100%; border-bottom: 1px solid #000; padding: .3em 0; }
 	.sub06 .section03 .content .line1 { margin-top: 16px; }
 	
-	.sub06 .section04 .content { width: 100%; margin: 40px auto; background-color: tomato; }
+	.sub06 .section04 .content { width: 100%; margin: 40px auto; }
 	.sub06 .section04 .content h4 { font-size: 16px; line-height: 28px; letter-spacing: normal; }
 	.sub06 .section04 .content .item_text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
 	.sub06 .section04 .content .item2 { margin: 16px auto 36px; }

@@ -1107,7 +1107,7 @@
 
 /* 헬스 앤 라이프 */
 .sub08 #contents { position: relative; padding: 0; }
-.sub08 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub08/sub08_01.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; }
+.sub08 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub08/sub08_00.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; }
 .sub08 .section01 .content { text-align: center; margin-bottom: 20px; font-size: 27px; color: #333; font-weight: 700; }
 
 .sub08 .section02 { position: relative; display: block; width: 100%; max-width: 1020px; margin: 120px auto 100px; padding:0 20px;   }
@@ -1142,8 +1142,8 @@
 .sub08 .section03 .content .col3 .circle_img { width: 100%; max-width: 300px; height:41px;  margin:28px auto 20px; align-items: left;}
 .sub08 .section03 .content .col3 .item_text { color: #000; font-size: 16px; font-style: normal; font-weight: 400; line-height: 25px;}
 
-.sub08 .section03 .subcopy { font-size: 18px; font-weight: 400; color: #000; text-align:left; -0.3px; line-height: 32px; }
-.sub08 .section03 .subcopy b { font-family: LaundryGothicOTF; font-size: 23px; font-weight: 700; margin-bottom: 23px; color: #70C6F3; margin: color: #70C6F3;  letter-spacing: -0.3px; line-height: 32px; }
+.sub08 .section03 .subcopy { font-size: 18px; font-weight: 400; color: #000; text-align:left; line-height: 32px; }
+.sub08 .section03 .subcopy b { font-size: 23px; font-weight: 700; margin-bottom: 23px; color: #70C6F3; margin: color: #70C6F3;  letter-spacing: -0.3px; line-height: 32px; }
 .sub08 .section03 .content .title { width: 100%; max-width: 370px; margin: 0 auto; }
 .sub08 .section03 .content .item1 { border-bottom: 1px solid #fff; display: inline-block; }
 .sub08 .section03 .content .item2 { border-bottom: 1px solid #fff; display: inline-block; }
@@ -1271,7 +1271,7 @@
 	} */
 	/* .sub09 .section03 .content .title .scroll-image {opacity: 0;} */
 
-.sub09 .section03 .content .title .scroll-image.on { animation: slideIn 2s ease-out forwards; }
+.sub09 .section03 .content .title .scroll-image.on { animation: slideIn 1500ms ease-out forwards; }
 	@keyframes slideIn {
 		0% {
 			transform: translateX(100%);

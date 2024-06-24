@@ -994,7 +994,7 @@
 	.sub06 .section03 .content .line1 { margin-top: 16px; }
 	.sub06 .section03 .content .conversation_box { margin: 16px auto; }
 	
-	.sub06 .section04 .content { width: 100%; margin: 40px auto; }
+	.sub06 .section04 .content { width: 100%; margin: 40px auto; padding: 0 20px; }
 	.sub06 .section04 .content h4 { font-size: 16px; line-height: 28px; letter-spacing: normal; }
 	.sub06 .section04 .content .item_text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
 	.sub06 .section04 .content .item2 { margin: 16px auto 36px; }

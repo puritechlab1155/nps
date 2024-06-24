@@ -91,8 +91,10 @@
 					선택에 따라 다른 삶을 살게 되는 모습을 동시에 보여주는 영화 &lt;슬라이딩 도어스&gt;가 채용했던 바로 그 방법이다.
 				</div>
 				<div class="conversation_box fadeBigInUp">
-					<div class="img_box"><img src="img/sub06/sub06_01.svg" class="pc_display"></div>
-					<div class="img_box"><img src="img/sub06/sub06_01_mo.svg" class="mobile_display"></div>
+					<div class="img_box">
+						<img src="img/sub06/sub06_01.svg" class="pc_display">
+						<img src="img/sub06/sub06_01_mo.svg" class="mobile_display">
+					</div>
 					<div class="talk">
 						<p><span>카라</span><em>내일 첫 출근이야. LA는 정말 이상한 사람들이 많은 도시더라. 너는 어떻게 지내?</em></p>
 						<p><span>나탈리</span><em>난 사실 별로야. 어제는 그냥 크래커 먹고 낮잠 3번 자고 토하다가 끝났어.</em></p>
@@ -175,7 +177,7 @@
 				<div class="item2">
 					<div class="img_box">
 						<img src="img/sub06/sub06_02.svg" class="pc_display">
-						<img src="img/sub06/sub06_02_mo.png" class="mobile_display">
+						<img src="img/sub06/sub06_02_mo.svg" class="mobile_display">
 					</div>
 					<div class="conts">
 						<div class="credit_title">한눈에 보는<span>출산 크레딧</span></div>

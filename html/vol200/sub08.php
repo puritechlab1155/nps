@@ -18,7 +18,7 @@
 	<section id="contents">
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
-				<div class="title">키워드로 보는 세상</div>
+				<div class="cover_title">헬스 앤 라이프</div>
 				<div class="cover_text">-</div>
 				<div class="angle-down"><img src="../../img/common/ico_angle_down.svg"></div>
 			</div>
@@ -26,87 +26,62 @@
 
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
-				<div class="content_text">
-					<div class="subtitle">조금만 움직여도 땀이 뚝뚝~</div>
-					<div class="title">여름철 다한증이 고민된다면?</div>
-					<div class="line"></div>
-					<div class="headcopy pc_display">
-						시험을 볼 때 시험지가 다 젖거나, 다른 사람과 악수를 꺼리거나, 발냄새로 쉽게 신발을 벗지 못했던 기억이 떠오른다면 다한증을 의심해 볼만 하다. 심리적으로 신체적으로 불편함을 유발하는 다한증에 대해 알아본다.
-					</div>
-					<div class="headcopy mobile_display">
-						시험을 볼 때 시험지가 다 젖거나, 다른 사람과 악수를 꺼리거나, 발냄새로 쉽게 신발을 벗지 못했던 기억이 떠오른다면 다한증을 의심해 볼만 하다. 심리적으로 신체적으로 불편함을 유발하는 다한증에 대해 알아본다.
-					</div>
+					<div class="subtitle_top">조금만 움직여도 땀이 뚝뚝~</div>
+					<div class="title pc_display">여름철 다한증이<br class="mobile_display"> 고민된다면?</div>
 					<div class="subcopy">
-						<b>필요 이상으로 땀이 흐른다면</b>
-						<br class="pc_display">
-						  다한증은 필요 이상으로 열이 발생해 특정 부위에 비정상적으로 땀을 흘리는 질환이다. 보통 사계절 내내 증상이 나타나지만, 여름은 무더위라는 고온 자극 때문에 다한증 환자들에게 가장 고통스러운 계절이다. 종류도 다양하다. 손발에 증상이 나타나는 수족 다한증, 수면 중 땀이 많이 나는 도한증, 겨드랑이에 땀이 많이 나는 액한증 등이다. 유독 땀이 많이 나서 여름이 두렵다면, 아래의 다한증 자가 진단 테스트를 해보자.
+						시험을 볼 때 시험지가 다 젖거나, 다른 사람과 악수를 꺼리거나, 발냄새로 쉽게 신발을 벗지 못했던 기억이 떠오른다면 다한증을 의심해 볼만 하다. 심리적으로 신체적으로 불편함을 유발하는 다한증에 대해 알아본다.
 					</div>
-				</div>
-				<div class="img_box">
-					<img src="img/sub08/sub08_02.svg" class="pc_deisplay">
-					<img src="img/sub08/sub08_02.svg" class="moblie_deisplay">
-					<div class="text_box">
-
-					</div>
-				</div>
 			</div>
-		</div>
+		</div><!-- //.section02 -->
 
 		<div class="section03 wow fadeBigInUp">
 			<div class="content">
-
-			    <div class="subcopy">
-					<b>어디서 이렇게 땀이 나나? 부위별로 다른 ‘다한증’</b><br>
-					 머리, 얼굴, 손발, 겨드랑이 등 어느 한 부위에 유독 땀이 많이 난다면 건강 상태를 점검할 필요가 있다. 이는 땀을 지나치게 많이 흘리는 ‘다한증’의 주요 증상이기 때문이다. 여름이면 더욱 심해지는 다한증을 부위별로 살펴본다. 
+				<div class="subtitle">필요 이상으로 땀이 흐른다면</div> <br class="pc_display">
+				<div class="text fadeBigInUp">
+					다한증은 필요 이상으로 열이 발생해 특정 부위에 비정상적으로 땀을 흘리는 질환이다. 보통 사계절 내내 증상이 나타나지만, 여름은 무더위라는 고온 자극 때문에 다한증 환자들에게 가장 고통스러운 계절이다. 종류도 다양하다. 손발에 증상이 나타나는 수족 다한증, 수면 중 땀이 많이 나는 도한증, 겨드랑이에 땀이 많이 나는 액한증 등이다. 유독 땀이 많이 나서 여름이 두렵다면, 아래의 다한증 자가 진단 테스트를 해보자. 
 				</div>
-
-			    <div class="all_col">
-
-			    <div class="col1 fadeBigInUp">
-				  <!-- <div class="item1 fadeBigInUp"> -->
-					<!-- <li class="pc_display left"> -->
-					    <div class="arm_foot_img"><img src="img/sub08/sub08_03.png"></div>
-					<!-- </li> -->
-					<!-- <li> -->
-						<div class="circle_img" ><img src="img/sub08/sub08_04.png"></div>
-						<!-- <div class="item_title line01">손톱 끝이 쉽게 갈라지고</div>
-						<div class="item_title line02">부서진다면?</div> -->
-						<div class="item_text">사람들은 긴장하면 손발에 땀이 난다. 이는 긴장 상태를 해소하는 현상으로 시간이 지나면 마른다. 반면, 수족 다한증은 빠른 시간에 모든 땀이 쏟아져 손발이 전부 젖어버리게 된다. 학생이 손발에 땀이 난다면 학업적 불편함과 함께 땀으로 유발되는 발냄새로 인해 교우 관계에 불편함이 나타날 수 있다. 성인의 경우 컴퓨터 작업이나 수작업 등의 정교한 업무가 힘들어질 수 있고, 악수하는 상황에서 손이 축축이 젖어 심리적인 위축이 나타날 수 있다.</div>
-					<!-- </li> -->
-					    <div class="line mobile_display"></div>
+				<div class="test_box">
+					<div class="img_box"><img src=""></div>
+					<div class="conts_box">
+						<div class="box_title">아~ 축축해!<span>다한증 자가 진단 체크 테스트</span></div>
+						<ul>
+							<li>일주일에 한 번 이상 땀이 과하게 날 때가 있다.</li>
+							<li>신체 좌우에 비교적 대칭적으로 땀 분비 분포를 보인다. 예를 들어, 오른발과 왼발 모두 땀이 나는 등 좌우 양측에 대칭적으로 땀이 난다.</li>
+							<li>잠을 잘 때는 땀 분비가 없다.</li>
+							<li>첫 발병 시점이 25살 이전이다.</li>
+							<li>귀지가 눅눅하다.</li>
+						</ul>
+						<em>6개월 이상 특별한 이유 없이 특정 부위에 땀이 나기 시작하며, 위 증상이 2가지 이상 지속될 경우 다한증을 의심해 볼 수 있습니다.</em>
+					</div>
 				</div>
-
-				  <!-- </div> -->
-				<div class="col2 fadeBigInUp">
-				        <div class="men1_img"><img src="img/sub08/sub08_05.png"></div>
-					<!-- </li> -->
-					<!-- <li> -->
-						<div class="circle_img" ><img src="img/sub08/sub08_06.png"></div>
-						<!-- <div class="item_title line01">손톱 끝이 쉽게 갈라지고</div>
-						<div class="item_title line02">부서진다면?</div> -->
-						<div class="item_text">얼굴과 머리에서 땀이 많이 분비되는 현상을 두한증이라고 한다. 증상이 심하면 비가 오듯이 흐르는 땀 때문에 건강에 문제가 생긴 건 아닌지 오해를 받기도 한다. 식사할 땐 정수리에서 시작된 땀이 목을 타고 흐르기 때문에 두한증이 있는 사람은 매콤하거나 뜨거운 음식을 선택할 때 신중해야 한다. 여성의 경우 얼굴에서 흐르는 땀으로 인해 화장이 지워지는 불편함이 있을 수 있다.</div>
-					<!-- </li> -->
-					    <div class="line mobile_display"></div>
-				</div>
-
-				<div class="col3 fadeBigInUp">
-						<div class="men2_img"><img src="img/sub08/sub08_07.png"></div>
-					<!-- </li> -->
-					<!-- <li> -->
-						<div class="circle_img" ><img src="img/sub08/sub08_08.png"></div>
-						<!-- <div class="item_title line01">손톱 끝이 쉽게 갈라지고</div>
-						<div class="item_title line02">부서진다면?</div> -->
-						<div class="item_text">유독 겨드랑이에 땀이 많이 난다면 액한증을 의심해 볼 수 있다. 통풍이 안 되는 블라우스를 입거나 꽉 끼는 상의를 입었을 때 겨드랑이가 축축하게 젖어 손을 들기 민망한 상황이 발생해 고민이 많은 부위이기도 하다. 겨드랑이는 아포크린샘*이라는 땀샘이 존재해서 땀 냄새를 심하게 유발하는 부위이다. 겨드랑이 땀을 피부의 정상 세균이 분해하는 과정에서 땀 냄새가 나는 것을 액취증이라고 하는데, 액한증이 지속된다면 액취증을 동반할 확률이 높아져 주의가 필요하다. </div>
-					<!-- </li> -->
-					    <div class="line mobile_display"></div>
-				</div>
-
-			 	</div>
-
 			</div>
-		</div>
+		</div><!-- //.section03 -->
 
 		<div class="section04 wow fadeBigInUp">
+			<div class="content">
+				<div class="subtitle">어디서 이렇게 땀이 나나? 부위별로 다른 ‘다한증’</div> <br class="pc_display">
+				<div class="text fadeBigInUp">
+					머리, 얼굴, 손발, 겨드랑이 등 어느 한 부위에 유독 땀이 많이 난다면 건강 상태를 점검할 필요가 있다. 이는 땀을 지나치게 많이 흘리는 ‘다한증’의 주요 증상이기 때문이다. 여름이면 더욱 심해지는 다한증을 부위별로 살펴본다. 
+				</div>
+				<div class="type_explain">
+					<div class="types">
+						<div class="type1">
+							<div class="img_box"><img src=""></div>
+							<span></span>
+							<p></p>
+						</div>
+						<div class="type2">
+							<div class="img_box"><img src=""></div>
+							<span></span>
+							<p></p>
+						</div>
+						<div class="type3"></div>
+					</div>
+				</div>	
+			</div>
+		</div><!-- //.section04 -->
+
+		<div class="section05 wow fadeBigInUp">
 			<div class="content">
 				<div class="title fadeBigInUp">
 					<img src="img/sub08/sub08_10.svg">

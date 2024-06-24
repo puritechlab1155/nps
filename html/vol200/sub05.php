@@ -245,10 +245,10 @@
 						<div class="info_title">INFO</div>
 						<div class="info_list">
 							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><a href="https://harrybook.kr" target="_blank">harrybook.kr</a></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 고창군 해리면 월봉성산길 <br class="mobile_display">88</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 고창군 해리면 월봉성산길 88</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>금~월요일 10:00~18:00</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-563-9173</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>1인 8천 원 또는 책 구입 시 무료<br class="mobile_display">입장</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>1인 8천 원 또는 책 구입 시 무료입장</em></div>
 						</div>
 					</div>
 				</div>
@@ -319,7 +319,7 @@
 						<div class="info_title">INFO</div>
 						<div class="info_list">
 							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><a href="https://sanghafarm.co.kr" target="_blank">sanghafarm.co.kr</a></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 고창군 상하면 상하농원길 <br class="mobile_display">11-23</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 고창군 상하면 상하농원길 11-23</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>09:30~21:00(연중무휴)</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>1522-3698</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span>대인 9천 원, 소인 6천 원</div>
@@ -392,7 +392,7 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 고창군 부안면 용산리 <br class="mobile_display">44-35</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 고창군 부안면 용산리 44-35</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-561-2553</div>
 						</div>
 					</div>
@@ -473,7 +473,7 @@
 							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 고창군 고창읍 읍내리<br class="mobile_display"> 125-9</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>5:00~22:00(연중무휴)</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-560-8067</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>어른 3천 원, 청소년 2천 원,<br class="mobile_display"> 어린이 1천 원(*동일금액 고창사<br class="mobile_display">랑상품권 제공)</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>어른 3천 원, 청소년 2천 원,<br class="mobile_display"> 어린이 1천 원(*동일금액 고창사랑상품권 제공)</em></div>
 						</div>
 					</div>
 				</div>
@@ -545,10 +545,10 @@
 						<div class="info_title">INFO</div>
 						<div class="info_list">
 							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><a href="https://www.gochang.go.kr/index.gochang" target="_blank">gochang.go.kr/gcdolmen</a></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 고창군 고창읍 고인돌공원<br class="mobile_display">길 74</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 고창군 고창읍 고인돌공원길 74</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>하절기 09:00~18:00,<br class="mobile_display"> 동절기 09:00~17:00<br class="mobile_display">(월요일 휴무)</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-560-8666</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>어른 3천 원, 청소년 2천 원, 어린<br class="mobile_display">이 1천 원(*동일금액 고창사<br class="mobile_display">랑상품권 제공)</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>어른 3천 원, 청소년 2천 원, 어린이 1천 원(*동일금액 고창사랑상품권 제공)</em></div>
 						</div>
 					</div>
 				</div>

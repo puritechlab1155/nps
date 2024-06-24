@@ -405,35 +405,33 @@
 }
 
 /* NPS 칼럼 */
-.sub02 #contents { position: relative; padding: 0; }
-.sub02 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub02/sub02_00.svg'); background-size: cover; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; }
-.sub02 .section01 .content { text-align: center; margin-bottom: 20px; color: #fff; }
-.sub02 .section01 .content .title { font-size: 27px; font-weight: 700; }
-.sub02 .section01 .content .text { font-size: 16px; font-weight: 400; }
+.sub02 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; color: #000; line-height: normal; letter-spacing: normal; }
+.sub02 .content .subtitle { color: #70c6f3; font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; text-align: left; }
+.sub02 .content .text { font-size: 18px; font-weight: 400; letter-spacing: -0.36px; line-height: 32px; }
+.sub02 .content .text span { font-weight: 700; }
 
-.sub02 .section02 { position: relative; display: block; width: 100%; max-width: 1020px; margin: 150px auto; padding:0 20px; }
-.sub02 .section02 .content { position: relative; width: 100%; max-width: 980px; margin-bottom: 80px; }
-.sub02 .section02 .content .title { font-size: 50px; font-weight: 900; color: #222; letter-spacing: -0.3px; line-height: 1.2; margin-bottom: 20px; text-align: center; }
-.sub02 .section02 .content .subcopy { font-size: 20px; font-weight: 700; color: #222; letter-spacing: -0.3px; line-height: 32px; }
-.sub02 .section02 .content .line { margin: 30px 0; border-bottom: 1px solid #333;  }
+.sub02 .section01 { height: 550px; width: 100%;  background: #b6dcff url('../img/sub02/sub02_00.svg'); background-size: contain; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; }
+.sub02 .section01 .content { text-align: center; margin-bottom: 89px; }
+.sub02 .section01 .content .cover_title { font-size: 27px; font-weight: 700; }
+.sub02 .section01 .content .cover_text { font-size: 16px; font-weight: 400; padding: 13px 0; }
+
+.sub02 .section02 { position: relative; display: block; width: 100%; max-width: 980px; margin: 120px auto 100px; }
+.sub02 .section02 .content { position: relative; width: 100%; max-width: 980px; }
+.sub02 .section02 .content .main_title { font-size: 50px; font-weight: 700; line-height: 68px; padding-bottom: 30px; border-bottom: 1px solid #000; text-align: center; }
+.sub02 .section02 .content .subcopy { font-size: 20px; font-weight: 700; letter-spacing: -0.4px; line-height: 32px; margin-top: 35px; }
 
 .sub02 .section03 { position: relative; width: 100%; display: block; }
-.sub02 .section03 .content { width: 100%; max-width: 1020px; margin: 50px auto; padding:0 20px;  }
-.sub02 .section03 .content .subtitle { font-family: 'Rundigodic'; font-size: 23px; letter-spacing: -0.3px; line-height: 32px; text-align: left; color:#618fde; }
-.sub02 .section03 .content .text { font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; margin: 30px 0 50px 0;}
-.sub02 .section03 .content .statistics { background: #fdf19f; display: inline-block; padding: 30px; }
-.sub02 .section03 .content .statistics .title { font-family: 'Rundigodic'; font-size: 25px; letter-spacing: -0.3px; line-height: 36px; text-align: center; width: 240px; margin: 5px auto; border-bottom: 1px solid #222; padding-bottom: 5px; }
-.sub02 .section03 .content .statistics .standard { font-family: 'Rundigodic'; font-size: 17px; letter-spacing: -0.3px; line-height: 36px; text-align: center; }
-.sub02 .section03 .content .statistics li { width: 50%; float: left; border-bottom: 1px solid #333; padding: 20px; position: relative; }
-.sub02 .section03 .content .statistics li img { width: 100%; max-width: 380px; }
-.sub02 .section03 .content .statistics li:nth-child(even)::before { content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%);  border-left: 1px solid #333; height: 60%; }
-.sub02 .section03 .content .statistics li:nth-child(5), .sub02 .section03 .content .statistics li:nth-child(6) { border-bottom: 0px; }
+.sub02 .section03 .content { width: 100%; max-width: 980px; margin: 0 auto; }
+
+.sub02 .section03 .content .question_box { background: rgba(112, 198, 243, 0.20); width: 100%; max-width: 980px; padding: 40px; border-radius: 16px; margin: 36px auto; }
+.sub02 .section03 .content .question_box .text_top { color: #70c6f3; font-family: 'laundrygothic'; font-size: 80px; font-weight: 700; text-align: center; }
+.sub02 .section03 .content .question_box .question { text-align: center; font-family: 'laundrygothic'; font-size: 20px; font-weight: 400; line-height: 30px; padding: 30px 0; }
+.sub02 .section03 .content .question_box p { font-size: 16px; font-weight: 400; line-height: 28px; letter-spacing: -0.32px; }
 
 .sub02 .section04 { position: relative; width: 100%; display: block; }
-.sub02 .section04 .content { width: 100%; max-width: 1020px; margin: 50px auto; padding:0 20px;  }
-.sub02 .section04 .content .subtitle { font-family: 'Rundigodic'; font-size: 23px; letter-spacing: -0.3px; line-height: 32px; text-align: left; color:#618fde; }
-.sub02 .section04 .content .text { font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; margin: 30px 0 50px 0;}
-.sub02 .section04 .content .img {  width: 100%; max-width: 100%; }
+.sub02 .section04 .content { width: 100%; max-width: 980px; margin: 70px auto; }
+.sub02 .section04 .content .img_box1 { margin: 36px auto; }
+.sub02 .section04 .content .img_box2 { margin-top: 36px; }
 
 @media only all and (max-width:767px) {
 	.sub02 .section01 { height: 275px; }

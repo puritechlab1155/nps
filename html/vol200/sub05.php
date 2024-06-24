@@ -21,7 +21,7 @@
 				<div class="cover_text">글·사진. 권다현 여행작가</div>
 				<div class="angle-down"><img src="../../img/common/ico_angle_down_wh.svg"></div>
 			</div>
-		</div>
+		</div><!-- //.section01 -->
 
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
@@ -32,20 +32,23 @@
 					<img src="img/sub05/sub05_01.svg" class="pc_display">
 					<img src="img/sub05/sub05_01_mo.svg" class="mobile_display">
 			</div>
-		</div>
+		</div><!-- //.section02 -->
 
 		<div class="section03 wow fadeBigInUp">
 			<div class="content">
+
 				<div class="num_title fadeBigInUp">
 					<div class="number"><img src="img/sub05/sub05_title-1.svg"></div>
 					<span>모두를 위한 사찰</span>
 					<h3>선운사</h3>
 				</div>
+
 				<div class="text fadeBigInUp">
 					고창을 대표하는 사찰인 선운사는 그 이름을 풀면 “오묘한 지혜의 경계인 구름(雲)에 머무르면서 갈고 닦아 선정(禪)의 경지를 얻는다”는 의미다. 백제 고승인 검단선사가 창건할 당시 붙인 이름인데, 지금도 안개나 구름이 그윽하게 내려앉은 날이면 다른 세상 마냥 신비로운 풍경을 빚어낸다. 선운사의 명성 탓에 선운산으로 불리게 된 도솔산도 그 이름에서 불교의 이상향인 도솔천을 떠올리게 한다.<br>
 					선운사는 지장보살 신앙의 성지로 꼽히는데, 여기에 모셔진 금동지장보살좌상에는 믿지 못할 이야기가 전해진다. 일제강점기에 일본으로 밀반출됐던 금동지장보살좌상이 주인이 바뀔 때마다 꿈에 나타나 “나는 본래 고창 도솔산에 있었으니 그리로 보내 달라”며 크게 꾸짖었던 것. 심지어 이 불상을 소지한 이들에게 연달아 불행이 닥치자 결국 마지막 소장자가 고창경찰서에 신고해 반환했다고 한다. 주민들은 우여곡절 끝에 2년 만에 원래의 자리로 돌아온 금동지장보살좌상을 가장 아끼고 섬긴다. 선운사에는 보물로 지정된 금동지장보살좌상과 대웅보전, 천연기념물인 동백 숲 등 다양한 국가유산을 보유하고 있다.<br>
 					선운사가 자리한 선운산도립공원은 지난 2016년 열린관광지로 선정됐다. 장애인, 고령자, 영유아 가족 등 모든 관광객이 이동의 불편 및 관광 활동의 제약 없이 이용할 수 있는 장애물 없는 관광지란 의미다. 선운산도립공원은 탐방로부터 휠체어나 유모차 모두 이용 가능하도록 만들어졌다. 경내로 들어서는 모든 단차를 제거해 누구나 편안하게 이동할 수 있다. 돌계단 여러 개를 올라야 하는 관음전 앞에는 휠체어 경사로도 설치했다. 우리네 이웃에 대한 따스한 관심과 배려 덕분에 선운사는 모두에게 열린 사찰이 되었다.
 				</div>
+
 				<div class="slider_wrap">
 					<ul class="slider1">
 						<li class="item"><img src="img/sub05/sub05_11.jpg"></li>
@@ -62,7 +65,7 @@
 					<ul class="as_slider1">
 						<li></li><li></li><li></li><li></li>
 					</ul>
-				</div>
+				</div><!-- //.slider_wrap -->
 					<script>
 						var $mainSlider1 = $('.slider1');
 							$mainSlider1.slick({
@@ -106,7 +109,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div><!-- //.section03 -->
 
 		<div class="section04 wow fadeBigInUp">
 			<div class="content">
@@ -172,10 +175,11 @@
 						<div class="info_title">INFO</div>
 						<div class="info_list">
 							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 고창군 해리면 동호리 712</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div><!-- //.section04 -->
 
 		<div class="section05 wow fadeBigInUp">
 			<div class="content">

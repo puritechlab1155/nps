@@ -808,154 +808,6 @@
     animation-delay: 0s;
 }
 
-.sub06 .section03 .film .film_box:nth-child(2) {
-    animation-delay: 0.3s; 
- } 
-
- .sub06 .section03 .film .film_box:nth-child(3) {
-    animation-delay: 0.6s; 
-}
-.sub06 .section03 .film .film_box:nth-child(4) {
-    animation-delay: 0.9s;
-}
-
-.sub06 .section03 .film .film_box:nth-child(5) {
-    animation-delay: 1.2s; 
- } 
-
- .sub06 .section03 .film .film_box:nth-child(6) {
-    animation-delay: 1.5s; 
-}
-.sub06 .section03 .film .film_box:nth-child(7) {
-    animation-delay: 1.8s;
-}
-
-.sub06 .section03 .film .film_box:nth-child(8) {
-    animation-delay: 2.1s; 
- } 
-
- .sub06 .section03 .film .film_box:nth-child(9) {
-    animation-delay: 2.4s; 
-}
-.sub06 .section03 .film .film_box:nth-child(10) {
-	animation-delay: 2.7s;
-}
- 
- .sub06 .section03 .film .film_box:nth-child(11) {
-    animation-delay: 3s;
-}
-
-.sub06 .section03 .film .film_box:nth-child(12) {
-    animation-delay: 3.3s; 
-} 
-
-.sub06 .section03 .film .film_box:nth-child(13) {
-    animation-delay: 3.6s; 
- } 
-
- .sub06 .section03 .film .film_box:nth-child(14) {
-    animation-delay: 3.9s;
-}
-.sub06 .section03 .film .film_box:nth-child(15) {
-    animation-delay: 4.2s;
-}
-.sub06 .section03 .film .film_box:nth-child(16) {
-    animation-delay: 4.5s; 
-}
-
-.sub06 .section03 .film .film_box:nth-child(17) {
-    animation-delay: 4.8s;
-}
- .sub06 .section03 .film .film_box:nth-child(18) {
-    animation-delay: 5.1s; 
-}
-.sub06 .section03 .film .film_box:nth-child(19) {
-    animation-delay: 5.4s; 
-} 
-
-.sub06 .section03 .film .film_box:nth-child(20) {
-    animation-delay: 5.7s; 
- } 
-
- .sub06 .section03 .film .film_box:nth-child(21) {
-    animation-delay: 6s;
-}
-.sub06 .section03 .film .film_box:nth-child(22) {
-    animation-delay: 6.3s;
-}
-.sub06 .section03 .film .film_box:nth-child(23) {
-    animation-delay: 6.6s; 
-}
-
-.sub06 .section03 .film .film_box:nth-child(24) {
-    animation-delay: 6.9s;
-}
- .sub06 .section03 .film .film_box:nth-child(25) {
-    animation-delay: 7.2s; 
-}
-.sub06 .section03 .film .film_box:nth-child(26) {
-    animation-delay: 7.5s; 
-}
-
-.sub06 .section03 .film .film_box:nth-child(27) {
-    animation-delay: 7.8s;
-}
- .sub06 .section03 .film .film_box:nth-child(28) {
-    animation-delay: 8.1s; 
-}
-.sub06 .section03 .film .film_box:nth-child(29) {
-    animation-delay: 8.4s;
-}
-.sub06 .section03 .film .film_box:nth-child(30) {
-    animation-delay: 8.7s;
-}
-.sub06 .section03 .film .film_box:nth-child(31) {
-    animation-delay: 9s; 
-}
-
-.sub06 .section03 .film .film_box:nth-child(32) {
-    animation-delay: 9.3s;
-}
- .sub06 .section03 .film .film_box:nth-child(33) {
-    animation-delay: 9.6s; 
-}
-.sub06 .section03 .film .film_box:nth-child(34) {
-    animation-delay: 9.9s; 
-}
-
-.sub06 .section03 .film .film_box:nth-child(35) {
-    animation-delay: 10.2s;
-}
- .sub06 .section03 .film .film_box:nth-child(36) {
-    animation-delay: 10.5s; 
-}
-.sub06 .section03 .film .film_box:nth-child(37) {
-    animation-delay: 10.8s; 
-}
- .sub06 .section03 .film .film_box:nth-child(38) {
-    animation-delay: 11.1s; 
- }
-
-.sub06 .section03 .film .film_box:nth-child(39) {
-    animation-delay: 11.4s; 
-} 
-
-.sub06 .section03 .film .film_box:nth-child(40) {
-    animation-delay: 11.7s;
-}
- .sub06 .section03 .film .film_box:nth-child(41) {
-    animation-delay: 12s; 
-}
-.sub06 .section03 .film .film_box:nth-child(42) {
-    animation-delay: 12.3s; 
-} 
-
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
-}
-
 .sub06 .section03 .content { width: 100%; max-width: 1020px; margin: 80px auto; padding:0 20px;  }
 .sub06 .section03 .content .text { font-size: 18px; font-weight: 400; color: #000; line-height: 32px; letter-spacing: -0.36px; }
 .sub06 .section03 .content .text h3 { color: #7ea7ff; font-size: 23px; font-weight: 700; line-height: 32px; font-family: 'laundrygothic'; letter-spacing: normal; }
@@ -980,8 +832,12 @@
 .sub06 .section04 .content .item2 .conts .credit_info .info_text span::before { content: ''; background: url(../img/sub06/flower.svg) no-repeat; width: 36px; height: 36px; background-size: contain; position: absolute; left: 0; top: 0px; transform: translateY(-25%); }
 .sub06 .section04 .content .item2 .conts .credit_info .info_text p { color: #000; font-size: 16.5px; letter-spacing: -0.34px; font-weight: 400; line-height: 32px; }
 
-.sub06 .section04 .content .item4 { margin-top: 48px; }
-.sub06 .section04 .content .item4 div { font-family: 'laundrygothic'; color:#000; font-size: 32px; font-weight: 400; line-height: 50px; text-align: center; width: 800px; margin: 0 auto; border-bottom: 1px solid #000; padding: 10px 0; }
+.sub06 .section04 .content .item4 { margin: 48px auto 0; }
+.sub06 .section04 .content .item4 div { font-family: 'laundrygothic'; color:#000; font-size: 32px; font-weight: 400; line-height: 50px; text-align: center; margin: 0 auto; border-bottom: 1px solid #000; padding: 10px 0; }
+
+@media only all and (max-width: 1023px) {
+	.sub06 .section04 .content .item4 div { font-size: 31.5px; }
+}
 
 @media only all and (max-width:767px) {
 	.sub06 .section01 { height: 275px; position: relative; }
@@ -990,7 +846,7 @@
 	.sub06 .section01 .content .title { font-size: 20px; font-weight: 700; }
 	.sub06 .section01 .content .text { padding: 0; }
 
-	.sub06 .section02 { margin: 50px auto; padding:0 20px; }
+	.sub06 .section02 { margin: 50px auto; }
 	.sub06 .section02 .content {  margin-bottom: 50px; }
 	.sub06 .section02 .content .subtitle { font-size: 24px; line-height: 30px; padding-bottom: 8px; }
 	.sub06 .section02 .content .title { font-size: 36px; line-height: 48px; padding-bottom: 35px; }
@@ -1005,7 +861,7 @@
 	.sub06 .section03 .content .line1 { margin-top: 16px; }
 	.sub06 .section03 .content .conversation_box { margin: 16px auto; }
 	
-	.sub06 .section04 .content { width: 100%; margin: 40px auto; padding: 0 20px; }
+	.sub06 .section04 .content { width: 100%; margin: 40px auto; }
 	.sub06 .section04 .content h4 { font-size: 16px; line-height: 28px; letter-spacing: normal; }
 	.sub06 .section04 .content .item_text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
 	.sub06 .section04 .content .item2 { margin: 16px auto 36px; text-align: center; }

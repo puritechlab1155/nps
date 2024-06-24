@@ -433,6 +433,9 @@
 .sub02 .section04 .content .img_box1 { margin: 36px auto; }
 .sub02 .section04 .content .img_box2 { margin-top: 36px; }
 
+.sub02 .section05 { position: relative; width: 100%; display: block; }
+.sub02 .section05 .content { width: 100%; max-width: 980px; margin: 0 auto 120px; }
+
 @media only all and (max-width:767px) {
 	.sub02 .section01 { height: 275px; }
 	.sub02 .section01 .content { text-align: center; margin-bottom: 0px; color: #fff; }

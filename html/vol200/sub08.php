@@ -88,7 +88,9 @@
 		<div class="section05 wow fadeBigInUp">
 			<div class="content">
 				<div class="title_box fadeBigInUp">
+					<img src="img/sub08/sub08-item">
 					<div class="title">건강한 땀 배출을 위한 생활 수칙</div>
+					<img src="img/sub08/sub08-item">
 				</div>
 				<div class="copy-text">다한증 치료를 위해 교감신경을 절제하거나, 땀 분비를 막는 레이저 치료를 진행하기도 하지만 심하지 않은 다한증이라면 건강한 생활 습관 관리를 통해 증상을 완화할 수 있다.</div>
 				<div class="items">

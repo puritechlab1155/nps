@@ -18,8 +18,8 @@
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="title">NPS 칼럼</div>
-				<div class="text">글. 류영상 매경닷컴 기자</div>
-				<div class="angle-down"><i class="xi-angle-down-min"></i></div>
+				<div class="text">글. 서한기 연합뉴스 기자</div>
+				<div class="angle-down"><img src="../../img/common/ico_angle_down.svg"></div>
 			</div>
 		</div>
 

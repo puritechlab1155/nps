@@ -69,8 +69,8 @@
 								</p>
 							</div> -->
 							<div class="img_box">
-								<img src="img/sub09/sub09_03_pc" class="pc_display">
-								<img src="img/sub09/sub09_03_mo" class="mobile_display">
+								<img src="img/sub09/sub09_03_pc.svg" class="pc_display">
+								<img src="img/sub09/sub09_03_mo.svg" class="mobile_display">
 							</div>
 							음식도 마찬가지다. 토르티야, 나초, 퀘사디야, 팝콘, 콘플레이크 모두 옥수수로 만든다. 옥수수가 지금까지 이들에게 든든한 식량으로 버팀목이 되어 주었기 때문에
 							옥수수는 멕시코인들에게 영원토록 성스러운 농작물로 여겨지고 있다.

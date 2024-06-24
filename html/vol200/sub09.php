@@ -99,6 +99,18 @@
 					<div class="title wow fadeBigInUp">
 						<img src="img/sub09/sub09_05.png" class="scroll-image">
 					</div>
+					<script>
+						$(window).scroll(function(){
+							var st = $(this).scrollTop();
+							var evTop = $('.scroll-image').offset().top - 500;
+
+							if(st>=evTop){
+								$('.scroll-image').addClass('on');
+							}else{
+								$('.scroll-image').removeClass('on');
+							}
+						});
+					</script>
 
 					<ul>
 						<li class="item1 fadeBigInUp">

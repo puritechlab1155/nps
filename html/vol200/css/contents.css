@@ -406,7 +406,7 @@
 
 /* NPS 칼럼 */
 .sub02 #contents { position: relative; padding: 0; }
-.sub02 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub02/sub02_00.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; }
+.sub02 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub02/sub02_00.svg'); background-size: cover; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; }
 .sub02 .section01 .content { text-align: center; margin-bottom: 20px; color: #fff; }
 .sub02 .section01 .content .title { font-size: 27px; font-weight: 700; }
 .sub02 .section01 .content .text { font-size: 16px; font-weight: 400; }
@@ -1260,8 +1260,7 @@
 	} */
 	/* .sub09 .section03 .content .title .scroll-image {opacity: 0;} */
 
-.sub09 .section03 .content .title .scroll-image {
-    animation: slideIn 2s ease-out forwards; }
+.sub09 .section03 .content .title .scroll-image.on { animation: slideIn 2s ease-out forwards; }
 	@keyframes slideIn {
 		0% {
 			transform: translateX(100%);

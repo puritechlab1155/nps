@@ -586,6 +586,7 @@
 .sub05 .section02 .content { position: relative; max-width: 1020px; width: 100%; padding: 0 20px; margin: 0 auto; }
 .sub05 .section02 .content .title { font-size: 50px; font-weight: 700; line-height: 68px; padding-bottom: 30px; border-bottom: 1px solid #000; text-align: center; }
 .sub05 .section02 .content .subcopy { font-size: 20px; font-weight: 700; letter-spacing: -0.4px; line-height: 32px; text-align: left; margin: 35px 0 59px; }
+.sub05 .section02 .content img { width: 100%; }
 
 .sub05 .content .num_title { width: 100%; }
 .sub05 .content .num_title .number { float: left; width: 48px; padding: 8px 0; margin-right: 16px; }
@@ -661,6 +662,7 @@
 
 .sub05 .section08 { position: relative; display: block; width: 100%; background: #1746bf;}
 .sub05 .section08 .content { position: relative; max-width: 1020px; padding: 100px 20px 0; margin: 0 auto; }
+.sub05 .section08 .content img { width: 100%; }
 
 .sub05 .section09 { position: relative; width: 100%; display: block; }
 .sub05 .section09 .content { width: 100%; max-width: 1020px; padding: 0 20px; margin: 100px auto; }
@@ -750,6 +752,18 @@
 
 	.sub05 .section11 .content { margin: 48px auto 51px; }
 	.sub05 .section11 .content .info_area .info_box { padding-bottom: 18px; }
+}
+@media only all and (max-width: 360px) {
+	.sub05 .content .num_title .number { width: 36px; margin-right: 10px; }
+}
+@media only all and (max-width: 344px) {
+	.sub05 .content .num_title .number { width: 30px; }
+	.sub05 .content .num_title span { font-size: 15px; line-height: 23px; }
+	.sub05 .content .num_title h3 { font-size: 15px; line-height: 23px; }
+
+	.sub05 .content .info_area .info_box .info_list .list span { width: 30%; }
+	.sub05 .content .info_area .info_box .info_list .list a { line-height: 21px; }
+	.sub05 .content .info_area .info_box .info_list .list em { line-height: 21px; width: 70%; }
 }
 
 /* 연금엔씨네마 */

@@ -169,31 +169,33 @@
 					통상적으로 저출생 지원은 출산과 육아에 집중돼 있다. 그런 점에서 노후에 도움을 주는 출산 크레딧은 의미가 크다. 공공이 출산에 대해 끝까지 지원한다는 시그널을 줄 수 있기 때문이다.
 				</div>
 				<div class="item2">
-					<div class="img_box">
-						<img src="img/sub06/sub06_02.svg" class="pc_display">
-						<img src="img/sub06/sub06_02_mo.svg" class="mobile_display">
-					</div>
-					<div class="conts">
-						<div class="credit_title">한눈에 보는<span>출산 크레딧</span></div>
-						<div class="credit_info">
-							<div class="info_text">
-								<span>출산 크레딧이란?</span>
-								<p>2008년 1월 1일 이후 2인 이상 자녀를 둔 부모를 대상으로 국민연금 가입기간을 추가로 인정해 주는 제도이다.</p>
-							</div>
-							<div class="info_text">
-								<span>출산 크레딧 혜택</span>
-								<p>부모가 모두 국민연금 가입자 혹은 가입자였던 자인 경우 합의에 따라 추가 가입기간을 부모가 각자 나누어 가지거나, 한 사람이 모두 가져갈 수 있다. 자녀 수에 따라 최장 50개월의 추가 가입기간이 인정된다.</p>
-							</div>
-							<div class="info_text">
-								<span>출산 크레딧 인정 대상</span>
-								<p>자녀 2인 이상 둔 부모들은 신청이 가능하다.</p>
-							</div>
-							<div class="info_text">
-								<span>신청 기간</span>
-								<p>노령연금 수급권을 획득했을 때 신청이 가능하다.</p>
+					<div class="pc_display">
+						<div class="img_box">
+							<img src="img/sub06/sub06_02.svg">
+						</div>
+						<div class="conts">
+							<div class="credit_title">한눈에 보는<span>출산 크레딧</span></div>
+							<div class="credit_info">
+								<div class="info_text">
+									<span>출산 크레딧이란?</span>
+									<p>2008년 1월 1일 이후 2인 이상 자녀를 둔 부모를 대상으로 국민연금 가입기간을 추가로 인정해 주는 제도이다.</p>
+								</div>
+								<div class="info_text">
+									<span>출산 크레딧 혜택</span>
+									<p>부모가 모두 국민연금 가입자 혹은 가입자였던 자인 경우 합의에 따라 추가 가입기간을 부모가 각자 나누어 가지거나, 한 사람이 모두 가져갈 수 있다. 자녀 수에 따라 최장 50개월의 추가 가입기간이 인정된다.</p>
+								</div>
+								<div class="info_text">
+									<span>출산 크레딧 인정 대상</span>
+									<p>자녀 2인 이상 둔 부모들은 신청이 가능하다.</p>
+								</div>
+								<div class="info_text">
+									<span>신청 기간</span>
+									<p>노령연금 수급권을 획득했을 때 신청이 가능하다.</p>
+								</div>
 							</div>
 						</div>
 					</div>
+					<img src="img/sub06/sub06_02_mo.svg" class="mobile_display">
 				</div>
 				<div class="item3 item_text">
 					<h4>아기와 부모를 지키는 사회 안전망은 필수</h4>

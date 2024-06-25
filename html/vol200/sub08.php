@@ -27,7 +27,7 @@
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
 					<div class="subtitle_top">조금만 움직여도 땀이 뚝뚝~</div>
-					<div class="title pc_display">여름철 다한증이<br class="mobile_display"> 고민된다면?</div>
+					<div class="title">여름철 다한증이<br class="mobile_display"> 고민된다면?</div>
 					<div class="subcopy">
 						시험을 볼 때 시험지가 다 젖거나, 다른 사람과 악수를 꺼리거나, 발냄새로 쉽게 신발을 벗지 못했던 기억이 떠오른다면 다한증을 의심해 볼만 하다. 심리적으로 신체적으로 불편함을 유발하는 다한증에 대해 알아본다.
 					</div>
@@ -56,21 +56,21 @@
 				<div class="type_explain">
 					<div class="types">
 						<div class="type1">
-							<div class="img_box"><img src="img/sub08/sub08_21.svg"></div>
-							<span>손과 발’에 땀이 많이 나는 수족 다한증</span>
+							<div class="img_box"><img src="img/sub08/sub08_21.svg" class="hover-image"></div>
+							<span>'손과 발’에 땀이 많이 나는 수족 다한증</span>
 							<p>
 								사람들은 긴장하면 손발에 땀이 난다. 이는 긴장 상태를 해소하는 현상으로 시간이 지나면 마른다. 반면, 수족 다한증은 빠른 시간에 모든 땀이 쏟아져 손발이 전부 젖어버리게 된다. 학생이 손발에 땀이 난다면 학업적 불편함과 함께 땀으로 유발되는 발냄새로 인해 교우 관계에 불편함이 나타날 수 있다. 성인의 경우 컴퓨터 작업이나 수작업 등의 정교한 업무가 힘들어질 수 있고, 악수하는 상황에서 손이 축축이 젖어 심리적인 위축이 나타날 수 있다.
 							</p>
 						</div>
 						<div class="type2">
-							<div class="img_box"><img src="img/sub08/sub08_22.svg"></div>
+							<div class="img_box"><img src="img/sub08/sub08_22.svg" class="hover-image"></div>
 							<span>‘얼굴’에서 비가 내리는 두한증</span>
 							<p>
 								얼굴과 머리에서 땀이 많이 분비되는 현상을 두한증이라고 한다. 증상이 심하면 비가 오듯이 흐르는 땀 때문에 건강에 문제가 생긴 건 아닌지 오해를 받기도 한다. 식사할 땐 정수리에서 시작된 땀이 목을 타고 흐르기 때문에 두한증이 있는 사람은 매콤하거나 뜨거운 음식을 선택할 때 신중해야 한다. 여성의 경우 얼굴에서 흐르는 땀으로 인해 화장이 지워지는 불편함이 있을 수 있다.
 							</p>
 						</div>
 						<div class="type3">
-							<div class="img_box"><img src="img/sub08/sub08_23.svg"></div>
+							<div class="img_box"><img src="img/sub08/sub08_23.svg" class="hover-image"></div>
 							<span>‘겨드랑이’ 땀으로 옷이 더러워지는 액한증</span>
 							<p>
 								유독 겨드랑이에 땀이 많이 난다면 액한증을 의심해 볼 수 있다. 통풍이 안 되는 블라우스를 입거나 꽉 끼는 상의를 입었을 때 겨드랑이가 축축하게 젖어 손을 들기 민망한 상황이 발생해 고민이 많은 부위이기도 하다. 겨드랑이는 아포크린샘*이라는 땀샘이 존재해서 땀 냄새를 심하게 유발하는 부위이다. 겨드랑이 땀을 피부의 정상 세균이 분해하는 과정에서 땀 냄새가 나는 것을 액취증이라고 하는데, 액한증이 지속된다면 액취증을 동반할 확률이 높아져 주의가 필요하다.
@@ -87,40 +87,48 @@
 
 		<div class="section05 wow fadeBigInUp">
 			<div class="content">
-				<div class="title_box fadeBigInUp">
-					<img src="img/sub08/sub08-item.svg">
-					<div class="title">건강한 땀 배출을 위한 생활 수칙</div>
-					<img src="img/sub08/sub08-item.svg" class="title_item2">
+				<div class="pc_display">
+					<div class="title_box fadeBigInUp">
+						<img src="img/sub08/sub08-item.svg">
+						<div class="title">건강한 땀 배출을 위한 생활 수칙</div>
+						<img src="img/sub08/sub08-item.svg" class="title_item2">
+					</div>
+				</div>
+				<div class="mobile_display">
+					<div class="title_box fadeBigInUp">
+						<img src="img/sub08/sub08-item.svg">
+						<div class="title">건강한<br> 땀 배출을 위한<br> 생활 수칙</div>
+					</div>
 				</div>
 				<div class="copy-text">다한증 치료를 위해 교감신경을 절제하거나, 땀 분비를 막는 레이저 치료를 진행하기도 하지만 심하지 않은 다한증이라면 건강한 생활 습관 관리를 통해 증상을 완화할 수 있다.</div>
 				<div class="items">
 					<div class="item item1 fadeBigInUp">
-						<div class="item_img"><img src="img/sub08/sub08_31.svg"></div>
+						<div class="item_img"><img src="img/sub08/sub08_31.svg" class="hover-image"></div>
 						<span>꾸준한 운동으로 땀 흘리기</span>
 						<p>운동은 몸 전체에 골고루 땀이 나면서 땀 분비 정상화를 돕는다. 꾸준한 운동으로 땀을 흘리고 가볍게 씻어내면 다한증 증상 완화에 큰 도움이 된다.</p>
 					</div>
 					<div class="item item2 fadeBigInUp">
-						<div class="item_img"><img src="img/sub08/sub08_32.svg"></div>
+						<div class="item_img"><img src="img/sub08/sub08_32.svg" class="hover-image"></div>
 						<span>통풍이 잘되는 면 소재 옷 입기</span>
 						<p>레깅스나 스키니진 등 조이는 의복은 혈액 순환에 방해가 되므로 피하고, 흡수가 잘 되는 면 소재의 옷을 입는다.</p>
 					</div>
 					<div class="item item3 fadeBigInUp">
-						<div class="item_img"><img src="img/sub08/sub08_33.svg"></div>
+						<div class="item_img"><img src="img/sub08/sub08_33.svg" class="hover-image"></div>
 						<span>이온 음료 또는 물 마시기</span>
 						<p>카페인 성분은 혈액 순환을 촉진해 땀 분비를 증가시키므로 되도록 피하고, 카페인 대신 이온 음료나 물로 충분히 수분을 공급해 준다.</p>
 					</div>
 					<div class="item item4 fadeBigInUp">
-						<div class="item_img"><img src="img/sub08/sub08_34.svg"></div>
+						<div class="item_img"><img src="img/sub08/sub08_34.svg" class="hover-image"></div>
 						<span>샤워 후 충분히 몸을 말리기</span>
 						<p>샤워 후 몸을 충분히 말리지 않으면 겨드랑이, 사타구니 등 물기가 남아있는 부위에 곰팡이·세균이 번식해서 냄새가 나는 액취증을 유발할 수 있다. 샤워 후 깨끗한 수건으로 꼼꼼하게 몸을 말리는 것이 중요하다.</p>
 					</div>
 					<div class="item item5 fadeBigInUp">
-						<div class="item_img"><img src="img/sub08/sub08_35.svg"></div>
+						<div class="item_img"><img src="img/sub08/sub08_35.svg" class="hover-image"></div>
 						<span>적정 체중을 유지하기</span>
 						<p>과체중과 비만은 땀 분비를 촉진한다. 급격한 체중 변화에 따른 호르몬 변화가 다한증을 유발하는 원인이 될 수 있으므로, 적정 체중을 유지하는 것이 좋다.</p>
 					</div>
 					<div class="item item6 fadeBigInUp">
-						<div class="item_img"><img src="img/sub08/sub08_36.svg"></div>
+						<div class="item_img"><img src="img/sub08/sub08_36.svg" class="hover-image"></div>
 						<span>스트레스와 긴장 풀기</span>
 						<p>과도한 스트레스가 지속되고, 긴장 상태가 이어지면 교감신경이 흥분되어 땀 분비량이 증가할 수 있다. 그 때문에 즐거운 마음가짐, 충분한 수면, 적절한 취미 활동 등으로 스트레스와 긴장을 푸는 것이 다한증 개선에 도움된다.</p>
 					</div>

@@ -544,7 +544,7 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><em><a href="https://www.gochang.go.kr/index.gochang" target="_blank">gochang.go.kr/<br class="mobile_display">gcdolmen</a></em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><em><a href="https://www.gochang.go.kr/index.gochang" target="_blank">gochang.go.kr/gcdolmen</a></em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 고창군 고창읍 고인돌공원길 74</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>하절기 09:00~18:00,<br class="mobile_display"> 동절기 09:00~17:00<br class="mobile_display">(월요일 휴무)</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-560-8666</div>

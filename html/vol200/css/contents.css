@@ -1026,6 +1026,7 @@
 	.sub08 .section04 .content .type_explain .types .type2 { flex-basis: 100%; }
 	.sub08 .section04 .content .type_explain .types .type3 { flex-basis: 100%; }
 	.sub08 .section04 .content .type_explain .types .img_box { padding: 0 30px; }
+	.sub08 .section04 .content .type_explain .types .img_box img { width: 275px; height: 255px; }
 	.sub08 .section04 .content .type_explain .types span { width: 100%; max-width: 100%; }
 	.sub08 .section04 .content .type_explain .memo { border-radius: 8px; padding: 10px 17px; }
 

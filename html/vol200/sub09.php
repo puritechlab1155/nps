@@ -44,8 +44,8 @@
 					</div><!-- //.content01 -->
 
 					<div class="content02 fadeBigInUp">
-						<div class="subtitle">멕시코의 옥수수 사랑</div>
-						<div class="img_box"><img src="img/sub09/sub09_02.jpg"></div>
+						<div class="img_box img01"><img src="img/sub09/sub09_02.jpg"></div>
+						<div class="subtitle">멕시코의 옥수수 사랑</div> <br class="pc_display">
 						<div class="text">옥수수를 이야기하는데 뜬금없이 멕시코가 나온다고 생각할 수 있지만, 옥수수와 멕시코는 떼려야 뗄 수 없는 관계다. 옥수수의 최초 탄생이
 							멕시코와 연결돼 있기 때문이다. <br>
 							멕시코인들은 7천 년 전부터 옥수수를 재배했다. 척박한 땅에서도 잘 자라는 옥수수이지만, 유난히 멕시코 토양과 기후가 옥수수 재배에 적합했기 때문에 멕시코 인디언들은
@@ -68,7 +68,7 @@
 									결혼을 요청하고 여인, 개구리와 집으로 돌아간다.
 								</p>
 							</div> -->
-							<div class="img_box">
+							<div class="img_box img02">
 								<img src="img/sub09/sub09_03_pc.svg" class="pc_display">
 								<img src="img/sub09/sub09_03_mo.svg" class="mobile_display">
 							</div>

@@ -190,7 +190,7 @@
 .main_section5 h2 .emoticon2 {display:inline-block;width:108px;height:43px;margin-left:7px;background:url('../../img/vol197/main/logo_youtube.png') no-repeat 0 50%;vertical-align:top;}
 .main_section5 .list {overflow:hidden;margin:10px 0;}
 .main_section5 .list li {float:left;width:calc(50% - 20px);margin:0 8px 20px; }
-.main_section5 .list li .thumb {position:relative;border-radius:0px;overflow:hidden;}
+.main_section5 .list li .thumb {position:relative;border-radius:0px; }
 .main_section5 .list li .thumb img {width:100%;}
 .main_section5 .list li .vod {position:absolute;left:15px;bottom:15px;display:inline-block;width:50px;height:50px;text-indent:-9999px;overflow:hidden;background:url('../../img/vol197/main/ico_vod.png') no-repeat 50% 50%;z-index:1;}
 .main_section5 .list li dt {margin:20px 0 2px;font-size:14px;color:#F6A13C;font-weight:500;line-height:20px;}

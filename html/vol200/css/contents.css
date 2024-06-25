@@ -979,7 +979,7 @@
 .sub08 .section04 .content .type_explain .memo span { color: #70c6f3; font-family: 'laundrygothic'; font-size: 14px; font-weight: 700; line-height: 25px; }
 .sub08 .section04 .content .type_explain .memo p { color: #444; font-family: 'laundrygothic'; font-size: 14px; font-weight: 400; line-height: 25px; }
 
-.sub08 .section04 .content .type_explain .types .img_box .hover-image{  width: 300px; height: 300px; transition: transform 0.3s ease; display: block; border-radius: 10px; }
+.sub08 .section04 .content .type_explain .types .img_box .hover-image{  transition: transform 0.3s ease; }
 .sub08 .section04 .content .type_explain .types .img_box .hover-image:hover {transform: scale(1.08); }
 
 .sub08 .section05 { position: relative; display: flex; background: #70c6f3; }
@@ -1026,7 +1026,6 @@
 	.sub08 .section04 .content .type_explain .types .type2 { flex-basis: 100%; }
 	.sub08 .section04 .content .type_explain .types .type3 { flex-basis: 100%; }
 	.sub08 .section04 .content .type_explain .types .img_box { padding: 0 30px; }
-	.sub08 .section04 .content .type_explain .types .img_box img { width: 275px; height: 255px; }
 	.sub08 .section04 .content .type_explain .types span { width: 100%; max-width: 100%; }
 	.sub08 .section04 .content .type_explain .memo { border-radius: 8px; padding: 10px 17px; }
 

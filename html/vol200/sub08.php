@@ -94,32 +94,32 @@
 				</div>
 				<div class="copy-text">다한증 치료를 위해 교감신경을 절제하거나, 땀 분비를 막는 레이저 치료를 진행하기도 하지만 심하지 않은 다한증이라면 건강한 생활 습관 관리를 통해 증상을 완화할 수 있다.</div>
 				<div class="items">
-					<div class="item1 fadeBigInUp">
+					<div class="item item1 fadeBigInUp">
 						<div class="item_img"><img src="img/sub08/sub08_31.svg"></div>
 						<span>꾸준한 운동으로 땀 흘리기</span>
 						<p>운동은 몸 전체에 골고루 땀이 나면서 땀 분비 정상화를 돕는다. 꾸준한 운동으로 땀을 흘리고 가볍게 씻어내면 다한증 증상 완화에 큰 도움이 된다.</p>
 					</div>
-					<div class="item22 fadeBigInUp">
+					<div class="item item2 fadeBigInUp">
 						<div class="item_img"><img src="img/sub08/sub08_32.svg"></div>
 						<span>통풍이 잘되는 면 소재 옷 입기</span>
 						<p>레깅스나 스키니진 등 조이는 의복은 혈액 순환에 방해가 되므로 피하고, 흡수가 잘 되는 면 소재의 옷을 입는다.</p>
 					</div>
-					<div class="item3 fadeBigInUp">
+					<div class="item item3 fadeBigInUp">
 						<div class="item_img"><img src="img/sub08/sub08_33.svg"></div>
 						<span>이온 음료 또는 물 마시기</span>
 						<p>카페인 성분은 혈액 순환을 촉진해 땀 분비를 증가시키므로 되도록 피하고, 카페인 대신 이온 음료나 물로 충분히 수분을 공급해 준다.</p>
 					</div>
-					<div class="item4 fadeBigInUp">
+					<div class="item item4 fadeBigInUp">
 						<div class="item_img"><img src="img/sub08/sub08_34.svg"></div>
 						<span>샤워 후 충분히 몸을 말리기</span>
 						<p>샤워 후 몸을 충분히 말리지 않으면 겨드랑이, 사타구니 등 물기가 남아있는 부위에 곰팡이·세균이 번식해서 냄새가 나는 액취증을 유발할 수 있다. 샤워 후 깨끗한 수건으로 꼼꼼하게 몸을 말리는 것이 중요하다.</p>
 					</div>
-					<div class="item5 fadeBigInUp">
+					<div class="item item5 fadeBigInUp">
 						<div class="item_img"><img src="img/sub08/sub08_35.svg"></div>
 						<span>적정 체중을 유지하기</span>
 						<p>과체중과 비만은 땀 분비를 촉진한다. 급격한 체중 변화에 따른 호르몬 변화가 다한증을 유발하는 원인이 될 수 있으므로, 적정 체중을 유지하는 것이 좋다.</p>
 					</div>
-					<div class="item6 fadeBigInUp">
+					<div class="item item6 fadeBigInUp">
 						<div class="item_img"><img src="img/sub08/sub08_36.svg"></div>
 						<span>스트레스와 긴장 풀기</span>
 						<p>과도한 스트레스가 지속되고, 긴장 상태가 이어지면 교감신경이 흥분되어 땀 분비량이 증가할 수 있다. 그 때문에 즐거운 마음가짐, 충분한 수면, 적절한 취미 활동 등으로 스트레스와 긴장을 푸는 것이 다한증 개선에 도움된다.</p>

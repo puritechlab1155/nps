@@ -79,28 +79,28 @@
 				<li>
 						<a href="sub01.php">
 							<div class="thumb">
-								<img src="img/main/main_visual01.jpg" alt="">
+								<img src="img/main/main_visual01.jpg">
 							</div>
 						</a>
 					</li>
 					<li>
 						<a href="sub02.php">
 							<div class="thumb">
-								<img src="img/main/main_visual02.jpg" alt="">
+								<img src="img/main/main_visual02.jpg">
 							</div>
 						</a>
 					</li>
 					<li>
 						<a href="sub13.php">
 							<div class="thumb">
-								<img src="img/main/main_visual03.jpg" alt="">
+								<img src="img/main/main_visual03.jpg">
 							</div>
 						</a>
 					</li>
 					<li>
 						<a href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>
 							<div class="thumb">
-								<img src="img/main/main_visual04.jpg" alt="">
+								<img src="img/main/main_visual04.jpg">
 							</div>
 						</a>
 					</li>
@@ -143,7 +143,7 @@
 				   	<div data-title="NPS 뉴스" class="swiper-slide item1 wow fadeUp">
 						<a href="sub01.php">
 							<div class="thumb">
-								<img src="img/main/main_story_img01.jpg" alt="">
+								<img src="img/main/main_story_img01.jpg">
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">NPS 뉴스</p>
@@ -153,27 +153,27 @@
 				   	<div data-title="NPS 칼럼" class="swiper-slide item2 wow fadeUp">
 						<a href="sub02.php">
 							<div class="thumb">
-								<img src="img/main/main_story_img02.jpg" alt="">
+								<img src="img/main/main_story_img02.jpg">
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">NPS 칼럼</p>
-							<p class="txt">국민연금 잘 불리면 '금퇴족' 가능합니다</p>
+							<p class="txt">유족연금 수급권 제한의 오해와 진실</p>
 						</a>
 					</div>
 					<div data-title="M&Z일상수다" class="swiper-slide item3 wow fadeUp">
 						<a href="sub03.php">
 							<div class="thumb">
-								<img src="img/main/main_story_img03.jpg" alt="">
+								<img src="img/main/main_story_img03.jpg">
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">M&Z일상수다</p>
-							<p class="txt">어버이날을 보내는 다양한 방법!</p>
+							<p class="txt">-</p>
 						</a>
 					</div>
 					<div data-title="알잘딱깔센! 세이브 머니" class="swiper-slide item4 wow fadeUp">
 						<a href="sub04.php">
 							<div class="thumb">
-								<img src="img/main/main_story_img04.jpg" alt="">
+								<img src="img/main/main_story_img04.jpg">
 								<span class="cover like"><i></i></span>
 								<!--<i class="vod">영상</i>-->
 							</div>
@@ -184,11 +184,11 @@
 					<div data-title="모두의 여행" class="swiper-slide item5 wow fadeUp">
 						<a href="sub05.php">
 							<div class="thumb">
-								<img src="img/main/main_story_img05.jpg" alt="">
+								<img src="img/main/main_story_img05.jpg">
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">모두의 여행</p>
-							<p class="txt">온통 푸른 산과 호수 그리고 바람, 제천</p>
+							<p class="txt">고창에서 우리 ‘함께’ 여름을 즐기다</p>
 						</a>
 					</div>
 				   	<div data-title="연금엔씨네마" class="swiper-slide item6 wow fadeUp">

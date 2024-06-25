@@ -985,7 +985,7 @@
 .sub08 .section05 { position: relative; display: flex; background: #70c6f3; }
 .sub08 .section05 .content { width: 100%; max-width: 1020px; margin: 84px auto; padding:0 20px;  z-index: 10;}
 .sub08 .section05 .content .title_box { display: flex; align-items: center; gap: 22px; justify-content: center; }
-.sub08 .section05 .content .title_box img { animation: water-drop 1500ms linear infinite; }
+.sub08 .section05 .content .title_box img { animation: water-drop 1400ms ease-in-out infinite; }
 .sub08 .section05 .content .title_box .title { text-align: center; color: #fff; font-family: 'laundrygothic'; font-size: 29px; font-weight: 700; line-height: 32px; letter-spacing: 8.41px; }
 .sub08 .section05 .content .title_box .title_item2 { margin-left: -8.41px; }
 .sub08 .section05 .content .copy-text { font-size: 18px; font-weight: 400; line-height: 32px; letter-spacing: -0.36px; margin: 32px 0 48px; }
@@ -999,9 +999,9 @@
 .sub08 .section05 .content .items .item .item_img .hover-image:hover{transform: scale(1.08); }
 
 @keyframes water-drop {
-	0%{ transform: translateY(10px); }
-	50%{ transform: translateY(-10px); }
-	100%{ transform: translateY(10px); }
+	0%{ transform: translateY(5px); }
+	50%{ transform: translateY(-5px); }
+	100%{ transform: translateY(5px); }
 }
 
 @media only all and (max-width:767px) {

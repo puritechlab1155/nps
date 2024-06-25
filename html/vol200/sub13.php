@@ -43,8 +43,8 @@
 					<div class="mid"><span>당첨 발표</span><em>9월 2일 오전 1시</em></div>
 					<div><span>경품 발송</span><em>9월 2일 오후 5시</em></div>
 				</div>
-				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> </div>
-				<!-- <a class="send" href="https://naver.me/FZWH1Fh4" target="_blank">의견 보내기</a><span class="end" href="#" >마감되었습니다</span> -->
+				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <span class="end" href="#" >마감되었습니다</span></div>
+				<!-- <a class="send" href="https://naver.me/FZWH1Fh4" target="_blank">의견 보내기</a> -->
 				<div class="draw">
 					<div><img src="img/sub13/sub13_05-blue.svg"></div>
 					<div><img src="img/sub13/sub13_05-red.svg"></div>
@@ -92,17 +92,17 @@
         // 현재 날짜 및 시간 객체 생성
         var currentDate = new Date();
 
-        // 비교할 날짜와 시간 설정 (2024년 06월 23일 23시 59분 59초)
-        var targetDate = new Date("2024-06-23T23:59:59");
+        // 비교할 날짜와 시간 설정 (2024년 08월 25일 23시 59분 59초)
+        var targetDate = new Date("2024-08-25T23:59:59");
 
         // 현재 날짜가 지정한 날짜보다 이후인 경우
         if (currentDate > targetDate) {
             // send 클래스 비활성화, end 클래스 활성화
-            document.querySelector('.send').style.display = 'none';
+            document.querySelector('.subscribe').style.display = 'none';
             document.querySelector('.end').style.display = 'block';
         } else {
             // send 클래스 활성화, end 클래스 비활성화
-            document.querySelector('.send').style.display = 'block';
+            document.querySelector('.subscribe').style.display = 'block';
             document.querySelector('.end').style.display = 'none';
         }
     }

@@ -10,6 +10,7 @@
 	<script src="script.js"></script>
 
 </head>
+
 <body>
 <!--w	<audio id="background-sound" src="img/sub13/sea_sound.mp3" loop></audio>
 	<script>
@@ -32,34 +33,15 @@
 	<!-- //header -->
 
 	<!-- contents -->
-	<section id="contents">
+	<section id="contents" >
+	
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="title">
 					<!-- <img src="img/sub13/sub13_01.svg" class="cv_bg pc_display">
 					<img src="img/sub13/sub13_01_mo.svg" class="mobile_display"> -->
 					<!-- <div class="sub_box" id="hover-area"> -->
-					<div class="sub_box" id="hover-area">
-						<audio id="hover-sound" src="img/sub13/sea_sound.mp3"></audio>
-						
-						 <script>
-							document.addEventListener('DOMContentLoaded', function() {
-							var hoverArea = document.getElementById('hover-area');
-							var sound = document.getElementById('hover-sound');
-
-							hoverArea.addEventListener('mouseover', function() {
-								sound.currentTime = 0; // 오디오를 처음부터 재생
-								sound.play();
-							});
-
-							hoverArea.addEventListener('mouseout', function() {
-								sound.pause(); // 마우스를 떼면 오디오 일시정지
-								sound.currentTime = 0; // 오디오를 처음으로 되돌림
-							});
-						});
-						</script>
-						
-					
+					<div class="sub_box" >
 						<div class="main_title"><img src="img/sub13/sub13_01-title.svg"></div>
 						<div class="text1">덥다 더워~ 행운 잡고,<br> 무더위 날리자~</div>
 						<div class="text2">
@@ -82,6 +64,26 @@
 				</div>
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <span class="end" href="#" >마감되었습니다</span></div>
 				<!-- <a class="send" href="https://naver.me/FZWH1Fh4" target="_blank">의견 보내기</a> -->
+				
+				<div id="playSoundButton" >
+
+					<audio id="click-sound" src="img/sub13/sea_sound.mp3"></audio>
+					<script>
+						var sound = document.getElementById('click-sound');
+						var playSoundButton = document.getElementById('playSoundButton');
+						
+						playSoundButton.addEventListener('click', function() {
+							sound.currentTime = 0; // 오디오를 처음부터 재생
+							sound.play();
+
+							// 3초 후에 멈추기
+							setTimeout(function() {
+								sound.pause();
+								sound.currentTime = 0; // 오디오를 처음으로 되돌림
+							}, 3000);
+						});
+					</script>
+
 				<div class="draw">
 					<div><img src="img/sub13/sub13_05-blue.svg"></div>
 					<div><img src="img/sub13/sub13_05-red.svg"></div>
@@ -96,6 +98,9 @@
 					<div><img src="img/sub13/sub13_05-red.svg"></div>
 					<div><img src="img/sub13/sub13_05-yellow.svg"></div>
 				</div>
+
+				</div>
+
 				<div class="text">
 					<ul>
 						<li>내 곁에 국민연금 구독자가 아닐 경우, 차후에 당첨이 취소되오니 반드시 구독 후 이벤트에 참여해 주세요.</li>
@@ -149,7 +154,7 @@
 </script>
 
 <!-- footer -->
-	<?php include("footer.php"); ?>
+<?php include("footer.php"); ?>
 	<!-- //footer -->
 </body>
 </html>

@@ -189,7 +189,7 @@
 					<h3>책마을해리</h3>
 				</div>
 				<div class="text fadeBigInUp">
-					프랑스인들은 여름휴가를 떠날 때 제일 먼저 책을 챙긴다. 그들에게 휴가는 분주한 일상을 잊는 휴식의 시간인 동시에, 그동안 읽지 못했던 책을 마음껏 읽는 충전의 시간이기도 하다. 고창에도 이처럼 책과 함께 시원한 여름을 즐기기 좋은 공간이 있다. 낡은 폐교를 책마을로 꾸민 이곳은 아이들의 웃음소리로 가득했던 교실을 책으로 채웠다. 특히 책 한 권을 들고 들어가면 다 읽을 때까지 나올 수 없는 ‘책 감옥’은 감옥이라는 닫힌 공간이 책을 통해 오히려 광활한 세계와 만나게 하는 열린 공간이 되는 경험을 제공한다. 책과 함께 하룻밤을 지내는 북 스테이 공간도 운영된다.
+					프랑스인들은 여름휴가를 떠날 때 제일 먼저 책을 챙긴다. 그들에게 휴가는 분주한 일상을 잊는 휴식의 시간인 동시에, 그동안 읽지 못했던 책을 마음껏 읽는 충전의 시간이기도 하다. 고창에도 이처럼 책과 함께 시원한 여름을 즐기기 좋은 공간이 있다. 낡은 폐교를 책마을로 꾸민 이곳은 아이들의 웃음소리로 가득했던 교실을 책으로 채웠다. 특히 책 한 권을 들고 들어가면 다 읽을 때까지 나올 수 없는 ‘책 감옥’은 감옥이라는 닫힌 공간이 책을 통해 오히려 광활한 세계와 만나게 하는 열린 공간이 되는 경험을 제공한다. 책과 함께 하룻밤을 지내는 북스테이 공간도 운영된다.
 				</div>
 				<div class="slider_wrap">
 					<ul class="slider3">
@@ -544,7 +544,7 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><em><a href="https://www.gochang.go.kr/index.gochang" target="_blank">gochang.go.kr/gcdolmen</a></em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><em><a href="https://www.gochang.go.kr/gcdolmen/index.gochang" target="_blank">gochang.go.kr/gcdolmen</a></em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 고창군 고창읍 고인돌공원길 74</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>하절기 09:00~18:00,<br class="mobile_display"> 동절기 09:00~17:00<br class="mobile_display">(월요일 휴무)</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-560-8666</div>

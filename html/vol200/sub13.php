@@ -6,8 +6,24 @@
 	<meta property="og:image" content="../../img/logosns/logosns_vol199.jpg">
 	<?php include("../../inc/head.php"); ?>
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
+
+	<script src="script.js"></script>
+
 </head>
 <body>
+<!--w	<audio id="background-sound" src="img/sub13/sea_sound.mp3" loop></audio>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+            var sound = document.getElementById('background-sound');
+
+            // 페이지 로드 후 1초 뒤에 오디오 재생 시도
+            setTimeout(function() {
+                sound.play().catch(function(error) {
+                    console.log('Autoplay was prevented by the browser:', error);
+                });
+            }, 100);
+        });
+	</script> -->
 
 <div id="wrap" class="sub13">
 
@@ -22,7 +38,28 @@
 				<div class="title">
 					<!-- <img src="img/sub13/sub13_01.svg" class="cv_bg pc_display">
 					<img src="img/sub13/sub13_01_mo.svg" class="mobile_display"> -->
-					<div class="sub_box">
+					<!-- <div class="sub_box" id="hover-area"> -->
+					<div class="sub_box" id="hover-area">
+						<audio id="hover-sound" src="img/sub13/sea_sound.mp3"></audio>
+						
+						 <script>
+							document.addEventListener('DOMContentLoaded', function() {
+							var hoverArea = document.getElementById('hover-area');
+							var sound = document.getElementById('hover-sound');
+
+							hoverArea.addEventListener('mouseover', function() {
+								sound.currentTime = 0; // 오디오를 처음부터 재생
+								sound.play();
+							});
+
+							hoverArea.addEventListener('mouseout', function() {
+								sound.pause(); // 마우스를 떼면 오디오 일시정지
+								sound.currentTime = 0; // 오디오를 처음으로 되돌림
+							});
+						});
+						</script>
+						
+					
 						<div class="main_title"><img src="img/sub13/sub13_01-title.svg"></div>
 						<div class="text1">덥다 더워~ 행운 잡고,<br> 무더위 날리자~</div>
 						<div class="text2">

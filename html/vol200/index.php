@@ -86,7 +86,7 @@
 					<li>
 						<a href="sub02.php">
 							<div class="thumb">
-								<img src="img/main/main_visual02.jpg">
+								<img src="img/main/main_visual02.svg">
 							</div>
 						</a>
 					</li>

@@ -39,112 +39,295 @@
 
 		<div class="section03 wow fadeBigInUp">
 			<div class="content">
-				<div class="subtitle"><img src="img/sub01/sub01_02.svg"></div>
-				<div class="text fadeBigInUp pc_display">
-					국민연금 2023년 기금 운용수익률 13.59% 역대 최고 성과,<br>
-					기금 적립금 1천조 원 사상 첫 돌파
+				<div class="tabs">
+					<div class="tab01 on">News 1</div>
+					<div class="tab02">News 2</div>
+					<div class="tab03">News 3</div>
 				</div>
-				<div class="text fadeBigInUp mobile_display">
-					국민연금 2023년 기금 운용수익률 13.59% 역대 최고 성과, 기금 적립금 1천조 원 사상 첫 돌파
-				</div>
-				<div class="img"><img src="img/sub01/sub01_03.png"></div>
 			</div>
-		</div>
+		</div><!-- //.section03 -->
 
-		<div class="section04 wow fadeBigInUp">
-			<div class="content">
-				<div class="anchor">
-					<div class="img"><img src="img/sub01/sub01_04.png"></div>
-					<div class="question">
-						국민연금공단은 2023년 말 기준 국민연금기금이 수익률 13.59%, 사상 첫 1천조 원을 돌파했습니다. 이는 기금운용본부 출범 이후 역대 최고의 성과를 거둔 것이라고 하는데요. 취재기자 M과 함께 자세한 소식 알아보겠습니다. M기자, 내용 전해주시죠?
+		<div class="news01">
+			<div class="section04 wow fadeBigInUp">
+				<div class="content">
+					<div class="text_box">
+						<div class="arrow"><img src=""></div>
+						<div class="text">
+							국민연금 기준소득월액 상·하한액 <br>
+							7월부터 4.5% 인상
+						</div>
 					</div>
+					<div class="img_box"><img src=""></div>
 				</div>
-				<div class="reporter">
-					<div class="answer">
-						<div class="quotes"><img src="img/sub01/quotes.svg"></div>
-						<div class="text">1988년 설치된 국민연금기금은 기금 투자를 통해 누적 운용수익금이 총 578조 원으로 나타났습니다. 전체 기금 적립금의 절반 이상인 55.8%를 운용 수익으로 채우고 있는데요. 2023년 말 기준 국민연금기금 적립금 1,036조 원, 수익금 127조 원, 수익률 13.59%를 기록하였습니다. 이는 국내외 증시와 채권이 동반 강세를 보이며 양호한 연간 수익률을 이끈 것으로 볼 수 있습니다.</div>
-						<div class="img"><img src="img/sub01/sub01_05.png"></div>
-					</div>
-					<div class="graph_area"><img src="img/sub01/sub01_06.svg"></div>
-				</div>
-				<div class="anchor">
-					<div class="img"><img src="img/sub01/sub01_04.png"></div>
-					<div class="question">
-						1,000조 원이라는 수치가 가늠이 안 될 정도로 큰 데요. 어느 정도일까요?
-					</div>
-				</div>
-				<div class="reporter">
-					<div class="answer">
-						<div class="quotes"><img src="img/sub01/quotes.svg"></div>
-						<div class="text">이해하기 쉽게 설명드리면, 1000조 원은 5만 원 지폐로 200억 장입니다. 지폐 한 장의 길이가 154mm이니까, 200억 장X154mm면 총 3,080,000km가 나옵니다. 즉, 1000조 원을 5만 원 지폐로 쭉 늘어 뜨려 놓으면, 308만km입니다. <b>이는 지구를 77바퀴 돌 수 있고, 지구에서 달까지 편도로 8번 갈 수 있는 길이입니다.</b> </div>
-						<div class="img"><img src="img/sub01/sub01_05.png"></div>
-					</div>
-					<div class="graph_area"><img src="img/sub01/sub01_07.svg"></div>
-				</div>
-				<div class="anchor">
-					<div class="img"><img src="img/sub01/sub01_04.png"></div>
-					<div class="question">
-						정말 큰 수치이군요. 그렇다면 자산별 수익률은 어떤가요?
-					</div>
-				</div>
-				<div class="reporter">
-					<div class="answer">
-						<div class="quotes"><img src="img/sub01/quotes.svg"></div>
-						<div class="text">금액가중수익률 기준으로 자산별 수익률을 살펴보면 국내 주식 22.12%, 해외주식 23.89%, 국내 채권 7.40%, 해외채권 8.84%, 국내 대체투자 8.78%, 해외 대체투자 5.24%로 나타났습니다.</div>
-						<div class="img"><img src="img/sub01/sub01_05.png"></div>
-					</div>
-					<div class="graph_area"><img src="img/sub01/sub01_08.svg"></div>
-					<div class="text2">국내 및 해외주식은 미국 은행권 위기와 중동 지정학적 위험 등 금융시장 불안 요인이 부각됐으나, 개별기업 실적 호조에 따른 위험자산 선호로 양호한 수익률을 기록한 것으로 보입니다. 그뿐만 아니라 국내 및 해외 채권은 고금리 기조가 장기화될 수 있다는 우려의 목소리가 높았습니다만 인플레이션 둔화에 의한 미국 연방준비제도의 긴축 종료 및 기준금리 인하 기대감이 확산하면서 채권 가격 상승이 주요한 역할을 했다고 판단됩니다. 대체투자 자산 역시, 자산의 평가 가치 상승과 실현이익이 반영되었으며, 원·달러 환율 상승도 양의 수익률에 기여했다고 할 수 있고요.</div>
-				</div>
-				<div class="anchor">
-					<div class="img"><img src="img/sub01/sub01_04.png"></div>
-					<div class="question">
-						그렇군요. 이런 수익률이 해외 여러 나라들과 비교했을 때 높은 편인가요?
-					</div>
-				</div>
-				<div class="reporter">
-					<div class="answer">
-						<div class="quotes"><img src="img/sub01/quotes.svg"></div>
-						<div class="text">그렇습니다. 2000년도부터 2023년도까지 평균 수익률을 비교해보면 캐나다(CPPI)가 7.0%으로가장 높고 이어 국민연금이 6.1%의 수익률을 내고 있는 것을 알 수 있습니다. 뒤를 이어 노르웨이(GPFG)가 5.6%, 네덜란드(ABP) 5.3%, 일본(GPIF) 3.6% 순으로 나타났습니다.</div>
-						<div class="img"><img src="img/sub01/sub01_05.png"></div>
-					</div>
-					<div class="graph_area"><img src="img/sub01/sub01_09.svg"></div>
-				</div>
-				<div class="anchor">
-					<div class="img"><img src="img/sub01/sub01_04.png"></div>
-					<div class="question">
-					높은 장기 수익률은 물론, 최대 수익률을 낼 수 있었던 것은 기금운용본부의 노력에 따른 결과라고 볼 수 있겠네요.
-					</div>
-				</div>
-				<div class="reporter">
-					<div class="answer">
-						<div class="quotes"><img src="img/sub01/quotes.svg"></div>
-						<div class="text">마지막으로 지난해 127조 원의 수익금 중 해외투자를 통해 벌어들인 수익이 73조 원에 이른다는 점에서도 주목할 필요가 있습니다. 이는 지금 논의되고 있는 연금개혁 방향에 대해 중요한 시사점을 던져주고 있습니다.</div>
-						<div class="text3">사실 578조 원의 기금수익금이 없었다면, 기금소진 예상 시기가 2055년보다 훨씬 앞당겨졌을 것입니다. 국민과 기업이 매달 납부하는 연금보험료는 그저 월급에서 떼이는 것이 아니라, 국민연금공단(기금운용본부)에 투자하는 것입니다.<br>
-							만일, 향후 연금개혁으로 연금보험료율이 3~4%p 인상된다고 가정해 봅시다. 이 경우, 국민·기업이 내는 연금보험료가 투자 원금이 되고, 공단이 이를 두 배 이상으로 불려 모두 합쳐서 국민들께 연금으로 지급하는 것이기 때문에 국민들 입장에선 큰 이익이 됩니다.<br>
-							공단의 기금운용이 없다고 가정하면 연금 수급에 필요한 소요자금 모두를 보험료로 충당해야 하겠지만, 기금운용수익금이 있기 때문에 국민·기업은 그 절반 정도만 부담해도 됩니다. 그 기금운용수익금도 해외에서 1/2을 벌어들인다는 점을 생각하면, 대단히 효율적이라는 것을 알 수 있습니다.<br>
-							해외 연금개혁의 모범사례로 꼽히는 캐나다 연금개혁 모델이 정확하게 “기금운용수익 극대화를 통한 국민 보험료 부담 최소화”입니다.<br>
-							지금, 우리나라 국민연금공단이 앞으로 더욱 강화하려는 방향과 매우 유사합니다.<br>
-							“우리나라 국민은 보험료를 ‘납부한다’ 라고 말하고, 캐나다 국민은 보험료를 ‘투자한다’ 라고 말합니다.”</div>
-						<div class="img"><img src="img/sub01/sub01_05.png"></div>
-					</div>
-				</div>
-			</div>
-		</div>
+			</div><!-- //.section04 -->
 
-		<div class="section05 wow fadeBigInUp">
-			<div class="content">
-				<div class="img"><img src="img/sub01/sub01_10.svg"></div>
-				<div class="text fadeBigInUp">
-					<div>김태현 이사장은</div>
-					<span>“지난해 세계 투자 환경은 지정학적 위험과 큰 변동성으로 녹록지 않았지만,<br>
-					투자 포트폴리오 다변화, 운용 전문성 강화 등으로<br>
-					기금적립금 1천조 원 시대를 맞이할 수 있었다”며<br>
-					“앞으로도 자산 배분의 유연성을 강화하고 투자 원천을 확대해<br>
-					기금운용 수익을 제고할 수 있도록 최선을 다하겠다”</span>라고 전하였습니다.
+			<div class="section05 wow fadeBigInUp">
+				<div class="content">
+					<div class="anchor">
+						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+						<div class="question">
+							첫 번째 뉴스입니다. <br>보건복지부가 7월부터 국민연금 보험료의 산정 기준인 기준소득월액 상한액을 590만 원에서 617만 원으로, 하한액을 37만 원에서 39만 원으로 상향 조정한다고 밝혔습니다.
+							<br><br>자세한 소식 취재기자 M과 알아보겠습니다. M기자 기준소득월액이란 무엇인가요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">기준소득월액이란 연금보험료를 산정하고 연금 급여를 계산하기 위해 가입자의 소득월액을 기준으로 상하한액의 범위에서 천 원 단위로 정한 금액입니다. 이때 소득은 일정한 기간 근로를 제공하여 얻은 수입에서 대통령령으로 정하는 비과세 소득을 제외한 금액 또는 자산을 운영하여 얻은 소득에서 필요경비를 제외한 금액을 말합니다.</div>
+							<div class="img"><img src="img/sub01/sub01_05.png"></div>
+						</div>
+						<!-- <div class="graph_area"><img src="img/sub01/sub01_06.svg"></div> -->
+					</div>
+					<div class="anchor">
+						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+						<div class="question">
+							연금보험료와 연금 급여를 산정하기 위해 정한 것이 기준소득월액이고, 상·하한액이 있다는거군요.
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								네, 맞습니다. 앞서 Z앵커님이 기준소득월액 상·하한액이 조정됐다고 말씀하셨는데요. 상하한액은 국민연금 전체 가입자의 최근 3년간 평균소득(A값) 변동률을 반영하여 조정하고 있습니다.<br><br>
+								즉, 기준소득월액 상·하한액이 상향 조정됐다는 말은 3년간 국민연금 전체 가입자의 소득월액이 증가했다는 것을 의미하는데요, 기준소득월액은 법령에 따라 매년 7월 변동될 수 있으니 국민연금 가입자는 꼭 기억해 두시고 확인해야 합니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.png"></div>
+						</div>
+						<!-- <div class="graph_area"><img src="img/sub01/sub01_07.svg"></div> -->
+					</div>
+					<div class="anchor">
+						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+						<div class="question">
+							그렇다면 보건복지부에서 발표한 기준소득월액 상·하한액 조정과 적용 기간은 어떻게 되나요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								보건복지부는 기준소득월액 상하한액 조정과 관련하여, 지난 1월 9일 국민연금심의위원회의 심의를 거쳤고, 1월 23일 복권복지부 고시(「국민연금법」 제3조 제1항 제5호 및 같은 법 시행령 제5조에 따른 「국민연금 기준소득월액 하한액과 상한액 고시」) 개정을 완료했습니다. 개정을 통해 조정된 소득월액 상하한액은 2024년 7월부터 2025년 6월까지 적용됩니다.<br><br>
+								기준소득월액 상·하한액 변동으로 기준소득월액이 617만 원보다 많으면 617만 원으로, 39만 원보다 적으면 39만 원으로 조정됩니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.png"></div>
+						</div>
+					</div>
+					<div class="anchor">
+						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+						<div class="question">
+							매년 7월 기준소득월액 상하한액이 변동될 수 있으니 체크해 볼 필요가 있다는 거군요. 잘 알겠습니다. 상·하한액 조정이 보험료에도 영향이 있나요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								네, 2024년도 기준소득월액 상·하한액 조정으로 상한액에 해당하는 최고 보험료는 전년보다 24,300원이 인상된 555,300원이 되고, 하한액에 해당하는 최저 보험료는 전년보다 1,800원이 인상된 35,100원이 됩니다.
+								<br><br>
+								상·하한액 조정으로 일부 가입자의 보험료가 인상되지만, 연금급여액 산정 기초가 되는 가입자 개인의 생애 평균 소득월액이 높아져 연금 수급 시 더 많은 연금급여액을 받게 됩니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.png"></div>
+						</div>
+					</div>
+					<div class="anchor">
+						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+						<div class="question">
+							답변 감사합니다. 보건복지부 이스란 연금정책관도 기준소득월액 상하한액 조정에 대한 말을 전해왔는데요.<br><br>
+							이스란 연금정책관은 "가입자의 소득 수준 향상에 따라 기준소득월액 상·하한액이 조정되어 일부 가입자는 보험료가 증가하지만, 수급 연령 도달 시 더 많은 연금급여액을 받게 되어 국민연금을 통한 노후소득 보장이 강화될 것"이라고 이야기했습니다.
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
+			</div><!-- //.section05 -->
+		</div><!-- //.news01 -->
+
+		<div class="news02">
+			<div class="section04 wow fadeBigInUp">
+				<div class="content">
+					<div class="text_box">
+						<div class="arrow"><img src=""></div>
+						<div class="text">
+							어르신을 위한 낮은 이자의 편리한 대출, <br>
+							노후긴급자금 개정 알림
+						</div>
+					</div>
+					<div class="img_box"><img src=""></div>
+				</div>
+			</div><!-- //.section04 -->
+
+			<div class="section05 wow fadeBigInUp">
+				<div class="content">
+					<div class="anchor">
+						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+						<div class="question">
+							두 번째 뉴스입니다.<br>
+							국민연금공단은 국민연금 수급자를 대상으로 노후긴급자금 대부를 실시하고 있습니다. 국민연금공단에서 대출을 받을 수 있다는 사실이 낯설게 들리실 텐데요.<br><br>
+							취재기자 M에게 자세한 이야기를 들어보겠습니다. M기자 노후긴급자금에 대해 알려주세요.
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								국민연금공단은 60세 이상 국민연금 수급자가 전월세 보증금, 의료비, 배우자 장제비, 재해복구비 용도의 긴급한 자금을 필요로 하는 경우에 일정 한도 내에서 낮은 금리로 대부금을 지급해 안정적인 노후생활을 지원하고 있습니다. 바로 국민연금의 이런 제도가 노후긴급자금, 다른 말로 실버론을 뜻합니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.png"></div>
+						</div>
+						<!-- <div class="graph_area"><img src="img/sub01/sub01_06.svg"></div> -->
+					</div>
+					<div class="anchor">
+						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+						<div class="question">
+							누가 언제 어떻게 국민연금의 노후긴급자금을 신청할 수 있는지 자세히 말씀해 주세요.
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								네. 국민연금 노후긴급자금의 대부 금액은 개인별 연간 연금 수령액의 2배(최고 1,000만 원 한도) 이내에서 실제 사용된 비용을 청구할 수 있는데요. <br><br>
+								예를 들어 매월 받는 연금액이 30만 원인 노령연금 수급자(본인 또는 배우자)가 의료비로 700만 원을 사용했으면 본인 연간 연금액 360만원의 2배인 720만 원을 한도로 실제 사용한 금액인 700만 원까지 대부할 수 있습니다.<br><br>아래의 표에서 자세히 살펴보겠습니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.png"></div>
+						</div>
+						<div class="graph_area">
+							<div class="textBold">국민연금 노후긴급자금(실버론)</div>
+							<div class="text_box">
+								<div class="text"><span>대상</span>60세 이상 국민연금 수급자 (연금급여 지급 정지 중인 자, 외국인 등은 제외)</div>
+								<div class="text"><span>대부 금액</span>연간 연금 수령액의 2배 이내에서 실소요 비용 (최고 1,000만 원 한도)</div>
+								<div class="text"><span>대부 용도</span>전월세 보증금, 의료비, 배우자 장제비, 재해복구비</div>
+								<div class="text list">
+									<span>신청 기한</span>
+									<ul>
+										<li>전월세 보증금 : (신규) 임차개시일 전·후 3개월 이내, (갱신) 갱신계약일로부터 3개월 이내</li>
+										<li>의료비 : 진료일로부터 6개월 이내</li>
+										<li>배우자 장제비 : 사망일로부터 3개월 이내</li>
+										<li>재해복구비 : 재해발생일 또는 재난지역 선포일로부터 6개월 이내</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="anchor">
+						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+						<div class="question">
+							그렇군요, 60세 이상 국민연금 수급자 중 긴급한 사유 발생 시 본인 연간 연금 수령액의 2배 이내(최고 1,000만 원 한도)에서 대부 받을 수 있다. 잘 알겠습니다.<br><br>
+							그런데, 2024년 7월 1일을 기준으로 노후긴급자금 대부사업 지침이 개정되었다고 하는데요. 어떤 내용이 바뀌었나요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								네. 주요 개정 내용은 아래와 같습니다. 첫째, 대부신청 대상에 기초생활수급자를 포함하였습니다. 국민기초생활보장법(생계·의료·주거)에 의한 급여를 받는 기초생활수급자도 다른 제외 사유에 해당하지 않는다면 대부받을 수 있습니다.<br><br>
+								둘째, 대부 이자율 적용기준이 변경되었습니다. 기존 5년 만기 국고채권 수익률에 예금은행 가중평균 수신금리(신규취급액 기준) 기준을 추가하여 둘 중 낮은 금리를 대부 이자율로 채택합니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.png"></div>
+						</div>
+					</div>
+					<div class="anchor">
+						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+						<div class="question">
+							지금까지 노후긴급자금 대부에 관해 알아봤는데요. 노후긴급자금 신청 제외 대상, 신청 자격, 용도별 신청 기한 및 구비 서류 등을 국민연금 고객센터(국번없이 1355(유료)) 또는 가까운 국민연금공단 지사에 문의하시면 더욱 자세하게 알아보실 수 있습니다.
+						</div>
+					</div>
+				</div>
+			</div><!-- //.section05 -->
+		</div><!-- //.news02 -->
+
+		<div class="news03">
+			<div class="section04 wow fadeBigInUp">
+				<div class="content">
+					<div class="text_box">
+						<div class="arrow"><img src=""></div>
+						<div class="text">
+							국민연금 기금 운용수익률  <br>
+							작년에 이어 올해 1분기에도 호조세 이어가
+						</div>
+					</div>
+					<div class="img_box"><img src=""></div>
+				</div>
+			</div><!-- //.section04 -->
+
+			<div class="section05 wow fadeBigInUp">
+				<div class="content">
+					<div class="anchor">
+						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+						<div class="question">
+							세 번째 뉴스입니다.<br>
+							지난해 사상 첫 기금적립금 1,000조 원을 돌파한 국민연금기금이 올해 1분기에도 양호한 성과를 이어가고 있습니다.<br><br>
+							국민연금공단 기금운용본부는 2024년 1분기(1~3월) 말 기준 5.82%의 수익률, 61조 원의 수익금을 올리며 총 1,101조 원의 기금적립금을 기록한 것으로 잠정 집계됐다고 밝혔는데요.<br><br>
+							더욱 자세한 소식은 취재기자 M에게 물어보겠습니다. M기자, 좋지 않은 경제시장 속에서 국민연금공단은 어떤 방식으로 기금을 운용하고 있나요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								국민연금공단 기금운용본부는 악화된 경제시장 속에서 고군분투하며 호조세를 유지해 나가고 있습니다. 연초 이후 미국 기술주 중심의 강세로 국내 및 해외주식 운용수익률이 양호했으나, 기준금리 인하 시점 지연 우려로 채권금리가 상승해 전체 수익률 상승 폭을 일부 제한했는데요.<br><br>
+								자산별 잠정수익률(금액가중수익률 기준)은 해외주식 13.45%, 국내주식 5.53%, 해외채권 4.48%, 국내채권 -0.01%, 대체투자 4.11%로 집계됐습니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.png"></div>
+						</div>
+						<div class="graph_area">
+							<div class="textBold">자산별 잠정수익률(금액가중수익률 기준)</div>
+							<div class="graph_area"><img src="" alt=""></div>
+						</div>
+					</div>
+					<div class="anchor">
+						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+						<div class="question">
+							국내외 주식 시장에 관해서도 자세한 설명 부탁드립니다
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								네. 국내외 주식 시장에 관해 간략하게 말씀드리겠습니다. 국내주식(5.53%) 및 해외주식(13.45%)은 미국 인플레이션 경계감에도 인공지능(AI) 수요 기대 등 대형 기술주 중심으로 상승했으며, 해외주식은 원화 약세 효과가 더해져 두 자릿수의 운용수익률을 보였습니다.  <br><br>
+								참고로 국내 주식시장 상승률은 연초 대비 +3.44%이며, 글로벌 주식시장(달러 기준) 상승률은 연초 대비 +8.32% 입니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.png"></div>
+						</div>
+					</div>
+					<div class="anchor">
+						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+						<div class="question">
+							그렇다면, 국내외 채권 시장의 분위기는 어떤가요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								네. 국내외 채권 시장은 여러 사정으로 약간 불안정했지만, 금세 호조세로 돌아섰는데요. 국내채권(-0.01%) 및 해외채권(4.48%)은 미국의 통화긴축 기조가 이어질 수 있다는 우려로 금리가 상승했으나, 해외채권은 원·달러 환율 상승으로 양호한 수익률을 보였습니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.png"></div>
+						</div>
+					</div>
+					<div class="anchor">
+						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+						<div class="question">
+							네. 국민연금 기금 운용수익률 중 국내외 주식은 대형 기술주와 원화 약세 효과가 더해져 상승했으며, 국내외 채권은 금리 상승에도 원·달러 환율 상승으로 수익률을 냈군요. <br><br>
+							국민연금 기금 운용수익률이 작년에 이어 끊임없이 호조세를 이어 나가는 가운데 국민연금공단의 김태현 이사장은 앞으로의 포부를 전해왔습니다.
+						</div>
+					</div>
+				</div>
+			</div><!-- //.section05 -->
+
+			<div class="section06 wow fadeBigInUp">
+				<div class="content">
+					<div class="text">
+						김태현 이사장은
+						<span>
+							“작년에 이어 올해도 양호한 성과를 이어가고 있습니다. <br>
+							국민의 소중한 노후자금을 운용하는 장기투자자로서 변동성이 큰 시장 환경에서도 <br>
+							안정적인 수익을 창출할 수 있도록 최선을 다하겠습니다”
+						</span>
+						라고 전하였습니다.
+					</div>
+					<div class="img_box"><img src="" alt=""></div>
+				</div>
+			</div><!-- //.section06 -->
+		</div><!-- //.news03 -->
 	</div>
 	<!-- contents -->
 

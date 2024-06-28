@@ -340,28 +340,22 @@
 .sub01 .section03 .content .text { font-size: 27px; font-weight: 400; color: #fff; letter-spacing: -0.3px; line-height: 42px; margin: 10px 0 10px 0;}
 .sub01 .section03 .content .img { position: absolute; right: 0; top: 50%; transform: translateY(-50%); }
 
-.sub01 .section04 { position: relative; width: 100%; height: 100%; display: block; background: #f4f1de; }
-.sub01 .section04 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding:50px 20px; position: relative; }
-.sub01 .section04 .content .anchor { height: 120px; display: flex; align-items: center; margin: 30px 0; }
-.sub01 .section04 .content .anchor .img { width: 150px; }
-.sub01 .section04 .content .anchor .question { flex: 1; font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; }
-.sub01 .section04 .content .reporter { position: relative; width: calc(100% - 150px); margin-left: 150px; background: #fff; box-shadow: 0px 0px 10px #aaa; }
-.sub01 .section04 .content .reporter .answer { padding: 40px; position: relative; }
-.sub01 .section04 .content .reporter .quotes { width: 27px; margin-bottom: 10px; }
-.sub01 .section04 .content .reporter .answer .text { width: calc(100% - 150px); font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; }
-.sub01 .section04 .content .reporter .answer .img { position: absolute; top: 40px; right: 40px; }
-.sub01 .section04 .content .reporter .graph_area { padding: 30px; background-color: #e5e8e8; opacity: 1; background-image:  linear-gradient(#ffffff 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(to right, #ffffff 1.2000000000000002px, #e5e8e8 1.2000000000000002px); background-size: 24px 24px; }
-.sub01 .section04 .content .reporter .text2 { width: 100%; font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; padding: 40px; }
-.sub01 .section04 .content .reporter .text3 { width: 100%; font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; padding: 0px; }
-
-.sub01 .section04 .content .reporter .answer .text span { box-shadow: inset 0 -14px 0 #f8d247; }
-.sub01 .section04 .content .reporter .text2 span { box-shadow: inset 0 -14px 0 #f8d247; }
-
-.sub01 .section05 { position: relative; width: 100%; height: 100%; display: block; background: #ff7a00; }
+.sub01 .section05 { position: relative; width: 100%; height: 100%; display: block; background: #f4f1de; }
 .sub01 .section05 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding:50px 20px; position: relative; }
-.sub01 .section05 .content .img { width: 100%;  max-width: 600px; margin: 0 auto;  }
-.sub01 .section05 .content .text {font-size: 20px; color: #fff; letter-spacing: -0.3px; line-height: 1.5; margin: -100px 0 10px 0; background: #6b53cd; border-radius: 50px; padding: 120px 50px 50px 50px; text-align: center; font-family: 'Rundigodic'; }
-.sub01 .section05 .content .text span {font-size: 21px; color: #fceb75; font-family: 'RundigodicB'; }
+.sub01 .section05 .content .anchor { height: 120px; display: flex; align-items: center; margin: 30px 0; }
+.sub01 .section05 .content .anchor .img { width: 150px; }
+.sub01 .section05 .content .anchor .question { flex: 1; font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; }
+.sub01 .section05 .content .reporter { position: relative; width: calc(100% - 150px); margin-left: 150px; background: #fff; box-shadow: 0px 0px 10px #aaa; }
+.sub01 .section05 .content .reporter .answer { padding: 40px; position: relative; }
+.sub01 .section05 .content .reporter .quotes { width: 27px; margin-bottom: 10px; }
+.sub01 .section05 .content .reporter .answer .text { width: calc(100% - 150px); font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; }
+.sub01 .section05 .content .reporter .answer .img { position: absolute; top: 40px; right: 40px; }
+.sub01 .section05 .content .reporter .graph_area { padding: 30px; background-color: #e5e8e8; opacity: 1; background-image:  linear-gradient(#ffffff 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(to right, #ffffff 1.2000000000000002px, #e5e8e8 1.2000000000000002px); background-size: 24px 24px; }
+.sub01 .section05 .content .reporter .text2 { width: 100%; font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; padding: 40px; }
+.sub01 .section05 .content .reporter .text3 { width: 100%; font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; padding: 0px; }
+
+.sub01 .section05 .content .reporter .answer .text span { box-shadow: inset 0 -14px 0 #f8d247; }
+.sub01 .section05 .content .reporter .text2 span { box-shadow: inset 0 -14px 0 #f8d247; }
 
 @media only all and (min-width:1921px) {
 	.sub01 .section01 .content { text-align: center; margin-bottom: 30px; color: #333; }

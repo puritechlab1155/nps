@@ -178,7 +178,7 @@
 								<!--<i class="vod">영상</i>-->
 							</div>
 							<p class="tit">알잘딱깔센! 세이브 머니</p>
-							<p class="txt">2024 달라지는 금융, 경제 제도</p>
+							<p class="txt">태아부터 부모까지 모두를 위한 8개 출생 지원 정책</p>
 						</a>
 					</div>
 					<div data-title="모두의 여행" class="swiper-slide item5 wow fadeUp">

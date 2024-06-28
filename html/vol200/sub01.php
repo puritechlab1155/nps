@@ -80,7 +80,7 @@
 					</div>
 					<div class="reporter">
 						<div class="answer">
-							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
 								네, 맞습니다. 앞서 Z앵커님이 기준소득월액 상·하한액이 조정됐다고 말씀하셨는데요. 상하한액은 국민연금 전체 가입자의 최근 3년간 평균소득(A값) 변동률을 반영하여 조정하고 있습니다.<br><br>
 								즉, 기준소득월액 상·하한액이 상향 조정됐다는 말은 3년간 국민연금 전체 가입자의 소득월액이 증가했다는 것을 의미하는데요, 기준소득월액은 법령에 따라 매년 7월 변동될 수 있으니 국민연금 가입자는 꼭 기억해 두시고 확인해야 합니다.
@@ -97,7 +97,7 @@
 					</div>
 					<div class="reporter">
 						<div class="answer">
-							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
 								보건복지부는 기준소득월액 상하한액 조정과 관련하여, 지난 1월 9일 국민연금심의위원회의 심의를 거쳤고, 1월 23일 복권복지부 고시(「국민연금법」 제3조 제1항 제5호 및 같은 법 시행령 제5조에 따른 「국민연금 기준소득월액 하한액과 상한액 고시」) 개정을 완료했습니다. 개정을 통해 조정된 소득월액 상하한액은 2024년 7월부터 2025년 6월까지 적용됩니다.<br><br>
 								기준소득월액 상·하한액 변동으로 기준소득월액이 617만 원보다 많으면 617만 원으로, 39만 원보다 적으면 39만 원으로 조정됩니다.
@@ -175,7 +175,7 @@
 					</div>
 					<div class="reporter">
 						<div class="answer">
-							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
 								네. 국민연금 노후긴급자금의 대부 금액은 개인별 연간 연금 수령액의 2배(최고 1,000만 원 한도) 이내에서 실제 사용된 비용을 청구할 수 있는데요. <br><br>
 								예를 들어 매월 받는 연금액이 30만 원인 노령연금 수급자(본인 또는 배우자)가 의료비로 700만 원을 사용했으면 본인 연간 연금액 360만원의 2배인 720만 원을 한도로 실제 사용한 금액인 700만 원까지 대부할 수 있습니다.<br><br>아래의 표에서 자세히 살펴보겠습니다.
@@ -223,7 +223,7 @@
 					</div>
 					<div class="reporter">
 						<div class="answer">
-							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
 								네. 주요 개정 내용은 아래와 같습니다. 첫째, 대부신청 대상에 기초생활수급자를 포함하였습니다. 국민기초생활보장법(생계·의료·주거)에 의한 급여를 받는 기초생활수급자도 다른 제외 사유에 해당하지 않는다면 대부받을 수 있습니다.<br><br>
 								둘째, 대부 이자율 적용기준이 변경되었습니다. 기존 5년 만기 국고채권 수익률에 예금은행 가중평균 수신금리(신규취급액 기준) 기준을 추가하여 둘 중 낮은 금리를 대부 이자율로 채택합니다.
@@ -269,7 +269,7 @@
 					</div>
 					<div class="reporter">
 						<div class="answer">
-							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
 								국민연금공단 기금운용본부는 악화된 경제시장 속에서 고군분투하며 호조세를 유지해 나가고 있습니다. 연초 이후 미국 기술주 중심의 강세로 국내 및 해외주식 운용수익률이 양호했으나, 기준금리 인하 시점 지연 우려로 채권금리가 상승해 전체 수익률 상승 폭을 일부 제한했는데요.<br><br>
 								자산별 잠정수익률(금액가중수익률 기준)은 해외주식 13.45%, 국내주식 5.53%, 해외채권 4.48%, 국내채권 -0.01%, 대체투자 4.11%로 집계됐습니다.
@@ -306,7 +306,7 @@
 					</div>
 					<div class="reporter">
 						<div class="answer">
-							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
 								네. 국내외 채권 시장은 여러 사정으로 약간 불안정했지만, 금세 호조세로 돌아섰는데요. 국내채권(-0.01%) 및 해외채권(4.48%)은 미국의 통화긴축 기조가 이어질 수 있다는 우려로 금리가 상승했으나, 해외채권은 원·달러 환율 상승으로 양호한 수익률을 보였습니다.
 							</div>

@@ -385,7 +385,7 @@
 .sub01 .news03 .section06 .content .conts_box .text { color: #fff; font-family: 'laundrygothic'; font-size: 20px; font-weight: 400; line-height: 32px; padding: 42px 0 28px; }
 .sub01 .news03 .section06 .content .conts_box .text span { display: block; color: #ff8aa9; font-size: 21px; font-weight: 700; }
 
-@media only all and (min-width:1921px) {
+/* @media only all and (min-width:1921px) {
 	.sub01 .section01 .content { text-align: center; margin-bottom: 30px; color: #333; }
 }
 @media only all and (min-width:2100px) {
@@ -393,7 +393,7 @@
 }
 @media only all and (min-width:2200px) {
 	.sub01 .section01 .content { text-align: center; margin-bottom: 10px; color: #333; }
-}
+} */
 @media only all and (max-width:767px) {
 	.sub01 .section01 { height: 275px; }
 	.sub01 .section01 .content { text-align: center; margin-bottom: 25px; color: #333; }

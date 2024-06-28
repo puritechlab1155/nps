@@ -16,8 +16,9 @@
 	<div id="contents">
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
-				<div class="title">NPS 뉴스</div>
-				<div class="angle-down"><i class="xi-angle-down-min"></i></div>
+				<div class="cover_title">NPS 뉴스</div>
+				<div class="cover_text">-</div>
+				<div class="angle-down"><img src="../../img/common/ico_angle_down.svg"></div>
 			</div>
 		</div>
 
@@ -25,9 +26,7 @@
 			<div class="content">
 					<div class="title"><img src="img/sub01/sub01_01.svg"></div>
 					<div class="subcopy pc_display">
-						안녕하십니까? 국민연금 뉴스 진행을 맡은 앵커 Z입니다.<br>
-						올해도 눈 깜작할 사이에 벚꽃이 떨어지고 나무들이 연둣빛으로 옷을 갈아입었습니다.<br>
-						찰나의 순간이라 더 아름답게 느껴지는 봄날을 사랑하는 가족, 연인 친구들과 함께 만끽하시길 바랍니다. 봄날의 햇살처럼 따뜻하고 즐거운 이야기를 담은 국민연금 주요 뉴스 시작합니다.
+						안녕하십니까? 국민연금 뉴스 진행을 맡은 앵커 Z입니다. 때 이른 폭염에 다들 안녕하신가요? 올해는 작년보다 더 더울 것이라는 전망처럼 매일 30℃를 웃도는 날씨가 예사롭지 않은데요. 외출 시 뜨거운 햇볕과 따가운 자외선을 피할 수 있는 모자와 양산을 활용하시길 바랍니다. 또한, 규칙적으로 물을 마시면서 신체 내외부를 시원하게 유지하시길 바랍니다. 뜨거운 여름날을 시원하게 보낼 산뜻한 국민연금 주요 뉴스 시작합니다.
 					</div>
 					<div class="subcopy mobile_display">
 						안녕하십니까? 국민연금 뉴스 진행을 맡은 앵커 Z입니다.<br>

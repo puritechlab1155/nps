@@ -383,7 +383,7 @@
 .sub01 .news03 .section06 .content { width: 100%; max-width: 1020px; margin: -19px auto 0; padding: 0 20px 99px; position: relative; }
 .sub01 .news03 .section06 .content .conts_box { background: #694439; border-radius: 64px; text-align: center; }
 .sub01 .news03 .section06 .content .conts_box .text { color: #fff; font-family: 'laundrygothic'; font-size: 20px; font-weight: 400; line-height: 32px; padding: 42px 0 28px; }
-.sub01 .news03 .section06 .content .conts_box .text span { display: block; color: #ff8aa9; font-size: 21px; font-weight: 700; }
+.sub01 .news03 .section06 .content .conts_box .text span { display: block; color: #ff8aa9; font-size: 21px; font-weight: 700; line-height: 32px; }
 
 /* @media only all and (min-width:1921px) {
 	.sub01 .section01 .content { text-align: center; margin-bottom: 30px; color: #333; }
@@ -394,36 +394,62 @@
 @media only all and (min-width:2200px) {
 	.sub01 .section01 .content { text-align: center; margin-bottom: 10px; color: #333; }
 } */
+
 @media only all and (max-width:767px) {
-	.sub01 .section01 { height: 275px; }
-	.sub01 .section01 .content { text-align: center; margin-bottom: 25px; color: #333; }
-	.sub01 .section01 .content .title { font-size: 20px; font-weight: 700; text-align: center;}
+	.sub01 .section01 { height: 275px; background-image: url('../img/sub01/sub01_00_mo.svg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
+	.sub01 .section01 .content { margin-bottom: 12px; }
+	.sub01 .section01 .content .cover_title { font-size: 20px; }
+	.sub01 .section01 .content .cover_text { padding: 0; }
 
-	.sub01 .section02 .content { display: block; }
-	.sub01 .section02 .content .title { width: 100%; max-width: 120px;}
-	.sub01 .section02 .content .title img { width: 100%; margin-top: 10px; }
-	.sub01 .section02 .content .subcopy { width: 100%; font-size: 18px; font-weight: 700; color: #222; letter-spacing: -0.3px; line-height: 27px; margin-top: 20px; margin-left:0; }
+	.sub01 .section02 { margin: 50px auto; }
+	.sub01 .section02 .content { flex-direction: column; align-items: center; gap: 24px; }
+	.sub01 .section02 .content .title { margin-top: 0; }
+	.sub01 .section02 .content .subcopy { width: 100%; font-size: 18px; font-weight: 700; letter-spacing: -0.36px; line-height: 29px; }
 
-	.sub01 .section03 { position: relative; width: 100%; height: 100%; display: block; background: linear-gradient(150deg, #6b53cd 64%, #5738a4 50%); }
-	.sub01 .section03 .content { width: 100%; max-width: 1020px; margin: 50px auto 0 auto; padding:50px 20px; position: relative; }
-	.sub01 .section03 .content .subtitle { width: 100%; max-width: 90px;}
-	.sub01 .section03 .content .text { font-size: 20px; font-weight: 400; color: #fff; letter-spacing: -0.3px; line-height: 32px; margin: 10px 0 150px 0;}
-	.sub01 .section03 .content .img { position: absolute; right: 0; top: auto; bottom: 0;transform: translateY(0%); }
+	.sub01 .section03 { border-bottom: 1px solid #000; }
+	.sub01 .section03 .content .tabs { gap: 13px; margin: 20px auto; }
+	.sub01 .section03 .content .tabs div { font-size: 11px; padding: 6px 10px; width: 110px; }
+	.sub01 .section03 .content .tabs div::after { width: 14px; height: 14px; right: 10px; }
+	.sub01 .section03 .content .tabs div.on::after { width: 14px; height: 14px; right: 10px; }
 
-	.sub01 .section04 .content .anchor { display: inline-block; margin: 0 0 50px 0; height: auto; width: 100%; }
-	.sub01 .section04 .content .anchor .img { width: 120px; text-align: center; margin: 0 auto 10px auto; }
-	.sub01 .section04 .content .anchor .question { flex: 1; font-size: 16px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 27px; margin-bottom: 50px; }
-	.sub01 .section04 .content .reporter { position: relative; width:100%; margin-left: 0px; background: #fff; box-shadow: 0px 0px 10px #aaa; margin-bottom: 80px; }
-	.sub01 .section04 .content .reporter .answer .text { width: 100%; font-size: 16px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 27px; }
-	.sub01 .section04 .content .reporter .answer .img { position: absolute; width: 120px; top: 0; left: 50%; transform: translateX(-50%) translateY(-50%); }
-	.sub01 .section04 .content .reporter .graph_area { padding: 30px; background-color: #e5e8e8; opacity: 1; background-image:  linear-gradient(#ffffff 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(to right, #ffffff 1.2000000000000002px, #e5e8e8 1.2000000000000002px); background-size: 24px 24px; }
-	.sub01 .section04 .content .reporter .text2 { width: 100%; font-size: 16px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 27px; padding: 40px; }
-	.sub01 .section04 .content .reporter .text3 { width: 100%; font-size: 16px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 27px; padding: 0px; }
+	.sub01 .section04 .content .text_box .text { padding: 14px 0 0; font-size: 22px; letter-spacing: -0.44px; }
 
-	.sub01 .section05 .content .text {font-size: 18px; color: #fff; letter-spacing: -0.3px; line-height: 1.5; margin: -80px 0 10px 0; background: #6b53cd; border-radius: 30px; padding: 100px 20px 20px 20px; text-align: center; font-family: 'Rundigodic'; }
-	.sub01 .section05 .content .text span {font-size: 19px; color: #fceb75; font-family: 'RundigodicB'; }
-	.sub01 .section05 .content .img { width: 70%; }
-	.sub01 .section05 .content .text br { display: none; }
+	.sub01 .news01 .section04 .content .text_box .text { padding-bottom: 25px; }
+	.sub01 .news02 .section04 .content .text_box .text { padding-bottom: 21px; }
+	.sub01 .news02 .section04 .content .img_box img { padding: 0 34px 0 21px; }
+	.sub01 .news03 .section04 .content .text_box .text { padding-bottom: 18px; }
+	.sub01 .news03 .section04 .content .img_box img { padding: 0 26px 0 25px; }
+
+	.sub01 .section05 .content { padding: 50px 20px 0; gap: 32px; }
+	.sub01 .section05 .content .anchor { flex-direction: column; gap: 36px; align-items: center; }
+	.sub01 .section05 .content .moSmall { gap: 16px; }
+	.sub01 .section05 .content .moSmall .img { width: 120px; }
+	.sub01 .section05 .content .anchor .question { font-size: 16px; letter-spacing: -0.32px; line-height: 28px; }
+	.sub01 .section05 .content .reporter { width: 100%; margin-left: 0; }
+	.sub01 .section05 .content .reporter .quotes { padding-top: 146px; }
+	.sub01 .section05 .content .reporter .answer .text { width: 100%; font-size: 16px; letter-spacing: -0.32px; line-height: 28px; }
+	.sub01 .section05 .content .reporter .answer .img { left: 50%; transform: translateX(-50%); }
+
+	.sub01 .news01 .section05 .content { padding-bottom: 61px; }
+	.sub01 .news02 .section05 .content { padding-bottom: 49px; }
+
+	.sub01 .section05 .content .reporter .graph_area { padding: 36px; background-color: #e5e8e8; opacity: 1; background-image:  linear-gradient(#ffffff 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(to right, #ffffff 1.2000000000000002px, #e5e8e8 1.2000000000000002px); background-size: 24px 24px; }
+	.sub01 .section05 .content .reporter .graph_area .textBold { font-size: 16px; letter-spacing: normal; }
+
+	.sub01 .news02 .section05 .content .reporter .graph_area .text_box .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; margin-top: 8px; }
+	.sub01 .news02 .section05 .content .reporter .graph_area .text_box .text:nth-child(1) { margin-top: 0; }
+	.sub01 .news02 .section05 .content .reporter .graph_area .text_box .text em { display: block; margin-left: 28px; }
+	.sub01 .news02 .section05 .content .reporter .graph_area .text_box .list ul { margin-left: 54px; }
+	.sub01 .news02 .section05 .content .reporter .graph_area .text_box .list ul li { list-style-position: outside; }
+
+	.sub01 .news03 .section05 .content .reporter .graph_area { padding: 36px 0; }
+	.sub01 .news03 .section05 .content .reporter .graph_area .textBold { padding-left: 36px; }
+
+	/* .sub01 .news03 .section06 { position: relative; width: 100%; height: 100%; display: block; background: #f4f1de; } */
+	.sub01 .news03 .section06 .content { margin: 0 auto 0; padding: 32px 20px 49px; }
+	.sub01 .news03 .section06 .content .conts_box { border-radius: 24px; text-align: left; padding: 36px 36px 0; }
+	.sub01 .news03 .section06 .content .conts_box .text { font-size: 18px; line-height: 30px; padding: 0 0 30px; }
+	.sub01 .news03 .section06 .content .conts_box .text span { font-size: 19px; line-height: 30px; }
 }
 
 /* NPS 칼럼 */

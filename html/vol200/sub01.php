@@ -24,10 +24,10 @@
 
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
-					<div class="title"><img src="img/sub01/sub01_01.svg"></div>
-					<div class="subcopy">
-						안녕하십니까? 국민연금 뉴스 진행을 맡은 앵커 Z입니다. 때 이른 폭염에 다들 안녕하신가요? 올해는 작년보다 더 더울 것이라는 전망처럼 매일 30℃를 웃도는 날씨가 예사롭지 않은데요. 외출 시 뜨거운 햇볕과 따가운 자외선을 피할 수 있는 모자와 양산을 활용하시길 바랍니다. 또한, 규칙적으로 물을 마시면서 신체 내외부를 시원하게 유지하시길 바랍니다. 뜨거운 여름날을 시원하게 보낼 산뜻한 국민연금 주요 뉴스 시작합니다.
-					</div>
+				<div class="title"><img src="img/sub01/sub01_01.svg"></div>
+				<div class="subcopy">
+					안녕하십니까? 국민연금 뉴스 진행을 맡은 앵커 Z입니다. 때 이른 폭염에 다들 안녕하신가요? 올해는 작년보다 더 더울 것이라는 전망처럼 매일 30℃를 웃도는 날씨가 예사롭지 않은데요. 외출 시 뜨거운 햇볕과 따가운 자외선을 피할 수 있는 모자와 양산을 활용하시길 바랍니다. 또한, 규칙적으로 물을 마시면서 신체 내외부를 시원하게 유지하시길 바랍니다. 뜨거운 여름날을 시원하게 보낼 산뜻한 국민연금 주요 뉴스 시작합니다.
+				</div>
 			</div>
 		</div>
 
@@ -51,13 +51,14 @@
 							7월부터 4.5% 인상
 						</div>
 					</div>
-					<div class="img_box"><img src="img/sub01/sub01_11.svg"></div>
+					<div class="img_box pc_display"><img src="img/sub01/sub01_11.svg"></div>
+					<div class="img_box mobile_display"><img src="img/sub01/sub01_11_mo.svg"></div>
 				</div>
 			</div><!-- //.section04 -->
 
 			<div class="section05 wow fadeBigInUp">
 				<div class="content">
-					<div class="anchor">
+					<div class="anchor moSmall">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
 							첫 번째 뉴스입니다. <br>보건복지부가 7월부터 국민연금 보험료의 산정 기준인 기준소득월액 상한액을 590만 원에서 617만 원으로, 하한액을 37만 원에서 39만 원으로 상향 조정한다고 밝혔습니다.
@@ -138,17 +139,18 @@
 					<div class="text_box">
 						<div class="arrow"><img src="img/sub01/sub01_03.svg"></div>
 						<div class="text">
-							어르신을 위한 낮은 이자의 편리한 대출,<br>
+							어르신을 위한 낮은 이자의<br class="mobile_display"> 편리한 대출,<br>
 							노후긴급자금 개정 알림
 						</div>
 					</div>
-					<div class="img_box"><img src="img/sub01/sub01_21.svg"></div>
+					<div class="img_box pc_display"><img src="img/sub01/sub01_21.svg"></div>
+					<div class="img_box mobile_display"><img src="img/sub01/sub01_21_mo.svg"></div>
 				</div>
 			</div><!-- //.section04 -->
 
 			<div class="section05 wow fadeBigInUp">
 				<div class="content">
-					<div class="anchor">
+					<div class="anchor moSmall">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
 							두 번째 뉴스입니다.<br>
@@ -182,10 +184,24 @@
 						</div>
 						<div class="graph_area">
 							<div class="textBold">국민연금 노후긴급자금(실버론)</div>
-							<div class="text_box">
+							<div class="text_box pc_display">
 								<div class="text"><img src="img/sub01/check.svg"><span>대상 </span>: 60세 이상 국민연금 수급자 (연금급여 지급 정지 중인 자, 외국인 등은 제외)</div>
 								<div class="text"><img src="img/sub01/check.svg"><span>대부 금액 </span>: 연간 연금 수령액의 2배 이내에서 실소요 비용 (최고 1,000만 원 한도)</div>
 								<div class="text"><img src="img/sub01/check.svg"><span>대부 용도 </span>: 전월세 보증금, 의료비, 배우자 장제비, 재해복구비</div>
+								<div class="text list">
+									<img src="img/sub01/check.svg"><span>신청 기한</span>
+									<ul>
+										<li>전월세 보증금 : (신규) 임차개시일 전·후 3개월 이내, (갱신) 갱신계약일로부터 3개월 이내</li>
+										<li>의료비 : 진료일로부터 6개월 이내</li>
+										<li>배우자 장제비 : 사망일로부터 3개월 이내</li>
+										<li>재해복구비 : 재해발생일 또는 재난지역 선포일로부터 6개월 이내</li>
+									</ul>
+								</div>
+							</div>
+							<div class="text_box mobile_display">
+								<div class="text"><img src="img/sub01/check.svg"><span>대상</span><em>60세 이상 국민연금 수급자 (연금급여 지급 정지 중인 자, 외국인 등은 제외)</em></div>
+								<div class="text"><img src="img/sub01/check.svg"><span>대부 금액</span><em>연간 연금 수령액의 2배 이내에서 실소요 비용 (최고 1,000만 원 한도)</em></div>
+								<div class="text"><img src="img/sub01/check.svg"><span>대부 용도</span><em>전월세 보증금, 의료비, 배우자 장제비, 재해복구비</em></div>
 								<div class="text list">
 									<img src="img/sub01/check.svg"><span>신청 기한</span>
 									<ul>
@@ -232,16 +248,17 @@
 						<div class="arrow"><img src="img/sub01/sub01_03.svg"></div>
 						<div class="text">
 							국민연금 기금 운용수익률 <br>
-							작년에 이어 올해 1분기에도 호조세 이어가
+							작년에 이어 올해 1분기에도<br class="mobile_display"> 호조세 이어가
 						</div>
 					</div>
-					<div class="img_box"><img src="img/sub01/sub01_31.svg"></div>
+					<div class="img_box pc_display"><img src="img/sub01/sub01_31.svg"></div>
+					<div class="img_box mobile_display"><img src="img/sub01/sub01_31_mo.svg"></div>
 				</div>
 			</div><!-- //.section04 -->
 
 			<div class="section05 wow fadeBigInUp">
 				<div class="content">
-					<div class="anchor">
+					<div class="anchor moSmall">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
 							세 번째 뉴스입니다.<br>
@@ -261,7 +278,8 @@
 						</div>
 						<div class="graph_area">
 							<div class="textBold">자산별 잠정수익률(금액가중수익률 기준)</div>
-							<div class="img_box"><img src="img/sub01/sub01_32.svg"></div>
+							<div class="img_box pc_display"><img src="img/sub01/sub01_32.svg"></div>
+							<div class="img_box mobile_display"><img src="img/sub01/sub01_32_mo.svg"></div>
 						</div>
 					</div>
 					<div class="anchor alignCenter">
@@ -310,14 +328,18 @@
 					<div class="conts_box">
 						<div class="text">
 							김태현 이사장은
-							<span>
+							<span class="pc_display">
 								“작년에 이어 올해도 양호한 성과를 이어가고 있습니다. <br>
 								국민의 소중한 노후자금을 운용하는 장기투자자로서 변동성이 큰 시장 환경에서도 <br>
 								안정적인 수익을 창출할 수 있도록 최선을 다하겠습니다”
 							</span>
+							<span class="mobile_display">
+								“작년에 이어 올해도 양호한 성과를 이어가고 있습니다. 국민의 소중한 노후자금을 운용하는 장기투자자로서 변동성이 큰 시장 환경에서도 안정적인 수익을 창출할 수 있도록 최선을 다하겠습니다”
+							</span>
 							라고 전하였습니다.
 						</div>
-						<div class="img_box"><img src="img/sub01/sub01_33.svg"></div>
+						<div class="img_box pc_display"><img src="img/sub01/sub01_33.svg"></div>
+						<div class="img_box mobile_display"><img src="img/sub01/sub01_33_mo.svg"></div>
 					</div>
 				</div>
 			</div><!-- //.section06 -->

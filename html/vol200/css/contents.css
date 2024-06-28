@@ -323,22 +323,29 @@
 }
 
 /* NPS 뉴스 */
-.sub01 #contents { position: relative; padding: 0; }
-.sub01 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub01/sub01_00.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; }
-.sub01 .section01 .content { text-align: center; margin-bottom: 35px; color: #333; }
-.sub01 .section01 .content .title { font-size: 27px; font-weight: 700; }
+.sub01 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; color: #000; line-height: normal; letter-spacing: normal; }
 
-.sub01 .section02 { position: relative; display: block; width: 100%; max-width: 1020px; margin: 50px auto; padding:0 20px; }
-.sub01 .section02 .content { position: relative; width: 100%; max-width: 980px; margin-bottom: 50px; display: flex; }
-.sub01 .section02 .content .title { width: 100%; max-width: 120px;}
-.sub01 .section02 .content .title img { width: 100%; margin-top: 10px; }
-.sub01 .section02 .content .subcopy { width: calc(100% - 180px); font-size: 20px; font-weight: 700; color: #222; letter-spacing: -0.3px; line-height: 32px; margin-left: 30px; }
+.sub01 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub01/sub01_00.png'); background-size: cover; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; }
+.sub01 .section01 .content { text-align: center; margin-bottom: 89px; }
+.sub01 .section01 .content .cover_title { font-size: 27px; font-weight: 700; }
+.sub01 .section01 .content .cover_text { font-size: 16px; font-weight: 400; padding: 13px 0; opacity: 0; }
 
-.sub01 .section03 { position: relative; width: 100%; height: 100%; display: block; background: linear-gradient(150deg, #6b53cd 64%, #5738a4 50%); }
-.sub01 .section03 .content { width: 100%; max-width: 1020px; margin: 50px auto 0 auto; padding:50px 20px; position: relative; }
-.sub01 .section03 .content .subtitle { width: 100%; max-width: 110px;}
-.sub01 .section03 .content .text { font-size: 27px; font-weight: 400; color: #fff; letter-spacing: -0.3px; line-height: 42px; margin: 10px 0 10px 0;}
-.sub01 .section03 .content .img { position: absolute; right: 0; top: 50%; transform: translateY(-50%); }
+.sub01 .section02 { position: relative; display: block; width: 100%; max-width: 1020px; margin: 120px auto; padding: 0 20px; }
+.sub01 .section02 .content { position: relative; width: 100%; max-width: 980px; display: flex; gap: 46px; }
+.sub01 .section02 .content .title { width: 100%; max-width: 120px; margin-top: 9px; }
+.sub01 .section02 .content .title img { width: 100%; }
+.sub01 .section02 .content .subcopy { flex-grow: 1; font-size: 20px; font-weight: 700; line-height: 32px; letter-spacing: -0.4px; }
+
+.sub01 .section03 { position: relative; width: 100%; height: 100%; display: block; border-top: 1px solid #000; }
+.sub01 .section03 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding: 0 20px; position: relative; }
+.sub01 .section03 .content .tabs { display: flex; gap: 36px; margin: 33px auto; justify-content: center; }
+.sub01 .section03 .content .tabs div { background: #000; color: #fff; font-family: 'GmarketSans'; font-size: 18px; font-weight: 500; padding: 5px 16px; width: 143px; border-radius: 999px; position: relative; cursor: pointer; }
+.sub01 .section03 .content .tabs div::after { content: ''; background: url(../img/sub01/sub01_02.svg) no-repeat; width: 24px; height: 24px; background-size: contain; background-position: center; position: absolute; right: 16px; top: 50%; transform: translateY(-50%); }
+.sub01 .section03 .content .tabs div.on { background: #4cafea; color: #000; }
+.sub01 .section03 .content .tabs div.on::after { content: ''; background: url(../img/sub01/sub01_02-on.svg) no-repeat; width: 24px; height: 24px; background-size: contain; background-position: center; position: absolute; right: 16px; top: 50%; transform: translateY(-50%); }
+
+.sub01 .section04 { position: relative; width: 100%; height: 100%; display: block; background: #6cc3f7; }
+.sub01 .section04 .content { width: 100%; max-width: 1020px; margin: 49px auto 0; padding: 0 20px; position: relative; }
 
 .sub01 .section05 { position: relative; width: 100%; height: 100%; display: block; background: #f4f1de; }
 .sub01 .section05 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding:50px 20px; position: relative; }

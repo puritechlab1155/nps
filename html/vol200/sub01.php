@@ -51,7 +51,7 @@
 			<div class="section04 wow fadeBigInUp">
 				<div class="content">
 					<div class="text_box">
-						<div class="arrow"><img src=""></div>
+						<div class="arrow"><img src="img/sub01/sub01_03.svg"></div>
 						<div class="text">
 							국민연금 기준소득월액 상·하한액 <br>
 							7월부터 4.5% 인상
@@ -330,6 +330,13 @@
 		</div><!-- //.news03 -->
 	</div>
 	<!-- contents -->
+
+	<script>
+		$('.tabs div').click(function(){
+			$(this).addClass('on');
+			$(this).siblings().removeClass('on');
+		});
+	</script>
 
 	<!-- page ctrl -->
 	<div class="page_ctrl">

@@ -57,14 +57,14 @@
 							7월부터 4.5% 인상
 						</div>
 					</div>
-					<div class="img_box"><img src=""></div>
+					<div class="img_box"><img src="img/sub01/sub01_11.svg"></div>
 				</div>
 			</div><!-- //.section04 -->
 
 			<div class="section05 wow fadeBigInUp">
 				<div class="content">
 					<div class="anchor">
-						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
 							첫 번째 뉴스입니다. <br>보건복지부가 7월부터 국민연금 보험료의 산정 기준인 기준소득월액 상한액을 590만 원에서 617만 원으로, 하한액을 37만 원에서 39만 원으로 상향 조정한다고 밝혔습니다.
 							<br><br>자세한 소식 취재기자 M과 알아보겠습니다. M기자 기준소득월액이란 무엇인가요?
@@ -74,12 +74,11 @@
 						<div class="answer">
 							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">기준소득월액이란 연금보험료를 산정하고 연금 급여를 계산하기 위해 가입자의 소득월액을 기준으로 상하한액의 범위에서 천 원 단위로 정한 금액입니다. 이때 소득은 일정한 기간 근로를 제공하여 얻은 수입에서 대통령령으로 정하는 비과세 소득을 제외한 금액 또는 자산을 운영하여 얻은 소득에서 필요경비를 제외한 금액을 말합니다.</div>
-							<div class="img"><img src="img/sub01/sub01_05.png"></div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
-						<!-- <div class="graph_area"><img src="img/sub01/sub01_06.svg"></div> -->
 					</div>
-					<div class="anchor">
-						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
 							연금보험료와 연금 급여를 산정하기 위해 정한 것이 기준소득월액이고, 상·하한액이 있다는거군요.
 						</div>
@@ -91,12 +90,12 @@
 								네, 맞습니다. 앞서 Z앵커님이 기준소득월액 상·하한액이 조정됐다고 말씀하셨는데요. 상하한액은 국민연금 전체 가입자의 최근 3년간 평균소득(A값) 변동률을 반영하여 조정하고 있습니다.<br><br>
 								즉, 기준소득월액 상·하한액이 상향 조정됐다는 말은 3년간 국민연금 전체 가입자의 소득월액이 증가했다는 것을 의미하는데요, 기준소득월액은 법령에 따라 매년 7월 변동될 수 있으니 국민연금 가입자는 꼭 기억해 두시고 확인해야 합니다.
 							</div>
-							<div class="img"><img src="img/sub01/sub01_05.png"></div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
 						<!-- <div class="graph_area"><img src="img/sub01/sub01_07.svg"></div> -->
 					</div>
-					<div class="anchor">
-						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
 							그렇다면 보건복지부에서 발표한 기준소득월액 상·하한액 조정과 적용 기간은 어떻게 되나요?
 						</div>
@@ -108,11 +107,11 @@
 								보건복지부는 기준소득월액 상하한액 조정과 관련하여, 지난 1월 9일 국민연금심의위원회의 심의를 거쳤고, 1월 23일 복권복지부 고시(「국민연금법」 제3조 제1항 제5호 및 같은 법 시행령 제5조에 따른 「국민연금 기준소득월액 하한액과 상한액 고시」) 개정을 완료했습니다. 개정을 통해 조정된 소득월액 상하한액은 2024년 7월부터 2025년 6월까지 적용됩니다.<br><br>
 								기준소득월액 상·하한액 변동으로 기준소득월액이 617만 원보다 많으면 617만 원으로, 39만 원보다 적으면 39만 원으로 조정됩니다.
 							</div>
-							<div class="img"><img src="img/sub01/sub01_05.png"></div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
 					</div>
-					<div class="anchor">
-						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
 							매년 7월 기준소득월액 상하한액이 변동될 수 있으니 체크해 볼 필요가 있다는 거군요. 잘 알겠습니다. 상·하한액 조정이 보험료에도 영향이 있나요?
 						</div>
@@ -125,11 +124,11 @@
 								<br><br>
 								상·하한액 조정으로 일부 가입자의 보험료가 인상되지만, 연금급여액 산정 기초가 되는 가입자 개인의 생애 평균 소득월액이 높아져 연금 수급 시 더 많은 연금급여액을 받게 됩니다.
 							</div>
-							<div class="img"><img src="img/sub01/sub01_05.png"></div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
 					</div>
 					<div class="anchor">
-						<div class="img"><img src="img/sub01/sub01_04.png"></div>
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
 							답변 감사합니다. 보건복지부 이스란 연금정책관도 기준소득월액 상하한액 조정에 대한 말을 전해왔는데요.<br><br>
 							이스란 연금정책관은 "가입자의 소득 수준 향상에 따라 기준소득월액 상·하한액이 조정되어 일부 가입자는 보험료가 증가하지만, 수급 연령 도달 시 더 많은 연금급여액을 받게 되어 국민연금을 통한 노후소득 보장이 강화될 것"이라고 이야기했습니다.

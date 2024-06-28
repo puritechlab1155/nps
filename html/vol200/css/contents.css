@@ -344,10 +344,16 @@
 .sub01 .section03 .content .tabs div.on { background: #4cafea; color: #000; }
 .sub01 .section03 .content .tabs div.on::after { content: ''; background: url(../img/sub01/sub01_02-on.svg) no-repeat; width: 24px; height: 24px; background-size: contain; background-position: center; position: absolute; right: 16px; top: 50%; transform: translateY(-50%); }
 
+.sub01 .news { display: none; }
+.sub01 .news.on { display: block; }
+
+.sub01 .section04 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding: 49px 20px 0; position: relative; }
+.sub01 .section04 .content .text_box { text-align: center; }
+.sub01 .section04 .content .text_box .text { padding: 14px 0 10px; color: #fff; font-size: 32px; font-weight: 700; letter-spacing: -0.64px; }
+
 .sub01 .news01 .section04 { position: relative; width: 100%; display: block; background: #6cc3f7; }
-.sub01 .news01 .section04 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding: 49px 20px 0; position: relative; }
-.sub01 .news01 .section04 .content .text_box { text-align: center; }
-.sub01 .news01 .section04 .content .text_box .text { padding: 14px 0 10px; color: #fff; font-size: 32px; font-weight: 700; letter-spacing: -0.64px; }
+.sub01 .news02 .section04 { position: relative; width: 100%; display: block; background: #9daef0; }
+.sub01 .news03 .section04 { position: relative; width: 100%; display: block; background: #d38799; }
 
 .sub01 .section05 { position: relative; width: 100%; height: 100%; display: block; background: #f4f1de; }
 .sub01 .section05 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding: 100px 20px 99px; position: relative; display: flex; flex-direction: column; gap: 48px; }
@@ -361,12 +367,23 @@
 .sub01 .section05 .content .reporter .answer .text { width: calc(100% - 158px); font-size: 18px; font-weight: 400; letter-spacing: -0.36px; line-height: 32px; }
 .sub01 .section05 .content .reporter .answer .img { width: 130px; position: absolute; top: 36px; right: 36px; }
 
-.sub01 .section05 .content .reporter .graph_area { padding: 30px; background-color: #e5e8e8; opacity: 1; background-image:  linear-gradient(#ffffff 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(to right, #ffffff 1.2000000000000002px, #e5e8e8 1.2000000000000002px); background-size: 24px 24px; }
-.sub01 .section05 .content .reporter .text2 { width: 100%; font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; padding: 40px; }
-.sub01 .section05 .content .reporter .text3 { width: 100%; font-size: 18px; font-weight: 400; color: #222; letter-spacing: -0.3px; line-height: 32px; padding: 0px; }
+.sub01 .section05 .content .reporter .graph_area { padding: 36px; background-color: #e5e8e8; opacity: 1; background-image:  linear-gradient(#ffffff 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(to right, #ffffff 1.2000000000000002px, #e5e8e8 1.2000000000000002px); background-size: 24px 24px; }
+.sub01 .section05 .content .reporter .graph_area .textBold { font-family: 'laundrygothic'; font-size: 20px; font-weight: 700; letter-spacing: -0.4px; }
 
-.sub01 .section05 .content .reporter .answer .text span { box-shadow: inset 0 -14px 0 #f8d247; }
-.sub01 .section05 .content .reporter .text2 span { box-shadow: inset 0 -14px 0 #f8d247; }
+.sub01 .news02 .section05 .content .reporter .graph_area .text_box { margin-top: 16px; }
+.sub01 .news02 .section05 .content .reporter .graph_area .text_box .text { font-size: 18px; font-weight: 400; line-height: 32px; letter-spacing: -0.36px; }
+.sub01 .news02 .section05 .content .reporter .graph_area .text_box .text img { width: 18px; height: 18px; }
+.sub01 .news02 .section05 .content .reporter .graph_area .text_box .text span {  font-weight: 700; padding-left: 10px; }
+.sub01 .news02 .section05 .content .reporter .graph_area .text_box .list ul { margin-left: 21px; }
+.sub01 .news02 .section05 .content .reporter .graph_area .text_box .list ul li { list-style: disc; list-style-position: inside; }
+
+.sub01 .news03 .section05 .content .reporter .graph_area .img_box { margin-top: 31px; }
+
+.sub01 .news03 .section06 { position: relative; width: 100%; height: 100%; display: block; background: #f4f1de; }
+.sub01 .news03 .section06 .content { width: 100%; max-width: 1020px; margin: -19px auto 0; padding: 0 20px 99px; position: relative; }
+.sub01 .news03 .section06 .content .conts_box { background: #694439; border-radius: 64px; text-align: center; }
+.sub01 .news03 .section06 .content .conts_box .text { color: #fff; font-family: 'laundrygothic'; font-size: 20px; font-weight: 400; line-height: 32px; padding: 42px 0 28px; }
+.sub01 .news03 .section06 .content .conts_box .text span { display: block; color: #ff8aa9; font-size: 21px; font-weight: 700; }
 
 @media only all and (min-width:1921px) {
 	.sub01 .section01 .content { text-align: center; margin-bottom: 30px; color: #333; }

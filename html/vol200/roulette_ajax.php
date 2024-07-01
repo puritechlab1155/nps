@@ -58,6 +58,15 @@ for($i=0; $i<count($index_arr); $i++){
 $col_name_arr_txt .= '`reg_date`';
 $val_arr_txt .= "'{$today}'";
 
+echo $col_name_arr_txt . ' ||||||| ' . $val_arr_txt;
+$query_insert = "INSERT INTO `ocean_event_list` ({$col_name_arr_txt}) VALUES ({$val_arr_txt})";
+
+	if(mysqli_query($connect, $query_insert)){
+		$value = 'success';
+	}else{
+		$value = mysqli_error($connect).' / '.$col_name_arr_txt.' / '.$val_arr_txt;
+	}
+
 
 // ip를 대조하여 이미 당첨된 내역이 있는지 여부를 가리기 위한 쿼리
 $duplicate_where = "`vol_idx`={$vol_idx} AND `ip`='{$ip}'";
@@ -69,7 +78,7 @@ $duplicate_row = mysqli_fetch_assoc($duplicate_result);
 $duplicate_regno = $duplicate_row['regno'];
 
 
-if(!$duplicate_regno){
+if(false){
 	$query_insert = "INSERT INTO `roulette_winner_list` ({$col_name_arr_txt}) VALUES ({$val_arr_txt})";
 
 	if(mysqli_query($connect, $query_insert)){

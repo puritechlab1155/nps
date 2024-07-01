@@ -39,8 +39,8 @@
 		<div class="section03 wow fadeBigInUp">
 			<div class="content">
 				<div class="subtitle">일하는 엄마와 아빠에게는?</div>
-				<ul>
-					<li>
+				<div class="item_box">
+					<div class="item item01">
 						<div class="img_box"><img src="img/sub04/sub04_01.svg"></div>
 						<div class="text_box">
 							<span>기업에서 지급하는 출산 지원금 전액 소득세 비과세</span>
@@ -48,8 +48,8 @@
 								얼마 전까지 회사에서 출산 지원금을 받은 경우 월 20만 원(연 240만 원)까지 비과세 혜택을 받았지만, 조만간 출산 지원금 전액이 비과세가 될 전망입니다. 정부가 가족 친화적 세제 지원을 대폭 강화한 세법 개정안을 7월에 발표했기 때문이죠. 임신 중이거나 출산했거나 혹은 임신을 계획 중인 부모님들은 출산 후 2년 이내에 지급받은 지원금에 대해 전액 비과세 혜택을 받을 수 있으니, 정부의 발표를 계속해서 확인해 주세요. 
 							</p>
 						</div>
-					</li>
-					<li>
+					</div>
+					<div class="item item02">
 						<div class="img_box"><img src="img/sub04/sub04_02.svg"></div>
 						<div class="text_box">
 							<span>남성 배우자들의 출산 휴가 확대 및 육아휴직 급여 증액</span>
@@ -57,17 +57,17 @@
 								내년 1월부터 남성 배우자의 출산 휴가가 근무일 기준 10일에서 20일(휴일 포함 한 달)로 확대됩니다. 여기에 더해 정부는 육아휴직 급여를 최대 월 250만 원으로 올리겠다고 발표했습니다. 휴직 첫 3개월은 250만 원, 다음 3개월은 200만 원, 7개월부터 12개월까지는 160만 원을 주는 방식입니다. 이렇게 되면 1년간 육아휴직을 쓸 경우 육아휴직 급여가 1800만 원에서 2310만 원으로 510만 원 오르는 셈입니다. 또한 기존에는 육아휴직 급여 중 25%를 복직 6개월 후 한 번에 지급했는데, 앞으로는 전액을 매달 지급할 계획이라고 하니, 임신 중이거나 임신을 계획 중인 부모는 정부의 발표를 꼼꼼히 확인하면 좋을 것 같습니다.
 							</p>
 						</div>
-					</li>
-					<li>
-						<div class="img_box"><img src="img/sub04/sub04_01.svg"></div>
+					</div>
+					<div  class="item item03">
+						<div class="img_box"><img src="img/sub04/sub04_03.svg"></div>
 						<div class="text_box">
 							<span>경력 단절 여성의 취업을 쉽게</span>
 							<p>
 								출산과 육아 때문에 경력이 단절되는 경우가 많습니다. 경력 단절 여성의 업무 복귀를 조금이라도 돕기 위해 정부가 지난 5월 1일 ‘사회이동성 개선방안’을 발표했는데요. ‘사회이동성 개선방안’이란 경력 단절 여성을 채용하거나 고용을 유지한 기업에게 인센티브를 주는 것입니다. ‘통합고용세액공제 경력 단절 여성 재취업 업종 제한 폐지’ 방안이 대표적인데요. 통합고용세액공제라는 말이 낯설게 느껴질 것 같습니다. 통합고용세액공제는 전년 대비 고용한 근로자 수가 늘었을 때, 일정 기간 법인세 또는 소득세 세액 공제를 받는 제도입니다. 이외에도 경력 단절인을 1년 이상 정규 채용한 기업에 고용유지장려금 80만 원을 추가 지원하는 방안도 있습니다. 직업 훈련에 참여한 경력 단절 여성에게 수당 10만 원을 지급하는 방안도 마련됐으니, 재취업을 희망하는 경력 단절 여성분들은 꼭 해당 방안을 확인하면 좋겠습니다.
 							</p>
 						</div>
-					</li>
-				</ul>
+					</div>
+				</div>
 			</div>
 		</div><!-- //.section03 -->
 
@@ -76,7 +76,7 @@
 				<div class="subtitle">직장 관련 없이 누구나 받을 수 있다!</div>
 				<ul>
 					<li>
-						<div class="img_box"><img src=""></div>
+						<div class="img_box"><img src="img/sub04/sub04_04.svg"></div>
 						<div class="text_box">
 							<span>첫만남 이용권</span>
 							<p>
@@ -85,7 +85,7 @@
 						</div>
 					</li>
 					<li>
-						<div class="img_box"><img src=""></div>
+						<div class="img_box"><img src="img/sub04/sub04_05.svg"></div>
 						<div class="text_box">
 							<span>양육 수당</span>
 							<p>
@@ -94,7 +94,7 @@
 						</div>
 					</li>
 					<li>
-						<div class="img_box"><img src=""></div>
+						<div class="img_box"><img src="img/sub04/sub04_06.svg"></div>
 						<div class="text_box">
 							<span>신생아 특례대출</span>
 							<p>
@@ -103,7 +103,7 @@
 						</div>
 					</li>
 					<li>
-						<div class="img_box"><img src=""></div>
+						<div class="img_box"><img src="img/sub04/sub04_07.svg"></div>
 						<div class="text_box">
 							<span>부모 급여</span>
 							<p>
@@ -117,7 +117,27 @@
 
 		<div class="section05 wow fadeBigInUp">
 			<div class="content">
-				<img src="">
+				<div class="img_box"><img src="img/sub04/sub04_08-item.svg"></div>
+				<div class="conts_box">
+					<div class="cont01">
+						<div class="search_img"><img src="img/sub04/sub04_08-search.svg"></div>
+						<div class="text01">
+							<span>생각보다 혜택이 많죠? 일일이 찾아보는 수고를 덜도록 정부에서 지원하는 <br class="pc_display">
+							출산 관련 혜택 대부분을 한 번에 해결할 수 있는 서비스 페이지가 있으니 참고해 보길 바랍니다.</span>
+							<a href="https://www.gov.kr/portal/onestopSvc/happyBirth">https://www.gov.kr/portal/onestopSvc/happyBirth</a>
+						</div>
+					</div>
+					<div class="cont02">
+						<div class="text02">
+							<p>
+								위에서 소개한 내용 외에 미처 다 설명하지 못한 다른 혜택들도 있습니다. 정부가 아닌 내가 살고 있는 동네(지자체)에도 추가적인 혜택이 있을 수 있습니다. 이 부분까지 체크해 볼 수 있으니 꼭 서비스 페이지에 방문해서 어떤 것을 받을 수 있는지 확인하고 놓치지 않도록 하세요.
+							</p>
+							<em>
+								(※ 해당 페이지에서 신청 가능한 출산 지원 서비스: 부모 급여, 첫만남 이용권, 양육 수당, 출산가구 전기료 경감, 아동 수당, 다자녀 전기료 경감, 해산 급여, 다자녀 도시가스료 경감, 여성장애인출산비용지원, 다자녀 지역난방비 경감, 저소득층기저귀·조제분유지원, KTX 다자녀 행복, SRT 다자녀 가족 할인)
+							</em>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 

@@ -120,6 +120,134 @@
 			</div>
 		</div>
 	</section>
+
+	<div class="popUp result_modal01">
+		<div class="modal">
+			<div class="content">
+				<div class="message">
+					<div class="img_box"><img src="img/sub13/sub13_modal01.svg"></div>
+					<div class="main_text">축하합니다!</div>
+					<div class="sub_text">이벤트에 당첨되셨습니다.</div>
+				</div>
+				<div class="gift_area">
+					<div class="img_box"><img src="img/sub13/sub13_modal_gift.png"></div>
+					<p>CU 편의점 모바일 상품권 5천원 </p>
+				</div>
+				<div class="text_box">
+					<span>폼을 작성하여 제출해주세요.<br>제출한 번호로 개별 연락드릴 예정입니다.</span>
+					<p>*경품 발송 시, &lt;내 곁에 국민연금&gt;의 구독자가 <br>아닐 경우 당첨이 취소됩니다. </p>
+				</div>
+				<div class="button">클릭!</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popUp result_modal02">
+		<div class="modal">
+			<div class="content">
+				<form class="winning_form">
+					<div class="header">
+						<div class="main_txt">
+							당첨자 정보
+						</div>
+
+						<div class="sub_txt">
+							폼을 작성하여 제출해주세요.<br>제출한 번호로 개별 연락드릴 예정입니다.<br>
+							*경품 발송 시, &lt;내 곁에 국민연금&gt;의 구독자가 아닐 경우 <br>당첨이 취소됩니다.
+						</div>
+					</div>
+
+					<div class="input_area">
+						<div class="winner_info">
+							<div class="winner_name"><label for="winning_name">성명</label><input type="text" name="winning_name" placeholder=""></div>
+							<div class="winner_phone">
+								<label>휴대폰 번호</label>
+								<div class="sel">
+									<select name="winning_tel1" class="winning_tel1">
+										<option value="010" selected>010</option>
+										<option value="011">011</option>
+										<option value="016">016</option>
+										<option value="017">017</option>
+										<option value="018">018</option>
+										<option value="019">019</option>
+									</select>
+									- <input type="text" name="winning_tel2" class="winning_tel2" maxlength="4" placeholder="">
+									- <input type="text" name="winning_tel3"  class="winning_tel3" maxlength="4" placeholder="">
+								</div>
+							</div>
+							<div class="winner_email"><label for="winning_email">E-mail</label><input type="email" name="winning_email" placeholder=""></div>
+						</div>
+
+						<div class="agreement">
+							<div class="title">
+								개인보호정책 및 이용약관 동의
+							</div>
+
+							<div class="cont">
+								<dl>
+									<dt>개인정보 수집 및 이용 동의</dt>
+									<dd>수집하는 개인정보 항목: 이름, 연락처, 이메일</dd>
+									<dd>수집 및 이용 목적: 이벤트 참여자 확인 및 당첨자 안내</dd>
+									<dd>보유 및 이용 기간: 당첨자 발표 후 1개월</dd>
+									<br>
+									<dt>개인정보 제3자 제공 동의</dt>
+									<dd>동의를 거부할 수 있으나, 이 경우 이벤트 참여가 불가능합니다.</dd>
+									<dd>제공받는 자: 큐라인</dd>
+									<dd>제공받는 자의 이용 목적: 이름, 연락처, 이메일</dd>
+									<dd>제공하는 항목: 이름, 연락처, 이메일</dd>
+									<dd>제공받는 자의 보유 및 이용기간: 당첨자 발표 후 1개월</dd>
+								</dl>
+							</div>
+
+							<div class="winner_agree">
+								<input type="checkbox" id="winning_agree" name="winning_agree" value="동의함">
+								<label for="winning_agree">동의합니다</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="submit_btn">등록!</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="popUp result_modal03">
+		<div class="modal">
+			<div class="content">
+				<div class="main_text">등록 완료</div>
+				<p>
+					정상적으로 제출되었습니다.<br>
+					제출한 번호로 개별 연락드릴 예정입니다.<br>
+					감사합니다.
+				</p>
+				<span>*경품 발송 시, &lt;내 곁에 국민연금&gt;의 구독자가 아닐 경우 <br>당첨이 취소됩니다. </span>
+				<div class="button">닫기</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		$('.popUp').hide();
+
+		$('.draw div').click(function(){
+			$('.result_modal01').show();
+			$('.result_modal02').hide();
+			$('.result_modal03').hide();
+		});
+		$('.result_modal01 .button').click(function(){
+			$('.result_modal01').hide();
+			$('.result_modal02').show();
+			$('.result_modal03').hide();
+		});
+		$('.result_modal02 .submit_btn').click(function(){
+			$('.result_modal01').hide();
+			$('.result_modal02').hide();
+			$('.result_modal03').show();
+		});
+		$('.result_modal03 .button').click(function(){
+			$('.popUp').hide();
+		});
+	</script>
 	<!-- contents -->
 
 	<!-- page ctrl -->

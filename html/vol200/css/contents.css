@@ -1482,7 +1482,7 @@
 .sub13 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 
 .sub13 .section01 .content .draw { max-width: 688px; width: 100%; background-image: url(../img/sub13/sub13_04.svg); background-repeat: no-repeat; background-size: contain; background-position: center; margin: 0 auto 52px; display: flex; flex-wrap: wrap; gap: 38px; padding: 87px 90px; }
-.sub13 .section01 .content .draw div { flex-basis: 142px; transition: all; }
+.sub13 .section01 .content .draw div { flex-basis: 142px; transition: all; cursor: pointer; }
 .sub13 .section01 .content .draw div:hover { animation: tube_scale 1.5s infinite; }
 @keyframes tube_scale {
 	0%{ transform: scale(1); }
@@ -1540,9 +1540,53 @@
 	.sub13 .section01 .content .text { max-width: 320px; width: 100%; }
 }
 
-
-
 /* 이벤트 당첨자리스트 */
+.result_modal01 { position: fixed; background: rgba(0, 0, 0, 0.3); left: 0; top: 0; right: 0; bottom: 0; padding: 20px; }
+.result_modal01 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 500px; height: 630px; }
+.result_modal01 .modal .content { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 31px 17px 44px; }
+.result_modal01 .modal .content .message { text-align: center; }
+.result_modal01 .modal .content .message .main_text { color: #1375db; font-family:'WavvePADO'; font-size: 40px; letter-spacing: -0.8px; margin: -55px auto 10px; }
+.result_modal01 .modal .content .message .sub_text { font-family:'WavvePADO'; font-size: 24px; letter-spacing: -0.48px; }
+.result_modal01 .modal .content .gift_area { width: 100%; max-width: 378px; border-radius: 5px; border: 2px solid #d9d9d9; padding: 22px 0 15px; margin: 30px auto 41px; }
+.result_modal01 .modal .content .gift_area .img_box { width: 100%; max-width: 142px; margin: 0 auto; box-shadow: 0 4px 3px rgba(0, 0, 0, 0.25); border-radius: 8px; }
+.result_modal01 .modal .content .gift_area p { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; text-align: center; margin-top: 12px; }
+.result_modal01 .modal .content .text_box { text-align: center; }
+.result_modal01 .modal .content .text_box span { font-family:'WavvePADO'; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; }
+.result_modal01 .modal .content .text_box p { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; margin: 15px auto 25px; }
+.result_modal01 .modal .content .button { display: block; width: 200px; height: 45px; background: #1375db; border-radius: 999px; color: #fff; font-family:'WavvePADO'; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; text-align: center; padding: 10px 0 7px; margin: 0 auto; cursor: pointer; }
+
+.result_modal02 { position: fixed; background: rgba(0, 0, 0, 0.3); left: 0; top: 0; right: 0; bottom: 0; padding: 20px; }
+.result_modal02 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 500px; height: 630px; }
+.result_modal02 .modal .content { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 38px 53px 31px 54px; }
+.result_modal02 .modal .content .winning_form .header { text-align: center; }
+.result_modal02 .modal .content .winning_form .header .main_txt { color: #1375db; font-family:'WavvePADO'; font-size: 24px; font-weight: 400; letter-spacing: -0.48px; }
+.result_modal02 .modal .content .winning_form .header .sub_txt { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; margin: 11px auto 32px; }
+.result_modal02 .modal .content .winning_form .input_area { display: flex; flex-direction: column; }
+.result_modal02 .modal .content .winning_form .input_area > div label { font-size: 15px; font-weight: 500; letter-spacing: -0.3px; }
+.result_modal02 .modal .content .winning_form .input_area .winner_name { display: flex; justify-content: space-between; }
+.result_modal02 .modal .content .winning_form .input_area .winner_name input { border-radius: 5px; border: 2px solid #d9d9d9; width: 301px; height: 34.5px; }
+.result_modal02 .modal .content .winning_form .input_area .winner_phone { display: flex; justify-content: space-between; margin: 13px 0; }
+.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel { display: inline; }
+.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel select { border-radius: 5px; border: 2px solid #d9d9d9; width: 90px; height: 34.5px; }
+.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel input { border-radius: 5px; border: 2px solid #d9d9d9; width: 90px; height: 34.5px; }
+.result_modal02 .modal .content .winning_form .input_area .winner_email { display: flex; justify-content: space-between; }
+.result_modal02 .modal .content .winning_form .input_area .winner_email input { border-radius: 5px; border: 2px solid #d9d9d9; width: 301px; height: 34.5px; }
+.result_modal02 .modal .content .winning_form .agreement .title { font-size: 15px; font-weight: 500; letter-spacing: -0.3px; margin: 17px 0 0; }
+.result_modal02 .modal .content .winning_form .agreement .cont { width: 100%; height: 132px; overflow-y: scroll; background: #f2f2f2; padding: 13px 10px 13px 15px; }
+.result_modal02 .modal .content .winning_form .agreement .cont dl dt { font-size: 14px; font-weight: 500; letter-spacing: -0.28px; }
+.result_modal02 .modal .content .winning_form .agreement .cont dl dd { font-size: 14px; font-weight: 300; letter-spacing: -0.28px; }
+.result_modal02 .modal .content .winning_form .agreement .winner_agree { margin: 12px 0; }
+.result_modal02 .modal .content .winning_form .agreement .winner_agree input { width: 24.5px; height: 24.5px; border-radius: 5px; border: 2px solid #d9d9d9; }
+.result_modal02 .modal .content .winning_form .submit_btn { display: block; width: 200px; height: 45px; background: #1375db; border-radius: 999px; color: #fff; font-family:'WavvePADO'; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; text-align: center; padding: 10px 0 7px; margin: 0 auto; cursor: pointer; }
+
+.result_modal03 { position: fixed; background: rgba(0, 0, 0, 0.3); left: 0; top: 0; right: 0; bottom: 0; padding: 20px; }
+.result_modal03 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 500px; height: 365px; }
+.result_modal03 .modal .content { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 47px 0 46px; text-align: center; }
+.result_modal03 .modal .content .main_text { color: #1375db; font-family:'WavvePADO'; font-size: 40px; font-weight: 400; letter-spacing: -0.8px; }
+.result_modal03 .modal .content p { font-family:'WavvePADO'; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; margin: 26px auto 19px; }
+.result_modal03 .modal .content span { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; }
+.result_modal03 .modal .content .button { width: 200px; height: 45px; background: #b2b2b2; border-radius: 999px; color: #fff; font-family:'WavvePADO'; padding: 10px 0 7px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; margin-top: 33px; cursor: pointer; }
+
 .winner-list #passwordForm { position: relative; width: 100%; max-width: 1020px;  padding: 0; margin: 100px auto; background: #fff; text-align: center; }
 .winner-list #passwordForm input { padding: 10px; border: 1px solid #333; width: 270px; }
 .winner-list #passwordForm button { padding: 11px; background: #333; color: #fff; margin-left: -5px; }

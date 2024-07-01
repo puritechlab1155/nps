@@ -20,7 +20,7 @@
 				<div class="cover_title">알잘딱깔센! 세이브 머니</div>
 				<div class="cover_text">글. 토리텔러</div>
 				<div class="angle-down"><img src="../../img/common/ico_angle_down_wh.svg"></div>
-				<div class="cap pc_display"><span>*알잘딱깔센</span>: ‘알아서 잘 딱 깔끔하고 센스 있게’의 줄임말</div>
+				<div class="cap"><span>*알잘딱깔센</span>: ‘알아서 잘 딱 깔끔하고 센스 있게’의 줄임말</div>
 			</div>
 		</div>
 

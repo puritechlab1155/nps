@@ -1,99 +1,73 @@
+<?php
+include_once("config.php");
+
+//변수
+$max_count = 150; //최대 당첨자 수
+$event_close = false;
+$vote = false;
+$random_number = mt_rand(1, 100);
+
+//Sanitize input if necessary
+$vol_idx = mysqli_real_escape_string($connect, $vol_idx);
+
+//쿼리
+$query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx}";
+$result = mysqli_query($connect, $query);
+
+if (!$result) {
+    die('Error fetching ocean_event_list: ' . mysqli_error($connect));
+}
+
+$all_count = mysqli_num_rows($result); //총 응모자 수
+
+$query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `product_name`!='꽝'";
+$result = mysqli_query($connect, $query);
+
+if (!$result) {
+    die('Error fetching ocean_event_list: ' . mysqli_error($connect));
+}
+
+$current_count = mysqli_num_rows($result); //현재 당첨자 수
+
+$my_query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `ip`='{$current_ip}' AND `device`='{$current_device}'";
+$result = mysqli_query($connect, $my_query);
+
+if (!$result) {
+    die('Error fetching my_query: ' . mysqli_error($connect));
+}
+
+$my_regno = mysqli_num_rows($result); //현재 당첨자 수
+if($my_regno > 0) {
+	$vote = true;
+}
+
+if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
+    $event_close = true; // 이벤트 종료 선언
+}
+		$reward = ($random_number <= 50);
+
+
+?>
 <!doctype html>
 <html lang="ko">
 <head>
 	<title>내 곁에 국민연금</title>
-
 	<meta property="og:image" content="../../img/logosns/logosns_vol199.jpg">
 	<?php include("../../inc/head.php"); ?>
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
-
 	<script src="script.js"></script>
-	<!-- kruddo add -->
-	<?
-		$vol_idx = "200";		// kruddo modify - 호차 번호. 191호가 아닌경우 변경, inc/like_share.php 에서도 변경
-		$hostname = "localhost";
-		$username = "nps2022";
-		$password = "nps2022!@";
-		$database = "nps2022";
-
-		$connect = mysqli_connect($hostname, $username, $password, $database);
-		mysqli_select_db($connect, $database) or die('DB 선택 실패');
-
-		$current_ip = $_SERVER['REMOTE_ADDR'];
-
-		// 중복 참여 허용 여부
-		$duplicate_participation = false; // true: 중복 참여 가능해짐 / false: 중복 참여 불가능해짐
-		// 최대 당첨자 수
-		$max_winner_count = 150;
-		// 당첨자 주기
-		$periodic_of_winner = 50; // 해당 값 배수의 순번에 응모하는 사람은 무조건 당첨, 그 외에는 무조건 꽝. / 예: 20 이라면 20명 당 한 번 꼴로 당첨되는 식
-		// 당첨자 주기 적용 여부
-		$periodic_of_winner_whether = true; // true: 적용되게 됨 / false: 미적용되게 됨
-
-		$challengers_where = "`vol_idx`={$vol_idx}";
-		$challengers_query = "SELECT * FROM `roulette_winner_list` WHERE {$challengers_where}";
-
-		$challengers_result = mysqli_query($connect, $challengers_query);
-		// 총 응모자 수(꽝, 당첨 모두 포함)
-		$challengers_resutl_count = mysqli_num_rows($challengers_result);
-
-		// ip를 대조하여 이미 당첨된 내역이 있는지 여부를 가리기 위한 쿼리
-		$duplicate_where = "`vol_idx`={$vol_idx} AND `ip`='{$current_ip}'";
-		$duplicate_query = "SELECT * FROM `roulette_winner_list` WHERE {$duplicate_where}";
-
-		$duplicate_result = mysqli_query($connect, $duplicate_query);
-		$duplicate_row = mysqli_fetch_assoc($duplicate_result);
-
-		$duplicate_regno = $duplicate_row['regno'];
-
-
-		// '현재 당첨자 수'와 '최대 당첨자 수'를 대조하여 이벤트 종료를 가리기 위한 쿼리
-		$where = "`vol_idx`={$vol_idx} AND `product_name`!='꽝'";
-		$query = "SELECT * FROM `roulette_winner_list` WHERE {$where}";
-
-		$result = mysqli_query($connect, $query);
-		// 현재 총 당첨자 수
-		$result_count = mysqli_num_rows($result);
-
-
-		if($max_winner_count <= $result_count){ // '현재 당첨자 수'가 '최대 당첨자 수'와 같거나 크다면..
-			// 이벤트 이벤트 종료 선언 여부
-			$roulette_event_close = true;
-		}
-	?>
-
 </head>
 
 <body>
-<!--w	<audio id="background-sound" src="img/sub13/sea_sound.mp3" loop></audio>
-	<script>
-		document.addEventListener('DOMContentLoaded', function() {
-            var sound = document.getElementById('background-sound');
-
-            // 페이지 로드 후 1초 뒤에 오디오 재생 시도
-            setTimeout(function() {
-                sound.play().catch(function(error) {
-                    console.log('Autoplay was prevented by the browser:', error);
-                });
-            }, 100);
-        });
-	</script> -->
-
 <div id="wrap" class="sub13">
-
 	<!-- header -->
 	<?php include("header.php"); ?>
 	<!-- //header -->
-
 	<!-- contents -->
 	<section id="contents" >
-	
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="title">
-					<!-- <img src="img/sub13/sub13_01.svg" class="cv_bg pc_display">
-					<img src="img/sub13/sub13_01_mo.svg" class="mobile_display"> -->
-					<!-- <div class="sub_box" id="hover-area"> -->
 					<div class="sub_box" >
 						<div class="main_title"><img src="img/sub13/sub13_01-title.svg"></div>
 						<div class="text1">덥다 더워~ 행운 잡고,<br> 무더위 날리자~</div>
@@ -104,8 +78,7 @@
 						</div>
 						<div class="img_box"><img src="img/sub13/sub13_02.png" class="prize"></div>
 					</div>
-				</div>
-				
+				</div>	
 				<div class="howto">
 					<img src="img/sub13/sub13_03.svg" class="pc_display">
 					<img src="img/sub13/sub13_03_mo.svg" class="mobile_display">
@@ -117,26 +90,8 @@
 				</div>
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <span class="end" href="#" >마감되었습니다</span></div>
 				<!-- <a class="send" href="https://naver.me/FZWH1Fh4" target="_blank">의견 보내기</a> -->
-				
-				<div id="playSoundButton" >
-
+				<div id="playSoundButton">
 					<audio id="click-sound" src="img/sub13/sea_sound.mp3"></audio>
-					<script>
-						var sound = document.getElementById('click-sound');
-						var playSoundButton = document.getElementById('playSoundButton');
-						
-						playSoundButton.addEventListener('click', function() {
-							sound.currentTime = 0; // 오디오를 처음부터 재생
-							sound.play();
-
-							// 3초 후에 멈추기
-							setTimeout(function() {
-								sound.pause();
-								sound.currentTime = 0; // 오디오를 처음으로 되돌림
-							}, 3000);
-						});
-					</script>
-
 				<div class="draw">
 					<div><img src="img/sub13/sub13_05-blue.svg"></div>
 					<div><img src="img/sub13/sub13_05-red.svg"></div>
@@ -151,9 +106,7 @@
 					<div><img src="img/sub13/sub13_05-red.svg"></div>
 					<div><img src="img/sub13/sub13_05-yellow.svg"></div>
 				</div>
-
 				</div>
-
 				<div class="text">
 					<ul>
 						<li>내 곁에 국민연금 구독자가 아닐 경우, 차후에 당첨이 취소되오니 반드시 구독 후 이벤트에 참여해 주세요.</li>
@@ -173,7 +126,18 @@
 			</div>
 		</div>
 	</section>
-
+	<?php if($vote) { // 투표한 경우 ?>
+		<div class="popUp result_modal04">
+		<div class="modal">
+			<div class="content">
+				<p>
+				이미 응모하셨습니다.
+				</p>
+				<div class="button">닫기</div>
+			</div>
+		</div>
+	</div>
+	<?php } else if(!$event_close && $reward) { // 성공한 경우 ?>
 	<div class="popUp result_modal01">
 		<div class="modal">
 			<div class="content">
@@ -190,10 +154,36 @@
 					<span>폼을 작성하여 제출해주세요.<br>제출한 번호로 개별 연락드릴 예정입니다.</span>
 					<p>*경품 발송 시, &lt;내 곁에 국민연금&gt;의 구독자가 <br>아닐 경우 당첨이 취소됩니다. </p>
 				</div>
-				<div class="button">클릭!</div>
+				<div class="button" >클릭!</div>
 			</div>
 		</div>
 	</div>
+	<?php  } else if(!$event_close && !$reward) { //실패한 경우 ?>
+	<div class="popUp result_modal04">
+		<div class="modal">
+			<div class="content">
+				<div class="message">
+					<div class="img_box"><img src="img/sub13/fail.svg"></div>
+					<div class="main_text">당첨되지 않았습니다.</div>
+					<div class="sub_text">다음에 다시 참여해주세요.</div>
+				</div>
+				<div class="button" onclick="boom_submit()">클릭!</div>
+			</div>
+		</div>
+	</div>
+	<?php } else { // 더이상 신청이 불가한 경우 ?>
+		<div class="popUp result_modal04">
+		<div class="modal">
+			<div class="content">
+				<p>
+				당첨 정원이 충족돼<Br />
+이벤트가 종료됐습니다.
+				</p>
+				<div class="button">닫기</div>
+			</div>
+		</div>
+	</div>
+	<?php } ?>
 
 	<div class="popUp result_modal02">
 		<div class="modal">
@@ -212,11 +202,11 @@
 
 					<div class="input_area">
 						<div class="winner_info">
-							<div class="winner_name"><label for="winning_name">성명</label><input type="text" name="winning_name" placeholder=""></div>
+							<div class="winner_name"><label for="winning_name">성명</label><input type="text" name="name" placeholder=""></div>
 							<div class="winner_phone">
 								<label>휴대폰 번호</label>
 								<div class="sel">
-									<select name="winning_tel1" class="winning_tel1">
+									<select name="tel1" class="winning_tel1">
 										<option value="010" selected>010</option>
 										<option value="011">011</option>
 										<option value="016">016</option>
@@ -224,13 +214,14 @@
 										<option value="018">018</option>
 										<option value="019">019</option>
 									</select>
-									- <input type="text" name="winning_tel2" class="winning_tel2" maxlength="4" placeholder="">
-									- <input type="text" name="winning_tel3"  class="winning_tel3" maxlength="4" placeholder="">
+									- <input type="text" name="tel2" class="winning_tel2" maxlength="4" placeholder="">
+									- <input type="text" name="tel3"  class="winning_tel3" maxlength="4" placeholder="">
 								</div>
 							</div>
-							<div class="winner_email"><label for="winning_email">E-mail</label><input type="email" name="winning_email" placeholder=""></div>
-							<input type="hidden" name="winning_product" value="">
-							<input type="hidden" name="winning_ip" value="<?php echo $current_ip?>">
+							<div class="winner_email"><label for="winning_email">E-mail</label><input type="email" name="email" placeholder=""></div>
+							<input type="hidden" name="product" value="">
+							<input type="hidden" name="ip" value="<?php echo $current_ip?>">
+							<input type="hidden" name="device" value="<?php echo $current_device?>">
 							<input type="hidden" name="vol_idx" value="<?php echo $vol_idx?>">
 						</div>
 
@@ -256,15 +247,14 @@
 							</div>
 
 							<div class="winner_agree">
-								<input type="checkbox" id="winning_agree" name="winning_agree" value="동의함">
+								<input type="checkbox" id="winning_agree" name="agree" value="동의함">
 								<label for="winning_agree">동의합니다</label>
 							</div>
 						</div>
 					</div>
-
-					<div class="submit_btn" onclick="winning_form_submit()">
-							등록!
-						</div>
+					<div class="submit_btn">
+    				등록!
+					</div>
 				</form>
 			</div>
 		</div>
@@ -285,25 +275,127 @@
 		</div>
 	</div>
 	<script>
+						var sound = document.getElementById('click-sound');
+						var playSoundButton = document.getElementById('playSoundButton');
+						
+						playSoundButton.addEventListener('click', function() {
+							sound.currentTime = 0; // 오디오를 처음부터 재생
+							sound.play();
+
+							// 3초 후에 멈추기
+							setTimeout(function() {
+								sound.pause();
+								sound.currentTime = 0; // 오디오를 처음으로 되돌림
+							}, 3000);
+						});
+	</script>
+	<script>
 		$('.popUp').hide();
 
 		$('.draw div').click(function(){
-			$('.result_modal01').show();
-			$('.result_modal02').hide();
-			$('.result_modal03').hide();
+			var event_close = <?php echo json_encode($event_close); ?>;
+    var reward = <?php echo json_encode($reward); ?>;
+    console.log(event_close);
+
+    if (!event_close && reward) {
+        $('.result_modal01').show();
+        $('.result_modal02').hide();
+        $('.result_modal03').hide();
+        $('.result_modal04').hide();
+    } else if (!event_close && !reward) { 
+        $('.result_modal01').hide();
+        $('.result_modal02').hide();
+        $('.result_modal03').hide();
+        $('.result_modal04').show();  // This block should show result_modal04
+    } else {
+        $('.result_modal01').hide();
+        $('.result_modal02').hide();
+        $('.result_modal03').hide();
+        $('.result_modal04').show();  // This block should also show result_modal04 if none of the above conditions match
+    }
 		});
 		$('.result_modal01 .button').click(function(){
 			$('.result_modal01').hide();
 			$('.result_modal02').show();
 			$('.result_modal03').hide();
 		});
-		$('.result_modal02 .submit_btn').click(function(){
-			$('.result_modal01').hide();
-			$('.result_modal02').hide();
-			$('.result_modal03').show();
-		});
+		$('.result_modal02 .submit_btn').click(function(event) {
+    event.preventDefault();
+
+    var name = $('[name="name"]').val();
+    var tel1 = $('[name="tel1"]').val();
+    var tel2 = $('[name="tel2"]').val();
+    var tel3 = $('[name="tel3"]').val();
+    var tel = tel1 + '-' + tel2 + '-' + tel3;
+    var email = $('[name="email"]').val();
+    var product = $('[name="product"]').val();
+    var ip = $('[name="ip"]').val();
+    var device = $('[name="device"]').val();
+    var agree = $('[name="agree"]').prop('checked');
+
+    if (name == '') {
+        alert('성명을 입력해주세요');
+        $('[name="name"]').focus();
+        return;
+    }
+
+    if (tel2 == '' || tel3 == '') {
+        alert('휴대폰 번호를 입력해주세요');
+        $('[name="tel2"]').focus();
+        return;
+    }
+
+    if (email == '') {
+        alert('이메일 주소를 입력해주세요');
+        $('[name="email"]').focus();
+        return;
+    }
+
+    if (!agree) {
+        alert('개인보호정책 및 이용약관 동의가 필요합니다.');
+        $('[name="agree"]').focus();
+        return;
+    }
+
+    var param = {
+        'mode': 'winner_save',
+        'vol_idx': $('[name="vol_idx"]').val(),
+        'name': name,
+        'tel': tel,
+        'email': email,
+        'product_name': product,
+        'ip': ip,
+        'device': device,
+        'agree': agree
+    };
+
+    $.ajax({
+        type: "POST",
+        url: 'ajax.php', // Replace with your PHP script URL
+        data: param,
+        cache: false,
+        dataType: "text",
+        error: function(xhr, textStatus, errorThrown) {
+            console.log("전송에 실패했습니다.");
+            console.log(xhr, textStatus, errorThrown);
+        },
+        success: function(res) {
+					console.log('success');
+                // Show success message or handle accordingly
+								$('.result_modal01').hide();
+        				$('.result_modal02').hide();
+        				$('.result_modal03').show();
+        				$('.result_modal04').hide();
+        }
+    });
+});
 		$('.result_modal03 .button').click(function(){
 			$('.popUp').hide();
+			location.reload();
+		});
+		$('.result_modal04 .button').click(function(){
+			$('.popUp').hide();
+			location.reload();
 		});
 	</script>
 	<!-- contents -->
@@ -315,92 +407,34 @@
 	<!-- //page ctrl -->
 </div>
 <script>
-	<?php if(!$duplicate_participation){?>
-		<?php if(!$duplicate_regno){?>
-			// 새로 참여하는 사람인지 여부
-			var new_challenger = true;
-		<?php }else{?>
-			var new_challenger = false;
-		<?php }?>
-	<?php }else{?>
-		var new_challenger = true;
-	<?php }?>
+function boom_submit() {
+	var ip = $('[name="ip"]').val();
+	var device = $('[name="device"]').val();
+	var param = {
+					'mode' : 'boom_save',
+					'vol_idx' : jQuery('[name="vol_idx"]').val(),
+					'product_name' : '꽝',
+					'ip' : ip,
+					'device' : device
+				};
 
-
-	// 룰렛이 멈춰있음을 체크하기 위한 변수
-	var roulette_stoping = true;
-
-	<?php if(true){ // '중복 허용'이거나 '중복 허용'이 안된다면 '응모 내역(regno)'이 없다면..?>
-	function winning_form_submit(){
-		var winning_name = jQuery('[name="winning_name"]').val(),
-			winning_tel1 = jQuery('[name="winning_tel1"]').val(),
-			winning_tel2 = jQuery('[name="winning_tel2"]').val(),
-			winning_tel3 = jQuery('[name="winning_tel3"]').val(),
-			winning_tel = winning_tel1+'-'+winning_tel2+'-'+winning_tel3,
-			winning_email = jQuery('[name="winning_email"]').val(),
-			winning_product = jQuery('[name="winning_product"]').val(),
-			winning_ip = jQuery('[name="winning_ip"]').val(),
-			winning_agree = jQuery('[name="winning_agree"]').prop('checked');
-
-		if(winning_name == ''){
-			alert('성명을 입력해주세요');
-			jQuery('[name="winning_name"]').focus();
-
-			return;
-		}
-
-		if(winning_tel2 == '' || winning_tel3 == ''){
-			alert('휴대폰 번호를 입력해주세요');
-			jQuery('[name="winning_tel2"]').focus();
-
-			return;
-		}
-
-		if(winning_email == ''){
-			alert('이메일 주소를 입력해주세요');
-			jQuery('[name="winning_email"]').focus();
-
-			return;
-		}
-
-		if(!winning_agree){
-			alert('개인보호정책 및 이용약관 동의가 필요합니다.');
-			jQuery('[name="winning_agree"]').focus();
-
-			return;
-		}
-
-		var param = {
-			'mode' : 'winner_save',
-			'vol_idx' : jQuery('[name="vol_idx"]').val(),
-			'name' : winning_name,
-			'tel' : winning_tel,
-			'email' : winning_email,
-			'product_name' : winning_product,
-			'ip' : winning_ip,
-			'agree' : jQuery('[name="winning_agree"]').val(),
-		};
-
-
-		jQuery.ajax({
-			type: "POST",
-			url: 'roulette_ajax.php',
-			timeout: 0,
-			data: param,
-			cache: false,
-			dataType: "text",
-			error: function(xhr, textStatus, errorThrown) { console.log("전송에 실패했습니다."); console.log(xhr, textStatus, errorThrown) },
-			success: function (res){
-				if(res == 'success'){
-					jQuery('.roulette_result_modal_bg .roulette_result_modal .winning_form').hide();
-					jQuery('.roulette_result_modal_bg .roulette_result_modal .winning_form_result').show();
-				}else{
-					console.log(res);
+			jQuery.ajax({
+				type: "POST",
+				url: 'ajax.php',
+				timeout: 0,
+				data: param,
+				cache: false,
+				dataType: "text",
+				error: function(xhr, textStatus, errorThrown) { console.log("전송에 실패했습니다."); console.log(xhr, textStatus, errorThrown) },
+				success: function (res){
+					if(res == 'success'){
+						console.log(res);
+					}else{
+						console.log(res);
+					}
 				}
-			}
-		});
-	}
-	<?php }?>
+			});
+}
 </script>
 <script>
     // 현재 날짜와 비교하여 send와 end 클래스를 제어하는 함수

@@ -1,13 +1,5 @@
+<?php include_once("config.php"); ?>
 <?php
-$hostname = "localhost";
-$username = "nps2022";
-$password = "nps2022!@";
-$database = "nps2022";
-
-$connect = mysqli_connect($hostname, $username, $password, $database);
-mysqli_select_db($connect, $database) or die('DB 선택 실패');
-
-
 
 date_default_timezone_set("Asia/Seoul");
 $today = date('Y-m-d H:i:s');
@@ -23,6 +15,7 @@ if($mode == 'winner_save'){
 					'email',
 					'product_name',
 					'ip',
+					'device',
 					'agree',
 				];
 }
@@ -33,6 +26,7 @@ if($mode == 'boom_save'){
 					'vol_idx',
 					'product_name',
 					'ip',
+					'device'
 				];
 }
 
@@ -58,28 +52,22 @@ for($i=0; $i<count($index_arr); $i++){
 $col_name_arr_txt .= '`reg_date`';
 $val_arr_txt .= "'{$today}'";
 
-echo $col_name_arr_txt . ' ||||||| ' . $val_arr_txt;
-$query_insert = "INSERT INTO `ocean_event_list` ({$col_name_arr_txt}) VALUES ({$val_arr_txt})";
-
-	if(mysqli_query($connect, $query_insert)){
-		$value = 'success';
-	}else{
-		$value = mysqli_error($connect).' / '.$col_name_arr_txt.' / '.$val_arr_txt;
-	}
-
 
 // ip를 대조하여 이미 당첨된 내역이 있는지 여부를 가리기 위한 쿼리
-$duplicate_where = "`vol_idx`={$vol_idx} AND `ip`='{$ip}'";
-$duplicate_query = "SELECT * FROM `roulette_winner_list` WHERE {$duplicate_where}";
+$my_query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `ip`='{$ip}' AND `device`='{$device}'";
+$result = mysqli_query($connect, $my_query);
 
-$duplicate_result = mysqli_query($connect, $duplicate_query);
-$duplicate_row = mysqli_fetch_assoc($duplicate_result);
+if (!$result) {
+    die('Error fetching my_query: ' . mysqli_error($connect));
+}
 
-$duplicate_regno = $duplicate_row['regno'];
+$my_regno = mysqli_num_rows($result); //현재 당첨자 수
 
 
-if(false){
-	$query_insert = "INSERT INTO `roulette_winner_list` ({$col_name_arr_txt}) VALUES ({$val_arr_txt})";
+if(!$my_regno){
+	$query_insert = "INSERT INTO `ocean_event_list` ({$col_name_arr_txt}) VALUES ({$val_arr_txt})";
+	$response['status'] = 'success';
+        $response['message'] = 'Insertion successful';
 
 	if(mysqli_query($connect, $query_insert)){
 		$value = 'success';
@@ -90,4 +78,4 @@ if(false){
 	$value = '이미 당첨내역 ip가 존재함';
 }
 
-echo $value;
+echo json_encode($response); // Return JSON response

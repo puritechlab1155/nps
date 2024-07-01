@@ -263,6 +263,8 @@
 					</div>
 
 					<div class="submit_btn" onclick="winning_form_submit()">
+							등록!
+						</div>
 				</form>
 			</div>
 		</div>
@@ -328,138 +330,7 @@
 	// 룰렛이 멈춰있음을 체크하기 위한 변수
 	var roulette_stoping = true;
 
-	function roulette_start(){
-		<?php if(!$roulette_event_close){?>
-			if(roulette_stoping){
-				if(new_challenger){
-					roulette_stoping = false;
-
-
-					// 룰렛을 돌리는 시간
-					const spinTime = 2000; // 1000 = 1초
-					// 룰렛의 회전 속도
-					const spinSpeed = 10;
-					// 룰렛의 섹션 수
-					const roulette_section_count = 8;
-					// 룰렛의 현재 각도
-					let angle = 0;
-					// 결과 값을 랜덤하게 생성
-					let result = Math.floor(Math.random() * roulette_section_count);
-
-					// 룰렛 애니메이션 실행
-					function spin(){
-						angle += spinSpeed;
-						jQuery('.roulette_wheel').css('transform', `rotate(${angle}deg)`);
-						if (angle >= 360) angle -= 360;
-					}
-					// 일정 시간 후 룰렛을 멈추고 결과 반환
-					function stop(){
-						clearInterval(spinInterval);
-						// 결과 처리 함수 호출
-						game_result(result, roulette_section_count);
-
-						roulette_stoping = true;
-					}
-					// 룰렛을 돌리는 애니메이션 시작
-					let spinInterval = setInterval(spin, spinSpeed);
-					// 일정 시간 후 애니메이션을 멈추고 결과 반환
-					setTimeout(stop, spinTime);
-				}else{
-					roulette_result_modal('open');
-					jQuery('.roulette_result_modal_bg .already').show();
-				}
-			}
-		<?php }else{?>
-			roulette_result_modal('open');
-			jQuery('.roulette_result_modal_bg .roulette_event_close').show();
-		<?php }?>
-	}
-
-
-	function game_result(roulette_val, roulette_section_count){
-		// 룰렛이 돌아가는 최대 각도 (한 바퀴 도는 각도)
-		const maxAngle = 360;
-		<?php if($periodic_of_winner_whether){?>
-			<?php if($challengers_resutl_count % $periodic_of_winner == 0){?>
-				if(roulette_val % 2 != 0){
-					if(roulette_val >= roulette_section_count - 1){
-						roulette_val = 0;
-					}else{
-						roulette_val++;
-					}
-				}
-			<?php }else{?>
-				if(roulette_val % 2 == 0){
-					if(roulette_val == 0){
-						roulette_val++;
-					}else{
-						roulette_val--;
-					}
-				}
-			<?php }?>
-		<?php }?>
-
-		// 결과 값에 따른 회전 각도 계산
-		let rotateAmount = (maxAngle / roulette_section_count) * roulette_val,
-			correction_rotate = 25;
-			rotateAmount += correction_rotate;
-
-		jQuery('.roulette_wheel').css('transform', `rotate(${rotateAmount}deg)`);
-
-		console.log("게임 결과: " + roulette_val);
-
-
-		roulette_result_modal('open');
-
-		switch(roulette_val){
-			case 0 : var img_class_name = 'winning_1'; jQuery('[name="winning_product"]').val('스타벅스 카페 아메리카노 T'); break;
-			case 1 : var img_class_name = 'boom'; boom_save(); break;
-			case 2 : var img_class_name = 'winning_2'; jQuery('[name="winning_product"]').val('CU 편의점 모바일 상품권 5천원'); break;
-			case 3 : var img_class_name = 'boom'; boom_save(); break;
-			case 4 : var img_class_name = 'winning_3'; jQuery('[name="winning_product"]').val('다이소 모바일 금액권 5천원'); break;
-			case 5 : var img_class_name = 'boom'; boom_save(); break;
-			case 6 : var img_class_name = 'winning_4'; jQuery('[name="winning_product"]').val('예스24 도서문구상품권 5천원권'); break;
-			case 7 : var img_class_name = 'boom'; boom_save(); break;
-		}
-
-		if(img_class_name == 'boom'){
-			jQuery('.roulette_result_modal_bg').attr('onclick', "roulette_result_modal('close')");
-		}else{
-			jQuery('.roulette_result_modal_bg').attr('onclick', '');
-		}
-
-		jQuery('.roulette_result_modal_bg .'+img_class_name).show();
-
-
-		<?php if(!$duplicate_participation){?>
-			new_challenger = false;
-		<?php }?>
-	}
-
-
-	function roulette_result_modal(mode){
-		if(mode == 'open'){
-			jQuery('.roulette_result_modal_bg').fadeIn();
-		}
-
-		if(mode == 'close'){
-			jQuery('.roulette_result_modal_bg').fadeOut();
-			jQuery('.roulette_result_modal_bg img').fadeOut();
-		}
-
-		if(mode == 'winning'){
-			jQuery('.roulette_result_modal_bg img').hide();
-			jQuery('.roulette_result_modal_bg .winning_form').show();
-		}
-
-		if(mode == 'winning_form_result_close'){
-			jQuery('.roulette_result_modal_bg').fadeOut();
-			jQuery('.roulette_result_modal_bg .roulette_result_modal .winning_form_result').fadeOut();
-		}
-	}
-
-
-	<?php if($duplicate_participation || (!$duplicate_participation && !$duplicate_regno)){ // '중복 허용'이거나 '중복 허용'이 안된다면 '응모 내역(regno)'이 없다면..?>
+	<?php if(true){ // '중복 허용'이거나 '중복 허용'이 안된다면 '응모 내역(regno)'이 없다면..?>
 	function winning_form_submit(){
 		var winning_name = jQuery('[name="winning_name"]').val(),
 			winning_tel1 = jQuery('[name="winning_tel1"]').val(),
@@ -510,6 +381,7 @@
 			'agree' : jQuery('[name="winning_agree"]').val(),
 		};
 
+
 		jQuery.ajax({
 			type: "POST",
 			url: 'roulette_ajax.php',
@@ -529,38 +401,6 @@
 		});
 	}
 	<?php }?>
-
-
-	// '꽝'인 유저 ip 저장을 위한 메서드 (중복 응모를 막기 위함)
-	function boom_save(){
-		<?php if(!$duplicate_participation){?>
-			var winning_ip = jQuery('[name="winning_ip"]').val();
-
-			var param = {
-					'mode' : 'boom_save',
-					'vol_idx' : jQuery('[name="vol_idx"]').val(),
-					'product_name' : '꽝',
-					'ip' : winning_ip,
-				};
-
-			jQuery.ajax({
-				type: "POST",
-				url: 'roulette_ajax.php',
-				timeout: 0,
-				data: param,
-				cache: false,
-				dataType: "text",
-				error: function(xhr, textStatus, errorThrown) { console.log("전송에 실패했습니다."); console.log(xhr, textStatus, errorThrown) },
-				success: function (res){
-					if(res == 'success'){
-						console.log(res);
-					}else{
-						console.log(res);
-					}
-				}
-			});
-		<?php }?>
-	}
 </script>
 <script>
     // 현재 날짜와 비교하여 send와 end 클래스를 제어하는 함수

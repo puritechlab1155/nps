@@ -20,13 +20,13 @@
 				<div class="cover_title">알잘딱깔센! 세이브 머니</div>
 				<div class="cover_text">글. 토리텔러</div>
 				<div class="angle-down"><img src="../../img/common/ico_angle_down_wh.svg"></div>
-				<div class="cap"><span>*알잘딱깔센</span>: ‘알아서 잘 딱 깔끔하고 센스 있게’의 줄임말</div>
+				<div class="cap pc_display"><span>*알잘딱깔센</span>: ‘알아서 잘 딱 깔끔하고 센스 있게’의 줄임말</div>
 			</div>
 		</div>
 
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
-				<div class="subtitle_top">출생을 지원하는 다양한 혜택 체크</div>
+				<div class="subtitle_top">출생을 지원하는<br class="mobile_display"> 다양한 혜택 체크</div>
 				<div class="title pc_display">태아부터 부모까지 모두를 위한 <br>8개 출생 지원 정책</div>
 				<div class="title mobile_display">태아부터 부모까지<br> 모두를 위한 <br>8개 출생 지원 정책</div>
 				<div class="subcopy">
@@ -117,14 +117,18 @@
 
 		<div class="section05 wow fadeBigInUp">
 			<div class="content">
-				<div class="img_box"><img src="img/sub04/sub04_08-item.svg"></div>
+				<div class="img_box"><img src="img/sub04/sub04_08-item.svg" class="pc_display"><img src="img/sub04/sub04_08-item_mo.svg" class="mobile_display"></div>
 				<div class="conts_box">
 					<div class="cont01">
-						<div class="search_img"><img src="img/sub04/sub04_08-search.svg"></div>
+						<div class="search_img"><img src="img/sub04/sub04_08-search.svg" class="pc_display"><img src="img/sub04/sub04_08-search_mo.svg" class="mobile_display"></div>
 						<div class="text01">
 							<span>생각보다 혜택이 많죠? 일일이 찾아보는 수고를 덜도록 정부에서 지원하는 <br class="pc_display">
 							출산 관련 혜택 대부분을 한 번에 해결할 수 있는 서비스 페이지가 있으니 참고해 보길 바랍니다.</span>
-							<a href="https://www.gov.kr/portal/onestopSvc/happyBirth">https://www.gov.kr/portal/onestopSvc/happyBirth</a>
+							<a href="https://www.gov.kr/portal/onestopSvc/happyBirth" class="pc_display">https://www.gov.kr/portal/onestopSvc/happyBirth</a>
+							<a href="https://www.gov.kr/portal/onestopSvc/happyBirth" class="mobile_display">
+								<span>https://www.gov.kr/portal/</span>
+								<span>onestopSvc/happyBirth</span>
+							</a>
 						</div>
 					</div>
 					<div class="cont02">

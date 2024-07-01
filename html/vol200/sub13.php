@@ -281,14 +281,8 @@
     window.onload = controlSendEnd;
 </script>
 
-<<<<<<< HEAD
 <!-- footer -->
 <?php include("footer.php"); ?>
 	<!-- //footer -->
-=======
-<!— footer —>
-<?php include("footer.php"); ?>
-	<!— //footer —>
->>>>>>> 3e7e216d0ddcc26d0023589ac69b1aed6969692e
 </body>
 </html>

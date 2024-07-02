@@ -41,7 +41,7 @@
 			</div>
 		</div><!-- //.section03 -->
 
-		<div class="news news01 on">
+		<div class="news news01">
 			<div class="section04 wow fadeBigInUp">
 				<div class="content">
 					<div class="text_box">
@@ -68,14 +68,14 @@
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
-							<div class="text">기준소득월액이란 연금보험료를 산정하고 연금 급여를 계산하기 위해 가입자의 소득월액을 기준으로 상하한액의 범위에서 천 원 단위로 정한 금액입니다. 이때 소득은 일정한 기간 근로를 제공하여 얻은 수입에서 대통령령으로 정하는 비과세 소득을 제외한 금액 또는 자산을 운영하여 얻은 소득에서 필요경비를 제외한 금액을 말합니다.</div>
+							<div class="text">기준소득월액이란 연금보험료를 산정하고 연금급여를 계산하기 위해 가입자의 소득월액을 기준으로 상하한액의 범위에서 천 원 단위로 정한 금액입니다. 이때 소득은 일정한 기간 근로를 제공하여 얻은 수입에서 대통령령으로 정하는 비과세 소득을 제외한 금액 또는 자산을 운영하여 얻은 소득에서 필요경비를 제외한 금액을 말합니다.</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
 					</div>
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							연금보험료와 연금 급여를 산정하기 위해 정한 것이 기준소득월액이고, 상·하한액이 있다는거군요.
+							연금보험료와 연금급여를 산정하기 위해 정한 것이 기준소득월액이고, 상·하한액이 있다는거군요.
 						</div>
 					</div>
 					<div class="reporter">
@@ -99,7 +99,7 @@
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								보건복지부는 기준소득월액 상하한액 조정과 관련하여, 지난 1월 9일 국민연금심의위원회의 심의를 거쳤고, 1월 23일 복권복지부 고시(「국민연금법」 제3조 제1항 제5호 및 같은 법 시행령 제5조에 따른 「국민연금 기준소득월액 하한액과 상한액 고시」) 개정을 완료했습니다. 개정을 통해 조정된 소득월액 상하한액은 2024년 7월부터 2025년 6월까지 적용됩니다.<br><br>
+								보건복지부는 기준소득월액 상·하한액 조정과 관련하여, 지난 1월 9일 국민연금심의위원회의 심의를 거쳤고, 1월 23일 복권복지부 고시(「국민연금법」 제3조 제1항 제5호 및 같은 법 시행령 제5조에 따른 「국민연금 기준소득월액 하한액과 상한액 고시」) 개정을 완료했습니다. 개정을 통해 조정된 소득월액 상하한액은 2024년 7월부터 2025년 6월까지 적용됩니다.<br><br>
 								기준소득월액 상·하한액 변동으로 기준소득월액이 617만 원보다 많으면 617만 원으로, 39만 원보다 적으면 39만 원으로 조정됩니다.
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
@@ -108,7 +108,7 @@
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							매년 7월 기준소득월액 상하한액이 변동될 수 있으니 체크해 볼 필요가 있다는 거군요. 잘 알겠습니다. 상·하한액 조정이 보험료에도 영향이 있나요?
+							매년 7월 기준소득월액 상·하한액이 변동될 수 있으니 체크해 볼 필요가 있다는 거군요. 잘 알겠습니다. 상·하한액 조정이 보험료에도 영향이 있나요?
 						</div>
 					</div>
 					<div class="reporter">
@@ -133,7 +133,7 @@
 			</div><!-- //.section05 -->
 		</div><!-- //.news01 -->
 
-		<div class="news news02">
+		<div class="news news02 on">
 			<div class="section04 wow fadeBigInUp">
 				<div class="content">
 					<div class="text_box">
@@ -197,6 +197,9 @@
 										<li>재해복구비 : 재해발생일 또는 재난지역 선포일로부터 6개월 이내</li>
 									</ul>
 								</div>
+								<div class="text pad_line"><div class="img_box"><img src="img/sub01/check.svg"></div><span>대부 이자 </span>: 5년 만기 국고채권 수익률과 예금은행 수신금리(신규취급액 기준) 중 낮은 금리로 분기별 변동</div>
+								<div class="text"><img src="img/sub01/check.svg"><span>대부 상환 </span>: 최대 5년간 원금균등분할상환(미 거치, 거치 1~2년 중 선택, 최장 7년)</div>
+								<span>※ 노후긴급자금 대부 신청 전 신청 제외 대상, 신청 자격, 용도별 신청 기한 및 구비 서류 등을 국민연금 고객센터(국번없이 1355(유료)) 또는 가까운 국민연금공단 지사에 문의하시기 바랍니다.대 5년간 원금균등분할상환(미 거치, 거치 1~2년 중 선택, 최장 7년)</span>
 							</div>
 							<div class="text_box mobile_display">
 								<div class="text"><img src="img/sub01/check.svg"><span>대상</span><em>60세 이상 국민연금 수급자 (연금급여 지급 정지 중인 자, 외국인 등은 제외)</em></div>
@@ -211,6 +214,10 @@
 										<li>재해복구비 : 재해발생일 또는 재난지역 선포일로부터 6개월 이내</li>
 									</ul>
 								</div>
+								<div class="text"><img src="img/sub01/check.svg"><span>대부 이자</span><em>5년 만기 국고채권 수익률과 예금은행 수신금리(신규취급액 기준) 중 낮은 금리
+								로 분기별 변동</em></div>
+								<div class="text"><img src="img/sub01/check.svg"><span>대부 상환</span><em>최대 5년간 원금균등분할상환(미 거치, 거치 1~2년 중 선택, 최장 7년)</em></div>
+								<span>※ 노후긴급자금 대부 신청 전 신청 제외 대상, 신청 자격, 용도별 신청 기한 및 구비 서류 등을 국민연금 고객센터(국번없이 1355(유료)) 또는 가까운 국민연금공단 지사에 문의하시기 바랍니다.</span>
 							</div>
 						</div>
 					</div>
@@ -293,7 +300,7 @@
 							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
 								네. 국내외 주식 시장에 관해 간략하게 말씀드리겠습니다. 국내주식(5.53%) 및 해외주식(13.45%)은 미국 인플레이션 경계감에도 인공지능(AI) 수요 기대 등 대형 기술주 중심으로 상승했으며, 해외주식은 원화 약세 효과가 더해져 두 자릿수의 운용수익률을 보였습니다.  <br><br>
-								참고로 국내 주식시장 상승률은 연초 대비 +3.44%이며, 글로벌 주식시장(달러 기준) 상승률은 연초 대비 +8.32% 입니다.
+								참고로 국내 주식시장 상승률은 연초 대비 +3.44%이며, 글로벌 주식시장(달러 기준) 상승률은 연초 대비 +8.32%입니다.
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>

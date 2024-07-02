@@ -144,7 +144,7 @@ img,input,select,textarea,button,label {vertical-align:middle;}
 caption,legend {width:1px;height:1px;margin-top:-1px;line-height:1px;text-indent:-9999px;overflow:hidden;}
 header,section,nav,hgroup,footer,aside,article,figure {display:block;}
 a {color:#333;text-decoration:none;}
-a:hover {color:#F6A13C;text-decoration:none;}
+a:hover { color: #F6A13C; text-decoration: none; }
 
 /* skip_navigation */
 #accessibility {position:absolute;width:100%;top:-1px;left:0;z-index:10000;}

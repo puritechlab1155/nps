@@ -1,52 +1,13 @@
 <?php
-include_once("config.php");
+
 
 //변수
 $max_count = 150; //최대 당첨자 수
 $event_close = false;
 $vote = false;
 $random_number = mt_rand(1, 100);
-
-//Sanitize input if necessary
-$vol_idx = mysqli_real_escape_string($connect, $vol_idx);
-
-//쿼리
-$query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx}";
-$result = mysqli_query($connect, $query);
-
-if (!$result) {
-    die('Error fetching ocean_event_list: ' . mysqli_error($connect));
-}
-
-$all_count = mysqli_num_rows($result); //총 응모자 수
-
-$query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `product_name`!='꽝'";
-$result = mysqli_query($connect, $query);
-
-if (!$result) {
-    die('Error fetching ocean_event_list: ' . mysqli_error($connect));
-}
-
-$current_count = mysqli_num_rows($result); //현재 당첨자 수
-
-$my_query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `ip`='{$current_ip}' AND `device`='{$current_device}'";
-$result = mysqli_query($connect, $my_query);
-
-if (!$result) {
-    die('Error fetching my_query: ' . mysqli_error($connect));
-}
-
-$my_regno = mysqli_num_rows($result); //현재 당첨자 수
-if($my_regno > 0) {
-	$vote = true;
-}
-
-if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
-    $event_close = true; // 이벤트 종료 선언
-}
-		$reward = ($random_number <= 50);
-
-
+$vol_idx = '200';
+$reward = true;
 ?>
 <!doctype html>
 <html lang="ko">

@@ -77,7 +77,7 @@
 			<div class="main_slider_wrap">
 				<ul class="main_slider1">
 				<li>
-						<a href="sub11.php">
+						<a href="#none">
 							<div class="thumb">
 								<img src="img/main/main_visual01.svg">
 							</div>

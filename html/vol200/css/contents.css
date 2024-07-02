@@ -78,7 +78,7 @@
 .main .thumb:hover .cover {display:block;/* animation:fadein 1s;-webkit-animation:fadein 1s; */}
 .main .cover.like { background:rgba(255, 255, 255, 0.5); border:0px solid #333;border-radius:0px;}
 .main .cover.like:after {content:"";position:absolute;top:50%;left:50%;display:inline-block;width:58px;height:114px;/*background:url(../../img/vol197/main/ico_like.png) no-repeat 50% 50%;*/transform:translate(-50%,-50%) scale(0);opacity:0;transition:all 0.3s ease 0s;}
-.main .cover.fun { background:rgba(229, 70, 87, 0.5); border:0px solid #333;border-radius:35px;}
+.main .cover.fun { background: rgba(229, 70, 87, 0.5); border: 0 solid #333; }
 .main .cover.fun:after {content:"";position:absolute;top:50%;left:50%;display:inline-block;width:102px;height:92px;/*background:url(../../img/vol197/main/ico_fun.png) no-repeat 50% 50%;*/transform:translate(-50%,-50%) scale(0);opacity:0;transition:all 0.3s ease 0s;}
 .main .cover.good { background:rgba(128, 202, 255, 0.5); border:0px solid #333;border-radius:0px;}
 .main .cover.good:after {content:"";position:absolute;top:50%;left:50%;display:inline-block;width:112px;height:66px;/*background:url(../../img/vol197/main/ico_ok.png) no-repeat 50% 50%;*/transform:translate(-50%,-50%) scale(0);opacity:0;transition:all 0.3s ease 0s;}
@@ -188,9 +188,9 @@
 .main_section5 h2 em.hot {display:inline-block;padding:7px 2px 5px 7px;font-size:24px;font-weight:700;color:#333;vertical-align:top;font-family:'Noto Sans KR';}
 .main_section5 h2 .emoticon {display:inline-block;width:141px;height:43px;margin-left:7px;background:url('../../img/vol197/main/ico_emoticon1.png') no-repeat 0 0;vertical-align:top;}
 .main_section5 h2 .emoticon2 {display:inline-block;width:108px;height:43px;margin-left:7px;background:url('../../img/vol197/main/logo_youtube.png') no-repeat 0 50%;vertical-align:top;}
-.main_section5 .list {overflow:hidden;margin:10px 0;}
+.main_section5 .list { overflow: hidden; margin: 10px 0;}
 .main_section5 .list li {float:left;width:calc(50% - 20px);margin:0 8px 20px; }
-.main_section5 .list li .thumb {position:relative;border-radius:0px; }
+.main_section5 .list li .thumb { position: relative; border-radius: 0; }
 .main_section5 .list li .thumb img {width:100%;}
 .main_section5 .list li .vod {position:absolute;left:15px;bottom:15px;display:inline-block;width:50px;height:50px;text-indent:-9999px;overflow:hidden;background:url('../../img/vol197/main/ico_vod.png') no-repeat 50% 50%;z-index:1;}
 .main_section5 .list li dt {margin:20px 0 2px;font-size:14px;color:#F6A13C;font-weight:500;line-height:20px;}

@@ -17,10 +17,10 @@ $menu_items = array(
     "/html/vol200/sub08.php" => "헬스 앤 라이프",
     "/html/vol200/sub09.php" => "오늘의 레시피",
     "/html/vol200/sub10.php" => "독자 목소리",
-    "/html/vol200/sub11.php" => "효도 이벤트",
+    "/html/vol200/sub11.php" => "200호 기념 이벤트",
     "/html/vol200/sub12.php" => "빈칸퀴즈",
-	"/html/vol200/sub13.php" => "구독자 룰렛 이벤트",
-    "/html/vol200/sub14.php" => "나의 원픽은?",
+	"/html/vol200/sub13.php" => "구독자 뽑기 이벤트",
+    "/html/vol200/sub14.php" => "궁금한 연금제도 투표하기",
 );
 
 // 현재 페이지의 키 가져오기

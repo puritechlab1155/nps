@@ -19,7 +19,6 @@ if (!$result) {
 }
 
 $all_count = mysqli_num_rows($result); //총 응모자 수
-
 $query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `product_name`!='꽝'";
 $result = mysqli_query($connect, $query);
 

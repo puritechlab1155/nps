@@ -567,8 +567,8 @@
 .sub04 .section04 { position: relative; width: 100%; display: block; }
 .sub04 .section04 .content { width: 100%; max-width: 1020px; margin: 70px auto; padding:0 20px;  }
 .sub04 .section04 .content .subtitle { background: #83cfff; width: 100%; text-align: center; border-radius: 999px; padding: 10px; font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; }
-.sub04 .section04 .content ul { display: flex; flex-wrap: wrap; margin: 32px auto 0; gap: 48px 36px; }
-.sub04 .section04 .content ul li { width: 100%; max-width: 472px; }
+.sub04 .section04 .content ul { display: flex; flex-wrap: wrap; margin: 32px auto 0; gap: 48px 36px; justify-content: center; }
+.sub04 .section04 .content ul li { width: calc(50% - 18px); }
 .sub04 .section04 .content ul li .img_box { margin-bottom: 24px; }
 .sub04 .section04 .content ul li .text_box span { font-family: 'laundrygothic'; font-size: 19px; font-weight: 700; line-height: 32px; }
 .sub04 .section04 .content ul li .text_box p { font-size: 18px; font-weight: 400; line-height: 32px; letter-spacing: -0.36px; }
@@ -618,6 +618,7 @@
 	.sub04 .section04 .content ul li .text_box p { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
 
 	.sub04 .section05 .content { margin: 0 auto 50px; }
+	.sub04 .section05 .content .img_box { border-radius: 10px 10px 0 0; overflow: hidden; }
 	.sub04 .section05 .content .conts_box { padding: 0 26px 0 22px; }
 	.sub04 .section05 .content .conts_box .cont01 { padding: 33px 0 37px; }
 	.sub04 .section05 .content .conts_box .cont01 .text01 > span { text-align: left; padding: 15px 0 17px; font-size: 17px; line-height: 30px; }

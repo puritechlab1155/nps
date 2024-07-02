@@ -148,7 +148,7 @@ if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
 				</div>
 				<div class="gift_area">
 					<div class="img_box"><img src="img/sub13/sub13_modal_gift.png"></div>
-					<p>CU 편의점 모바일 상품권 5천원 </p>
+					<p>스타벅스 카드 1만원 </p>
 				</div>
 				<div class="text_box">
 					<span>폼을 작성하여 제출해주세요.<br>제출한 번호로 개별 연락드릴 예정입니다.</span>

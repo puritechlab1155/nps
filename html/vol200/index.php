@@ -77,21 +77,21 @@
 			<div class="main_slider_wrap">
 				<ul class="main_slider1">
 				<li>
-						<a href="sub01.php">
+						<a href="sub11.php">
 							<div class="thumb">
 								<img src="img/main/main_visual01.svg">
 							</div>
 						</a>
 					</li>
 					<li>
-						<a href="sub02.php">
+						<a href="sub11.php">
 							<div class="thumb">
 								<img src="img/main/main_visual02.svg">
 							</div>
 						</a>
 					</li>
 					<li>
-						<a href="sub11.php">
+						<a href="sub01.php">
 							<div class="thumb">
 								<img src="img/main/main_visual03.svg">
 							</div>

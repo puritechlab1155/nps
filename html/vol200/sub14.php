@@ -22,7 +22,7 @@
 				<div class="title"><img src="img/sub14/sub14_01.svg" class="pc_display"><img src="img/sub14/sub14_01_mo.svg" class="mobile_display"></div>
 				<div class="sub_img"><img src="img/sub14/sub14_02.svg"></div>
 				<div class="text pc_display">
-					앞으로 내곁에 국민연금에 소개되길 바라는 연금제도, 궁금한 연금제도 등을 뽑아 주세요. <br>
+					앞으로 내곁에 국민연금에 소개되길 바라는 연금제도를 뽑아 주세요. <br>
 					다양한 국민연금 제도 중 궁금한 연금제도에 투표를 해 주시는 분들 중 <br>
 					추첨을 통해 선정된 10분께 1만원 상당의 모바일 상품권을 드립니다.
 				</div>

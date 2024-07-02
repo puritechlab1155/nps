@@ -29,7 +29,7 @@
 					<div class="title pc_display">편안한 노후를 위한 AI 이용 가이드</div>
 					<div class="title mobile_display">편안한 노후를 위한<br>AI 이용 가이드</div>
 					<div class="subcopy">
-						AI(인공지능, Artificial Intelligence)는 금융, 의료, 예술을 넘어 가정에서도 쉽게 만날 수 있다. 모든 환경을 알아서 척척 해결하는 AI 가전이 대표적인데, 그 중에서도 노후생활, 노인돌봄에 특화된 AI 기술을 소개한다. 
+						AI(인공지능, Artificial Intelligence)는 금융, 의료, 예술을 넘어 가정에서도 쉽게 만날 수 있다. 모든 환경을 알아서 척척 해결하는 AI 가전이 대표적인데, 그 중에서도 노후생활에 특화된 AI 기술을 소개한다.
 					</div>
 			</div>
 		</div>

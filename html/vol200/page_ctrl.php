@@ -14,10 +14,10 @@
 <?php
 // 이전 페이지 및 다음 페이지가 설정되었는지 확인하고 버튼 생성
 if ($prev_page !== "" && $prev_page !== "/html/vol199/index.php") {
-    echo '<a class="prev_page" href="' . $prev_page . '"><i class="xi-angle-left-thin"></i></a>';
+    echo '<a class="prev_page" href="' . $prev_page . '"><img src="img/left.png"></a>';
 }
 if ($next_page !== "" && $next_page !== "/html/vol199/index.php") {
-    echo '<a class="next_page" href="' . $next_page . '"><i class="xi-angle-right-thin"></i></a>';
+    echo '<a class="next_page" href="' . $next_page . '"><img src="img/right.png"></a>';
 }
 ?>
 

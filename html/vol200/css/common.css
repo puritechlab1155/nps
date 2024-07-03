@@ -158,7 +158,7 @@ a:hover { color: #F6A13C; text-decoration: none; }
 /* page ctrl */
 .page_ctrl {display:none;position:fixed;right:0%;bottom:15%;width:65.5px;text-align:center;z-index:10;transition:all 0.5s;transform:translateX(0);}
 .page_ctrl a {display:block;width:65.5px;height:65.5px;line-height:65.5px;margin-bottom:-1px;border: 1px solid #b3b3b3;font-size:16px;color:#222;font-weight:500;background-color:#fff;border-radius:0;transition:all 0.3s;}
-.page_ctrl a:hover {background-color:#333; color:#fff;}
+/* .page_ctrl a:hover {background-color:#333; color:#fff;} */
 .page_ctrl .page_move a:hover {background-color:inherit;}
 .page_ctrl .page_next {display:block;height:31px;margin-bottom:15px;text-indent:-999px;overflow:hidden;background:url(../img/common/ico_pagenext.png) no-repeat 50% 50%;}
 .page_ctrl .page_prev {display:block;height:31px;margin-bottom:15px;text-indent:-999px;overflow:hidden;background:url(../img/common/ico_pageprev.png) no-repeat 50% 50%;}

@@ -1241,7 +1241,7 @@
 .sub10 .section01 .content .date_area { width: 100%; margin: 41px auto 40px; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff; padding: 10px 0; display: flex; color: #fff; font-size: 17px; font-weight: 400; flex-direction: column; }
 .sub10 .section01 .content .date_area .top br {display: none;}
 .sub10 .section01 .content .date_area .mid { margin: 10px 0; padding: 10px 0; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff;}
-.sub10 .section01 .content .date_area span { font-weight: 700; margin-right: 44px; }
+.sub10 .section01 .content .date_area span {  color:#fff; font-weight: 700; margin-right: 44px; }
 
 .sub10 .section01 .content .gift { text-align: center; transition: all; }
 .sub10 .section01 .content .gift img { width:390px; height:246.42px; max-width: 610px; opacity: 0; }
@@ -1263,8 +1263,8 @@
 */
 .sub10 .section01 .content .info { max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #fff; padding-top: 20px; font-size: 14.5px; }
 .sub10 .section01 .content .info ul { padding-inline-start: 1.5em; letter-spacing: -0.3px;}
-.sub10 .section01 .content .info li, span{ color: #fff; list-style: disc;  }
-.sub10 .section01 .content .info li span { position: relative; }
+.sub10 .section01 .content .info li{ color: #fff; list-style: disc;  }
+.sub10 .section01 .content .info li span { color:#fff; position: relative; }
 
 /*
 .sub10 .section01 .content .info li { list-style: url(../img/info_bullet.svg); list-style-position: outside; color: #fff; letter-spacing: -0.3px; }

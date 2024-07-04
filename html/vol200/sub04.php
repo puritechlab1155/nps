@@ -116,7 +116,7 @@
 						<div class="search_img"><img src="img/sub04/sub04_08-search.svg" class="pc_display"><img src="img/sub04/sub04_08-search_mo.svg" class="mobile_display"></div>
 						<div class="text01">
 							<span>생각보다 혜택이 많죠? 일일이 찾아보는 수고를 덜도록 정부에서 지원하는 <br class="pc_display">
-							출산 관련 혜택 대부분을 한 번에 해결할 수 있는 서비스 페이지가 있으니 참고해 보길 바랍니다.</span>
+							출산 관련 혜택 대부분을 한 번에 알아볼 수 있는 서비스 페이지가 있으니 참고해 보길 바랍니다.</span>
 							<a href="https://www.gov.kr/portal/onestopSvc/happyBirth" class="pc_display">https://www.gov.kr/portal/onestopSvc/happyBirth</a>
 							<a href="https://www.gov.kr/portal/onestopSvc/happyBirth" class="mobile_display">
 								<span>https://www.gov.kr/portal/</span>
@@ -127,7 +127,7 @@
 					<div class="cont02">
 						<div class="text02">
 							<p>
-								위에서 소개한 내용 외에 미처 다 설명하지 못한 다른 혜택들도 있습니다. 정부가 아닌 내가 살고 있는 동네(지자체)에도 추가적인 혜택이 있을 수 있습니다. 이 부분까지 체크해 볼 수 있으니 꼭 서비스 페이지에 방문해서 어떤 것을 받을 수 있는지 확인하고 놓치지 않도록 하세요.
+								위에서 소개한 내용 외에 미처 다 설명하지 못한 다른 혜택들도 있습니다. 내가 살고 있는 동네(지자체)에도 추가적인 혜택이 있을 수 있습니다. 이 부분까지 체크해 볼 수 있으니 꼭 서비스 페이지에 방문해서 어떤 것을 받을 수 있는지 확인하고 놓치지 않도록 하세요.
 							</p>
 							<em>
 								(※ 해당 페이지에서 신청 가능한 출산 지원 서비스: 부모 급여, 첫만남 이용권, 양육 수당, 출산가구 전기료 경감, 아동 수당, 다자녀 전기료 경감, 해산 급여, 다자녀 도시가스료 경감, 여성장애인출산비용지원, 다자녀 지역난방비 경감, 저소득층기저귀·조제분유지원, KTX 다자녀 행복, SRT 다자녀 가족 할인)

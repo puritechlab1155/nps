@@ -188,7 +188,7 @@
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">모두의 여행</p>
-							<p class="txt">고창에서 우리 ‘함께’ 여름을 즐기다</p>
+							<p class="txt">전북 고창에서 우리 ‘함께’ 여름을 즐기다</p>
 						</a>
 					</div>
 				   	<div data-title="연금엔씨네마" class="swiper-slide item6 wow fadeUp">

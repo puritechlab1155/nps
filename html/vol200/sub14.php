@@ -38,6 +38,7 @@
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/GzEtG682" target="_blank">투표하기</a><span class="end" href="#" >마감되었습니다</span></div>
 				<div class="info">
 					<ul>
+					    <li><span>&lt;내 곁에 국민연금&gt; 웹진 이벤트 5종에 대한 중복 당첨은 불가합니다.</span></li>
 						<li><span>본 이벤트 경품은 당사 사정에 따라 변경될 수 있습니다.</span></li>
 						<li><span>이벤트 응모 시 개인정보 활용에 동의한 것으로 간주됩니다.</span></li>
 						<li><span>부정행위를 통해 이벤트 참여 시 제재를 받으며, 당첨 경품도 취소됩니다.</span></li>

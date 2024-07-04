@@ -1328,7 +1328,7 @@
 
 .sub11 .section02 .content .info { max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #553835; padding-top: 20px; font-size: 14.5px; }
 .sub11 .section02 .content .info ul { padding-inline-start: 1.5em; letter-spacing: -0.3px; }
-.sub11 .section02 .content .info li,span { list-style: disc; color: #553835; }
+.sub11 .section02 .content .info li,span { list-style: disc; }
 .sub11 .section02 .content .info li span { position: relative; }
 
 @media only all and (max-width:767px) {

@@ -616,7 +616,6 @@
 	.sub04 .section04 .content { margin: 50px auto; }
 	.sub04 .section04 .content .subtitle { padding: 8px; font-size: 18px; line-height: 28px; }
 	.sub04 .section04 .content ul { margin: 24px auto 0; flex-direction: column; flex-wrap: nowrap; justify-content: center; gap: 36px; }
-	/* .sub04 .section04 .content ul { display: flex; margin: 32px auto 0; flex-wrap: wrap; justify-content: flex-start; gap: 32px 40px; } */
 	.sub04 .section04 .content ul li { flex-basis: 1; }
 	.sub04 .section04 .content ul li:nth-child(4) { margin-top: -12px; }
 	.sub04 .section04 .content ul li .img_box { width: 100%; max-width: 100%; margin-right: 0; margin-bottom: 8px; }

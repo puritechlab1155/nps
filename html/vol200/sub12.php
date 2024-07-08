@@ -45,7 +45,7 @@
 						생계를 계속 유지할 수 있도록 지급하는 연금은?
 					</div>
 				</div>
-				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/GG7T1Mws" target="_blank">의견 보내기</a><span class="end" href="#" >마감되었습니다</span></div>
+				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/GDa9F1hT" target="_blank">의견 보내기</a><span class="end" href="#" >마감되었습니다</span></div>
 				<div class="info">
 					<ul>
 					    <li><span>&lt;내 곁에 국민연금&gt; 웹진 이벤트 5종에 대한 중복 당첨은 불가합니다.</span></li>

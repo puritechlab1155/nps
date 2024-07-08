@@ -19,7 +19,7 @@
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="title">연금엔씨네마</div>
-				<div class="text">글. 박병률 경향신문 콘텐츠랩부문장 겸 뉴콘텐츠팀장</div>
+				<div class="text">글. 박병률 경향신문 콘텐츠랩부문장</div>
 				<div class="angle-down pc_display"><img src="../../img/common/ico_angle_down.svg"></div>
 				<div class="angle-down mobile_display"><img src="../../img/common/ico_angle_down_wh.svg"></div>
 			</div>

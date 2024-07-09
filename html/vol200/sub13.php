@@ -2,12 +2,12 @@
 include_once("config.php");
 
 //변수
-$max_count = 150; //최대 당첨자 수
-$event_close = false;
+$max_count = 100; //최대 당첨자 수
+$event_close = false; 
 $vote = false;
-$random_number = mt_rand(1, 100);
+$random_number = mt_rand(1, 100); 
 
-//Sanitize input if necessary
+//데이터 불러오기
 $vol_idx = mysqli_real_escape_string($connect, $vol_idx);
 
 //쿼리

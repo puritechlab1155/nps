@@ -47,7 +47,7 @@
 				<div class="challengers">
 					<?php
 					$challengers_where = "`vol_idx`={$vol_idx}";
-					$challengers_query = "SELECT * FROM `roulette_winner_list` WHERE {$challengers_where}";
+					$challengers_query = "SELECT * FROM `ocean_event_list` WHERE {$challengers_where}";
 
 					$challengers_result = mysqli_query($connect, $challengers_query);
 					$challengers_resutl_count = mysqli_num_rows($challengers_result);
@@ -82,7 +82,7 @@
 						$where .= " AND (`name` LIKE '%{$keyword}%' OR `tel` LIKE '%{$keyword}%')";
 					}
 
-					$query = "SELECT * FROM `roulette_winner_list` WHERE {$where} LIMIT {$offset}, {$limit}";
+					$query = "SELECT * FROM `ocean_event_list` WHERE {$where} LIMIT {$offset}, {$limit}";
 
 					$result = mysqli_query($connect, $query);
 					$resutl_count = mysqli_num_rows($result);

@@ -9,7 +9,6 @@ $random_number = mt_rand(1, 100);
 
 //데이터 불러오기
 $vol_idx = mysqli_real_escape_string($connect, $vol_idx);
-
 //쿼리
 $query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx}";
 $result = mysqli_query($connect, $query);
@@ -18,8 +17,9 @@ if (!$result) {
     die('Error fetching ocean_event_list: ' . mysqli_error($connect));
 }
 
-$all_count = mysqli_num_rows($result); //총 응모자 수
-
+//총 응모자 수
+$all_count = mysqli_num_rows($result);
+//쿼리
 $query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `product_name`!='꽝'";
 $result = mysqli_query($connect, $query);
 
@@ -36,15 +36,21 @@ if (!$result) {
     die('Error fetching my_query: ' . mysqli_error($connect));
 }
 
-$my_regno = mysqli_num_rows($result); //현재 당첨자 수
-if($my_regno > 0) {
-	$vote = true;
+if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
+	$event_close = true; // 이벤트 종료 선언
 }
 
-if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
-    $event_close = true; // 이벤트 종료 선언
+$reward = ($random_number <= 30); //count 방식을 변경해야 겠음.
+
+$my_regno = mysqli_num_rows($result); //내가 투표한지 여부
+if($my_regno > 0) {
+	$vote = true;
+	$event_close = true;
+	$reward = false;
 }
-		$reward = ($random_number <= 50);
+
+#echo '내가 투표한지 여부:' . $voteName . ' 총 응모자 수:' . $all_count . ' 현재 당첨자 수:' . $current_count;
+
 
 
 ?>
@@ -57,6 +63,17 @@ if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
 	<script src="script.js"></script>
 </head>
+<style>
+	@media only all and (max-width:767px) {
+	.result_modal02 .modal .content .winning_form .input_area .winner_name input {
+		width: 270px;
+	}
+
+.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel select {  width: 70px;  }
+.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel input { width: 70px;  }
+
+	}
+</style>
 
 <body>
 <div id="wrap" class="sub13">
@@ -127,7 +144,7 @@ if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
 			</div>
 		</div>
 	</section>
-	<?php if($vote) { // 투표한 경우 ?>
+	<?php if($vote) { #echo '투표한 경우';// 투표한 경우 ?>
 		<div class="popUp result_modal04">
 		<div class="modal">
 			<div class="content">
@@ -138,7 +155,7 @@ if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
 			</div>
 		</div>
 	</div>
-	<?php } else if(!$event_close && $reward) { // 성공한 경우 ?>
+	<?php } else if(!$event_close && $reward) { #echo '성공한 경우'; // 성공한 경우 ?>
 	<div class="popUp result_modal01">
 		<div class="modal">
 			<div class="content">
@@ -159,7 +176,7 @@ if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
 			</div>
 		</div>
 	</div>
-	<?php  } else if(!$event_close && !$reward) { //실패한 경우 ?>
+	<?php  } else if(!$event_close && !$reward) { #echo '실패한 경우'; //실패한 경우 ?>
 	<div class="popUp result_modal04">
 		<div class="modal">
 			<div class="content">
@@ -220,7 +237,7 @@ if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
 								</div>
 							</div>
 							<div class="winner_email"><label for="winning_email">E-mail</label><input type="email" name="email" placeholder=""></div>
-							<input type="hidden" name="product" value="">
+							<input type="hidden" name="product" value="스타벅스">
 							<input type="hidden" name="ip" value="<?php echo $current_ip?>">
 							<input type="hidden" name="device" value="<?php echo $current_device?>">
 							<input type="hidden" name="vol_idx" value="<?php echo $vol_idx?>">
@@ -289,8 +306,7 @@ if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
 								sound.currentTime = 0; // 오디오를 처음으로 되돌림
 							}, 3000);
 						});
-	</script>
-	<script>
+
 		$('.popUp').hide();
 
 		$('.draw div').click(function(){
@@ -370,9 +386,20 @@ if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
         'agree': agree
     };
 
+		var param2 = {
+        'vol': $('[name="vol_idx"]').val(),
+        'name': name,
+        'phone': tel,
+        'email': email,
+        'award': product,
+        'ip': ip,
+        'device': device,
+        'agree': agree
+    };
+
     $.ajax({
         type: "POST",
-        url: 'ajax.php', // Replace with your PHP script URL
+        url: 'ajax.php', 
         data: param,
         cache: false,
         dataType: "text",
@@ -389,6 +416,21 @@ if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
         				$('.result_modal04').hide();
         }
     });
+
+	/*	$.ajax({
+        type: "POST",
+        url: 'http://ec2-13-209-64-4.ap-northeast-2.compute.amazonaws.com/api/prizes', 
+        data: param,
+        cache: false,
+        dataType: "text",
+        error: function(xhr, textStatus, errorThrown) {
+            console.log("전송에 실패했습니다.");
+            console.log(xhr, textStatus, errorThrown);
+        },
+        success: function(res) {
+					console.log('success');
+        }
+    }); */
 });
 		$('.result_modal03 .button').click(function(){
 			$('.popUp').hide();
@@ -398,16 +440,7 @@ if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
 			$('.popUp').hide();
 			location.reload();
 		});
-	</script>
-	<!-- contents -->
 
-	<!-- page ctrl -->
-	<div class="page_ctrl">
-		<?php include("page_ctrl.php"); ?>
-	</div>
-	<!-- //page ctrl -->
-</div>
-<script>
 function boom_submit() {
 	var ip = $('[name="ip"]').val();
 	var device = $('[name="device"]').val();
@@ -419,7 +452,15 @@ function boom_submit() {
 					'device' : device
 				};
 
-			jQuery.ajax({
+	var param2 = {
+					'mode' : 'boom_save',
+					'vol' : jQuery('[name="vol_idx"]').val(),
+					'award' : '꽝',
+					'ip' : ip,
+					'device' : device
+				};
+
+			$.ajax({
 				type: "POST",
 				url: 'ajax.php',
 				timeout: 0,
@@ -435,11 +476,25 @@ function boom_submit() {
 					}
 				}
 			});
+
+		/*	$.ajax({
+        type: "POST",
+        url: 'http://ec2-13-209-64-4.ap-northeast-2.compute.amazonaws.com/api/prizes', 
+        data: param,
+        cache: false,
+        dataType: "text",
+        error: function(xhr, textStatus, errorThrown) {
+            console.log("전송에 실패했습니다.");
+            console.log(xhr, textStatus, errorThrown);
+        },
+        success: function(res) {
+					console.log('success');
+        }
+    }); */
 }
-</script>
-<script>
-    // 현재 날짜와 비교하여 send와 end 클래스를 제어하는 함수
-    function controlSendEnd() {
+
+// 현재 날짜와 비교하여 send와 end 클래스를 제어하는 함수
+function controlSendEnd() {
         // 현재 날짜 및 시간 객체 생성
         var currentDate = new Date();
 
@@ -460,7 +515,15 @@ function boom_submit() {
 
     // 페이지가 로드될 때 controlSendEnd 함수 호출
     window.onload = controlSendEnd;
-</script>
+	</script>
+	<!-- contents -->
+
+	<!-- page ctrl -->
+	<div class="page_ctrl">
+		<?php include("page_ctrl.php"); ?>
+	</div>
+	<!-- //page ctrl -->
+</div>
 
 <!-- footer -->
 <?php include("footer.php"); ?>

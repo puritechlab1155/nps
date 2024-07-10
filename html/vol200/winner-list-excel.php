@@ -79,7 +79,7 @@ if($vol_idx){
 				<?php
 				$where = "`vol_idx`={$vol_idx} AND `product_name`!='꽝'";
 				
-				$query = "SELECT * FROM `roulette_winner_list` WHERE {$where}";
+				$query = "SELECT * FROM `ocean_event_list` WHERE {$where}";
 				
 				$result = mysqli_query($connect, $query);
 				$resutl_count = mysqli_num_rows($result);

@@ -17,7 +17,7 @@
         var currentDate = new Date();
         var targetDate = new Date("2024-04-24T14:00:00"); // 2024년 04월 24일 오후 2시
         if (currentDate >= targetDate) {
-            window.location.href = "html/vol199/";
+            window.location.href = "html/vol200/";
         }
     </script>
     <!-- 이전 URL -->
@@ -25,7 +25,7 @@
         var currentDate = new Date();
         var targetDate = new Date("2024-04-24T14:00:00"); // 2024년 04월 24일 오후 2시
         if (currentDate < targetDate) {
-            window.location.href = "html/vol198/";
+            window.location.href = "html/vol199/";
         }
     </script>
     

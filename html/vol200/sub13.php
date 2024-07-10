@@ -1,5 +1,6 @@
 <?php
 
+
 ?>
 <!doctype html>
 <html lang="ko">
@@ -93,18 +94,18 @@
 	</section>
 	
 	<script>
- 	var sound = $('#click-sound')[0];
-    var playSoundButton = $('#playSoundButton'); 
-
-    playSoundButton.on('click', function() {
-        sound.currentTime = 0; 
-        sound.play(); 
-
-        setTimeout(function() {
-            sound.pause();
-            sound.currentTime = 0; 
-        }, 3000);
-    });
+		var sound = document.getElementById('click-sound');
+		var playSoundButton = document.getElementById('playSoundButton');
+		
+		playSoundButton.addEventListener('click', function() {
+			sound.currentTime = 0; // 오디오를 처음부터 재생
+			sound.play
+			// 3초 후에 멈추기
+			setTimeout(function() {
+				sound.pause();
+				sound.currentTime = 0; // 오디오를 처음으로 되돌림
+			}, 3000);
+		});
 
 		$('.popUp').hide();
 		$('.result_modal03 .button').click(function(){
@@ -221,8 +222,6 @@
         				$('.result_modal02').hide();
         				$('.result_modal03').show();
         				$('.result_modal04').hide();
-
-						console.log('second ajax');
 
 						// Chain the second AJAX request here
 						$.ajax({

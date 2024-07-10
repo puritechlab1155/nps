@@ -36,48 +36,48 @@ $reward = ($random_number <= 30); //count 방식을 변경해야 겠음.
 	}
 
 	@media only all and (max-width: 767px) {
-		.result_modal01 .modal { width: 100%; max-width: 300px; height: 500px; }
+		.result_modal01 .modal { width: 100%; max-width: 250px; height: auto; }
 		.result_modal01 .modal .content { padding: 20px 15px; }
-		.result_modal01 .modal .content .message .main_text { font-size: 30px; margin: -30px auto 5px; }
-		.result_modal01 .modal .content .message .sub_text { font-size: 20px; }
-		.result_modal01 .modal .content .gift_area { padding: 15px 0 10px; margin: 20px auto; }
+		.result_modal01 .modal .content .message .main_text { font-size: 25px; margin: -25px auto 5px; }
+		.result_modal01 .modal .content .message .sub_text { font-size: 18px; }
+		.result_modal01 .modal .content .gift_area { padding: 10px 0 5px; margin: 10px auto; }
 		.result_modal01 .modal .content .gift_area p { font-size: 12px; margin-top: 8px; }
-		.result_modal01 .modal .content .text_box span { font-size: 15px; }
-		.result_modal01 .modal .content .text_box p { font-size: 12px; margin: 10px auto 20px; }
+		.result_modal01 .modal .content .text_box span { font-size: 13px; }
+		.result_modal01 .modal .content .text_box p { font-size: 11px; margin: 10px auto 15px; }
 		.result_modal01 .modal .content .button { font-size: 20px; }
 
-		.result_modal02 .modal { width: 100%; max-width: 300px; height: 500px; }
+		.result_modal02 .modal { width: 100%; max-width: 250px; height: auto; }
 		.result_modal02 .modal .content { padding: 20px 15px; }
 		.result_modal02 .modal .content .winning_form .header .main_txt { font-size: 20px; }
-		.result_modal02 .modal .content .winning_form .header .sub_txt { font-size: 12px; margin: 8px auto 23px; }
+		.result_modal02 .modal .content .winning_form .header .sub_txt { font-size: 10px; margin: 8px auto 15px; }
 		.result_modal02 .modal .content .winning_form .input_area > div label { font-size: 12px; }
 		.result_modal02 .modal .content .winning_form .input_area .winner_name { align-items: center; }
-		.result_modal02 .modal .content .winning_form .input_area .winner_name input { width: 200px; height: 25px; }
+		.result_modal02 .modal .content .winning_form .input_area .winner_name input { width: 150px; height: 25px; }
 		.result_modal02 .modal .content .winning_form .input_area .winner_phone { margin: 8px 0; align-items: center; }
-		.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel select { width: 50px; height: 25px; }
-		.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel input { width: 50px; height: 25px; }
+		.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel select { width: 40px; height: 25px; }
+		.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel input { width: 40px; height: 25px; }
 		.result_modal02 .modal .content .winning_form .input_area .winner_email { align-items: center; }
-		.result_modal02 .modal .content .winning_form .input_area .winner_email input { width: 200px; height: 25px; }
-		.result_modal02 .modal .content .winning_form .agreement .title { font-size: 12px; margin: 13px 0 0; }
-		.result_modal02 .modal .content .winning_form .agreement .cont { height: 120px; padding: 8px; }
-		.result_modal02 .modal .content .winning_form .agreement .cont dl dt { font-size: 12px; }
-		.result_modal02 .modal .content .winning_form .agreement .cont dl dd { font-size: 12px; }
+		.result_modal02 .modal .content .winning_form .input_area .winner_email input { width: 150px; height: 25px; }
+		.result_modal02 .modal .content .winning_form .agreement .title { font-size: 11px; margin: 10px 0 0; }
+		.result_modal02 .modal .content .winning_form .agreement .cont { height: 100px; padding: 5px; }
+		.result_modal02 .modal .content .winning_form .agreement .cont dl dt { font-size: 10px; }
+		.result_modal02 .modal .content .winning_form .agreement .cont dl dd { font-size: 10px; }
 		.result_modal02 .modal .content .winning_form .agreement .winner_agree input { width: 20px; height: 20px; }
 		.result_modal02 .modal .content .winning_form .submit_btn { font-size: 20px; }
 
-		.result_modal03 .modal { width: 100%; max-width: 300px; height: 270px; }
+		.result_modal03 .modal { width: 100%; max-width: 250px; height: auto; }
 		.result_modal03 .modal .content { padding: 20px 15px; }
-		.result_modal03 .modal .content .main_text { font-size: 30px; }
-		.result_modal03 .modal .content p { font-size: 15px; margin: 20px auto 15px; }
-		.result_modal03 .modal .content span { font-size: 12px; }
+		.result_modal03 .modal .content .main_text { font-size: 25px; }
+		.result_modal03 .modal .content p { font-size: 13px; margin: 20px auto 15px; }
+		.result_modal03 .modal .content span { font-size: 10px; }
 		.result_modal03 .modal .content .button { font-size: 20px; }
 
-		.result_modal04 .modal { width: 100%; max-width: 300px; height: 500px; }
+		.result_modal04 .modal { width: 100%; max-width: 250px; height: auto; }
 		.result_modal04 .modal .content { padding: 20px 15px; }
-		.result_modal04 .modal .content .message .img_box { width: 200px; margin: 60px auto 20px; }
+		.result_modal04 .modal .content .message .img_box { width: 150px; margin: 20px auto 15px; }
 		.result_modal04 .modal .content .message .img_box img { width: 100%; }
-		.result_modal04 .modal .content .main_text { font-size: 30px; }
-		.result_modal04 .modal .content .sub_text { font-size: 20px; }
+		.result_modal04 .modal .content .main_text { font-size: 25px; }
+		.result_modal04 .modal .content .sub_text { font-size: 18px; }
 		.result_modal04 .modal .content .button { font-size: 20px; }
 	}
 
@@ -170,7 +170,7 @@ $reward = ($random_number <= 30); //count 방식을 변경해야 겠음.
 				<p>
 				이미 응모하셨습니다.
 				</p>
-				<div class="button">닫기</div>
+				<div class="button">확인</div>
 			</div>
 		</div>
 	</div>
@@ -204,7 +204,7 @@ $reward = ($random_number <= 30); //count 방식을 변경해야 겠음.
 					<div class="main_text">당첨되지 않았습니다.</div>
 					<div class="sub_text">다음에 다시 참여해주세요.</div>
 				</div>
-				<div class="button" onclick="boom_submit()">클릭!</div>
+				<div class="button" onclick="boom_submit()">확인</div>
 			</div>
 		</div>
 	</div>

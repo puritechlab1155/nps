@@ -38,9 +38,11 @@ if (!$result) {
 
 if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
 	$event_close = true; // 이벤트 종료 선언
-}
+} else {
+	$reward = (($all_count + 1) % 20 == 0);
+} 
 
-$reward = ($random_number <= 30); //count 방식을 변경해야 겠음.
+//$reward = ($random_number <= 50); //count 방식을 변경해야 겠음.
 
 $my_regno = mysqli_num_rows($result); //내가 투표한지 여부
 if($my_regno > 0) {
@@ -330,12 +332,12 @@ if($my_regno > 0) {
         $('.result_modal04').show();  // This block should also show result_modal04 if none of the above conditions match
     }
 		});
-		$('.result_modal01 .button').click(function(){
+	$('.result_modal01 .button').click(function(){
 			$('.result_modal01').hide();
 			$('.result_modal02').show();
 			$('.result_modal03').hide();
 		});
-		$('.result_modal02 .submit_btn').click(function(event) {
+	$('.result_modal02 .submit_btn').click(function(event) {
     event.preventDefault();
 
     var name = $('[name="name"]').val();
@@ -416,20 +418,6 @@ if($my_regno > 0) {
         }
     });
 
-	$.ajax({
-        type: "POST",
-        url: 'http://ec2-13-209-64-4.ap-northeast-2.compute.amazonaws.com/api/prizes', 
-        data: param2,
-        cache: false,
-        dataType: "text",
-        error: function(xhr, textStatus, errorThrown) {
-            console.log("전송에 실패했습니다.");
-            console.log(xhr, textStatus, errorThrown);
-        },
-        success: function(res) {
-					console.log('success');
-        }
-    }); 
 });
 		$('.result_modal03 .button').click(function(){
 			$('.popUp').hide();
@@ -441,6 +429,7 @@ if($my_regno > 0) {
 		});
 
 function boom_submit() {
+	
 	var ip = $('[name="ip"]').val();
 	var device = $('[name="device"]').val();
 	var param = {
@@ -451,6 +440,14 @@ function boom_submit() {
 					'device' : device
 				};
 
+				var param2 = {
+        "vol": "200",
+        "award": "스타벅스",
+        "name": "홍길동",
+        "phone": "0101255444",
+        "email": "githn1111@gmail.com",
+        "agree": 1
+    };
 
 			$.ajax({
 				type: "POST",
@@ -461,28 +458,27 @@ function boom_submit() {
 				dataType: "text",
 				error: function(xhr, textStatus, errorThrown) { console.log("전송에 실패했습니다."); console.log(xhr, textStatus, errorThrown) },
 				success: function (res){
-					if(res == 'success'){
-						console.log(res);
-					}else{
-						console.log(res);
-					}
+					$.ajax({
+                type: "POST",
+                url: 'http://ec2-13-209-64-4.ap-northeast-2.compute.amazonaws.com/api/prizes',
+                data: JSON.stringify(param2),
+                dataType: "json",
+                contentType: "application/json",
+                processData: false,
+                cache: false,
+                headers: {
+                    'Accept': 'application/json'
+                },
+                error: function(xhr, textStatus, errorThrown) {
+                    console.log("Second AJAX request failed.");
+                    console.log(xhr, textStatus, errorThrown);
+                }
+            });
+				
 				}
 			});
 
-		/*	$.ajax({
-        type: "POST",
-        url: 'http://ec2-13-209-64-4.ap-northeast-2.compute.amazonaws.com/api/prizes', 
-        data: param,
-        cache: false,
-        dataType: "text",
-        error: function(xhr, textStatus, errorThrown) {
-            console.log("전송에 실패했습니다.");
-            console.log(xhr, textStatus, errorThrown);
-        },
-        success: function(res) {
-					console.log('success');
-        }
-    }); */
+		
 }
 
 // 현재 날짜와 비교하여 send와 end 클래스를 제어하는 함수

@@ -57,14 +57,22 @@ $val_arr_txt .= "'{$today}'";
 $my_query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `ip`='{$ip}' AND `device`='{$device}'";
 $result = mysqli_query($connect, $my_query);
 
+$my_phone = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `tel`='{$tel}'";
+$result_phone = mysqli_query($connect, $my_phone);
+$my_email = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `email`='{$email}'";
+$result_email = mysqli_query($connect, $my_email);
+
 if (!$result) {
-    die('Error fetching my_query: ' . mysqli_error($connect));
+    //die('Error fetching my_query: ' . mysqli_error($connect));
+	$response['status'] = 'success';
 }
 
 $my_regno = mysqli_num_rows($result); //현재 당첨자 수
+$my_p = mysqli_num_rows($result_phone); //현재 당첨자 수
+$my_e = mysqli_num_rows($result_email); //현재 당첨자 수
 
 
-if(!$my_regno){
+if(!$my_regno && !$my_p && !$my_e){
 	$query_insert = "INSERT INTO `ocean_event_list` ({$col_name_arr_txt}) VALUES ({$val_arr_txt})";
 	$response['status'] = 'success';
         $response['message'] = 'Insertion successful';
@@ -75,7 +83,9 @@ if(!$my_regno){
 		$value = mysqli_error($connect).' / '.$col_name_arr_txt.' / '.$val_arr_txt;
 	}
 }else{
-	$value = '이미 당첨내역 ip가 존재함';
+	$response['status'] = 'success';
+	$response['message'] = '이미 내역 존재함';
+	$value = '이미 내역 존재함';
 }
 
 echo json_encode($response); // Return JSON response

@@ -1,4 +1,56 @@
 <?php
+include_once("config.php");
+
+//변수
+$max_count = 100; //최대 당첨자 수
+$event_close = false; 
+$vote = false;
+$random_number = mt_rand(1, 100); 
+
+//데이터 불러오기
+$vol_idx = mysqli_real_escape_string($connect, $vol_idx);
+//쿼리
+$query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx}";
+$result = mysqli_query($connect, $query);
+
+if (!$result) {
+    die('Error fetching ocean_event_list: ' . mysqli_error($connect));
+}
+
+//총 응모자 수
+$all_count = mysqli_num_rows($result);
+//쿼리
+$query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `product_name`!='꽝'";
+$result = mysqli_query($connect, $query);
+
+if (!$result) {
+    die('Error fetching ocean_event_list: ' . mysqli_error($connect));
+}
+
+$current_count = mysqli_num_rows($result); //현재 당첨자 수
+
+$my_query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `ip`='{$current_ip}' AND `device`='{$current_device}'";
+$result = mysqli_query($connect, $my_query);
+
+if (!$result) {
+    die('Error fetching my_query: ' . mysqli_error($connect));
+}
+
+if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
+	$event_close = true; // 이벤트 종료 선언
+}
+
+$reward = ($random_number <= 30); //count 방식을 변경해야 겠음.
+
+$my_regno = mysqli_num_rows($result); //내가 투표한지 여부
+if($my_regno > 0) {
+	$vote = true;
+	$event_close = true;
+	$reward = false;
+}
+
+#echo '내가 투표한지 여부:' . $voteName . ' 총 응모자 수:' . $all_count . ' 현재 당첨자 수:' . $current_count;
+
 
 
 ?>
@@ -56,7 +108,6 @@
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <span class="end" href="#" >마감되었습니다</span></div>
 				<!-- <a class="send" href="https://naver.me/FZWH1Fh4" target="_blank">의견 보내기</a> -->
 				<div id="playSoundButton">
-
 					<audio id="click-sound" src="img/sub13/sea_sound.mp3"></audio>
 					<script>
 						document.getElementById('playSoundButton').addEventListener('click', function() {
@@ -69,7 +120,6 @@
 
 						});
 					</script>
-
 				<div class="draw">
 					<div><img src="img/sub13/sub13_05-blue.svg"></div>
 					<div><img src="img/sub13/sub13_05-red.svg"></div>
@@ -105,30 +155,157 @@
 			</div>
 		</div>
 	</section>
-	
+	<?php if($vote) { #echo '투표한 경우';// 투표한 경우 ?>
+		<div class="popUp result_modal04">
+		<div class="modal">
+			<div class="content">
+				<p>
+				이미 응모하셨습니다.
+				</p>
+				<div class="button">닫기</div>
+			</div>
+		</div>
+	</div>
+	<?php } else if(!$event_close && $reward) { #echo '성공한 경우'; // 성공한 경우 ?>
+	<div class="popUp result_modal01">
+		<div class="modal">
+			<div class="content">
+				<div class="message">
+					<div class="img_box"><img src="img/sub13/sub13_modal01.svg"></div>
+					<div class="main_text">축하합니다!</div>
+					<div class="sub_text">이벤트에 당첨되셨습니다.</div>
+				</div>
+				<div class="gift_area">
+					<div class="img_box"><img src="img/sub13/sub13_modal_gift.png"></div>
+					<p>스타벅스 카드 1만원 </p>
+				</div>
+				<div class="text_box">
+					<span>폼을 작성하여 제출해주세요.<br>제출한 번호로 개별 연락드릴 예정입니다.</span>
+					<p>*경품 발송 시, &lt;내 곁에 국민연금&gt;의 구독자가 <br>아닐 경우 당첨이 취소됩니다. </p>
+				</div>
+				<div class="button" >클릭!</div>
+			</div>
+		</div>
+	</div>
+	<?php  } else if(!$event_close && !$reward) { #echo '실패한 경우'; //실패한 경우 ?>
+	<div class="popUp result_modal04">
+		<div class="modal">
+			<div class="content">
+				<div class="message">
+					<div class="img_box"><img src="img/sub13/fail.svg"></div>
+					<div class="main_text">당첨되지 않았습니다.</div>
+					<div class="sub_text">다음에 다시 참여해주세요.</div>
+				</div>
+				<div class="button" onclick="boom_submit()">클릭!</div>
+			</div>
+		</div>
+	</div>
+	<?php } else { // 더이상 신청이 불가한 경우 ?>
+		<div class="popUp result_modal04">
+		<div class="modal">
+			<div class="content">
+				<p>
+				당첨 정원이 충족돼<Br />
+이벤트가 종료됐습니다.
+				</p>
+				<div class="button">닫기</div>
+			</div>
+		</div>
+	</div>
+	<?php } ?>
+
+	<div class="popUp result_modal02">
+		<div class="modal">
+			<div class="content">
+				<form class="winning_form">
+					<div class="header">
+						<div class="main_txt">
+							당첨자 정보
+						</div>
+
+						<div class="sub_txt">
+							폼을 작성하여 제출해주세요.<br>제출한 번호로 개별 연락드릴 예정입니다.<br>
+							*경품 발송 시, &lt;내 곁에 국민연금&gt;의 구독자가 아닐 경우 <br>당첨이 취소됩니다.
+						</div>
+					</div>
+
+					<div class="input_area">
+						<div class="winner_info">
+							<div class="winner_name"><label for="winning_name">성명</label><input type="text" name="name" placeholder=""></div>
+							<div class="winner_phone">
+								<label>휴대폰 번호</label>
+								<div class="sel">
+									<select name="tel1" class="winning_tel1">
+										<option value="010" selected>010</option>
+										<option value="011">011</option>
+										<option value="016">016</option>
+										<option value="017">017</option>
+										<option value="018">018</option>
+										<option value="019">019</option>
+									</select>
+									- <input type="text" name="tel2" class="winning_tel2" maxlength="4" placeholder="">
+									- <input type="text" name="tel3"  class="winning_tel3" maxlength="4" placeholder="">
+								</div>
+							</div>
+							<div class="winner_email"><label for="winning_email">E-mail</label><input type="email" name="email" placeholder=""></div>
+							<input type="hidden" name="product" value="스타벅스">
+							<input type="hidden" name="ip" value="<?php echo $current_ip?>">
+							<input type="hidden" name="device" value="<?php echo $current_device?>">
+							<input type="hidden" name="vol_idx" value="<?php echo $vol_idx?>">
+						</div>
+
+						<div class="agreement">
+							<div class="title">
+								개인보호정책 및 이용약관 동의
+							</div>
+
+							<div class="cont">
+								<dl>
+									<dt>개인정보 수집 및 이용 동의</dt>
+									<dd>수집하는 개인정보 항목: 이름, 연락처, 이메일</dd>
+									<dd>수집 및 이용 목적: 이벤트 참여자 확인 및 당첨자 안내</dd>
+									<dd>보유 및 이용 기간: 당첨자 발표 후 1개월</dd>
+									<br>
+									<dt>개인정보 제3자 제공 동의</dt>
+									<dd>동의를 거부할 수 있으나, 이 경우 이벤트 참여가 불가능합니다.</dd>
+									<dd>제공받는 자: 큐라인</dd>
+									<dd>제공받는 자의 이용 목적: 이름, 연락처, 이메일</dd>
+									<dd>제공하는 항목: 이름, 연락처, 이메일</dd>
+									<dd>제공받는 자의 보유 및 이용기간: 당첨자 발표 후 1개월</dd>
+								</dl>
+							</div>
+
+							<div class="winner_agree">
+								<input type="checkbox" id="winning_agree" name="agree" value="동의함">
+								<label for="winning_agree">동의합니다</label>
+							</div>
+						</div>
+					</div>
+					<div class="submit_btn">
+    				등록!
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="popUp result_modal03">
+		<div class="modal">
+			<div class="content">
+				<div class="main_text">등록 완료</div>
+				<p>
+					정상적으로 제출되었습니다.<br>
+					제출한 번호로 개별 연락드릴 예정입니다.<br>
+					감사합니다.
+				</p>
+				<span>*경품 발송 시, &lt;내 곁에 국민연금&gt;의 구독자가 아닐 경우 <br>당첨이 취소됩니다. </span>
+				<div class="button">닫기</div>
+			</div>
+		</div>
+	</div>
 	<script>
-		var sound = document.getElementById('click-sound');
-		var playSoundButton = document.getElementById('playSoundButton');
-		
-		playSoundButton.addEventListener('click', function() {
-			sound.currentTime = 0; // 오디오를 처음부터 재생
-			sound.play
-			// 3초 후에 멈추기
-			setTimeout(function() {
-				sound.pause();
-				sound.currentTime = 0; // 오디오를 처음으로 되돌림
-			}, 3000);
-		});
 
 		$('.popUp').hide();
-		$('.result_modal03 .button').click(function(){
-			$('.popUp').hide();
-			location.reload();
-		});
-		$('.result_modal04 .button').click(function(){
-			$('.popUp').hide();
-			location.reload();
-		});
 
 		$('.draw div').click(function(){
 			var event_close = <?php echo json_encode($event_close); ?>;
@@ -144,12 +321,12 @@
         $('.result_modal01').hide();
         $('.result_modal02').hide();
         $('.result_modal03').hide();
-        $('.result_modal04').show(); 
+        $('.result_modal04').show();  // This block should show result_modal04
     } else {
         $('.result_modal01').hide();
         $('.result_modal02').hide();
         $('.result_modal03').hide();
-        $('.result_modal04').show();
+        $('.result_modal04').show();  // This block should also show result_modal04 if none of the above conditions match
     }
 		});
 		$('.result_modal01 .button').click(function(){
@@ -231,31 +408,36 @@
         success: function(res) {
 					console.log('success');
                 // Show success message or handle accordingly
-						$('.result_modal01').hide();
+								$('.result_modal01').hide();
         				$('.result_modal02').hide();
         				$('.result_modal03').show();
         				$('.result_modal04').hide();
-
-						// Chain the second AJAX request here
-						$.ajax({
-            type: "POST",
-            url: 'http://ec2-13-209-64-4.ap-northeast-2.compute.amazonaws.com/api/prizes', 
-            data: param2,
-            cache: false,
-            dataType: "text",
-            error: function(xhr, textStatus, errorThrown) {
-                console.log("전송에 실패했습니다.");
-                console.log(xhr, textStatus, errorThrown);
-            },
-            success: function(res) {
-                console.log('Second AJAX request success');
-            }
-        });
         }
     });
 
-
+	$.ajax({
+        type: "POST",
+        url: 'http://ec2-13-209-64-4.ap-northeast-2.compute.amazonaws.com/api/prizes', 
+        data: param2,
+        cache: false,
+        dataType: "text",
+        error: function(xhr, textStatus, errorThrown) {
+            console.log("전송에 실패했습니다.");
+            console.log(xhr, textStatus, errorThrown);
+        },
+        success: function(res) {
+					console.log('success');
+        }
+    }); 
 });
+		$('.result_modal03 .button').click(function(){
+			$('.popUp').hide();
+			location.reload();
+		});
+		$('.result_modal04 .button').click(function(){
+			$('.popUp').hide();
+			location.reload();
+		});
 
 function boom_submit() {
 	var ip = $('[name="ip"]').val();

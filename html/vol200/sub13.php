@@ -293,7 +293,7 @@ if($my_regno > 0) {
 		</div>
 	</div>
 	<script>
-		var sound = document.getElementById('click-sound');
+			var sound = document.getElementById('click-sound');
 		var playSoundButton = document.getElementById('playSoundButton');
 		
 		playSoundButton.addEventListener('click', function() {
@@ -305,6 +305,9 @@ if($my_regno > 0) {
 				sound.currentTime = 0; // 오디오를 처음으로 되돌림
 			}, 3000);
 		});
+	</script>
+	<script>
+
 
 		$('.popUp').hide();
 		$('.result_modal03 .button').click(function(){

@@ -55,7 +55,20 @@
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <span class="end" href="#" >마감되었습니다</span></div>
 				<!-- <a class="send" href="https://naver.me/FZWH1Fh4" target="_blank">의견 보내기</a> -->
 				<div id="playSoundButton">
+
 					<audio id="click-sound" src="img/sub13/sea_sound.mp3"></audio>
+					<script>
+						document.getElementById('playSoundButton').addEventListener('click', function() {
+							var audio = document.getElementById('click-sound');
+							audio.play();
+							setTimeout(function() {
+							audio.pause();
+							audio.currentTime = 0;  // 오디오 재생 위치를 처음으로 설정
+						}, 3000);  // 3초 후에 오디오를 정지
+
+						});
+					</script>
+
 				<div class="draw">
 					<div><img src="img/sub13/sub13_05-blue.svg"></div>
 					<div><img src="img/sub13/sub13_05-red.svg"></div>

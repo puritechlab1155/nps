@@ -293,21 +293,28 @@ if($my_regno > 0) {
 		</div>
 	</div>
 	<script>
-						var sound = document.getElementById('click-sound');
-						var playSoundButton = document.getElementById('playSoundButton');
-						
-						playSoundButton.addEventListener('click', function() {
-							sound.currentTime = 0; // 오디오를 처음부터 재생
-							sound.play();
-
-							// 3초 후에 멈추기
-							setTimeout(function() {
-								sound.pause();
-								sound.currentTime = 0; // 오디오를 처음으로 되돌림
-							}, 3000);
-						});
+		var sound = document.getElementById('click-sound');
+		var playSoundButton = document.getElementById('playSoundButton');
+		
+		playSoundButton.addEventListener('click', function() {
+			sound.currentTime = 0; // 오디오를 처음부터 재생
+			sound.play
+			// 3초 후에 멈추기
+			setTimeout(function() {
+				sound.pause();
+				sound.currentTime = 0; // 오디오를 처음으로 되돌림
+			}, 3000);
+		});
 
 		$('.popUp').hide();
+		$('.result_modal03 .button').click(function(){
+			$('.popUp').hide();
+			location.reload();
+		});
+		$('.result_modal04 .button').click(function(){
+			$('.popUp').hide();
+			location.reload();
+		});
 
 		$('.draw div').click(function(){
 			var event_close = <?php echo json_encode($event_close); ?>;
@@ -323,12 +330,12 @@ if($my_regno > 0) {
         $('.result_modal01').hide();
         $('.result_modal02').hide();
         $('.result_modal03').hide();
-        $('.result_modal04').show();  // This block should show result_modal04
+        $('.result_modal04').show(); 
     } else {
         $('.result_modal01').hide();
         $('.result_modal02').hide();
         $('.result_modal03').hide();
-        $('.result_modal04').show();  // This block should also show result_modal04 if none of the above conditions match
+        $('.result_modal04').show();
     }
 		});
 		$('.result_modal01 .button').click(function(){
@@ -392,7 +399,7 @@ if($my_regno > 0) {
         'phone': tel,
         'email': email,
         'award': product,
-        'ip': ip,
+        'wip': ip,
         'device': device,
         'agree': agree
     };
@@ -417,10 +424,10 @@ if($my_regno > 0) {
         }
     });
 
-	/*	$.ajax({
+	$.ajax({
         type: "POST",
         url: 'http://ec2-13-209-64-4.ap-northeast-2.compute.amazonaws.com/api/prizes', 
-        data: param,
+        data: param2,
         cache: false,
         dataType: "text",
         error: function(xhr, textStatus, errorThrown) {
@@ -430,16 +437,8 @@ if($my_regno > 0) {
         success: function(res) {
 					console.log('success');
         }
-    }); */
+    }); 
 });
-		$('.result_modal03 .button').click(function(){
-			$('.popUp').hide();
-			location.reload();
-		});
-		$('.result_modal04 .button').click(function(){
-			$('.popUp').hide();
-			location.reload();
-		});
 
 function boom_submit() {
 	var ip = $('[name="ip"]').val();
@@ -452,13 +451,6 @@ function boom_submit() {
 					'device' : device
 				};
 
-	var param2 = {
-					'mode' : 'boom_save',
-					'vol' : jQuery('[name="vol_idx"]').val(),
-					'award' : '꽝',
-					'ip' : ip,
-					'device' : device
-				};
 
 			$.ajax({
 				type: "POST",

@@ -197,7 +197,7 @@
 										<li>재해복구비 : 재해발생일 또는 재난지역 선포일로부터 6개월 이내</li>
 									</ul>
 								</div>
-								<div class="text pad_line"><div class="img_box"><img src="img/sub01/check.svg"></div><span>대부 이자 </span>: 5년 만기 국고채권 수익률과 예금은행 수신금리(신규취급액 기준) 중 낮은 금리로 분기별 변동</div>
+								<div class="text"><img src="img/sub01/check.svg"><span>대부 이자 </span>: 5년 만기 국고채권 수익률과 예금은행 수신금리(신규취급액 기준) 중 낮은 금리로 분기별 변동</div>
 								<div class="text"><img src="img/sub01/check.svg"><span>대부 상환 </span>: 최대 5년간 원금균등분할상환(미 거치, 거치 1~2년 중 선택, 최장 7년)</div>
 								<span>※ 노후긴급자금 대부 신청 전 신청 제외 대상, 신청 자격, 용도별 신청 기한 및 구비 서류 등을 국민연금 고객센터(국번없이 1355:유료) 또는 가까운 국민연금공단 지사에 문의하시기 바랍니다.대 5년간 원금균등분할상환(미 거치, 거치 1~2년 중 선택, 최장 7년)</span>
 							</div>

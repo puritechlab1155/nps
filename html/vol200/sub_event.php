@@ -102,6 +102,17 @@ $reward = ($random_number <= 30); //count 방식을 변경해야 겠음.
 							이벤트 기간 내 뽑기를 해 주신 구독자님들 중 100분께 경품을 드립니다.
 						</div>
 						<div class="img_box"><img src="img/sub13/sub13_02.png" class="prize"></div>
+						<script>
+							// scroll event
+							$(window).scroll(function(){
+								var st = $(this).scrollTop();
+								var evTop = $('.gift').offset().top - 500;
+
+								if(st>=evTop){
+									$('.gift > img').addClass('on');
+								}
+							});
+						</script>
 					</div>
 				</div>	
 				<div class="howto">

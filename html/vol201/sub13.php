@@ -1,55 +1,14 @@
 <?php
-include_once("config.php");
+
 
 //변수
 $max_count = 100; //최대 당첨자 수
 $event_close = false; 
 $vote = false;
 $random_number = mt_rand(1, 100); 
+$reward = ($random_number <= 30); //count 방식을 변경해야 겠음.
 
-//데이터 불러오기
-$vol_idx = mysqli_real_escape_string($connect, $vol_idx);
-//쿼리
-$query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx}";
-$result = mysqli_query($connect, $query);
 
-if (!$result) {
-    die('Error fetching ocean_event_list: ' . mysqli_error($connect));
-}
-
-//총 응모자 수
-$all_count = mysqli_num_rows($result);
-//쿼리
-$query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `product_name`!='꽝'";
-$result = mysqli_query($connect, $query);
-
-if (!$result) {
-    die('Error fetching ocean_event_list: ' . mysqli_error($connect));
-}
-
-$current_count = mysqli_num_rows($result); //현재 당첨자 수
-
-$my_query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `ip`='{$current_ip}' AND `device`='{$current_device}'";
-$result = mysqli_query($connect, $my_query);
-
-if (!$result) {
-    die('Error fetching my_query: ' . mysqli_error($connect));
-}
-
-if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
-	$event_close = true; // 이벤트 종료 선언
-} else {
-	$reward = (($all_count + 1) % 20 == 0);
-} 
-
-//$reward = ($random_number <= 50); //count 방식을 변경해야 겠음.
-
-$my_regno = mysqli_num_rows($result); //내가 투표한지 여부
-if($my_regno > 0) {
-	$vote = true;
-	$event_close = true;
-	$reward = false;
-}
 
 #echo '내가 투표한지 여부:' . $voteName . ' 총 응모자 수:' . $all_count . ' 현재 당첨자 수:' . $current_count;
 
@@ -65,86 +24,30 @@ if($my_regno > 0) {
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
 	<script src="script.js"></script>
 </head>
-<style>
-	@media only all and (max-width:767px) {
-	.result_modal02 .modal .content .winning_form .input_area .winner_name input {
-		width: 270px;
-	}
-
-.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel select {  width: 70px;  }
-.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel input { width: 70px;  }
-
-	}
-
-	@media only all and (max-width: 767px) {
-		.result_modal01 .modal { width: 100%; max-width: 250px; height: auto; }
-		.result_modal01 .modal .content { padding: 20px 15px; }
-		.result_modal01 .modal .content .message .main_text { font-size: 25px; margin: -25px auto 5px; }
-		.result_modal01 .modal .content .message .sub_text { font-size: 18px; }
-		.result_modal01 .modal .content .gift_area { padding: 10px 0 5px; margin: 10px auto; }
-		.result_modal01 .modal .content .gift_area p { font-size: 12px; margin-top: 8px; }
-		.result_modal01 .modal .content .text_box span { font-size: 13px; }
-		.result_modal01 .modal .content .text_box p { font-size: 11px; margin: 10px auto 15px; }
-		.result_modal01 .modal .content .button { font-size: 20px; }
-
-		.result_modal02 .modal { width: 100%; max-width: 250px; height: auto; }
-		.result_modal02 .modal .content { padding: 20px 15px; }
-		.result_modal02 .modal .content .winning_form .header .main_txt { font-size: 20px; }
-		.result_modal02 .modal .content .winning_form .header .sub_txt { font-size: 10px; margin: 8px auto 15px; }
-		.result_modal02 .modal .content .winning_form .input_area > div label { font-size: 12px; }
-		.result_modal02 .modal .content .winning_form .input_area .winner_name { align-items: center; }
-		.result_modal02 .modal .content .winning_form .input_area .winner_name input { width: 150px; height: 25px; }
-		.result_modal02 .modal .content .winning_form .input_area .winner_phone { margin: 8px 0; align-items: center; }
-		.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel select { width: 40px; height: 25px; }
-		.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel input { width: 40px; height: 25px; }
-		.result_modal02 .modal .content .winning_form .input_area .winner_email { align-items: center; }
-		.result_modal02 .modal .content .winning_form .input_area .winner_email input { width: 150px; height: 25px; }
-		.result_modal02 .modal .content .winning_form .agreement .title { font-size: 11px; margin: 10px 0 0; }
-		.result_modal02 .modal .content .winning_form .agreement .cont { height: 100px; padding: 5px; }
-		.result_modal02 .modal .content .winning_form .agreement .cont dl dt { font-size: 10px; }
-		.result_modal02 .modal .content .winning_form .agreement .cont dl dd { font-size: 10px; }
-		.result_modal02 .modal .content .winning_form .agreement .winner_agree input { width: 20px; height: 20px; }
-		.result_modal02 .modal .content .winning_form .submit_btn { font-size: 20px; }
-
-		.result_modal03 .modal { width: 100%; max-width: 250px; height: auto; }
-		.result_modal03 .modal .content { padding: 20px 15px; }
-		.result_modal03 .modal .content .main_text { font-size: 25px; }
-		.result_modal03 .modal .content p { font-size: 13px; margin: 20px auto 15px; }
-		.result_modal03 .modal .content span { font-size: 10px; }
-		.result_modal03 .modal .content .button { font-size: 20px; }
-
-		.result_modal04 .modal { width: 100%; max-width: 250px; height: auto; }
-		.result_modal04 .modal .content { padding: 20px 15px; }
-		.result_modal04 .modal .content .message .img_box { width: 150px; margin: 20px auto 15px; }
-		.result_modal04 .modal .content .message .img_box img { width: 100%; }
-		.result_modal04 .modal .content .main_text { font-size: 25px; }
-		.result_modal04 .modal .content .sub_text { font-size: 18px; }
-		.result_modal04 .modal .content .button { font-size: 20px; }
-	}
-
-</style>
 
 <body>
 <div id="wrap" class="sub13">
 	<!-- header -->
 	<?php include("header.php"); ?>
 	<!-- //header -->
+
 	<!-- contents -->
 	<section id="contents" >
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
-				<div class="title">
-					<div class="sub_box" >
-						<div class="main_title"><img src="img/sub13/sub13_01-title.svg"></div>
-						<div class="text1">덥다 더워~ 행운 잡고,<br> 무더위 날리자~</div>
-						<div class="text2">
-							내곁에 국민연금을 방문해 주신 구독자 여러분께 <br>
-							감사의 마음을 담아 뽑기 이벤트를 준비했습니다. <br>
-							이벤트 기간 내 뽑기를 해 주신 구독자님들 중 100분께 경품을 드립니다.
-						</div>
-						<div class="img_box"><img src="img/sub13/sub13_02.png" class="prize"></div>
-					</div>
-				</div>	
+				<div class="title"><img src="img/sub13/sub13_01.svg" class="pc_display"><img src="img/sub12/sub12_01_mo.svg" class="mobile_display"></div>
+				<div class="text">
+					내곁에 국민연금을 방문해 주신 구독자 여러분께<br>
+					감사의 마음을 담아 사다리 타기 이벤트를 준비했습니다.<br>
+					이벤트 기간 내 사다리를 타신 구독자님들 중<br>
+					100분께 5천원 상당의 기프티콘을 드립니다.
+				</div>
+			</div>
+			<div class="gift"><div><img src="img/sub13/sub13_02.png" class="pc_display"><img src="img/sub12/sub12_02_mo.png" class="mobile_display"></div></div>
+		</div><!-- //section01 -->
+
+		<div class="section02 wow fadeBigInUp">
+			<div class="content">
 				<div class="howto">
 					<img src="img/sub13/sub13_03.svg" class="pc_display">
 					<img src="img/sub13/sub13_03_mo.svg" class="mobile_display">
@@ -156,7 +59,6 @@ if($my_regno > 0) {
 				</div>
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <span class="end" href="#" >마감되었습니다</span></div>
 				<!-- <a class="send" href="https://naver.me/FZWH1Fh4" target="_blank">의견 보내기</a> -->
-				<div class="click_text">아래에서 원하는 물음표를 눌러 주세요!</div>
 				<div id="playSoundButton">
 					<audio id="click-sound" src="img/sub13/sea_sound.mp3"></audio>
 					<script>
@@ -379,12 +281,12 @@ if($my_regno > 0) {
         $('.result_modal04').show();  // This block should also show result_modal04 if none of the above conditions match
     }
 		});
-	$('.result_modal01 .button').click(function(){
+		$('.result_modal01 .button').click(function(){
 			$('.result_modal01').hide();
 			$('.result_modal02').show();
 			$('.result_modal03').hide();
 		});
-	$('.result_modal02 .submit_btn').click(function(event) {
+		$('.result_modal02 .submit_btn').click(function(event) {
     event.preventDefault();
 
     var name = $('[name="name"]').val();
@@ -465,6 +367,20 @@ if($my_regno > 0) {
         }
     });
 
+	$.ajax({
+        type: "POST",
+        url: 'http://ec2-13-209-64-4.ap-northeast-2.compute.amazonaws.com/api/prizes', 
+        data: param2,
+        cache: false,
+        dataType: "text",
+        error: function(xhr, textStatus, errorThrown) {
+            console.log("전송에 실패했습니다.");
+            console.log(xhr, textStatus, errorThrown);
+        },
+        success: function(res) {
+					console.log('success');
+        }
+    }); 
 });
 		$('.result_modal03 .button').click(function(){
 			$('.popUp').hide();
@@ -476,7 +392,6 @@ if($my_regno > 0) {
 		});
 
 function boom_submit() {
-	
 	var ip = $('[name="ip"]').val();
 	var device = $('[name="device"]').val();
 	var param = {
@@ -487,14 +402,6 @@ function boom_submit() {
 					'device' : device
 				};
 
-				var param2 = {
-        "vol": "200",
-        "award": "스타벅스",
-        "name": "홍길동",
-        "phone": "0101255444",
-        "email": "githn1111@gmail.com",
-        "agree": 1
-    };
 
 			$.ajax({
 				type: "POST",
@@ -505,27 +412,28 @@ function boom_submit() {
 				dataType: "text",
 				error: function(xhr, textStatus, errorThrown) { console.log("전송에 실패했습니다."); console.log(xhr, textStatus, errorThrown) },
 				success: function (res){
-					$.ajax({
-                type: "POST",
-                url: 'http://ec2-13-209-64-4.ap-northeast-2.compute.amazonaws.com/api/prizes',
-                data: JSON.stringify(param2),
-                dataType: "json",
-                contentType: "application/json",
-                processData: false,
-                cache: false,
-                headers: {
-                    'Accept': 'application/json'
-                },
-                error: function(xhr, textStatus, errorThrown) {
-                    console.log("Second AJAX request failed.");
-                    console.log(xhr, textStatus, errorThrown);
-                }
-            });
-				
+					if(res == 'success'){
+						console.log(res);
+					}else{
+						console.log(res);
+					}
 				}
 			});
 
-		
+		/*	$.ajax({
+        type: "POST",
+        url: 'http://ec2-13-209-64-4.ap-northeast-2.compute.amazonaws.com/api/prizes', 
+        data: param,
+        cache: false,
+        dataType: "text",
+        error: function(xhr, textStatus, errorThrown) {
+            console.log("전송에 실패했습니다.");
+            console.log(xhr, textStatus, errorThrown);
+        },
+        success: function(res) {
+					console.log('success');
+        }
+    }); */
 }
 
 // 현재 날짜와 비교하여 send와 end 클래스를 제어하는 함수

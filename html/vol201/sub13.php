@@ -35,15 +35,12 @@ $reward = ($random_number <= 30); //count 방식을 변경해야 겠음.
 	<section id="contents" >
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
-				<div class="title"><img src="img/sub13/sub13_01.svg" class="pc_display"><img src="img/sub12/sub12_01_mo.svg" class="mobile_display"></div>
-				<div class="text">
-					내곁에 국민연금을 방문해 주신 구독자 여러분께<br>
-					감사의 마음을 담아 사다리 타기 이벤트를 준비했습니다.<br>
-					이벤트 기간 내 사다리를 타신 구독자님들 중<br>
-					100분께 5천원 상당의 기프티콘을 드립니다.
+				<div class="title"><img src="img/sub13/sub13_01.png" class="pc_display"><img src="img/sub13/sub13_01_mo.png" class="mobile_display"></div>
+				<div class="text mobile_display">
+					내곁에 국민연금을 방문해 주신 구독자 여러분께 감사의 마음을 담아 사다리 타기 이벤트를 준비했습니다. 이벤트 기간 내 사다리를 타신 구독자님들 중 100분께 5천원 상당의 기프티콘을 드립니다.
 				</div>
 			</div>
-			<div class="gift"><div><img src="img/sub13/sub13_02.png" class="pc_display"><img src="img/sub12/sub12_02_mo.png" class="mobile_display"></div></div>
+			<div class="gift"><div><img src="img/sub13/sub13_02.png" class="pc_display"><img src="img/sub13/sub13_02_mo.png" class="mobile_display"></div></div>
 		</div><!-- //section01 -->
 
 		<div class="section02 wow fadeBigInUp">
@@ -53,60 +50,58 @@ $reward = ($random_number <= 30); //count 방식을 변경해야 겠음.
 					<img src="img/sub13/sub13_03_mo.svg" class="mobile_display">
 				</div>
 				<div class="date_area">
-					<div class="top"><span>응모 기간</span><em>7월 10일 오후 2시 ~ <br>8월 25일 오후 11시 30분</em></div>
-					<div class="mid"><span>당첨 발표</span><em>9월 2일 오전 1시</em></div>
-					<div><span>경품 발송</span><em>9월 2일 오후 5시</em></div>
+					<div class="top"><span>응모 기간</span><em>9월 11일 오후 2시~<br class="mobile_display">11월 3일 오후 11시 30분</em></div>
+					<div><span>경품 발송</span><em>11월 11일 오후 5시</em></div>
 				</div>
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <span class="end" href="#" >마감되었습니다</span></div>
 				<!-- <a class="send" href="https://naver.me/FZWH1Fh4" target="_blank">의견 보내기</a> -->
-				<div id="playSoundButton">
-					<audio id="click-sound" src="img/sub13/sea_sound.mp3"></audio>
-					<script>
-						document.getElementById('playSoundButton').addEventListener('click', function() {
-							var audio = document.getElementById('click-sound');
-							audio.play();
-							setTimeout(function() {
-							audio.pause();
-							audio.currentTime = 0;  // 오디오 재생 위치를 처음으로 설정
-						}, 3000);  // 3초 후에 오디오를 정지
 
-						});
-					</script>
-				<div class="draw">
-					<div><img src="img/sub13/sub13_05-blue.svg"></div>
-					<div><img src="img/sub13/sub13_05-red.svg"></div>
-					<div><img src="img/sub13/sub13_05-yellow.svg"></div>
-					<div><img src="img/sub13/sub13_05-red.svg"></div>
-					<div><img src="img/sub13/sub13_05-yellow.svg"></div>
-					<div><img src="img/sub13/sub13_05-blue.svg"></div>
-					<div><img src="img/sub13/sub13_05-yellow.svg"></div>
-					<div><img src="img/sub13/sub13_05-blue.svg"></div>
-					<div><img src="img/sub13/sub13_05-red.svg"></div>
-					<div><img src="img/sub13/sub13_05-blue.svg"></div>
-					<div><img src="img/sub13/sub13_05-red.svg"></div>
-					<div><img src="img/sub13/sub13_05-yellow.svg"></div>
+				<div class="event_wrap">
+					<div class="event_cont">
+						<ul class="ladder_select img_list_ul" id="ladder_text_image">
+							<li id="img1Id" class="imagDom img1" style="background: url('img/sub13/sub13_ladder01.png') no-repeat; background-size: 100%;" index=0></li>
+							<li id="img2Id" class="imagDom img2" style="background: url('img/sub13/sub13_ladder02.png') no-repeat; background-size: 100%;" index=1></li>
+							<li id="img3Id" class="imagDom img3" style="background: url('img/sub13/sub13_ladder03.png') no-repeat; background-size: 100%;" index=2></li>
+							<li id="img4Id" class="imagDom img4" style="background: url('img/sub13/sub13_ladder04.png') no-repeat; background-size: 100%;" index=3></li>
+						</ul>
+
+						<div class="ladder" id="ladder_body" >
+							<img src="img/sub13/sub13_ladder_body.png" id="backimage">
+						</div>
+
+						<div class="button_list">
+							<ul id="destination_list">
+								<li id="dest1" style="background: url('img/sub13/sub13_ladder_rbtn.png') no-repeat; background-size: 100%"></li>
+								<li id="dest1" style="background: url('img/sub13/sub13_ladder_rbtn.png') no-repeat; background-size: 100%"></li>
+								<li id="dest1" style="background: url('img/sub13/sub13_ladder_rbtn.png') no-repeat; background-size: 100%"></li>
+								<li id="dest1" style="background: url('img/sub13/sub13_ladder_rbtn.png') no-repeat; background-size: 100%"></li>
+							</ul>
+						</div>
+					</div><!-- //event_cont -->
 				</div>
-				</div>
+
 				<div class="text">
 					<ul>
 						<li>내 곁에 국민연금 구독자가 아닐 경우, 차후에 당첨이 취소되오니 반드시 구독 후 이벤트에 참여해 주세요.</li>
 						<li>본 이벤트는 같은 이메일 주소, 같은 IP, 같은 이름, 같은 전화번호를 포함해 한 번만 응모 가능하며, 중복 참여는 불가능합니다.</li>
 					</ul>
 				</div>
+
 				<div class="info">
 					<ul>
 					    <li><span>&lt;내 곁에 국민연금&gt; 웹진 이벤트 5종에 대한 중복 당첨은 불가합니다.</span></li>
 						<li>본 이벤트 경품은 당사 사정에 따라 변경될 수 있습니다.</li>
 						<li>이벤트 응모 시 개인정보 활용에 동의한 것으로 간주됩니다.</li>
 						<li>부정행위를 통해 이벤트 참여 시 제재를 받으며, 당첨 경품도 취소됩니다.</li>
-						<li>많은 분들께 이벤트 혜택을 드리기 위해 중복 당첨 시 경품 지급은 한 번만 이뤄집니다.</li>
+						<li>많은 분께 이벤트 혜택을 드리기 위해 중복 당첨 시 경품 지급은 한 번만 이뤄집니다.</li>
 						<li>당첨자에 한해 개인정보가 경품 발송 대행사에 전달되며 경품 발송 후 즉시 폐기됩니다.</li>
 						<li>정확하지 않은 개인정보로 인해 당첨자 연락이 되지 않거나 확인이 불가능할 경우, 당첨 취소됩니다.</li>
 					</ul>
 				</div>
 			</div>
-		</div>
+		</div><!-- //section02 -->
 	</section>
+
 	<?php if($vote) { #echo '투표한 경우';// 투표한 경우 ?>
 		<div class="popUp result_modal04">
 		<div class="modal">
@@ -129,13 +124,13 @@ $reward = ($random_number <= 30); //count 방식을 변경해야 겠음.
 				</div>
 				<div class="gift_area">
 					<div class="img_box"><img src="img/sub13/sub13_modal_gift.png"></div>
-					<p>스타벅스 카드 1만원 </p>
+					<p>CU 편의점 모바일 상품권 5천원</p>
 				</div>
 				<div class="text_box">
 					<span>폼을 작성하여 제출해주세요.<br>제출한 번호로 개별 연락드릴 예정입니다.</span>
-					<p>*경품 발송 시, &lt;내 곁에 국민연금&gt;의 구독자가 <br>아닐 경우 당첨이 취소됩니다. </p>
+					<p>*경품 발송 시, &lt;내 곁에 국민연금&gt;의 구독자가 <br>아닐 경우 당첨이 취소됩니다.</p>
 				</div>
-				<div class="button" >클릭!</div>
+				<div class="button">클릭!</div>
 			</div>
 		</div>
 	</div>

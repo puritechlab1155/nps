@@ -1460,6 +1460,10 @@
 .sub13 .section02 .content .event_wrap .event_cont { background: #fff; width: 100%; max-width: 600px; margin: 0 auto; padding: 42px 35px 41px; }
 .sub13 .section02 .content .event_wrap .event_cont .ladder_select { display: flex; justify-content: space-between; padding: 0 15px; }
 .sub13 .section02 .content .event_wrap .event_cont .ladder_select li { width: 50px; height: 50px; }
+.sub13 .section02 .content .event_wrap .event_cont .ladder { position: relative; }
+.sub13 .section02 .content .event_wrap .event_cont .ladder .ladder_list { position: absolute; left: 0; top: 0; width: 100%; max-width: 530px; }
+.sub13 .section02 .content .event_wrap .event_cont .ladder .ladder_list li { max-height: 0; overflow: hidden; transition: all 2s linear; transition-delay: 0.2s; }
+.sub13 .section02 .content .event_wrap .event_cont .ladder .ladder_list li.on { max-height: 286px; }
 .sub13 .section02 .content .event_wrap .event_cont .button_list ul { display: flex; justify-content: space-between; padding: 0 15px; }
 .sub13 .section02 .content .event_wrap .event_cont .button_list ul li { width: 50px; height: 50px; }
 

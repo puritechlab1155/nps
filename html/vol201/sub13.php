@@ -66,8 +66,29 @@ $reward = ($random_number <= 30); //count 방식을 변경해야 겠음.
 						</ul>
 
 						<div class="ladder" id="ladder_body" >
-							<img src="img/sub13/sub13_ladder_body.png" id="backimage">
+							<img src="img/sub13/sub13_ladder_body.png" id="backimage01">
+							<img src="img/sub13/sub13_ladder_body02.png" id="backimage02">
+
+							<ul class="ladder_list">
+								<li><img src="img/sub13/sub13_ladder_rline01.png"></li>
+								<li><img src="img/sub13/sub13_ladder_rline02.png"></li>
+								<li><img src="img/sub13/sub13_ladder_rline03.png"></li>
+								<li><img src="img/sub13/sub13_ladder_rline04.png"></li>
+							</ul>
 						</div>
+						<script>
+							$('#backimage02').hide();
+							$('.event_cont .ladder_select li').click(function(){
+								$('#backimage01').hide();
+								$('#backimage02').show();
+
+								var ladderIdx = $(this).index();
+								$('.ladder_list li').eq(ladderIdx).addClass('on');
+								$('.ladder_list li').eq(ladderIdx).siblings().removeClass('on');
+							});
+
+							$('')
+						</script>
 
 						<div class="button_list">
 							<ul id="destination_list">

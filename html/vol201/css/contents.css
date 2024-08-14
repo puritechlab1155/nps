@@ -1457,15 +1457,35 @@
 .sub13 .section02 .content .button a.subscribe:hover { transform: translateY(-5px); box-shadow: 3.5px 3.5px #4a4a4a; }
 .sub13 .section02 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 
+
 .sub13 .section02 .content .event_wrap .event_cont { background: #fff; width: 100%; max-width: 600px; margin: 0 auto; padding: 42px 35px 41px; }
 .sub13 .section02 .content .event_wrap .event_cont .ladder_select { display: flex; justify-content: space-between; padding: 0 15px; }
 .sub13 .section02 .content .event_wrap .event_cont .ladder_select li { width: 50px; height: 50px; }
 .sub13 .section02 .content .event_wrap .event_cont .ladder { position: relative; }
-.sub13 .section02 .content .event_wrap .event_cont .ladder .ladder_list { position: absolute; left: 0; top: 0; width: 100%; max-width: 530px; }
-.sub13 .section02 .content .event_wrap .event_cont .ladder .ladder_list li { max-height: 0; overflow: hidden; transition: all 2s linear; transition-delay: 0.2s; }
+.sub13 .section02 .content .event_wrap .event_cont .ladder .ladder_list {  z-index: 2; position: absolute; left: 0; top: 0; width: 100%; max-width: 530px; }
+/* .sub13 .section02 .content .event_wrap .event_cont .ladder .ladder_list li { max-height: 0;  transition: all 2s linear; transition-delay: 0.2s; } */
+/* overflow: hidden; */
 .sub13 .section02 .content .event_wrap .event_cont .ladder .ladder_list li.on { max-height: 286px; }
-.sub13 .section02 .content .event_wrap .event_cont .button_list ul { display: flex; justify-content: space-between; padding: 0 15px; }
-.sub13 .section02 .content .event_wrap .event_cont .button_list ul li { width: 50px; height: 50px; }
+.sub13 .section02 .content .event_wrap .event_cont .button_list #destination_list { display: flex; justify-content: space-between; padding: 0 15px; }
+.sub13 .section02 .content .event_wrap .event_cont .button_list #destination_list li { width: 50px; height: 50px; }
+	
+.sub13 .section02 .content .event_wrap .event_cont .ladder .ladder_list li {
+	max-height: 0;
+    opacity: 0; /* 처음에는 투명하게 설정 */
+	transform: translateY(-10px); /*위로 살짝 이동된 상태로 시작 */
+	transition: opacity 2s all  linear; transition-delay: 0.5s; transform 0.8s ease;
+	/* 애니메이션 효과 추가 */
+}
+
+.sub13 .section02 .content .event_wrap .event_cont .ladder .ladder_list li.show {
+    opacity: 1; /* 완전히 보이도록 설정 */
+    transform: translateY(0); /* 원래 위치로 이동 */
+}
+.sub13 .section02 .content .event_wrap .event_cont .ladder .button_list #destination_list .goods_result {
+	display: none;
+	width: 100%;
+}
+
 
 .sub13 .section02 .content .text { max-width: 600px; width: 100%; background: #e8e8e8; margin: 0 auto 61px; padding: 19px; box-sizing: border-box; }
 .sub13 .section02 .content .text ul { padding-inline-start: 14px; padding-left: 14px; }

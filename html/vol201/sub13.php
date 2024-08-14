@@ -98,6 +98,8 @@ $reward = ($random_number <= 30); //count 방식을 변경해야 겠음.
 								<li id="dest1" style="background: url('img/sub13/sub13_ladder_rbtn.png') no-repeat; background-size: 100%"></li>
 							</ul>
 						</div>
+
+						
 					</div><!-- //event_cont -->
 				</div>
 
@@ -271,6 +273,8 @@ $reward = ($random_number <= 30); //count 방식을 변경해야 겠음.
 			</div>
 		</div>
 	</div>
+	<!-- 여기까지 -->
+
 	<script>
 
 		$('.popUp').hide();

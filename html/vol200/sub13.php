@@ -525,7 +525,6 @@ function boom_submit() {
 				}
 			});
 
-		
 }
 
 // 현재 날짜와 비교하여 send와 end 클래스를 제어하는 함수

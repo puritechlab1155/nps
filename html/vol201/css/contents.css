@@ -1473,7 +1473,7 @@
 	max-height: 0;
     opacity: 0; /* 처음에는 투명하게 설정 */
 	transform: translateY(-10px); /*위로 살짝 이동된 상태로 시작 */
-	transition: opacity 2s all  linear; transition-delay: 0.5s; transform 0.8s ease;
+	transition: opacity .5s ease-in-out, transform .5s ease-in-out;
 	/* 애니메이션 효과 추가 */
 }
 
@@ -1611,9 +1611,6 @@
 .result_modal06 .modal .content span { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; }
 .result_modal06 .modal .content .button { width: 200px; height: 45px; background: #b2b2b2; border-radius: 999px; color: #fff; font-family:'WavvePADO'; padding: 10px 0 7px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; margin-top: 33px; cursor: pointer; }
 .result_modal06 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 24px; paddignletter-spacing: -0.48px; }
-
-
-
 
 
 .winner-list #passwordForm { position: relative; width: 100%; max-width: 1020px;  padding: 0; margin: 100px auto; background: #fff; text-align: center; }

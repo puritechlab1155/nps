@@ -8,7 +8,7 @@ $vote = false; // 이미 참여한 경우를 의미 (이 값은 실제 데이터
 //사용자가 이미 이벤트에 참여했는지를 나타내는 변수입니다. 이 값은 실제로 데이터베이스에서 확인되어야/
 // 사용자가 이벤트에 이미 참여한 경우에는 다시 참여할 수 없도록 이 변수가 중요
 $random_number = mt_rand(1, 100); //1에서 100 사이의 랜덤한 숫자를 생성합니다. 이를 통해 이벤트에 당첨될 확률을 설정하는 데 사용
-$reward = ($random_number <= 30); // 당첨 여부 결정 (30% 확률로 당첨)
+$reward = ($random_number <= 3); // 당첨 여부 결정 (30% 확률로 당첨)
 
 ?>
 <!doctype html>
@@ -273,6 +273,44 @@ $reward = ($random_number <= 30); // 당첨 여부 결정 (30% 확률로 당첨)
     <script>
 
 document.addEventListener('DOMContentLoaded', function () {
+            // 이미지 클릭 이벤트 리스너를 설정
+            const ladderItems = document.querySelectorAll('.ladder_select li');
+
+            // 클릭 이벤트 설정
+            ladderItems.forEach(function (item) {
+                item.addEventListener('click', function () {
+                    const clickedIndex = item.getAttribute('index'); // 클릭된 이미지의 인덱스 추출
+
+                    // 나머지 이미지들의 배경을 img-change로 변경
+                    ladderItems.forEach(function (otherItem) {
+                        const otherIndex = otherItem.getAttribute('index');
+                        if (otherIndex !== clickedIndex) {
+                            switch (otherIndex) {
+                                case '0':
+                                    otherItem.style.background = "url('img/sub13/sub13_ladder01__01.png') no-repeat";
+                                    otherItem.style.backgroundSize = '100%';
+                                    break;
+                                case '1':
+                                    otherItem.style.background = "url('img/sub13/sub13_ladder02__02.png') no-repeat";
+                                    otherItem.style.backgroundSize = '100%';
+                                    break;
+                                case '2':
+                                    otherItem.style.background = "url('img/sub13/sub13_ladder03__03.png') no-repeat";
+                                    otherItem.style.backgroundSize = '100%';
+                                    break;
+                                case '3':
+                                    otherItem.style.background = "url('img/sub13/sub13_ladder04__04.png') no-repeat";
+                                    otherItem.style.backgroundSize = '100%';
+                                    break;
+                            }
+                        }
+                    });
+                });
+            });
+        });
+
+
+document.addEventListener('DOMContentLoaded', function () {
     // 초기 상태 설정 등 나머지 코드를 여기에 포함시킵니다.
     document.getElementById('backimage02').style.display = 'none';
     const ladderListItems = document.querySelectorAll('.ladder_list li');
@@ -296,13 +334,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     // var hasVoted = false;  // 이벤트에 참여하지 않은 상태로 테스트
-    var hasVoted = true;  // 이벤트에 이미 참여한 상태로 테스트
+    // var hasVoted = true;  // 이벤트에 이미 참여한 상태로 테스트
 
 
 
 
    // 이미 이벤트에 참여했는지 확인
-   var hasVoted = <?php echo json_encode($vote); ?>;
+//    var hasVoted = <?php //echo json_encode($vote); ?>;
 
 
 
@@ -314,11 +352,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-            if (hasVoted) {
-                // 이미 참여한 경우 팝업을 표시하고 더 이상 진행하지 않음
-                openModal('result_modal04');
-                return;
-            }
+            // if (hasVoted) {
+            //     // 이미 참여한 경우 팝업을 표시하고 더 이상 진행하지 않음
+            //     console.log("User has already participated. Showing modal 4.");
+            //     openModal('result_modal04');
+            //     return;
+            // }
 
 
 
@@ -357,8 +396,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         const goodsResult = destinationListItems[index].querySelector('.goods_result');
 
                         if (goodsResult) {
-                            // 30분의 1 확률로 winner 이미지 표시
-                            const isWinner = Math.random() < (1 / 30);
+                            // 3분의 1 확률로 winner 이미지 표시
+                            const isWinner = Math.random() < (1 / 3);
 
                             console.log("Index:", index, "Is Winner:", isWinner);
 
@@ -366,14 +405,22 @@ document.addEventListener('DOMContentLoaded', function () {
                             if (isWinner) {
                                 goodsResult.querySelector('.winner img').style.display = 'block';
                                 goodsResult.querySelector('.fail img').style.display = 'none';
+                                // .8초 지연 후 모달1 표시
+                                setTimeout(function () {
+                                    openModal('result_modal01'); // "축하합니다! 당첨되셨습니다." 팝업 열기
+                                }, 800); // 모달 표시 지연 시간 (.8초)
 
-                                openModal('result_modal01'); // "축하합니다! 당첨되셨습니다." 팝업 열기
+
+
                             } else {
                                 goodsResult.querySelector('.winner img').style.display = 'none';
                                 goodsResult.querySelector('.fail img').style.display = 'block';
 
                                 console.log('Fail modal should open'); // 디버깅용 로그
-                                openModal('result_modal05'); // "당첨되지 않았습니다." 팝업 열기
+                                // .8초 지연 후 모달5 표시
+                                setTimeout(function () {
+                                    openModal('result_modal05'); // "당첨되지 않았습니다." 팝업 열기
+                                }, 800); // 모달 표시 지연 시간 (.8초)
                             }
 
                             // 선택된 goods_result를 보이게 함
@@ -396,18 +443,21 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 
-    // 모달1의 버튼을 클릭하면 모달2(폼 작성 모달)를 열기
-    document.querySelector('.result_modal01 .modal-close').addEventListener('click', function () {
+     // 모달1의 버튼을 클릭하면 모달2(폼 작성 모달)를 열기
+     document.querySelector('.result_modal01 .modal-close').addEventListener('click', function () {
         closeModal(event);  // 모달1 닫기
-        openModal('result_modal02');  // 모달2 열기
+        setTimeout(function () {
+            openModal('result_modal02');  // 모달2 열기
+        }, 500); // 모달2가 0.5초 뒤에 열리도록 설정
     });
 
     // 모달2(폼 제출)에서 제출 버튼을 클릭하면 모달3(등록 완료 모달)을 열기
     document.querySelector('.result_modal02 .submit_btn').addEventListener('click', function () {
         closeModal(event);  // 모달2 닫기
-        openModal('result_modal03');  // 모달3 열기
+        setTimeout(function () {
+            openModal('result_modal03');  // 모달3 열기
+        }, 500); // 모달3가 0.5초 뒤에 열리도록 설정
     });
-
 
 
 });

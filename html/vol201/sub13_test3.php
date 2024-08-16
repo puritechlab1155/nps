@@ -8,7 +8,7 @@ $vote = false; // 이미 참여한 경우를 의미 (이 값은 실제 데이터
 //사용자가 이미 이벤트에 참여했는지를 나타내는 변수입니다. 이 값은 실제로 데이터베이스에서 확인되어야/
 // 사용자가 이벤트에 이미 참여한 경우에는 다시 참여할 수 없도록 이 변수가 중요
 $random_number = mt_rand(1, 100); //1에서 100 사이의 랜덤한 숫자를 생성합니다. 이를 통해 이벤트에 당첨될 확률을 설정하는 데 사용
-$reward = ($random_number <= 3); // 당첨 여부 결정 (30% 확률로 당첨)
+$reward = ($random_number <= 30); // 당첨 여부 결정 (30% 확률로 당첨)
 
 ?>
 <!doctype html>
@@ -296,13 +296,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     // var hasVoted = false;  // 이벤트에 참여하지 않은 상태로 테스트
-    // var hasVoted = true;  // 이벤트에 이미 참여한 상태로 테스트
+    var hasVoted = true;  // 이벤트에 이미 참여한 상태로 테스트
 
 
 
 
    // 이미 이벤트에 참여했는지 확인
-//    var hasVoted = <?php //echo json_encode($vote); ?>;
+   var hasVoted = <?php echo json_encode($vote); ?>;
 
 
 
@@ -314,12 +314,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-            // if (hasVoted) {
-            //     // 이미 참여한 경우 팝업을 표시하고 더 이상 진행하지 않음
-            //     console.log("User has already participated. Showing modal 4.");
-            //     openModal('result_modal04');
-            //     return;
-            // }
+            if (hasVoted) {
+                // 이미 참여한 경우 팝업을 표시하고 더 이상 진행하지 않음
+                openModal('result_modal04');
+                return;
+            }
 
 
 
@@ -359,7 +358,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                         if (goodsResult) {
                             // 30분의 1 확률로 winner 이미지 표시
-                            const isWinner = Math.random() < (1 / 3);
+                            const isWinner = Math.random() < (1 / 30);
 
                             console.log("Index:", index, "Is Winner:", isWinner);
 

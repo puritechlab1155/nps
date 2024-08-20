@@ -40,10 +40,26 @@
 				</div>
 				<div class="quiz">
 					<div class="img_box"><img src="img/sub11/sub11_03.svg" class="pc_display"><img src="img/sub12/sub12_03_mo.svg" class="mobile_display"></div>
-					<div class="text_box">
-						국민연금 가입자 또는 가입자였던 사람이나 노령연금 수급권자 또는 <br>
-						장애등급 2급 이상 장애 연금 수급권자가 숨지면 이들에 의존해 온 유족이 <br>
-						생계를 계속 유지할 수 있도록 지급하는 연금은?
+					<div class="quiz_cont">
+						<div class="q_title"><img src="img/sub11/sub11_04.svg"></div>
+						<div class="q_text">
+							국민연금의 기초가 되는 급여로 국민연금 가입자가 나이가 들어 소득활동에 <br>
+							종사하지 못할 경우 생활안정과 복지증진을 위하여 지급되는 급여로서 <br>
+							가입기간(연금보험료 납부기간)이 10년 이상이면 출생연도별 지급개시연령<br>
+							이후부터 평생 동안 매월 지급받는 연금은?
+						</div>
+						<div class="blank_box">
+							<ul>
+								<li>ㄴ</li>
+								<li>ㄹ</li>
+								<li>ㅇ</li>
+								<li>ㄱ</li>
+							</ul>
+						</div>
+						<div class="hint_box">
+							<div class="hint">힌트</div>
+							<div class="text">NPS 칼럼</div>
+						</div>
 					</div>
 				</div>
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/G656SnKA" target="_blank">의견 보내기</a><span class="end" href="#" >마감되었습니다</span></div>
@@ -53,7 +69,7 @@
 						<li>본 이벤트 경품은 당사 사정에 따라 변경될 수 있습니다.</li>
 						<li>이벤트 응모 시 개인정보 활용에 동의한 것으로 간주됩니다.</li>
 						<li>부정행위를 통해 이벤트 참여 시 제재를 받으며, 당첨 경품도 취소됩니다.</li>
-						<li>많은 분들께 이벤트 혜택을 드리기 위해 중복 당첨 시 경품 지급은 한 번만 이뤄집니다.</li>
+						<li>많은 분께 이벤트 혜택을 드리기 위해 중복 당첨 시 경품 지급은 한 번만 이뤄집니다.</li>
 						<li>당첨자에 한해 개인정보가 경품 발송 대행사에 전달되며 경품 발송 후 즉시 폐기됩니다.</li>
 						<li>정확하지 않은 개인정보로 인해 당첨자 연락이 되지 않거나 확인이 불가능할 경우, 당첨 취소됩니다.</li>
 					</ul>
@@ -75,8 +91,8 @@
         // 현재 날짜 및 시간 객체 생성
         var currentDate = new Date();
 
-        // 비교할 날짜와 시간 설정 (2024년 08월 25일 23시 59분 59초)
-        var targetDate = new Date("2024-08-25T23:59:59");
+        // 비교할 날짜와 시간 설정 (2024년 11월 03일 23시 30분 00초)
+        var targetDate = new Date("2024-11-03T23:30:00");
 
         // 현재 날짜가 지정한 날짜보다 이후인 경우
         if (currentDate > targetDate) {

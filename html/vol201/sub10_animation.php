@@ -5,8 +5,21 @@
 
 	<meta property="og:image" content="../../img/logosns/logosns_vol199.jpg">
 	<?php include("../../inc/head.php"); ?>
-	<link rel="stylesheet" type="text/css" href="css/contents.css">
-	
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script> -->
+
+	<!-- <link rel="stylesheet" type="text/css" href="css/contents.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/contents.css?v=1.0">
+
+
+    <script>
+    document.addEventListener("DOMContentLoaded", (event) => {
+        var tl = gsap.timeline(); //"tl" short for timeline
+        tl.to(".motion1", { duration: 1.5, rotationY: 10, scale: 1.1, y: 10, yoyo: true, repeat: -1 })
+          .to(".motion2", { duration: 2.5, rotationY: 10, scale: 0.8, y: 15, yoyo: true, repeat: -1}); //add animations.
+    });
+    </script>
 </head>
 <body>
 
@@ -20,8 +33,16 @@
 	<section id="contents">
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
-				<div class="title"><img src="img/sub10/sub10_01.svg" class="pc_display"><img src="img/sub10/sub10_01_mo.svg" class="mobile_display"></div>
-				<div class="title_txt">
+				<div class="title">
+
+                    <img id="backgroundImage" src="img/sub10/title_02.png" class="pc_display motion_main">
+                    <div class="motion1"><img src="img/sub10/Q.png" alt=""></div>
+                    <div class="motion2"><img src="img/sub10/Q2.png" alt=""></div>
+                    <img src="img/sub10/sub10_01_mo.svg" class="mobile_display">
+                    
+                </div>
+				
+                <div class="title_txt">
 					독자 여러분의 목소리에 귀 기울여 <br>
 					늘 행복한 내곁에 국민연금을 만들어 가겠습니다.
 				</div>

@@ -1260,6 +1260,14 @@
 .sub10 .section01 .content .info li{ color: #fff; list-style: disc;  }
 .sub10 .section01 .content .info li span { color:#fff; position: relative; }
 
+
+/* TEST */
+.sub10 .section01 .content .title {position: relative;}
+#backgroundImage { position: relative; }
+.motion1 { position: absolute; top:45%;}
+.motion2 { position: absolute; top:65%; left:10%;}
+
+
 @media only all and (max-width:767px) {
 	.sub10 #contents { padding: 43px 0 50px; }
 	.sub10 .section01 { max-width: 360px; width: 100%; }

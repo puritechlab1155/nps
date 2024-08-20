@@ -35,8 +35,16 @@
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
 				<div class="date_area">
-					<div class="top"><span>응모 기간</span><em>9월 11일 오후 2시 ~ <br>11월 3일 오후 11시 30분</em></div>
+					<div class="top"><span>응모 기간</span><em>9월 11일 오후 2시 ~ <br class="mobile_display">11월 3일 오후 11시 30분</em></div>
 					<div><span>경품 발송</span><em>11월 11일 오후 5시</em></div>
+				</div>
+				<div class="quiz">
+					<div class="img_box"><img src="img/sub11/sub11_03.svg" class="pc_display"><img src="img/sub12/sub12_03_mo.svg" class="mobile_display"></div>
+					<div class="text_box">
+						국민연금 가입자 또는 가입자였던 사람이나 노령연금 수급권자 또는 <br>
+						장애등급 2급 이상 장애 연금 수급권자가 숨지면 이들에 의존해 온 유족이 <br>
+						생계를 계속 유지할 수 있도록 지급하는 연금은?
+					</div>
 				</div>
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/G656SnKA" target="_blank">의견 보내기</a><span class="end" href="#" >마감되었습니다</span></div>
 				<div class="info">

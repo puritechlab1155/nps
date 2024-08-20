@@ -1228,62 +1228,60 @@
 }
 
 /* 이벤트1 */
-.sub10 #contents { position: relative; padding: 85px 0 94px; margin: 0; background-image: url(../img/sub10/sub10_03.jpg); background-repeat: repeat;}
-.sub10 .section01 {position: relative; display: block; width: 100%; max-width: 600px; margin: 0 auto; font-family:'Noto Sans CJK Kr'; }
+.sub10 #contents { position: relative; padding: 111px 0 70px; margin: 0; background-image: url(../img/sub10/sub10_03.jpg); background-repeat: repeat;}
+.sub10 .section01 { position: relative; display: block; width: 100%; max-width: 600px; margin: 0 auto; font-family:'Noto Sans CJK Kr'; }
 .sub10 .section01 .content { position: relative; }
-.sub10 .section01 .content .title img { width:100%; margin: 0 auto; }
-.sub10 .section01 .content .title_txt { width: 100%; text-align: center; font-family: 'WavvePADO'; font-size: 18px; letter-spacing: -0.36px; color: #fff; margin: 16px auto;}
-.sub10 .section01 .content .subtitle { background: #fbf471; border-radius: 50px; border: 0.7px solid #000; color: #000; text-align: center; padding: 9px 0 5px; max-width: 600px; width: 100%; margin: 41px auto 45px; font-family: 'Meetme'; font-size: 20px; letter-spacing: 0; }
-.sub10 .section01 .content .subtitle br{ display: none;}
-.sub10 .section01 .content .text { max-width: 600px; width: 100%; margin: 0px auto; color: #fff; font-weight: 400; font-size: 17px; line-height: 27px;}
-.sub10 .section01 .content .date_area { width: 100%; margin: 41px auto 40px; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff; padding: 10px 0; display: flex; color: #fff; font-size: 17px; font-weight: 400; flex-direction: column; }
-.sub10 .section01 .content .date_area .top br {display: none;}
-.sub10 .section01 .content .date_area .mid { margin: 10px 0; padding: 10px 0; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff;}
-.sub10 .section01 .content .date_area span {  color:#fff; font-weight: 700; margin-right: 44px; }
+.sub10 .section01 .content .title img { width: 100%; margin: 0 auto; }
+.sub10 .section01 .content .title_txt { width: 100%; text-align: center; font-family: 'WavvePADO'; font-size: 18px; font-weight: 400; line-height: 1.5; letter-spacing: -0.36px; color: #fff; margin: 20px auto 80px; }
+.sub10 .section01 .content .subtitle { background: #ffd92f; border-radius: 999px; border: 0.7px solid #5d3100; color: #5d3100; text-align: center; padding: 8px 0 5px; max-width: 600px; width: 100%; margin: 0 auto; font-family: 'Meetme'; font-size: 20px; font-weight: 400; letter-spacing: 0; height: 36px; }
+.sub10 .section01 .content .text { max-width: 600px; width: 100%; margin: 45px auto; color: #fff; font-weight: 400; font-size: 17px; line-height: 27px; letter-spacing: -0.34px; }
 
-.sub10 .section01 .content .gift { text-align: center; transition: all; }
-.sub10 .section01 .content .gift img { width:390px; height:246.42px; max-width: 610px; opacity: 0; }
+.sub10 .section01 .content .date_area { width: 100%; margin: 0 auto; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff; padding: 8px 0 10px; display: flex; color: #fff; font-size: 17px; font-weight: 400; flex-direction: column; }
+.sub10 .section01 .content .date_area .top { border-bottom: 0.5px solid #fff; padding-bottom: 10px; margin-bottom: 10px; }
+.sub10 .section01 .content .date_area span { color:#fff; font-weight: 700; margin-right: 44px; }
+
+.sub10 .section01 .content .gift { text-align: center; transition: all; margin: 47px auto 49px; }
+.sub10 .section01 .content .gift img { opacity: 0; width: 100%; max-width: 324px; }
 .sub10 .section01 .content .gift img.on { animation: bounce 1s; opacity: 1; }
 @keyframes bounce {
 	0%{ transform: scale(0); }
 	100%{ transform: scale(1); }
 }
 
-.sub10 .section01 .content .button { display: flex; gap: 45px; justify-content: center; margin: 54px 0 40px 0; }
-.sub10 .section01 .content .button a.subscribe { background: #00d7ff; border: 0.7px solid #000; text-align: center; color: #000; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; letter-spacing: -0.5px; transition: all 500ms; }
+.sub10 .section01 .content .button { display: flex; gap: 40px; justify-content: center; }
+.sub10 .section01 .content .button a.subscribe { background: #ff7d3f; border: 0.7px solid #5d3100; text-align: center; color: #5d3100; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; border-radius: 999px; padding: 10px 0 7px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; transition: all 500ms; }
 .sub10 .section01 .content .button a.subscribe:hover { transform: translateY(-5px); box-shadow: 3.5px 3.5px #4a4a4a; }
-.sub10 .section01 .content .button a.send { background: #004fff; border: 0.7px solid #000; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; letter-spacing: -0.5px; transition: all 500ms; }
+.sub10 .section01 .content .button a.send { background: #ffd92f; border: 0.7px solid #5d3100; text-align: center; color: #5d3100; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; padding: 10px 0 7px; border-radius: 999px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; transition: all 500ms; }
 .sub10 .section01 .content .button a.send:hover { transform: translateY(-5px); box-shadow: 3.5px 3.5px #4a4a4a; }
-.sub10 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; letter-spacing: -0.5px; }
+.sub10 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; padding: 10px 0 7px; border-radius: 36px; font-size: 25px; letter-spacing: -0.5px; }
 
-/*
-.sub10 .section01 .content .info ul { padding-inline-start: 0.7em; }
-*/
-.sub10 .section01 .content .info { max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #fff; padding-top: 20px; font-size: 14.5px; }
+.sub10 .section01 .content .info { max-width: 600px; width: 100%; margin: 59px auto 0; border-top: 0.5px solid #fff; padding-top: 20px; font-size: 14.5px; }
 .sub10 .section01 .content .info ul { padding-inline-start: 1.5em; letter-spacing: -0.3px;}
 .sub10 .section01 .content .info li{ color: #fff; list-style: disc;  }
 .sub10 .section01 .content .info li span { color:#fff; position: relative; }
 
-/*
-.sub10 .section01 .content .info li { list-style: url(../img/info_bullet.svg); list-style-position: outside; color: #fff; letter-spacing: -0.3px; }
-*/
-
 @media only all and (max-width:767px) {
-	.sub10 #contents { padding: 43px 0 35px; }
+	.sub10 #contents { padding: 43px 0 50px; }
 	.sub10 .section01 { max-width: 360px; width: 100%; }
-	.sub10 .section01 .content .title img { max-width: 300px; width: 100%; }
-	.sub10 .section01 .content .title_txt { font-size: 16px; margin-top: 33px; letter-spacing: -0.32px;}
-	.sub10 .section01 .content .subtitle { font-size: 16px; margin: 50px auto 23px; }
-	.sub10 .section01 .content .subtitle br { display: block;}
-	.sub10 .section01 .content .date_area { display: inline-block; margin: 50px auto 44px auto; }
+	.sub10 .section01 .content .title img { padding: 0 10px; }
+	.sub10 .section01 .content .title_txt { font-size: 16px; letter-spacing: -0.32px; margin: 43px auto 32px; }
+	.sub10 .section01 .content .subtitle { padding: 9px 0 7px; font-size: 16px; height: 54px; }
+	.sub10 .section01 .content .text { margin: 32px auto; }
+
+	.sub10 .section01 .content .date_area { display: inline-block; padding: 6px 0 10px; }
 	.sub10 .section01 .content .date_area > div { display: flex; }
+	.sub10 .section01 .content .date_area .top { line-height: 1.5; }
 	.sub10 .section01 .content .date_area span { margin-right: 20px; width: 20% }
-	.sub10 .section01 .content .date_area .top br{display: block;}
-	.sub10 .section01 .content .gift img { width:292.5px; height:183.6px; margin: ;}
-	.sub10 .section01 .content .button { display: flex; gap: 20px; justify-content: center; margin: 40px 0 46px 0;  }
-	.sub10 .section01 .content .button a.subscribe { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
-	.sub10 .section01 .content .button a.send { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
-	.sub10 .section01 .content .button span.end { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
+
+	.sub10 .section01 .content .gift { margin: 42px auto 46px; }
+	.sub10 .section01 .content .gift img { padding: 0 32px; }
+
+	.sub10 .section01 .content .button { display: flex; gap: 20px; justify-content: center; }
+	.sub10 .section01 .content .button a.subscribe { max-width: 170px; width: 100%; height: 45px; border-radius: 36px; font-size: 20px; padding: 11px 0; }
+	.sub10 .section01 .content .button a.send { max-width: 170px; width: 100%; height: 45px; border-radius: 36px; font-size: 20px; padding: 10px 0 12px; }
+	.sub10 .section01 .content .button span.end { max-width: 170px; width: 100%; height: 45px; border-radius: 36px; font-size: 20px; padding: 11px 0; }
+
+	.sub10 .section01 .content .info { margin-top: 36px; }
 	.sub10 .section01 .content .info ul { letter-spacing: -0.75px; }
 }
 

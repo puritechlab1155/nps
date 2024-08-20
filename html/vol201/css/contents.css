@@ -1310,7 +1310,7 @@
 .sub11 .gift .text_box { width: 100%; max-width: 360px; height: 34px; background: #5499a5; border-radius: 999px; padding: 8px 9px 3px 10px; text-align: center; color: #fff; font-family: 'laundrygothic'; font-size: 17px; font-weight: 700; letter-spacing: -0.34px; margin: 7px auto 0; }
 
 .sub11 .section02 { padding-bottom: 70px; }
-.sub11 .section02 .content .date_area { max-width: 600px; width: 100%; margin: 91px auto 53px; border-top: 0.5px solid #553835; border-bottom: 0.5px solid #553835; padding: 8px 0 10px; display: flex; color: #000; font-weight: 400; flex-direction: column; }
+.sub11 .section02 .content .date_area { max-width: 600px; width: 100%; margin: 91px auto 53px; border-top: 0.5px solid #000; border-bottom: 0.5px solid #000; padding: 8px 0 10px; display: flex; color: #000; font-size: 17px; font-weight: 400; letter-spacing: -0.34px; flex-direction: column; }
 .sub11 .section02 .content .date_area .top { border-bottom: 0.5px solid #553835; padding-bottom: 10px; margin-bottom: 10px; }
 .sub11 .section02 .content .date_area span { font-weight: 700; margin-right: 44px; color: #5499a5; }
 
@@ -1338,29 +1338,22 @@
 .sub11 .section02 .content .info li span { position: relative; }
 
 @media only all and (max-width:767px) {
-	.sub11 .section01 { padding-top: 43px; }
-	.sub11 .section01 .content .title { width: 100%; max-width: 344px; }
-	.sub11 .section01 .content .sub_title { padding: 32px 0 38px; }
+	.sub11 .section01 { padding-top: 48px; }
+	.sub11 .section01 .content { padding-bottom: 0; }
+	.sub11 .section01 .content .title { width: 100%; }
+	.sub11 .section01 .content .title img { padding: 0 25px 0 26px; }
+	.sub11 .section01 .content .text { width: 100%; max-width: 360px; margin: 0 auto; position: unset; transform: translateX(0); text-align: left; padding-bottom: 25px; padding: 31px 0 16px; }
 
-	.sub11 .section02 { max-width: 360px; width: 100%; margin: 0 auto; padding-bottom: 50px; }
-	.sub11 .section02 .content .text_area .text_box1 { padding: 23px 0 24px; }
-	.sub11 .section02 .content .text_area .text_box1 p { margin-bottom: 21px; text-align: left; }
-	.sub11 .section02 .content .text_area .text_box1 p br{ display: none; }
-	.sub11 .section02 .content .text_area .text_box1 br{ display: none; }
-	.sub11 .section02 .content .text_area .text_box1 span { line-height: 30px; }
-	.sub11 .section02 .content .text_area .text_box2 { background: url(../img/sub11/sub11_02_mo.svg); background-repeat: no-repeat; background-size: cover; text-align: left; }
-	.sub11 .section02 .content .text_area .text_box2 p { width: 100%; max-width: 294px; margin: 0 auto; }
-	.sub11 .section02 .content .text_area .text_box2 p br { display: none; }
-	.sub11 .section02 .content .text_area .text_box2 span { width: 100%; max-width: 294px; margin: 0 auto; }
+	.sub11 .gift { position: relative; }
+	.sub11 .gift::after { content: ''; width: 100%; height: 20px; background: #5499a5; position: absolute; left: 0; top: 0; transform: translateY(-50%); z-index: 1; }
+	.sub11 .gift .img_box { max-width: 313px; position: relative; z-index: 2; }
+	.sub11 .gift .text_box { max-width: 224px; padding: 10px 0 6px 1px; font-size: 15px; letter-spacing: -0.3px; margin: 6px auto 0; }
 
-	.sub11 .section02 .content .date_area { display: inline-block; color: #000; border-top: 0.5px solid #000; border-bottom: 0.5px solid #000; margin: 51px auto 31px; }
-	.sub11 .section02 .content .date_area > div { display: flex; }
-	.sub11 .section02 .content .date_area span { margin-right: 20px; width: 20%; color: #684d3c; }
-	.sub11 .section02 .content .date_area .top br{display: block;}
-	.sub11 .section02 .content .date_area .mid { border-top: 0.5px solid #000; border-bottom: 0.5px solid #000; }
+	.sub11 .section02 { padding-bottom: 50px; max-width: 360px; margin: 0 auto; }
+	.sub11 .section02 .content .date_area { margin: 32px auto 36px; padding: 6px 0 10px; line-height: 1.5; }
+	.sub11 .section02 .content .date_area .top { display: flex; }
+	.sub11 .section02 .content .date_area span { margin-right: 20px; }
 
-	.sub11 .section02 .content .text { max-width: 550px; width: 100%; margin: 25px auto 24px auto; padding: 0px; text-align: left; }
-	.sub11 .section02 .content .gift img { padding: 0 29px; }
 	.sub11 .section02 .content .button { display: flex; gap: 20px; justify-content: center; margin: 37px 0 51px; }
 	.sub11 .section02 .content .button a.subscribe { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
 	.sub11 .section02 .content .button a.send { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }

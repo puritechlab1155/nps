@@ -26,10 +26,13 @@
 					빈칸을 맞추신 분들 중 추첨을 통해 선정된 15분께는 <br>
 					1만원 상당의 커피 기프티콘을 드립니다.
 				</div>
+				<div class="text mobile_display">
+					내곁에 국민연금 가을호를 잘 읽어 보셨나요? 여러분이 읽은 웹진 속에 정답이 숨어 있습니다. 빈칸을 맞추신 분들 중 추첨을 통해 선정된 15분께는 1만원 상당의 커피 기프티콘을 드립니다.
+				</div>
 			</div>
 		</div>
 		<div class="gift">
-			<div class="img_box"><img src="img/sub11/sub11_02.png" class="pc_display"><img src="img/sub13/sub13_02_mo.png" class="mobile_display"></div>
+			<div class="img_box"><img src="img/sub11/sub11_02.png"></div>
 			<div class="text_box">이디야커피 디지털 상품권 1만원권</div>
 		</div>
 		<div class="section02 wow fadeBigInUp">

@@ -20,37 +20,24 @@
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="title"><img src="img/sub11/sub11_01.svg" class="pc_display"><img src="img/sub11/sub11_01_mo.svg" class="mobile_display"></div>
-				<div class="sub_title">웹진 &lt;내 곁에 국민연금&gt; 200호 기념! <br><span>웹진과 함께한 사연 이벤트</span></div>
+				<div class="text pc_display">
+					내곁에 국민연금 가을호를 잘 읽어 보셨나요?<br>
+					여러분이 읽은 웹진 속에 정답이 숨어 있습니다.<br>
+					빈칸을 맞추신 분들 중 추첨을 통해 선정된 15분께는 <br>
+					1만원 상당의 커피 기프티콘을 드립니다.
+				</div>
 			</div>
+		</div>
+		<div class="gift">
+			<div class="img_box"><img src="img/sub11/sub11_02.png" class="pc_display"><img src="img/sub13/sub13_02_mo.png" class="mobile_display"></div>
+			<div class="text_box">이디야커피 디지털 상품권 1만원권</div>
 		</div>
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
-				<div class="text_area">
-					<div class="text_box1">
-						<p>
-							국민연금 웹진 &lt;내 곁에 국민연금&gt;이 발간 200호를 맞이했습니다. <br>
-							1호부터 200호까지 정말 다양한 이야기로 독자 여러분과 만났는데요!<br>
-							독자 여러분들께서 &lt;내 곁에 국민연금&gt;을 보고 웃을 때도 <br>
-							감동받으실 때도 있었을 것 같습니다.
-						</p> <br>
-						<span>그래서 준비했습니다. <br class="mobile_display"> 200호 기념 사연 이벤트!</span>
-					</div>
-					<div class="text_box2">
-						<p>
-							그동안 국민연금 사보나 웹진을 통해 읽었던 다양한 이야기들 중 <br>
-							기억에 남는 에피소드, 혹은 국민연금 사보나 웹진을 통해 읽었던 이야기와 <br>
-							일상 속에서 함께한 순간들 등 국민연금 사보나 웹진과 관련된 사연을 <br>
-							보내 주시는 분들 중 추첨을 통해 선정된 
-						</p>
-						<span>15분께는 3만원 상당의<br class="mobile_display"> 치킨 기프티콘을 보내 드립니다.</span>
-					</div>
-				</div>
 				<div class="date_area">
-					<div class="top"><span>응모 기간</span><em>7월 10일 오후 2시 ~ <br>8월 25일 오후 11시 30분</em></div>
-					<div class="mid"><span>당첨 발표</span><em>9월  2일 오전 1시</em></div>
-					<div><span>경품 발송</span><em>9월  2일 오후 5시</em></div>
+					<div class="top"><span>응모 기간</span><em>9월 11일 오후 2시 ~ <br>11월 3일 오후 11시 30분</em></div>
+					<div><span>경품 발송</span><em>11월 11일 오후 5시</em></div>
 				</div>
-				<div class="gift"><img src="img/sub11/sub11_03.png"></div>
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/G656SnKA" target="_blank">의견 보내기</a><span class="end" href="#" >마감되었습니다</span></div>
 				<div class="info">
 					<ul>

@@ -85,6 +85,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     display: flex;
     justify-content: center;
     align-items: center;
+    left: 3%;
 }
 
 .sub11 .section01 .content .title .motion1 {
@@ -115,6 +116,15 @@ document.addEventListener("DOMContentLoaded", (event) => {
         left: 47.5%;
     }
 }
+@media (max-width: 1200px) {
+    .sub11 .section01 .content .title .motion1 {
+        width: 70%;
+    }
+
+    .sub11 .section01 .content .title .motion2 { 
+        left: 44%;
+    }
+}
 
 @media (max-width: 768px) {
     .sub11 .section01 .content .title .motion1 {
@@ -124,6 +134,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     .sub11 .section01 .content .title .motion2 { 
         width: 60%;
         max-width: 300px;
+        left: 45%;
     }
 }
 
@@ -135,6 +146,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     .sub11 .section01 .content .title .motion2 { 
         width: 40%;
         max-width: 150px;
+        left: 45%;
     }
 }
 </style>

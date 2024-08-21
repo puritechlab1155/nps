@@ -1302,6 +1302,8 @@
 .sub11 .section01 .content .title { width: 100%; margin: 0 auto; display: flex; justify-content: center; }
 /* .sub11 .section01 .content .title img { width:100%; max-width: 629px; } */
 .sub11 .section01 .content .title .motion1{ width:100%; max-width: 629px; }
+
+.sub11 .section01 .content .title img { width:100%; max-width: 629px; }
 .sub11 .section01 .content .text { position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; color: #fff; text-align: center; font-size: 17px; font-weight: 400; line-height: 27px; letter-spacing: -0.34px; padding-bottom: 25px; }
 
 .sub11 .gift { text-align: center; background: linear-gradient(#5499a5 50%, #d9ede5 50%); width: 100%; }
@@ -1666,22 +1668,22 @@
 } */
 
 /* 이벤트5 */
-.sub14 #contents { position: relative; padding: 134px 0 91px; margin: 0; background: #f1adc6;}
-.sub14 #contents::before { content: ''; width: 100%; height: 40%; background-image: url(../img/sub14/sub14_01-bg.svg); background-repeat: no-repeat; background-size: cover; position: absolute; left: 0; top: 0;}
-.sub14 .section01 {position: relative; display: block; width: 100%; max-width: 960px; margin: 0 auto;  padding:0 20px; }
+.sub14 #contents { position: relative; padding: 0; margin: 0; background: #576ce7;}
+.sub14 .section01 { position: relative; display: block; width: 100%; max-width: 960px; margin: 0 auto; padding:0 20px; }
 .sub14 .section01 .content { position: relative; }
-.sub14 .section01 .content .title img { width:100%; }
-.sub14 .section01 .content .sub_img { max-width: 560px; width: 100%; margin: 0 auto 59px; text-align: center; }
-.sub14 .section01 .content .sub_img img { width:100%; }
-.sub14 .section01 .content .text { max-width: 690px; width: 100%; margin: 10px auto 54px auto; color: #684d3c; text-align: center; font-size: 17px; font-weight: 400; line-height: 27px; }
-.sub14 .section01 .content .date_area { max-width: 500px; width: 100%; margin: 23px auto 51px auto; border-top: 0.5px solid #684d3c; border-bottom: 0.5px solid #684d3c; padding: 10px 0; display: flex; color: #000; font-size: 17px; font-weight: 400; flex-direction: column; font-weight: 400; }
+.sub14 .section01 .content .title { padding-top: 126px; display: flex; justify-content: center; }
+.sub14 .section01 .content .title img { width:100%; max-width: 698px; }
+.sub14 .section01 .content .title_text { color: #152375; text-align: center; font-family: 'GmarketSans'; font-size: 17px; font-weight: 500; line-height: 27px; letter-spacing: -0.68px; }
+.sub14 .section01 .content .text { max-width: 690px; width: 100%; margin: 61px auto 63px; color: #fff; text-align: center; font-size: 17px; font-weight: 400; line-height: 27px; letter-spacing: -0.68px; }
+
+.sub14 .section01 .content .gift { text-align: center; position: relative; }
+.sub14 .section01 .content .gift img { opacity: 0; }
+.sub14 .section01 .content .gift img.on { animation: bounce 1s; opacity: 1; }
+
+.sub14 .section01 .content .date_area { max-width: 600px; width: 100%; margin: 31px auto 64px; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff; padding: 8px 0 10px; display: flex; color: #fff; font-size: 17px; font-weight: 400; letter-spacing: -0.34px; flex-direction: column; }
 .sub14 .section01 .content .date_area .top br {display: none;}
 .sub14 .section01 .content .date_area .mid { margin: 10px 0; padding: 10px 0; border-top: 0.5px solid #684d3c; border-bottom: 0.5px solid #684d3c;}
-.sub14 .section01 .content .date_area span { font-weight: 700; margin-right: 44px; color: #684d3c; }
-
-.sub14 .section01 .content .gift { text-align: center; margin: 51px 0 27px 0; position: relative; }
-.sub14 .section01 .content .gift img { padding: 0 9px; opacity: 0; }
-.sub14 .section01 .content .gift img.on { animation: bounce 1s; opacity: 1; }
+.sub14 .section01 .content .date_area span { font-weight: 700; margin-right: 44px; }
 
 .sub14 .section01 .content .button { position: relative; display: flex; gap: 45px; justify-content: center; margin: 0 0 67px 0; }
 .sub14 .section01 .content .button a.subscribe { background: #424242; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; transition: all 500ms; }
@@ -1713,5 +1715,3 @@
 	.sub14 .section01 .content .button a.send { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; }
 	.sub14 .section01 .content .info ul { letter-spacing: -0.75px;  padding-inline-start: 1.5em; border-top: 0.5px solid #424242; padding-top: 20px; letter-spacing: -0.3px; }
 }
-
-	/* .sub14 .section01 .content .button span.end { max-width: 170px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 20px; } */

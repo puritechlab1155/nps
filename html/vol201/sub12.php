@@ -20,31 +20,36 @@
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="title"><img src="img/sub12/sub12_01.svg" class="pc_display"><img src="img/sub12/sub12_01_mo.svg" class="mobile_display"></div>
-				<div class="text">
-					내곁에 국민연금 여름호를 잘 읽어 보셨나요? <br>
-					여러분이 읽은 웹진 속에 정답이 숨어 있습니다. <br>
-					빈칸을 맞추신 분들 중 추첨을 통해 선정된 15분께는 <br>
-					1만원 상당의 편의점 기프티콘을 드립니다.
+				<div class="tit_img"><img src="img/sub12/sub12_02.svg"><img src="img/sub12/sub12_02_item.svg" class="tit_img_item"></div>
+				<div class="text_box">
+					<ul class="rect_item_top">
+						<li class="rect_item"></li>
+						<li class="rect_item"></li>
+						<li class="rect_item"></li>
+					</ul>
+					<p>
+						&lt;내곁에 국민연금&gt; 가을호 중 구독자분들의 마음을 <br>
+						사로잡은 이야기는 무엇인가요? <br>
+						가을호 콘텐츠 중 구독자분들의 원픽 콘텐츠는 무엇이며, <br>
+						그 이유를 메시지로 보내주시는 분들 중 추첨을 통해 선정된
+					</p>
+					<span>15분께는 3만원 상당의 치킨 기프티콘을 드립니다.</span>
+					<ul class="rect_item_bottom">
+						<li class="rect_item"></li>
+						<li class="rect_item"></li>
+						<li class="rect_item"></li>
+					</ul>
 				</div>
 			</div>
-			<div class="gift"><div><img src="img/sub12/sub12_02.png" class="pc_display"><img src="img/sub12/sub12_02_mo.png" class="mobile_display"></div></div>
 		</div>
 		
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
 				<div class="date_area">
-					<div class="top"><span>응모 기간</span><em>7월 10일 오후 2시 ~ <br>8월 25일 오후 11시 30분</em></div>
-					<div class="mid"><span>당첨 발표</span><em>9월  2일 오전 1시</em></div>
-					<div><span>경품 발송</span><em>9월  2일 오후 5시</em></div>
+					<div class="top"><span>응모 기간</span><em>9월 11일 오후 2시 ~ <br class="mobile_display">11월 3일 오후 11시 30분</em></div>
+					<div><span>경품 발송</span><em>11월 11일 오후 5시</em></div>
 				</div>
-				<div class="quiz">
-					<div class="img_box"><img src="img/sub12/sub12_03.svg" class="pc_display"><img src="img/sub12/sub12_03_mo.svg" class="mobile_display"></div>
-					<div class="text_box">
-						국민연금 가입자 또는 가입자였던 사람이나 노령연금 수급권자 또는 <br>
-						장애등급 2급 이상 장애 연금 수급권자가 숨지면 이들에 의존해 온 유족이 <br>
-						생계를 계속 유지할 수 있도록 지급하는 연금은?
-					</div>
-				</div>
+				<div class="gift"><img src="img/sub12/sub12_03.png"></div>
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/GDa9F1hT" target="_blank">의견 보내기</a><span class="end" href="#" >마감되었습니다</span></div>
 				<div class="info">
 					<ul>

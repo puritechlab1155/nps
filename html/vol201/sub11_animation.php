@@ -11,22 +11,114 @@
 
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
 
-    <script>
+    <!-- <script>
     document.addEventListener("DOMContentLoaded", (event) => {
         var tl = gsap.timeline(); //"tl" short for timeline
-        tl.to(".motion1", { duration: 2, rotationY: 10, scale: 1.2, y: 10, yoyo: true, repeat: -1 })
-          .to(".motion2", { duration: 3, rotationY: 5, scale: 1.2, y: 5, yoyo: true, repeat: -1}); //add animations.
+        tl.to(".motion1", {  duration: 2, rotationY: -10, scale: 0.9, y: -10, yoyo: true, repeat: -1, delay: 1.5})
+          .to(".motion2", {  duration: 2, rotationY: 5, scale: 1.1, y: 5, yoyo: true, repeat: -1 }); //add animations.
     });
     </script>
     <style>
         /* GSAP_ANIMATION */
-        .sub11 .section01 .content .title {position: relative;}
-        #backgroundImage { position: relative; }
-        .motion1 { top:45%; z-index: 9;}
-        .sub11 .section01 .content .title .motion2 {}
-        .motion2 { position: absolute; top:0%; left:32%;}
+        /* .sub11 .section01 .content .title {position: relative;} */
 
-    </style>
+        .sub11 .section01 .content .title .motion1{ position: relative; width:100%; max-width: 629px; top:45%; z-index: 9;}
+        .sub11 .section01 .content .title .motion2 { position: absolute; width:20%; top:10%; left:37.5%;}
+
+    </style> -->
+
+    <script>
+document.addEventListener("DOMContentLoaded", (event) => {
+    var tl = gsap.timeline({ repeat: -1, yoyo: true });
+
+    // motion1: 돋보기가 먼저 축소되고 다시 커지는 애니메이션
+    tl.to(".motion1", { 
+        duration: 1.5, 
+        scale: 0.8, 
+        ease: "power1.inOut" 
+    })
+    .to(".motion1", { 
+        duration: 1.5, 
+        scale: 1.2, 
+        ease: "power1.inOut" 
+    }, "-=1.5")  // motion2와 동시에 작동하도록 동기화
+
+    // motion2: 텍스트가 돋보기와 맞춰서 커지는 애니메이션
+    .to(".motion2", { 
+        duration: 1.5, 
+        scale: 0.9, 
+        ease: "power1.inOut" 
+    }, 0)  // 처음부터 동시에 작동
+    .to(".motion2", { 
+        duration: 1.5, 
+        scale: 1.3, 
+        ease: "power1.inOut" 
+    }, "-=1.5");
+});
+</script>
+
+<style>
+/* 기본 스타일 (PC용) */
+.sub11 .section01 .content .title {
+    position: relative;
+    text-align: center; /* 중앙 정렬 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub11 .section01 .content .title .motion1 {
+    position: relative; 
+    width: 100%; 
+    max-width: 629px; 
+    z-index: 9;
+}
+
+.sub11 .section01 .content .title .motion2 { 
+    position: absolute;
+    width: 50%;
+    max-width: 300px;
+    top: 40%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+/* 모바일용 스타일 */
+@media (max-width: 1920px) {
+    .sub11 .section01 .content .title .motion1 {
+        width: 70%; /* 모바일 화면에 맞게 돋보기 크기 축소 */
+    }
+
+    .sub11 .section01 .content .title .motion2 { 
+    left:47.5%;
+    }
+}
+
+/* 모바일용 스타일 */
+@media (max-width: 768px) {
+    .sub11 .section01 .content .title .motion1 {
+        width: 70%; /* 모바일 화면에 맞게 돋보기 크기 축소 */
+    }
+
+    .sub11 .section01 .content .title .motion2 { 
+        width: 60%; /* 텍스트 크기 조정 */
+        max-width: 300px;
+    }
+}
+
+/* 작은 모바일 디바이스 (예: 480px 이하) */
+@media (max-width: 480px) {
+    .sub11 .section01 .content .title .motion1 {
+        width: 70%; /* 작은 화면에 맞게 크기 조정 */
+    }
+
+    .sub11 .section01 .content .title .motion2 { 
+        width: 50%; /* 텍스트 크기 조정 */
+        max-width: 150px;
+    }
+}
+</style>
+
 </head>
 <body>
 
@@ -47,7 +139,7 @@
                     <img class="motion2"src="img/sub11/sub11_text.png" class="pc_display">
 
 
-                    <img src="img/sub11/sub11_01_mo.svg" class="mobile_display">
+                    <!-- <img src="img/sub11/sub11_01_mo.svg" class="mobile_display"> -->
                 </div>
 
 				<div class="text pc_display">

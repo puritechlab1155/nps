@@ -38,7 +38,6 @@
                     <img id="backgroundImage" src="img/sub10/title_02.png" class="pc_display motion_main">
                     <div class="motion1"><img src="img/sub10/Q.png" alt=""></div>
                     <div class="motion2"><img src="img/sub10/Q2.png" alt=""></div>
-					
                     <img src="img/sub10/sub10_01_mo.svg" class="mobile_display">
                     
                 </div>

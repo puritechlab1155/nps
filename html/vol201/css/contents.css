@@ -1262,11 +1262,11 @@
 
 /* GSAP_ANIMATION */
 .sub10 .section01 .content .title {position: relative;}
-#backgroundImage { position: relative; }
-.motion1 { position: absolute; top:45%;}
-.motion2 { position: absolute; top:68%; left:10%;}
-.motion3 { position: absolute; top:0%; right:30%;}
-.motion4 { position: absolute; top:15%; right:10%;}
+.sub10 .section01 .content .title #backgroundImage { position: relative; }
+.sub10 .section01 .content .title .motion1 { position: absolute; top:45%;}
+.sub10 .section01 .content .title .motion2 { position: absolute; top:68%; left:10%;}
+.sub10 .section01 .content .title .motion3 { position: absolute; top:0%; right:30%;}
+.sub10 .section01 .content .title .motion4 { position: absolute; top:15%; right:10%;}
 
 
 @media only all and (max-width:767px) {

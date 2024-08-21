@@ -21,8 +21,8 @@
         scale: 1.1, 
         yoyo: true, 
         repeat: -1,
-		z: 100,
-		
+		z: 100
+
     });
 
     gsap.to(".motion2", { 

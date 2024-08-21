@@ -9,7 +9,7 @@
     <!-- GSAP Library -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 
-    <script>
+   <!-- <script>
         // DOM 로드 후 애니메이션 실행
         document.addEventListener("DOMContentLoaded", () => {
             var tl = gsap.timeline({ repeat: -1, yoyo: false });
@@ -29,10 +29,14 @@
                 scale: 1,
                 ease: "none"
             });
+
+            gsap.to(".motion2", {duration: 3, rotatio: 360, x: 100,  y: 100, yoyo: false, repeat: -1})
+            gsap.to(".motion2", {duration: 3, rotation: 360, x: 100,  y: 100, yoyo: false, repeat: -1})
+
         });
-    </script>
+    </script> -->
 
-
+<!-- 
 
     <style>
         .sub12 .section01 .content .title { 
@@ -42,8 +46,61 @@
             transform-style: preserve-3d; /* 자식 요소에 3D 변형 적용 */
             transform-origin: center center; /* 회전 중심을 이미지의 중앙으로 설정 */
             position: relative; /* 이미지가 원형 궤도를 돌 수 있게 함 */}
+        .sub12 .section01 .content .title .motion2
+         {  width: 500px; height: 426px; 
+           position: absolute; left: -10%; top: 40%; z-index: 1; 
+        }
 
-    </style> 
+    </style>   -->
+
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        // 타임라인 생성
+        var tl = gsap.timeline({ repeat: -1, yoyo: false });
+
+        // motion1: 돋보기가 360도 회전하며 원근감을 주는 애니메이션
+        tl.to(".motion1", { 
+            duration: 3, 
+            rotationY: 360, 
+            z: -200,   // 이미지가 화면에서 멀어지는 효과
+            ease: "power2.inOut"
+        })
+        .to(".motion1", { 
+            duration: 1, 
+            z: 0,  // 원래 위치로 돌아감
+            scale: 1,
+            ease: "none"
+        });
+
+        // motion2: 이미지가 x, y 방향으로 회전하면서 움직이는 애니메이션
+        tl.to(".motion2", { 
+            duration: 3, 
+            rotation: 360,  // 회전 효과
+            x: 100,   // x축 이동
+            ease: "power2.inOut"
+        }, 0);  // 타임라인의 시작과 동시에 motion2가 작동
+    });
+</script>
+
+<style>
+    .sub12 .section01 .content .title { 
+        perspective: 800px; /* 원근감을 위한 관점 설정 */
+    }
+    .sub12 .section01 .content .title .motion1 { 
+        transform-style: preserve-3d; /* 자식 요소에 3D 변형 적용 */
+        transform-origin: center center; /* 회전 중심을 이미지의 중앙으로 설정 */
+        position: relative;
+    }
+    .sub12 .section01 .content .title .motion2 { 
+        position: absolute; 
+        width: 500px; height: 426px; 
+        position: absolute; left: -10%; z-index: 1;
+        /* top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 이미지가 중앙에서 시작되도록 설정 */
+    }
+</style>
+
 
 
 </head>
@@ -61,7 +118,8 @@
 			<div class="content">
 
 				<div class="title">
-                    <img class="motion1"src="img/sub12/sub12_title.png">
+                    <img class="motion1" src="img/sub12/sub12_title.png">
+                    <img class="motion2"src="img/sub12/sub12_star.png" alt="">
                 </div>
 
 				<div class="tit_img">

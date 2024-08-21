@@ -1383,7 +1383,10 @@
 
 .sub12 .section01 .content { position: relative; display: block; width: 100%; max-width: 1100px; margin: 0 auto; padding:0 20px; }
 .sub12 .section01 .content .title { width:100%; max-width: 447px; margin: 0 auto; position: relative; }
-.sub12 .section01 .content .title::after { content: ''; width: 500px; height: 426px; background: url(../img/sub12/sub12_01_item.svg) no-repeat; position: absolute; left: 40px; top: 20px; z-index: 1; }
+
+/* .sub12 .section01 .content .title::after { content: ''; width: 500px; height: 426px; background: url(../img/sub12/sub12_01_item.svg) no-repeat; position: absolute; left: 40px; top: 20px; z-index: 1; } */
+.sub12 .section01 .content .title::after { content: ''; width: 500px; height: 426px; background: url(../img/sub12/sub12_heart.png) no-repeat; position: absolute; left: 40px; top: 20px; z-index: 1; } */
+
 .sub12 .section01 .content .title img { width:100%; }
 .sub12 .section01 .content .tit_img { margin-left: 87px; margin-top: -40px; position: relative; }
 .sub12 .section01 .content .tit_img .tit_img_item { position: absolute; left: 84px; bottom: -5px; }

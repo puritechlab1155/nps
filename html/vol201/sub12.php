@@ -19,21 +19,25 @@
 	<section id="contents">
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
-				<div class="title"><img src="img/sub12/sub12_01.svg" class="pc_display"><img src="img/sub12/sub12_01_mo.svg" class="mobile_display"></div>
-				<div class="tit_img"><img src="img/sub12/sub12_02.svg"><img src="img/sub12/sub12_02_item.svg" class="tit_img_item"></div>
+				<div class="title"><img src="img/sub12/sub12_01.svg"></div>
+				<div class="tit_img"><img src="img/sub12/sub12_02.svg" class="pc_display tit_img_main"><img src="img/sub12/sub12_02_mo.svg" class="mobile_display"><img src="img/sub12/sub12_02_item.svg" class="tit_img_item"></div>
 				<div class="text_box">
 					<ul class="rect_item_top">
 						<li class="rect_item"></li>
 						<li class="rect_item"></li>
 						<li class="rect_item"></li>
 					</ul>
-					<p>
+					<p class="pc_display">
 						&lt;내곁에 국민연금&gt; 가을호 중 구독자분들의 마음을 <br>
 						사로잡은 이야기는 무엇인가요? <br>
 						가을호 콘텐츠 중 구독자분들의 원픽 콘텐츠는 무엇이며, <br>
 						그 이유를 메시지로 보내주시는 분들 중 추첨을 통해 선정된
 					</p>
-					<span>15분께는 3만원 상당의 치킨 기프티콘을 드립니다.</span>
+					<p class="mobile_display">
+						&lt;내곁에 국민연금&gt; 가을호 중 구독자분들의 마음을 사로잡은 이야기는 무엇인가요? <br>
+						가을호 콘텐츠 중 구독자분들의 원픽 콘텐츠는 무엇이며, 그 이유를 메시지로 보내주시는 분들 중 추첨을 통해 선정된
+					</p>
+					<span>15분께는 3만원 상당의 <br class="mobile_display">치킨 기프티콘을 드립니다.</span>
 					<ul class="rect_item_bottom">
 						<li class="rect_item"></li>
 						<li class="rect_item"></li>
@@ -57,7 +61,7 @@
 						<li><span>본 이벤트 경품은 당사 사정에 따라 변경될 수 있습니다.</span></li>
 						<li><span>이벤트 응모 시 개인정보 활용에 동의한 것으로 간주됩니다.</span></li>
 						<li><span>부정행위를 통해 이벤트 참여 시 제재를 받으며, 당첨 경품도 취소됩니다.</span></li>
-						<li><span>많은 분들께 이벤트 혜택을 드리기 위해 중복 당첨 시 경품 지급은 한 번만 이뤄집니다.</span></li>
+						<li><span>많은 분께 이벤트 혜택을 드리기 위해 중복 당첨 시 경품 지급은 한 번만 이뤄집니다.</span></li>
 						<li><span>당첨자에 한해 개인정보가 경품 발송 대행사에 전달되며 경품 발송 후 즉시 폐기됩니다.</span></li>
 						<li><span>정확하지 않은 개인정보로 인해 당첨자 연락이 되지 않거나 확인이 불가능할 경우, 당첨 취소됩니다.</span></li>
 					</ul>

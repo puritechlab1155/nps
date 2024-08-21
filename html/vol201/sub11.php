@@ -42,14 +42,18 @@
 					<div><span>경품 발송</span><em>11월 11일 오후 5시</em></div>
 				</div>
 				<div class="quiz">
-					<div class="img_box"><img src="img/sub11/sub11_03.svg" class="pc_display"><img src="img/sub12/sub12_03_mo.svg" class="mobile_display"></div>
+					<div class="img_box"><img src="img/sub11/sub11_03.svg"></div>
 					<div class="quiz_cont">
-						<div class="q_title"><img src="img/sub11/sub11_04.svg"></div>
-						<div class="q_text">
+						<div class="q_title pc_display"><img src="img/sub11/sub11_04.svg"></div>
+						<div class="q_title mobile_display"><img src="img/sub11/sub11_04_mo.svg"></div>
+						<div class="q_text pc_display">
 							국민연금의 기초가 되는 급여로 국민연금 가입자가 나이가 들어 소득활동에 <br>
 							종사하지 못할 경우 생활안정과 복지증진을 위하여 지급되는 급여로서 <br>
 							가입기간(연금보험료 납부기간)이 10년 이상이면 출생연도별 지급개시연령<br>
 							이후부터 평생 동안 매월 지급받는 연금은?
+						</div>
+						<div class="q_text mobile_display">
+							국민연금의 기초가 되는 급여로 국민연금 가입자가 나이가 들어 소득활동에 종사하지 못할 경우 생활안정과 복지증진을 위하여 지급되는 급여로서 가입기간(연금보험료 납부기간)이 10년 이상이면 출생연도별 지급개시연령 이후부터 평생 동안 매월 지급받는 연금은?
 						</div>
 						<div class="blank_box">
 							<ul>

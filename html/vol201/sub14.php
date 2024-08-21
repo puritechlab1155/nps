@@ -33,11 +33,49 @@
 				<div class="gift"><img src="img/sub14/sub14_02.png"></div>
 
 				<div class="date_area">
-					<div class="top"><span>응모 기간</span><em>9월 11일 오후 2시 ~ <br>11월 3일 오후 11시 30분</em></div>
+					<div class="top"><span>응모 기간</span><em>9월 11일 오후 2시 ~ <br class="mobile_display">11월 3일 오후 11시 30분</em></div>
 					<div><span>경품 발송</span><em>11월 11일 오후 5시</em></div>
 				</div>
+
+				<div class="item_box">
+					<ul>
+						<li class="item01">
+							<span>Q1</span>
+							<p>
+								실업크레딧은 구직급여 수급자가 연금보험료의 납부를 희망하고 본인 부담분 연금보험료(25%)를 납부하는 경우, 국가에서 보험료(75%)를 지원하고 그 기간을 최대 12개월까지 가입기간으로 추가 산입하는 제도이다.
+							</p>
+							<div class="ox_box">
+								<div class="blue">O</div>
+								<div class="line"></div>
+								<div class="red">X</div>
+							</div>
+						</li>
+						<li class="item02">
+							<span>Q2</span>
+							<p>
+								마처세대는 자녀에게 부양받는 ‘마’지막 세대이면서 부모를 부양하지 못하는 ‘처’음 세대를 말하는 신조어이다.
+							</p>
+							<div class="ox_box">
+								<div class="blue">O</div>
+								<div class="line"></div>
+								<div class="red">X</div>
+							</div>
+						</li>
+						<li class="item03">
+							<span>Q3</span>
+							<p>
+								국민연금공단 2024년 연금골든벨은 국민연금 미래 가입자인 아동들이 퀴즈를 풀면서 자연스럽게 국민연금을 비롯한 사회보장제도를 이해하는 온라인 퀴즈대회이다.
+							</p>
+							<div class="ox_box">
+								<div class="blue">O</div>
+								<div class="line"></div>
+								<div class="red">X</div>
+							</div>
+						</li>
+					</ul>
+				</div>
 				
-				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/GZZ7tbKG" target="_blank">투표하기</a><span class="end" href="#" >마감되었습니다</span></div>
+				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/GZZ7tbKG" target="_blank">정답 맞히러 가기</a><span class="end" href="#" >마감되었습니다</span></div>
 				<div class="info">
 					<ul>
 					    <li><span>&lt;내 곁에 국민연금&gt; 웹진 이벤트 5종에 대한 중복 당첨은 불가합니다.</span></li>
@@ -66,8 +104,8 @@
         // 현재 날짜 및 시간 객체 생성
         var currentDate = new Date();
 
-        // 비교할 날짜와 시간 설정 (2024년 08월 25일 23시 59분 59초)
-        var targetDate = new Date("2024-08-25T23:59:59");
+        // 비교할 날짜와 시간 설정 (2024년 11월 03일 23시 30분 00초)
+        var targetDate = new Date("2024-11-03T23:30:00");
 
         // 현재 날짜가 지정한 날짜보다 이후인 경우
         if (currentDate > targetDate) {

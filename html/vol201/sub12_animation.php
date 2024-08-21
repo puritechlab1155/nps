@@ -6,27 +6,44 @@
 	<meta property="og:image" content="../../img/logosns/logosns_vol199.jpg">
 	<?php include("../../inc/head.php"); ?>
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
-
+    <!-- GSAP Library -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 
     <script>
-		document.addEventListener("DOMContentLoaded", (event) => {
+        // DOM 로드 후 애니메이션 실행
+        document.addEventListener("DOMContentLoaded", () => {
+            var tl = gsap.timeline({ repeat: -1, yoyo: false });
 
-        gsap.to(".motion1", { duration: 3,
-            scale: 2.5, //요소가 2배 크기로 확장
-            rotationY: 360, //요소가 Y 축을 기준으로 100도 회전
-            x: 0, // 요소의 x축 위치가 0으로 설정(즉, 좌우 이동이 없음)
-            y: 100, //요소가 y축에서 10px 아래로 이동
-            z: 100, //요소가 z축에서 -100px 이동, 이는 3D 공간에서 요소가 사용자에게 더 멀리 이동하는 것처럼 보이게 함
-            repeat: -1,
-            yoyo: true})
+            // 이미지가 사용자 중심으로 3D 원근감을 주며 360도 회전하는 애니메이션
+            tl.to(".motion1", { 
+                duration: 3, 
+                rotationY: 360, 
+                z: -150,   // 이미지가 화면에서 멀어지는 효과
+                ease: "power2.inOut"
+            });
 
-		});
-		
-	</script>
+            // 회전이 끝나고 멈추는 애니메이션 (원래 위치로 돌아가기)
+            tl.to(".motion1", { 
+                duration: 1, 
+                z: 0,  // 원래 위치로 돌아감
+                scale: 1,
+                ease: "none"
+            });
+        });
+    </script>
+
+
+
     <style>
-        .sub12 .section01 .content .title {position: relative; }
-        .sub12 .section01 .content .title .motion1 { position: absolute; top: 20%; left: 30%;}
-    </style>
+        .sub12 .section01 .content .title { 
+            perspective: 400px; 
+        }
+        .sub12 .section01 .content .title .motion1 { 
+            transform-style: preserve-3d; /* 자식 요소에 3D 변형 적용 */
+            transform-origin: center center; /* 회전 중심을 이미지의 중앙으로 설정 */
+            position: relative; /* 이미지가 원형 궤도를 돌 수 있게 함 */}
+
+    </style> 
 
 
 </head>

@@ -27,7 +27,7 @@
 			<div class="content">
 				<div class="main_title">
 					노후 소득 보장의 중추<br>
-					지속가능하고 튼튼한 버팀목 국민연금
+					지속가능하고 튼튼한 <br class="mobile_display">버팀목 국민연금
 				</div>
 				<div class="subcopy">
 					노후 소득 보장 장치인 연금에는 여러 가지 형태가 있다. 먼저 손꼽을 수 있는 것으로는 국민연금, 기초연금, 퇴직연금, 개인연금, 공무원·군인·사립학교 교직원 대상의 특수직역연금 등이다. 주택연금, 농지 연금도 빼놓을 수 없다. 그렇지만 어디까지나 중심은 국민연금이다.
@@ -47,7 +47,7 @@
 					이렇듯 현대 사회에서는 다층 노후 소득 보장 체계가 보편적으로 자리 잡았다. 소득 하위 70% 노인에게 지급하는 기초연금을 바탕으로, 국민연금이 수급자의 생활 상당 부분을 책임지고, 퇴직연금이 그 나머지를 뒷받침하며, 덤으로 사적으로 준비한 개인연금이 더해져야 든든한 노후 보장을 달성할 수 있다. 다양한 연금이 정합성을 갖고 톱니바퀴 맞물리듯 조화롭게 작동할 때 노후 소득은 최적의 수준에서 보장될 수 있다.
 				</div>
 
-				<div class="item_box">
+				<div class="item_box pc_display">
 					<div class="card_list_text">
 						<p>목적</p>
 						<p class="line line01"></p>
@@ -88,6 +88,46 @@
 						<li>
 							<p>사회보험료</p>
 							<p class="line"></p>
+						</li>
+					</ul>
+				</div>
+				<div class="item_box mobile_display">
+					<ul class="card card01">
+						<li class="card_main">
+							<div class="img_box"><img src="img/sub02/sub02_01.svg"></div>
+						</li>
+						<li>
+							<span>목적</span>
+							<em>빈곤 완화 및 최저소득보장(절대적)</em>
+							<p class="line"></p>
+						</li>
+						<li>
+							<span>운영형태</span>
+							<em>정액급여의 기초연금</em>
+							<p class="line"></p>
+						</li>
+						<li>
+							<span>재원조달</span>
+							<em>조세</em>
+						</li>
+					</ul>
+					<ul class="card card02">
+						<li class="card_main">
+							<div class="img_box"><img src="img/sub02/sub02_02.svg"></div>
+						</li>
+						<li>
+							<span>목적</span>
+							<em>은퇴 이전의 생활 수준 유지(상대적)</em>
+							<p class="line"></p>
+						</li>
+						<li>
+							<span>운영형태</span>
+							<em>사회보험기반의 소득비례연금</em>
+							<p class="line"></p>
+						</li>
+						<li>
+							<span>재원조달</span>
+							<em>사회보험료</em>
 						</li>
 					</ul>
 				</div>

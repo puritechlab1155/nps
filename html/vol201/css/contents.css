@@ -510,7 +510,7 @@
 	.sub02 .section02 .content .main_title { font-size: 36px; line-height: 48px; }
 	.sub02 .section02 .content .subcopy { font-size: 20px; line-height: 32px; letter-spacing: -0.4px; margin-top: 36px; }
 
-	.sub02 .section03 .content .item_box { display: flex; flex-direction: column; margin: 24px auto 40px; }
+	.sub02 .section03 .content .item_box { display: flex; flex-direction: column; gap: 0; margin: 24px auto 40px; }
 	.sub02 .section03 .content .item_box .card li:not(.card_main) { font-family: 'laundrygothic'; font-size: 18px; font-weight: 400; line-height: 30px; letter-spacing: -0.36px; padding: 0 16px 16px 16px; }
 	.sub02 .section03 .content .item_box .card li span { display: inline-block; width: 100%; max-width: 65px; color: #c19d76; }
 	.sub02 .section03 .content .item_box .card li em { color: #000; }

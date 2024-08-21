@@ -27,35 +27,55 @@
 
     </style> -->
 
-    <script>
+
+<script>
 document.addEventListener("DOMContentLoaded", (event) => {
-    var tl = gsap.timeline({ repeat: -1, yoyo: true });
+    var tl = gsap.timeline({ repeat: -1 });
+
+    // 애니메이션이 시작되기 전 opacity를 1로 설정하여 이미지가 나타나도록 함
+    tl.set(".motion1, .motion2", { opacity: 1 });
 
     // motion1: 돋보기가 먼저 축소되고 다시 커지는 애니메이션
     tl.to(".motion1", { 
-        duration: 1.5, 
+        duration: 1,  // 시간을 단축함
         scale: 0.8, 
-        ease: "power1.inOut" 
+        ease: "circ.out"
     })
-    .to(".motion1", { 
-        duration: 1.5, 
-        scale: 1.2, 
-        ease: "power1.inOut" 
-    }, "-=1.5")  // motion2와 동시에 작동하도록 동기화
 
     // motion2: 텍스트가 돋보기와 맞춰서 커지는 애니메이션
-    .to(".motion2", { 
-        duration: 1.5, 
+    tl.to(".motion2", { 
+        duration: 0.5,  // 시간을 단축함
         scale: 0.9, 
-        ease: "power1.inOut" 
-    }, 0)  // 처음부터 동시에 작동
-    .to(".motion2", { 
-        duration: 1.5, 
-        scale: 1.3, 
-        ease: "power1.inOut" 
-    }, "-=1.5");
+        ease: "circ.out"
+    }, 0);  // 처음부터 동시에 작동
+
+    tl.to(".motion1", { 
+        duration: 2,  // 시간을 단축함
+        scale: 1.1, 
+        ease: "circ.out"
+    });
+
+    tl.to(".motion2", { 
+        duration: 2,  // 시간을 단축함
+        scale: 1.4, 
+        ease: "circ.out"
+    });
+
+    // tl.to(".motion1", { 
+    //     duration: 1,  // 시간을 단축함
+    //     scale: 1, 
+    //     ease: "circ.out"
+    // });  // 원래 크기로 돌아가는 애니메이션
+
+    // tl.to(".motion2", { 
+    //     duration: 1,  // 시간을 단축함
+    //     scale: 1, 
+    //     ease: "circ.out"
+    // });  // 원래 크기로 돌아가는 애니메이션
 });
 </script>
+
+
 
 <style>
 /* 기본 스타일 (PC용) */
@@ -72,6 +92,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     width: 100%; 
     max-width: 629px; 
     z-index: 9;
+    opacity: 0; /* 애니메이션 전에는 숨김 */
 }
 
 .sub11 .section01 .content .title .motion2 { 
@@ -81,39 +102,38 @@ document.addEventListener("DOMContentLoaded", (event) => {
     top: 40%;
     left: 48%;
     transform: translate(-50%, -50%);
+    opacity: 0; /* 애니메이션 전에는 숨김 */
 }
 
-/* 모바일용 스타일 */
+/* 반응형 스타일 */
 @media (max-width: 1920px) {
     .sub11 .section01 .content .title .motion1 {
-        width: 70%; /* 모바일 화면에 맞게 돋보기 크기 축소 */
+        width: 70%;
     }
 
     .sub11 .section01 .content .title .motion2 { 
-    left:47.5%;
+        left: 47.5%;
     }
 }
 
-/* 모바일용 스타일 */
 @media (max-width: 768px) {
     .sub11 .section01 .content .title .motion1 {
-        width: 70%; /* 모바일 화면에 맞게 돋보기 크기 축소 */
+        width: 70%;
     }
 
     .sub11 .section01 .content .title .motion2 { 
-        width: 60%; /* 텍스트 크기 조정 */
+        width: 60%;
         max-width: 300px;
     }
 }
 
-/* 작은 모바일 디바이스 (예: 480px 이하) */
 @media (max-width: 480px) {
     .sub11 .section01 .content .title .motion1 {
-        width: 70%; /* 작은 화면에 맞게 크기 조정 */
+        width: 70%;
     }
 
     .sub11 .section01 .content .title .motion2 { 
-        width: 50%; /* 텍스트 크기 조정 */
+        width: 40%;
         max-width: 150px;
     }
 }

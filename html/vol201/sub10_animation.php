@@ -12,14 +12,48 @@
 	<!-- <link rel="stylesheet" type="text/css" href="css/contents.css"> -->
     <link rel="stylesheet" type="text/css" href="css/contents.css?v=1.0">
 
+<script>
 
-    <script>
     document.addEventListener("DOMContentLoaded", (event) => {
-        var tl = gsap.timeline(); //"tl" short for timeline
-        tl.to(".motion1", { duration: 1.5, rotationY: 10, scale: 1.1, y: 10, yoyo: true, repeat: -1 })
-          .to(".motion2", { duration: 2.5, rotationY: 10, scale: 0.8, y: 15, yoyo: true, repeat: -1}); //add animations.
+    // GSAP RoughEase 사용 예시
+    gsap.to(".motion1", { 
+        duration: 2, 
+        scale: 1.1, 
+        yoyo: true, 
+        repeat: -1,
+		z: 100,
+		
     });
-    </script>
+
+    gsap.to(".motion2", { 
+        duration: 2, 
+        scale: 0.9, 
+        yoyo: true, 
+        repeat: -1,
+		z: 100
+ 
+    });
+
+    // 다른 애니메이션들
+    gsap.to(".motion3", { 
+        duration: 2, 
+        rotationY: 10, 
+        scale: 1.1, 
+        x: 10, 
+        yoyo: true, 
+        repeat: -1 
+    });
+
+    gsap.to(".motion4", { 
+        duration: 2, 
+        rotationY: 10, 
+        scale: 0.9, 
+        x: 10, 
+        yoyo: true, 
+        repeat: -1 
+    });
+});
+</script>
 </head>
 <body>
 
@@ -35,9 +69,13 @@
 			<div class="content">
 				<div class="title">
 
-                    <img id="backgroundImage" src="img/sub10/title_02.png" class="pc_display motion_main">
+                    <img id="backgroundImage" src="img/sub10/title_03.png" class="pc_display motion_main">
                     <div class="motion1"><img src="img/sub10/Q.png" alt=""></div>
                     <div class="motion2"><img src="img/sub10/Q2.png" alt=""></div>
+
+                    <div class="motion3"><img src="img/sub10/face.png" alt=""></div>
+                    <div class="motion4"><img src="img/sub10/heart1.png" alt=""></div>
+
                     <img src="img/sub10/sub10_01_mo.svg" class="mobile_display">
                     
                 </div>

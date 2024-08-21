@@ -1264,7 +1264,10 @@
 .sub10 .section01 .content .title {position: relative;}
 #backgroundImage { position: relative; }
 .motion1 { position: absolute; top:45%;}
-.motion2 { position: absolute; top:65%; left:10%;}
+.motion2 { position: absolute; top:68%; left:10%;}
+.motion3 { position: absolute; top:0%; right:30%;}
+.motion4 { position: absolute; top:15%; right:10%;}
+
 
 @media only all and (max-width:767px) {
 	.sub10 #contents { padding: 43px 0 50px; }

@@ -481,7 +481,7 @@
 				   		<li class="item"><img src="img/sub05/sub05_63.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_64.jpg"></li>
 					</ul>
-					<div class="phototitle">고창읍성</div>
+					<div class="phototitle">전동성당</div>
 					<div class="ctrl_wrap">
 						<span class="slider_dots6"></span>
 						<button type="button" class="btn_pause">정지</button>
@@ -527,10 +527,7 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 고창군 고창읍 읍내리<br class="mobile_display"> 125-9</em></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>05:00~22:00(연중무휴)</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-560-8067</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>어른 3천 원, 청소년 2천 원,<br class="mobile_display"> 어린이 1천 원(*동일금액 고창사랑상품권 제공)</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 전주시 완산구 태조로 51</em></div>
 						</div>
 					</div>
 				</div>

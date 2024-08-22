@@ -609,11 +609,11 @@
 			<div class="content">
 				<div class="num_title fadeBigInUp">
 					<div class="number"><img src="img/sub05/sub05_title-3.svg"></div>
-					<span>고창에서 즐기는 세레모니 에스프레소</span>
-					<h3>땡스덕 베르베르의집</h3>
+					<span>조선 인재들의 배움터</span>
+					<h3>전주향교</h3>
 				</div>
 				<div class="text fadeBigInUp">
-					고창에서 가장 이국적인 공간을 꼽으라면 단연 황토색 지붕을 얹은 아프리카풍의 이 카페가 아닐까 싶다. 원래 오리 집이었던 것을 카페로 개조하면서 땡스덕이란 이름을 붙였고, 베르베르(BerBer)는 북아프리카에서 스스로를 자유로운 사람, 고귀한 사람이라 일컫는 이들을 의미한다. 여기선 고창 특산물을 활용한 복분자라테, 청보리라테를 비롯해 카페 콘셉트를 고민하다 선보였다는 세레모니 에스프레소를 맛볼 수 있다. 아프리카에서 귀한 손님을 대접하는 커피 문화에서 아이디어를 얻은 세레모니 에스프레소는 깊고 진한 에스프레소를 아포가토와 아인슈페너, 라테 등 다양하게 즐길 수 있도록 구성했다. 메뉴 뿐만 아니라 공간 구석구석 소품 하나까지 주인장의 살가운 애정이 느껴져 머무는 내내 아프리카의 어느 느긋한 오후처럼 마음이 여유로워진다.
+					고려시대 창건되었다고 전해지는 전주향교는 조선시대 수많은 인재가 학문을 닦던 배움터였다. 가을이면 노란 은행이 짙어지며 더욱 운치를 더하는 이곳은 지금도 지역 유림들이 모여 공자와 맹자 등 다섯 성인에 대한 예를 올리고 있다. 특히 매년 음력 2월과 8월 초정일에 치러지는 석전대제는 유교 의식 중 가장 규모가 큰 행사라 한 번쯤 참여해 볼 만하다. 전주향교 내에는 오래된 은행나무 4그루가 남아 있는데, 그중 일월문 앞에 자리한 수령 250년 된 은행나무의 은행을 따서 기도하면 과거에 급제한다는 이야기도 전해진다. 영화 &lt;YMCA 야구단&gt;, 드라마 &lt;성균관 스캔들&gt;의 촬영지이기도 하다. 현재 남아 있는 300여 개의 향교 중 가장 아름다운 전경을 간직한 곳으로 꼽힌다.
 				</div>
 				<div class="slider_wrap">
 					<ul class="slider8">
@@ -622,7 +622,7 @@
 				   		<li class="item"><img src="img/sub05/sub05_83.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_84.jpg"></li>
 					</ul>
-					<div class="phototitle">땡스덕 베르베르의집</div>
+					<div class="phototitle">전주향교</div>
 					<div class="ctrl_wrap">
 						<span class="slider_dots8"></span>
 						<button type="button" class="btn_pause">정지</button>
@@ -668,15 +668,83 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 고창군 신림면 왕림로 25</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>10:00~19:00(연중무휴)</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>0507-1327-1829</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon6.svg">S&nbsp;&nbsp;N&nbsp;&nbsp;S</span>@thanksduck_cafe</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 전주시 완산구 향교길 139</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-288-4544</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div><!-- //section11 -->
+
+		<div class="section12 wow fadeBigInUp">
+			<div class="content">
+				<div class="num_title fadeBigInUp">
+					<div class="number"><img src="img/sub05/sub05_title-4.svg"></div>
+					<span>전주천 건너 예술가들이 모여 산다</span>
+					<h3>서학동예술마을</h3>
+				</div>
+				<div class="text fadeBigInUp">
+					서학동에는 20여 명의 화가와 소설가, 음악가들이 모여 사는 예술인 창작마을이 있다. 각자의 작업에 열중하면서도 때론 함께 모여 문화반상회를 하는가 하면 주민들과도 격의 없이 소통하는 멋진 마을이다. ‘계남정미소’ 기획전으로 큰 화제를 모았던 사진작가 김지연이 운영하는 ‘서학동사진관’은 소박하고 친근한 예술공간으로 자리매김했다. 장자의 ‘호접몽’ 등 무위자연의 동양적 세계관을 현대적 감각으로 재해석해 주목받은 화가 이희춘의 작업실을 겸한 ‘선재미술관’에서는 그의 대표작들을 만날 수 있다. 독특한 화풍을 지닌 화가 이적요의 아뜰리에 ‘적요 숨쉬다’는 다양한 주제를 지닌 그의 작품과 작업실을 둘러볼 수 있는 공간이다. 오픈 시간은 불규칙하지만, 인연이 닿는다면 따뜻한 커피 한잔에 속 깊은 이야기를 나눌 수 있는 특별한 공간이다.
+				</div>
+				<div class="slider_wrap">
+					<ul class="slider9">
+						<li class="item"><img src="img/sub05/sub05_91.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_92.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_93.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_94.jpg"></li>
+					</ul>
+					<div class="phototitle">서학동예술마을</div>
+					<div class="ctrl_wrap">
+						<span class="slider_dots9"></span>
+						<button type="button" class="btn_pause">정지</button>
+						<button type="button" class="btn_play">재생</button>
+					</div>
+					<ul class="as_slider9">
+						<li></li><li></li><li></li><li></li>
+					</ul>
+				</div>
+					<script>
+						var $mainSlider8 = $('.slider9');
+							$mainSlider8.slick({
+				 			dots: true,
+				 			appendDots: $('.slider_tab9'),
+				 			asNavFor:'.as_slider9',
+				 			arrows: false,
+				 			autoplay: true,
+				 			autoplaySpeed: 3000,
+				 			speed: 500,
+				 			slidesToShow: 1,
+				 			pauseOnHover: false,
+				 			pauseOnDotsHover: false,
+				 			pauseOnFocus: true,
+							touchThreshold: 15,
+        					swipe: true
+						});
+						$('.as_slider9').slick({
+							asNavFor:'.slider9',
+							dots: true,
+							appendDots: $('.slider_dots9'),
+							arrows: false
+						});
+						$('.section12 .ctrl_wrap .btn_pause').click(function() {
+							$mainSlider8.slick('slickPause');
+							$(this).hide().next('.btn_play').show().focus();
+						});
+						$('.section12 .ctrl_wrap .btn_play').click(function() {
+							$mainSlider8.slick('slickPlay');
+							$(this).hide().prev('.btn_pause').show().focus();
+						});
+					</script>
+				<div class="info_area">
+					<div class="info_box">
+						<div class="info_title">INFO</div>
+						<div class="info_list">
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 전주시 완산구 서학3길 85(선재미술관) 일대</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- //section12 -->
 
 	</section>
 	<!-- contents -->

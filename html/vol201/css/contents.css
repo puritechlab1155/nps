@@ -772,7 +772,19 @@
 .sub05 .section11 .content .slider8 li img {width:100%;}
 .sub05 .section11 .content .slider8 li .vod {position:absolute;left:15px;bottom:15px;display:inline-block;width:50px;height:50px;text-indent:-9999px;overflow:hidden;background:url('../../img/vol197/main/ico_vod2.png') no-repeat 50% 50%;z-index:1;}
 
-.sub05 .section11 .content .info_area .info_box { padding-bottom: 26px; }
+.sub05 .section11 .content .info_area .info_box { padding-bottom: 30px; }
+.sub05 .section11 .content .info_area .info_box .info_list { max-width: 273px; width: 100%; margin: 0 auto; }
+
+.sub05 .section12 { position: relative; width: 100%; display: block; }
+.sub05 .section12 .content { width: 100%; max-width: 1020px; padding: 0 20px; margin: 100px auto 120px; }
+
+.sub05 .section12 .content .slider9 {overflow:hidden; max-width:980px; width:100%; z-index: 2; }
+.sub05 .section12 .content .slider9 li {float:left;width:100%; position:relative;border-radius:0px;overflow:hidden;}
+.sub05 .section12 .content .slider9 li img {width:100%;}
+.sub05 .section12 .content .slider9 li .vod {position:absolute;left:15px;bottom:15px;display:inline-block;width:50px;height:50px;text-indent:-9999px;overflow:hidden;background:url('../../img/vol197/main/ico_vod2.png') no-repeat 50% 50%;z-index:1;}
+
+.sub05 .section12 .content .info_area .info_box { padding-bottom: 27px; }
+.sub05 .section12 .content .info_area .info_box .info_list { max-width: 384px; width: 100%; margin: 0 auto; }
 
 @media only all and (max-width:767px) {
 	.sub05 .section01 { height: 275px; }
@@ -783,7 +795,7 @@
 
 	.sub05 .section02 { padding-top: 47px; }
 	.sub05 .section02 .content .title { font-size: 36px; line-height: 48px; padding-bottom: 35px; }
-	.sub05 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: normal; margin-bottom: 52px; }
+	.sub05 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: normal; margin-bottom: 36px; }
 
 	.sub05 .content .num_title .number { width: 36px; }
 	.sub05 .content .num_title span { font-size: 18px; line-height: 23px; }

@@ -9,50 +9,6 @@
     <!-- GSAP Library -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 
-   <!-- <script>
-        // DOM 로드 후 애니메이션 실행
-        document.addEventListener("DOMContentLoaded", () => {
-            var tl = gsap.timeline({ repeat: -1, yoyo: false });
-
-            // 이미지가 사용자 중심으로 3D 원근감을 주며 360도 회전하는 애니메이션
-            tl.to(".motion1", { 
-                duration: 3, 
-                rotationY: 360, 
-                z: -150,   // 이미지가 화면에서 멀어지는 효과
-                ease: "power2.inOut"
-            });
-
-            // 회전이 끝나고 멈추는 애니메이션 (원래 위치로 돌아가기)
-            tl.to(".motion1", { 
-                duration: 1, 
-                z: 0,  // 원래 위치로 돌아감
-                scale: 1,
-                ease: "none"
-            });
-
-            gsap.to(".motion2", {duration: 3, rotatio: 360, x: 100,  y: 100, yoyo: false, repeat: -1})
-            gsap.to(".motion2", {duration: 3, rotation: 360, x: 100,  y: 100, yoyo: false, repeat: -1})
-
-        });
-    </script> -->
-
-<!-- 
-
-    <style>
-        .sub12 .section01 .content .title { 
-            perspective: 400px; 
-        }
-        .sub12 .section01 .content .title .motion1 { 
-            transform-style: preserve-3d; /* 자식 요소에 3D 변형 적용 */
-            transform-origin: center center; /* 회전 중심을 이미지의 중앙으로 설정 */
-            position: relative; /* 이미지가 원형 궤도를 돌 수 있게 함 */}
-        .sub12 .section01 .content .title .motion2
-         {  width: 500px; height: 426px; 
-           position: absolute; left: -10%; top: 40%; z-index: 1; 
-        }
-
-    </style>   -->
-
     <script>
     document.addEventListener("DOMContentLoaded", () => {
         // 타임라인 생성
@@ -99,6 +55,14 @@
         left: 50%;
         transform: translate(-50%, -50%); 이미지가 중앙에서 시작되도록 설정 */
     }
+
+    @media only all and (max-width:767px) {
+     .sub12 .section01 .content .title::after {background: none !important;}
+     .sub12 .section01 .content .title .motion2 { left: -25%;}
+    
+
+    }
+
 </style>
 
 </head>

@@ -19,8 +19,14 @@
 	<section id="contents">
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
-				<div class="title"><img src="img/sub12/sub12_01.svg"></div>
-				<div class="tit_img"><img src="img/sub12/sub12_02.svg" class="pc_display tit_img_main"><img src="img/sub12/sub12_02_mo.svg" class="mobile_display"><img src="img/sub12/sub12_02_item.svg" class="tit_img_item"></div>
+				<div class="title">
+					<img src="img/sub12/sub12_01.svg">
+				</div>
+				<div class="tit_img">
+					<img src="img/sub12/sub12_02.svg" class="pc_display tit_img_main">
+					<img src="img/sub12/sub12_02_mo.svg" class="mobile_display">
+					<img src="img/sub12/sub12_02_item.svg" class="tit_img_item">
+				</div>
 				<div class="text_box">
 					<ul class="rect_item_top">
 						<li class="rect_item"></li>

@@ -38,7 +38,7 @@
 				</div>
 
 				<div class="item_box">
-					<ul>
+					<ul class="pc_display">
 						<li class="item01">
 							<span>Q 1</span>
 							<p>
@@ -71,6 +71,17 @@
 								<div class="line"></div>
 								<div class="red">X</div>
 							</div>
+						</li>
+					</ul>
+					<ul class="mobile_display">
+						<li class="item01">
+							<img src="img/sub14/sub14_03.svg">
+						</li>
+						<li class="item02">
+							<img src="img/sub14/sub14_04.svg">
+						</li>
+						<li class="item03">
+							<img src="img/sub14/sub14_05.svg">
 						</li>
 					</ul>
 				</div>

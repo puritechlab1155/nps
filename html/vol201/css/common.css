@@ -248,7 +248,7 @@ a:hover { color: #F6A13C; text-decoration: none; }
 .slider_wrap {position:relative;}
 .slider_wrap .slick-dots {text-align:center; display: flex; gap: 25px; justify-content: center; }
 .slider_wrap .slick-dots li { width:10px;height:10px; background:#b2b2b2;text-indent:-999px;overflow:hidden;border-radius:10px;cursor:pointer;vertical-align:middle; }
-.slider_wrap .slick-dots li.slick-active {width:10px;height:10px;background:#70C6F3;}
+.slider_wrap .slick-dots li.slick-active { width: 10px; height: 10px; background: #ff926a; }
 .slider_wrap .ctrl_wrap { display: flex; width: 100%; margin-top: 32px; text-align: center; justify-content: center; align-items: center; }
 .slider_wrap .ctrl_wrap .btn_pause,.slider_wrap .ctrl_wrap .btn_play {display:inline-block;width:16px;height:16px;text-indent:-999px;overflow:hidden;vertical-align:middle; background: #000;border-radius:24px; margin-left: 25px; }
 .slider_wrap .ctrl_wrap .btn_play { background: url(../img/ico_play.svg) no-repeat; display:none;}

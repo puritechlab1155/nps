@@ -37,53 +37,59 @@
 					<div><span>경품 발송</span><em>11월 11일 오후 5시</em></div>
 				</div>
 
-				<div class="item_box">
-					<ul class="pc_display">
-						<li class="item01">
-							<span>Q 1</span>
-							<p>
-								실업크레딧은 구직급여 수급자가 연금보험료의 납부를 희망하고 본인 부담분 연금보험료(25%)를 납부하는 경우, 국가에서 보험료(75%)를 지원하고 그 기간을 최대 12개월까지 가입기간으로 추가 산입하는 제도이다.
-							</p>
-							<div class="ox_box">
-								<div class="blue">O</div>
-								<div class="line"></div>
-								<div class="red">X</div>
-							</div>
-						</li>
-						<li class="item02">
-							<span>Q 2</span>
-							<p>
-								마처세대는 자녀에게 부양받는 ‘마’지막 세대이면서 부모를 부양하지 못하는 ‘처’음 세대를 말하는 신조어이다.
-							</p>
-							<div class="ox_box">
-								<div class="blue">O</div>
-								<div class="line"></div>
-								<div class="red">X</div>
-							</div>
-						</li>
-						<li class="item03">
-							<span>Q 3</span>
-							<p>
-								국민연금공단 2024년 연금골든벨은 국민연금 미래 가입자인 아동들이 퀴즈를 풀면서 자연스럽게 국민연금을 비롯한 사회보장제도를 이해하는 온라인 퀴즈대회이다.
-							</p>
-							<div class="ox_box">
-								<div class="blue">O</div>
-								<div class="line"></div>
-								<div class="red">X</div>
-							</div>
-						</li>
-					</ul>
-					<ul class="mobile_display">
-						<li class="item01">
-							<img src="img/sub14/sub14_03.svg">
-						</li>
-						<li class="item02">
-							<img src="img/sub14/sub14_04.svg">
-						</li>
-						<li class="item03">
-							<img src="img/sub14/sub14_05.svg">
-						</li>
-					</ul>
+				<div class="pc_display">
+					<div class="item_box">
+						<ul>
+							<li class="item01">
+								<span>Q 1</span>
+								<p>
+									실업크레딧은 구직급여 수급자가 연금보험료의 납부를 희망하고 본인 부담분 연금보험료(25%)를 납부하는 경우, 국가에서 보험료(75%)를 지원하고 그 기간을 최대 12개월까지 가입기간으로 추가 산입하는 제도이다.
+								</p>
+								<div class="ox_box">
+									<div class="blue">O</div>
+									<div class="line"></div>
+									<div class="red">X</div>
+								</div>
+							</li>
+							<li class="item02">
+								<span>Q 2</span>
+								<p>
+									마처세대는 자녀에게 부양받는 ‘마’지막 세대이면서 부모를 부양하지 못하는 ‘처’음 세대를 말하는 신조어이다.
+								</p>
+								<div class="ox_box">
+									<div class="blue">O</div>
+									<div class="line"></div>
+									<div class="red">X</div>
+								</div>
+							</li>
+							<li class="item03">
+								<span>Q 3</span>
+								<p>
+									국민연금공단 2024년 연금골든벨은 국민연금 미래 가입자인 아동들이 퀴즈를 풀면서 자연스럽게 국민연금을 비롯한 사회보장제도를 이해하는 온라인 퀴즈대회이다.
+								</p>
+								<div class="ox_box">
+									<div class="blue">O</div>
+									<div class="line"></div>
+									<div class="red">X</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="mobile_display">
+					<div class="item_box">
+						<ul>
+							<li class="item01">
+								<img src="img/sub14/sub14_03.svg">
+							</li>
+							<li class="item02">
+								<img src="img/sub14/sub14_04.svg">
+							</li>
+							<li class="item03">
+								<img src="img/sub14/sub14_05.svg">
+							</li>
+						</ul>
+					</div>
 				</div>
 				
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/GZZ7tbKG" target="_blank">정답 맞히러 가기</a><span class="end" href="#" >마감되었습니다</span></div>

@@ -497,6 +497,16 @@
 .sub02 .section05 { position: relative; width: 100%; display: block; }
 .sub02 .section05 .content { width: 100%; max-width: 1020px; padding: 0 20px; margin: 0 auto 120px; }
 
+.sub02 .section03 .content .pc_display_only { display: block; }
+.sub02 .section03 .content .tablet_display_only { display: none; }
+.sub02 .section03 .content .mobile_display_only { display: none; }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.sub02 .section03 .content .pc_display_only { display: none; }
+	.sub02 .section03 .content .tablet_display_only { display: block; margin-top: 36px; }
+	.sub02 .section03 .content .mobile_display_only { display: none; }
+}
+
 @media only all and (max-width:767px) {
 	.sub02 .content .subtitle { font-size: 16px; line-height: 28px; }
 	.sub02 .content .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
@@ -510,18 +520,15 @@
 	.sub02 .section02 .content .main_title { font-size: 36px; line-height: 48px; }
 	.sub02 .section02 .content .subcopy { font-size: 20px; line-height: 32px; letter-spacing: -0.4px; margin-top: 36px; }
 
-	.sub02 .section03 .content .item_box { display: flex; flex-direction: column; gap: 0; margin: 24px auto 40px; }
-	.sub02 .section03 .content .item_box .card li:not(.card_main) { font-family: 'laundrygothic'; font-size: 18px; font-weight: 400; line-height: 30px; letter-spacing: -0.36px; padding: 0 16px 16px 16px; }
-	.sub02 .section03 .content .item_box .card li span { display: inline-block; width: 100%; max-width: 65px; color: #c19d76; }
-	.sub02 .section03 .content .item_box .card li em { color: #000; }
-	.sub02 .section03 .content .item_box .card li .line { margin-top: 16px; }
-	.sub02 .section03 .content .item_box .card li.card_main { margin-bottom: 24px; }
-	.sub02 .section03 .content .item_box .card02 { margin-top: 24px; }
-
 	.sub02 .section04 .content { margin: 36px auto; }
 	.sub02 .section04 .content .img_box1 { margin: 24px auto 36px; }
 
-	.sub02 .section05 .content { margin-bottom: 47px; }	
+	.sub02 .section05 .content { margin-bottom: 47px; }
+
+	.sub02 .section03 .content .pc_display_only { display: none; }
+	.sub02 .section03 .content .tablet_display_only { display: none; }
+	.sub02 .section03 .content .mobile_display_only { display: block; text-align: center; }
+	.sub02 .section03 .content .mobile_display_only img { display: block; margin-top: 24px; }
 }
 
 /* M&Z&X툰 */
@@ -1758,7 +1765,7 @@
 .sub14 .section01 .content .date_area .top { border-bottom: 0.5px solid #fff; padding-bottom: 10px; margin-bottom: 10px; }
 .sub14 .section01 .content .date_area span { font-weight: 700; margin-right: 44px; }
 
-.sub14 .section01 .content .pc_display .item_box ul { display: flex; flex-direction: column; gap: 32px; width: 100%; max-width: 600px; margin: 0 auto; }
+.sub14 .section01 .content .pc_display .item_box ul { display: flex; flex-direction: column; gap: 32px; width: 100%; max-width: 600px; margin: 0 auto; justify-content: center; }
 .sub14 .section01 .content .pc_display .item_box ul li { width: 100%; background: #fff; border-radius: 24px; border: 3px solid #152375; padding: 31px 41px; }
 .sub14 .section01 .content .pc_display .item_box ul li:nth-child(1) { max-height: 250px; }
 .sub14 .section01 .content .pc_display .item_box ul li:nth-child(2) { max-height: 225px; }
@@ -1794,7 +1801,7 @@
 	.sub14 .section01 .content .date_area .top { line-height: 1.5; }
 	.sub14 .section01 .content .date_area span { margin-right: 20px; }
 
-	.sub14 .section01 .content .mobile_display .item_box ul { display: flex; flex-direction: column; gap: 32px; }
+	.sub14 .section01 .content .mobile_display .item_box ul { display: flex; flex-direction: column; gap: 32px; justify-content: center; }
 
 	.sub14 .section01 .content .button { display: flex; gap: 20px; justify-content: center; margin: 36px 0; }
 	.sub14 .section01 .content .button a.subscribe { max-width: 170px; width: 100%; height: 45px; font-size: 20px; letter-spacing: -0.4px; padding: 12px 0 10px; }

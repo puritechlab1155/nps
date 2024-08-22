@@ -256,7 +256,7 @@ $reward = ($random_number <= 3); // 당첨 여부 결정 (30% 확률로 당첨)
                             제출한 번호로 개별 연락드릴 예정입니다.<br>
                             감사합니다.
                         </p>
-                        <span>*경품 발송 시, &lt;내 곁에 국민연금&gt;의 구독자가 아닐 경우 당첨이 취소됩니다. </span>
+                        <span>*경품 발송 시, &lt;내 곁에 국민연금&gt;의 구독자가 아닐 경우 <br class="mobile_display">당첨이 취소됩니다. </span>
                         <div class="button modal-close">닫기</div>
                     </div>
                 </div>

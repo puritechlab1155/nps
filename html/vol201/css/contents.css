@@ -476,12 +476,12 @@
 .sub02 .section03 .content { width: 100%; max-width: 1020px; padding: 0 20px; margin: 0 auto; }
 
 .sub02 .section03 .content .item_box { margin: 36px auto 70px; display: flex; justify-content: center; align-items: flex-end; gap: 30px; }
-.sub02 .section03 .content .item_box p:not(.line) { font-family: 'laundrygothic'; font-size: 18px; font-weight: 400; line-height: 30px; letter-spacing: -0.36px; padding: 16px 0 16px 20px; }
+.sub02 .section03 .content .item_box p:not(.line) { font-family: 'laundrygothic'; font-size: 18px; font-weight: 400; line-height: 30px; letter-spacing: -0.36px; padding: 24px 0 16px; }
 .sub02 .section03 .content .item_box .line { width: 100%; height: 2px; background: #bfbfbf; position: relative; }
 .sub02 .section03 .content .item_box .line01::after { content: ''; width: 30px; height: 2px; background: #bfbfbf; position: absolute; left: 100%; top: 0; }
 .sub02 .section03 .content .item_box .card_list_text { flex: 1; color: #c19d76; }
 .sub02 .section03 .content .item_box .card { width: 100%; max-width: 350px; }
-.sub02 .section03 .content .item_box .card li p { color: #000; }
+.sub02 .section03 .content .item_box .card li p { color: #000; padding-left: 20px; }
 .sub02 .section03 .content .item_box .card li.card_main { max-height: 350px; overflow: hidden; margin-bottom: 8px; }
 .sub02 .section03 .content .item_box .card li.card_main .img_box { text-align: center; width: 100%; margin: 0 auto; }
 .sub02 .section03 .content .item_box .card li.card_main .img_box img { width: 100%; }
@@ -754,8 +754,8 @@
 .sub05 .section10 .content .slider7 li img {width:100%;}
 .sub05 .section10 .content .slider7 li .vod {position:absolute;left:15px;bottom:15px;display:inline-block;width:50px;height:50px;text-indent:-9999px;overflow:hidden;background:url('../../img/vol197/main/ico_vod2.png') no-repeat 50% 50%;z-index:1;}
 
-.sub05 .section10 .content .info_area .info_box { padding-bottom: 29px; }
-.sub05 .section10 .content .info_area .info_box .info_list { max-width: 530px; width: 100%; margin: 0 auto; }
+.sub05 .section10 .content .info_area .info_box { padding-bottom: 36px; }
+.sub05 .section10 .content .info_area .info_box .info_list { max-width: 586px; width: 100%; margin: 0 auto; }
 
 .sub05 .section11 { position: relative; width: 100%; display: block; }
 .sub05 .section11 .content { width: 100%; max-width: 1020px; padding: 0 20px; margin: 100px auto; }
@@ -1536,7 +1536,7 @@
 .sub13 .section02 .content .info { max-width: 600px; width: 100%; margin: 0px auto; }
 .sub13 .section02 .content .info ul { padding-inline-start: 1.5em; border-top: 0.5px solid #fff; color: #fff; padding-top: 20px; }
 .sub13 .section02 .content .info ul li { list-style: disc; font-family:'Noto Sans CJK Kr'; font-size: 15px; letter-spacing: -0.3px; font-weight: 400; }
-.sub11 .section01 .content .info li::marker { font-size: 8px; }
+.sub13 .section01 .content .info li::marker { font-size: 8px; }
 .sub13 .section02 .content .info ul li span { position: relative; }
 
 @media only all and (max-width:767px) {
@@ -1544,7 +1544,7 @@
 	.sub13 .section01 .content { padding:0 20px 42px; }
 	.sub13 .section01 .content .title { width:100%; max-width: 100%; }
 	.sub13 .section01 .content .title img { transform: scale(1.1); }
-	.sub13 .section01 .content .text { color: #fff; margin-top: 36px; font-size: 17px; font-weight: 400; line-height: 27px; letter-spacing: -0.68px; }
+	.sub13 .section01 .content .text { color: #fff; margin-top: 26px; font-size: 17px; font-weight: 400; line-height: 27px; letter-spacing: -0.68px; }
 
 	.sub13 .section01 .gift { position: relative; }
 	.sub13 .section01 .gift::after { content: ''; width: 100%; height: 10px; background: #7656f7; position: absolute; left: 0; bottom: 0; transform: translateY(50%); z-index: 1; }
@@ -1553,16 +1553,17 @@
 	.sub13 .section02 { background: #7656f7; padding: 22px 0 50px; }
 	.sub13 .section02 .content .howto img { padding: 0 36px; }
 
-	.sub13 .section02 .content .date_area { margin: 60px auto 49px; letter-spacing: -0.34px; }
+	.sub13 .section02 .content .date_area { margin: 61px auto 51px; letter-spacing: -0.34px; }
 	.sub13 .section02 .content .date_area > div { display: flex; }
 	.sub13 .section02 .content .date_area span { margin-right: 20px; }
 	
-	.sub13 .section01 .content .button { margin-bottom: 47px; }
-	.sub13 .section01 .content .button a.subscribe { max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 999px; font-size: 20px; margin:5px; }
-	.sub13 .section01 .content .button span.end { max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 999px; font-size: 20px; margin:5px; }
+	.sub13 .section02 .content .button { margin-bottom: 47px; }
+	.sub13 .section02 .content .button a.subscribe { max-width: 200px; width: 100%; height: 45px; border-radius: 999px; font-size: 20px; margin:5px; padding: 13px 0 9px; }
+	.sub13 .section02 .content .button span.end { max-width: 200px; width: 100%; height: 45px; border-radius: 999px; font-size: 20px; margin:5px; padding: 13px 0 9px; }
 
 	.sub13 .section02 .content .event_wrap .event_cont { padding: 26px 21px; }
 	.sub13 .section02 .content .event_wrap .event_cont .ladder_select { padding: 0; }
+	.sub13 .section02 .content .event_wrap .event_cont .button_list #destination_list { padding: 0; }
 	.sub13 .section02 .content .event_wrap .event_cont .button_list ul { padding: 0; }
 
 	.sub13 .section02 .content .text { margin: 0 auto 47px; padding: 19px 10px 17px; }
@@ -1570,13 +1571,6 @@
 
     .sub13 .section01 .content .info ul { margin: 0 20px;}
 	.sub13 .section02 .content .info ul li { letter-spacing: -0.75px; }
-}
-
-@media only all and (max-width:375px) {
-	.sub13 .section01 .content .date_area { max-width: 320px; width: 100%; }
-	.sub13 .section01 .content .draw { max-width: 320px; width: 100%; gap: 9px; }
-	.sub13 .section01 .content .draw div { flex-basis: 70px; }
-	.sub13 .section01 .content .text { max-width: 320px; width: 100%; }
 }
 
 /* 이벤트 당첨자리스트 */
@@ -1633,7 +1627,7 @@
 .result_modal04 .modal .content p { font-family:'WavvePADO'; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; margin: 26px auto 19px; }
 .result_modal04 .modal .content span { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; }
 .result_modal04 .modal .content .button { width: 200px; height: 45px; background: #b2b2b2; border-radius: 999px; color: #fff; font-family:'WavvePADO'; padding: 10px 0 7px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; margin-top: 33px; cursor: pointer; }
-.result_modal04 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 24px; paddignletter-spacing: -0.48px; }
+.result_modal04 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 24px; letter-spacing: -0.48px; }
 
 .result_modal05 { position: fixed; background: rgba(0, 0, 0, 0.3); left: 0; top: 0; right: 0; bottom: 0; padding: 20px; }
 .result_modal05 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 500px; }
@@ -1642,7 +1636,7 @@
 .result_modal05 .modal .content p { font-family:'WavvePADO'; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; margin: 26px auto 19px; }
 .result_modal05 .modal .content span { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; }
 .result_modal05 .modal .content .button { width: 200px; height: 45px; background: #b2b2b2; border-radius: 999px; color: #fff; font-family:'WavvePADO'; padding: 10px 0 7px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; margin-top: 33px; cursor: pointer; }
-.result_modal05 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 24px; paddignletter-spacing: -0.48px; }
+.result_modal05 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 24px; letter-spacing: -0.48px; }
 
 .result_modal06 { position: fixed; background: rgba(0, 0, 0, 0.3); left: 0; top: 0; right: 0; bottom: 0; padding: 20px; }
 .result_modal06 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 500px; }
@@ -1651,7 +1645,66 @@
 .result_modal06 .modal .content p { font-family:'WavvePADO'; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; margin: 26px auto 19px; }
 .result_modal06 .modal .content span { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; }
 .result_modal06 .modal .content .button { width: 200px; height: 45px; background: #b2b2b2; border-radius: 999px; color: #fff; font-family:'WavvePADO'; padding: 10px 0 7px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; margin-top: 33px; cursor: pointer; }
-.result_modal06 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 24px; paddignletter-spacing: -0.48px; }
+.result_modal06 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 24px; letter-spacing: -0.48px; }
+
+@media only all and (max-width: 767px) {
+	.result_modal01 .modal { max-width: 320px; height: fit-content; }
+	.result_modal01 .modal .content .message .main_text { font-size: 30px; margin: -55px auto 10px; }
+	.result_modal01 .modal .content .message .sub_text { font-size: 18px; }
+	.result_modal01 .modal .content .gift_area { max-width: 250px; }
+	.result_modal01 .modal .content .gift_area p { font-size: 13px; }
+	.result_modal01 .modal .content .text_box span { font-size: 15px; }
+	.result_modal01 .modal .content .text_box p { font-size: 12px; }
+	.result_modal01 .modal .content .button { width: 170px; }
+
+	.result_modal02 .modal { max-width: 320px; height: fit-content; }
+	.result_modal02 .modal .content { padding: 38px 20px 31px 20px; }
+	.result_modal02 .modal .content .winning_form .header .main_txt { font-size: 20px; }
+	.result_modal02 .modal .content .winning_form .header .sub_txt { font-size: 13px; }
+	.result_modal02 .modal .content .winning_form .input_area > div label { font-size: 12px; padding-top: 5px; }
+	.result_modal02 .modal .content .winning_form .input_area .winner_name input { width: 200px; }
+	.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel select { width: 55px; }
+	.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel input { width: 55px; }
+	.result_modal02 .modal .content .winning_form .input_area .winner_email input { width: 200px; }
+	.result_modal02 .modal .content .winning_form .agreement .title { font-size: 13px; }
+	.result_modal02 .modal .content .winning_form .agreement .cont dl dt { font-size: 12px; }
+	.result_modal02 .modal .content .winning_form .agreement .cont dl dd { font-size: 12px; }
+	.result_modal02 .modal .content .winning_form .agreement .winner_agree input { width: 20px; height: 20px; }
+	.result_modal02 .modal .content .winning_form .submit_btn { width: 170px;font-size: 20px; }
+
+	.result_modal03 .modal { max-width: 320px; height: fit-content; }
+	.result_modal03 .modal .content .main_text { font-size: 30px; }
+	.result_modal03 .modal .content p { font-size: 15px; }
+	.result_modal03 .modal .content span { font-size: 12px; padding: 0 20px; }
+	.result_modal03 .modal .content .button { width: 170px; font-size: 20px; }
+
+	.result_modal04 { position: fixed; background: rgba(0, 0, 0, 0.3); left: 0; top: 0; right: 0; bottom: 0; padding: 20px; }
+	.result_modal04 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 500px; }
+	.result_modal04 .modal .content { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 47px 0 46px; text-align: center; }
+	.result_modal04 .modal .content .main_text { color: #1375db; font-family:'WavvePADO'; font-size: 40px; font-weight: 400; padding-top: 5px; padding-bottom: 10px; letter-spacing: -0.8px; }
+	.result_modal04 .modal .content p { font-family:'WavvePADO'; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; margin: 26px auto 19px; }
+	.result_modal04 .modal .content span { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; }
+	.result_modal04 .modal .content .button { width: 200px; height: 45px; background: #b2b2b2; border-radius: 999px; color: #fff; font-family:'WavvePADO'; padding: 10px 0 7px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; margin-top: 33px; cursor: pointer; }
+	.result_modal04 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 24px; letter-spacing: -0.48px; }
+
+	.result_modal05 .modal { max-width: 320px; }
+	.result_modal05 .modal .content .main_text { font-size: 30px; }
+	.result_modal05 .modal .content p { font-size: 15px; }
+	.result_modal05 .modal .content span { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; }
+	.result_modal05 .modal .content .button { width: 170px; }
+	.result_modal05 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 24px; letter-spacing: -0.48px; }
+	.result_modal05 .modal .content .message .img_box { text-align: center; }
+	.result_modal05 .modal .content .message .img_box img { width: 70%; }
+
+	.result_modal06 { position: fixed; background: rgba(0, 0, 0, 0.3); left: 0; top: 0; right: 0; bottom: 0; padding: 20px; }
+	.result_modal06 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 500px; }
+	.result_modal06 .modal .content { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 47px 0 46px; text-align: center; }
+	.result_modal06 .modal .content .main_text { color: #1375db; font-family:'WavvePADO'; font-size: 40px; font-weight: 400; padding-top: 5px; padding-bottom: 10px; letter-spacing: -0.8px; }
+	.result_modal06 .modal .content p { font-family:'WavvePADO'; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; margin: 26px auto 19px; }
+	.result_modal06 .modal .content span { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; }
+	.result_modal06 .modal .content .button { width: 200px; height: 45px; background: #b2b2b2; border-radius: 999px; color: #fff; font-family:'WavvePADO'; padding: 10px 0 7px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; margin-top: 33px; cursor: pointer; }
+	.result_modal06 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 24px; letter-spacing: -0.48px; }
+}
 
 
 .winner-list #passwordForm { position: relative; width: 100%; max-width: 1020px;  padding: 0; margin: 100px auto; background: #fff; text-align: center; }
@@ -1711,7 +1764,7 @@
 .sub14 .section01 .content .item_box ul li:nth-child(2) { max-height: 225px; }
 .sub14 .section01 .content .item_box ul li:nth-child(3) { max-height: 250px; }
 .sub14 .section01 .content .item_box ul li span { display: block; text-align: center; color: #152375; font-family: 'GmarketSans'; font-size: 25px; font-weight: 500; line-height: 27px; letter-spacing: -1px; }
-.sub14 .section01 .content .item_box ul li p { padding: 19px 0 31px; color: #152375; font-family: 'GmarketSans'; font-size: 17px; font-weight: 300; line-height: 25px; letter-spacing: -0.36px; }
+.sub14 .section01 .content .item_box ul li p { padding: 19px 0 22px; color: #152375; font-family: 'GmarketSans'; font-size: 17px; font-weight: 300; line-height: 25px; letter-spacing: -0.36px; }
 .sub14 .section01 .content .item_box ul li .ox_box { display: flex; gap: 33px; justify-content: center; align-items: center; }
 .sub14 .section01 .content .item_box ul li .ox_box .line { width: 1px; height: 45px; background: #d9d9d9; }
 .sub14 .section01 .content .item_box ul li .ox_box > div:not(.line) { font-family: 'GmarketSans'; font-size: 50px; font-weight: 500; line-height: 27px; letter-spacing: -2px; }
@@ -1728,7 +1781,7 @@
 .sub14 .section01 .content .info { max-width: 600px; width: 100%; margin: 0px auto; }
 .sub14 .section01 .content .info ul { padding-inline-start: 1.5em; border-top: 0.5px solid #fff; color: #fff; padding-top: 20px; }
 .sub14 .section01 .content .info li { list-style: disc; font-family:'Noto Sans CJK Kr'; font-size: 15px; font-weight: 400; letter-spacing: -0.3px; line-height: 1.3; }
-.sub11 .section01 .content .info li::marker { font-size: 8px; }
+.sub14 .section01 .content .info li::marker { font-size: 8px; }
 .sub14 .section01 .content .info li span { position: relative; }
 
 @media only all and (max-width:767px) {
@@ -1736,10 +1789,10 @@
 	.sub14 .section01 .content .title_text { margin-top: 37px; }
 	.sub14 .section01 .content .text { margin: 36px auto 28px; text-align: left; }
 
-	.sub14 .section01 .content .date_area { display: inline-block; margin: 47 auto 36px; padding: 6px 0 10px; }
+	.sub14 .section01 .content .date_area { margin-top: 47px; margin-bottom: 36px; padding: 6px 0 10px; }
 	.sub14 .section01 .content .date_area > div { display: flex; }
 	.sub14 .section01 .content .date_area .top { line-height: 1.5; }
-	.sub14 .section01 .content .date_area span { margin-right: 20px; width: 20% }
+	.sub14 .section01 .content .date_area span { margin-right: 20px; }
 
 	.sub14 .section01 .content .item_box ul li { padding: 31px 40px; }
 	.sub14 .section01 .content .item_box ul li:nth-child(1) { max-height: 332px; }

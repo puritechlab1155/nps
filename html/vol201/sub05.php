@@ -538,28 +538,25 @@
 			<div class="content">
 				<div class="num_title fadeBigInUp">
 					<div class="number"><img src="img/sub05/sub05_title-2.svg"></div>
-					<span>수천 년 시간을 거슬러</span>
-					<h3>고창 고인돌유적</h3>
+					<span>이성계의 어진을 모시다</span>
+					<h3>경기전</h3>
 				</div>
 				<div class="text fadeBigInUp">
-					고창 고인돌유적은 탁자식, 바둑판식, 개석식 등 다양한 형식과 크기의 고인돌 약 500기가 세계에서 가장 밀집해 분포한다. 동북아시아 고인돌 문화의 중요한 증거 자료로 인정받아 지난 2000년 유네스코 세계문화유산으로도 등재됐다. 고창고인돌박물관에서는 이 같은 고인돌의 역사와 의미, 제작 과정 등을 쉽게 이해할 수 있다. 특히 사진 촬영과 함께 간단한 질문에 답하면 과거 자신이 고인돌 제작 과정에서 어떤 역할을 담당했을 지 AI 이미지로 출력해 주는 ‘고인돌과 함께 살아온 그들’ 체험이 흥미를 끈다. 3층 체험 학습실에는 고인돌 만들기와 움집에서 청동기 보물찾기, 암각화 3D 색칠놀이 등 다양한 터치 모니터 게임과 다인용 인터랙티브 체험 존이 자리해 아이들과 함께 둘러보기 좋다.<br>
-					고창고인돌박물관에서 약 600m, 도보 또는 탐방열차를 타고 이동하면 고인돌유적과 함께 죽림선사마을이 나타난다. 수천 년 세월을 품은 다채로운 모양의 고인돌이 싱그러운 녹음을 배경으로 세워진 모습이 인상적이다. 죽림선사마을에서는 반달돌칼과 돌화살촉을 비롯해 고창의 관광 캐릭터인 모로모로를 활용한 열쇠고리 만들기 등 색다른 체험도 가능하다.
+					전주한옥마을은 단순히 오래된 한옥들만 모인 곳이 아니다. 500년 유구한 역사를 지닌 조선 왕조의 뿌리 ‘경기전’이 바로 이곳에 있다. 태종 10년 완산(전주), 계림(경주), 평양에 태조 이성계의 초상화를 모신 어용전이 지어졌는데, 세종 때는 소재지마다 이름을 달리하여 경기전, 집경전, 영종전이라 불렀다. ‘경기전’이란 이름은 ‘경사스러운 땅에 지어진 궁궐’이란 의미로 조선의 뿌리로서 전주가 가지는 역사성을 그대로 함축한다. 현존 유일 태조 어진은 국보로 지정되어 경기전 뒤편 어진박물관에 모셔져 있다. 여기엔 세종, 정조, 고종 등 역대 조선 임금의 초상화 7점이 함께 전시되어 있어 둘러보는 재미도 있다.
 				</div>
 				<div class="slider_wrap">
 					<ul class="slider7">
 						<li class="item"><img src="img/sub05/sub05_71.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_72.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_73.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_74.jpg"></li>
 					</ul>
-					<div class="phototitle">고창 고인돌유적</div>
+					<div class="phototitle">경기전</div>
 					<div class="ctrl_wrap">
 						<span class="slider_dots7"></span>
 						<button type="button" class="btn_pause">정지</button>
 						<button type="button" class="btn_play">재생</button>
 					</div>
 					<ul class="as_slider7">
-						<li></li><li></li><li></li><li></li>
+						<li></li><li></li>
 					</ul>
 				</div>
 					<script>
@@ -598,11 +595,10 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><em><a href="https://www.gochang.go.kr/gcdolmen/index.gochang" target="_blank">gochang.go.kr/gcdolmen</a></em></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 고창군 고창읍 고인돌공원길 74</em></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>하절기 09:00~18:00,<br class="mobile_display"> 동절기 09:00~17:00<br class="mobile_display">(월요일 휴무)</em></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-560-8666</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>어른 3천 원, 청소년 2천 원, 어린이 1천 원(*동일금액 고창사랑상품권 제공)</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 전주시 완산구 태조로 44</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-281-2788</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>3~5월·9~10월 09:00~19:00, 6~8월 09:00~20:00, 11~2월 09:00~18:00</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>성인 3천 원 청소년 2천 원 어린이 1천 원 *65세 이상 무료</em></div>
 						</div>
 					</div>
 				</div>

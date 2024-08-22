@@ -153,11 +153,11 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list">
+							<div class="list point_list">
 								<span class="point"><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>
 								<em>
-									전북 완주군 소양면 위봉길 53(위봉사)<br>
-									전북 완주군 소양면 송광수만로 706-9(위봉산성)
+									전북 완주군 소양면 위봉길 <br class="mobile_display">53(위봉사)<br>
+									전북 완주군 소양면 송광수만로 <br class="mobile_display">706-9(위봉산성)
 								</em>
 							</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-243-7657(위봉사)</div>
@@ -231,10 +231,10 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 완주군 소양면 송광수만로 516-7</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 완주군 소양면 송광수만로 <br class="mobile_display">516-7</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-241-8195</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>아원고택 12:00~16:00, 아원갤러리 12:00~17:00</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>아원갤러리 1인 10,000원 *8세 미만 입장 불가</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>아원고택 12:00~16:00, <br class="mobile_display">아원갤러리 12:00~17:00</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>아원갤러리 1인 10,000원 <br class="mobile_display">*8세 미만 입장 불가</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><a href="http://www.awon.kr" target="_blank">awon.kr</a></div>
 						</div>
 					</div>
@@ -303,7 +303,7 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 완주군 소양면 송광수만로 508</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 완주군 소양면 송광수만로 <br class="pc_display">508</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-247-6667</div>
 						</div>
 					</div>
@@ -375,7 +375,7 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 완주군 삼례읍 삼례역로 81-13</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 완주군 삼례읍 삼례역로 <br class="mobile_display">81-13</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-290-3862~3</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>화~일요일 10:00~18:00</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span>무료</div>
@@ -448,7 +448,7 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 완주군 삼례읍 삼례역로 68</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 완주군 삼례읍 삼례역로 <br class="mobile_display">68</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-291-7820</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><a href="http://www.koreabookcity.com" target="_blank">koreabookcity.com</a></div>
 						</div>
@@ -597,8 +597,17 @@
 						<div class="info_list">
 							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 전주시 완산구 태조로 44</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-281-2788</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>3~5월·9~10월 09:00~19:00, 6~8월 09:00~20:00, 11~2월 09:00~18:00</em></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>성인 3천 원 청소년 2천 원 어린이 1천 원 *65세 이상 무료</em></div>
+							<div class="list">
+								<span><img src="img/sub05/sub05_icon4.svg">운영시간</span>
+								<em>
+									3~5월·9~10월 09:00~19:00, <br class="mobile_display">6~8월 09:00~20:00, <br class="mobile_display">11~2월 09:00~18:00
+								</em>
+							</div>
+							<div class="list">
+								<span><img src="img/sub05/sub05_icon5.svg">이용요금</span>
+								<em class="pc_display">성인 3천 원 청소년 2천 원 어린이 1천 원 *65세 이상 무료</em>
+								<em class="mobile_display">성인 3천 원 청소년 2천 원, <br>어린이 1천 원, *65세 이상 무료</em>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -739,7 +748,7 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 전주시 완산구 서학3길 85(선재미술관) 일대</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 전주시 완산구 서학3길 <br class="mobile_display">85(선재미술관) 일대</div>
 						</div>
 					</div>
 				</div>

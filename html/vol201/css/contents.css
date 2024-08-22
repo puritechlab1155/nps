@@ -854,6 +854,9 @@
 }
 @media only all and (max-width: 360px) {
 	.sub05 .content .num_title .number { width: 36px; margin-right: 10px; }
+
+	.sub05 .content .info_area .info_box .info_list .point_list { align-items: flex-start; }
+	.sub05 .content .info_area .info_box .info_list .list .point::after { transform: translateY(35%); }
 }
 @media only all and (max-width: 344px) {
 	.sub05 .content .num_title .number { width: 30px; }
@@ -865,6 +868,9 @@
 	.sub05 .content .info_area .info_box .info_list .list a { line-height: 21px; }
 	.sub05 .content .info_area .info_box .info_list .list em { line-height: 21px; width: 70%; }
 	.sub05 .content .info_area .info_box .info_list .list a { font-size: 14.5px; }
+
+	.sub05 .content .info_area .info_box .info_list .point_list { align-items: flex-start; }
+	.sub05 .content .info_area .info_box .info_list .list .point::after { transform: translateY(35%); }
 }
 
 /* 연금엔씨네마 */

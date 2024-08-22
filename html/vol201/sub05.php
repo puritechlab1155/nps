@@ -303,7 +303,7 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 완주군 소양면 송광수만로 <br class="pc_display">508</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 완주군 소양면 송광수만로 <br class="mobile_display">508</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-247-6667</div>
 						</div>
 					</div>

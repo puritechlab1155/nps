@@ -20,26 +20,22 @@
 			<div class="content">
 				<div class="cover_title">헬스 앤 라이프</div>
 				<div class="cover_text">-</div>
-				<div class="angle-down"><img src="../../img/common/ico_angle_down.svg"></div>
+				<div class="angle-down"><img src="../../img/common/ico_angle_down_wh.svg"></div>
 			</div>
 		</div>
 
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
-					<div class="subtitle_top">조금만 움직여도 땀이 뚝뚝~</div>
-					<div class="title">여름철 다한증이<br class="mobile_display"> 고민된다면?</div>
+					<div class="subtitle_top">불볕더위가 끝나고 난 뒤</div>
+					<div class="title">계절성 우울증 예방법</div>
 					<div class="subcopy">
-						시험을 볼 때 시험지가 다 젖거나, 다른 사람과 악수를 꺼리거나, 발냄새로 쉽게 신발을 벗지 못했던 기억이 떠오른다면 다한증을 의심해 볼 만하다. 심리적으로 신체적으로 불편함을 유발하는 다한증에 대해 알아본다.
+						불볕더위가 끝나고 선선한 바람이 부는 가을이 코앞이다. 하늘은 높고 선선한 바람이 살랑이는 가을. 그런데 어쩐지 기분이 울적하다면, 계절성 우울증에 주목해 보자.
 					</div>
 			</div>
 		</div><!-- //.section02 -->
 
 		<div class="section03 wow fadeBigInUp">
 			<div class="content">
-				<div class="subtitle">필요 이상으로 땀이 흐른다면</div> <br class="pc_display">
-				<div class="text fadeBigInUp">
-					다한증은 필요 이상으로 열이 발생해 특정 부위에 비정상적으로 땀을 흘리는 질환이다. 종류도 다양하다. 손발에 증상이 나타나는 수족 다한증, 수면 중 땀이 많이 나는 도한증, 겨드랑이에 땀이 많이 나는 액한증 등이다. 보통 사계절 내내 증상이 나타나지만, 여름은 무더위라는 고온 자극 때문에 다한증 환자들에게 가장 고통스러운 계절이다. 유독 땀이 많이 나서 여름이 두렵다면, 아래의 다한증 자가 진단 테스트를 해보자. 
-				</div>
 				<div class="img_box">
 					<img src="img/sub08/sub08_01.svg" class="pc_display">
 					<img src="img/sub08/sub08_01_mo.svg" class="mobile_display">
@@ -49,43 +45,74 @@
 
 		<div class="section04 wow fadeBigInUp">
 			<div class="content">
-				<div class="subtitle">어디서 이렇게 땀이 나나? 부위별로 다른 ‘다한증’</div> <br class="pc_display">
+				<div class="subtitle">우울증과 햇볕의 상관관계</div> <br class="pc_display">
 				<div class="text fadeBigInUp">
-					머리, 얼굴, 손발, 겨드랑이 등 어느 한 부위에 유독 땀이 많이 난다면 건강 상태를 점검할 필요가 있다. 이는 땀을 지나치게 많이 흘리는 ‘다한증’의 주요 증상이기 때문이다. 여름이면 더욱 심해지는 다한증을 부위별로 살펴본다. 
+				‘가을 탄다’는 말처럼 가을만 되면 심적 침체, 피로 증가, 의욕 및 집중력 저하 등으로 불편감을 호소하는 사람들이 많다. 가볍게 지나가는 증상일 수도 있지만, ‘계절성 우울증’이라는 의학적 명칭을 가진 우울증 증상일 수 있으니 주의가 필요하다.<br>
+				계절성 우울증의 발생 원인은 정확히 알려지지 않았지만, 대체로 신체 균형 및 호르몬 변화, 햇빛의 양과 관련이 있다고 알려져 있다. 때문에 계절성 우울증은 특히 사람들이 받는 햇빛의 양이 줄어드는 가을에서 이듬해 봄까지 증가세가 높다.<br>
+				햇볕을 많이 받을 때는 세로토닌과 도파민 분비가 활발해 행복감이 충만해지지만, 햇볕을 적게 받으면 세로토닌의 농도가 떨어지고 수면을 유도하는 멜라토닌이 분비돼 평소보다 쉽게 피로감을 느끼고 잠이 많아진다. 극야와 백야 현상으로 일조량의 변화폭이 극심한 북유럽 지역에서 우울증 환자가 많은 것도 같은 이유 때문이다.<br>
+				가을철 단순히 잠이 많아졌다며 ‘계절성 우울증’이라고 단정하는 건 금물이다. 우울장애 진단 기준에 따라 우울한 기분, 흥미나 즐거움의 감소, 체중 변화, 수면 이상, 정신운동 이상, 피로 등의 증상이 한 해의 일정 기간 사이에 규칙적으로 반복되는 양상을 보일 때 ‘계절성 우울증’이라고 진단할 수 있다.
 				</div>
-				<div class="type_explain">
-					<div class="types">
-						<div class="type1">
-							<div class="img_box"><img src="img/sub08/sub08_21.svg" class="hover-image"></div>
-							<span>'손과 발’에 땀이 많이 나는 수족 다한증</span>
-							<p>
-								사람들은 긴장하면 손발에 땀이 난다. 이는 긴장 상태를 해소하는 현상으로 시간이 지나면 마른다. 반면, 수족 다한증은 빠른 시간에 모든 땀이 쏟아져 손발이 전부 젖어버리게 된다. 학생이 손발에 땀이 난다면 학업적 불편함과 함께 땀으로 유발되는 발냄새로 인해 교우 관계에 불편함이 나타날 수 있다. 성인의 경우 컴퓨터 작업이나 수작업 등의 정교한 업무가 힘들어질 수 있고, 악수하는 상황에서 손이 축축이 젖어 심리적인 위축이 나타날 수 있다.
-							</p>
-						</div>
-						<div class="type2">
-							<div class="img_box"><img src="img/sub08/sub08_22.svg" class="hover-image"></div>
-							<span>‘얼굴’에서 비가 내리는 두한증</span>
-							<p>
-								얼굴과 머리에서 땀이 많이 분비되는 현상을 두한증이라고 한다. 증상이 심하면 비가 오듯이 흐르는 땀 때문에 건강에 문제가 생긴 건 아닌지 오해를 받기도 한다. 식사할 땐 정수리에서 시작된 땀이 목을 타고 흐르기 때문에 두한증이 있는 사람은 매콤하거나 뜨거운 음식을 선택할 때 신중해야 한다. 여성의 경우 얼굴에서 흐르는 땀으로 인해 화장이 지워지는 불편함이 있을 수 있다.
-							</p>
-						</div>
-						<div class="type3">
-							<div class="img_box"><img src="img/sub08/sub08_23.svg" class="hover-image"></div>
-							<span>‘겨드랑이’ 땀으로 옷이 더러워지는 액한증</span>
-							<p>
-								유독 겨드랑이에 땀이 많이 난다면 액한증을 의심해 볼 수 있다. 통풍이 안 되는 블라우스를 입거나 꽉 끼는 상의를 입었을 때 겨드랑이가 축축하게 젖어 손을 들기 민망한 상황이 발생해 고민이 많은 부위이기도 하다. 겨드랑이는 아포크린샘*이라는 땀샘이 존재해서 땀 냄새를 심하게 유발하는 부위이다. 겨드랑이 땀을 피부의 정상 세균이 분해하는 과정에서 땀 냄새가 나는 것을 액취증이라고 하는데, 액한증이 지속된다면 액취증을 동반할 확률이 높아져 주의가 필요하다.
-							</p>
-						</div>
-					</div>
-					<div class="memo">
-						<span>*아포크라인샘이란?</span>
-						<p>겨드랑이, 회음부, 유두 주변에 분포하고 있는 땀샘이다. 지방과 콜레스테롤이 함유되어 있어, 세균에 의해 암모니아로 분해되면 땀에서 불쾌한 냄새를 낸다.</p>
+				<div class="item_box">
+					<ul class="item_list">
+						<li>
+							<div class="img_box"><img src="img/sub08/sub08_21.svg"></div>
+							<div class="text_box">
+								<span class="purple">세로토닌</span>
+								<p>
+									긍정적인 감정이나 행복감을 높이는 신경 전달 물질.
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="img_box"><img src="img/sub08/sub08_22.svg"></div>
+							<div class="text_box">
+								<span class="yellow">도파민</span>
+								<p>
+									쾌감 또는 즐거움을 조절하는 신경 전달 물질.
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="img_box"><img src="img/sub08/sub08_23.svg"></div>
+							<div class="text_box">
+								<span class="blue">멜라토닌</span>
+								<p>
+									수면과 생체리듬을 조절하는 호르몬.
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="img_box"><img src="img/sub08/sub08_24.svg"></div>
+							<div class="text_box">
+								<span class="green">엔도르핀</span>
+								<p>
+									통증을 완화하는 호르몬.
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="img_box img_pink"><img src="img/sub08/sub08_25.svg"></div>
+							<div class="text_box">
+								<span class="pink">옥시토신</span>
+								<p>
+									사랑과 신뢰라는 감정을 조절하는 호르몬.
+								</p>
+							</div>
+						</li>
+					</ul>
+					<div class="cap_box">
+						<p>
+							<span>신경 전달 물질 </span>: 내분비기관에서 생성돼 혈액을 통해 이동하며 내분비 시스템을 조절한다.<br>
+							<span>호르몬 </span>: 뉴런에서 생성돼 시냅스 간 화학적 신호를 전달하며 신경망을 조절한다.
+						</p>
 					</div>
 				</div>	
 			</div>
 		</div><!-- //.section04 -->
 
-		<div class="section05 wow fadeBigInUp">
+		<div class="section05 wow fadeBigInUp"></div><!-- //section05 -->
+
+		<div class="section06 wow fadeBigInUp">
 			<div class="content">
 				<div class="pc_display">
 					<div class="title_box fadeBigInUp">

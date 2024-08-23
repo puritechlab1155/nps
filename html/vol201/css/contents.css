@@ -1218,6 +1218,7 @@
 
 .sub09 .section03 .content ul { display: flex; flex-direction: column; gap: 80px; justify-content: center; margin-top: 91px; }
 .sub09 .section03 .content ul li { flex: 1; }
+.sub09 .section03 .content ul li:nth-child(2) { margin-top: -10px; }
 .sub09 .section03 .content .item_title { width: 100%; max-width: 128px; margin: 0 auto; }
 .sub09 .section03 .content .item_title img { width: 100%;}
 .sub09 .section03 .content .item_text { font-family: 'Meetme'; font-size: 31px; font-weight: 400; line-height: 40px; text-align: center; margin: 20px 0; }

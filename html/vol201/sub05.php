@@ -52,7 +52,7 @@
 				</div>
 
 				<div class="slider_wrap slide1-1">
-					<ul class="slider1">
+					<ul class="slider1-1">
 						<li class="item"><img src="img/sub05/sub05_11.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_12.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_13.jpg"></li>
@@ -60,20 +60,20 @@
 					</ul>
 					<div class="phototitle">위봉산성</div>
 					<div class="ctrl_wrap">
-						<span class="slider_dots"></span>
+						<span class="slider_dots1-1"></span>
 						<button type="button" class="btn_pause">정지</button>
 						<button type="button" class="btn_play">재생</button>
 					</div> 
-					<ul class="as_slider1">
+					<ul class="as_slider1-1">
 						<li></li><li></li><li></li><li></li>
 					</ul>
 				</div><!-- //.slider_wrap -->
 					<script>
-						var $mainSlider1 = $('.slider1');
-							$mainSlider1.slick({
+						var $mainSlider0 = $('.slider1-1');
+							$mainSlider0.slick({
 				 			dots: true,
-				 			appendDots: $('.slider_tab1'),
-				 			asNavFor:'.as_slider1',
+				 			appendDots: $('.slider_tab1-1'),
+				 			asNavFor:'.as_slider1-1',
 				 			arrows: false,
 				 			autoplay: true,
 				 			autoplaySpeed: 3000,
@@ -85,21 +85,22 @@
 							touchThreshold: 15,
         					swipe: true
 						});
-						$('.as_slider1').slick({
-							asNavFor:'.slider1',
+						$('.as_slider1-1').slick({
+							asNavFor:'.slider1-1',
 							dots: true,
-							appendDots: $('.slider_dots'),
+							appendDots: $('.slider_dots1-1'),
 							arrows: false
 						});
 						$('.section03 .slide1-1 .ctrl_wrap .btn_pause').click(function() {
-							$mainSlider1.slick('slickPause');
+							$mainSlider0.slick('slickPause');
 							$(this).hide().next('.btn_play').show().focus();
 						});
 						$('.section03 .slide1-1 .ctrl_wrap .btn_play').click(function() {
-							$mainSlider1.slick('slickPlay');
+							$mainSlider0.slick('slickPlay');
 							$(this).hide().prev('.btn_pause').show().focus();
 						});
 					</script>
+
 				<div class="slider_wrap slide1-2">
 					<ul class="slider1-2">
 						<li class="item"><img src="img/sub05/sub05_15.jpg"></li>
@@ -233,7 +234,7 @@
 						<div class="info_list">
 							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 완주군 소양면 송광수만로 <br class="mobile_display">516-7</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-241-8195</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>아원고택 12:00~16:00, <br class="mobile_display">아원갤러리 12:00~17:00</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>아원고택 12:00~16:00, <br class="mobile_display">아원갤러리 12:00~17:00</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>아원갤러리 1인 10,000원 <br class="mobile_display">*8세 미만 입장 불가</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><a href="http://www.awon.kr" target="_blank">awon.kr</a></div>
 						</div>
@@ -713,8 +714,8 @@
 					</ul>
 				</div>
 					<script>
-						var $mainSlider8 = $('.slider9');
-							$mainSlider8.slick({
+						var $mainSlider9 = $('.slider9');
+							$mainSlider9.slick({
 				 			dots: true,
 				 			appendDots: $('.slider_tab9'),
 				 			asNavFor:'.as_slider9',
@@ -736,11 +737,11 @@
 							arrows: false
 						});
 						$('.section12 .ctrl_wrap .btn_pause').click(function() {
-							$mainSlider8.slick('slickPause');
+							$mainSlider9.slick('slickPause');
 							$(this).hide().next('.btn_play').show().focus();
 						});
 						$('.section12 .ctrl_wrap .btn_play').click(function() {
-							$mainSlider8.slick('slickPlay');
+							$mainSlider9.slick('slickPlay');
 							$(this).hide().prev('.btn_pause').show().focus();
 						});
 					</script>
@@ -748,7 +749,10 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 전주시 완산구 서학3길 <br class="mobile_display">85(선재미술관) 일대</div>
+							<div class="list">
+								<span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>
+								<em>전북 전주시 완산구 서학3길 <br class="mobile_display">85(선재미술관) 일대</em>
+							</div>
 						</div>
 					</div>
 				</div>

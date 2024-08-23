@@ -117,96 +117,95 @@
 
 				<!-- GSAP -->
 				<script>
-					document.addEventListener("DOMContentLoaded", (event) => {
-						gsap.registerPlugin(ScrollTrigger);
+				document.addEventListener("DOMContentLoaded", (event) => {
+    gsap.registerPlugin(ScrollTrigger);
 
-						// motion1 애니메이션
-						gsap.to(".motion1", {
-							duration: 2.5,
-							rotation: 360,
-							yoyo: true,
-							repeat: -1, // 무한 반복
-							scrollTrigger: {
-								trigger: ".motion1",
-								start: "top 80%",  // motion1이 화면에 80% 보일 때 시작
-								end: "bottom 20%",
-								toggleActions: "restart none none none",
-								markers: false // 디버그 마커 비활성화
-							}
-						});
+    // motion1 애니메이션
+    gsap.to(".motion1", {
+        duration: 1.5,
+        y: -50,          // 위로 50px 이동
+        ease: "bounce.out",  // 튕기는 효과
+        repeat: -1,       // 무한 반복
+        yoyo: true,       // 튕겼다가 다시 돌아오는 효과
+        scrollTrigger: {
+            trigger: ".motion1",
+            start: "top 80%",  // 화면에 80% 보일 때 시작
+            end: "bottom 20%",
+            toggleActions: "restart none none none",
+            markers: false,
+            onEnter: () => gsap.to(".motion1", { duration: 1.5, scale: 1.2, y: -50 })
+        }
+    });
 
-						// motion2 애니메이션
-						gsap.fromTo(".motion2", 
-						{
-							scale: 0.5,    // 아이콘이 처음에 작게 시작
-							z: -5000,      // z 축으로 멀리서 시작
-							opacity: 0     // 처음에 보이지 않음
-						}, 
-						{
-							duration: 2,
-							scale: 1,      // 아이콘이 점점 커짐
-							z: 0,          // z 축으로 가까이 옴
-							opacity: 1,    // 점점 보이게 함
-							ease: "elastic.inOut(1,0.3)",
-							stagger: 0.5,
-							repeat: -1, // 무한 반복
-							yoyo: true,
-							scrollTrigger: {
-								trigger: ".motion2",
-								start: "top 80%",
-								end: "bottom 20%",
-								toggleActions: "restart none none none",
-								markers: false
-							}
-						});
+    // motion2 애니메이션
+    gsap.to(".motion2", {
+        duration: 1.5,
+        y: -50,
+        ease: "bounce.out",
+        repeat: -1,
+        yoyo: true,
+        scrollTrigger: {
+            trigger: ".motion2",
+            start: "top 80%",
+            end: "bottom 20%",
+            toggleActions: "restart none none none",
+            markers: false,
+            onEnter: () => gsap.to(".motion2", { duration: 1.5, scale: 1.2, y: -50 })
+        }
+    });
 
-						// motion3 애니메이션
-						gsap.to(".motion3", {
-							duration: 2,
-							x: 30,
-							yoyo: true,
-							repeat: -1, // 무한 반복
-							scrollTrigger: {
-								trigger: ".motion3",
-								start: "top 80%",
-								end: "bottom 20%",
-								toggleActions: "restart none none none",
-								markers: false
-							}
-						});
+    // motion3 애니메이션
+    gsap.to(".motion3", {
+        duration: 1.5,
+        y: -50,
+        ease: "bounce.out",
+        repeat: -1,
+        yoyo: true,
+        scrollTrigger: {
+            trigger: ".motion3",
+            start: "top 80%",
+            end: "bottom 20%",
+            toggleActions: "restart none none none",
+            markers: false,
+            onEnter: () => gsap.to(".motion3", { duration: 1.5, scale: 1.2, y: -50 })
+        }
+    });
 
-						// motion4 애니메이션
-						gsap.to(".motion4", {
-							duration: 2,
-							rotationX: 180,
-							yoyo: true,
-							repeat: -1, // 무한 반복
-							scrollTrigger: {
-								trigger: ".motion4",
-								start: "top 80%",
-								end: "bottom 20%",
-								toggleActions: "restart none none none",
-								markers: false
-							}
-						});
+    // motion4 애니메이션
+    gsap.to(".motion4", {
+        duration: 1.5,
+        y: -50,
+        ease: "bounce.out",
+        repeat: -1,
+        yoyo: true,
+        scrollTrigger: {
+            trigger: ".motion4",
+            start: "top 80%",
+            end: "bottom 20%",
+            toggleActions: "restart none none none",
+            markers: false,
+            onEnter: () => gsap.to(".motion4", { duration: 1.5, scale: 1.2, y: -50 })
+        }
+    });
 
-						// motion5 애니메이션
-						gsap.to(".motion5", {
-							duration: 0.7,
-							scale: 1.2,
-							z: -100,
-							yoyo: true,
-							repeat: -1, // 무한 반복
-							ease: "power1.inOut",
-							scrollTrigger: {
-								trigger: ".motion5",
-								start: "top 80%",
-								end: "bottom 20%",
-								toggleActions: "restart none none none",
-								markers: false
-							}
-						});
-					});
+    // motion5 애니메이션
+    gsap.to(".motion5", {
+        duration: 1.5,
+        y: -50,
+        ease: "bounce.out",
+        repeat: -1,
+        yoyo: true,
+        scrollTrigger: {
+            trigger: ".motion5",
+            start: "top 80%",
+            end: "bottom 20%",
+            toggleActions: "restart none none none",
+            markers: false,
+            onEnter: () => gsap.to(".motion5", { duration: 1.5, scale: 1.2, y: -50 })
+        }
+    });
+});
+
 
 				</script>
 				<div class="mobile_display">

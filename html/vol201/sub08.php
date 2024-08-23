@@ -218,8 +218,8 @@
 				</div>
 				<div class="mobile_display">
 					<div class="title_box fadeBigInUp">
-						<img src="img/sub08/sub08-item.svg">
-						<div class="title">건강한<br> 땀 배출을 위한<br> 생활 수칙</div>
+						<img src="img/sub08/sub08-item.png">
+						<div class="title">우울감을 해소해 주는 요가</div>
 					</div>
 				</div>
 				<div class="items">

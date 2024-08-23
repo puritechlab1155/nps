@@ -1149,19 +1149,18 @@
 	.sub08 .section04 .content .item_box ul li .img_box { max-width: 138px; padding: 27px 11px; }
 	.sub08 .section04 .content .item_box .cap_box { border-top: 0; border-left: 1px solid #666; margin-top: 0; padding: 24px 0 24px 25px; }
 
-	.sub08 .section05 .content .type_explain .types { flex-direction: column; margin: 24px auto; }
-	.sub08 .section05 .content .type_explain .types .type1 { flex-basis: 100%; }
-	.sub08 .section05 .content .type_explain .types .type2 { flex-basis: 100%; }
-	.sub08 .section05 .content .type_explain .types .type3 { flex-basis: 100%; }
-	.sub08 .section05 .content .type_explain .types .img_box { padding: 0 30px; }
+	.sub08 .section05 .content { margin: 0 auto 60px; }
+	.sub08 .section05 .content .type_explain { margin: 0 auto; }
+	.sub08 .section05 .content .type_explain .types { flex-direction: column; }
 	.sub08 .section05 .content .type_explain .types span { width: 100%; max-width: 100%; }
-	.sub08 .section05 .content .type_explain .memo { border-radius: 8px; padding: 10px 17px; }
 
-	.sub08 .section06 .content { margin: 42px auto 49px; }
+	.sub08 .section06 { padding: 40px 0; }
 	.sub08 .section06 .content .title_box { flex-direction: column; text-align: center; }
 	.sub08 .section06 .content .title_box .title { font-size: 25px; line-height: 39px; letter-spacing: normal; }
 	.sub08 .section06 .content .copy-text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
-	.sub08 .section06 .content .items { flex-wrap: nowrap; flex-direction: column; align-items: center; }
+	.sub08 .section06 .content .items { flex-wrap: nowrap; flex-direction: column; align-items: center; margin-top: 36px; gap: 24px; }
+	.sub08 .section06 .content .items .item { width: 100%; }
+	.sub08 .section06 .content .items .item span { margin: 20px 0; }
 }
 
 /* 오늘의 레시피 */

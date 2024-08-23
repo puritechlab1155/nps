@@ -144,4 +144,3 @@ function closeModal(event) {
 
      // 페이지가 로드될 때 controlSendEnd 함수 호출
      window.onload = controlSendEnd;
-

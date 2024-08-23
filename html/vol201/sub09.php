@@ -61,7 +61,6 @@
 						</div>
 					</div><!-- //.content02 -->
 					
-					<br class="mobile_display">
 					<div class="content03 fadeBigInUp">
 						<div class="subtitle">뛰어난 효능의 ‘금’송이</div>
 						<br class="pc_display">
@@ -87,11 +86,20 @@
 							<div class="item item02">
 								<div class="item_title">자연산 송이버섯 보관 TIP</div>
 								<div class="img_box"><img src="img/sub09/sub09_03.jpg"></div>
-								<ul>
-									<li><img src="img/sub09/sub09_item2_num1.svg"><span>송이버섯은 씻지 말고 포자와 주변에 붙은 이물질을 턴다.</span></li>
-									<li><img src="img/sub09/sub09_item2_num2.svg"><span>신문지 또는 한지로 감싸 냉장실에 보관한다.</span></li>
-									<li><img src="img/sub09/sub09_item2_num3.svg"><span>랩으로 진공 포장 후 냉동하면 3개월간 보관할 수 있다.</span></li>
-								</ul>
+								<div class="pc_display">
+									<ul>
+										<li><img src="img/sub09/sub09_item2_num1.svg"><span>송이버섯은 씻지 말고 포자와 주변에 붙은 이물질을 턴다.</span></li>
+										<li><img src="img/sub09/sub09_item2_num2.svg"><span>신문지 또는 한지로 감싸 냉장실에 보관한다.</span></li>
+										<li><img src="img/sub09/sub09_item2_num3.svg"><span>랩으로 진공 포장 후 냉동하면 3개월간 보관할 수 있다.</span></li>
+									</ul>
+								</div>
+								<div class="mobile_display">
+									<ul>
+										<li><img src="img/sub09/sub09_item2_01.svg"></li>
+										<li><img src="img/sub09/sub09_item2_02.svg"></li>
+										<li><img src="img/sub09/sub09_item2_03.svg"></li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div><!-- //content04 -->
@@ -124,14 +132,19 @@
 								쌀 2컵, 송이버섯 2개, 은행 15알, 실파 5대, 다시마 육수 2컵, 간장 3큰술, 맛술 1큰술, <br>
 								고춧가루 1작은술, 다진 마늘 1/2작은술, 참기름 1큰술, 통깨 약간
 							</div>
-							<div class="item_text mobile_display">옥수수 2개, 버터 2조각, 우유 1컵+1/2컵,<br> 생크림 1/2컵, 체다치즈 1장,<br> 파마산 치즈가루 1스푼, 소금, 빠네 빵</div>
+							<div class="item_text mobile_display">
+								쌀 2컵, 송이버섯 2개, 은행 15알, 실파 5대, <br>
+								다시마 육수 2컵, 간장 3큰술, 맛술 1큰술, <br>
+								고춧가루 1작은술, 다진 마늘 1/2작은술, <br>
+								참기름 1큰술, 통깨 약간
+							</div>
 							<div class="item_img"><img src="img/sub09/sub09_07.png"></div>
 						</li>
 
 						<li class="item2 fadeBigInUp">
 							<div class="item_title"><img src="img/sub09/sub09_08.svg"></div>
 							<div class="item_text">
-								쌀은 씻어 30분간 불린 후 체에 밭쳐 물기를 뺀다.
+								쌀은 씻어 30분간 불린 후 체에 밭쳐 물기를 뺀다.<br>
 								<span>tip. 기호에 따라 찹쌀을 넣어도 좋다.</span>
 							</div>
 							<div class="item_img"><img src="img/sub09/sub09_09.png"></div>

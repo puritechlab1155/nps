@@ -42,12 +42,13 @@
 							여름의 막바지이자 가을의 시작, 9월. 지난 여름 무더위에 지친 심신을 달래 줄 생명이 자연에서 솟아오르고 있다. 향긋한 냄새를 풍기는 송이버섯이다.
 						</div>
 					</div><!-- //.content01 -->
- 
-					<div class="content02 fadeBigInUp">
-						<div class="img_box img01"><img src="img/sub09/sub09_02.jpg"></div>
-						<div class="subtitle">식물과 공생하는 버섯</div> <br class="pc_display">
 
-						<div class="text">추석이 다가오면 마트 진열장에서 자연산 송이버섯을 만날 수 있다. 
+					<div class="content02 fadeBigInUp">
+						<div class="img_box"><img src="img/sub09/sub09_01.jpg"></div>
+						<div class="subtitle">식물과 공생하는 버섯</div>
+						<br class="pc_display">
+						<div class="text">
+							추석이 다가오면 마트 진열장에서 자연산 송이버섯을 만날 수 있다. 
 							맛깔스러운 자태에 이끌려 장바구니에 집어넣다가 1kg당 수십만 원을 호가하는 가격에 입이 떡 벌어진다. 
 							하지만 자연산 송이의 냄새를 한번 맡고 나서는 비싼 가격에 고개가 끄덕여진다. 
 							다른 버섯과 달리 강렬하고 향긋한 솔향이 몸속으로 퍼져 나가 마치 자연을 거니는 듯한 기분이 들게 한다. </br>
@@ -56,27 +57,44 @@
 							송이버섯의 포자가 소나무 영양분을 골라먹고 무럭무럭 자라는 과정에서 흙 속의 수분과 양분도 송이버섯 안으로 흡수된다. 
 							전문가들은 이때 버섯이 흡수한 무기물, 인, 질소 등 양분이 소나무에게 공급되어 뿌리를 보호하는 역할을 하는 것으로 추측하고 있다. </br>
 							송이버섯에게 번식의 기회를 부여한 소나무, 그런 소나무에게 수분과 양분으로 고마움을 돌려주는 송이버섯. 
-							이 둘의 독특한 공생관계가 명확히 밝혀지지 않았지만, 확실한 건 버섯은 식물들과 공생관계를 이루고, 나무의 생장을 돕는 등 생태계에서 중요한 역할을 담당하는 고마운 식재료이다. 
+							이 둘의 독특한 공생관계가 명확히 밝혀지지 않았지만, 확실한 건 버섯은 식물들과 공생관계를 이루고, 나무의 생장을 돕는 등 생태계에서 중요한 역할을 담당하는 고마운 식재료이다.
+						</div>
 					</div><!-- //.content02 -->
 					
 					<br class="mobile_display">
 					<div class="content03 fadeBigInUp">
-						<div class="subtitle">한국으로 온 옥수수</div><br class="pc_display">
+						<div class="subtitle">뛰어난 효능의 ‘금’송이</div>
+						<br class="pc_display">
 						<div class="text">
-							수천 년간 멕시코에서 자생하던 옥수수는 1492년 콜럼버스에 의해 유럽으로 전파되고 16세기 인도와 중국을 거쳐 한국에도 모습을 나타냈다. 한국에서는 산간 지대에서
-							옥수수를 조금씩 생산하다가 1970년대 들어서 본격적으로 재배해 오늘날에 이르렀다. <br>
-							한국에서 만날 수 있는 옥수수는 찰옥수수, 단옥수수, 초당옥수수로 크게 세 가지이다. 찰옥수수는 옥수수 알이 노란색을 띄고 모양이 둥글다. 식감이 쫄깃쫄깃하고
-							씹을수록 고소해 찰옥수수라는 이름이 붙여졌으며 알이 작고 검은색을 띄는 것도 있다. 쪄먹었을 때 가장 쫀득쫀득한 식감을 가진다는 점도 특징이다. <br>
-							단옥수수는 옥수수 종류 중에서 당분 함량이 높은 품종으로 간식용이나 통조림용으로 종종 이용된다. 단옥수수는 다시 여러 품종으로 나뉘는 데 그중 초당옥수수가 가장 잘
-							알려졌다. 초당옥수수의 가장 큰 특징은 찰옥수수보다 당도가 두 배 이상 높다는 점이다. 또한 생으로 먹을 수 있을 만큼 식감이 부드러워 샐러드나 구이 등으로 다양하게
-							활용된다. <br>
-							만약 변비로 고생 중이라면 옥수수에 주목해 보자. 옥수수는 개당 약 10g의 수용성 식이섬유를 함유한다. 식이섬유가 모든 변비에 좋다고 할 수는 없지만, 일반적인
-							변비일 경우 다량의 식이섬유를 섭취하면 변의 양이 증가하고 변이 부드러워져 변비를 해소하는 데 도움을 준다. 또한 옥수수는 소화가 천천히 이루어져 포만감이 오래
-							지속되기 때문에 체중 조절에도 도움을 줄 수 있다. 단, 열량이 높기 때문에 옥수수만 과하게 섭취하는 건 추천하지 않는다. <br>
-							수천 년 전 태어나 인류의 주요 식량으로 자리잡은 옥수수. 다양한 종류와 훌륭한 효능으로 우리의 집 나간 입맛을 돌아오게 해줄 고마운 식재료다. 올여름에는 달콤한
-							옥수수 크림 스프를 식탁에 올려보는 건 어떨까?
+							허준의 『동의보감』에는 ‘송이는 성분이 고르고 맛이 달며, 독은 없고 소나무 냄새를 포함해 향이 뛰어나다. 산중에 오래된 소나무 밑에서 소나무 기운을 받아 자라는 것으로 버섯 중 으뜸이다’라고 적혀 있다. 자연산 송이버섯이 오래전부터 버섯의 왕이었음을 알 수 있는 대목이다.<br>
+							송이버섯은 맛과 향뿐 아니라 효능도 뛰어난데, 혈중 콜레스테롤을 억제해 위장병, 당뇨병, 동맥경화, 고지혈증 등을 예방하는 데 도움을 준다. 한의학적으로는 위장의 기능을 북돋아 주고 소화력이 약한 사람에게 효과적이라고 알려졌다.<br>
+							송이버섯은 소나무, 미생물, 토양인자, 기상 환경 등 여러 조건이 맞아떨어져야만 생장할 수 있어 자연산으로만 채취할 수 있다. 우리나라에서는 경북 울진, 영주, 봉화 지방과 강원 강릉, 양양 지방에서 주로 나는데, 산림청의 허가를 받은 채취원만이 자연산 송이버섯을 채취할 수 있다. 본인 소유나 임차하지 않은 산에서 송이버섯을 채취하면 5년 이하 징역 또는 5천만 원 이하 벌금형에 처할 수 있으니 등산 중 송이버섯을 본다고 해도 함부로 채취해서는 안 된다.<br>
+							자연산 송이는 생으로 먹는 것이 일반적이지만, 더 풍부한 향을 느끼고 싶거나, 귀한 손님에게 대접하고자 한다면 송이버섯솥밭을 추천한다. 가을을 담은 송이버섯솥밥 레시피를 소개한다.
 						</div>
 					</div><!-- //.content03 -->
+
+					<div class="content04">
+						<div class="item_box">
+							<div class="item item01">
+								<div class="item_title">자연산 송이버섯의 조건</div>
+								<div class="img_box"><img src="img/sub09/sub09_02.jpg"></div>
+								<ul>
+									<li><img src="img/sub09/sub09_item_num1.svg"><span>송이버섯 특유의 솔향이 강하다.</span></li>
+									<li><img src="img/sub09/sub09_item_num2.svg"><span>갓이 완전히 펴지지 않았다.</span></li>
+									<li><img src="img/sub09/sub09_item_num3.svg"><span>줄기가 짧고 굵으며 무겁고 단단하다.</span></li>
+								</ul>
+							</div>
+							<div class="item item02">
+								<div class="item_title">자연산 송이버섯 보관 TIP</div>
+								<div class="img_box"><img src="img/sub09/sub09_03.jpg"></div>
+								<ul>
+									<li><img src="img/sub09/sub09_item2_num1.svg"><span>송이버섯은 씻지 말고 포자와 주변에 붙은 이물질을 턴다.</span></li>
+									<li><img src="img/sub09/sub09_item2_num2.svg"><span>신문지 또는 한지로 감싸 냉장실에 보관한다.</span></li>
+									<li><img src="img/sub09/sub09_item2_num3.svg"><span>랩으로 진공 포장 후 냉동하면 3개월간 보관할 수 있다.</span></li>
+								</ul>
+							</div>
+						</div>
+					</div><!-- //content04 -->
 				</div><!-- //.content -->
 			</div><!-- //.section02 -->
 
@@ -101,45 +119,44 @@
 
 					<ul>
 						<li class="item1 fadeBigInUp">
-							<div class="item_title"><img src="img/sub09/sub09_07.svg"></div>
-							<div class="item_text pc_display">옥수수 2개, 버터 2조각, 우유 1컵+1/2컵, 생크림 1/2컵, 체다치즈 1장, 파마산 치즈가루 1스푼, 소금, 빠네 빵</div>
+							<div class="item_title"><img src="img/sub09/sub09_06.svg"></div>
+							<div class="item_text pc_display">
+								쌀 2컵, 송이버섯 2개, 은행 15알, 실파 5대, 다시마 육수 2컵, 간장 3큰술, 맛술 1큰술, <br>
+								고춧가루 1작은술, 다진 마늘 1/2작은술, 참기름 1큰술, 통깨 약간
+							</div>
 							<div class="item_text mobile_display">옥수수 2개, 버터 2조각, 우유 1컵+1/2컵,<br> 생크림 1/2컵, 체다치즈 1장,<br> 파마산 치즈가루 1스푼, 소금, 빠네 빵</div>
-							<div class="item_img"><img src="img/sub09/sub09_08.png"></div>
+							<div class="item_img"><img src="img/sub09/sub09_07.png"></div>
 						</li>
 
 						<li class="item2 fadeBigInUp">
-							<div class="item_title"><img src="img/sub09/sub09_09.svg"></div>
-							<div class="item_text">옥수수는 씻어서 칼로 알을 긁어 낸다.</div>
-							<div class="item_img"><img src="img/sub09/sub09_10.png"></div>
+							<div class="item_title"><img src="img/sub09/sub09_08.svg"></div>
+							<div class="item_text">
+								쌀은 씻어 30분간 불린 후 체에 밭쳐 물기를 뺀다.
+								<span>tip. 기호에 따라 찹쌀을 넣어도 좋다.</span>
+							</div>
+							<div class="item_img"><img src="img/sub09/sub09_09.png"></div>
 						</li>
 
 						<li class="item3 fadeBigInUp">
-							<div class="item_title"><img src="img/sub09/sub09_11.svg"></div>
-							<div class="item_text">냄비에 넣은 버터가 녹기 시작하면<br class="mobile_display"> 옥수수 알을 넣고 볶는다.</div>
-							<div class="item_img"><img src="img/sub09/sub09_12.png"></div>
+							<div class="item_title"><img src="img/sub09/sub09_10.svg"></div>
+							<div class="item_text">송이버섯은 결 대로 먹기 좋게 찢어 준비한다.</div>
+							<div class="item_img"><img src="img/sub09/sub09_11.png"></div>
 						</li>
 
 						<li class="item4 fadeBigInUp">
-							<div class="item_title"><img src="img/sub09/sub09_13.svg"></div>
-							<div class="item_text">우유, 생크림, 소금을 넣고 한소끔 끓인다.</div>
-							<div class="item_img"><img src="img/sub09/sub09_14.png"></div>
+							<div class="item_title"><img src="img/sub09/sub09_12.svg"></div>
+							<div class="item_text">냄비에 불린 쌀을 넣고 다시마 육수를 부은 후 버섯과 은행을 돌려 담고 끓인다.</div>
+							<div class="item_img"><img src="img/sub09/sub09_13.png"></div>
 						</li>
 
 						<li class="item5 fadeBigInUp">
-							<div class="item_title"><img src="img/sub09/sub09_15.svg"></div>
-							<div class="item_text">체다치즈와 파마산 치즈가루를 넣고<br class="mobile_display"> 고루 저어가며 마무리한다.</div>
-							<div class="item_img"><img src="img/sub09/sub09_16.png"></div>
+							<div class="item_title"><img src="img/sub09/sub09_14.svg"></div>
+							<div class="item_text">밥물이 끓어오르면 약불로 줄여 15~20분간 익힌 후, 불을 끄고 5분 정도 뜸을 들이면 완성!</div>
+							<div class="item_img"><img src="img/sub09/sub09_15.png"></div>
 						</li>
 					</ul>
 				</div>
 			</div>
-
-			<!--div class="section04 wow fadeBigInUp">
-			<div class="content">
-				<div class="item fadeBigInUp">
-					<img src="img/sub09/sub09_17.png">
-				</div>
-		</div-->
 		</section>
 		<!-- contents -->
 

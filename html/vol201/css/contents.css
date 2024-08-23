@@ -820,36 +820,36 @@
 	.sub05 .content .info_area .info_box .info_list .list .point::after { transform: translateY(35%); }
 
 	.sub05 .section03 .slide1-2 { margin-top: 24px; }
-	.sub05 .section03 .content .info_area .info_box { padding-bottom: 11px; }
+	.sub05 .section03 .content .info_area .info_box { padding-bottom: 11px; padding-left: 4%;}
 
 	.sub05 .section04 .content { width: 100%; }
-	.sub05 .section04 .content .info_area .info_box { padding-bottom: 15px; }
+	.sub05 .section04 .content .info_area .info_box { padding-bottom: 15px; padding-left: 4%;}
 
 	.sub05 .section05 .content { margin: 48px auto; }
-	.sub05 .section05 .content .info_area .info_box { padding-bottom: 17px; }
+	.sub05 .section05 .content .info_area .info_box { padding-bottom: 17px; padding-left: 4%;}
 	.sub05 .section05 .content .info_area .info_box .info_list { max-width: 279px; width: 100%; }
 
-	.sub05 .section06 .content .info_area .info_box { padding-bottom: 16px; }
+	.sub05 .section06 .content .info_area .info_box { padding-bottom: 16px; padding-left: 4%;}
 	.sub05 .section06 .content .info_area .info_box .info_list { max-width: 279px; width: 100%; }
 
 	.sub05 .section07 .content { margin: 48px auto 105px; }
-	.sub05 .section07 .content .info_area .info_box { padding-bottom: 9px; }
+	.sub05 .section07 .content .info_area .info_box { padding-bottom: 9px; padding-left: 4%;}
 	.sub05 .section07 .content .info_area .info_box .info_list { max-width: 279px; width: 100%; }
 
 	.sub05 .section08 .content { padding-top: 55px; }
 
 	.sub05 .section09 .content { margin: 50px auto 48px; }
-	.sub05 .section09 .content .info_area .info_box { padding-bottom: 14px; }
+	.sub05 .section09 .content .info_area .info_box { padding-bottom: 14px; padding-left: 4%;}
 	.sub05 .section09 .content .info_area .info_box .info_list { max-width: 279px; width: 100%; }
 
-	.sub05 .section10 .content .info_area .info_box { padding-bottom: 24px; }
+	.sub05 .section10 .content .info_area .info_box { padding-bottom: 24px;padding-left: 4%; }
 	.sub05 .section10 .content .info_area .info_box .info_list { max-width: 286px; width: 100%; }
 
 	.sub05 .section11 .content { margin: 48px auto; }
-	.sub05 .section11 .content .info_area .info_box { padding-bottom: 22px; }
+	.sub05 .section11 .content .info_area .info_box { padding-bottom: 22px; padding-left: 4%;}
 
 	.sub05 .section12 .content { margin: 0 auto 50px; }
-	.sub05 .section12 .content .info_area .info_box { padding-bottom: 24px; }
+	.sub05 .section12 .content .info_area .info_box { padding-bottom: 24px;}
 	.sub05 .section12 .content .info_area .info_box .info_list { max-width: 279px; width: 100%; }
 }
 @media only all and (max-width: 360px) {
@@ -863,7 +863,8 @@
 	.sub05 .content .num_title span { font-size: 15px; line-height: 23px; }
 	.sub05 .content .num_title h3 { font-size: 15px; line-height: 23px; }
 
-	.sub05 .content .info_area .info_box .info_list .list { display: flex; align-items: center; font-size: 14.5px; }
+	.sub05 .section12 .content .info_area .info_box { padding-left: 4%;}
+	.sub05 .content .info_area .info_box .info_list .list { display: flex; align-items: center; font-size: 13px; }
 	.sub05 .content .info_area .info_box .info_list .list span { width: 30%; }
 	.sub05 .content .info_area .info_box .info_list .list a { line-height: 21px; }
 	.sub05 .content .info_area .info_box .info_list .list em { line-height: 21px; width: 70%; }

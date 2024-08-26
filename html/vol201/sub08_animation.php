@@ -7,6 +7,10 @@
 	<?php include("../../inc/head.php"); ?>
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
 	
+	<!-- gsap -->
+	<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
 </head>
 <body>
 <div id="wrap" class="sub08">
@@ -110,6 +114,56 @@
 						</div>
 					</div>
 				</div>
+
+				<!-- GSAP -->
+				<script>
+		
+                    document.addEventListener("DOMContentLoaded", function () {
+                        gsap.registerPlugin(ScrollTrigger);
+
+                        // 타임라인 생성
+                        const tl = gsap.timeline({
+                            scrollTrigger: {
+                                trigger: ".item_list", // 전체 리스트가 트리거가 됨
+                                start: "top 80%",      // 리스트가 화면 상단에서 80% 지점에 도달할 때 시작
+                                end: "bottom 20%",     // 리스트가 화면 하단에서 20% 지점에 도달할 때 종료
+                                toggleActions: "restart none none none", // 스크롤 시 다시 시작
+                                markers: false,        // 디버그 마커 비활성화
+                                scrub: false,          // 스크롤에 따라 부드럽게 진행되진 않음
+                                onLeaveBack: () => tl.restart(), // 스크롤이 끝나면 다시 재시작
+                            }
+                        });
+
+                        // 순차적으로 motion1부터 motion5까지 애니메이션 추가
+                        tl.fromTo(".motion1", 
+                            { scale: 1, opacity: 0 }, 
+                            { scale: 1.5, opacity: 1, duration: 0.6, ease: "power1.inOut" }
+                        )
+                        .to(".motion1", { scale: 1, duration: 0.6, ease: "power1.inOut" })
+                        .fromTo(".motion2", 
+                            { scale: 1, opacity: 0 }, 
+                            { scale: 1.5, opacity: 1, duration: 0.6, ease: "power1.inOut" }
+                        )
+                        .to(".motion2", { scale: 1, duration: 0.6, ease: "power1.inOut" })
+                        .fromTo(".motion3", 
+                            { scale: 1, opacity: 0 }, 
+                            { scale: 1.5, opacity: 1, duration: 0.6, ease: "power1.inOut" }
+                        )
+                        .to(".motion3", { scale: 1, duration: 0.6, ease: "power1.inOut" })
+                        .fromTo(".motion4", 
+                            { scale: 1, opacity: 0 }, 
+                            { scale: 1.5, opacity: 1, duration: 0.6, ease: "power1.inOut" }
+                        )
+                        .to(".motion4", { scale: 1, duration: 0.6, ease: "power1.inOut" })
+                        .fromTo(".motion5", 
+                            { scale: 1, opacity: 0 }, 
+                            { scale: 1.5, opacity: 1, duration: 0.6, ease: "power1.inOut" }
+                        )
+                        .to(".motion5", { scale: 1, duration: 0.6, ease: "power1.inOut" });
+                    });
+				</script>
+
+
 				<div class="mobile_display">
 					<div class="item_box">
 						<ul class="item_list">

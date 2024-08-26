@@ -156,13 +156,21 @@
 						<li class="item3 fadeBigInUp">
 							<div class="item_title"><img src="img/sub09/sub09_10.svg"></div>
 							<div class="item_text">송이버섯은 결 대로 먹기 좋게 찢어 준비한다.</div>
-							<div class="item_img"><img src="img/sub09/sub09_11.png"></div>
+							<div class="item_img">
+								<img src="img/sub09/sub09_11-1.png" class="img1">
+								<img src="img/sub09/sub09_11-2.png" class="img2">
+								<img src="img/sub09/sub09_11-3.png" class="img3">
+							</div>
 						</li>
 
 						<li class="item4 fadeBigInUp">
 							<div class="item_title"><img src="img/sub09/sub09_12.svg"></div>
 							<div class="item_text">냄비에 불린 쌀을 넣고 다시마 육수를 부은 후 버섯과 은행을 돌려 담고 끓인다.</div>
-							<div class="item_img"><img src="img/sub09/sub09_13.png"></div>
+							<div class="item_img">
+								<img src="img/sub09/sub09_13-1.png" class="img1">
+								<img src="img/sub09/sub09_13-2.png" class="img2">
+								<img src="img/sub09/sub09_13-3.png" class="img3">
+							</div>
 						</li>
 
 						<li class="item5 fadeBigInUp">

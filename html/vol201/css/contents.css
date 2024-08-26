@@ -1248,6 +1248,19 @@
     }
 }
 
+.sub09 .section03 .content .item2 .item_img { position: relative; }
+.sub09 .section03 .content .item2 .item_img .img1 { animation: shaking 2s infinite; }
+@keyframes shaking {
+	0%{ transform: rotate(3deg); }
+	50%{ transform: rotate(-3deg); }
+	100%{ transform: rotate(3deg); }
+}
+.sub09 .section03 .content .item2 .item_img .img2 { position: absolute; left: 0; bottom: 0; animation: droping 2s infinite; }
+@keyframes droping {
+	0%{ transform: translateY(-100px); opacity: 0; }
+	100%{ transform: translateY(0); opacity: 1; }
+}
+
 @media only all and (max-width:767px) {
 	.sub09 .section01 { height: 275px; }
 	.sub09 .section01 { background-position: center 30%; }

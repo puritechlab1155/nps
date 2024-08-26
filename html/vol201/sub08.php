@@ -235,12 +235,14 @@
 						<p>무릎을 꿇은 상태에서 엉덩이를 들어 올리고 양손을 발뒤꿈치에 짚는다. 골반과 가슴을 앞으로 밀면서 척추를 늘린다.</p>
 					</div>
 					<div class="item item3 fadeBigInUp">
-						<div class="item_img"><img src="img/sub08/sub08_43.svg" class="hover-image"></div>
+						<div class="pc_display"><div class="item_img"><img src="img/sub08/sub08_43.svg" class="hover-image"></div></div>
+						<div class="mobile_display"><div class="item_img"><img src="img/sub08/sub08_43_mo.svg" class="hover-image"></div></div>
 						<span>전사 자세</span>
 						<p>매트 위에 서서 등을 곧게 펴준 후 두 발을 벌리고 팔을 들어 올린다. 앞에 디딘 무릎이 90도가 되도록 굽히고 등을 곧게 편다.</p>
 					</div>
 					<div class="item item4 fadeBigInUp">
-						<div class="item_img"><img src="img/sub08/sub08_44.svg" class="hover-image"></div>
+						<div class="pc_display"><div class="item_img"><img src="img/sub08/sub08_44.svg" class="hover-image"></div></div>
+						<div class="mobile_display"><div class="item_img"><img src="img/sub08/sub08_44_mo.svg" class="hover-image"></div></div>
 						<span>머리 들어 올린 강아지 자세</span>
 						<p>매트 위에 배를 대고 지면을 누르면서 상체를 들어 올린다. 하늘을 바라본 후 10초간 자세를 유지한다.</p>
 					</div>

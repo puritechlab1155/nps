@@ -1113,7 +1113,7 @@
 .sub08 .section06 .content .items { display: flex; flex-wrap: wrap; gap: 40px; justify-content: center; margin-top: 48px; }
 .sub08 .section06 .content .items .item { width: calc(50% - 20px); }
 .sub08 .section06 .content .items .item .item_img img { width: 100%; }
-.sub08 .section06 .content .items .item span { display: block; width: 100%; border-radius: 45px; background: #fff; padding: 8px 10px; margin: 28px 0 20px; text-align: center; color: #87c878; font-family: 'laundrygothic'; font-size: 17px; font-weight: 700; line-height: 25px; }
+.sub08 .section06 .content .items .item span { display: block; width: 100%; border-radius: 45px; background: #fff; padding: 8px 10px; margin: 20px 0; text-align: center; color: #87c878; font-family: 'laundrygothic'; font-size: 17px; font-weight: 700; line-height: 25px; }
 .sub08 .section06 .content .items .item p { font-size: 16px; font-weight: 400; line-height: 25px; letter-spacing: -0.32px; }
 
 .sub08 .section06 .content .items .item .item_img .hover-image{ transition: transform 0.3s ease, box-shadow 0.3s ease; display: block; border-radius: 10px; }
@@ -1154,6 +1154,7 @@
 	.sub08 .section05 .content .type_explain { margin: 0 auto; }
 	.sub08 .section05 .content .type_explain .types { flex-direction: column; }
 	.sub08 .section05 .content .type_explain .types span { width: 100%; max-width: 100%; }
+	.sub08 .section05 .content .type_explain .types p { line-height: 28px; }
 
 	.sub08 .section06 { padding: 40px 0; }
 	.sub08 .section06 .content .title_box { flex-direction: column; text-align: center; }
@@ -1217,6 +1218,7 @@
 
 .sub09 .section03 .content ul { display: flex; flex-direction: column; gap: 80px; justify-content: center; margin-top: 91px; }
 .sub09 .section03 .content ul li { flex: 1; }
+.sub09 .section03 .content ul li:nth-child(2) { margin-top: -10px; }
 .sub09 .section03 .content .item_title { width: 100%; max-width: 128px; margin: 0 auto; }
 .sub09 .section03 .content .item_title img { width: 100%;}
 .sub09 .section03 .content .item_text { font-family: 'Meetme'; font-size: 31px; font-weight: 400; line-height: 40px; text-align: center; margin: 20px 0; }

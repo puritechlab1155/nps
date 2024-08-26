@@ -176,7 +176,13 @@
 						<li class="item5 fadeBigInUp">
 							<div class="item_title"><img src="img/sub09/sub09_14.svg"></div>
 							<div class="item_text">밥물이 끓어오르면 약불로 줄여 15~20분간 익힌 후, 불을 끄고 5분 정도 뜸을 들이면 완성!</div>
-							<div class="item_img"><img src="img/sub09/sub09_15.png"></div>
+							<div class="item_img">
+								<img src="img/sub09/sub09_15-1.png" class="img1">
+								<img src="img/sub09/sub09_15-2.png" class="img2">
+								<img src="img/sub09/sub09_15-3.png" class="img3">
+								<img src="img/sub09/sub09_15-4.png" class="img4">
+								<img src="img/sub09/sub09_15-5.png" class="img5">
+							</div>
 						</li>
 					</ul>
 				</div>

@@ -138,7 +138,19 @@
 								고춧가루 1작은술, 다진 마늘 1/2작은술, <br>
 								참기름 1큰술, 통깨 약간
 							</div>
-							<div class="item_img"><img src="img/sub09/sub09_07.png"></div>
+							<div class="item_img">
+								<img src="img/sub09/ingred01.png" class="ingred1">
+								<img src="img/sub09/ingred02.png" class="ingred2">
+								<img src="img/sub09/ingred03.png" class="ingred3">
+								<img src="img/sub09/ingred04.png" class="ingred4">
+								<img src="img/sub09/ingred05.png" class="ingred5">
+								<img src="img/sub09/ingred06.png" class="ingred6">
+								<img src="img/sub09/ingred07.png" class="ingred7">
+								<img src="img/sub09/ingred08.png" class="ingred8">
+								<img src="img/sub09/ingred09.png" class="ingred9">
+								<img src="img/sub09/ingred10.png" class="ingred10">
+								<img src="img/sub09/ingred11.png" class="ingred11">
+							</div>
 						</li>
 
 						<li class="item2 fadeBigInUp">
@@ -157,9 +169,11 @@
 							<div class="item_title"><img src="img/sub09/sub09_10.svg"></div>
 							<div class="item_text">송이버섯은 결 대로 먹기 좋게 찢어 준비한다.</div>
 							<div class="item_img">
-								<img src="img/sub09/sub09_11-1.png" class="img1">
+								<img src="img/sub09/sub09_11-4.png" class="img4">
 								<img src="img/sub09/sub09_11-2.png" class="img2">
 								<img src="img/sub09/sub09_11-3.png" class="img3">
+								<img src="img/sub09/sub09_11-5.png" class="img5">
+								<img src="img/sub09/sub09_11-6.png" class="img6">
 							</div>
 						</li>
 

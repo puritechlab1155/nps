@@ -1248,6 +1248,9 @@
     }
 }
 
+.sub09 .section03 .content .item1 .item_img { position: relative; }
+.ingred2, .ingred3, .ingred4, .ingred5, .ingred6, .ingred7, .ingred8, .ingred9, .ingred10, .ingred11 { position: absolute; left: 0; bottom: 0; }
+
 .sub09 .section03 .content .item2 .item_img { position: relative; }
 .sub09 .section03 .content .item2 .item_img .img1 { animation: shaking 2s infinite; }
 @keyframes shaking {
@@ -1273,6 +1276,13 @@
 	0%{ transform: translateY(10px); }
 	50%{ transform: translateY(0); }
 	100%{ transform: translateY(10px); }
+}
+.sub09 .section03 .content .item3 .item_img .img5 { position: absolute; left: 0; bottom: 0; animation: shaking 2.5s infinite; }
+.sub09 .section03 .content .item3 .item_img .img6 { position: absolute; left: 0; bottom: 0; animation: mushroomUpDown 2s infinite; }
+@keyframes mushroomUpDown {
+	0%{ transform: translateY(-10px); }
+	50%{ transform: translateY(10px); }
+	100%{ transform: translateY(-10px); }
 }
 
 .sub09 .section03 .content .item4 .item_img { position: relative; }

@@ -579,7 +579,8 @@
 .sub04 .section04 .content .conts_box .img_box img { width: 100%; }
 .sub04 .section04 .content .conts_box .text_box { padding: 100px 0 91px; }
 
-.sub04 .section05 { position: relative; width: 100%; display: flex; }
+.sub04 .section05 { position: relative; width: 100%; }
+.sub04 .section05 > .pc_display .content_area { position: relative; width: 100%; display: flex; }
 .sub04 .section05 .blank_box { width: 24%; }
 .sub04 .section05 .content { width: 100%; max-width: 460px; }
 .sub04 .section05 .img_box { flex: 1; margin-left: 60px; box-sizing: border-box; }

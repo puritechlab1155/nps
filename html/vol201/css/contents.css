@@ -599,39 +599,27 @@
 	.sub04 .section01 .content .cover_text { padding: 0; }
 	.sub04 .section01 .content .cap { margin-top: 12px; }
 
-	.sub04 .section02 { position: relative; display: block; width: 100%; margin: 50px auto; padding:0 20px; }
+	.sub04 .section02 { position: relative; display: block; width: 100%; margin: 50px auto 60px; padding:0 20px; }
 	.sub04 .section02 .content .subtitle_top { line-height: 30px; }
-	.sub04 .section02 .content .title { font-size: 36px; line-height: 48px; padding-bottom: 35px; }
+	.sub04 .section02 .content .title { font-size: 36px; line-height: 48px; padding-bottom: 35px; margin-top: 8px; }
 	.sub04 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: -0.36px; margin: 35px 0 16px; }
 	.sub04 .section02 .content .not_box { padding: 14px 20px; }
 
-	.sub04 .section03 .content .subtitle { padding: 8px; font-size: 18px; line-height: 28px; }
-	.sub04 .section03 .content .item_box { margin: 24px auto 50px; flex-direction: column; gap: 24px; }
-	.sub04 .section03 .content .item_box .item .img_box { width: 100%; max-width: 100%; margin-bottom: 8px; }
-	.sub04 .section03 .content .item_box .item span { font-size: 16px; line-height: 28px; letter-spacing: normal; }
-	.sub04 .section03 .content .item_box .item p { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
+	.sub04 .content .subtitle { font-size: 16px; line-height: 28px; }
+	.sub04 .content .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
 
-	.sub04 .section04 .content { margin: 50px auto; }
-	.sub04 .section04 .content .subtitle { padding: 8px; font-size: 18px; line-height: 28px; }
-	.sub04 .section04 .content ul { margin: 24px auto 0; flex-direction: column; flex-wrap: nowrap; justify-content: center; gap: 36px; }
-	/* .sub04 .section04 .content ul { display: flex; margin: 32px auto 0; flex-wrap: wrap; justify-content: flex-start; gap: 32px 40px; } */
-	.sub04 .section04 .content ul li { flex-basis: 1; }
-	.sub04 .section04 .content ul li:nth-child(4) { margin-top: -12px; }
-	.sub04 .section04 .content ul li .img_box { width: 100%; max-width: 100%; margin-right: 0; margin-bottom: 8px; }
-	.sub04 .section04 .content ul li .img_box img { width: 100%; }
-	.sub04 .section04 .content ul li span { font-size: 16px; line-height: 28px; }
-	.sub04 .section04 .content ul li p { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
+	.sub04 .section04 { margin: 60px auto 0; }
+	.sub04 .section04 .content .conts_box { flex-direction: column; }
+	.sub04 .section04 .content .conts_box .text_box { padding: 24px 0 60px; }
 
-	.sub04 .section05 .content { margin: 0 auto 50px; }
-	.sub04 .section05 .content .img_box { border-radius: 10px 10px 0 0; overflow: hidden; }
-	.sub04 .section05 .content .conts_box { padding: 0 26px 0 22px; }
-	.sub04 .section05 .content .conts_box .cont01 { padding: 33px 0 37px; }
-	.sub04 .section05 .content .conts_box .cont01 .text01 > span { text-align: left; padding: 15px 0 17px; font-size: 17px; line-height: 30px; }
-	.sub04 .section05 .content .conts_box .cont01 .text01 a { border: 0; display: block; width: 100%; max-width: 260px; margin: 0 auto; }
-	.sub04 .section05 .content .conts_box .cont01 .text01 a span { border-bottom: 2px solid #9076fc; color: #9076fc; font-weight: 700; font-size: 16px; display: block; }
-	.sub04 .section05 .content .conts_box .cont02 { padding: 11px 0 27px; }
-	.sub04 .section05 .content .conts_box .cont02 p {  font-size: 16px; line-height: 28px; letter-spacing: -0.32px; margin-bottom: 11px; }
-	.sub04 .section05 .content .conts_box .cont02 em { font-size: 14px; line-height: 22px; letter-spacing: -0.28px; }
+	.sub04 .section05 { flex-direction: column; }
+	.sub04 .section05 .content { width: 100%; max-width: 100%; padding: 0 20px; }
+	.sub04 .section05 .img_box { margin-left: 0; }
+	.sub04 .section05 .content .text_box { padding-top: 24px; }
+
+	.sub04 .section06 { margin-top: 59px; }
+	.sub04 .section06 .content .conts_box { flex-direction: column; }
+	.sub04 .section06 .content .conts_box .text_box { padding: 24px 0 59px; }
 }
 
 /* 모두의 여행 */

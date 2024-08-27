@@ -26,7 +26,7 @@
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
 				<div class="subtitle_top">한국 트로트 어떻게 변했을까?</div>
-				<div class="title pc_display">트로트를 신드롬으로 만든 임영웅이라는 세계</div>
+				<div class="title pc_display">트로트를 신드롬으로 만든 <br>임영웅이라는 세계</div>
 				<div class="title mobile_display">
 					트로트를 <br>
 					신드롬으로 만든 <br>

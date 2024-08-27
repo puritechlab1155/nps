@@ -858,7 +858,7 @@
 .sub06 .section01::before { content: ''; background: rgba(0, 0, 0, 0.3); position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: 1; }
 .sub06 .section01 .content { text-align: center; margin-bottom: 89px; color: #fff; position: relative; z-index: 2; }
 .sub06 .section01 .content .title { font-size: 27px; font-weight: 700; }
-.sub06 .section01 .content .text { font-size: 16px; font-weight: 400; padding: 13px 0; color: #fff; }
+.sub06 .section01 .content .text_top { font-size: 16px; font-weight: 400; line-height: normal; padding: 13px 0; color: #fff; }
 
 .sub06 .section02 { position: relative; display: block; width: 100%; }
 .sub06 .section02 .content { position: relative; width: 100%; max-width: 1020px; margin: 120px auto; text-align: center; padding: 0 20px; }
@@ -934,7 +934,7 @@
 	.sub06 .section01::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); }
 	.sub06 .section01 .content { position: relative; z-index: 1; text-align: center; margin-bottom: 12px; color: #fff; }
 	.sub06 .section01 .content .title { font-size: 20px; font-weight: 700; }
-	.sub06 .section01 .content .text { padding: 0; }
+	.sub06 .section01 .content .text_top { padding: 0; }
 
 	.sub06 .section02 .content { margin: 50px auto; }
 	.sub06 .section02 .content .subtitle { font-size: 24px; line-height: 30px; padding-bottom: 8px; }

@@ -858,10 +858,10 @@
 .sub06 .section01::before { content: ''; background: rgba(0, 0, 0, 0.3); position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: 1; }
 .sub06 .section01 .content { text-align: center; margin-bottom: 89px; color: #fff; position: relative; z-index: 2; }
 .sub06 .section01 .content .title { font-size: 27px; font-weight: 700; }
-.sub06 .section01 .content .text { font-size: 16px; font-weight: 400; padding: 13px 0; }
+.sub06 .section01 .content .text { font-size: 16px; font-weight: 400; padding: 13px 0; color: #fff; }
 
 .sub06 .section02 { position: relative; display: block; width: 100%; }
-.sub06 .section02 .content { position: relative; width: 100%; max-width: 1020px; margin: 120px auto; text-align: center; padding:0 20px; }
+.sub06 .section02 .content { position: relative; width: 100%; max-width: 1020px; margin: 120px auto; text-align: center; padding: 0 20px; }
 .sub06 .section02 .content .subtitle { font-size: 24px; font-weight: 700; color: #5371ff; }
 .sub06 .section02 .content .title { font-size: 50px; font-weight: 700; line-height: 68px; padding-bottom: 30px; border-bottom: 1px solid #000; }
 .sub06 .section02 .content .subcopy { font-size: 20px; font-weight: 700; line-height: 32px; text-align: left; padding-top: 35px; letter-spacing: -0.4px; }
@@ -902,14 +902,14 @@
 
 .sub06 .section05 .content .cont_box .item1 { display: flex; justify-content: space-between; align-items: center; }
 .sub06 .section05 .content .cont_box .item1 .text_box { width: calc(60% - 33px); }
-.sub06 .section05 .content .cont_box .item1 .text_box .box_title { color: #000; font-family: 'laundrygothic'; font-size: 45px; font-weight: 400; line-height: 50px; }
-.sub06 .section05 .content .cont_box .item1 .text_box .box_title span { display: block; color: #947e77; font-size: 63px; font-family: 'laundrygothic'; padding-top: 8px; }
+.sub06 .section05 .content .cont_box .box_title { color: #000; font-family: 'laundrygothic'; font-size: 45px; font-weight: 400; line-height: 50px; }
+.sub06 .section05 .content .cont_box .box_title span { display: block; color: #947e77; font-size: 63px; font-family: 'laundrygothic'; padding-top: 8px; }
 .sub06 .section05 .content .cont_box .item1 .text_box .item_q { margin-top: 52px; }
 .sub06 .section05 .content .cont_box .item1 .img_box { width: 40%; }
 .sub06 .section05 .content .cont_box .item1 .img_box img { width: 100%; transform: scale(1.1) translateX(30px); }
 
 .sub06 .section05 .content .cont_box .item2 .text_box ul { margin-top: 16px; }
-.sub06 .section05 .content .cont_box .item2 .text_box ul li { border-top: 1px solid #000; font-size: 15px; font-weight: 400; line-height: 23px; letter-spacing: -0.3px; padding: 8px 0; }
+.sub06 .section05 .content .cont_box .item2 .text_box ul li { border-top: 1px solid #000; font-size: 15px; font-weight: 400; line-height: 24px; letter-spacing: -0.3px; padding: 8px 0; }
 .sub06 .section05 .content .cont_box .item2 .text_box ul li:nth-child(2) { border-bottom: 1px solid #000; }
 .sub06 .section05 .content .cont_box .item2 .text_box ul li span { font-weight: 700; padding-right: 10px; }
 
@@ -929,10 +929,6 @@
 .sub06 .section06 .closing_text { margin: 70px auto 0; text-align: center; width: 100%; max-width: 610px; }
 .sub06 .section06 .closing_text .sub_text { font-family: 'laundrygothic'; font-size: 32px; font-weight: 400; line-height: 50px; border-bottom: 1px solid #000; padding: 10px 0; }
 
-@media only all and (max-width: 1023px) {
-	.sub06 .section04 .content .item4 div { font-size: 31.5px; }
-}
-
 @media only all and (max-width:767px) {
 	.sub06 .section01 { height: 275px; position: relative; }
 	.sub06 .section01::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); }
@@ -940,29 +936,52 @@
 	.sub06 .section01 .content .title { font-size: 20px; font-weight: 700; }
 	.sub06 .section01 .content .text { padding: 0; }
 
-	.sub06 .section02 { margin: 50px auto; }
-	.sub06 .section02 .content {  margin-bottom: 50px; }
+	.sub06 .section02 .content { margin: 50px auto; }
 	.sub06 .section02 .content .subtitle { font-size: 24px; line-height: 30px; padding-bottom: 8px; }
 	.sub06 .section02 .content .title { font-size: 36px; line-height: 48px; padding-bottom: 35px; }
 	.sub06 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: -0.36px; }
 	
 	.sub06 .section03 .film { height: 46px; background-position: left center; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); animation: shadowPulse 2s infinite;}
-	.sub06 .section03 .content { width: 100%; margin: 28px auto; padding:0 20px;  }
-	.sub06 .section03 .content .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
+	.sub06 .section03 .content { width: 100%; margin: 28px auto; padding: 0 20px; }
+	.sub06 .content .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
 	.sub06 .section03 .content .text h3 { font-size: 16px; line-height: 28px; }
 
-	.sub06 .section03 .content .sub_text { font-size: 17px; width: 100%; border-bottom: 1px solid #000; padding: .3em 0; }
-	.sub06 .section03 .content .line1 { margin-top: 16px; }
-	.sub06 .section03 .content .conversation_box { margin: 16px auto; }
+	.sub06 .section03 .content .img_box { margin: 16px auto; }
 	
-	.sub06 .section04 .content { width: 100%; margin: 40px auto; }
-	.sub06 .section04 .content h4 { font-size: 16px; line-height: 28px; letter-spacing: normal; }
-	.sub06 .section04 .content .item_text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
-	.sub06 .section04 .content .item2 { margin: 16px auto 36px; text-align: center; }
-	.sub06 .section04 .content .item2 img { width: 100%; }
+	.sub06 .section04 .content { margin: 50px auto 24px; }
+	.sub06 .section04 h4 { font-size: 16px; line-height: 28px; }
 
-	.sub06 .section04 .content .item4 { margin-top: 24px; }
-	.sub06 .section04 .content .item4 div { font-size: 17px; line-height: 32px; width: 100%; padding: 0.25em 0; }
+	.sub06 .section04 .content .line_text { margin: 16px auto 50px; }
+
+	.sub06 .section05 .content .cont_box { background: #f8f8f8 url(../img/sub06/sub06_02_bg_mo.svg); border-radius: 8px; padding: 27px 0 31px; }
+	.sub06 .section05 .content .cont_box .item { padding: 0 40px; }
+
+	.sub06 .section05 .content .cont_box > .text_box { position: relative; }
+	.sub06 .section05 .content .cont_box .box_title { position: absolute; left: 0; top: 20px; font-size: 22px; line-height: 32px; padding-left: 40px; }
+	.sub06 .section05 .content .cont_box .box_title span { font-size: 35px; line-height: 42px; padding-top: 5px; }
+
+	.sub06 .section05 .content .cont_box .item_area { display: flex; flex-direction: column; gap: 24px; }
+	.sub06 .section05 .content .cont_box .item .text_box p { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
+
+	.sub06 .section05 .content .cont_box .item2 .text_box ul li { display: flex; }
+	.sub06 .section05 .content .cont_box .item2 .text_box ul li span { display: block; flex-shrink: 1; }
+	.sub06 .section05 .content .cont_box .item2 .text_box ul li em { flex: 1; }
+
+	.sub06 .section05 .content .cont_box .item3 { margin-top: 0; }
+	.sub06 .section05 .content .cont_box .item3 .list_box .list_title { display: flex; vertical-align: text-top; }
+	.sub06 .section05 .content .cont_box .item3 .list_box .list_title span { flex-shrink: 1; width: 40px; height: 24px; }
+	.sub06 .section05 .content .cont_box .item3 .list_box .list_title em { flex: 1; font-size: 16px; font-weight: 700; line-height: 24px; letter-spacing: -0.32px; }
+	.sub06 .section05 .content .cont_box .item3 .list_box ul { display: flex; flex-direction: column; gap: 2px; }
+	.sub06 .section05 .content .cont_box .item3 .list_box ul li { display: flex; align-items: flex-start; }
+	.sub06 .section05 .content .cont_box .item3 .list_box ul li em { font-size: 15px; font-weight: 400; line-height: 24px; letter-spacing: -0.3px; }
+	.sub06 .section05 .content .cont_box .item3 .list_box ul li:nth-child(3) em { font-weight: 700; }
+	.sub06 .section05 .content .cont_box .item3 .list_box ul li img { display: inline-block; margin-right: 4px; margin-top: 4px; }
+
+	.sub06 .section05 .content .cont_box .item4 { margin-top: 0; }
+
+	.sub06 .section06 .content { margin: 24px auto 50px; }
+	.sub06 .section06 .closing_text { margin: 24px auto 0; }
+	.sub06 .section06 .closing_text .sub_text { font-size: 17px; line-height: 32px; padding: 8px 0; }
 }
 
 /* 키워드로 보는 세상 */

@@ -554,53 +554,42 @@
 /* 알잘딱깔센! 세이브 머니 */
 .sub04 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; color: #000; line-height: normal; letter-spacing: normal; }
 
-.sub04 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub04/sub04_00.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; position: relative; }
+.sub04 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub04/sub04_00.jpg'); background-size: cover; background-position: center 86%; background-repeat: no-repeat; display: flex; justify-content: center;  align-items: flex-end; position: relative; }
 .sub04 .section01::before { content: ''; background: rgba(0, 0, 0, 0.4); position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
-.sub04 .section01 .content { text-align: center; margin-bottom: 19px; position: relative; z-index: 5; color: #fff; }
+.sub04 .section01 .content { text-align: center; margin-bottom: 89px; position: relative; z-index: 5; color: #fff; }
 .sub04 .section01 .content .cover_title { font-size: 27px; font-weight: 700; }
 .sub04 .section01 .content .cover_text { font-size: 16px; font-weight: 400; padding: 13px 0; }
-.sub04 .section01 .content .cap { font-size: 15px; font-weight: 400; margin-top: 48px; }
-.sub04 .section01 .content .cap span { font-weight: 700; }
 
-.sub04 .section02 { position: relative; display: block; width: 100%; max-width: 1020px; margin: 120px auto 70px; padding:0 20px; }
+.sub04 .section02 { position: relative; display: block; width: 100%; max-width: 1020px; margin: 130px auto; padding:0 20px; }
 .sub04 .section02 .content { position: relative; width: 100%; max-width: 980px; }
-.sub04 .section02 .content .subtitle_top { color: #9076fc; font-size: 24px; font-weight: 700; text-align: center;}
+.sub04 .section02 .content .subtitle_top { color: #362373; font-size: 24px; font-weight: 700; text-align: center;}
 .sub04 .section02 .content .title { font-size: 50px; font-weight: 700; line-height: 68px; padding-bottom: 30px; border-bottom: 1px solid #000; text-align: center; }
-.sub04 .section02 .content .subcopy { font-size: 20px; font-weight: 700; line-height: 32px; letter-spacing: -0.4px; margin: 35px 0 30px; }
-.sub04 .section02 .content .not_box { background: #f2f0f0; padding: 10px 20px; font-size: 15px; font-weight: 400; }
+.sub04 .section02 .content .subcopy { color: #000; font-size: 20px; font-weight: 700; line-height: 32px; letter-spacing: -0.4px; margin-top: 35px; }
 
-.sub04 .section03 { position: relative; width: 100%; display: block; }
-.sub04 .section03 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding:0 20px;  }
-.sub04 .section03 .content .subtitle { width: 100%; background: #9076fc; border-radius: 999px; padding: 10px; text-align: center; color: #fff; font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; }
-.sub04 .section03 .content .item_box { margin: 32px auto 70px; display: flex; gap: 40px; }
-.sub04 .section03 .content .item_box .item { flex: 1; }
-.sub04 .section03 .content .item_box .item .img_box { width: 100%; max-width: 300px; margin-bottom: 16px; }
-.sub04 .section03 .content .item_box .item .img_box img { width: 100%; }
-.sub04 .section03 .content .item_box .item span { font-family: 'laundrygothic'; font-size: 19px; font-weight: 700; line-height: 32px; }
-.sub04 .section03 .content .item_box .item p { font-size: 18px; font-weight: 400; line-height: 32px; letter-spacing: -0.36px; }
+.sub04 .content .subtitle { color: #362373; font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; }
+.sub04 .content .text { font-size: 18px; font-weight: 400; line-height: 32px; letter-spacing: -0.36px; }
 
-.sub04 .section04 { position: relative; width: 100%; display: block; }
-.sub04 .section04 .content { width: 100%; max-width: 1020px; margin: 70px auto; padding:0 20px;  }
-.sub04 .section04 .content .subtitle { background: #83cfff; width: 100%; text-align: center; border-radius: 999px; padding: 10px; font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; }
-.sub04 .section04 .content ul { display: flex; margin: 32px auto 0; flex-wrap: wrap; justify-content: flex-start; gap: 32px 40px; }
-.sub04 .section04 .content ul li { flex-basis: 300px; }
-.sub04 .section04 .content ul li .img_box { width: 100%; max-width: 300px; margin-bottom: 16px; }
-.sub04 .section04 .content ul li span { font-family: 'laundrygothic'; font-size: 19px; font-weight: 700; line-height: 32px; }
-.sub04 .section04 .content ul li p { font-size: 18px; font-weight: 400; line-height: 32px; letter-spacing: -0.36px; }
+.sub04 .section03 { position: relative; width: 100%; display: block; overflow: hidden; }
+.sub04 .section03 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding: 0 20px; }
 
-.sub04 .section05 { position: relative; width: 100%; display: block; }
-.sub04 .section05 .content { width: 100%; max-width: 1020px; margin: 0 auto 119px; padding: 0 20px; }
-.sub04 .section05 .content .img_box img { width: 100%; }
-.sub04 .section05 .content .conts_box { background: #f1f1f1; border-radius: 0 0 7px 7px; padding: 0 40px; }
-.sub04 .section05 .content .conts_box .cont01 { margin: 0 auto; padding: 55px 0 57px; }
-.sub04 .section05 .content .conts_box .cont01 .search_img { width: 100%; max-width: 516px; margin: 0 auto; }
-.sub04 .section05 .content .conts_box .cont01 .search_img img { width: 100%; }
-.sub04 .section05 .content .conts_box .cont01 .text01 { text-align: center; }
-.sub04 .section05 .content .conts_box .cont01 .text01 > span { display: block; padding: 19px 0 24px; font-family: 'laundrygothic'; font-size: 18px; font-weight: 400; line-height: 32px; }
-.sub04 .section05 .content .conts_box .cont01 .text01 a { padding-bottom: 4px; border-bottom: 3px solid #9076fc; color: #9076fc; font-family: 'laundrygothic'; font-size: 18px; font-weight: 700; line-height: 32px; display: block; width: 100%; max-width: 575px; margin: 0 auto; }
-.sub04 .section05 .content .conts_box .cont02 { border-top: 1px solid #c6cacc; padding: 25px 0 54px; }
-.sub04 .section05 .content .conts_box .cont02 p {  font-size: 18px; font-weight: 400; line-height: 32px; letter-spacing: -0.36px; margin-bottom: 24px; }
-.sub04 .section05 .content .conts_box .cont02 em { font-size: 16px; font-weight: 400; line-height: 27px; letter-spacing: -0.32px; }
+.sub04 .section04 { position: relative; width: 100%; display: block; margin: 130px auto; background: #dbccbf; }
+.sub04 .section04 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding:0 20px; }
+.sub04 .section04 .content .conts_box { display: flex; gap: 60px; }
+.sub04 .section04 .content .conts_box > div { flex: 1; }
+.sub04 .section04 .content .conts_box .img_box img { width: 100%; }
+.sub04 .section04 .content .conts_box .text_box { padding: 100px 0 91px; }
+
+.sub04 .section05 { position: relative; width: 100%; display: flex; }
+.sub04 .section05 .blank_box { width: 24%; }
+.sub04 .section05 .content { width: 100%; max-width: 460px; }
+.sub04 .section05 .img_box { flex: 1; margin-left: 60px; box-sizing: border-box; }
+.sub04 .section05 .img_box img { width: 100%; }
+
+.sub04 .section06 { position: relative; width: 100%; display: block; margin-top: 130px; background: #dbccbf; }
+.sub04 .section06 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding:0 20px; }
+.sub04 .section06 .content .conts_box { display: flex; gap: 60px; }
+.sub04 .section06 .content .conts_box .img_box { flex: 1; }
+.sub04 .section06 .content .conts_box .text_box { flex: 1; padding: 100px 0; }
 
 @media only all and (max-width:767px) {
 	.sub04 .section01 { height: 275px; }

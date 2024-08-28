@@ -7,7 +7,7 @@
 	<?php include("../../inc/head.php"); ?>
     <!-- GSAP -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 
 	<!-- <link rel="stylesheet" type="text/css" href="css/contents.css"> -->
     <link rel="stylesheet" type="text/css" href="css/contents.css?v=1.0">
@@ -15,26 +15,81 @@
 <script>
 
     document.addEventListener("DOMContentLoaded", (event) => {
-    // GSAP RoughEase 사용 예시
-    gsap.to(".motion1", { 
-        duration: 2, 
-        scale: 1.1, 
-        yoyo: true, 
-        repeat: -1,
-		z: 100
+    //GSAP RoughEase 사용 예시
+    // gsap.to(".motion1", { 
+    //     duration: 2, 
+    //     scale: 1.1, 
+    //     yoyo: true, 
+    //     repeat: -1,
+	// 	z: 100
 
-    });
+    // });
 
-    gsap.to(".motion2", { 
-        duration: 2, 
-        scale: 0.9, 
-        yoyo: true, 
-        repeat: -1,
-		z: 100
+    // gsap.to(".motion2", { 
+    //     duration: 2, 
+    //     scale: 0.9, 
+    //     yoyo: true, 
+    //     repeat: -1,
+	// 	z: 100
  
-    });
+    // });
 
-    // 다른 애니메이션들
+
+   // .motion1 애니메이션 (서서히 나타남 + 반복 애니메이션)
+gsap.fromTo(".motion1", 
+    { opacity: 0, scale: 0 }, // 시작 상태: 불투명도 0, 크기 0
+    { 
+        opacity: 1,           // 최종 상태: 불투명도 1
+        duration: 4, 
+        scale: 1.1, 
+        // repeat: 1
+        scrollTrigger: {
+            trigger: ".motion1",  // 트리거 요소
+            start: "bottom 20%",     // 스크롤 트리거 위치 (top부터 80% 아래에서 트리거 시작)
+            toggleActions: "restart none none none", //
+            immediateRender: false // 첫 로드 시 즉시 렌더링 방지, 스크롤로 트리거됨
+        }
+    }
+);
+
+
+// .motion2 애니메이션 (서서히 나타남 + 반복 애니메이션)
+gsap.fromTo(".motion2", 
+    { opacity: 0, scale: 0 }, // 시작 상태: 불투명도 0, 크기 0
+    { 
+        opacity: 1,           // 최종 상태: 불투명도 1
+        duration: 3, 
+        scale: 0.9, 
+        // repeat: 1,
+        scrollTrigger: {
+            trigger: ".motion2",  // 트리거 요소
+            start: "bottom 20%",     // 스크롤 트리거 위치
+            toggleActions: "restart none none none", // 
+            immediateRender: false // 첫 로드 시 즉시 렌더링 방지, 스크롤로 트리거됨
+        }
+
+    }
+);
+
+// 페이지 로드 시 애니메이션
+gsap.fromTo(".motion1", 
+    { opacity: 0, scale: 0 }, 
+    { 
+        opacity: 1, 
+        duration: 3, 
+        scale: 1.1 
+    }
+);
+
+gsap.fromTo(".motion2", 
+    { opacity: 0, scale: 0 }, 
+    { 
+        opacity: 1.5, 
+        duration: 1, 
+        scale: 0.9 
+    }
+);
+
     gsap.to(".motion3", { 
         duration: 2, 
         rotationY: 10, 
@@ -125,7 +180,7 @@
         var currentDate = new Date();
 
         // 비교할 날짜와 시간 설정 (2024년 08월 25일 23시 59분 59초)
-        var targetDate = new Date("2024-08-25T23:59:59");
+        var targetDate = new Date("2024-11-03T23:59:59");
 
         // 현재 날짜가 지정한 날짜보다 이후인 경우
         if (currentDate > targetDate) {

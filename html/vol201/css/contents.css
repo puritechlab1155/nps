@@ -1440,6 +1440,13 @@
 	.sub10 #contents { padding: 43px 0 50px; }
 	.sub10 .section01 { max-width: 360px; width: 100%; }
 	.sub10 .section01 .content .title img { padding: 0 10px; }
+
+	.sub10 .section01 .content .title #backgroundImage {width: 100%; display: block !important;}
+	.sub10 .section01 .content .title .motion1 {width: 30%; }
+	.sub10 .section01 .content .title .motion2 { width: 30%;}
+	.sub10 .section01 .content .title .motion3 {width: 30%; top: -8%;}
+	.sub10 .section01 .content .title .motion4 { width: 30%;}
+
 	.sub10 .section01 .content .title_txt { font-size: 16px; letter-spacing: -0.32px; margin: 43px auto 32px; }
 	.sub10 .section01 .content .subtitle { padding: 9px 0 7px; font-size: 16px; height: 54px; }
 	.sub10 .section01 .content .text { margin: 32px auto; }

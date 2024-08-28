@@ -15,99 +15,80 @@
 <script>
 
     document.addEventListener("DOMContentLoaded", (event) => {
-    //GSAP RoughEase 사용 예시
-    // gsap.to(".motion1", { 
-    //     duration: 2, 
-    //     scale: 1.1, 
-    //     yoyo: true, 
-    //     repeat: -1,
-	// 	z: 100
-
-    // });
-
-    // gsap.to(".motion2", { 
-    //     duration: 2, 
-    //     scale: 0.9, 
-    //     yoyo: true, 
-    //     repeat: -1,
-	// 	z: 100
- 
-    // });
-
 
    // .motion1 애니메이션 (서서히 나타남 + 반복 애니메이션)
-gsap.fromTo(".motion1", 
-    { opacity: 0, scale: 0 }, // 시작 상태: 불투명도 0, 크기 0
-    { 
-        opacity: 1,           // 최종 상태: 불투명도 1
-        duration: 4, 
-        scale: 1.1, 
-        // repeat: 1
-        scrollTrigger: {
-            trigger: ".motion1",  // 트리거 요소
-            start: "bottom 20%",     // 스크롤 트리거 위치 (top부터 80% 아래에서 트리거 시작)
-            toggleActions: "restart none none none", //
-            immediateRender: false // 첫 로드 시 즉시 렌더링 방지, 스크롤로 트리거됨
+    gsap.fromTo(".motion1", 
+        { opacity: 0, scale: 0 }, // 시작 상태: 불투명도 0, 크기 0
+        { 
+            opacity: 1,           // 최종 상태: 불투명도 1
+            duration: 4, 
+            scale: 1.1, 
+            // repeat: 1
+            scrollTrigger: {
+                trigger: ".motion1",  // 트리거 요소
+                start: "bottom 20%",     // 스크롤 트리거 위치 (top부터 80% 아래에서 트리거 시작)
+                toggleActions: "restart none none none", //
+                immediateRender: false // 첫 로드 시 즉시 렌더링 방지, 스크롤로 트리거됨
+            }
         }
-    }
-);
+    );
 
 
-// .motion2 애니메이션 (서서히 나타남 + 반복 애니메이션)
-gsap.fromTo(".motion2", 
-    { opacity: 0, scale: 0 }, // 시작 상태: 불투명도 0, 크기 0
-    { 
-        opacity: 1,           // 최종 상태: 불투명도 1
-        duration: 3, 
-        scale: 0.9, 
-        // repeat: 1,
-        scrollTrigger: {
-            trigger: ".motion2",  // 트리거 요소
-            start: "bottom 20%",     // 스크롤 트리거 위치
-            toggleActions: "restart none none none", // 
-            immediateRender: false // 첫 로드 시 즉시 렌더링 방지, 스크롤로 트리거됨
+    // .motion2 애니메이션 (서서히 나타남 + 반복 애니메이션)
+    gsap.fromTo(".motion2", 
+        { opacity: 0, scale: 0 }, // 시작 상태: 불투명도 0, 크기 0
+        { 
+            opacity: 1,           // 최종 상태: 불투명도 1
+            duration: 3, 
+            scale: 0.9, 
+            // repeat: 1,
+            scrollTrigger: {
+                trigger: ".motion2",  // 트리거 요소
+                start: "bottom 20%",     // 스크롤 트리거 위치
+                toggleActions: "restart none none none", // 
+                immediateRender: false // 첫 로드 시 즉시 렌더링 방지, 스크롤로 트리거됨
+            }
+
         }
+    );
 
-    }
-);
+    // 페이지 로드 시 애니메이션
+    gsap.fromTo(".motion1", 
+        { opacity: 0, scale: 0 }, 
+        { 
+            opacity: 1, 
+            duration: 3, 
+            scale: 1.1 
+        }
+    );
 
-// 페이지 로드 시 애니메이션
-gsap.fromTo(".motion1", 
-    { opacity: 0, scale: 0 }, 
-    { 
-        opacity: 1, 
-        duration: 3, 
-        scale: 1.1 
-    }
-);
+    gsap.fromTo(".motion2", 
+        { opacity: 0, scale: 0 }, 
+        { 
+            opacity: 1.5, 
+            duration: 1, 
+            scale: 0.9 
+        }
+    );
 
-gsap.fromTo(".motion2", 
-    { opacity: 0, scale: 0 }, 
-    { 
-        opacity: 1.5, 
-        duration: 1, 
-        scale: 0.9 
-    }
-);
+        gsap.to(".motion3", { 
+            duration: 2, 
+            rotationY: 10, 
+            scale: 1.1, 
+            x: 10, 
+            yoyo: true, 
+            repeat: -1 
+        });
 
-    gsap.to(".motion3", { 
-        duration: 2, 
-        rotationY: 10, 
-        scale: 1.1, 
-        x: 10, 
-        yoyo: true, 
-        repeat: -1 
+        gsap.to(".motion4", { 
+            duration: 2, 
+            rotationY: 10, 
+            scale: 0.9, 
+            x: 10, 
+            yoyo: true, 
+            repeat: -1 
+        });
     });
-
-    gsap.to(".motion4", { 
-        duration: 2, 
-        rotationY: 10, 
-        scale: 0.9, 
-        x: 10, 
-        yoyo: true, 
-        repeat: -1 
-    });
-});
 </script>
 </head>
 <body>
@@ -131,7 +112,7 @@ gsap.fromTo(".motion2",
                     <div class="motion3"><img src="img/sub10/face.png" alt=""></div>
                     <div class="motion4"><img src="img/sub10/heart1.png" alt=""></div>
 
-                    <img src="img/sub10/sub10_01_mo.svg" class="mobile_display">
+                    <!-- <img src="img/sub10/sub10_01_mo.svg" class="mobile_display"> -->
                     
                 </div>
 				

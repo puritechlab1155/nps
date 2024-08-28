@@ -486,7 +486,7 @@
 				<li class="item6 wow fadeUp">
 					<a href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>
 						<div class="thumb">
-							<img src="img/main/main_visual04.jpg">
+							<img src="img/main/main_event_img06.jpg">
 							<span class="cover ok"><i></i></span>
 						</div>
 					</a>

@@ -20,7 +20,7 @@ $menu_items = array(
     "/html/vol201/sub11.php" => "빈칸 퀴즈",
     "/html/vol201/sub12.php" => "최애 콘텐트를 뽑아라!",
 	"/html/vol201/sub13.php" => "구독자 뽑기 이벤트",
-    "/html/vol201/sub14.php" => "OX퀴즈"
+    "/html/vol201/sub14.php" => "OX 퀴즈"
 );
 
 // 현재 페이지의 키 가져오기

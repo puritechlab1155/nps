@@ -107,12 +107,29 @@ document.addEventListener("DOMContentLoaded", (event) => {
         width: 60%;
         max-width: 300px;
         left: 45%;
+        top: 75%;
     }
 }
 
 @media (max-width: 480px) {
     .sub11 .section01 .content .title .motion1 {
-        width: 70%;
+        width: 80%;
+        left: -1%;
+        top: -1%;
+    }
+
+    .sub11 .section01 .content .title .motion2 { 
+        width: 40%;
+        max-width: 150px;
+        left: 45%;
+    }
+}
+
+@media (max-width: 360px) {
+    .sub11 .section01 .content .title .motion1 {
+        width: 80%;
+        left: -1%;
+        top: -1%;
     }
 
     .sub11 .section01 .content .title .motion2 { 

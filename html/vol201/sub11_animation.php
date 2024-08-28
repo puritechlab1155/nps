@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .sub11 .section01 .content .title .motion1 {
         width: 70%;
     }
@@ -107,9 +107,36 @@ document.addEventListener("DOMContentLoaded", (event) => {
         width: 40%;
         max-width: 300px;
         left: 46%;
-        top: 42%;
+        top: 49%;
     }
 }
+
+@media (max-width: 768px) {
+    .sub11 .section01 .content .title .motion1 {
+        width: 70%;
+    }
+
+    .sub11 .section01 .content .title .motion2 { 
+        width: 37%;
+        max-width: 300px;
+        left: 47%;
+        top: 47%;
+    }
+}
+
+@media (max-width: 650px) {
+    .sub11 .section01 .content .title .motion1 {
+        width: 70%;
+    }
+
+    .sub11 .section01 .content .title .motion2 { 
+        width: 40%;
+        max-width: 300px;
+        left: 46%;
+        top: 60%;
+    }
+}
+
 
 @media (max-width: 480px) {
     .sub11 .section01 .content .title .motion1 {

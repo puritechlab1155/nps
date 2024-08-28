@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         width: 40%;
         max-width: 150px;
         left: 45%;
-        top:39%;
+        top:70%;
     }
 }
 </style>

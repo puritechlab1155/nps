@@ -11,22 +11,6 @@
 
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
 
-    <!-- <script>
-    document.addEventListener("DOMContentLoaded", (event) => {
-        var tl = gsap.timeline(); //"tl" short for timeline
-        tl.to(".motion1", {  duration: 2, rotationY: -10, scale: 0.9, y: -10, yoyo: true, repeat: -1, delay: 1.5})
-          .to(".motion2", {  duration: 2, rotationY: 5, scale: 1.1, y: 5, yoyo: true, repeat: -1 }); //add animations.
-    });
-    </script>
-    <style>
-        /* GSAP_ANIMATION */
-        /* .sub11 .section01 .content .title {position: relative;} */
-
-        .sub11 .section01 .content .title .motion1{ position: relative; width:100%; max-width: 629px; top:45%; z-index: 9;}
-        .sub11 .section01 .content .title .motion2 { position: absolute; width:20%; top:10%; left:37.5%;}
-
-    </style> -->
-
 
 <script>
 document.addEventListener("DOMContentLoaded", (event) => {
@@ -60,18 +44,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
         scale: 1.4, 
         ease: "circ.out"
     });
-
-    // tl.to(".motion1", { 
-    //     duration: 1,  // 시간을 단축함
-    //     scale: 1, 
-    //     ease: "circ.out"
-    // });  // 원래 크기로 돌아가는 애니메이션
-
-    // tl.to(".motion2", { 
-    //     duration: 1,  // 시간을 단축함
-    //     scale: 1, 
-    //     ease: "circ.out"
-    // });  // 원래 크기로 돌아가는 애니메이션
 });
 </script>
 
@@ -167,11 +139,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 				<div class="title">
 
-                    <img id="backgroundImage" class="motion1"src="img/sub11/sub11_vis.png" class="pc_display">
-                    <img class="motion2"src="img/sub11/sub11_text.png" class="pc_display">
+                    <img id="backgroundImage" class="motion1"src="img/sub11/sub11_vis2.png" class="pc_display">
+                    <img class="motion2"src="img/sub11/sub11_text2.png" class="pc_display">
 
-
-                    <!-- <img src="img/sub11/sub11_01_mo.svg" class="mobile_display"> -->
                 </div>
 
 				<div class="text pc_display">

@@ -5,7 +5,169 @@
 
 	<meta property="og:image" content="../../img/logosns/logosns_vol199.jpg">
 	<?php include("../../inc/head.php"); ?>
+
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
+
+
+<script>
+document.addEventListener("DOMContentLoaded", (event) => {
+    var tl = gsap.timeline({ repeat: -1 });
+
+    // 애니메이션이 시작되기 전 opacity를 1로 설정하여 이미지가 나타나도록 함
+    tl.set(".motion1, .motion2", { opacity: 1 });
+
+    // motion1: 돋보기가 먼저 축소되고 다시 커지는 애니메이션
+    tl.to(".motion1", { 
+        duration: 1,  // 시간을 단축함
+        scale: 0.8, 
+        ease: "circ.out"
+    })
+
+    // motion2: 텍스트가 돋보기와 맞춰서 커지는 애니메이션
+    tl.to(".motion2", { 
+        duration: 0.5,  // 시간을 단축함
+        scale: 0.9, 
+        ease: "circ.out"
+    }, 0);  // 처음부터 동시에 작동
+
+    tl.to(".motion1", { 
+        duration: 2,  // 시간을 단축함
+        scale: 1.1, 
+        ease: "circ.out"
+    });
+
+    tl.to(".motion2", { 
+        duration: 2,  // 시간을 단축함
+        scale: 1.4, 
+        ease: "circ.out"
+    });
+});
+</script>
+
+
+
+<style>
+/* 기본 스타일 (PC용) */
+.sub11 .section01 .content .title {
+    position: relative;
+    text-align: center; /* 중앙 정렬 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 3%;
+}
+
+.sub11 .section01 .content .title .motion1 {
+    position: relative; 
+    width: 100%; 
+    max-width: 629px; 
+    z-index: 9;
+    opacity: 0; /* 애니메이션 전에는 숨김 */
+}
+
+.sub11 .section01 .content .title .motion2 { 
+    position: absolute;
+    width: 50%;
+    max-width: 300px;
+    top: 40%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* 애니메이션 전에는 숨김 */
+}
+
+/* 반응형 스타일 */
+@media (max-width: 1920px) {
+    .sub11 .section01 .content .title .motion1 {
+        width: 70%;
+    }
+
+    .sub11 .section01 .content .title .motion2 { 
+        left: 47.5%;
+    }
+}
+@media (max-width: 1200px) {
+    .sub11 .section01 .content .title .motion1 {
+        width: 70%;
+    }
+
+    .sub11 .section01 .content .title .motion2 { 
+        left: 46%;
+    }
+}
+
+@media (max-width: 800px) {
+    .sub11 .section01 .content .title .motion1 {
+        width: 70%;
+    }
+
+    .sub11 .section01 .content .title .motion2 { 
+        width: 40%;
+        max-width: 300px;
+        left: 46%;
+        top: 49%;
+    }
+}
+
+@media (max-width: 768px) {
+    .sub11 .section01 .content .title .motion1 {
+        width: 70%;
+    }
+
+    .sub11 .section01 .content .title .motion2 { 
+        width: 37%;
+        max-width: 300px;
+        left: 47%;
+        top: 47%;
+    }
+}
+
+@media (max-width: 650px) {
+    .sub11 .section01 .content .title .motion1 {
+        width: 70%;
+    }
+
+    .sub11 .section01 .content .title .motion2 { 
+        width: 39%;
+        max-width: 300px;
+        left: 46%;
+        top: 40%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .sub11 .section01 .content .title .motion1 {
+        width: 80%;
+        left: -1%;
+        top: -1%;
+    }
+
+    .sub11 .section01 .content .title .motion2 { 
+        width: 40%;
+        max-width: 150px;
+        left: 45%;
+        top: 40%;
+    }
+}
+
+@media (max-width: 360px) {
+    .sub11 .section01 .content .title .motion1 {
+        width: 80%;
+        left: -1%;
+    }
+
+    .sub11 .section01 .content .title .motion2 { 
+        width: 40%;
+        max-width: 150px;
+        left: 45%;
+        top:39%;
+    }
+}
+</style>
+
 </head>
 <body>
 
@@ -19,7 +181,14 @@
 	<section id="contents">
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
-				<div class="title"><img src="img/sub11/sub11_01.svg" class="pc_display"><img src="img/sub11/sub11_01_mo.svg" class="mobile_display"></div>
+
+				<div class="title">
+
+                    <img id="backgroundImage" class="motion1"src="img/sub11/sub11_vis2.png" class="pc_display">
+                    <img class="motion2"src="img/sub11/sub11_text2.png" class="pc_display">
+
+                </div>
+
 				<div class="text pc_display">
 					내곁에 국민연금 가을호를 잘 읽어 보셨나요?<br>
 					여러분이 읽은 웹진 속에 정답이 숨어 있습니다.<br>

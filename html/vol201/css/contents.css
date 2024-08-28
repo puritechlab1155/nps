@@ -589,7 +589,7 @@
 .sub04 .section06 { position: relative; width: 100%; display: block; margin-top: 130px; background: #dbccbf; }
 .sub04 .section06 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding:0 20px; }
 .sub04 .section06 .content .conts_box { display: flex; gap: 60px; }
-.sub04 .section06 .content .conts_box .img_box { flex: 1; }
+.sub04 .section06 .content .conts_box .img_box { flex: 1; transform: scale(1.11); transform-origin: right top; }
 .sub04 .section06 .content .conts_box .text_box { flex: 1; padding: 100px 0; }
 
 @media only all and (max-width:767px) {

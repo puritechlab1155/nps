@@ -279,9 +279,9 @@
 	// scroll event
 	$(window).scroll(function(){
 		var st = $(this).scrollTop();
-		var evTop = $('.section05').offset().top - 500;
+		var titAni = $('.section05').offset().top - 500;
 
-		if(st>=evTop){
+		if(st>=titAni){
 			$('.section05 .box_title').addClass('animate__heartBeat');
 		}else{
 			$('.section05 .box_title').removeClass('animate__heartBeat');

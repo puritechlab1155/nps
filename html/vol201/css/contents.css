@@ -518,7 +518,7 @@
 
 	.sub02 .section02 { margin: 50px auto 48px; }
 	.sub02 .section02 .content .main_title { font-size: 36px; line-height: 48px; }
-	.sub02 .section02 .content .subcopy { font-size: 20px; line-height: 32px; letter-spacing: -0.4px; margin-top: 36px; }
+	.sub02 .section02 .content .subcopy { font-size: 20px; line-height: 32px; letter-spacing: -0.02em; margin-top: 36px; }
 
 	.sub02 .section04 .content { margin: 36px auto; }
 	.sub02 .section04 .content .img_box1 { margin: 24px auto 36px; }
@@ -614,7 +614,7 @@
 	.sub04 .section02 { position: relative; display: block; width: 100%; margin: 50px auto 60px; padding:0 20px; }
 	.sub04 .section02 .content .subtitle_top { line-height: 30px; }
 	.sub04 .section02 .content .title { font-size: 36px; line-height: 48px; padding-bottom: 35px; margin-top: 8px; }
-	.sub04 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: -0.36px; margin: 35px 0 16px; }
+	.sub04 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: -0.02em; margin: 35px 0 16px; }
 	.sub04 .section02 .content .not_box { padding: 14px 20px; }
 
 	.sub04 .content .subtitle { font-size: 16px; line-height: 28px; }
@@ -784,7 +784,7 @@
 
 	.sub05 .section02 { padding-top: 47px; }
 	.sub05 .section02 .content .title { font-size: 36px; line-height: 48px; padding-bottom: 35px; }
-	.sub05 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: normal; margin-bottom: 36px; }
+	.sub05 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: -0.02em; margin-bottom: 36px; }
 
 	.sub05 .content .num_title .number { width: 36px; }
 	.sub05 .content .num_title span { font-size: 18px; line-height: 23px; }
@@ -964,7 +964,7 @@
 	.sub06 .section02 .content { margin: 50px auto; }
 	.sub06 .section02 .content .subtitle { font-size: 24px; line-height: 30px; padding-bottom: 8px; }
 	.sub06 .section02 .content .title { font-size: 36px; line-height: 48px; padding-bottom: 35px; }
-	.sub06 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: -0.36px; }
+	.sub06 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: -0.02em; }
 	
 	.sub06 .section03 .film { height: 46px; background-position: left center; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); animation: shadowPulse 2s infinite;}
 	.sub06 .section03 .content { width: 100%; margin: 28px auto; padding: 0 20px; }
@@ -1047,7 +1047,7 @@
 	.sub07 .section02 .content { margin: 50px auto 36px; }
 	.sub07 .section02 .content .subtitle_top { line-height: 30px; }
 	.sub07 .section02 .content .title { font-size: 36px; line-height: 48px; padding: 8px 0 35px; }
-	.sub07 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: -0.36px; }
+	.sub07 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: -0.02em; }
 
 	.sub07 .content .subtitle { font-size: 16px; line-height: 28px; }
 	.sub07 .content .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
@@ -1148,7 +1148,7 @@
 	.sub08 .section02 { margin: 60px auto 36px; }
 	.sub08 .section02 .content .subtitle_top { line-height: 30px; }
 	.sub08 .section02 .content .title { font-size: 36px; line-height: 48px; padding: 8px 0 35px; }
-	.sub08 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: -0.36px; }
+	.sub08 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: -0.02em; }
 
 	.sub08 .section04 .content { margin: 36px auto; }
 
@@ -1364,7 +1364,7 @@
 	.sub09 .section02 { width: 100%; margin: 50px auto; }
 	.sub09 .section02 .content01 .subtitle_top { line-height: 30px; }
 	.sub09 .section02 .content01 .title { font-size: 36px; line-height: 48px; padding: 8px 0 35px; }
-	.sub09 .section02 .content01 .subcopy { font-size: 18px; line-height: 29px; letter-spacing: -0.36px; }
+	.sub09 .section02 .content01 .subcopy { font-size: 18px; line-height: 29px; letter-spacing: -0.02em; }
 
 	.sub09 .section02 .content .subtitle { font-size: 16px; line-height: 28px; }
 	.sub09 .section02 .content .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }

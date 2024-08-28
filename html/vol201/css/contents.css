@@ -527,7 +527,7 @@
 
 	.sub02 .section03 .content .pc_display_only { display: none; }
 	.sub02 .section03 .content .tablet_display_only { display: none; }
-	.sub02 .section03 .content .mobile_display_only { display: block; text-align: center; }
+	.sub02 .section03 .content .mobile_display_only { display: block; text-align: center; width: fit-content; margin: 0 auto; }
 	.sub02 .section03 .content .mobile_display_only img { display: block; margin-top: 24px; }
 }
 
@@ -929,7 +929,21 @@
 .sub06 .section06 .closing_text { margin: 70px auto 0; text-align: center; width: 100%; max-width: 610px; }
 .sub06 .section06 .closing_text .sub_text { font-family: 'laundrygothic'; font-size: 32px; font-weight: 400; line-height: 50px; border-bottom: 1px solid #000; padding: 10px 0; }
 
+.sub06 .section05 .content .pc_display_only { display: block; }
+.sub06 .section05 .content .tablet_display_only { display: none; }
+.sub06 .section05 .content .mobile_display_only { display: none; }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.sub06 .section05 .content .pc_display_only { display: none; }
+	.sub06 .section05 .content .tablet_display_only { display: block; }
+	.sub06 .section05 .content .mobile_display_only { display: none; }
+}
+
 @media only all and (max-width:767px) {
+	.sub06 .section05 .content .pc_display_only { display: none; }
+	.sub06 .section05 .content .tablet_display_only { display: none; }
+	.sub06 .section05 .content .mobile_display_only { display: block; }
+
 	.sub06 .section01 { height: 275px; position: relative; }
 	.sub06 .section01::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); }
 	.sub06 .section01 .content { position: relative; z-index: 1; text-align: center; margin-bottom: 12px; color: #fff; }
@@ -1141,6 +1155,7 @@
 	.sub08 .section05 .content .type_explain .types { flex-direction: column; }
 	.sub08 .section05 .content .type_explain .types span { width: 100%; max-width: 100%; }
 	.sub08 .section05 .content .type_explain .types p { line-height: 28px; }
+	.sub08 .section05 .content .type_explain .types .type3 .img_box img { padding: 0 37px; }
 
 	.sub08 .section06 { padding: 40px 0; }
 	.sub08 .section06 .content .title_box { flex-direction: column; text-align: center; }

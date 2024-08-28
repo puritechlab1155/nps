@@ -97,7 +97,7 @@
 
 		<div class="section05 wow fadeBigInUp">
 			<div class="content">
-				<div class="pc_display">
+				<div class="pc_display_only">
 					<div class="cont_box">
 						<div class="item item1">
 							<div class="text_box">
@@ -169,7 +169,11 @@
 					</div>
 				</div>
 
-				<div class="mobile_display">
+				<div class="tablet_display_only">
+					<img src="img/sub06/sub06_02_tablet.svg">
+				</div>
+
+				<div class="mobile_display_only">
 					<div class="cont_box">
 						<div class="text_box">
 							<div class="box_title">

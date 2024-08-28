@@ -6,21 +6,21 @@ $current_url = $_SERVER['REQUEST_URI'];
 
 // 메뉴 항목과 URL 매핑
 $menu_items = array(
-    "/html/vol200/index.php" => "MAIN",
-    "/html/vol200/sub01.php" => "NPS 뉴스",
-    "/html/vol200/sub02.php" => "NPS 칼럼",
-    "/html/vol200/sub03.php" => "M&Z일상수다",
-    "/html/vol200/sub04.php" => "알잘딱깔센! 세이브 머니",
-    "/html/vol200/sub05.php" => "모두의 여행",
-    "/html/vol200/sub06.php" => "연금엔씨네마",
-    "/html/vol200/sub07.php" => "키워드로 보는 세상",
-    "/html/vol200/sub08.php" => "헬스 앤 라이프",
-    "/html/vol200/sub09.php" => "오늘의 레시피",
-    "/html/vol200/sub10.php" => "독자 목소리",
-    "/html/vol200/sub11.php" => "200호 기념 이벤트",
-    "/html/vol200/sub12.php" => "빈칸퀴즈",
-	"/html/vol200/sub13.php" => "구독자 뽑기 이벤트",
-    "/html/vol200/sub14.php" => "궁금한 연금제도 투표하기"
+    "/html/vol201/index.php" => "MAIN",
+    "/html/vol201/sub01.php" => "NPS 뉴스",
+    "/html/vol201/sub02.php" => "NPS 칼럼",
+    "/html/vol201/sub03.php" => "M&Z일상수다",
+    "/html/vol201/sub04.php" => "알잘딱깔센! 세이브 머니",
+    "/html/vol201/sub05.php" => "모두의 여행",
+    "/html/vol201/sub06.php" => "연금엔씨네마",
+    "/html/vol201/sub07.php" => "키워드로 보는 세상",
+    "/html/vol201/sub08.php" => "헬스 앤 라이프",
+    "/html/vol201/sub09.php" => "오늘의 레시피",
+    "/html/vol201/sub10.php" => "독자 목소리",
+    "/html/vol201/sub11.php" => "200호 기념 이벤트",
+    "/html/vol201/sub12.php" => "빈칸퀴즈",
+	"/html/vol201/sub13.php" => "구독자 뽑기 이벤트",
+    "/html/vol201/sub14.php" => "궁금한 연금제도 투표하기"
 );
 
 // 현재 페이지의 키 가져오기
@@ -59,9 +59,10 @@ if ($current_key !== false) {
 <!-- header -->
 <header id="header">
     <div class="vol">
-			<a href="#" class="vol_tit">2024 Vol.200</a>
+			<a href="#" class="vol_tit">2024 Vol.201</a>
 			<div class="vol_list">
 				<ul>
+                    <li><a href="/html/vol200/index.php" target='_blank'>2023 Vol.200</a></li>
                     <li><a href="/html/vol199/index.php" target='_blank'>2023 Vol.199</a></li>
                     <li><a href="/html/vol198/index.php" target='_blank'>2023 Vol.198</a></li>
 			        <li><a href="/html/vol197/index.php" target='_blank'>2023 Vol.197</a></li>

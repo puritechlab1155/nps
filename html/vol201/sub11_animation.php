@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     }
 
     .sub11 .section01 .content .title .motion2 { 
-        left: 44%;
+        left: 46%;
     }
 }
 
@@ -104,10 +104,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     }
 
     .sub11 .section01 .content .title .motion2 { 
-        width: 60%;
+        width: 40%;
         max-width: 300px;
-        left: 45%;
-        top: 75%;
+        left: 46%;
+        top: 42%;
     }
 }
 
@@ -122,6 +122,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         width: 40%;
         max-width: 150px;
         left: 45%;
+        top: 40%;
     }
 }
 
@@ -129,13 +130,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
     .sub11 .section01 .content .title .motion1 {
         width: 80%;
         left: -1%;
-        top: -1%;
     }
 
     .sub11 .section01 .content .title .motion2 { 
         width: 40%;
         max-width: 150px;
         left: 45%;
+        top:39%;
     }
 }
 </style>

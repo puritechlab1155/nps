@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
 </head>
 <body>
-<div id="wrap" class="sub04">
+<div id="wrap" class="sub04 sub04_test">
 
 	<!-- header  -->
 	<?php include("header.php"); ?>

@@ -573,24 +573,35 @@
 .sub04 .section03 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding: 0 20px; }
 
 .sub04 .section04 { position: relative; width: 100%; display: block; margin: 130px auto; background: #dbccbf; }
-.sub04 .section04 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding:0 20px; }
+.sub04 .section04 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding: 0 20px; }
 .sub04 .section04 .content .conts_box { display: flex; gap: 60px; }
 .sub04 .section04 .content .conts_box > div { flex: 1; }
 .sub04 .section04 .content .conts_box .img_box img { width: 100%; }
 .sub04 .section04 .content .conts_box .text_box { padding: 100px 0 91px; }
 
-.sub04 .section05 { position: relative; width: 100%; }
+.sub04 .section05 { margin: 130px 0; }
+.sub04 .section05 .content_wrap { position: relative; }
+.sub04 .section05 div.content01 { width: 100%; max-width: 1020px; margin: 0 auto; padding: 0 20px; }
+.sub04 .section05 div.content02 { width: 100%; max-width: 100%; position: absolute; left: 0; top: 0; }
+.sub04 .section05 div.content .content_area2 { display: flex; gap: 60px; }
+.sub04 .section05 div.content .content_area2 .text_box { flex: 1; }
+.sub04 .section05 div.content .content_area2 .img_box { flex: 1; }
+.sub04 .section05 div.content01 .img_box { opacity: 0; }
+.sub04 .section05 div.content02 .text_box { opacity: 0; }
+
 .sub04 .section05 > .pc_display .content_area { position: relative; width: 100%; display: flex; }
-.sub04 .section05 .blank_box { width: 24%; }
-.sub04 .section05 .content { width: 100%; max-width: 460px; }
-.sub04 .section05 .img_box { flex: 1; margin-left: 60px; box-sizing: border-box; }
+.sub04 .section05 .img_box { flex: 1; box-sizing: border-box; }
 .sub04 .section05 .img_box img { width: 100%; }
 
 .sub04 .section06 { position: relative; width: 100%; display: block; margin-top: 130px; background: #dbccbf; }
-.sub04 .section06 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding:0 20px; }
+.sub04 .section06 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding: 0 20px; }
 .sub04 .section06 .content .conts_box { display: flex; gap: 60px; }
 .sub04 .section06 .content .conts_box .img_box { flex: 1; transform: scale(1.11); transform-origin: right top; }
 .sub04 .section06 .content .conts_box .text_box { flex: 1; padding: 100px 0; }
+
+@media (min-width: 1600px) {
+	.sub04 .section05 { margin: 130px 0 390px; }
+}
 
 @media only all and (max-width:767px) {
 	.sub04 .section01 { height: 275px; }

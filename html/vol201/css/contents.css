@@ -1810,34 +1810,34 @@
 .result_modal06 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 24px; letter-spacing: -0.48px; }
 
 @media only all and (max-width: 767px) {
-	.result_modal01 .modal { max-width: 320px; height: fit-content; }
-	.result_modal01 .modal .content .message .main_text { font-size: 30px; margin: -55px auto 10px; }
-	.result_modal01 .modal .content .message .sub_text { font-size: 18px; }
-	.result_modal01 .modal .content .gift_area { max-width: 250px; }
+	.result_modal01 .modal { max-width: 280px; height: fit-content; }
+	.result_modal01 .modal .content .message .main_text { font-size: 27px; margin: -55px auto 10px; }
+	.result_modal01 .modal .content .message .sub_text { font-size: 16px; }
+	.result_modal01 .modal .content .gift_area { max-width: 230px; }
 	.result_modal01 .modal .content .gift_area p { font-size: 13px; }
-	.result_modal01 .modal .content .text_box span { font-size: 15px; }
+	.result_modal01 .modal .content .text_box span { font-size: 14px; }
 	.result_modal01 .modal .content .text_box p { font-size: 12px; }
 	.result_modal01 .modal .content .button { width: 170px; }
 
-	.result_modal02 .modal { max-width: 320px; height: fit-content; }
+	.result_modal02 .modal { max-width: 280px; height: fit-content; }
 	.result_modal02 .modal .content { padding: 38px 20px 31px 20px; }
 	.result_modal02 .modal .content .winning_form .header .main_txt { font-size: 20px; }
 	.result_modal02 .modal .content .winning_form .header .sub_txt { font-size: 13px; }
 	.result_modal02 .modal .content .winning_form .input_area > div label { font-size: 12px; padding-top: 5px; }
-	.result_modal02 .modal .content .winning_form .input_area .winner_name input { width: 200px; }
-	.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel select { width: 55px; }
-	.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel input { width: 55px; }
-	.result_modal02 .modal .content .winning_form .input_area .winner_email input { width: 200px; }
+	.result_modal02 .modal .content .winning_form .input_area .winner_name input { width: 170px; }
+	.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel select { width: 47px; }
+	.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel input { width: 47px; }
+	.result_modal02 .modal .content .winning_form .input_area .winner_email input { width: 170px; }
 	.result_modal02 .modal .content .winning_form .agreement .title { font-size: 13px; }
 	.result_modal02 .modal .content .winning_form .agreement .cont dl dt { font-size: 12px; }
 	.result_modal02 .modal .content .winning_form .agreement .cont dl dd { font-size: 12px; }
 	.result_modal02 .modal .content .winning_form .agreement .winner_agree input { width: 20px; height: 20px; }
 	.result_modal02 .modal .content .winning_form .submit_btn { width: 170px;font-size: 20px; }
 
-	.result_modal03 .modal { max-width: 320px; height: fit-content; }
+	.result_modal03 .modal { max-width: 280px; height: fit-content; }
 	.result_modal03 .modal .content .main_text { font-size: 30px; }
 	.result_modal03 .modal .content p { font-size: 15px; }
-	.result_modal03 .modal .content span { font-size: 12px; padding: 0 20px; }
+	.result_modal03 .modal .content span { font-size: 10px; padding: 0 20px; }
 	.result_modal03 .modal .content .button { width: 170px; font-size: 20px; }
 
 	.result_modal04 { position: fixed; background: rgba(0, 0, 0, 0.3); left: 0; top: 0; right: 0; bottom: 0; padding: 20px; }
@@ -1849,12 +1849,12 @@
 	.result_modal04 .modal .content .button { width: 200px; height: 45px; background: #b2b2b2; border-radius: 999px; color: #fff; font-family:'WavvePADO'; padding: 10px 0 7px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; margin-top: 33px; cursor: pointer; }
 	.result_modal04 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 24px; letter-spacing: -0.48px; }
 
-	.result_modal05 .modal { max-width: 320px; }
-	.result_modal05 .modal .content .main_text { font-size: 30px; }
+	.result_modal05 .modal { max-width: 280px; }
+	.result_modal05 .modal .content .main_text { font-size: 25px; }
 	.result_modal05 .modal .content p { font-size: 15px; }
 	.result_modal05 .modal .content span { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; }
 	.result_modal05 .modal .content .button { width: 170px; }
-	.result_modal05 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 24px; letter-spacing: -0.48px; }
+	.result_modal05 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 20px; letter-spacing: -0.48px; }
 	.result_modal05 .modal .content .message .img_box { text-align: center; }
 	.result_modal05 .modal .content .message .img_box img { width: 70%; }
 

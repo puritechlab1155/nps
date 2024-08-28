@@ -283,6 +283,8 @@
 
 		if(st>=evTop){
 			$('.section05 .box_title').addClass('animate__heartBeat');
+		}else{
+			$('.section05 .box_title').removeClass('animate__heartBeat');
 		}
 	});
 </script>

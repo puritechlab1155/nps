@@ -1014,12 +1014,12 @@
 .sub07 .section05 .content { width: 100%; max-width: 1020px; padding: 0 20px; margin: 0 auto 120px; }
 
 @media only all and (max-width:767px) {
-	.sub07 .section01 { height: 275px; background: #d8f7fa url(../img/sub07/sub07_00_mo.svg); background-repeat: no-repeat; background-position: center 9px; background-size: auto; }
+	.sub07 .section01 { height: 275px; }
 	.sub07 .section01 .content { margin-bottom: 12px; }
 	.sub07 .section01 .content .title { font-size: 20px; text-align: center;}
 	.sub07 .section01 .content .cover_text { padding: 0; height: 23px; }
 
-	.sub07 .section02 { margin: 50px auto 36px; }
+	.sub07 .section02 .content { margin: 50px auto 36px; }
 	.sub07 .section02 .content .subtitle_top { line-height: 30px; }
 	.sub07 .section02 .content .title { font-size: 36px; line-height: 48px; padding: 8px 0 35px; }
 	.sub07 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: -0.36px; }
@@ -1027,22 +1027,13 @@
 	.sub07 .content .subtitle { font-size: 16px; line-height: 28px; }
 	.sub07 .content .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
 
-	.sub07 .section03 .content .second_st { padding-top: 24px; }
-	.sub07 .section03 .content .card-img { margin: 16px 0 24px; }
-	.sub07 .section03 .content .card-img ul { gap: 27px; flex-wrap: nowrap; flex-direction: column; }
-	.sub07 .section03 .content .card-img li { width: 100%; max-width: 100%; }
-	.sub07 .section03 .content .card-img li img { width: 100%; }
+	.sub07 .section03 .content .subtitle { margin-top: 24px; }
 
-	.sub07 .section04 { padding-bottom: 50px; }
-	.sub07 .section04 .content { width: 100%; margin: 0 auto; }
-	.sub07 .section04 .content .img_box { margin: 16px 0; }
+	.sub07 .section04 .content { margin: 24px auto; }
+	.sub07 .section04 .content .img_box { margin-top: 24px; }
+
+	.sub07 .section05 .content { margin: 0 auto 50px; }
 }
-
-/* @media only all and (max-width:460px) {
-	.sub07 .section02 .content .subtitle { font-size: 18px; }
-	.sub07 .section02 .content .title { font-size: 32px; }
-	.sub07 .section02 .content .title br { display: none;}
-} */
 
 /* 헬스 앤 라이프 */
 .sub08 #contents { position: relative; padding: 0; color: #000; font-family:'Noto Sans KR'; line-height: normal; letter-spacing: normal; }

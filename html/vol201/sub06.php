@@ -102,7 +102,7 @@
 					<div class="cont_box">
 						<div class="item item1">
 							<div class="text_box">
-								<div class="box_title">
+								<div class="box_title animate__animated">
 									한눈에 보는
 									<span>실업 크레딧</span>
 								</div>
@@ -274,6 +274,18 @@
 	</div>
 	<!-- //page ctrl -->
 </div>
+
+<script>
+	// scroll event
+	$(window).scroll(function(){
+		var st = $(this).scrollTop();
+		var evTop = $('.section05').offset().top - 500;
+
+		if(st>=evTop){
+			$('.section05 .box_title').addClass('animate__heartBeat');
+		}
+	});
+</script>
 
 	<!-- footer -->
 	<?php include("footer.php"); ?>

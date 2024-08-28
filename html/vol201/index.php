@@ -9,7 +9,7 @@
 
 	<!-- kruddo add -->
 	<?
-		$vol_idx = "200";		// kruddo modify - 호차 번호. 191호가 아닌경우 변경, inc/like_share.php 에서도 변경
+		$vol_idx = "201";		// kruddo modify - 호차 번호. 191호가 아닌경우 변경, inc/like_share.php 에서도 변경
 
 		$hostname = "localhost";
 		$username = "nps2022";
@@ -76,7 +76,7 @@
 		<div class="main_section1 wow fadeBigInUp">
 			<div class="main_slider_wrap">
 				<ul class="main_slider1">
-				<li>
+					<li>
 						<a>
 							<div class="thumb">
 								<img src="img/main/main_visual01.svg">
@@ -157,7 +157,7 @@
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">NPS 칼럼</p>
-							<p class="txt">유족연금 수급권 제한의 오해와 진실</p>
+							<p class="txt">노후 소득 보장의 중추 지속가능하고 튼튼한 버팀목 국민연금</p>
 						</a>
 					</div>
 					<div data-title="M&Z일상수다" class="swiper-slide item3 wow fadeUp">
@@ -177,8 +177,8 @@
 								<span class="cover like"><i></i></span>
 								<!--<i class="vod">영상</i>-->
 							</div>
-							<p class="tit">알잘딱깔센! 세이브 머니</p>
-							<p class="txt">태아부터 부모까지 모두를 위한 8개 출생 지원 정책</p>
+							<p class="tit">꼬리에 꼬리를 무는 문화탐구</p>
+							<p class="txt">트로트를 신드롬으로 만든 임영웅이라는 세계</p>
 						</a>
 					</div>
 					<div data-title="모두의 여행" class="swiper-slide item5 wow fadeUp">
@@ -188,7 +188,7 @@
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">모두의 여행</p>
-							<p class="txt">전북 고창에서 우리 ‘함께’ 여름을 즐기다</p>
+							<p class="txt">초가을에 거닐기 좋은 완주·전주</p>
 						</a>
 					</div>
 				   	<div data-title="연금엔씨네마" class="swiper-slide item6 wow fadeUp">
@@ -198,7 +198,7 @@
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">연금엔씨네마</p>
-							<p class="txt">한국 초저출생 현상에 던지는 따뜻한 메시지</p>
+							<p class="txt">영화 &lt;오베라는 남자&gt;로 읽는 국민연금 실업 크레딧</p>
 						</a>
 					</div>
 					<div data-title="키워드로 보는 세상" class="swiper-slide item7 wow fadeUp">
@@ -208,7 +208,7 @@
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">키워드로 보는 세상</p>
-							<p class="txt">편안한 노후를 위한 AI 이용 가이드</p>
+							<p class="txt">더 길게 더 멀리 보는 ‘마처 세대’의 노후 준비</p>
 						</a>
 					</div>
 					<div data-title="헬스 앤 라이프" class="swiper-slide item8 wow fadeUp">
@@ -219,7 +219,7 @@
 								<!--<i class="vod">영상</i>-->
 							</div>
 							<p class="tit">헬스 앤 라이프</p>
-							<p class="txt">여름철 다한증이 고민된다면?</p>
+							<p class="txt">계절성 우울증 예방법</p>
 						</a>
 					</div>
 					<div data-title="오늘의 레시피" class="swiper-slide item9 wow fadeUp">
@@ -230,7 +230,7 @@
 								<!--<i class="vod">영상</i>-->
 							</div>
 							<p class="tit">오늘의 레시피</p>
-							<p class="txt">언제 먹어도 든든한 ‘옥수수 크림 스프’ 레시피</p>
+							<p class="txt">영양 듬뿍 담은 ‘송이버섯솥밥’ 레시피</p>
 						</a>
 					</div>
 				</div>

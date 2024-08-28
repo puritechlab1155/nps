@@ -168,7 +168,7 @@
 					<div class="item_box">
 						<ul class="item_list">
 							<li>
-								<div class="img_box"><img src="img/sub08/sub08_21.svg"></div>
+								<div class="img_box motion1"><img src="img/sub08/sub08_21.svg"></div>
 								<div class="text_box">
 									<span class="purple">세로토닌</span>
 									<p>
@@ -177,7 +177,7 @@
 								</div>
 							</li>
 							<li>
-								<div class="img_box"><img src="img/sub08/sub08_22.svg"></div>
+								<div class="img_box motion2"><img src="img/sub08/sub08_22.svg"></div>
 								<div class="text_box">
 									<span class="yellow">도파민</span>
 									<p>
@@ -188,7 +188,7 @@
 						</ul>
 						<ul class="item_list">
 							<li>
-								<div class="img_box"><img src="img/sub08/sub08_23_mo.svg"></div>
+								<div class="img_box motion3"><img src="img/sub08/sub08_23.svg"></div>
 								<div class="text_box">
 									<span class="blue">멜라토닌</span>
 									<p>
@@ -197,7 +197,7 @@
 								</div>
 							</li>
 							<li>
-								<div class="img_box"><img src="img/sub08/sub08_24.svg"></div>
+								<div class="img_box motion4"><img src="img/sub08/sub08_24.svg"></div>
 								<div class="text_box">
 									<span class="green">엔도르핀</span>
 									<p>
@@ -208,7 +208,7 @@
 						</ul>
 						<ul class="item_list">
 							<li>
-								<div class="img_box img_pink"><img src="img/sub08/sub08_25.svg"></div>
+								<div class="img_box img_pink motion5"><img src="img/sub08/sub08_25.svg"></div>
 								<div class="text_box">
 									<span class="pink">옥시토신</span>
 									<p>

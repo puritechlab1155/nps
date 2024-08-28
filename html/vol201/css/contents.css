@@ -1411,7 +1411,7 @@
 .sub10 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; padding: 10px 0 7px; border-radius: 36px; font-size: 25px; letter-spacing: -0.5px; }
 
 .sub10 .section01 .content .info { max-width: 600px; width: 100%; margin: 59px auto 0; border-top: 0.5px solid #fff; padding-top: 20px; font-size: 14.5px; }
-.sub10 .section01 .content .info ul { padding-inline-start: 1.5em; letter-spacing: -0.3px;}
+.sub10 .section01 .content .info ul { padding-inline-start: 1em; letter-spacing: -0.3px;}
 .sub10 .section01 .content .info li { color: #fff; list-style: disc; }
 .sub10 .section01 .content .info li::marker { font-size: 8px; }
 .sub10 .section01 .content .info li span { color:#fff; position: relative; }
@@ -1494,10 +1494,10 @@
 .sub11 .section02 .content .button a.send:hover { transform: translateY(-5px); box-shadow: 3.5px 3.5px #4a4a4a; }
 .sub11 .section02 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 999px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; }
 
-.sub11 .section02 .content .info { max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #553835; padding-top: 20px; font-size: 14.5px; }
-.sub11 .section02 .content .info ul { padding-inline-start: 1.5em; letter-spacing: -0.3px; }
+.sub11 .section02 .content .info { max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #553835; padding-top: 20px; }
+.sub11 .section02 .content .info ul { padding-inline-start: 1em; letter-spacing: -0.3px; }
+.sub11 .section02 .content .info li { list-style: disc; font-family:'Noto Sans CJK Kr'; font-size: 15px; font-weight: 400; letter-spacing: -0.3px; line-height: 1.3; }
 .sub11 .section01 .content .info li::marker { font-size: 8px; }
-.sub11 .section02 .content .info li { list-style: disc; }
 .sub11 .section02 .content .info li span { position: relative; list-style: disc; }
 
 @media only all and (max-width:767px) {
@@ -1574,9 +1574,9 @@
 .sub12 .section02 .content .button a.send:hover { transform: translateY(-5px); box-shadow: 3.5px 3.5px #4a4a4a; }
 .sub12 .section02 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; border-radius: 999px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; padding: 10px 0 7px; }
 
-.sub12 .section02 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; font-size: 14.5px; }
-.sub12 .section02 .content .info ul { padding-inline-start: 1.5em; letter-spacing: -0.3px;}
-.sub12 .section02 .content .info li { list-style: disc; }
+.sub12 .section02 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; }
+.sub12 .section02 .content .info ul { padding-inline-start: 1em; letter-spacing: -0.3px;}
+.sub12 .section02 .content .info li { list-style: disc; font-family:'Noto Sans CJK Kr'; font-size: 15px; font-weight: 400; letter-spacing: -0.3px; line-height: 1.3; }
 .sub12 .section01 .content .info li::marker { font-size: 8px; }
 .sub12 .section02 .content .info li span { position: relative; }
 
@@ -1678,7 +1678,7 @@
 .sub13 .section02 .content .text ul li{ list-style: disc; font-family: 'GmarketSans'; font-weight: 500; font-size: 15px; color: #000; line-height: 22px; letter-spacing: -0.3px; }
 
 .sub13 .section02 .content .info { max-width: 600px; width: 100%; margin: 0px auto; }
-.sub13 .section02 .content .info ul { padding-inline-start: 1.5em; border-top: 0.5px solid #fff; color: #fff; padding-top: 20px; }
+.sub13 .section02 .content .info ul { padding-inline-start: 1em; border-top: 0.5px solid #fff; color: #fff; padding-top: 20px; }
 .sub13 .section02 .content .info ul li { list-style: disc; font-family:'Noto Sans CJK Kr'; font-size: 15px; letter-spacing: -0.3px; font-weight: 400; }
 .sub13 .section01 .content .info li::marker { font-size: 8px; }
 .sub13 .section02 .content .info ul li span { position: relative; }
@@ -1923,7 +1923,7 @@
 .sub14 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; border-radius: 999px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; padding: 10px 0 7px; }
 
 .sub14 .section01 .content .info { max-width: 600px; width: 100%; margin: 0px auto; }
-.sub14 .section01 .content .info ul { padding-inline-start: 1.5em; border-top: 0.5px solid #fff; color: #fff; padding-top: 20px; }
+.sub14 .section01 .content .info ul { padding-inline-start: 1em; border-top: 0.5px solid #fff; color: #fff; padding-top: 20px; }
 .sub14 .section01 .content .info li { list-style: disc; font-family:'Noto Sans CJK Kr'; font-size: 15px; font-weight: 400; letter-spacing: -0.3px; line-height: 1.3; }
 .sub14 .section01 .content .info li::marker { font-size: 8px; }
 .sub14 .section01 .content .info li span { position: relative; }

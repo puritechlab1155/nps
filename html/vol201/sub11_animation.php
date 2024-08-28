@@ -130,10 +130,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     }
 
     .sub11 .section01 .content .title .motion2 { 
-        width: 40%;
+        width: 39%;
         max-width: 300px;
         left: 46%;
-        top: 60%;
+        top: 40%;
     }
 }
 

@@ -7,6 +7,10 @@
 	<?php include("../../inc/head.php"); ?>
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
 	
+	<!-- gsap -->
+	<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
 </head>
 <body>
 <div id="wrap" class="sub08">
@@ -48,10 +52,10 @@
 			<div class="content">
 				<div class="subtitle">우울증과 햇볕의 상관관계</div> <br class="pc_display">
 				<div class="text fadeBigInUp">
-					‘가을 탄다’는 말처럼 가을만 되면 심적 침체, 피로 증가, 의욕 및 집중력 저하 등으로 불편감을 호소하는 사람들이 많다. 가볍게 지나가는 증상일 수도 있지만, ‘계절성 우울증’이라는 의학적 명칭을 가진 우울증 증상일 수 있으니 주의가 필요하다.<br>
-					계절성 우울증의 발생 원인은 명확히 알려지지 않았지만, 대체로 신체 균형 및 호르몬 변화, 햇빛의 양과 관련이 있다고 알려져 있다. 햇빛의 양이 줄어들어 신체 활력이 떨어지는 가을에서 이듬해 봄까지 계절성 우울증을 많이 겪게 된다.<br>
-					햇볕을 많이 받을 때는 세로토닌과 도파민 분비가 활발해 행복감이 충만해지지만, 햇볕을 적게 받으면 세로토닌의 농도가 떨어지고 수면을 유도하는 멜라토닌이 분비돼 평소보다 쉽게 피로감을 느끼고 잠이 많아진다. 극야와 백야 현상으로 일조량의 변화폭이 극심한 북유럽 지역에서 우울증 환자가 많은 것도 같은 이유 때문이다.<br>
-					가을철 단순히 잠이 많아졌다며 ‘계절성 우울증’이라고 단정하는 건 금물이다. 우울장애 진단 기준에 따라 우울한 기분, 흥미나 즐거움의 감소, 체중 변화, 수면 이상, 정신운동 이상, 피로 등의 증상이 한 해의 일정 기간 사이에 규칙적으로 반복되는 양상을 보일 때 ‘계절성 우울증’이라고 진단할 수 있다.
+				‘가을 탄다’는 말처럼 가을만 되면 심적 침체, 피로 증가, 의욕 및 집중력 저하 등으로 불편감을 호소하는 사람들이 많다. 가볍게 지나가는 증상일 수도 있지만, ‘계절성 우울증’이라는 의학적 명칭을 가진 우울증 증상일 수 있으니 주의가 필요하다.<br>
+				계절성 우울증의 발생 원인은 정확히 알려지지 않았지만, 대체로 신체 균형 및 호르몬 변화, 햇빛의 양과 관련이 있다고 알려져 있다. 때문에 계절성 우울증은 특히 사람들이 받는 햇빛의 양이 줄어드는 가을에서 이듬해 봄까지 증가세가 높다.<br>
+				햇볕을 많이 받을 때는 세로토닌과 도파민 분비가 활발해 행복감이 충만해지지만, 햇볕을 적게 받으면 세로토닌의 농도가 떨어지고 수면을 유도하는 멜라토닌이 분비돼 평소보다 쉽게 피로감을 느끼고 잠이 많아진다. 극야와 백야 현상으로 일조량의 변화폭이 극심한 북유럽 지역에서 우울증 환자가 많은 것도 같은 이유 때문이다.<br>
+				가을철 단순히 잠이 많아졌다며 ‘계절성 우울증’이라고 단정하는 건 금물이다. 우울장애 진단 기준에 따라 우울한 기분, 흥미나 즐거움의 감소, 체중 변화, 수면 이상, 정신운동 이상, 피로 등의 증상이 한 해의 일정 기간 사이에 규칙적으로 반복되는 양상을 보일 때 ‘계절성 우울증’이라고 진단할 수 있다.
 				</div>
 				<div class="pc_display">
 					<div class="item_box">
@@ -59,7 +63,7 @@
 							<li>
 								<div class="img_box motion1" ><img src="img/sub08/sub08_21.svg"></div>
 								<div class="text_box">
-									<span class="black">세로토닌</span>
+									<span class="purple">세로토닌</span>
 									<p>
 										긍정적인 감정이나 행복감을 높이는 신경 전달 물질.
 									</p>
@@ -110,11 +114,61 @@
 						</div>
 					</div>
 				</div>
+
+				<!-- GSAP -->
+				<script>
+		
+                    document.addEventListener("DOMContentLoaded", function () {
+                        gsap.registerPlugin(ScrollTrigger);
+
+                        // 타임라인 생성
+                        const tl = gsap.timeline({
+                            scrollTrigger: {
+                                trigger: ".item_list", // 전체 리스트가 트리거가 됨
+                                start: "top 80%",      // 리스트가 화면 상단에서 80% 지점에 도달할 때 시작
+                                end: "bottom 20%",     // 리스트가 화면 하단에서 20% 지점에 도달할 때 종료
+                                toggleActions: "restart none none none", // 스크롤 시 다시 시작
+                                markers: false,        // 디버그 마커 비활성화
+                                scrub: false,          // 스크롤에 따라 부드럽게 진행되진 않음
+                                onLeaveBack: () => tl.restart(), // 스크롤이 끝나면 다시 재시작
+                            }
+                        });
+
+                        // 순차적으로 motion1부터 motion5까지 애니메이션 추가
+                        tl.fromTo(".motion1", 
+                            { scale: 1, opacity: 0 }, 
+                            { scale: 1.5, opacity: 1, duration: 0.6, ease: "power1.inOut" }
+                        )
+                        .to(".motion1", { scale: 1, duration: 0.6, ease: "power1.inOut" })
+                        .fromTo(".motion2", 
+                            { scale: 1, opacity: 0 }, 
+                            { scale: 1.5, opacity: 1, duration: 0.6, ease: "power1.inOut" }
+                        )
+                        .to(".motion2", { scale: 1, duration: 0.6, ease: "power1.inOut" })
+                        .fromTo(".motion3", 
+                            { scale: 1, opacity: 0 }, 
+                            { scale: 1.5, opacity: 1, duration: 0.6, ease: "power1.inOut" }
+                        )
+                        .to(".motion3", { scale: 1, duration: 0.6, ease: "power1.inOut" })
+                        .fromTo(".motion4", 
+                            { scale: 1, opacity: 0 }, 
+                            { scale: 1.5, opacity: 1, duration: 0.6, ease: "power1.inOut" }
+                        )
+                        .to(".motion4", { scale: 1, duration: 0.6, ease: "power1.inOut" })
+                        .fromTo(".motion5", 
+                            { scale: 1, opacity: 0 }, 
+                            { scale: 1.5, opacity: 1, duration: 0.6, ease: "power1.inOut" }
+                        )
+                        .to(".motion5", { scale: 1, duration: 0.6, ease: "power1.inOut" });
+                    });
+				</script>
+
+
 				<div class="mobile_display">
 					<div class="item_box">
 						<ul class="item_list">
 							<li>
-								<div class="img_box"><img src="img/sub08/sub08_21.svg"></div>
+								<div class="img_box motion1"><img src="img/sub08/sub08_21.svg"></div>
 								<div class="text_box">
 									<span class="purple">세로토닌</span>
 									<p>
@@ -123,7 +177,7 @@
 								</div>
 							</li>
 							<li>
-								<div class="img_box"><img src="img/sub08/sub08_22.svg"></div>
+								<div class="img_box motion2"><img src="img/sub08/sub08_22.svg"></div>
 								<div class="text_box">
 									<span class="yellow">도파민</span>
 									<p>
@@ -134,7 +188,7 @@
 						</ul>
 						<ul class="item_list">
 							<li>
-								<div class="img_box"><img src="img/sub08/sub08_23.svg"></div>
+								<div class="img_box motion3"><img src="img/sub08/sub08_23.svg"></div>
 								<div class="text_box">
 									<span class="blue">멜라토닌</span>
 									<p>
@@ -143,7 +197,7 @@
 								</div>
 							</li>
 							<li>
-								<div class="img_box"><img src="img/sub08/sub08_24.svg"></div>
+								<div class="img_box motion4"><img src="img/sub08/sub08_24.svg"></div>
 								<div class="text_box">
 									<span class="green">엔도르핀</span>
 									<p>
@@ -154,7 +208,7 @@
 						</ul>
 						<ul class="item_list">
 							<li>
-								<div class="img_box img_pink"><img src="img/sub08/sub08_25.svg"></div>
+								<div class="img_box img_pink motion5"><img src="img/sub08/sub08_25.svg"></div>
 								<div class="text_box">
 									<span class="pink">옥시토신</span>
 									<p>
@@ -235,14 +289,12 @@
 						<p>무릎을 꿇은 상태에서 엉덩이를 들어 올리고 양손을 발뒤꿈치에 짚는다. 골반과 가슴을 앞으로 밀면서 척추를 늘린다.</p>
 					</div>
 					<div class="item item3 fadeBigInUp">
-						<div class="pc_display"><div class="item_img"><img src="img/sub08/sub08_43.svg" class="hover-image"></div></div>
-						<div class="mobile_display"><div class="item_img"><img src="img/sub08/sub08_43_mo.svg" class="hover-image"></div></div>
+						<div class="item_img"><img src="img/sub08/sub08_43.svg" class="hover-image"></div>
 						<span>전사 자세</span>
 						<p>매트 위에 서서 등을 곧게 펴준 후 두 발을 벌리고 팔을 들어 올린다. 앞에 디딘 무릎이 90도가 되도록 굽히고 등을 곧게 편다.</p>
 					</div>
 					<div class="item item4 fadeBigInUp">
-						<div class="pc_display"><div class="item_img"><img src="img/sub08/sub08_44.svg" class="hover-image"></div></div>
-						<div class="mobile_display"><div class="item_img"><img src="img/sub08/sub08_44_mo.svg" class="hover-image"></div></div>
+						<div class="item_img"><img src="img/sub08/sub08_44.svg" class="hover-image"></div>
 						<span>머리 들어 올린 강아지 자세</span>
 						<p>매트 위에 배를 대고 지면을 누르면서 상체를 들어 올린다. 하늘을 바라본 후 10초간 자세를 유지한다.</p>
 					</div>

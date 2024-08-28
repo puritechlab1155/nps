@@ -919,6 +919,7 @@
 .sub06 .section05 .content .cont_box .item1 .img_box { width: 40%; }
 .sub06 .section05 .content .cont_box .item1 .img_box img { width: 100%; transform: scale(1.1) translateX(30px); }
 
+.sub06 .section05 .content .cont_box .item2 { margin-top: 32px; }
 .sub06 .section05 .content .cont_box .item2 .text_box ul { margin-top: 16px; }
 .sub06 .section05 .content .cont_box .item2 .text_box ul li { border-top: 1px solid #000; font-size: 15px; font-weight: 400; line-height: 24px; letter-spacing: -0.3px; padding: 8px 0; }
 .sub06 .section05 .content .cont_box .item2 .text_box ul li:nth-child(2) { border-bottom: 1px solid #000; }

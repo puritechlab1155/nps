@@ -1047,7 +1047,7 @@
 
 	.sub07 .section02 .content { margin: 50px auto 36px; }
 	.sub07 .section02 .content .subtitle_top { line-height: 30px; }
-	.sub07 .section02 .content .title { font-size: 36px; line-height: 48px; padding: 8px 0 35px; }
+	.sub07 .section02 .content .title { font-size: 36px; line-height: 48px; padding: 8px 0 35px; letter-spacing: -0.4px; }
 	.sub07 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: -0.36px; }
 
 	.sub07 .content .subtitle { font-size: 16px; line-height: 28px; }

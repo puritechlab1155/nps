@@ -37,6 +37,7 @@
 					<div class="tab01 on">News 1</div>
 					<div class="tab02">News 2</div>
 					<div class="tab03">News 3</div>
+					<div class="tab04">News 4</div>
 				</div>
 			</div>
 		</div><!-- //.section03 -->
@@ -47,12 +48,9 @@
 					<div class="text_box">
 						<div class="arrow"><img src="img/sub01/sub01_03.svg"></div>
 						<div class="text">
-							국민연금 기준소득월액 상·하한액 <br>
-							7월부터 4.5% 인상
+							국민연금공단, 37년의 발자취
 						</div>
 					</div>
-					<div class="img_box pc_display"><img src="img/sub01/sub01_11.svg"></div>
-					<div class="img_box mobile_display"><img src="img/sub01/sub01_11_mo.svg"></div>
 				</div>
 			</div><!-- //.section04 -->
 
@@ -61,72 +59,146 @@
 					<div class="anchor moSmall">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							첫 번째 뉴스입니다. <br>국민연금공단은 7월부터 국민연금 보험료의 산정 기준인 기준소득월액 상한액을 590만 원에서 617만 원으로, 하한액을 37만 원에서 39만 원으로 상향 조정한다고 밝혔습니다.
-							<br><br>자세한 소식 취재기자 M과 알아보겠습니다. M기자 기준소득월액이란 무엇인가요?
+							첫 번째 뉴스입니다. <br>
+							‘전 국민의 든든한 노후 보장! 노령, 장애, 사망에 대한 연금급여 지급!’하면 바로 떠오르실 텐데요. <br>
+							네, 바로 국민연금입니다. 국민연금 제도를 운영하는 국민연금공단이 37주년이 되었다고 합니다.<br>
+							자세한 소식 취재기자 M과 알아보겠습니다. M기자 국민연금공단을 소개해 주세요.
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
-							<div class="text">기준소득월액이란 연금보험료를 산정하고 연금급여를 계산하기 위해 가입자의 소득월액을 기준으로 상하한액의 범위에서 천 원 단위로 정한 금액입니다. 이때 소득은 일정한 기간 근로를 제공하여 얻은 수입에서 대통령령으로 정하는 비과세 소득을 제외한 금액 또는 자산을 운영하여 얻은 소득에서 필요경비를 제외한 금액을 말합니다.</div>
+							<div class="text">국민연금공단은 국민의 노령, 장애, 사망에 대해 연금급여를 지급하여 국민의 생활 안정과 복지 증진에 이바지하기 위한 목적으로 1987년 9월 18일 설립되어, 올해로 창립 37주년을 맞이하게 되었습니다.</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+						</div>
+						<div class="graph_area graph_area01">
+							<img src="img/sub01/sub01_12.jpg">
 						</div>
 					</div>
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							연금보험료와 연금급여를 산정하기 위해 정한 것이 기준소득월액이고, 상·하한액이 있다는거군요.
+							37주년! 어느덧 청년을 넘어 완숙한 중년을 바라보는 시간이 흘렀네요. 국민의 든든한 노후 보장, 말만 들어도 든든합니다. 그동안 국민연금공단의 발자취가 궁금한데요?
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								네, 맞습니다. 앞서 Z앵커님이 기준소득월액 상·하한액이 조정됐다고 말씀하셨는데요. 상하한액은 국민연금 전체 가입자의 최근 3년간 평균소득(A값) 변동률을 반영하여 조정하고 있습니다.<br><br>
-								즉, 기준소득월액 상·하한액이 상향 조정됐다는 말은 국민연금 전체 가입자의 소득월액이 증가했다는 것을 의미하는데요, 기준소득월액은 법령에 따라 매년 7월 변동될 수 있으니 국민연금 가입자는 꼭 기억해 두시고 확인해야 합니다.
-							</div>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
-						</div>
-						<!-- <div class="graph_area"><img src="img/sub01/sub01_07.svg"></div> -->
-					</div>
-					<div class="anchor alignCenter">
-						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
-						<div class="question">
-							그렇다면 보건복지부에서 발표한 기준소득월액 상·하한액 조정과 적용 기간은 어떻게 되나요?
-						</div>
-					</div>
-					<div class="reporter">
-						<div class="answer">
-							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
-							<div class="text">
-								보건복지부는 기준소득월액 상·하한액 조정과 관련하여, 지난 1월 9일 국민연금심의위원회의 심의를 거쳤고, 1월 23일 보건복지부 고시(「국민연금법」 제3조 제1항 제5호 및 같은 법 시행령 제5조에 따른 「국민연금 기준소득월액 하한액과 상한액 고시」) 개정을 완료했습니다. 개정을 통해 조정된 상하한액은 2024년 7월부터 2025년 6월까지 적용됩니다.<br><br>
-								기준소득월액 상·하한액 변동으로 기준소득월액이 617만 원보다 많으면 617만 원으로, 39만 원보다 적으면 39만 원으로 조정됩니다.
-							</div>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
-						</div>
-					</div>
-					<div class="anchor alignCenter">
-						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
-						<div class="question">
-							매년 7월 기준소득월액 상·하한액이 변동될 수 있으니 체크해 볼 필요가 있다는 거군요. 잘 알겠습니다. 상·하한액 조정이 보험료에도 영향이 있나요?
-						</div>
-					</div>
-					<div class="reporter">
-						<div class="answer">
-							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
-							<div class="text">
-								네, 2024년도 기준소득월액 상·하한액 조정으로 상한액에 해당하는 최고 보험료는 전년보다 24,300원이 인상된 555,300원이 되고, 하한액에 해당하는 최저 보험료는 전년보다 1,800원이 인상된 35,100원이 됩니다.
+								국민연금 제도 시행을 목적으로 설립된 만큼, 제도 확대부터 소개해 드리겠습니다. 1988년 1월 1일, 10인 이상 사업장을 대상으로 제도 시행 후 1995년 농어촌지역, 1999년 도시지역 확대 적용을 통해 마침내 전 국민 연금시대를 열었습니다. 2000년대에 들어오며 더욱 많은 변화가 있었는데요. 2008년 노후설계서비스, 2011년 장애인지원서비스, 2014년 기초연금 지원 사업 등 업무 영역을 확장하여 종합복지서비스제공 기관으로 발돋움하였습니다.
 								<br><br>
-								상·하한액 조정으로 일부 가입자의 보험료가 인상되지만, 연금급여액 산정 기초가 되는 가입자 개인의 생애 평균 소득월액이 높아져 연금 수급 시 더 많은 연금급여액을 받게 됩니다.
+								기관 운영 측면에서는 국민연금뿐만 아니라 사회보험제도 및 기금운용 관련 연구 수행을 위해 1995년 국민연금연구원 설치, 국민의 소중한 노후 재원인 국민연금기금을 보다 체계적이고 전문적으로 운용하기 위해 1999년 기금운용본부를 설치하였습니다. 2007년에는 국민의 입장에서 생각하고 보다 나은 서비스 제공을 위해 ‘국민연금관리공단’에서 현재 사용하고 있는 ‘국민연금공단’으로 명칭을 변경하였습니다. 그리고 2015년 6월, 공단 본부는 공공기관 지방 이전 계획에 따라 전주로 이전하였습니다. 장애심사를 위한 별도의 장애심사센터가 설치되어 있으며, 전국 112개 지사와 뉴욕, 런던, 싱가포르, 샌프란시스코 등 세계 금융시장 중심지 및 투자 거점지 4곳에는 해외사무소가 설치되어 있습니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+						</div>
+						<div class="graph_area graph_area01">
+							<img src="img/sub01/sub01_13.jpg">
+						</div>
+					</div>
+
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							그렇군요. 국민연금공단의 다양한 발자취를 모아서 보니 감회가 새로운 느낌입니다. 제도 시행 이후 가입자, 수급자의 수치도 큰 변화가 있었을 것 같습니다.
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								네, 1988년 443만 명이던 가입자는 2024년 5월 말 기준 2,210만 명이 되었고, 연금 수급자는 687만 명을 돌파하였습니다. 국민연금공단은 전 국민에게 연금 혜택이 두루 미칠 수 있도록 노후 준비 취약 계층을 제도층으로 편입하는 노력과 저소득층 보험료 지원사업을 확대하여 시행하고 있습니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+						</div>
+						<div class="graph_area graph_area01">
+							<img src="img/sub01/sub01_14.jpg">
+						</div>
+					</div>
+
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							국민연금기금이 세계 3대 연기금이라고 하는데요. 어떤가요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								맞습니다. 2023년 말 기준 기금 적립금이 1,000조를 달성한 부분은 봄·여름호의 NPS뉴스를 통해 소개해 드렸는데요. 특히 2023년 한 해에만 기금 수익금 127조 원, 수익률 13.59%를 기록하며 기금운용본부 출범 이후 역대 최고 성과를 거두었습니다. 2024년 5월 말 기준 기금적립금 1,113.6조 원, 누적 수익률은 6%를 기록하였습니다.
+								<br><br>
+								기금운용본부는 앞으로도 급변하는 운용환경에 대응하여 투자 다변화, 운용전략 고도화 등을 통해 수익 기반을 더욱 확충해 나갈 계획입니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+						</div>
+						<div class="graph_area graph_area04">
+							<div class="inner inner01">
+								<div class="text">
+									<span class="sp_orange">봄호 NPS 뉴스</span>
+									<p>
+										‘국민연금 2023년 기금 운영 수익률 
+										13.59% 역대 최고 성과’
+									</p>
+									<a href="https://npswebzine.kr/html/vol199/sub01.php" target="_blank" class="a_orange">보러 가기</a>
+								</div>
+								<div class="icon_box">
+									<img src="img/sub01/sub01_15.svg">
+								</div>
+							</div>
+							<div class="inner_line"></div>
+							<div class="inner inner02">
+								<div class="text">
+									<span class="sp_purple">여름호 NPS 뉴스</span>
+									<p>
+										‘국민연금 기금 운용수익률 작년에 이어 
+										올해 1분기에도 호조사 이어가’
+									</p>
+									<a href="https://npswebzine.kr/html/vol200/sub01.php" target="_blank" class="a_purple">보러 가기</a>
+								</div>
+								<div class="icon_box">
+									<img src="img/sub01/sub01_15.svg">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							국민연금공단은 다양한 복지서비스사업도 진행하고 있는 것으로 알고 있는데요. 자세히 알 수 있을까요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								네 맞습니다. 공단은 가입, 급여관리 업무, 기금관리사업과 같은 제도의 집행업무 외에도 다양한 복지서비스사업을 실시해왔습니다. 현재 시행 중인 복지서비스사업에는 노후준비지원사업, 장애등록심사사업, 장애인활동지원사업, 기초연금지원사업 등이 있습니다.<br>
+								2008년 노후준비지원사업이 실시되었고 장애 관련 복지서비스사업이 2007년(장애등급심사사업), 2011년(장애인활동지원사업), 2012년(기초수급자 근로능력평가사업)에 걸쳐 차례로 도입되었습니다. 2014년부터는 기초연금 지원사업이 정착되었습니다.<br>
+								이처럼 복지사서비스사업은 공단의 핵심 업무 중 하나로 자리매김해가고 있습니다. 앞으로도 다양한 복지서비스사업을 포괄하는 종합복지서비스 기관으로의 역할을 더욱 공고히 할 계획입니다.
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
 					</div>
-					<div class="anchor">
+
+					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							답변 감사합니다. 보건복지부 이스란 사회복지정책실장도 기준소득월액 상하한액 조정에 대한 말씀을 전해왔는데요.<br><br>
-							이스란 사회복지정책실장은 "가입자의 소득 수준 향상에 따라 기준소득월액 상·하한액이 조정되어 일부 가입자는 보험료가 증가하지만, 수급 연령 도달 시 더 많은 연금급여액을 받게 되어 국민연금을 통한 노후소득 보장이 강화될 것"이라고 이야기했습니다.
+								네, 잘 들었습니다. 앞으로도 다양한 복지사업분야에서 많은 역할을 하는 공단의 모습이 기대가 됩니다.<br>
+								인터넷과 디지털 환경의 변화도 이전과 많이 달라졌을 것 같은데요. 변화하는 디지털 환경 속에서 공단의 모습은 어떠한가요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								디지털 플랫폼·데이터 기반 행정 등 지능 정보를 활용한 일상생활이 보편화된 시대에 발맞춰 공단은 국민 눈높이에 맞춘 혁신 서비스 강화에도 노력을 기울이고 있습니다. 국민 불편을 경감하고 선제적으로 챙겨주는 사용자 중심의 비대면 서비스 개편(모바일 ‘MY알리미’, 전자문서 금융 채널 도입 등)을 추진하고, 공공기관 최초로 여러 매체를 거치지 않고 기관의 소식을 한눈에 볼 수 있는 SNS콘텐츠 플랫폼 ‘국민연금 온에어’ 사이트를 운영하고 있습니다. 여러분께서 보고 계신 웹진 ‘내 곁에 국민연금’도 인쇄 환경에서 벗어나 더 많은 분이 편리하게 보실 수 있도록 디지털화한 결과물입니다. 또, 다양한 연금 정보와 트렌디한 영상이 올라오는 국민연금 유튜브 채널과 인스타그램, 블로그도 운영하고 있으니 많은 관심 가져 주시면 좋겠습니다.
+							</div>
+							<ul class="sns_icons">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
 					</div>
 				</div>

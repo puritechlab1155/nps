@@ -77,30 +77,30 @@
 			<div class="main_slider_wrap">
 				<ul class="main_slider1">
 					<li>
-						<a>
+						<a href="sub02.php">
 							<div class="thumb">
-								<img src="img/main/main_visual01.svg">
+								<img src="img/main/main_visual01.jpg">
 							</div>
 						</a>
 					</li>
 					<li>
-						<a href="sub11.php">
+						<a href="sub04.php">
 							<div class="thumb">
-								<img src="img/main/main_visual02.svg">
+								<img src="img/main/main_visual02.jpg">
 							</div>
 						</a>
 					</li>
 					<li>
 						<a href="sub01.php">
 							<div class="thumb">
-								<img src="img/main/main_visual03.svg">
+								<img src="img/main/main_visual03.jpg">
 							</div>
 						</a>
 					</li>
 					<li>
 						<a href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>
 							<div class="thumb">
-								<img src="img/main/main_visual04.svg">
+								<img src="img/main/main_visual04.jpg">
 							</div>
 						</a>
 					</li>

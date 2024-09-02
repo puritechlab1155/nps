@@ -167,7 +167,7 @@
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">M&Z일상수다</p>
-							<p class="txt">여름휴가를 보내는 다양한 방법</p>
+							<p class="txt">추석을 준비하는 다양한 방법!</p>
 						</a>
 					</div>
 					<div data-title="알잘딱깔센! 세이브 머니" class="swiper-slide item4 wow fadeUp">

@@ -342,7 +342,6 @@
 .sub01 .section03 .content .tabs div { background: #000; color: #fff; font-family: 'GmarketSans'; font-size: 18px; font-weight: 500; padding: 5px 16px; width: 143px; height: 34px; border-radius: 999px; position: relative; cursor: pointer; line-height: 25px; }
 .sub01 .section03 .content .tabs div::after { content: ''; background: url(../img/sub01/sub01_02.svg) no-repeat; width: 24px; height: 24px; background-size: contain; background-position: center; position: absolute; right: 16px; top: 50%; transform: translateY(-50%); }
 .sub01 .section03 .content .tabs div.on { background: #6464d8; color: #fff; }
-.sub01 .section03 .content .tabs div.on::after { content: ''; background: url(../img/sub01/sub01_02-on.svg) no-repeat; width: 24px; height: 24px; background-size: contain; background-position: center; position: absolute; right: 16px; top: 50%; transform: translateY(-50%); }
 
 .sub01 .news { display: none; }
 .sub01 .news.on { display: block; }

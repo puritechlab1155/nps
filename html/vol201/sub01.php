@@ -42,7 +42,7 @@
 			</div>
 		</div><!-- //.section03 -->
 
-		<div class="news news01">
+		<div class="news news01 on">
 			<div class="section04 wow fadeBigInUp">
 				<div class="content">
 					<div class="text_box">
@@ -194,9 +194,9 @@
 								디지털 플랫폼·데이터 기반 행정 등 지능 정보를 활용한 일상생활이 보편화된 시대에 발맞춰 공단은 국민 눈높이에 맞춘 혁신 서비스 강화에도 노력을 기울이고 있습니다. 국민 불편을 경감하고 선제적으로 챙겨주는 사용자 중심의 비대면 서비스 개편(모바일 ‘MY알리미’, 전자문서 금융 채널 도입 등)을 추진하고, 공공기관 최초로 여러 매체를 거치지 않고 기관의 소식을 한눈에 볼 수 있는 SNS콘텐츠 플랫폼 ‘국민연금 온에어’ 사이트를 운영하고 있습니다. 여러분께서 보고 계신 웹진 ‘내 곁에 국민연금’도 인쇄 환경에서 벗어나 더 많은 분이 편리하게 보실 수 있도록 디지털화한 결과물입니다. 또, 다양한 연금 정보와 트렌디한 영상이 올라오는 국민연금 유튜브 채널과 인스타그램, 블로그도 운영하고 있으니 많은 관심 가져 주시면 좋겠습니다.
 							</div>
 							<ul class="sns_icons">
-								<li><img src="img/sub01/sub01_16.png"></li>
-								<li><img src="img/sub01/sub01_17.png"></li>
-								<li><img src="img/sub01/sub01_18.png"></li>
+								<li><a href="index.php" target="_blank"><img src="img/sub01/sub01_16.png"></a></li>
+								<li><a href="https://www.youtube.com/user/NaionalPensionServic" target="_blank"><img src="img/sub01/sub01_17.png"></a></li>
+								<li><a href="https://www.instagram.com/accounts/login/?next=/npstagram/" target="_blank"><img src="img/sub01/sub01_18.png"></a></li>
 							</ul>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
@@ -334,7 +334,7 @@
 			</div><!-- //.section05 -->
 		</div><!-- //.news02 -->
 
-		<div class="news news03 on">
+		<div class="news news03">
 			<div class="section04 wow fadeBigInUp">
 				<div class="content">
 					<div class="text_box">
@@ -456,6 +456,129 @@
 				</div>
 			</div><!-- //.section05 -->
 		</div><!-- //.news03 -->
+
+		<div class="news news04">
+			<div class="section04 wow fadeBigInUp">
+				<div class="content">
+					<div class="text_box">
+						<div class="arrow"><img src="img/sub01/sub01_03.svg"></div>
+						<div class="text">
+							국민연금, 2024년 상반기에만 102조 원 벌다!<br>
+							기금 운용수익률 9.71% 돌파
+						</div>
+					</div>
+				</div>
+			</div><!-- //.section04 -->
+
+			<div class="section05 wow fadeBigInUp">
+				<div class="content">
+					<div class="anchor moSmall">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							세 번째 뉴스입니다.<br>
+							&lt;내 곁에 국민연금&gt; 봄호와 여름호에서 말씀드린 국민연금기금의 성과 기억하시나요? 국민연금기금이 작년 사상 최대 기금적립금 1,000조 원을 돌파했고, 올해 1분기에는 5.82%의 기금 운용수익률을 올리며 호조세를 이어 나가고 있다고 말씀드렸는데요. 올해 상반기에도 1분기 못지않은 기금 운용수익률을 기록했다고 합니다.<br>
+							자세한 소식 취재기자 M과 알아보겠습니다. M기자 올해 상반기 기금 운용수익률에 대해 자세히 설명해 주세요.
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								네, 1분기에 이어 기쁜 소식을 전해드립니다. 8월 29일 국민연금공단 기금운용본부는 2024년 6월 말 기준 올해 상반기 기금 운용수익률 9.71%, 운용 수익금 102조 4,000억을 기록했다고 밝혔습니다.<br>
+								1988년 국민연금제도가 도입된 이래 총 680조 4,000억 원의 누적 수익금이 쌓이고, 1,147조 원의 기금이 적립된 것입니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+						</div>
+						<div class="graph_area graph_area01">
+							<div class="graph_text">
+								<div class="textBold">국민연금기금 적립금 추이</div>
+								<p>(단위: 조 원, 2024. 6월 말 기준)</p>
+							</div>
+							<img src="img/sub01/sub01_32.svg">
+						</div>
+					</div>
+
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							기금적립금 1,200조 원을 바라보게 됐네요! 그렇다면 상반기 자산별 잠정수익률은 어떻게 되나요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								네, 금액가중수익률 기준 상반기 자산별 잠정수익률을 말씀드리겠습니다. 해외주식 20.47%, 국내주식 8.61%, 해외채권 7.95%, 대체투자 7.79%, 국내채권 1.66% 순으로 각각 집계됐습니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+						</div>
+						<div class="graph_area graph_area02">
+							<div class="textBold">
+								자산별 잠정수익률(금액가중수익률 기준)
+							</div>
+							<div class="img_box"><img src="img/sub01/sub01_33.svg"></div>
+						</div>
+					</div>
+
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							변동성이 큰 시장에서도 안정적인 수익률을 지속해서 창출하고 있군요. 올해 상반기에 큰 수익률을 낼 수 있었던 요인은 무엇인가요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								올해 여섯 달 동안 9.71%의 기금 운용수익률을 기록한 요인을 말씀드리겠습니다. 먼저 미국 기술주 강세로 국내 및 해외주식 수익률이 양호했습니다. 이와 더불어 원·달러 환율이 상승해 해외자산 기금 운용수익률에 긍정적인 영향을 주었습니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+						</div>
+					</div>
+
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							주식 부문부터 더욱 자세히 설명해 주시겠어요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								구체적으로 말씀드리겠습니다. 국내주식과 해외주식은 미국 물가 상승 우려에도 인공지능(AI) 수요와 기대가 커지면서 대형 기술주 중심으로 주가가 상승했습니다. 그중에서도 해외주식은 원·달러 환율 상승으로 원화 약세 효과가 더해지며 기금 운용수익률이 20%를 넘었는데요. 그 때문에 해외주식이 올해 상반기 국민연금의 수익률을 견인했습니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+						</div>
+					</div>
+
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							그렇다면 여러 사정으로 불안했던 채권 부문은 어떤가요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
+							<div class="text s_text">
+								국내채권과 해외채권은 미국의 기준금리 인하 시점 지연 우려로 금리가 상승했는데요. 해외채권은 원·달러 환율 상승세 유지 효과로 개선된 수익률을 보였습니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+						</div>
+					</div>
+
+					<div class="anchor">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							네. 국민연금 기금 운용수익률 중 국내외 주식은 대형 기술주 중심으로 주가가 상승했으며, 국내외 채권은 금리 상승에도 원·달러 환율 상승세 유지 효과로 수익률을 냈습니다. 한편, 부동산투자, 사모벤처투자, 인프라투자 등 대체투자 자산에 대한 공정가치 평가는 추후 연말에 이루어질 예정입니다.
+							<br><br>
+							지금까지 2024년 상반기 국민연금공단의 기금 운용수익률을 알아봤습니다. 작년에 이어 호조세를 유지하고 있는 국민연금공단의 기금 운용수익률이 앞으로도 상승 곡선을 타기를 기대해 봅니다.
+						</div>
+					</div>
+				</div>
+			</div><!-- //.section05 -->
+		</div><!-- //.news04 -->
 	</div>
 	<!-- contents -->
 

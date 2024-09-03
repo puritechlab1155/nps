@@ -415,18 +415,8 @@
 .sub01 .news03 .section06 .content .conts_box .text { color: #fff; font-family: 'laundrygothic'; font-size: 20px; font-weight: 400; line-height: 32px; padding: 42px 0 28px; }
 .sub01 .news03 .section06 .content .conts_box .text span { display: block; color: #ff8aa9; font-size: 21px; font-weight: 700; line-height: 32px; }
 
-/* @media only all and (min-width:1921px) {
-	.sub01 .section01 .content { text-align: center; margin-bottom: 30px; color: #333; }
-}
-@media only all and (min-width:2100px) {
-	.sub01 .section01 .content { text-align: center; margin-bottom: 20px; color: #333; }
-}
-@media only all and (min-width:2200px) {
-	.sub01 .section01 .content { text-align: center; margin-bottom: 10px; color: #333; }
-} */
-
 @media only all and (max-width:767px) {
-	.sub01 .section01 { height: 275px; background-image: url('../img/sub01/sub01_00_mo.svg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
+	.sub01 .section01 { height: 275px; background-image: url('../img/sub01/sub01_00_mo.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
 	.sub01 .section01 .content { margin-bottom: 12px; }
 	.sub01 .section01 .content .cover_title { font-size: 20px; }
 	.sub01 .section01 .content .cover_text { padding: 0; }
@@ -438,17 +428,14 @@
 
 	.sub01 .section03 { border-bottom: 1px solid #000; }
 	.sub01 .section03 .content .tabs { gap: 13px; margin: 20px auto; }
-	.sub01 .section03 .content .tabs div { font-size: 11px; padding: 6px 10px; width: 110px; height: 26px; }
+	.sub01 .section03 .content .tabs div { font-size: 11px; padding: 6px 10px; width: 110px; height: 26px; line-height: 15px; }
 	.sub01 .section03 .content .tabs div::after { width: 14px; height: 14px; right: 10px; }
 	.sub01 .section03 .content .tabs div.on::after { width: 14px; height: 14px; right: 10px; }
 
-	.sub01 .section04 .content .text_box .text { padding: 14px 0 0; font-size: 22px; letter-spacing: -0.44px; }
+	.sub01 .section04 { height: 350px; }
+	.sub01 .section04 .content .text_box .text { font-size: 22px; letter-spacing: -0.44px; }
 
-	.sub01 .news01 .section04 .content .text_box .text { padding-bottom: 25px; }
-	.sub01 .news02 .section04 .content .text_box .text { padding-bottom: 21px; }
-	.sub01 .news02 .section04 .content .img_box img { padding: 0 34px 0 21px; }
-	.sub01 .news03 .section04 .content .text_box .text { padding-bottom: 18px; }
-	.sub01 .news03 .section04 .content .img_box img { padding: 0 26px 0 25px; }
+	.sub01 .news01 .section04 { position: relative; width: 100%; display: block; background: #f8a757 url(../img/sub01/sub01_11_mo.svg); background-repeat: no-repeat; background-size: contain; background-position: center bottom; }
 
 	.sub01 .section05 .content { padding: 50px 20px 0; gap: 32px; }
 	.sub01 .section05 .content .anchor { flex-direction: column; gap: 36px; align-items: center; }
@@ -466,6 +453,14 @@
 
 	.sub01 .section05 .content .reporter .graph_area { padding: 36px; background-color: #e5e8e8; opacity: 1; background-image:  linear-gradient(#ffffff 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(to right, #ffffff 1.2000000000000002px, #e5e8e8 1.2000000000000002px); background-size: 24px 24px; }
 	.sub01 .section05 .content .reporter .graph_area .textBold { font-size: 16px; letter-spacing: normal; }
+
+	.sub01 .news01 .section05 .content .reporter div.graph_area04 { flex-direction: column; gap: 28px; }
+	.sub01 .news01 .section05 .content .reporter div.graph_area04 .inner { padding-top: 16px; }
+	.sub01 .news01 .section05 .content .reporter div.graph_area04 .inner_line { display: none; }
+	.sub01 .news01 .section05 .content .reporter div.graph_area04 .inner span { font-size: 14px; line-height: 22px; letter-spacing: -0.28px; }
+	.sub01 .news01 .section05 .content .reporter div.graph_area04 .inner p { font-size: 14px; line-height: 22px; letter-spacing: -0.28px; }
+	.sub01 .news01 .section05 .content .reporter div.graph_area04 .inner02 p { max-width: 219px; }
+	.sub01 .news01 .section05 .content .reporter .s_text { padding-bottom: 0; }
 
 	.sub01 .news02 .section05 .content .reporter .graph_area .text_box .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; margin-top: 8px; }
 	.sub01 .news02 .section05 .content .reporter .graph_area .text_box .text:nth-child(1) { margin-top: 0; }

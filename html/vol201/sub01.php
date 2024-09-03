@@ -60,7 +60,7 @@
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
 							첫 번째 뉴스입니다. <br>
-							‘전 국민의 든든한 노후 보장! 노령, 장애, 사망에 대한 연금급여 지급!’하면 바로 떠오르실 텐데요. <br>
+							‘전 국민의 든든한 노후 보장! 노령, 장애, 사망에 대한 연금급여 지급!’하면 바로 떠오르실 텐데요. <br class="pc_display">
 							네, 바로 국민연금입니다. 국민연금 제도를 운영하는 국민연금공단이 37주년이 되었다고 합니다.<br>
 							자세한 소식 취재기자 M과 알아보겠습니다. M기자 국민연금공단을 소개해 주세요.
 						</div>
@@ -92,7 +92,8 @@
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
 						<div class="graph_area graph_area01">
-							<img src="img/sub01/sub01_13.jpg">
+							<img src="img/sub01/sub01_13.jpg" class="pc_display">
+							<img src="img/sub01/sub01_13_mo.jpg" class="mobile_display">
 						</div>
 					</div>
 
@@ -111,7 +112,8 @@
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
 						<div class="graph_area graph_area01">
-							<img src="img/sub01/sub01_14.jpg">
+							<img src="img/sub01/sub01_14.jpg" class="pc_display">
+							<img src="img/sub01/sub01_14_mo.jpg" class="mobile_display">
 						</div>
 					</div>
 
@@ -217,14 +219,16 @@
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
 						<div class="graph_area graph_area05">
-							<img src="img/sub01/sub01_19.svg">
+							<img src="img/sub01/sub01_19.svg" class="pc_display">
+							<img src="img/sub01/sub01_19_mo.svg" class="mobile_display">
 							<p>
-							국민연금공단은 지난 37년 국민여러분과 함께 힘차게 달려왔습니다. 앞으로도 국민여러분의 든든한 노후준비를 함께하는 기관으로 더욱 열심히 달리겠습니다.<br>
-							이를 위해, 국민 모두가 신뢰하는 ‘미래에도 지속 가능한 국민연금’을 위해 최선의 노력을 다하겠습니다. 가입자 확대 등 연금수급권을 강화하고, 소외계층의 연금보험료 부담을 줄이면서 가입 기회와 가입 기간을 늘릴 수 있도록 지원하여 국민 노후 소득 보장의 울타리를 더욱 튼튼히 하겠습니다.<br>
-							또한 성공적인 연금개혁을 위한 과정에서 공단이 할 수 있는 지원을 아끼지 않겠습니다. 국민연금을 올바르게 알리고, 개혁에 대한 사회적 공감대 형성을 위한 다방면의 대국민 소통 활동을 강화해 나가겠습니다.<br>
-							마지막으로 한계를 극복하는 끊임없는 혁신과 책임있는 자세로 국민 기대에 부응하는 공단이 되겠습니다.
+								국민연금공단은 지난 37년 국민여러분과 함께 힘차게 달려왔습니다. 앞으로도 국민여러분의 든든한 노후준비를 함께하는 기관으로 더욱 열심히 달리겠습니다.<br>
+								이를 위해, 국민 모두가 신뢰하는 ‘미래에도 지속 가능한 국민연금’을 위해 최선의 노력을 다하겠습니다. 가입자 확대 등 연금수급권을 강화하고, 소외계층의 연금보험료 부담을 줄이면서 가입 기회와 가입 기간을 늘릴 수 있도록 지원하여 국민 노후 소득 보장의 울타리를 더욱 튼튼히 하겠습니다.<br>
+								또한 성공적인 연금개혁을 위한 과정에서 공단이 할 수 있는 지원을 아끼지 않겠습니다. 국민연금을 올바르게 알리고, 개혁에 대한 사회적 공감대 형성을 위한 다방면의 대국민 소통 활동을 강화해 나가겠습니다.<br>
+								마지막으로 한계를 극복하는 끊임없는 혁신과 책임있는 자세로 국민 기대에 부응하는 공단이 되겠습니다.
 							</p>
-							<img src="img/sub01/sub01_110.svg">
+							<img src="img/sub01/sub01_110.svg" class="pc_display">
+							<img src="img/sub01/sub01_110_mo.svg" class="mobile_display">
 						</div>
 					</div>
 

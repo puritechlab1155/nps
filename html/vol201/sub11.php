@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 		</div>
 		<div class="gift">
 			<div class="img_box"><img src="img/sub11/sub11_02.png"></div>
-			<div class="text_box">이디야커피 디지털 상품권 1만원권</div>
+			<div class="text_box">이디야커피 디지털 상품권 1만 원권</div>
 		</div>
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">

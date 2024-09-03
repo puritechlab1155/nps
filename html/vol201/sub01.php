@@ -366,50 +366,82 @@
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
-						<div class="graph_area">
+						<div class="graph_area graph_area01">
 							<div class="graph_text">
 								<div class="textBold">국민연금기금 적립금 추이</div>
 								<p>(단위: 조 원, 2024. 6월 말 기준)</p>
 							</div>
-							<div class="img_box"><img src="img/sub01/sub01_32.svg"></div>
+							<img src="img/sub01/sub01_32.svg">
 						</div>
 					</div>
+
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							국내외 주식 시장에 관해서도 자세한 설명 부탁드립니다
+							기금적립금 1,200조 원을 바라보게 됐네요! 그렇다면 상반기 자산별 잠정수익률은 어떻게 되나요?
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								네. 국내외 주식 시장에 관해 간략하게 말씀드리겠습니다. 국내주식(5.53%) 및 해외주식(13.45%)은 미국 인플레이션 경계감에도 인공지능(AI) 수요 기대 등 대형 기술주 중심으로 상승했으며, 해외주식은 원화 약세 효과가 더해져 두 자릿수의 운용수익률을 보였습니다.  <br><br>
-								참고로 국내 주식시장 상승률은 연초 대비 +3.44%이며, 글로벌 주식시장(달러 기준) 상승률은 연초 대비 +8.32%입니다.
+								네, 금액가중수익률 기준 상반기 자산별 잠정수익률을 말씀드리겠습니다. 해외주식 20.47%, 국내주식 8.61%, 해외채권 7.95%, 대체투자 7.79%, 국내채권 1.66% 순으로 각각 집계됐습니다.
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
+						<div class="graph_area graph_area02">
+							<div class="textBold">
+								자산별 잠정수익률(금액가중수익률 기준)
+							</div>
+							<div class="img_box"><img src="img/sub01/sub01_33.svg"></div>
+						</div>
 					</div>
+
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							그렇다면, 국내외 채권 시장의 분위기는 어떤가요?
+							변동성이 큰 시장에서도 안정적인 수익률을 지속해서 창출하고 있군요. 올해 상반기에 큰 수익률을 낼 수 있었던 요인은 무엇인가요?
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								네. 국내외 채권 시장은 여러 사정으로 약간 불안정했지만, 금세 호조세로 돌아섰는데요. 국내채권(-0.01%) 및 해외채권(4.48%)은 미국의 통화긴축 기조가 이어질 수 있다는 우려로 금리가 상승했으나, 해외채권은 원·달러 환율 상승으로 양호한 수익률을 보였습니다.
+								올해 여섯 달 동안 9.71%의 기금 운용수익률을 기록한 요인을 말씀드리겠습니다. 먼저 미국 기술주 강세로 국내 및 해외주식 수익률이 양호했습니다. 이와 더불어 원·달러 환율이 상승해 해외자산 기금 운용수익률에 긍정적인 영향을 주었습니다.
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
 					</div>
-					<div class="anchor">
+
+					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							네. 국민연금 기금 운용수익률 중 국내외 주식은 대형 기술주와 원화 약세 효과가 더해져 상승했으며, 국내외 채권은 금리 상승에도 원·달러 환율 상승으로 수익률을 냈군요. <br><br>
-							국민연금 기금 운용수익률이 작년에 이어 끊임없이 호조세를 이어 나가는 가운데 국민연금공단의 김태현 이사장은 앞으로의 포부를 전해왔습니다.
+							주식 부문부터 더욱 자세히 설명해 주시겠어요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								구체적으로 말씀드리겠습니다. 국내주식과 해외주식은 미국 물가 상승 우려에도 인공지능(AI) 수요와 기대가 커지면서 대형 기술주 중심으로 주가가 상승했습니다. 그중에서도 해외주식은 원·달러 환율 상승으로 원화 약세 효과가 더해지며 기금 운용수익률이 20%를 넘었는데요. 그 때문에 해외주식이 올해 상반기 국민연금의 수익률을 견인했습니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+						</div>
+					</div>
+
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							그렇다면 여러 사정으로 불안했던 채권 부문은 어떤가요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								국내채권과 해외채권은 미국의 기준금리 인하 시점 지연 우려로 금리가 상승했는데요. 해외채권은 원·달러 환율 상승세 유지 효과로 개선된 수익률을 보였습니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
 					</div>
 				</div>

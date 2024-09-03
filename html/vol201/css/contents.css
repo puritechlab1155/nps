@@ -403,7 +403,10 @@
 .sub01 .news02 .section05 .content .reporter .graph_area .text_box .list ul li { list-style: disc; list-style-position: inside; }
 .sub01 .news02 .section05 .content .reporter .graph_area .text_box span { font-size: 15px; font-weight: 400; padding-top: 8px; }
 
-.sub01 .news03 .section05 .content .reporter .graph_area .img_box { margin-top: 31px; }
+.sub01 .news03 .section05 .content .reporter .graph_area .graph_text { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.sub01 .news03 .section05 .content .reporter .graph_area .graph_text p { font-size: 15px; font-weight: 400; }
+.sub01 .news03 .section05 .content .reporter .graph_area01 { padding: 36px 36px 34px; }
+.sub01 .news03 .section05 .content .reporter .graph_area02 .img_box { margin-top: 30px; }
 
 .sub01 .news03 .section06 { position: relative; width: 100%; height: 100%; display: block; background: #f4f1de; }
 .sub01 .news03 .section06 .content { width: 100%; max-width: 1020px; margin: -19px auto 0; padding: 0 20px 99px; position: relative; }

@@ -42,7 +42,7 @@
 			</div>
 		</div><!-- //.section03 -->
 
-		<div class="news news01 on">
+		<div class="news news01">
 			<div class="section04 wow fadeBigInUp">
 				<div class="content">
 					<div class="text_box">
@@ -194,18 +194,52 @@
 								디지털 플랫폼·데이터 기반 행정 등 지능 정보를 활용한 일상생활이 보편화된 시대에 발맞춰 공단은 국민 눈높이에 맞춘 혁신 서비스 강화에도 노력을 기울이고 있습니다. 국민 불편을 경감하고 선제적으로 챙겨주는 사용자 중심의 비대면 서비스 개편(모바일 ‘MY알리미’, 전자문서 금융 채널 도입 등)을 추진하고, 공공기관 최초로 여러 매체를 거치지 않고 기관의 소식을 한눈에 볼 수 있는 SNS콘텐츠 플랫폼 ‘국민연금 온에어’ 사이트를 운영하고 있습니다. 여러분께서 보고 계신 웹진 ‘내 곁에 국민연금’도 인쇄 환경에서 벗어나 더 많은 분이 편리하게 보실 수 있도록 디지털화한 결과물입니다. 또, 다양한 연금 정보와 트렌디한 영상이 올라오는 국민연금 유튜브 채널과 인스타그램, 블로그도 운영하고 있으니 많은 관심 가져 주시면 좋겠습니다.
 							</div>
 							<ul class="sns_icons">
-								<li></li>
-								<li></li>
-								<li></li>
+								<li><img src="img/sub01/sub01_16.png"></li>
+								<li><img src="img/sub01/sub01_17.png"></li>
+								<li><img src="img/sub01/sub01_18.png"></li>
 							</ul>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+						</div>
+					</div>
+
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							창립 37주년을 맞이하여 앞으로의 포부도 궁금합니다.
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
+							<div class="text s_text">
+								네, 국민연금공단은 아래와 같이 포부를 전해왔습니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+						</div>
+						<div class="graph_area graph_area05">
+							<img src="img/sub01/sub01_19.svg">
+							<p>
+							국민연금공단은 지난 37년 국민여러분과 함께 힘차게 달려왔습니다. 앞으로도 국민여러분의 든든한 노후준비를 함께하는 기관으로 더욱 열심히 달리겠습니다.<br>
+							이를 위해, 국민 모두가 신뢰하는 ‘미래에도 지속 가능한 국민연금’을 위해 최선의 노력을 다하겠습니다. 가입자 확대 등 연금수급권을 강화하고, 소외계층의 연금보험료 부담을 줄이면서 가입 기회와 가입 기간을 늘릴 수 있도록 지원하여 국민 노후 소득 보장의 울타리를 더욱 튼튼히 하겠습니다.<br>
+							또한 성공적인 연금개혁을 위한 과정에서 공단이 할 수 있는 지원을 아끼지 않겠습니다. 국민연금을 올바르게 알리고, 개혁에 대한 사회적 공감대 형성을 위한 다방면의 대국민 소통 활동을 강화해 나가겠습니다.<br>
+							마지막으로 한계를 극복하는 끊임없는 혁신과 책임있는 자세로 국민 기대에 부응하는 공단이 되겠습니다.
+							</p>
+							<img src="img/sub01/sub01_110.svg">
+						</div>
+					</div>
+
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							네, 창립 37주년을 맞이하여 국민연금공단의 역사를 함께 알아보는 시간을 가졌습니다. 국민연금공단의 37년 발자취는 국민 여러분이 공단을 믿고 함께해 주셨기에 가능했습니다. <br>
+							국민연금공단은 국민에게 신뢰받는 연금제도를 만들고 국민연금과 희망찬 미래를 준비할 수 있도록 앞으로도 임직원 모두 최선의 노력을 다하겠다고 밝혔습니다.
 						</div>
 					</div>
 				</div>
 			</div><!-- //.section05 -->
 		</div><!-- //.news01 -->
 
-		<div class="news news02">
+		<div class="news news02 on">
 			<div class="section04 wow fadeBigInUp">
 				<div class="content">
 					<div class="text_box">

@@ -42,7 +42,7 @@
 			</div>
 		</div><!-- //.section03 -->
 
-		<div class="news news01 on">
+		<div class="news news01">
 			<div class="section04 wow fadeBigInUp">
 				<div class="content">
 					<div class="text_box">
@@ -243,7 +243,7 @@
 			</div><!-- //.section05 -->
 		</div><!-- //.news01 -->
 
-		<div class="news news02">
+		<div class="news news02 on">
 			<div class="section04 wow fadeBigInUp">
 				<div class="content">
 					<div class="text_box">

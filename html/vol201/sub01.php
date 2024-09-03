@@ -239,7 +239,7 @@
 			</div><!-- //.section05 -->
 		</div><!-- //.news01 -->
 
-		<div class="news news02 on">
+		<div class="news news02">
 			<div class="section04 wow fadeBigInUp">
 				<div class="content">
 					<div class="text_box">
@@ -334,18 +334,16 @@
 			</div><!-- //.section05 -->
 		</div><!-- //.news02 -->
 
-		<div class="news news03">
+		<div class="news news03 on">
 			<div class="section04 wow fadeBigInUp">
 				<div class="content">
 					<div class="text_box">
 						<div class="arrow"><img src="img/sub01/sub01_03.svg"></div>
 						<div class="text">
-							국민연금 기금 운용수익률 <br>
-							작년에 이어 올해 1분기에도<br class="mobile_display"> 호조세 이어가
+							국민연금, 2024년 상반기에만 102조 원 벌다!<br>
+							기금 운용수익률 9.71% 돌파
 						</div>
 					</div>
-					<div class="img_box pc_display"><img src="img/sub01/sub01_31.svg"></div>
-					<div class="img_box mobile_display"><img src="img/sub01/sub01_31_mo.svg"></div>
 				</div>
 			</div><!-- //.section04 -->
 
@@ -355,24 +353,25 @@
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
 							세 번째 뉴스입니다.<br>
-							지난해 사상 첫 기금적립금 1,000조 원을 돌파한 국민연금기금이 올해 1분기에도 양호한 성과를 이어가고 있습니다.<br><br>
-							국민연금공단 기금운용본부는 2024년 1분기(1~3월) 말 기준 5.82%의 수익률, 61조 원의 수익금을 올리며 총 1,101조 원의 기금적립금을 기록한 것으로 잠정 집계됐다고 밝혔는데요.<br><br>
-							더욱 자세한 소식은 취재기자 M에게 물어보겠습니다. M기자, 고물가·고금리 등 글로벌 복합위기 속에서 국민연금공단은 어떤 방식으로 기금을 운용하고 있나요?
+							&lt;내 곁에 국민연금&gt; 봄호와 여름호에서 말씀드린 국민연금기금의 성과 기억하시나요? 국민연금기금이 작년 사상 최대 기금적립금 1,000조 원을 돌파했고, 올해 1분기에는 5.82%의 기금 운용수익률을 올리며 호조세를 이어 나가고 있다고 말씀드렸는데요. 올해 상반기에도 1분기 못지않은 기금 운용수익률을 기록했다고 합니다.<br>
+							자세한 소식 취재기자 M과 알아보겠습니다. M기자 올해 상반기 기금 운용수익률에 대해 자세히 설명해 주세요.
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								국민연금공단은 글로벌 복합위기 속에서도 고군분투하며 호조세를 유지해 나가고 있습니다. 연초 이후 미국 기술주 중심의 강세로 국내 및 해외주식 운용수익률이 양호했으나, 기준금리 인하 시점 지연 우려로 채권금리가 상승해 전체 수익률 상승 폭을 일부 제한했는데요.<br><br>
-								자산별 잠정수익률(금액가중수익률 기준)은 해외주식 13.45%, 국내주식 5.53%, 해외채권 4.48%, 국내채권 -0.01%, 대체투자 4.11%로 집계됐습니다.
+								네, 1분기에 이어 기쁜 소식을 전해드립니다. 8월 29일 국민연금공단 기금운용본부는 2024년 6월 말 기준 올해 상반기 기금 운용수익률 9.71%, 운용 수익금 102조 4,000억을 기록했다고 밝혔습니다.<br>
+								1988년 국민연금제도가 도입된 이래 총 680조 4,000억 원의 누적 수익금이 쌓이고, 1,147조 원의 기금이 적립된 것입니다.
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
 						<div class="graph_area">
-							<div class="textBold">자산별 잠정수익률(금액가중수익률 기준)</div>
-							<div class="img_box pc_display"><img src="img/sub01/sub01_32.svg"></div>
-							<div class="img_box mobile_display"><img src="img/sub01/sub01_32_mo.svg"></div>
+							<div class="graph_text">
+								<div class="textBold">국민연금기금 적립금 추이</div>
+								<p>(단위: 조 원, 2024. 6월 말 기준)</p>
+							</div>
+							<div class="img_box"><img src="img/sub01/sub01_32.svg"></div>
 						</div>
 					</div>
 					<div class="anchor alignCenter">

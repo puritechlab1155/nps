@@ -208,7 +208,7 @@
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">키워드로 보는 세상</p>
-							<p class="txt">더 길게 더 멀리 보는 ‘마처 세대’의 노후 준비</p>
+							<p class="txt">더 길게 더 멀리 보는 튼튼한 노후 자금 준비법</p>
 						</a>
 					</div>
 					<div data-title="헬스 앤 라이프" class="swiper-slide item8 wow fadeUp">

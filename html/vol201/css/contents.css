@@ -354,7 +354,7 @@
 
 .sub01 .news01 .section04 { position: relative; width: 100%; display: block; background: #f8a757 url(../img/sub01/sub01_11.svg); background-repeat: no-repeat; background-size: contain; background-position: center; }
 .sub01 .news02 .section04 { position: relative; width: 100%; display: block; background: #ff9eb1 url(../img/sub01/sub01_21.svg); background-repeat: no-repeat; background-size: cover; background-position: center; }
-.sub01 .news03 .section04 { position: relative; width: 100%; display: block; background: #d38799; }
+.sub01 .news03 .section04 { position: relative; width: 100%; display: block; background: #6d6db9 url(../img/sub01/sub01_31.svg); background-repeat: no-repeat; background-size: contain; background-position: center; }
 
 .sub01 .news01 .section05 .content .reporter div.graph_area01 { padding: 0; }
 .sub01 .news01 .section05 .content .reporter div.graph_area04 { padding: 0 36px 36px; background: #fff; display: flex; justify-content: space-between; }

@@ -438,35 +438,23 @@
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
-							<div class="text">
+							<div class="text s_text">
 								국내채권과 해외채권은 미국의 기준금리 인하 시점 지연 우려로 금리가 상승했는데요. 해외채권은 원·달러 환율 상승세 유지 효과로 개선된 수익률을 보였습니다.
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
 					</div>
-				</div>
-			</div><!-- //.section05 -->
 
-			<div class="section06 wow fadeBigInUp">
-				<div class="content">
-					<div class="conts_box">
-						<div class="text">
-							김태현 이사장은
-							<span class="pc_display">
-								“작년에 이어 올해도 양호한 성과를 이어가고 있습니다. <br>
-								국민의 소중한 노후자금을 운용하는 장기투자자로서 변동성이 큰 시장 환경에서도 <br>
-								안정적인 수익을 창출할 수 있도록 최선을 다하겠습니다”
-							</span>
-							<span class="mobile_display">
-								“작년에 이어 올해도 양호한 성과를 이어가고 있습니다. 국민의 소중한 노후자금을 운용하는 장기투자자로서 변동성이 큰 시장 환경에서도 안정적인 수익을 창출할 수 있도록 최선을 다하겠습니다”
-							</span>
-							라고 전하였습니다.
+					<div class="anchor">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							네. 국민연금 기금 운용수익률 중 국내외 주식은 대형 기술주 중심으로 주가가 상승했으며, 국내외 채권은 금리 상승에도 원·달러 환율 상승세 유지 효과로 수익률을 냈습니다. 한편, 부동산투자, 사모벤처투자, 인프라투자 등 대체투자 자산에 대한 공정가치 평가는 추후 연말에 이루어질 예정입니다.
+							<br><br>
+							지금까지 2024년 상반기 국민연금공단의 기금 운용수익률을 알아봤습니다. 작년에 이어 호조세를 유지하고 있는 국민연금공단의 기금 운용수익률이 앞으로도 상승 곡선을 타기를 기대해 봅니다.
 						</div>
-						<div class="img_box pc_display"><img src="img/sub01/sub01_33.svg"></div>
-						<div class="img_box mobile_display"><img src="img/sub01/sub01_33_mo.svg"></div>
 					</div>
 				</div>
-			</div><!-- //.section06 -->
+			</div><!-- //.section05 -->
 		</div><!-- //.news03 -->
 	</div>
 	<!-- contents -->

@@ -407,6 +407,7 @@
 .sub01 .news03 .section05 .content .reporter .graph_area .graph_text p { font-size: 15px; font-weight: 400; }
 .sub01 .news03 .section05 .content .reporter .graph_area01 { padding: 36px 36px 34px; }
 .sub01 .news03 .section05 .content .reporter .graph_area02 .img_box { margin-top: 30px; }
+.sub01 .news03 .section05 .content .reporter .s_text { padding-bottom: 25px; }
 
 .sub01 .news03 .section06 { position: relative; width: 100%; height: 100%; display: block; background: #f4f1de; }
 .sub01 .news03 .section06 .content { width: 100%; max-width: 1020px; margin: -19px auto 0; padding: 0 20px 99px; position: relative; }

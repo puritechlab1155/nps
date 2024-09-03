@@ -353,7 +353,7 @@
 .sub01 .section04 .content .text_box .text { padding-top: 14px; color: #fff; font-size: 32px; font-weight: 700; letter-spacing: -0.64px; }
 
 .sub01 .news01 .section04 { position: relative; width: 100%; display: block; background: #f8a757 url(../img/sub01/sub01_11.svg); background-repeat: no-repeat; background-size: contain; background-position: center; }
-.sub01 .news02 .section04 { position: relative; width: 100%; display: block; background: #9daef0; }
+.sub01 .news02 .section04 { position: relative; width: 100%; display: block; background: #ff9eb1 url(../img/sub01/sub01_21.svg); background-repeat: no-repeat; background-size: cover; background-position: center; }
 .sub01 .news03 .section04 { position: relative; width: 100%; display: block; background: #d38799; }
 
 .sub01 .news01 .section05 .content .reporter div.graph_area01 { padding: 0; }
@@ -387,6 +387,9 @@
 .sub01 .section05 .content .reporter .quotes { width: 25px; margin-bottom: 16px; }
 .sub01 .section05 .content .reporter .answer .text { width: calc(100% - 158px); font-size: 18px; font-weight: 400; letter-spacing: -0.36px; line-height: 32px; }
 .sub01 .section05 .content .reporter .answer .img { width: 130px; position: absolute; top: 36px; right: 36px; }
+
+.sub01 .section05 .content .reporter .cap_text { font-size: 16px; font-weight: 400; line-height: 32px; letter-spacing: -0.32px; margin-top: 16px; }
+.sub01 .section05 .content .reporter .cap_text span { color: #6464d8; font-weight: 700; }
 
 .sub01 .section05 .content .reporter .graph_area { padding: 36px; background-color: #e5e8e8; opacity: 1; background-image:  linear-gradient(#ffffff 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(to right, #ffffff 1.2000000000000002px, #e5e8e8 1.2000000000000002px); background-size: 24px 24px; }
 .sub01 .section05 .content .reporter .graph_area .textBold { font-family: 'laundrygothic'; font-size: 20px; font-weight: 700; }

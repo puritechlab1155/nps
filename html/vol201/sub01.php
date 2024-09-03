@@ -245,12 +245,10 @@
 					<div class="text_box">
 						<div class="arrow"><img src="img/sub01/sub01_03.svg"></div>
 						<div class="text">
-							어르신을 위한 낮은 이자의<br class="mobile_display"> 편리한 대출,<br>
-							노후긴급자금 개정 알림
+							소통하는 청렴!<br>
+							전북청렴누리문화제 성료
 						</div>
 					</div>
-					<div class="img_box pc_display"><img src="img/sub01/sub01_21.svg"></div>
-					<div class="img_box mobile_display"><img src="img/sub01/sub01_21_mo.svg"></div>
 				</div>
 			</div><!-- //.section04 -->
 
@@ -260,94 +258,76 @@
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
 							두 번째 뉴스입니다.<br>
-							국민연금공단은 국민연금 수급자를 대상으로 노후긴급자금 대부를 실시하고 있습니다. 국민연금공단에서 대출을 받을 수 있다는 사실이 낯설게 들리실 텐데요.<br><br>
-							취재기자 M에게 자세한 이야기를 들어보겠습니다. M기자 노후긴급자금에 대해 알려주세요.
+							국민연금공단의 9월은 ‘청렴의 달’이라는 사실 알고 계셨나요? <br>
+							국민연금공단은 해마다 청탁금지법 시행일과 공단 창립기념일이 있는 9월을 ‘청렴의 달’로 지정하고 공단 구성원과 국민을 대상으로 청렴문화 확산을 위해 노력하고 있습니다.<br>
+							취재기자 M에게 자세한 소식을 물어보겠습니다. M기자, 공단은 ‘청렴의 달’을 맞이해 어떤 일을 했나요?
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								국민연금공단은 60세 이상 국민연금 수급자가 전월세 보증금, 의료비, 배우자 장제비, 재해복구비 용도의 긴급한 자금을 필요로 하는 경우에 일정 한도 내에서 낮은 금리로 대부금을 지급해 안정적인 노후생활을 지원하고 있습니다. 바로 국민연금의 이런 제도가 노후긴급자금, 다른 말로 실버론을 뜻합니다.
+								대표적으로 청렴누리문화제를 꼽을 수 있는데요. 2014년 국민연금공단은 전라북도교육청, 농촌진흥청 등 전북 지역 공공기관과 청렴 우수사례를 공유하고 상호 감사 역량을 진작시키고자 전북 청렴클러스터협의회를 구성했습니다. 전북 청렴클러스터협의회는 지역사회의 반부패 청렴문화 공감대를 형성하고, 민간에 청렴 인식을 확산하고자 2016년부터 ‘청렴누리문화제’를 매년 진행하고 있는데요! 매년 행사 내용은 조금씩 바뀌지만, 청렴에 대한 인식을 제고하고, 부조리를 감시한다는 골자는 유지하고 있습니다.
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
 					</div>
+
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							누가 언제 어떻게 국민연금의 노후긴급자금을 신청할 수 있는지 자세히 말씀해 주세요.
+							올해도 ‘청렴누리문화제’가 실시됐을 텐데요. 어떤 내용으로 행사가 진행됐나요?
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								네. 국민연금 노후긴급자금의 대부 금액은 개인별 연간 연금 수령액의 2배(최고 1,000만 원 한도) 이내에서 실제 사용된 비용을 청구할 수 있는데요. <br><br>
-								예를 들어 매월 받는 연금액이 30만 원인 노령연금 수급자(본인 또는 배우자)가 의료비로 700만 원을 사용했으면 본인 연간 연금액 360만원의 2배인 720만 원을 한도로 실제 사용한 금액인 700만 원까지 대부할 수 있습니다.<br><br>아래의 표에서 자세히 살펴보겠습니다.
+								올해는 전북 소재 공공기관과 협업해 군산 선유도에서 ‘전북청렴누리문화제를 개최했습니다. 이번 문화제에 참여한 국민연금공단 상임감사와 각 기관의 고위직들은 함께 청렴 의지를 표명하는 시간을 가지고, 선유도 일대에서 플로깅*을 진행하는 등 지역주민에게 공단의 청렴성을 전파했습니다.
+							</div>
+							<div class="cap_text">
+								<span>*플로깅</span>: 스웨덴에서 시작된 운동으로 조깅하면서 쓰레기를 줍는 행동.
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
-						<div class="graph_area">
-							<div class="textBold">국민연금 노후긴급자금(실버론)</div>
-							<div class="text_box pc_display">
-								<div class="text"><img src="img/sub01/check.svg"><span>대상 </span>: 60세 이상 국민연금 수급자 (연금급여 지급 정지 중인 자 등은 제외)</div>
-								<div class="text"><img src="img/sub01/check.svg"><span>대부 금액 </span>: 연간 연금 수령액의 2배 이내에서 실소요 비용 (최고 1,000만 원 한도)</div>
-								<div class="text"><img src="img/sub01/check.svg"><span>대부 용도 </span>: 전월세 보증금, 의료비, 배우자 장제비, 재해복구비</div>
-								<div class="text list">
-									<img src="img/sub01/check.svg"><span>신청 기한</span>
-									<ul>
-										<li>전월세 보증금 : (신규) 임차개시일 전·후 3개월 이내, (갱신) 갱신계약일로부터 3개월 이내</li>
-										<li>의료비 : 진료일로부터 6개월 이내</li>
-										<li>배우자 장제비 : 사망일로부터 3개월 이내</li>
-										<li>재해복구비 : 재해발생일 또는 재난지역 선포일로부터 6개월 이내</li>
-									</ul>
-								</div>
-								<div class="text"><img src="img/sub01/check.svg"><span>대부 이자 </span>: 5년 만기 국고채권 수익률과 예금은행 수신금리(신규취급액 기준) 중 낮은 금리로 분기별 변동</div>
-								<div class="text"><img src="img/sub01/check.svg"><span>대부 상환 </span>: 최대 5년간 원금균등분할상환(미 거치, 거치 1~2년 중 선택, 최장 7년)</div>
-								<span>※ 노후긴급자금 대부 신청 전 신청 제외 대상, 신청 자격, 용도별 신청 기한 및 구비 서류 등을 국민연금 고객센터(국번없이 1355:유료) 또는 가까운 국민연금공단 지사에 문의하시기 바랍니다.대 5년간 원금균등분할상환(미 거치, 거치 1~2년 중 선택, 최장 7년)</span>
-							</div>
-							<div class="text_box mobile_display">
-								<div class="text"><img src="img/sub01/check.svg"><span>대상</span><em>60세 이상 국민연금 수급자 (연금급여 지급 정지 중인 자, 외국인 등은 제외)</em></div>
-								<div class="text"><img src="img/sub01/check.svg"><span>대부 금액</span><em>연간 연금 수령액의 2배 이내에서 실소요 비용 (최고 1,000만 원 한도)</em></div>
-								<div class="text"><img src="img/sub01/check.svg"><span>대부 용도</span><em>전월세 보증금, 의료비, 배우자 장제비, 재해복구비</em></div>
-								<div class="text list">
-									<img src="img/sub01/check.svg"><span>신청 기한</span>
-									<ul>
-										<li>전월세 보증금 : (신규) 임차개시일 전·후 3개월 이내, (갱신) 갱신계약일로부터 3개월 이내</li>
-										<li>의료비 : 진료일로부터 6개월 이내</li>
-										<li>배우자 장제비 : 사망일로부터 3개월 이내</li>
-										<li>재해복구비 : 재해발생일 또는 재난지역 선포일로부터 6개월 이내</li>
-									</ul>
-								</div>
-								<div class="text"><img src="img/sub01/check.svg"><span>대부 이자</span><em>5년 만기 국고채권 수익률과 예금은행 수신금리(신규취급액 기준) 중 낮은 금리
-								로 분기별 변동</em></div>
-								<div class="text"><img src="img/sub01/check.svg"><span>대부 상환</span><em>최대 5년간 원금균등분할상환(미 거치, 거치 1~2년 중 선택, 최장 7년)</em></div>
-								<span>※ 노후긴급자금 대부 신청 전 신청 제외 대상, 신청 자격, 용도별 신청 기한 및 구비 서류 등을 국민연금 고객센터(국번없이 1355:유료) 또는 가까운 국민연금공단 지사에 문의하시기 바랍니다.</span>
-							</div>
-						</div>
 					</div>
-					<div class="anchor">
+
+					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							그렇군요, 60세 이상 국민연금 수급자 중 긴급한 사유 발생 시 본인 연간 연금 수령액의 2배 이내(최고 1,000만 원 한도)에서 대부 받을 수 있다. 잘 알겠습니다.<br><br>
-							그런데, 2024년 7월 1일을 기준으로 노후긴급자금 대부사업 지침이 개정되었다고 하는데요. 어떤 내용이 바뀌었나요?
+							공단과 협업하는 사람들을 위해 진행한 청렴 프로그램도 소개해 주세요.
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								네. 주요 개정 내용은 아래와 같습니다. 첫째, 대부신청 대상에 기초생활수급자를 포함하였습니다. 국민기초생활보장법(생계·의료·주거)에 의한 급여를 받는 기초생활수급자도 다른 제외 사유에 해당하지 않는다면 대부받을 수 있습니다.<br><br>
-								둘째, 대부 이자율 적용기준이 변경되었습니다. 기존 5년 만기 국고채권 수익률에 예금은행 가중평균 수신금리(신규취급액 기준) 기준을 추가하여 둘 중 낮은 금리를 대부 이자율로 채택합니다.
+								이번 문화제에 참석한 공단의 상임감사는 외부 이해관계자를 대상으로 ‘클린레터’를 발송했습니다. ‘클린레터’란 공단의 상임감사가 직접 작성한 서한문으로 부조리에 대한 익명 신고가 가능하다는 내용을 담고 있는데요. ‘클린레터’ 수신자는 물론 누구나 상임감사에게 직접 신고 또는 익명 신고 채널인 헬프라인을 통해 공단의 부조리 행위를 신고할 수 있습니다.
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
 					</div>
+
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							지금까지 노후긴급자금 대부에 관해 알아봤는데요. 노후긴급자금 신청 제외 대상, 신청 자격, 용도별 신청 기한 및 구비 서류 등을 국민연금 고객센터(국번없이 1355:유료) 또는 가까운 국민연금공단 지사에 문의하시면 더욱 자세하게 알아보실 수 있습니다.
+							공단이 부패 방지를 위해 노력하고 있는 모습이 인상적입니다. 공단 직원의 청렴 인식을 제고하는 행사도 진행했나요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								네. 공단은 ‘소통하는 청렴’이라는 주제로 청렴 백일장과 퀴즈 이벤트 등 다양한 체험 행사를 진행했습니다. 그뿐만 아니라 공단은 내부 직원에게 이해충돌방지 관련 에피소드를 공모하고, 이중 선정작은 웹툰으로 제작해 SNS에 배포하기도 했습니다. 또한, 전 직원을 대상으로 상·하반기에 이해충돌방지법 교육을 실시하는 등 이해충돌방지제도를 안정적으로 운영하고자 노력 중입니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+						</div>
+					</div>
+
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							지금까지 국민연금공단이 청렴한 조직문화를 조성하기 위해 어떤 노력을 하는지 알아봤습니다. 국민연금공단은 앞으로도 공단 임직원이 함께 실천할 수 있는 청렴 실천 가이드를 제작하고, 더욱 깨끗한 세상, 더욱 깨끗한 한국을 만드는 데 노력하겠다고 말했습니다.
 						</div>
 					</div>
 				</div>

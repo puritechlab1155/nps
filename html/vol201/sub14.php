@@ -92,7 +92,7 @@
 					</div>
 				</div>
 				
-				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/GZZ7tbKG" target="_blank">정답 맞히러 가기</a><span class="end" href="#" >마감되었습니다</span></div>
+				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/5mIIX3M0" target="_blank">정답 맞히러 가기</a><span class="end" href="#" >마감되었습니다</span></div>
 				<div class="info">
 					<ul class="pc_display">
 					    <li><span>&lt;내 곁에 국민연금&gt; 웹진 이벤트 5종에 대한 중복 당첨은 불가합니다.</span></li>

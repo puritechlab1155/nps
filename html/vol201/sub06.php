@@ -102,7 +102,7 @@
 					<div class="cont_box">
 						<div class="item item1">
 							<div class="text_box">
-								<div class="box_title animate__animated">
+								<div class="box_title">
 									한눈에 보는
 									<span>실업 크레딧</span>
 								</div>

@@ -42,7 +42,7 @@
 			</div>
 		</div><!-- //.section03 -->
 
-		<div class="news news01">
+		<div class="news news01 on">
 			<div class="section04 wow fadeBigInUp">
 				<div class="content">
 					<div class="text_box">
@@ -135,31 +135,15 @@
 						</div>
 						<div class="graph_area graph_area04">
 							<div class="inner inner01">
-								<div class="text">
-									<span class="sp_orange">봄호 NPS 뉴스</span>
-									<p>
-										‘국민연금 2023년 기금 운영 수익률 
-										13.59% 역대 최고 성과’
-									</p>
-									<a href="https://npswebzine.kr/html/vol199/sub01.php" target="_blank" class="a_orange">보러 가기</a>
-								</div>
-								<div class="icon_box">
-									<img src="img/sub01/sub01_15.svg">
-								</div>
+								<a href="https://npswebzine.kr/html/vol199/sub01.php" target="_blank" class="a_orange">
+									<img src="img/sub01/sub01_15-1.svg">
+								</a>
 							</div>
 							<div class="inner_line"></div>
 							<div class="inner inner02">
-								<div class="text">
-									<span class="sp_purple">여름호 NPS 뉴스</span>
-									<p>
-										‘국민연금 기금 운용수익률 작년에 이어 
-										올해 1분기에도 호조사 이어가’
-									</p>
-									<a href="https://npswebzine.kr/html/vol200/sub01.php" target="_blank" class="a_purple">보러 가기</a>
-								</div>
-								<div class="icon_box">
-									<img src="img/sub01/sub01_15.svg">
-								</div>
+								<a href="https://npswebzine.kr/html/vol200/sub01.php" target="_blank" class="a_purple">
+									<img src="img/sub01/sub01_15-2.svg">
+								</a>
 							</div>
 						</div>
 					</div>
@@ -243,7 +227,7 @@
 			</div><!-- //.section05 -->
 		</div><!-- //.news01 -->
 
-		<div class="news news02 on">
+		<div class="news news02">
 			<div class="section04 wow fadeBigInUp">
 				<div class="content">
 					<div class="text_box">

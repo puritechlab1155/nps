@@ -56,7 +56,7 @@
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
 				<div class="date_area">
-					<div class="top"><span>응모 기간</span><em>9월 11일 오후 2시 ~ <br class="mobile_display">11월 3일 오후 11시 30분</em></div>
+					<div class="top"><span>응모 기간</span><em>9월 13일 오후 2시 ~ <br class="mobile_display">11월 3일 오후 11시 30분</em></div>
 					<div><span>경품 발송</span><em>11월 11일 오후 5시</em></div>
 				</div>
 				<div class="gift"><img src="img/sub12/sub12_03.png"></div>

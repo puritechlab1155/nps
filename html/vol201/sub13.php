@@ -46,7 +46,7 @@ $reward = ($random_number <= 3); // 당첨 여부 결정 (30% 확률로 당첨)
                     <img src="img/sub13/sub13_03_mo.svg" class="mobile_display">
                 </div>
                 <div class="date_area">
-                    <div class="top"><span>응모 기간</span><em>9월 11일 오후 2시 ~ <br class="mobile_display">11월 3일 오후 11시 30분</em></div>
+                    <div class="top"><span>응모 기간</span><em>9월 13일 오후 2시 ~ <br class="mobile_display">11월 3일 오후 11시 30분</em></div>
                     <div><span>경품 발송</span><em>11월 11일 오후 5시</em></div>
                 </div>
                 <div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <span class="end" href="#">마감되었습니다</span></div>

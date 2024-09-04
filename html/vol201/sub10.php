@@ -126,7 +126,7 @@
 				</div>
 				<div class="date_area">
 					<!-- TODO br처리에 pc, mobile을 나눈다 -->
-					<div class="top"><span>응모 기간</span><em>9월 11일 오후 2시 ~ <br class="mobile_display">11월 3일 오후 11시 30분</em></div>
+					<div class="top"><span>응모 기간</span><em>9월 13일 오후 2시 ~ <br class="mobile_display">11월 3일 오후 11시 30분</em></div>
 					<div><span>경품 발송</span><em>11월 11일 오후 5시</em></div>
 				</div>
 				<div class="gift"><img src="img/sub10/sub10_02.png"></div>
@@ -160,8 +160,8 @@
         // 현재 날짜 및 시간 객체 생성
         var currentDate = new Date();
 
-        // 비교할 날짜와 시간 설정 (2024년 08월 25일 23시 59분 59초)
-        var targetDate = new Date("2024-11-03T23:59:59");
+        // 비교할 날짜와 시간 설정 (2024년 11월 03일 23시 30분 00초)
+        var targetDate = new Date("2024-11-03T23:30:00");
 
         // 현재 날짜가 지정한 날짜보다 이후인 경우
         if (currentDate > targetDate) {

@@ -42,7 +42,7 @@
 			</div>
 		</div><!-- //.section03 -->
 
-		<div class="news news01 on">
+		<div class="news news01">
 			<div class="section04 wow fadeBigInUp">
 				<div class="content">
 					<div class="text_box">
@@ -91,7 +91,7 @@
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
-						<div class="graph_area graph_area01">
+						<div class="graph_area graph_area01 graph_area03">
 							<img src="img/sub01/sub01_13.jpg" class="pc_display">
 							<img src="img/sub01/sub01_13_mo.jpg" class="mobile_display">
 						</div>
@@ -246,7 +246,7 @@
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
 							두 번째 뉴스입니다.<br>
-							국민연금공단의 9월은 ‘청렴의 달’이라는 사실 알고 계셨나요? <br>
+							국민연금공단의 9월은 ‘청렴의 달’이라는 사실 알고 계셨나요? <br class="pc_display">
 							국민연금공단은 해마다 청탁금지법 시행일과 공단 창립기념일이 있는 9월을 ‘청렴의 달’로 지정하고 공단 구성원과 국민을 대상으로 청렴문화 확산을 위해 노력하고 있습니다.<br>
 							취재기자 M에게 자세한 소식을 물어보겠습니다. M기자, 공단은 ‘청렴의 달’을 맞이해 어떤 일을 했나요?
 						</div>
@@ -322,7 +322,7 @@
 			</div><!-- //.section05 -->
 		</div><!-- //.news02 -->
 
-		<div class="news news03">
+		<div class="news news03 on">
 			<div class="section04 wow fadeBigInUp">
 				<div class="content">
 					<div class="text_box">

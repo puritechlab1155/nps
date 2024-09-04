@@ -446,6 +446,7 @@
 	.sub01 .news01 .section05 .content .reporter div.graph_area04 { flex-direction: column; gap: 20px; }
 	.sub01 .news01 .section05 .content .reporter div.graph_area04 .inner_line { display: none; }
 	.sub01 .news01 .section05 .content .reporter .s_text { padding-bottom: 0; }
+	.sub01 .news01 .section05 .content .reporter .graph_area03 img { width: 100%; }
 
 	.sub01 .news02 .section05 .content .reporter .graph_area .text_box .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; margin-top: 8px; }
 	.sub01 .news02 .section05 .content .reporter .graph_area .text_box .text:nth-child(1) { margin-top: 0; }

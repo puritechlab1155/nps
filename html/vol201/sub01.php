@@ -328,7 +328,7 @@
 					<div class="text_box">
 						<div class="arrow"><img src="img/sub01/sub01_03.svg"></div>
 						<div class="text">
-							국민연금, 2024년 상반기에만 102조 원 벌다!<br>
+							국민연금, 2024년 상반기에만 <br class="mobile_display">102조 원 벌다!<br>
 							기금 운용수익률 9.71% 돌파
 						</div>
 					</div>
@@ -359,7 +359,8 @@
 								<div class="textBold">국민연금기금 적립금 추이</div>
 								<p>(단위: 조 원, 2024. 6월 말 기준)</p>
 							</div>
-							<img src="img/sub01/sub01_32.svg">
+							<img src="img/sub01/sub01_32.svg" class="pc_display">
+							<img src="img/sub01/sub01_32_mo.svg" class="mobile_display">
 						</div>
 					</div>
 
@@ -379,9 +380,10 @@
 						</div>
 						<div class="graph_area graph_area02">
 							<div class="textBold">
-								자산별 잠정수익률(금액가중수익률 기준)
+								자산별 잠정수익률<br class="mobile_display">(금액가중수익률 기준)
 							</div>
-							<div class="img_box"><img src="img/sub01/sub01_33.svg"></div>
+							<div class="img_box pc_display"><img src="img/sub01/sub01_33.svg"></div>
+							<div class="img_box mobile_display"><img src="img/sub01/sub01_33_mo.svg"></div>
 						</div>
 					</div>
 
@@ -403,7 +405,7 @@
 
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
-						<div class="question">
+						<div class="question text_left">
 							주식 부문부터 더욱 자세히 설명해 주시겠어요?
 						</div>
 					</div>

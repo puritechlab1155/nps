@@ -425,6 +425,7 @@
 
 	.sub01 .news01 .section04 { background: #f8a757 url(../img/sub01/sub01_11_mo.svg); background-repeat: no-repeat; background-size: contain; background-position: center bottom; }
 	.sub01 .news02 .section04 { background: #ff9eb1 url(../img/sub01/sub01_21_mo.svg); background-repeat: no-repeat; background-size: contain; background-position: center bottom; }
+	.sub01 .news03 .section04 { background: #6d6db9 url(../img/sub01/sub01_31_mo.svg); background-repeat: no-repeat; background-size: 76%; background-position: 63% bottom; }
 
 	.sub01 .section05 .content { padding: 50px 20px 0; gap: 32px; }
 	.sub01 .section05 .content .anchor { flex-direction: column; gap: 36px; align-items: center; }
@@ -441,7 +442,6 @@
 	.sub01 .news02 .section05 .content { padding-bottom: 49px; }
 
 	.sub01 .section05 .content .reporter .graph_area { padding: 36px; background-color: #e5e8e8; opacity: 1; background-image:  linear-gradient(#ffffff 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(to right, #ffffff 1.2000000000000002px, #e5e8e8 1.2000000000000002px); background-size: 24px 24px; }
-	.sub01 .section05 .content .reporter .graph_area .textBold { font-size: 16px; letter-spacing: normal; }
 
 	.sub01 .news01 .section05 .content .reporter div.graph_area04 { flex-direction: column; gap: 20px; }
 	.sub01 .news01 .section05 .content .reporter div.graph_area04 .inner_line { display: none; }
@@ -456,15 +456,16 @@
 
 	.sub01 .section05 .content .reporter .cap_text { font-size: 14px; line-height: 22px; letter-spacing: -0.28px; margin-top: 30px; }
 
-	.sub01 .news03 .section05 .content .reporter .graph_area { padding: 36px 0; }
-	.sub01 .news03 .section05 .content .reporter .graph_area .textBold { padding: 0 36px; }
+	.sub01 .news03 .section05 .content { padding: 50px 20px; }
+	.sub01 .news03 .section05 .content .reporter .graph_area { padding: 16px 0; }
+	.sub01 .news03 .section05 .content .reporter .graph_area .graph_text { flex-direction: column; align-items: flex-start; padding: 0 16px; margin-bottom: 16px; }
+	.sub01 .news03 .section05 .content .reporter .graph_area .textBold { font-size: 18px; }
+	.sub01 .news03 .section05 .content .reporter .graph_area .graph_text p { font-size: 14px; }
 	.sub01 .news03 .section05 .content .reporter .graph_area .img_box { width: 100%; }
 	.sub01 .news03 .section05 .content .reporter .graph_area .img_box img { width: 100%; }
-
-	.sub01 .news03 .section06 .content { margin: 0 auto 0; padding: 32px 20px 49px; }
-	.sub01 .news03 .section06 .content .conts_box { border-radius: 24px; text-align: left; padding: 36px 36px 0; }
-	.sub01 .news03 .section06 .content .conts_box .text { font-size: 18px; line-height: 30px; padding: 0 0 30px; }
-	.sub01 .news03 .section06 .content .conts_box .text span { font-size: 19px; line-height: 30px; }
+	.sub01 .news03 .section05 .content .reporter .graph_area02 .textBold { padding: 0 16px; }
+	.sub01 .news03 .section05 .content .anchor .text_left { width: 100%; text-align: left; }
+	.sub01 .news03 .section05 .content .reporter .s_text { padding-bottom: 0; }
 }
 
 /* NPS 칼럼 */

@@ -354,6 +354,7 @@
 .sub01 .news01 .section04 { position: relative; width: 100%; display: block; background: #f8a757 url(../img/sub01/sub01_11.svg); background-repeat: no-repeat; background-size: contain; background-position: center; }
 .sub01 .news02 .section04 { position: relative; width: 100%; display: block; background: #ff9eb1 url(../img/sub01/sub01_21.svg); background-repeat: no-repeat; background-size: cover; background-position: center; }
 .sub01 .news03 .section04 { position: relative; width: 100%; display: block; background: #6d6db9 url(../img/sub01/sub01_31.svg); background-repeat: no-repeat; background-size: contain; background-position: center; }
+.sub01 .news04 .section04 { position: relative; width: 100%; display: block; background: #ff9eb1 url(../img/sub01/sub01_41.svg); background-repeat: no-repeat; background-size: cover; background-position: center; }
 
 .sub01 .news01 .section05 .content .reporter div.graph_area01 { padding: 0; }
 .sub01 .news01 .section05 .content .reporter div.graph_area04 { padding: 0 36px 36px; background: #fff; display: flex; justify-content: space-between; }
@@ -403,6 +404,15 @@
 .sub01 .news03 .section06 .content .conts_box .text { color: #fff; font-family: 'laundrygothic'; font-size: 20px; font-weight: 400; line-height: 32px; padding: 42px 0 28px; }
 .sub01 .news03 .section06 .content .conts_box .text span { display: block; color: #ff8aa9; font-size: 21px; font-weight: 700; line-height: 32px; }
 
+.sub01 .news04 .section05 .content .reporter .graph_area .text_box { margin-top: 16px; }
+.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text { font-size: 17px; font-weight: 400; line-height: 32px; letter-spacing: -0.36px; }
+.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text img { width: 18px; height: 18px; }
+
+.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text span {  font-weight: 700; padding-left: 10px; }
+.sub01 .news04 .section05 .content .reporter .graph_area .text_box .list ul { margin-left: 21px; }
+.sub01 .news04 .section05 .content .reporter .graph_area .text_box .list ul li { list-style: disc; list-style-position: inside; }
+.sub01 .news04 .section05 .content .reporter .graph_area .text_box span { font-size: 15px; font-weight: 400; padding-top: 8px; }
+
 @media (min-width: 768px) and (max-width: 1023px) {
 	.sub01 .section01 { background-size: cover; }
 }
@@ -430,6 +440,7 @@
 	.sub01 .news01 .section04 { background: #f8a757 url(../img/sub01/sub01_11_mo.svg); background-repeat: no-repeat; background-size: contain; background-position: center bottom; }
 	.sub01 .news02 .section04 { background: #ff9eb1 url(../img/sub01/sub01_21_mo.svg); background-repeat: no-repeat; background-size: contain; background-position: center bottom; }
 	.sub01 .news03 .section04 { background: #6d6db9 url(../img/sub01/sub01_31_mo.svg); background-repeat: no-repeat; background-size: 76%; background-position: 63% bottom; }
+	.sub01 .news04 .section04 { background: #ff9eb1 url(../img/sub01/sub01_41_mo.svg); background-repeat: no-repeat; background-size: contain; background-position: center bottom; }
 
 	.sub01 .section05 .content { padding: 50px 20px 0; gap: 32px; }
 	.sub01 .section05 .content .anchor { flex-direction: column; gap: 36px; align-items: center; }
@@ -471,6 +482,13 @@
 	.sub01 .news03 .section05 .content .reporter .graph_area02 .textBold { padding: 0 16px; }
 	.sub01 .news03 .section05 .content .anchor .text_left { width: 100%; text-align: left; }
 	.sub01 .news03 .section05 .content .reporter .s_text { padding-bottom: 0; }
+
+	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; margin-top: 8px; }
+	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text:nth-child(1) { margin-top: 0; }
+	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text em { display: block; margin-left: 28px; }
+	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .list ul { margin-left: 54px; }
+	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .list ul li { list-style-position: outside; }
+	.sub01 .news04 .section05 .content .reporter .graph_area .text_box span { font-size: 14px; line-height: 22px; letter-spacing: -0.28px; }
 }
 @media only all and (max-width: 360px) {
 	.sub01 .section01 { height: 275px; background-image: url('../img/sub01/sub01_00_mo.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
@@ -495,6 +513,7 @@
 	.sub01 .news01 .section04 { background: #f8a757 url(../img/sub01/sub01_11_mo.svg); background-repeat: no-repeat; background-size: contain; background-position: center bottom; }
 	.sub01 .news02 .section04 { background: #ff9eb1 url(../img/sub01/sub01_21_mo.svg); background-repeat: no-repeat; background-size: contain; background-position: center bottom; }
 	.sub01 .news03 .section04 { background: #6d6db9 url(../img/sub01/sub01_31_mo.svg); background-repeat: no-repeat; background-size: 76%; background-position: 63% bottom; }
+	.sub01 .news04 .section04 { background: #ff9eb1 url(../img/sub01/sub01_41_mo.svg); background-repeat: no-repeat; background-size: contain; background-position: center bottom; }
 
 	.sub01 .section05 .content { padding: 50px 20px 0; gap: 32px; }
 	.sub01 .section05 .content .anchor { flex-direction: column; gap: 36px; align-items: center; }
@@ -536,6 +555,13 @@
 	.sub01 .news03 .section05 .content .reporter .graph_area02 .textBold { padding: 0 16px; }
 	.sub01 .news03 .section05 .content .anchor .text_left { width: 100%; text-align: left; }
 	.sub01 .news03 .section05 .content .reporter .s_text { padding-bottom: 0; }
+
+	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; margin-top: 8px; }
+	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text:nth-child(1) { margin-top: 0; }
+	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text em { display: block; margin-left: 28px; }
+	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .list ul { margin-left: 54px; }
+	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .list ul li { list-style-position: outside; }
+	.sub01 .news04 .section05 .content .reporter .graph_area .text_box span { font-size: 14px; line-height: 22px; letter-spacing: -0.28px; }
 }
 
 /* NPS 칼럼 */

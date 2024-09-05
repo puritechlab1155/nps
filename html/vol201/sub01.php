@@ -453,8 +453,8 @@
 					<div class="text_box">
 						<div class="arrow"><img src="img/sub01/sub01_03.svg"></div>
 						<div class="text">
-							국민연금, 2024년 상반기에만 102조 원 벌다!<br>
-							기금 운용수익률 9.71% 돌파
+							소통하는 청렴!<br>
+							전북청렴누리문화제 성료
 						</div>
 					</div>
 				</div>
@@ -465,62 +465,36 @@
 					<div class="anchor moSmall">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							세 번째 뉴스입니다.<br>
-							&lt;내 곁에 국민연금&gt; 봄호와 여름호에서 말씀드린 국민연금기금의 성과 기억하시나요? 국민연금기금이 작년 사상 최대 기금적립금 1,000조 원을 돌파했고, 올해 1분기에는 5.82%의 기금 운용수익률을 올리며 호조세를 이어 나가고 있다고 말씀드렸는데요. 올해 상반기에도 1분기 못지않은 기금 운용수익률을 기록했다고 합니다.<br>
-							자세한 소식 취재기자 M과 알아보겠습니다. M기자 올해 상반기 기금 운용수익률에 대해 자세히 설명해 주세요.
-						</div>
-					</div>
-					<div class="reporter">
-						<div class="answer">
-							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
-							<div class="text">
-								네, 1분기에 이어 기쁜 소식을 전해드립니다. 8월 29일 국민연금공단 기금운용본부는 2024년 6월 말 기준 올해 상반기 기금 운용수익률 9.71%, 운용 수익금 102조 4,000억을 기록했다고 밝혔습니다.<br>
-								1988년 국민연금제도가 도입된 이래 총 680조 4,000억 원의 누적 수익금이 쌓이고, 1,147조 원의 기금이 적립된 것입니다.
-							</div>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
-						</div>
-						<div class="graph_area graph_area01">
-							<div class="graph_text">
-								<div class="textBold">국민연금기금 적립금 추이</div>
-								<p>(단위: 조 원, 2024. 6월 말 기준)</p>
-							</div>
-							<img src="img/sub01/sub01_32.svg">
-						</div>
-					</div>
-
-					<div class="anchor alignCenter">
-						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
-						<div class="question">
-							기금적립금 1,200조 원을 바라보게 됐네요! 그렇다면 상반기 자산별 잠정수익률은 어떻게 되나요?
+							네 번째 뉴스입니다.<br>
+							국민연금공단의 9월은 ‘청렴의 달’이라는 사실 알고 계셨나요? <br class="pc_display">
+							국민연금공단은 해마다 청탁금지법 시행일과 공단 창립기념일이 있는 9월을 ‘청렴의 달’로 지정하고 공단 구성원과 국민을 대상으로 청렴문화 확산을 위해 노력하고 있습니다.<br>
+							취재기자 M에게 자세한 소식을 물어보겠습니다. M기자, 공단은 ‘청렴의 달’을 맞이해 어떤 일을 했나요?
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								네, 금액가중수익률 기준 상반기 자산별 잠정수익률을 말씀드리겠습니다. 해외주식 20.47%, 국내주식 8.61%, 해외채권 7.95%, 대체투자 7.79%, 국내채권 1.66% 순으로 각각 집계됐습니다.
+								대표적으로 청렴누리문화제를 꼽을 수 있는데요. 2014년 국민연금공단은 전라북도교육청, 농촌진흥청 등 전북 지역 공공기관과 청렴 우수사례를 공유하고 상호 감사 역량을 진작시키고자 전북 청렴클러스터협의회를 구성했습니다. 전북 청렴클러스터협의회는 지역사회의 반부패 청렴문화 공감대를 형성하고, 민간에 청렴 인식을 확산하고자 2016년부터 ‘청렴누리문화제’를 매년 진행하고 있는데요! 매년 행사 내용은 조금씩 바뀌지만, 청렴에 대한 인식을 제고하고, 부조리를 감시한다는 골자는 유지하고 있습니다.
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
-						</div>
-						<div class="graph_area graph_area02">
-							<div class="textBold">
-								자산별 잠정수익률(금액가중수익률 기준)
-							</div>
-							<div class="img_box"><img src="img/sub01/sub01_33.svg"></div>
 						</div>
 					</div>
 
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							변동성이 큰 시장에서도 안정적인 수익률을 지속해서 창출하고 있군요. 올해 상반기에 큰 수익률을 낼 수 있었던 요인은 무엇인가요?
+							올해도 ‘청렴누리문화제’가 실시됐을 텐데요. 어떤 내용으로 행사가 진행됐나요?
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								올해 여섯 달 동안 9.71%의 기금 운용수익률을 기록한 요인을 말씀드리겠습니다. 먼저 미국 기술주 강세로 국내 및 해외주식 수익률이 양호했습니다. 이와 더불어 원·달러 환율이 상승해 해외자산 기금 운용수익률에 긍정적인 영향을 주었습니다.
+								올해는 전북 소재 공공기관과 협업해 군산 선유도에서 ‘전북청렴누리문화제를 개최했습니다. 이번 문화제에 참여한 국민연금공단 상임감사와 각 기관의 고위직들은 함께 청렴 의지를 표명하는 시간을 가지고, 선유도 일대에서 플로깅*을 진행하는 등 지역주민에게 공단의 청렴성을 전파했습니다.
+							</div>
+							<div class="cap_text">
+								<span>*플로깅</span>: 스웨덴에서 시작된 운동으로 조깅하면서 쓰레기를 줍는 행동.
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
@@ -529,14 +503,14 @@
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							주식 부문부터 더욱 자세히 설명해 주시겠어요?
+							공단과 협업하는 사람들을 위해 진행한 청렴 프로그램도 소개해 주세요.
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								구체적으로 말씀드리겠습니다. 국내주식과 해외주식은 미국 물가 상승 우려에도 인공지능(AI) 수요와 기대가 커지면서 대형 기술주 중심으로 주가가 상승했습니다. 그중에서도 해외주식은 원·달러 환율 상승으로 원화 약세 효과가 더해지며 기금 운용수익률이 20%를 넘었는데요. 그 때문에 해외주식이 올해 상반기 국민연금의 수익률을 견인했습니다.
+								이번 문화제에 참석한 공단의 상임감사는 외부 이해관계자를 대상으로 ‘클린레터’를 발송했습니다. ‘클린레터’란 공단의 상임감사가 직접 작성한 서한문으로 부조리에 대한 익명 신고가 가능하다는 내용을 담고 있는데요. ‘클린레터’ 수신자는 물론 누구나 상임감사에게 직접 신고 또는 익명 신고 채널인 헬프라인을 통해 공단의 부조리 행위를 신고할 수 있습니다.
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
@@ -545,25 +519,23 @@
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							그렇다면 여러 사정으로 불안했던 채권 부문은 어떤가요?
+							공단이 부패 방지를 위해 노력하고 있는 모습이 인상적입니다. 공단 직원의 청렴 인식을 제고하는 행사도 진행했나요?
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
-							<div class="text s_text">
-								국내채권과 해외채권은 미국의 기준금리 인하 시점 지연 우려로 금리가 상승했는데요. 해외채권은 원·달러 환율 상승세 유지 효과로 개선된 수익률을 보였습니다.
+							<div class="text">
+								네. 공단은 ‘소통하는 청렴’이라는 주제로 청렴 백일장과 퀴즈 이벤트 등 다양한 체험 행사를 진행했습니다. 그뿐만 아니라 공단은 내부 직원에게 이해충돌방지 관련 에피소드를 공모하고, 이중 선정작은 웹툰으로 제작해 SNS에 배포하기도 했습니다. 또한, 전 직원을 대상으로 상·하반기에 이해충돌방지법 교육을 실시하는 등 이해충돌방지제도를 안정적으로 운영하고자 노력 중입니다.
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
 					</div>
 
-					<div class="anchor">
+					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							네. 국민연금 기금 운용수익률 중 국내외 주식은 대형 기술주 중심으로 주가가 상승했으며, 국내외 채권은 금리 상승에도 원·달러 환율 상승세 유지 효과로 수익률을 냈습니다. 한편, 부동산투자, 사모벤처투자, 인프라투자 등 대체투자 자산에 대한 공정가치 평가는 추후 연말에 이루어질 예정입니다.
-							<br><br>
-							지금까지 2024년 상반기 국민연금공단의 기금 운용수익률을 알아봤습니다. 작년에 이어 호조세를 유지하고 있는 국민연금공단의 기금 운용수익률이 앞으로도 상승 곡선을 타기를 기대해 봅니다.
+							지금까지 국민연금공단이 청렴한 조직문화를 조성하기 위해 어떤 노력을 하는지 알아봤습니다. 국민연금공단은 앞으로도 공단 임직원이 함께 실천할 수 있는 청렴 실천 가이드를 제작하고, 더욱 깨끗한 세상, 더욱 깨끗한 한국을 만드는 데 노력하겠다고 말했습니다.
 						</div>
 					</div>
 				</div>

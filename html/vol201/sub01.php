@@ -6,6 +6,19 @@
 	<meta property="og:image" content="../../img/logosns/logosns_vol199.jpg">
 	<?php include("../../inc/head.php"); ?>
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
+
+	<style>
+		 .sticky-element {
+            position: sticky;
+            top: 20%; /* 화면의 중간에서 고정 */
+            background-color: lightgreen;
+            padding: 10px;
+            margin: 20px 0;
+			z-index: 1000;
+            border: 2px solid green;
+            transform: translateY(-50%); 
+        }
+	</style>
 </head>
 <body>
 <div id="wrap" class="sub01">
@@ -31,16 +44,18 @@
 			</div>
 		</div>
 
-		<div class="section03 wow fadeBigInUp">
-			<div class="content">
-				<div class="tabs">
-					<div class="tab01 on">News 1</div>
-					<div class="tab02">News 2</div>
-					<div class="tab03">News 3</div>
-					<div class="tab04">News 4</div>
+		<div class="sticky-element">
+			<div class="section03 wow fadeBigInUp">
+				<div class="content">
+					<div class="tabs">
+						<div class="tab01 on">News 1</div>
+						<div class="tab02">News 2</div>
+						<div class="tab03">News 3</div>
+						<div class="tab04">News 4</div>
+					</div>
 				</div>
-			</div>
-		</div><!-- //.section03 -->
+			</div><!-- //.section03 -->
+		</div>
 
 		<div class="news news01 on">
 			<div class="section04 wow fadeBigInUp">

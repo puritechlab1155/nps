@@ -466,7 +466,6 @@
 			$('.news').eq(idx).siblings().removeClass('on');
 		});
 </script> -->
-
 		<script>
 	// $('.tabs div').click(function(){
 	// 	$(this).addClass('on');
@@ -519,10 +518,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
-
-
-
 
 </script>
 

@@ -463,6 +463,8 @@
 			$('.news').eq(idx).addClass('on');
 			$('.news').eq(idx).siblings().removeClass('on');
 		});
+
+		$(window).scroll(function(){});
 	</script>
 
 	<!-- page ctrl -->

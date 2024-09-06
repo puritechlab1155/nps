@@ -6,19 +6,6 @@
 	<meta property="og:image" content="../../img/logosns/logosns_vol199.jpg">
 	<?php include("../../inc/head.php"); ?>
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
-
-	<style>
-		 .sticky-element {
-            position: sticky;
-            top: 20%; /* 화면의 중간에서 고정 */
-            background-color: lightgreen;
-            padding: 10px;
-            margin: 20px 0;
-			z-index: 1000;
-            border: 2px solid green;
-            transform: translateY(-50%); 
-        }
-	</style>
 </head>
 <body>
 <div id="wrap" class="sub01">
@@ -478,8 +465,6 @@
 			$('.news').eq(idx).addClass('on');
 			$('.news').eq(idx).siblings().removeClass('on');
 		});
-
-		$(window).scroll(function(){});
 	</script>
 
 	<!-- page ctrl -->

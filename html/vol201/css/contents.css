@@ -325,23 +325,30 @@
 /* NPS 뉴스 */
 .sub01 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; color: #000; line-height: normal; letter-spacing: normal; }
 
-.sub01 .section01 { height: 550px; width: 100%; background: #ffd6de url('../img/sub01/sub01_00.jpg'); background-size: contain; background-position: center top; background-repeat: no-repeat; display: flex; justify-content: center;  align-items: flex-end; }
+.sub01 .section01 { height: 550px; width: 100%; background: #ffd6de url('../img/sub01/sub01_00.jpg'); background-size: contain; background-position: center top; background-repeat: no-repeat; display: flex; justify-content: center;  align-items: flex-end; overflow: hidden; }
 .sub01 .section01 .content { text-align: center; margin-bottom: 89px; }
 .sub01 .section01 .content .cover_title { font-size: 27px; font-weight: 700; }
 .sub01 .section01 .content .cover_text { font-size: 16px; font-weight: 400; padding: 13px 0; opacity: 0; }
 
-.sub01 .section02 { position: relative; display: block; width: 100%; max-width: 1020px; margin: 120px auto; padding: 0 20px; }
-.sub01 .section02 .content { position: relative; width: 100%; max-width: 980px; display: flex; gap: 46px; }
+.sub01 .section02 { position: relative; display: block; width: 100%; margin: 0 auto; border-bottom: 1px solid #000; overflow: hidden; }
+.sub01 .section02 .content { position: relative; width: 100%; max-width: 1020px; margin: 120px auto; padding: 0 20px; display: flex; gap: 46px; }
 .sub01 .section02 .content .title { width: 100%; max-width: 120px; margin-top: 9px; }
 .sub01 .section02 .content .title img { width: 100%; }
 .sub01 .section02 .content .subcopy { flex-grow: 1; font-size: 20px; font-weight: 700; line-height: 32px; letter-spacing: -0.4px; }
 
-.sub01 .section03 { position: relative; width: 100%; height: 100%; display: block; border-top: 1px solid #000; }
+.sub01 .section03 { position: relative; width: 100%; height: 100%; display: block; border-bottom: 1px solid #000; box-sizing: border-box; overflow: hidden; }
 .sub01 .section03 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding: 0 20px; position: relative; }
-.sub01 .section03 .content .tabs { display: flex; gap: 36px; margin: 33px auto; justify-content: center; }
+.sub01 .section03 .content .tabs { display: flex; gap: 36px; margin: 0 auto; padding: 33px 0; justify-content: center; }
 .sub01 .section03 .content .tabs div { background: #000; color: #fff; font-family: 'GmarketSans'; font-size: 18px; font-weight: 500; padding: 5px 16px; width: 143px; height: 34px; border-radius: 999px; position: relative; cursor: pointer; line-height: 25px; }
 .sub01 .section03 .content .tabs div::after { content: ''; background: url(../img/sub01/sub01_02.svg) no-repeat; width: 24px; height: 24px; background-size: contain; background-position: center; position: absolute; right: 16px; top: 50%; transform: translateY(-50%); }
 .sub01 .section03 .content .tabs div.on { background: #6464d8; color: #fff; }
+
+.sticky-element {
+	position: sticky;
+	top: 130px; /* 화면의 중간에서 고정 */
+	background-color: #fff;
+	z-index: 9;
+}
 
 .sub01 .news { display: none; }
 .sub01 .news.on { display: block; }

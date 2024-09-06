@@ -455,7 +455,7 @@
 	</div>
 	<!-- contents -->
 
-	<script>
+	<!-- <script>
 		$('.tabs div').click(function(){
 			$(this).addClass('on');
 			$(this).siblings().removeClass('on');
@@ -465,7 +465,70 @@
 			$('.news').eq(idx).addClass('on');
 			$('.news').eq(idx).siblings().removeClass('on');
 		});
-	</script>
+</script> -->
+
+		<script>
+	// $('.tabs div').click(function(){
+	// 	$(this).addClass('on');
+	// 	$(this).siblings().removeClass('on');
+
+	// 	var idx = $(this).index();
+
+	// 	$('.news').eq(idx).addClass('on');
+	// 	$('.news').eq(idx).siblings().removeClass('on');
+
+	// 	// 해당 섹션으로 스크롤 이동
+	// 	$('html, body').animate({
+	// 		scrollTop: $('.news').eq(idx).offset().top - 260
+	// 	}, 500);  // 500ms 동안 부드럽게 스크롤
+	// });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // 모든 탭 요소와 섹션 요소 선택
+    const tabs = document.querySelectorAll('.tabs div');
+    const sections = document.querySelectorAll('.news');
+
+    tabs.forEach(function(tab, index) {
+        tab.addEventListener('click', function() {
+            // 현재 클릭된 탭에 'on' 클래스를 추가하고, 다른 탭에서는 제거
+            tabs.forEach(t => t.classList.remove('on'));
+            tab.classList.add('on');
+
+            // 클릭된 탭에 해당하는 뉴스 섹션을 보이고, 다른 섹션은 숨기기
+            sections.forEach(section => section.classList.remove('on'));
+            sections[index].classList.add('on');
+
+            // 모바일과 데스크탑에 따라 다른 스크롤 위치 설정
+            const isMobile = window.innerWidth <= 768;  // 768px 이하를 모바일로 간주
+            let offsetTop;
+
+            if (isMobile) {
+                // 모바일일 때: 다른 스크롤 여백을 설정 (예: 50px)
+                offsetTop = sections[index].offsetTop - 50;
+            } else {
+                // 데스크탑일 때: 100px 여백
+                offsetTop = sections[index].offsetTop - 100;
+            }
+
+            // 해당 섹션으로 부드럽게 스크롤 이동
+            window.scrollTo({
+                top: offsetTop,
+                behavior: 'smooth' // 부드러운 스크롤
+            });
+        });
+    });
+});
+
+
+
+
+
+</script>
+
+
+
+	
 
 	<!-- page ctrl -->
 	<div class="page_ctrl">

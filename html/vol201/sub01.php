@@ -239,7 +239,84 @@
 		</div><!-- //.news01 -->
 
 		<div class="news news02">
-			
+			<div class="section04 wow fadeBigInUp">
+				<div class="content">
+					<div class="text_box">
+						<div class="arrow"><img src="img/sub01/sub01_03.svg"></div>
+						<div class="text">
+							정부, 21년만에 미래를 위한 <br>
+							상생의 연금개혁안 내놓아
+						</div>
+					</div>
+				</div>
+			</div><!-- //.section04 -->
+
+			<div class="section05 wow fadeBigInUp">
+				<div class="content">
+					<div class="anchor moSmall alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							가을호 두 번째 뉴스는 지난 9월 4일 발표된 연금개혁안에 대한 소식입니다. 정부가 이번 발표를 통해 연금개혁 논의에 본격적인 시동을 건 것으로 보이는데요. 관련 내용 취재기자 M과 함께 알아보겠습니다.
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								네, 보건복지부는 지난 9월 4일, 2024년 제3차 국민연금심의위원회를 개최해 「연금개혁 추진계획」을 심의하고 확정하였다고 밝혔습니다. 복지부는 지난해 10월 「제5차 국민연금 종합운영계획」을 통해 연금개혁 방향성을 제시하고, 21대 국회 산하 연금개혁특별위원회는 이를 토대로 공론화를 실시하여 국민 의견을 수렴하였는데요. <br>
+								복지부는 연금개혁이 매우 시급한 과제인 만큼 개혁 논의의 계기를 마련하고, 여·야 간 조속한 합의를 견인하기 위해 개혁안을 마련하였다면서, 이번 연금개혁 추진계획은 새로운 재정 전망, 공론화 등에서 나타난 국민 의견을 세밀하게 검토하여 수립했다고 덧붙였습니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+						</div>
+					</div>
+
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							그렇군요. 정부 발표 연금개혁안의 추진 방향은 어떻게 되나요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								네, 정부에서는 ‘모수개혁, 기금수익률 제고로 장기 재정 안정성 확보’, ‘세대별 보험료율 인상 속도 차등, 지급보장 명확화 등 미래세대 신뢰 강화’, ‘국민·기초·퇴직·개인연금 등 다층 연금체계 내실화로 실질소득 제고’라고 밝혔습니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+						</div>
+					</div>
+
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							정부안을 발표한 보건복지부의 최종 목표는 무엇인가요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								네, 직접 정부안을 발표한 조규홍 보건복지부 장관은 “정부가 마련한 개혁안의 핵심은 모든 세대가 제도의 혜택을 공평하게 누릴 수 있도록 지속가능성을 높이는 것”이라면서, “세대 간 형성을 제고하고 국민들의 노후생활을 더욱 든든히 보장하기 위한 방안들도 세밀하게 검토해 마련했다”라고 말했고, 아울러, “이번 개혁안이 연금개혁 논의를 다시금 촉발하는 계기가 되길 희망하며, 국회가 조속히 연금특위, 여·야·정 협의체 등 논의구조를 통해 개혁을 마무리할 수 있길 기대한다”라고 덧붙였습니다.
+							</div>
+							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+						</div>
+					</div>
+
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question text_left">
+							연금개혁은 시급하고도 중요한 과제임이 분명합니다. 국회 논의, 사회적 합의 등을 통해 앞으로 보험료를 내야 할 젊은 세대는 물론 전 세대가 공감하는 연금개혁이 이루어지기를 기대하겠습니다.
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer pad_0">
+							<img src="img/sub01/sub01_22.jpg">
+							<img src="img/sub01/sub01_23.jpg">
+							<img src="img/sub01/sub01_24.jpg">
+						</div>
+					</div>
+				</div>
+			</div><!-- //.section05 -->
 		</div><!-- //.news02 -->
 
 		<div class="news news03">

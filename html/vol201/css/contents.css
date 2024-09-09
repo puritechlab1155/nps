@@ -428,7 +428,7 @@
 	.sub01 .section01 { background-size: cover; }
 }
 
-@media (min-width: 361px) and (max-width:767px) {
+@media (min-width: 376px) and (max-width:767px) {
 	.sub01 .section01 { height: 275px; background-image: url('../img/sub01/sub01_00_mo.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
 	.sub01 .section01 .content { margin-bottom: 12px; }
 	.sub01 .section01 .content .cover_title { font-size: 20px; }
@@ -508,7 +508,7 @@
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .list ul li { list-style-position: outside; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box span { font-size: 14px; line-height: 22px; letter-spacing: -0.28px; }
 }
-@media only all and (max-width: 360px) {
+@media only all and (max-width: 375px) {
 	.sub01 .section01 { height: 275px; background-image: url('../img/sub01/sub01_00_mo.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
 	.sub01 .section01 .content { margin-bottom: 12px; }
 	.sub01 .section01 .content .cover_title { font-size: 20px; }
@@ -555,7 +555,7 @@
 	.sub01 .section05 .content .reporter .graph_area { padding: 36px; background-color: #e5e8e8; opacity: 1; background-image:  linear-gradient(#ffffff 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(to right, #ffffff 1.2000000000000002px, #e5e8e8 1.2000000000000002px); background-size: 24px 24px; }
 
 	.sub01 .news01 .section04 .content .text_box .text { font-size: 28px; font-weight: 700; letter-spacing: -0.56px; }
-	.sub01 .news01 .section04 .content .text_box .sub_text { font-size: 22px; font-weight: 700; letter-spacing: -0.44px; }
+	.sub01 .news01 .section04 .content .text_box .sub_text { font-size: 20px; font-weight: 700; letter-spacing: -0.8px; }
 	.sub01 .news01 .section05 .content .reporter div.graph_area04 { flex-direction: column; gap: 20px; }
 	.sub01 .news01 .section05 .content .reporter div.graph_area04 .inner_line { display: none; }
 	.sub01 .news01 .section05 .content .reporter .s_text { padding-bottom: 0; }

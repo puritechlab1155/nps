@@ -355,6 +355,9 @@
 .sub01 .news.on { display: block; }
 
 .sub01 .section04 img { width: 100%; }
+.sub01 .section04 .pc_display_only { display: block; }
+.sub01 .section04 .tablet_display_only { display: none; }
+.sub01 .section04 .mobile_display_only { display: none; }
 
 .sub01 .news01 .section05 .content .reporter div.graph_area01 { padding: 0; }
 .sub01 .news01 .section05 .content .reporter div.graph_area04 { padding: 0 36px 36px; background: #fff; display: flex; justify-content: space-between; }
@@ -414,8 +417,15 @@
 .sub01 .news04 .section05 .content .reporter .graph_area .text_box .list ul li { list-style: disc; list-style-position: inside; }
 .sub01 .news04 .section05 .content .reporter .graph_area .text_box span { font-size: 15px; font-weight: 400; padding-top: 8px; }
 
-@media (min-width: 768px) and (max-width: 1439px) {
+@media (min-width: 1200px) and (max-width: 1439px) {
 	.sub01 .section01 { background-size: cover; }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+	.sub01 .section01 { background-size: cover; }
+
+	.sub01 .section04 .pc_display_only { display: none; }
+	.sub01 .section04 .tablet_display_only { display: block; }
+	.sub01 .section04 .mobile_display_only { display: none; }
 }
 
 @media (min-width: 376px) and (max-width:767px) {
@@ -487,6 +497,10 @@
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .list ul { margin-left: 54px; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .list ul li { list-style-position: outside; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box span { font-size: 14px; line-height: 22px; letter-spacing: -0.28px; }
+
+	.sub01 .section04 .pc_display_only { display: none; }
+	.sub01 .section04 .tablet_display_only { display: none; }
+	.sub01 .section04 .mobile_display_only { display: block; }
 }
 @media only all and (max-width: 375px) {
 	.sub01 .section01 { height: 275px; background-image: url('../img/sub01/sub01_00_mo.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
@@ -557,6 +571,10 @@
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .list ul { margin-left: 54px; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .list ul li { list-style-position: outside; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box span { font-size: 14px; line-height: 22px; letter-spacing: -0.28px; }
+
+	.sub01 .section04 .pc_display_only { display: none; }
+	.sub01 .section04 .tablet_display_only { display: none; }
+	.sub01 .section04 .mobile_display_only { display: block; }
 }
 
 /* NPS 칼럼 */

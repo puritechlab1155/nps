@@ -46,8 +46,9 @@
 
 		<div class="news news01 on">
 			<div class="section04 wow fadeBigInUp">
-				<img src="img/sub01/sub01_11.svg" class="pc_display">
-				<img src="img/sub01/sub01_11_mo.svg" class="mobile_display">
+				<img src="img/sub01/sub01_11.svg" class="pc_display_only">
+				<img src="img/sub01/sub01_11_tablet.jpg" class="tablet_display_only">
+				<img src="img/sub01/sub01_11_mo.svg" class="mobile_display_only">
 			</div><!-- //.section04 -->
 
 			<div class="section05 wow fadeBigInUp">
@@ -225,8 +226,9 @@
 
 		<div class="news news02">
 			<div class="section04 wow fadeBigInUp">
-				<img src="img/sub01/sub01_21.svg" class="pc_display">
-				<img src="img/sub01/sub01_21_mo.svg" class="mobile_display">
+				<img src="img/sub01/sub01_21.svg" class="pc_display_only">
+				<img src="img/sub01/sub01_21_tablet.jpg" class="tablet_display_only">
+				<img src="img/sub01/sub01_21_mo.svg" class="mobile_display_only">
 			</div><!-- //.section04 -->
 
 			<div class="section05 wow fadeBigInUp">
@@ -299,8 +301,9 @@
 
 		<div class="news news03">
 			<div class="section04 wow fadeBigInUp">
-				<img src="img/sub01/sub01_31.svg" class="pc_display">
-				<img src="img/sub01/sub01_31_mo.svg" class="mobile_display">
+				<img src="img/sub01/sub01_31.svg" class="pc_display_only">
+				<img src="img/sub01/sub01_31_tablet.jpg" class="tablet_display_only">
+				<img src="img/sub01/sub01_31_mo.svg" class="mobile_display_only">
 			</div><!-- //.section04 -->
 
 			<div class="section05 wow fadeBigInUp">
@@ -417,8 +420,9 @@
 
 		<div class="news news04">
 			<div class="section04 wow fadeBigInUp">
-				<img src="img/sub01/sub01_41.svg" class="pc_display">
-				<img src="img/sub01/sub01_41_mo.svg" class="mobile_display">
+				<img src="img/sub01/sub01_41.svg" class="pc_display_only">
+				<img src="img/sub01/sub01_41_tablet.jpg" class="tablet_display_only">
+				<img src="img/sub01/sub01_41_mo.svg" class="mobile_display_only">
 			</div><!-- //.section04 -->
 
 			<div class="section05 wow fadeBigInUp">

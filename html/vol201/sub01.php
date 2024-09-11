@@ -46,20 +46,22 @@
 
 		<div class="news news01 on">
 			<div class="section04 wow fadeBigInUp">
-				<div class="content">
-					<div class="text_box">
-						<div class="arrow"><img src="img/sub01/sub01_03.svg"></div>
-						<div class="text">
-							국민연금공단 37주년
-						</div>
-						<div class="sub_text pc_display">
-							온 국민과 함께해 온 여정, 신뢰·혁신·소통을 바탕으로 <br>
-							지속가능한 연금을 만들어갈 공단의 약속
-						</div>
-						<div class="sub_text mobile_display">
-							온 국민과 함께해 온 여정, <br>
-							신뢰·혁신·소통을 바탕으로 지속가능한 <br>
-							연금을 만들어갈 공단의 약속
+				<div class="pc_display">
+					<div class="content">
+						<div class="text_box">
+							<div class="arrow"><img src="img/sub01/sub01_03.svg"></div>
+							<div class="text">
+								국민연금공단 37주년
+							</div>
+							<div class="sub_text pc_display">
+								온 국민과 함께해 온 여정, 신뢰·혁신·소통을 바탕으로 <br>
+								지속가능한 연금을 만들어갈 공단의 약속
+							</div>
+							<div class="sub_text mobile_display">
+								온 국민과 함께해 온 여정, <br>
+								신뢰·혁신·소통을 바탕으로 지속가능한 <br>
+								연금을 만들어갈 공단의 약속
+							</div>
 						</div>
 					</div>
 				</div>

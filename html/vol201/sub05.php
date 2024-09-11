@@ -478,7 +478,6 @@
 				<div class="slider_wrap">
 					<ul class="slider6">
 						<li class="item"><img src="img/sub05/sub05_63.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_62.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_61.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_64.jpg"></li>
 					</ul>
@@ -489,7 +488,7 @@
 						<button type="button" class="btn_play">재생</button>
 					</div>
 					<ul class="as_slider6">
-						<li></li><li></li><li></li><li></li>
+						<li></li><li></li><li></li>
 					</ul>
 				</div>
 					<script>

@@ -361,7 +361,7 @@
 
 .sub01 .news01 .section04 { position: relative; width: 100%; display: block; background: #f8bfbf url(../img/sub01/sub01_11.svg); background-repeat: no-repeat; background-size: cover; background-position: center 80%; }
 .sub01 .news02 .section04 { position: relative; width: 100%; display: block; background: #84bcf7 url(../img/sub01/sub01_21.svg); background-repeat: no-repeat; background-size: cover; background-position: center bottom; }
-.sub01 .news03 .section04 { position: relative; width: 100%; display: block; background: #6d6db9 url(../img/sub01/sub01_31.svg); background-repeat: no-repeat; background-size: contain; background-position: center; }
+.sub01 .news03 .section04 { position: relative; width: 100%; display: block; background: #6d6db9 url(../img/sub01/sub01_31.svg); background-repeat: no-repeat; background-size: contain; background-position: center bottom; }
 .sub01 .news04 .section04 { position: relative; width: 100%; display: block; background: #92cf8d url(../img/sub01/sub01_41.svg); background-repeat: no-repeat; background-size: cover; background-position: center; }
 
 .sub01 .news01 .section04 .content .text_box .text { color: #ff375e; font-size: 43px; font-weight: 700; letter-spacing: -0.86px; }
@@ -425,12 +425,23 @@
 .sub01 .news04 .section05 .content .reporter .graph_area .text_box span { font-size: 15px; font-weight: 400; padding-top: 8px; }
 
 @media (min-width: 1024px) and (max-width: 1100px) {
-	.sub01 .news01 .section04 { height: 500px; background: #f8bfbf url(../img/sub01/sub01_11.svg); background-repeat: no-repeat; background-size: cover; background-position: center bottom; }
+	.sub01 .news01 .section04 { background: #f8bfbf url(../img/sub01/sub01_11.svg); background-repeat: no-repeat; background-size: cover; background-position: center bottom; }
+
+	.sub01 .section04 { height: 500px; }
+	.sub01 .section04 .content .text_box .text { font-size: clamp(2rem, 2.5vw, 2.8em); }
+	.sub01 .news01 .section04 .content .text_box .text { color: #ff375e; font-size: clamp(2rem, 2.5vw, 2.8em); font-weight: 700; letter-spacing: -0.86px; }
+	.sub01 .news01 .section04 .content .text_box .sub_text { color: #4d4d4d; font-size: clamp(0.3rem, 2.3vw, 2em); font-weight: 700; letter-spacing: -0.64px; }
+	.sub01 .news03 .section04 { position: relative; width: 100%; display: block; background: #6d6db9 url(../img/sub01/sub01_31.svg); background-repeat: no-repeat; background-size: 110%; background-position: center bottom; }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
 	.sub01 .section01 { background-size: cover; }
 
-	.sub01 .news01 .section04 { height: 420px; background: #f8bfbf url(../img/sub01/sub01_11.svg); background-repeat: no-repeat; background-size: cover; background-position: center; }
+	.sub01 .section04 { height: 450px; }
+	.sub01 .news01 .section04 { background: #f8bfbf url(../img/sub01/sub01_11.svg); background-repeat: no-repeat; background-size: cover; background-position: center; }
+	.sub01 .section04 .content .text_box .text { font-size: clamp(2rem, 2.5vw, 2.8em); }
+	.sub01 .news01 .section04 .content .text_box .text { color: #ff375e; font-size: clamp(2rem, 2.5vw, 2.8em); font-weight: 700; letter-spacing: -0.86px; }
+	.sub01 .news01 .section04 .content .text_box .sub_text { color: #4d4d4d; font-size: clamp(0.3rem, 2.3vw, 2em); font-weight: 700; letter-spacing: -0.64px; }
+	.sub01 .news03 .section04 { position: relative; width: 100%; display: block; background: #6d6db9 url(../img/sub01/sub01_31.svg); background-repeat: no-repeat; background-size: 110%; background-position: center bottom; }
 }
 
 @media (min-width: 541px) and (max-width: 767px) {
@@ -506,6 +517,7 @@
 	.sub01 .news03 .section05 .content .anchor .text_left { width: 100%; text-align: left; }
 	.sub01 .news03 .section05 .content .reporter .s_text { padding-bottom: 0; }
 
+	.sub01 .news04 .section05 { padding-bottom: 50px; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; margin-top: 8px; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text:nth-child(1) { margin-top: 0; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text em { display: block; margin-left: 28px; }
@@ -536,7 +548,10 @@
 	.sub01 .section03 .content .tabs div.on::after { width: 14px; height: 14px; right: 10px; }
 
 	.sub01 .section04 { height: 350px; }
-	.sub01 .section04 .content .text_box .text { font-size: 22px; letter-spacing: -0.44px; }
+	.sub01 .news01 .section04 { background: #f8bfbf url(../img/sub01/sub01_11.svg); background-repeat: no-repeat; background-size: cover; background-position: center; }
+	.sub01 .section04 .content .text_box .text { font-size: clamp(1rem, 1vw, 2em); }
+	.sub01 .news01 .section04 .content .text_box .text { color: #ff375e; font-size: clamp(1rem, 1vw, 2em); font-weight: 700; letter-spacing: -0.86px; }
+	.sub01 .news01 .section04 .content .text_box .sub_text { color: #4d4d4d; font-size: clamp(0.3rem, 2.3vw, 2em); font-weight: 700; letter-spacing: -0.64px; }
 
 	.sub01 .news01 .section04 { height: 420px; background: #f8bfbf url(../img/sub01/sub01_11_mo.svg); background-repeat: no-repeat; background-size: 100% 100%; background-position: center 80%; }
 	.sub01 .news02 .section04 { background: #84bcf7 url(../img/sub01/sub01_21_mo.svg); background-repeat: no-repeat; background-size: contain; background-position: center bottom; }
@@ -559,11 +574,10 @@
 
 	.sub01 .section05 .content .reporter .graph_area { padding: 36px; background-color: #e5e8e8; opacity: 1; background-image:  linear-gradient(#ffffff 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(to right, #ffffff 1.2000000000000002px, #e5e8e8 1.2000000000000002px); background-size: 24px 24px; }
 
-	.sub01 .news01 .section04 .content .text_box .text { font-size: 28px; font-weight: 700; letter-spacing: -0.56px; }
-	.sub01 .news01 .section04 .content .text_box .sub_text { font-size: 22px; font-weight: 700; letter-spacing: -0.44px; margin-top: 14px; }
 	.sub01 .news01 .section05 .content .reporter div.graph_area04 { flex-direction: column; gap: 20px; }
 	.sub01 .news01 .section05 .content .reporter div.graph_area04 .inner_line { display: none; }
 	.sub01 .news01 .section05 .content .reporter .s_text { padding-bottom: 0; }
+	.sub01 .news01 .section05 .content .reporter .graph_area01 img { width: 100%; }
 	.sub01 .news01 .section05 .content .reporter .graph_area03 img { width: 100%; }
 
 	.sub01 .news02 .section05 .content .reporter .graph_area .text_box .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; margin-top: 8px; }
@@ -586,6 +600,7 @@
 	.sub01 .news03 .section05 .content .anchor .text_left { width: 100%; text-align: left; }
 	.sub01 .news03 .section05 .content .reporter .s_text { padding-bottom: 0; }
 
+	.sub01 .news04 .section05 { padding-bottom: 50px; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; margin-top: 8px; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text:nth-child(1) { margin-top: 0; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text em { display: block; margin-left: 28px; }
@@ -644,6 +659,7 @@
 	.sub01 .news01 .section05 .content .reporter div.graph_area04 { flex-direction: column; gap: 20px; }
 	.sub01 .news01 .section05 .content .reporter div.graph_area04 .inner_line { display: none; }
 	.sub01 .news01 .section05 .content .reporter .s_text { padding-bottom: 0; }
+	.sub01 .news01 .section05 .content .reporter .graph_area01 img { width: 100%; }
 	.sub01 .news01 .section05 .content .reporter .graph_area03 img { width: 100%; }
 
 	.sub01 .news02 .section05 .content .reporter .graph_area .text_box .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; margin-top: 8px; }
@@ -666,6 +682,7 @@
 	.sub01 .news03 .section05 .content .anchor .text_left { width: 100%; text-align: left; }
 	.sub01 .news03 .section05 .content .reporter .s_text { padding-bottom: 0; }
 
+	.sub01 .news04 .section05 { padding-bottom: 50px; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; margin-top: 8px; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text:nth-child(1) { margin-top: 0; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text em { display: block; margin-left: 28px; }
@@ -746,6 +763,7 @@
 	.sub01 .news03 .section05 .content .anchor .text_left { width: 100%; text-align: left; }
 	.sub01 .news03 .section05 .content .reporter .s_text { padding-bottom: 0; }
 
+	.sub01 .news04 .section05 { padding-bottom: 50px; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; margin-top: 8px; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text:nth-child(1) { margin-top: 0; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text em { display: block; margin-left: 28px; }

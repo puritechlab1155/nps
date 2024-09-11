@@ -425,7 +425,7 @@
 .sub01 .news04 .section05 .content .reporter .graph_area .text_box span { font-size: 15px; font-weight: 400; padding-top: 8px; }
 
 @media (min-width: 1024px) and (max-width: 1100px) {
-	.sub01 .news01 .section04 { height: 420px; background: #f8bfbf url(../img/sub01/sub01_11.svg); background-repeat: no-repeat; background-size: contain; background-position: center; }
+	.sub01 .news01 .section04 { height: 500px; background: #f8bfbf url(../img/sub01/sub01_11.svg); background-repeat: no-repeat; background-size: cover; background-position: center bottom; }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
 	.sub01 .section01 { background-size: cover; }

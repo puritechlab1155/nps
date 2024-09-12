@@ -21,7 +21,6 @@ if (!$result) {
 //총 응모자 수
 $all_count = mysqli_num_rows($result);
 
-echo "all_count" . $all_count;
 //쿼리
 $query = "SELECT * FROM `stair_event_list` WHERE `vol_idx`={$vol_idx} AND `product_name`!='꽝'";
 $result = mysqli_query($connect, $query);
@@ -450,8 +449,8 @@ function boom_submit() {
 				};
 
 				var param2 = {
-        "vol": "200",
-        "award": "스타벅스",
+        "vol": "201",
+        "award": "CU모바일",
         "name": "홍길동",
         "phone": "0101255444",
         "email": "githn1111@gmail.com",

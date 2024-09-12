@@ -635,7 +635,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 console.log('Fail modal should open'); // 디버깅용 로그
                                 // .8초 지연 후 모달5 표시
                                 setTimeout(function () {
-                                    openModal('result_modal05'); // "당첨되지 않았습니다." 팝업 열기
+                                    openModal('result_modal04'); // "당첨되지 않았습니다." 팝업 열기
                                 }, 800); // 모달 표시 지연 시간 (.8초)
                             }
 

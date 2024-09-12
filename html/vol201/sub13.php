@@ -315,6 +315,204 @@ if($my_regno > 0) {
 
     <script>
 
+		$('.popUp').hide();
+
+		$('.draw div').click(function(){
+			var event_close = <?php echo json_encode($event_close); ?>;
+    var reward = <?php echo json_encode($reward); ?>;
+    console.log(event_close);
+
+    if (!event_close && reward) {
+        $('.result_modal01').show();
+        $('.result_modal02').hide();
+        $('.result_modal03').hide();
+        $('.result_modal04').hide();
+    } else if (!event_close && !reward) { 
+        $('.result_modal01').hide();
+        $('.result_modal02').hide();
+        $('.result_modal03').hide();
+        $('.result_modal04').show();  // This block should show result_modal04
+    } else {
+        $('.result_modal01').hide();
+        $('.result_modal02').hide();
+        $('.result_modal03').hide();
+        $('.result_modal04').show();  // This block should also show result_modal04 if none of the above conditions match
+    }
+		});
+	$('.result_modal01 .button').click(function(){
+			$('.result_modal01').hide();
+			$('.result_modal02').show();
+			$('.result_modal03').hide();
+		});
+	$('.result_modal02 .submit_btn').click(function(event) {
+    event.preventDefault();
+
+    var name = $('[name="name"]').val();
+    var tel1 = $('[name="tel1"]').val();
+    var tel2 = $('[name="tel2"]').val();
+    var tel3 = $('[name="tel3"]').val();
+    var tel = tel1 + '-' + tel2 + '-' + tel3;
+    var email = $('[name="email"]').val();
+    var product = $('[name="product"]').val();
+    var ip = $('[name="ip"]').val();
+    var device = $('[name="device"]').val();
+    var agree = $('[name="agree"]').prop('checked');
+
+    if (name == '') {
+        alert('성명을 입력해주세요');
+        $('[name="name"]').focus();
+        return;
+    }
+
+    if (tel2 == '' || tel3 == '') {
+        alert('휴대폰 번호를 입력해주세요');
+        $('[name="tel2"]').focus();
+        return;
+    }
+
+    if (email == '') {
+        alert('이메일 주소를 입력해주세요');
+        $('[name="email"]').focus();
+        return;
+    }
+
+    if (!agree) {
+        alert('개인보호정책 및 이용약관 동의가 필요합니다.');
+        $('[name="agree"]').focus();
+        return;
+    }
+
+    var param = {
+        'mode': 'winner_save',
+        'vol_idx': $('[name="vol_idx"]').val(),
+        'name': name,
+        'tel': tel,
+        'email': email,
+        'product_name': product,
+        'ip': ip,
+        'device': device,
+        'agree': agree
+    };
+
+		var param2 = {
+        'vol': $('[name="vol_idx"]').val(),
+        'name': name,
+        'phone': tel,
+        'email': email,
+        'award': product,
+        'wip': ip,
+        'device': device,
+        'agree': agree
+    };
+
+    $.ajax({
+        type: "POST",
+        url: 'ajax.php', 
+        data: param,
+        cache: false,
+        dataType: "text",
+        error: function(xhr, textStatus, errorThrown) {
+            console.log("전송에 실패했습니다.");
+            console.log(xhr, textStatus, errorThrown);
+        },
+        success: function(res) {
+					console.log('success');
+                // Show success message or handle accordingly
+								$('.result_modal01').hide();
+        				$('.result_modal02').hide();
+        				$('.result_modal03').show();
+        				$('.result_modal04').hide();
+        }
+    });
+
+});
+		$('.result_modal03 .button').click(function(){
+			$('.popUp').hide();
+			location.reload();
+		});
+		$('.result_modal04 .button').click(function(){
+			$('.popUp').hide();
+			location.reload();
+		});
+
+function boom_submit() {
+	
+	var ip = $('[name="ip"]').val();
+	var device = $('[name="device"]').val();
+	var param = {
+					'mode' : 'boom_save',
+					'vol_idx' : jQuery('[name="vol_idx"]').val(),
+					'product_name' : '꽝',
+					'ip' : ip,
+					'device' : device
+				};
+
+				var param2 = {
+        "vol": "200",
+        "award": "스타벅스",
+        "name": "홍길동",
+        "phone": "0101255444",
+        "email": "githn1111@gmail.com",
+        "agree": 1
+    };
+
+			$.ajax({
+				type: "POST",
+				url: 'ajax.php',
+				timeout: 0,
+				data: param,
+				cache: false,
+				dataType: "text",
+				error: function(xhr, textStatus, errorThrown) { console.log("전송에 실패했습니다."); console.log(xhr, textStatus, errorThrown) },
+				success: function (res){
+					$.ajax({
+                type: "POST",
+                url: 'http://ec2-13-209-64-4.ap-northeast-2.compute.amazonaws.com/api/prizes',
+                data: JSON.stringify(param2),
+                dataType: "json",
+                contentType: "application/json",
+                processData: false,
+                cache: false,
+                headers: {
+                    'Accept': 'application/json'
+                },
+                error: function(xhr, textStatus, errorThrown) {
+                    console.log("Second AJAX request failed.");
+                    console.log(xhr, textStatus, errorThrown);
+                }
+            });
+				
+				}
+			});
+
+}
+
+// 현재 날짜와 비교하여 send와 end 클래스를 제어하는 함수
+function controlSendEnd() {
+        // 현재 날짜 및 시간 객체 생성
+        var currentDate = new Date();
+
+        // 비교할 날짜와 시간 설정 (2024년 08월 25일 23시 59분 59초)
+        var targetDate = new Date("2024-08-25T23:59:59");
+
+        // 현재 날짜가 지정한 날짜보다 이후인 경우
+        if (currentDate > targetDate) {
+            // send 클래스 비활성화, end 클래스 활성화
+            document.querySelector('.subscribe').style.display = 'none';
+            document.querySelector('.end').style.display = 'block';
+        } else {
+            // send 클래스 활성화, end 클래스 비활성화
+            document.querySelector('.subscribe').style.display = 'block';
+            document.querySelector('.end').style.display = 'none';
+        }
+    }
+
+    // 페이지가 로드될 때 controlSendEnd 함수 호출
+    window.onload = controlSendEnd;
+	</script>
+
+    <script>
+
 document.addEventListener('DOMContentLoaded', function () {
             // 이미지 클릭 이벤트 리스너를 설정
             const ladderItems = document.querySelectorAll('.ladder_select li');

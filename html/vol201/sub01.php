@@ -587,8 +587,8 @@ document.addEventListener('DOMContentLoaded', function() {
             if (currentScroll > sectionTop || currentScroll < (sectionTop + sectionHeight - windowHeight)) {
                 let offsetTop = sectionTop - (window.innerWidth <= 768 ? 50 : 100); // 모바일 또는 데스크탑 여백 설정
                 window.scrollTo({
-                    top: offsetTop,
-                    behavior: 'smooth'
+                    top: offsetTop
+                    // behavior: 'smooth'
                 });
             }
         });

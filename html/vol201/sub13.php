@@ -44,7 +44,7 @@ if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
 	$reward = (($all_count + 1) % 20 == 0);
 } 
 
-//$reward = ($random_number <= 50); //count 방식을 변경해야 겠음.
+$reward = ($random_number <= 50); //count 방식을 변경해야 겠음.
 
 $my_regno = mysqli_num_rows($result); //내가 투표한지 여부
 if($my_regno > 0) {
@@ -53,7 +53,7 @@ if($my_regno > 0) {
 	$reward = false; //상품 금지
 }
 
-echo 'reward:' . $reward;
+echo 'reward:' . $reward';
 
 ?>
 <!doctype html>

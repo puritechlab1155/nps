@@ -20,6 +20,8 @@ if (!$result) {
 
 //총 응모자 수
 $all_count = mysqli_num_rows($result);
+
+echo "all_count" . $all_count;
 //쿼리
 $query = "SELECT * FROM `stair_event_list` WHERE `vol_idx`={$vol_idx} AND `product_name`!='꽝'";
 $result = mysqli_query($connect, $query);

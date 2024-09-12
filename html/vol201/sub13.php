@@ -666,15 +666,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }, 500); // 모달2가 0.5초 뒤에 열리도록 설정
     });
 
-    // 모달2(폼 제출)에서 제출 버튼을 클릭하면 모달3(등록 완료 모달)을 열기
-    document.querySelector('.result_modal02 .submit_btn').addEventListener('click', function () {
-        closeModal(event);  // 모달2 닫기
-        setTimeout(function () {
-            openModal('result_modal03');  // 모달3 열기
-        }, 500); // 모달3가 0.5초 뒤에 열리도록 설정
-    });
-
-
 });
 
 

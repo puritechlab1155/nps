@@ -52,9 +52,6 @@ if($my_regno > 0) {
 	$reward = false;
 }
 
-echo '내가 투표한지 여부:' . $vote . $current_count . '내 결과:' . $reward . ' 총 응모자 수:' . $all_count . ' 현재 당첨자 수:';
-
-
 
 ?>
 <!doctype html>
@@ -139,6 +136,8 @@ echo '내가 투표한지 여부:' . $vote . $current_count . '내 결과:' . $r
 						<div class="main_title"><img src="img/sub13/sub13_01-title.svg"></div>
 						<div class="text1">덥다 더워~ 행운 잡고,<br> 무더위 날리자~</div>
 						<div class="text2">
+							<?php 
+echo '내가 투표한지 여부:' . $vote . $current_count . '내 결과:' . $reward . ' 총 응모자 수:' . $all_count . ' 현재 당첨자 수:'; ?>
 							내곁에 국민연금을 방문해 주신 구독자 여러분께 <br>
 							감사의 마음을 담아 뽑기 이벤트를 준비했습니다. <br>
 							이벤트 기간 내 뽑기를 해 주신 구독자님들 중 100분께 경품을 드립니다.

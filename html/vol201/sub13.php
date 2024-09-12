@@ -53,6 +53,7 @@ if($my_regno > 0) {
 	$reward = false; //상품 금지
 }
 
+echo "reward:" . $reward;
 ?>
 <!doctype html>
 <html lang="ko">

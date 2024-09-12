@@ -226,8 +226,8 @@
 
 		<div class="news news02">
 			<div class="section04 wow fadeBigInUp">
-				<img src="img/sub01/sub01_21.svg" class="pc_display_only">
-				<img src="img/sub01/sub01_21_tablet.jpg" class="tablet_display_only">
+				<img src="img/sub01/sub01_21-2.svg" class="pc_display_only">
+				<img src="img/sub01/sub01_21_tablet-2.jpg" class="tablet_display_only">
 				<img src="img/sub01/sub01_21_mo.svg" class="mobile_display_only">
 			</div><!-- //.section04 -->
 

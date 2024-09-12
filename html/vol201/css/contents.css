@@ -438,7 +438,7 @@
 }
 
 @media (min-width: 376px) and (max-width:767px) {
-	.sub01 .section01 { height: 275px; background-image: url('../img/sub01/sub01_00_mo.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
+	.sub01 .section01 { height: 275px; background-image: url('../img/sub01/sub01_00_mo.jpg'); background-size: cover; background-position: center top; background-repeat: no-repeat; }
 	.sub01 .section01 .content { margin-bottom: 12px; }
 	.sub01 .section01 .content .cover_title { font-size: 20px; }
 	.sub01 .section01 .content .cover_text { padding: 0; }
@@ -533,7 +533,7 @@
 	.sub01 .section03 .content .tabs { gap: 0; justify-content: space-between; margin: 0 auto; padding: 20px 0; }
 	.sub01 .section03 .content .tabs div { font-size: 10px; padding: 5px 10px; width: 75px; height: 26px; line-height: 17px; }
 	.sub01 .section03 .content .tabs div::after { width: 13px; height: 13px; right: 8px; }
-	.sub01 .section03 .content .tabs div.on::after { width: 14px; height: 14px; right: 10px; }
+	.sub01 .section03 .content .tabs div.on::after { width: 14px; height: 14px; right: 8px; }
 
 	.sub01 .section05 .content { padding: 50px 20px 0; gap: 32px; }
 	.sub01 .section05 .content .anchor { flex-direction: column; gap: 36px; align-items: center; }

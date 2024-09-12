@@ -44,7 +44,7 @@ if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
 	$reward = (($all_count + 1) % 20 == 0);
 } 
 
-$reward = ($random_number <= 50); //count 방식을 변경해야 겠음.
+//$reward = ($random_number <= 50); //count 방식을 변경해야 겠음.
 
 $my_regno = mysqli_num_rows($result); //내가 투표한지 여부
 if($my_regno > 0) {
@@ -170,7 +170,7 @@ if($my_regno > 0) {
 
         <!-- 이벤트 참여 상태에 따른 팝업 -->
             <?php if($vote) { #echo '투표한 경우';// 투표한 경우 ?>
-            <div class="popUp result_modal01">
+            <div class="popUp result_modal04">
                 <div class="modal">
                     <div class="content">
                         <p>이미 응모하셨습니다.</p>
@@ -181,7 +181,7 @@ if($my_regno > 0) {
             <?php } else if(!$event_close && $reward) { #echo '성공한 경우'; // 성공한 경우 ?>
 
                 <!--  이벤트에 당첨된 경우 로직 -->
-            <div class="popUp result_modal02">
+            <div class="popUp result_modal01">
                 <div class="modal">
                     <div class="content">
                         <div class="message">
@@ -202,7 +202,7 @@ if($my_regno > 0) {
                 </div>
             </div>
             <?php  } else if(!$event_close && !$reward) { #echo '실패한 경우'; //실패한 경우 ?>
-            <div class="popUp result_modal03">
+            <div class="popUp result_modal04">
                 <div class="modal">
                     <div class="content">
                         <div class="message">
@@ -215,7 +215,7 @@ if($my_regno > 0) {
                 </div>
             </div>
             <?php } else { // 더이상 신청이 불가한 경우 ?>
-            <div class="popUp result_modal04">
+            <div class="popUp result_modal06">
                 <div class="modal">
                     <div class="content">
                         <p>당첨 정원이 충족돼<Br />이벤트가 종료됐습니다.</p>
@@ -316,35 +316,8 @@ if($my_regno > 0) {
 
     <script>
 
-		$('.popUp').hide();
+	$('.popUp').hide();
 
-		$('.draw div').click(function(){
-			var event_close = <?php echo json_encode($event_close); ?>;
-    var reward = <?php echo json_encode($reward); ?>;
-    console.log(event_close);
-
-    if (!event_close && reward) {
-        $('.result_modal01').show();
-        $('.result_modal02').hide();
-        $('.result_modal03').hide();
-        $('.result_modal04').hide();
-    } else if (!event_close && !reward) { 
-        $('.result_modal01').hide();
-        $('.result_modal02').hide();
-        $('.result_modal03').hide();
-        $('.result_modal04').show();  // This block should show result_modal04
-    } else {
-        $('.result_modal01').hide();
-        $('.result_modal02').hide();
-        $('.result_modal03').hide();
-        $('.result_modal04').show();  // This block should also show result_modal04 if none of the above conditions match
-    }
-		});
-	$('.result_modal01 .button').click(function(){
-			$('.result_modal01').hide();
-			$('.result_modal02').show();
-			$('.result_modal03').hide();
-		});
 	$('.result_modal02 .submit_btn').click(function(event) {
     event.preventDefault();
 
@@ -419,7 +392,7 @@ if($my_regno > 0) {
         success: function(res) {
 					console.log('success');
                 // Show success message or handle accordingly
-						$('.result_modal01').hide();
+								$('.result_modal01').hide();
         				$('.result_modal02').hide();
         				$('.result_modal03').show();
         				$('.result_modal04').hide();
@@ -449,8 +422,8 @@ function boom_submit() {
 				};
 
 				var param2 = {
-        "vol": "201",
-        "award": "CU모바일",
+        "vol": "200",
+        "award": "스타벅스",
         "name": "홍길동",
         "phone": "0101255444",
         "email": "githn1111@gmail.com",
@@ -639,8 +612,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                         if (goodsResult) {
                             // 3분의 1 확률로 winner 이미지 표시
-                            //const isWinner = Math.random() < (1 / 3);
-                            const isWinner =<?php echo json_encode($reward); ?>;
+                            const isWinner = <?php echo json_encode($reward); ?>;
 
                             console.log("Index:", index, "Is Winner:", isWinner);
 
@@ -650,8 +622,10 @@ document.addEventListener('DOMContentLoaded', function () {
                                 goodsResult.querySelector('.fail img').style.display = 'none';
                                 // .8초 지연 후 모달1 표시
                                 setTimeout(function () {
-                                    openModal('result_modal02'); // "축하합니다! 당첨되셨습니다." 팝업 열기
+                                    openModal('result_modal01'); // "축하합니다! 당첨되셨습니다." 팝업 열기
                                 }, 800); // 모달 표시 지연 시간 (.8초)
+
+
 
                             } else {
                                 goodsResult.querySelector('.winner img').style.display = 'none';
@@ -660,7 +634,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 console.log('Fail modal should open'); // 디버깅용 로그
                                 // .8초 지연 후 모달5 표시
                                 setTimeout(function () {
-                                    openModal('result_modal03'); // "당첨되지 않았습니다." 팝업 열기
+                                    openModal('result_modal05'); // "당첨되지 않았습니다." 팝업 열기
                                 }, 800); // 모달 표시 지연 시간 (.8초)
                             }
 

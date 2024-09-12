@@ -322,6 +322,7 @@ if($my_regno > 0) {
 			var event_close = <?php echo json_encode($event_close); ?>;
     var reward = <?php echo json_encode($reward); ?>;
     console.log(event_close);
+    console.log(reward, 'reward');
 
     if (!event_close && reward) {
         $('.result_modal01').show();

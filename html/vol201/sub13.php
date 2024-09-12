@@ -171,7 +171,7 @@ echo "reward:" . $reward;
 
         <!-- 이벤트 참여 상태에 따른 팝업 -->
             <?php if($vote) { #echo '투표한 경우';// 투표한 경우 ?>
-            <div class="popUp result_modal04">
+            <div class="popUp result_modal04" style="display:block;">
                 <div class="modal">
                     <div class="content">
                         <p>이미 응모하셨습니다.</p>

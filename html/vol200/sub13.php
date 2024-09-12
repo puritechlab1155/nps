@@ -44,8 +44,10 @@ if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
 
 $reward = ($random_number <= 50); //count 방식을 변경해야 겠음.
 
+echo 'reward:' . $reward;
+
 $my_regno = mysqli_num_rows($result); //내가 투표한지 여부
-echo $my_regno . 'hello world';
+
 if($my_regno > 0) {
 	$vote = true;
 	$event_close = true;

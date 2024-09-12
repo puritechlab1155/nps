@@ -53,8 +53,6 @@ if($my_regno > 0) {
 	$reward = false; //상품 금지
 }
 
-echo 'reward' . $reward;
-
 ?>
 <!doctype html>
 <html lang="ko">
@@ -324,7 +322,6 @@ echo 'reward' . $reward;
 			var event_close = <?php echo json_encode($event_close); ?>;
     var reward = <?php echo json_encode($reward); ?>;
     console.log(event_close);
-    console.log(reward, 'reward');
 
     if (!event_close && reward) {
         $('.result_modal01').show();
@@ -594,6 +591,19 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.ladder_select li').forEach(function (item) {
         item.addEventListener('click', function () {
 
+
+
+
+            // if (hasVoted) {
+            //     // 이미 참여한 경우 팝업을 표시하고 더 이상 진행하지 않음
+            //     console.log("User has already participated. Showing modal 4.");
+            //     openModal('result_modal04');
+            //     return;
+            // }
+
+
+
+
             if (gamePlayed) return; // 게임이 이미 실행되었다면 더 이상 진행하지 않음
             gamePlayed = true; // 게임이 실행되었음을 표시
 
@@ -638,13 +648,20 @@ document.addEventListener('DOMContentLoaded', function () {
                             if (isWinner) {
                                 goodsResult.querySelector('.winner img').style.display = 'block';
                                 goodsResult.querySelector('.fail img').style.display = 'none';
-
+                                // .8초 지연 후 모달1 표시
+                                setTimeout(function () {
+                                    openModal('result_modal02'); // "축하합니다! 당첨되셨습니다." 팝업 열기
+                                }, 800); // 모달 표시 지연 시간 (.8초)
 
                             } else {
                                 goodsResult.querySelector('.winner img').style.display = 'none';
                                 goodsResult.querySelector('.fail img').style.display = 'block';
 
                                 console.log('Fail modal should open'); // 디버깅용 로그
+                                // .8초 지연 후 모달5 표시
+                                setTimeout(function () {
+                                    openModal('result_modal03'); // "당첨되지 않았습니다." 팝업 열기
+                                }, 800); // 모달 표시 지연 시간 (.8초)
                             }
 
                             // 선택된 goods_result를 보이게 함
@@ -659,9 +676,54 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+    // 팝업 닫기 버튼에 이벤트 리스너 추가
+    document.querySelectorAll('.modal-close').forEach(function (button) {
+        button.addEventListener('click', function (event) {
+            closeModal(event);
+        });
+    });
+
+
+     // 모달1의 버튼을 클릭하면 모달2(폼 작성 모달)를 열기
+     document.querySelector('.result_modal01 .modal-close').addEventListener('click', function () {
+        closeModal(event);  // 모달1 닫기
+        setTimeout(function () {
+            openModal('result_modal02');  // 모달2 열기
+        }, 500); // 모달2가 0.5초 뒤에 열리도록 설정
+    });
+
+    // 모달2(폼 제출)에서 제출 버튼을 클릭하면 모달3(등록 완료 모달)을 열기
+    document.querySelector('.result_modal02 .submit_btn').addEventListener('click', function () {
+        closeModal(event);  // 모달2 닫기
+        setTimeout(function () {
+            openModal('result_modal03');  // 모달3 열기
+        }, 500); // 모달3가 0.5초 뒤에 열리도록 설정
+    });
+
 
 });
 
+
+// 팝업 열기 함수는 DOMContentLoaded 이벤트 핸들러 밖에서 정의.
+function openModal(modalClass) {
+    const modalElement = document.querySelector('.' + modalClass);
+    if (modalElement) {
+        console.log(`Modal with class ${modalClass} found`);  // 모달이 찾아졌는지 확인
+        modalElement.style.display = 'block';
+        modalElement.style.zIndex = '10000'; // 항상 위로 설정
+    } else {
+        console.error(`Modal with class ${modalClass} not found`);
+    }
+}
+
+// 팝업 닫기 함수
+function closeModal(event) {
+    // 현재 클릭된 버튼의 부모 요소 중 .popUp 클래스를 가진 요소를 찾아서 닫음
+    var modal = event.target.closest('.popUp');
+    if (modal) {
+        modal.style.display = 'none';
+    }
+}
 
 
 

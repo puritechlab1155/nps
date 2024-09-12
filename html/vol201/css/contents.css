@@ -501,6 +501,7 @@
 	.sub01 .news03 .section05 .content .anchor .text_left { width: 100%; text-align: left; }
 	.sub01 .news03 .section05 .content .reporter .s_text { padding-bottom: 0; }
 
+	.sub01 .news04 .section05 { padding-bottom: 50px; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; margin-top: 8px; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text:nth-child(1) { margin-top: 0; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text em { display: block; margin-left: 28px; }
@@ -576,6 +577,7 @@
 	.sub01 .news03 .section05 .content .anchor .text_left { width: 100%; text-align: left; }
 	.sub01 .news03 .section05 .content .reporter .s_text { padding-bottom: 0; }
 
+	.sub01 .news04 .section05 { padding-bottom: 50px; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; margin-top: 8px; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text:nth-child(1) { margin-top: 0; }
 	.sub01 .news04 .section05 .content .reporter .graph_area .text_box .text em { display: block; margin-left: 28px; }

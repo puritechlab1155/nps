@@ -1,6 +1,7 @@
 <?php
 include_once("config.php");
 
+
 //변수
 $max_count = 100; //최대 당첨자 수
 $event_close = false; 
@@ -42,7 +43,7 @@ if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
 	$reward = (($all_count + 1) % 20 == 0);
 } 
 
-//$reward = ($random_number <= 50); //count 방식을 변경해야 겠음.
+$reward = ($random_number <= 50); //count 방식을 변경해야 겠음.
 
 $my_regno = mysqli_num_rows($result); //내가 투표한지 여부
 if($my_regno > 0) {
@@ -51,7 +52,7 @@ if($my_regno > 0) {
 	$reward = false;
 }
 
-#echo '내가 투표한지 여부:' . $voteName . ' 총 응모자 수:' . $all_count . ' 현재 당첨자 수:' . $current_count;
+echo '내가 투표한지 여부:' . $vote . $current_count . '내 결과:' . $reward . ' 총 응모자 수:' . $all_count . ' 현재 당첨자 수:';
 
 
 

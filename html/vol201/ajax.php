@@ -54,12 +54,12 @@ $val_arr_txt .= "'{$today}'";
 
 
 // ip를 대조하여 이미 당첨된 내역이 있는지 여부를 가리기 위한 쿼리
-$my_query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `ip`='{$ip}' AND `device`='{$device}'";
+$my_query = "SELECT * FROM `stair_event_list` WHERE `vol_idx`={$vol_idx} AND `ip`='{$ip}' AND `device`='{$device}'";
 $result = mysqli_query($connect, $my_query);
 
-$my_phone = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `tel`='{$tel}'";
+$my_phone = "SELECT * FROM `stair_event_list` WHERE `vol_idx`={$vol_idx} AND `tel`='{$tel}'";
 $result_phone = mysqli_query($connect, $my_phone);
-$my_email = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `email`='{$email}'";
+$my_email = "SELECT * FROM `stair_event_list` WHERE `vol_idx`={$vol_idx} AND `email`='{$email}'";
 $result_email = mysqli_query($connect, $my_email);
 
 if (!$result) {
@@ -73,7 +73,7 @@ $my_e = mysqli_num_rows($result_email); //현재 당첨자 수
 
 
 if(!$my_regno && !$my_p && !$my_e){
-	$query_insert = "INSERT INTO `ocean_event_list` ({$col_name_arr_txt}) VALUES ({$val_arr_txt})";
+	$query_insert = "INSERT INTO `stair_event_list` ({$col_name_arr_txt}) VALUES ({$val_arr_txt})";
 	$response['status'] = 'success';
         $response['message'] = 'Insertion successful';
 

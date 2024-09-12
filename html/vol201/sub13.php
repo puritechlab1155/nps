@@ -1,14 +1,56 @@
 <?php
+include_once("config.php");
 
-// 변수 설정
-$max_count = 100; // 최대 당첨자 수
+
+//변수
+$max_count = 100; //최대 당첨자 수
 $event_close = false; 
-$vote = false; // 이미 참여한 경우를 의미 (이 값은 실제 데이터베이스에서 조회되어야 함)
+$vote = false;
+$random_number = mt_rand(1, 100); 
 
-//사용자가 이미 이벤트에 참여했는지를 나타내는 변수입니다. 이 값은 실제로 데이터베이스에서 확인되어야/
-// 사용자가 이벤트에 이미 참여한 경우에는 다시 참여할 수 없도록 이 변수가 중요
-$random_number = mt_rand(1, 100); //1에서 100 사이의 랜덤한 숫자를 생성합니다. 이를 통해 이벤트에 당첨될 확률을 설정하는 데 사용
-$reward = ($random_number <= 3); // 당첨 여부 결정 (30% 확률로 당첨)
+//데이터 불러오기
+$vol_idx = mysqli_real_escape_string($connect, $vol_idx);
+//쿼리
+$query = "SELECT * FROM `stair_event_list` WHERE `vol_idx`={$vol_idx}";
+$result = mysqli_query($connect, $query);
+
+if (!$result) {
+    die('Error fetching stair_event_list: ' . mysqli_error($connect));
+}
+
+//총 응모자 수
+$all_count = mysqli_num_rows($result);
+//쿼리
+$query = "SELECT * FROM `stair_event_list` WHERE `vol_idx`={$vol_idx} AND `product_name`!='꽝'";
+$result = mysqli_query($connect, $query);
+
+if (!$result) {
+    die('Error fetching stair_event_list: ' . mysqli_error($connect));
+}
+
+$current_count = mysqli_num_rows($result); //현재 당첨자 수
+
+$my_query = "SELECT * FROM `stair_event_list` WHERE `vol_idx`={$vol_idx} AND `ip`='{$current_ip}' AND `device`='{$current_device}'";
+$result = mysqli_query($connect, $my_query);
+
+if (!$result) {
+    die('Error fetching my_query: ' . mysqli_error($connect));
+}
+
+if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
+	$event_close = true; // 이벤트 종료 선언
+} else {
+	$reward = (($all_count + 1) % 20 == 0);
+} 
+
+//$reward = ($random_number <= 50); //count 방식을 변경해야 겠음.
+
+$my_regno = mysqli_num_rows($result); //내가 투표한지 여부
+if($my_regno > 0) {
+	$vote = true; //투표 금지
+	$event_close = true; //이벤트 실행 금지
+	$reward = false; //상품 금지
+}
 
 ?>
 <!doctype html>
@@ -126,7 +168,8 @@ $reward = ($random_number <= 3); // 당첨 여부 결정 (30% 확률로 당첨)
 
 
         <!-- 이벤트 참여 상태에 따른 팝업 -->
-        <div class="popUp result_modal04" style="display:none;">
+            <?php if($vote) { #echo '투표한 경우';// 투표한 경우 ?>
+            <div class="popUp result_modal04">
                 <div class="modal">
                     <div class="content">
                         <p>이미 응모하셨습니다.</p>
@@ -134,32 +177,10 @@ $reward = ($random_number <= 3); // 당첨 여부 결정 (30% 확률로 당첨)
                     </div>
                 </div>
             </div>
+            <?php } else if(!$event_close && $reward) { #echo '성공한 경우'; // 성공한 경우 ?>
 
-            <div class="popUp result_modal05" style="display:none;">
-                <div class="modal">
-                    <div class="content">
-                        <div class="message">
-                            <div class="img_box"><img src="img/sub13/fail.svg"></div>
-                            <div class="main_text">당첨되지 않았습니다.</div>
-                            <div class="sub_text">다음에 다시 참여해주세요.</div>
-                        </div>
-                        <div class="button modal-close">확인</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="popUp result_modal06" style="display:none;">
-                <div class="modal">
-                    <div class="content">
-                        <p>당첨 정원이 충족돼<Br />이벤트가 종료됐습니다.</p>
-                        <div class="button modal-close">닫기</div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!--  이벤트에 당첨된 경우 로직 -->
-            <div class="popUp result_modal01" style="display:none;">
+                <!--  이벤트에 당첨된 경우 로직 -->
+            <div class="popUp result_modal01">
                 <div class="modal">
                     <div class="content">
                         <div class="message">
@@ -179,6 +200,29 @@ $reward = ($random_number <= 3); // 당첨 여부 결정 (30% 확률로 당첨)
                     </div>
                 </div>
             </div>
+            <?php  } else if(!$event_close && !$reward) { #echo '실패한 경우'; //실패한 경우 ?>
+            <div class="popUp result_modal05">
+                <div class="modal">
+                    <div class="content">
+                        <div class="message">
+                            <div class="img_box"><img src="img/sub13/fail.svg"></div>
+                            <div class="main_text">당첨되지 않았습니다.</div>
+                            <div class="sub_text">다음에 다시 참여해주세요.</div>
+                        </div>
+                        <div class="button modal-close">확인</div>
+                    </div>
+                </div>
+            </div>
+            <?php } else { // 더이상 신청이 불가한 경우 ?>
+            <div class="popUp result_modal06">
+                <div class="modal">
+                    <div class="content">
+                        <p>당첨 정원이 충족돼<Br />이벤트가 종료됐습니다.</p>
+                        <div class="button modal-close">닫기</div>
+                    </div>
+                </div>
+            </div>
+            <?php } ?>
 
             <div class="popUp result_modal02" style="display:none;">
                 <div class="modal">
@@ -261,7 +305,6 @@ $reward = ($random_number <= 3); // 당첨 여부 결정 (30% 확률로 당첨)
                     </div>
                 </div>
             </div>
-
     </section>
 
     <!-- page ctrl -->

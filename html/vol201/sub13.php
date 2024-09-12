@@ -209,7 +209,7 @@ if($my_regno > 0) {
                             <div class="main_text">당첨되지 않았습니다.</div>
                             <div class="sub_text">다음에 다시 참여해주세요.</div>
                         </div>
-                        <div class="button modal-close">확인</div>
+                        <div class="button" onclick="boom_submit()">확인</div>
                     </div>
                 </div>
             </div>

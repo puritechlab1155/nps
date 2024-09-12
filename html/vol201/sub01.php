@@ -463,6 +463,9 @@
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
+						<div class="graph_area none_pad">
+							<img src="img/sub01/sub01_42.jpg">
+						</div>
 					</div>
 
 					<div class="anchor alignCenter">
@@ -475,7 +478,7 @@
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								이번 문화제에 참석한 공단의 상임감사는 외부 이해관계자를 대상으로 ‘클린레터’를 발송했습니다. ‘클린레터’란 공단의 상임감사가 직접 작성한 서한문으로 부조리에 대한 익명 신고가 가능하다는 내용을 담고 있는데요. ‘클린레터’ 수신자는 물론 누구나 상임감사에게 직접 신고 또는 익명 신고 채널인 헬프라인을 통해 공단의 부조리 행위를 신고할 수 있습니다.
+								공단 상임감사는 외부 이해관계자를 대상으로 ‘클린레터’를 발송했습니다. ‘클린레터’란 공단의 상임감사가 직접 작성한 서한문으로 부조리에 대한 익명 신고가 가능하다는 내용을 담고 있는데요. ‘클린레터’ 수신자는 물론 누구나 상임감사에게 직접 신고 또는 익명 신고 채널인 헬프라인을 통해 공단의 부조리 행위를 신고할 수 있습니다.
 							</div>
 							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
 						</div>
@@ -500,7 +503,12 @@
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							지금까지 국민연금공단이 청렴한 조직문화를 조성하기 위해 어떤 노력을 하는지 알아봤습니다. 국민연금공단은 앞으로도 공단 임직원이 함께 실천할 수 있는 청렴 실천 가이드를 제작하고, 더욱 깨끗한 세상, 더욱 깨끗한 한국을 만드는 데 노력하겠다고 말했습니다.
+							지금까지 국민연금공단이 청렴한 조직문화를 조성하기 위해 어떤 노력을 하는지 알아봤습니다. 국민연금공단은 임직원이 함께 실천할 수 있는 청년 실천 가이드를 제작하는 등 앞으로 공정하고 투명한 사회를 만드는데 노력하겠다고 말했습니다.
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer none_pad">
+							<img src="img/sub01/sub01_43.jpg">
 						</div>
 					</div>
 				</div>

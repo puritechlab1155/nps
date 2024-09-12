@@ -32,7 +32,7 @@
 		</div>
 
 		<div class="sticky-element">
-			<div class="section03 wow fadeBigInUp">
+			<div class="section03">
 				<div class="content">
 					<div class="tabs">
 						<div class="tab01 on">News 1</div>
@@ -45,7 +45,7 @@
 		</div>
 
 		<div class="news news01 on">
-			<div class="section04 wow fadeBigInUp">
+			<div class="section04">
 				<img src="img/sub01/sub01_11.svg" class="pc_display_only">
 				<img src="img/sub01/sub01_11_tablet.jpg" class="tablet_display_only">
 				<img src="img/sub01/sub01_11_mo.svg" class="mobile_display_only">
@@ -225,7 +225,7 @@
 		</div><!-- //.news01 -->
 
 		<div class="news news02">
-			<div class="section04 wow fadeBigInUp">
+			<div class="section04">
 				<img src="img/sub01/sub01_21-2.svg" class="pc_display_only">
 				<img src="img/sub01/sub01_21_tablet-2.jpg" class="tablet_display_only">
 				<img src="img/sub01/sub01_21_mo.svg" class="mobile_display_only">
@@ -300,7 +300,7 @@
 		</div><!-- //.news02 -->
 
 		<div class="news news03">
-			<div class="section04 wow fadeBigInUp">
+			<div class="section04">
 				<img src="img/sub01/sub01_31.svg" class="pc_display_only">
 				<img src="img/sub01/sub01_31_tablet.jpg" class="tablet_display_only">
 				<img src="img/sub01/sub01_31_mo.svg" class="mobile_display_only">
@@ -419,7 +419,7 @@
 		</div><!-- //.news03 -->
 
 		<div class="news news04">
-			<div class="section04 wow fadeBigInUp">
+			<div class="section04">
 				<img src="img/sub01/sub01_41.svg" class="pc_display_only">
 				<img src="img/sub01/sub01_41_tablet.jpg" class="tablet_display_only">
 				<img src="img/sub01/sub01_41_mo.svg" class="mobile_display_only">
@@ -587,7 +587,8 @@ document.addEventListener('DOMContentLoaded', function() {
             if (currentScroll > sectionTop || currentScroll < (sectionTop + sectionHeight - windowHeight)) {
                 let offsetTop = sectionTop - (window.innerWidth <= 768 ? 50 : 100); // 모바일 또는 데스크탑 여백 설정
                 window.scrollTo({
-                    top: offsetTop
+                    top: offsetTop,
+                    behavior: 'smooth'
                 });
             }
         });

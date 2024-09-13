@@ -157,7 +157,7 @@
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">NPS 칼럼</p>
-							<p class="txt">지속가능하고 튼튼한 버팀목 국민연금</p>
+							<p class="txt">노후소득보장의 중추 지속가능하고 튼튼한 버팀목 국민연금</p>
 						</a>
 					</div>
 					<div data-title="M&Z일상수다" class="swiper-slide item3 wow fadeUp">

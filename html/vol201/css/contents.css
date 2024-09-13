@@ -2091,8 +2091,7 @@
 	.result_modal03 .modal .content span { font-size: 10px; padding: 0 20px; }
 	.result_modal03 .modal .content .button { width: 170px; font-size: 20px; }
 
-	.result_modal04 { position: fixed; background: rgba(0, 0, 0, 0.3); left: 0; top: 0; right: 0; bottom: 0; padding: 20px; }
-	.result_modal04 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 500px; }
+	.result_modal04 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 280px; }
 	.result_modal04 .modal .content { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 47px 0 46px; text-align: center; }
 	.result_modal04 .modal .content .main_text { color: #1375db; font-family:'WavvePADO'; font-size: 40px; font-weight: 400; padding-top: 5px; padding-bottom: 10px; letter-spacing: -0.8px; }
 	.result_modal04 .modal .content p { font-family:'WavvePADO'; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; margin: 26px auto 19px; }
@@ -2109,8 +2108,7 @@
 	.result_modal05 .modal .content .message .img_box { text-align: center; }
 	.result_modal05 .modal .content .message .img_box img { width: 70%; }
 
-	.result_modal06 { position: fixed; background: rgba(0, 0, 0, 0.3); left: 0; top: 0; right: 0; bottom: 0; padding: 20px; }
-	.result_modal06 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 500px; }
+	.result_modal06 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 280px; }
 	.result_modal06 .modal .content { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 47px 0 46px; text-align: center; }
 	.result_modal06 .modal .content .main_text { color: #1375db; font-family:'WavvePADO'; font-size: 40px; font-weight: 400; padding-top: 5px; padding-bottom: 10px; letter-spacing: -0.8px; }
 	.result_modal06 .modal .content p { font-family:'WavvePADO'; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; margin: 26px auto 19px; }

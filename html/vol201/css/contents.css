@@ -2100,11 +2100,11 @@
 	.result_modal04 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 24px; letter-spacing: -0.48px; }
 
 	.result_modal05 .modal { max-width: 280px; }
-	.result_modal05 .modal .content .main_text { font-size: 25px; }
+	.result_modal05 .modal .content .main_text { font-size: 23px; margin-top: 15px; }
 	.result_modal05 .modal .content p { font-size: 15px; }
 	.result_modal05 .modal .content span { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; }
 	.result_modal05 .modal .content .button { width: 170px; }
-	.result_modal05 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 20px; letter-spacing: -0.48px; }
+	.result_modal05 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 16px; letter-spacing: -0.48px; }
 	.result_modal05 .modal .content .message .img_box { text-align: center; }
 	.result_modal05 .modal .content .message .img_box img { width: 70%; }
 

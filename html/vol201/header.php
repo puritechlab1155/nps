@@ -103,10 +103,9 @@ if ($current_key !== false) {
 
 
 <!-- -------------------- -------------------- -------------------- -->
-<!-- URL 표시용 DIV -->
-<div id="url-display" style="margin-top: 20px; padding: 10px; background-color: #f0f0f0; border: 1px solid #ccc;">
-    URL이 여기에 표시됩니다.
-</div>
+<!-- iframe for page preview -->
+<iframe id="iframe-content" style="width: 100%; height: 600px;" src="/html/vol201/index.php"></iframe>
+
 <!-- -------------------- -------------------- -------------------- -->
 
     
@@ -133,16 +132,9 @@ if ($current_key !== false) {
             // 해당 URL을 iframe에 로드
             document.getElementById('iframe-content').src = url;
         });
-
-        menuItem.addEventListener('mouseout', function() {
-            // 마우스가 항목에서 벗어나면 기본 페이지를 iframe에 로드
-            document.getElementById('iframe-content').src = '/html/vol201/index.php'; // 기본 페이지로 돌아감
-        });
     });
 </script>
 
-<!-- iframe for page preview -->
-<iframe id="iframe-content" style="width: 100%; height: 600px;" src="/html/vol201/index.php"></iframe>
 
 
 

@@ -110,7 +110,7 @@ if ($current_key !== false) {
         document.getElementById('menuToggle').blur();
     });
     // JavaScript to close menu when close button is clicked
-    document.getElementById('close').addEventListener('click', function () {
+    document.querySelector('close').addEventListener('click', function () {
         document.getElementById('menuToggle').blur();
     });
 

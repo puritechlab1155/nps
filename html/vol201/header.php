@@ -85,13 +85,13 @@ if ($current_key !== false) {
             <div class="close"><i class="xi-close-thin"></i></div>
             <div class="subscribe"><a href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp"  target='_blank'><img src="img/subscribe_bottom.svg"></a></div>
         
-            <ul id="menu">
+            <ul>
                 <?php foreach ($menu_items as $url => $label) { ?>
                     <?php
                         $is_external = strpos($url, "https://") !== false;
                         $target = $is_external ? '_blank' : '_self';
                     ?>
-                    <li class="menu-item" data-url="<?php echo $url; ?>" <?php echo $label; ?> <?php if ($current_url == $url) echo 'class="current"'; ?>>
+                    <li class="menu-item <?php if ($current_url == $url) echo 'current'; ?>" data-url="<?php echo $url; ?>">
                         <a href="<?php echo $url; ?>"><?php echo $label; ?></a>
                     </li>
                 <?php } ?>

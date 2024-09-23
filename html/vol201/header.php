@@ -102,13 +102,13 @@ if ($current_key !== false) {
 
 
 <!-- -------------------- -------------------- -------------------- -->
-<ul>
+<!-- <ul>
     <?php foreach ($menu_items as $url => $label) { ?>
         <li>
             <a href="<?php echo $url; ?>" class="menu-item" data-url="<?php echo $url; ?>"><?php echo $label; ?></a>
         </li>
     <?php } ?>
-</ul>
+</ul> -->
 
 <!-- 미리보기 창 -->
 <div id="preview">

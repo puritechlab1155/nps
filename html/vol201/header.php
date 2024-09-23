@@ -123,22 +123,22 @@ if ($current_key !== false) {
 
 
 <script>
-let lastScrollTop = 0; // 이전 스크롤 위치를 저장할 변수를 초기화합니다.
+// let lastScrollTop = 0; // 이전 스크롤 위치를 저장할 변수를 초기화합니다.
 
-window.addEventListener("scroll", function() {
-  let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+// window.addEventListener("scroll", function() {
+//   let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
 
-  // 스크롤 방향에 따라 헤더의 위치를 조정합니다.
-  if (currentScroll > lastScrollTop) {
-    // 아래로 스크롤할 때: 헤더를 숨깁니다.
-    document.getElementById("header").classList.remove("sticky");
-  } else {
-    // 위로 스크롤할 때: 헤더를 고정합니다.
-    document.getElementById("header").classList.add("sticky");
-  }
+//   // 스크롤 방향에 따라 헤더의 위치를 조정합니다.
+//   if (currentScroll > lastScrollTop) {
+//     // 아래로 스크롤할 때: 헤더를 숨깁니다.
+//     document.getElementById("header").classList.remove("sticky");
+//   } else {
+//     // 위로 스크롤할 때: 헤더를 고정합니다.
+//     document.getElementById("header").classList.add("sticky");
+//   }
 
-  lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // 스크롤이 맨 위에 도달하면 초기화합니다.
-});
+//   lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // 스크롤이 맨 위에 도달하면 초기화합니다.
+// });
 
 
 // 여기 아래에 미리보기 관련 코드를 추가_________________________________________

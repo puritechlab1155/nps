@@ -84,17 +84,15 @@ if ($current_key !== false) {
         <div id="menu">
             <div class="close"><i class="xi-close-thin"></i></div>
             <div class="subscribe"><a href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp"  target='_blank'><img src="img/subscribe_bottom.svg"></a></div>
-            <ul>
+        
+            <ul id="menu">
                 <?php foreach ($menu_items as $url => $label) { ?>
                     <?php
                         $is_external = strpos($url, "https://") !== false;
                         $target = $is_external ? '_blank' : '_self';
                     ?>
-                    <li <?php if ($current_url == $url) echo 'class="current"'; ?>>
-                        <a href="<?php echo $url; ?>" 
-                        class="menu-item" data-url="<?php echo $url; ?>"
-                        target="<?php echo $target; ?>">
-                        <?php echo $label; ?></a>
+                    <li class="menu-item" data-url="<?php echo $url; ?>" <?php echo $label; ?> <?php if ($current_url == $url) echo 'class="current"'; ?>>
+                        <a href="<?php echo $url; ?>"><?php echo $label; ?></a>
                     </li>
                 <?php } ?>
             </ul>
@@ -105,7 +103,10 @@ if ($current_key !== false) {
 
 
 <!-- -------------------- -------------------- -------------------- -->
-
+<!-- URL 표시용 DIV -->
+<div id="url-display" style="margin-top: 20px; padding: 10px; background-color: #f0f0f0; border: 1px solid #ccc;">
+    URL이 여기에 표시됩니다.
+</div>
 <!-- -------------------- -------------------- -------------------- -->
 
     
@@ -120,12 +121,18 @@ if ($current_key !== false) {
     });
 
 
- // 메뉴 항목에 대한 마우스 오버 이벤트 처리!-- -------------------- -------------------- -------------------- -->
+ // 메뉴 항목에 마우스 오버 이벤트 처리
  document.querySelectorAll('.menu-item').forEach(function(menuItem) {
-        menuItem.addEventListener('mouseover', function(event) {
-            // href 속성에 있는 URL로 즉시 이동
-            const url = menuItem.getAttribute('href');
-            window.location.href = url;
+        menuItem.addEventListener('mouseover', function() {
+            // data-url 속성에서 URL 가져오기
+            const url = menuItem.getAttribute('data-url');
+            // URL을 화면에 표시
+            document.getElementById('url-display').innerText = '해당 URL: ' + url;
+        });
+
+        menuItem.addEventListener('mouseout', function() {
+            // 마우스가 항목에서 벗어나면 URL 표시를 지움
+            document.getElementById('url-display').innerText = 'URL이 여기에 표시됩니다.';
         });
     });
 

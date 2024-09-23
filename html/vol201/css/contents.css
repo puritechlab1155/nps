@@ -11,6 +11,9 @@
 #menuToggle>span.bar2{ top: 0px; }
 #menuToggle>span.bar3{ top: 12px; }
 #menuToggle input:checked ~ #menu { display: block;}
+
+#menuToggle #menuCheckbox:hover + #menu {  display: block; }
+
 #menu { display:none; list-style-type: none; background-color: #000; width: 420px; height: 100vh; padding:45px 0px 0px 50px; float: left; position: fixed; right: 0; top: 0; z-index: 992; }
 #menu ul { width: 280px; white-space: nowrap; }
 #menu ul li { padding: 5px 0; font-size: 24px; border-bottom: 1px solid #fff; text-align: left; }

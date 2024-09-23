@@ -103,12 +103,6 @@ if ($current_key !== false) {
 </header><!-- //header -->
 
 
-<!-- -------------------- -------------------- -------------------- -->
-<!-- iframe for page preview -->
-
-
-<!-- -------------------- -------------------- -------------------- -->
-
     
 <script>
     // JavaScript to close menu when overlay is clicked
@@ -119,12 +113,6 @@ if ($current_key !== false) {
     document.getElementById('close').addEventListener('click', function () {
         document.getElementById('menuToggle').blur();
     });
-
-    document.getElementById('menuCheckbox').addEventListener('mouseover', function () {
-        document.getElementById('menuToggle').show();
-    });
-
-
 
 </script>
 

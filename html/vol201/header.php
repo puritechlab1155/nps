@@ -91,8 +91,8 @@ if ($current_key !== false) {
                         $is_external = strpos($url, "https://") !== false;
                         $target = $is_external ? '_blank' : '_self';
                     ?>
-                    <li class="menu-item <?php if ($current_url == $url) echo 'current'; ?>" data-url="<?php echo $url; ?>">
-                    <a href="<?php echo $url; ?>" target="<?php echo $target; ?>"><?php echo $label; ?></a>
+                     <li class="menu-item <?php if (trim($current_url, '/') == trim($url, '/')) echo 'current'; ?>" data-url="<?php echo $url; ?>">
+                        <a href="<?php echo $url; ?>"><?php echo $label; ?></a>
                     </li>
                 <?php } ?>
             </ul>
@@ -135,8 +135,7 @@ if ($current_key !== false) {
             document.getElementById('url-display').innerText = 'URL이 여기에 표시됩니다.';
         });
     });
-
-
+ㅂ
 </script>
 
 

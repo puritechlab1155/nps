@@ -91,7 +91,10 @@ if ($current_key !== false) {
                         $target = $is_external ? '_blank' : '_self';
                     ?>
                     <li <?php if ($current_url == $url) echo 'class="current"'; ?>>
-                        <a href="<?php echo $url; ?>" target="<?php echo $target; ?>"><?php echo $label; ?></a>
+                        <a href="<?php echo $url; ?>" 
+                        class="menu-item" data-url="<?php echo $url; ?>"
+                        target="<?php echo $target; ?>">
+                        <?php echo $label; ?></a>
                     </li>
                 <?php } ?>
             </ul>

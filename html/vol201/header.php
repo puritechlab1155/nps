@@ -104,7 +104,7 @@ if ($current_key !== false) {
 
 
     
-<script>
+<!-- <script>
     // JavaScript to close menu when overlay is clicked
     document.getElementById('overlay').addEventListener('click', function () {
         document.getElementById('menuToggle').blur();
@@ -114,7 +114,20 @@ if ($current_key !== false) {
         document.getElementById('menuToggle').blur();
     });
 
+</script> -->
+
+<script>
+    // 메뉴를 닫을 때 오버레이 클릭 시 메뉴 숨김
+    document.getElementById('overlay').addEventListener('click', function () {
+        document.getElementById('menuCheckbox').checked = false; // 체크박스를 해제하여 메뉴 숨기기
+    });
+
+    // 닫기 버튼 클릭 시 메뉴 숨김
+    document.querySelector('.close').addEventListener('click', function () {
+        document.getElementById('menuCheckbox').checked = false; // 체크박스를 해제하여 메뉴 숨기기
+    });
 </script>
+
 
 
 

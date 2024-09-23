@@ -135,7 +135,7 @@ if ($current_key !== false) {
             document.getElementById('url-display').innerText = 'URL이 여기에 표시됩니다.';
         });
     });
-ㅂ
+
 </script>
 
 

@@ -148,6 +148,8 @@ document.querySelectorAll('ul li a').forEach(function (menuItem) {
             const previewFrame = document.getElementById('previewFrame');
             
             const previewUrl = event.target.getAttribute('href');
+            console.log(previewUrl); // 이 부분으로 URL이 잘 전달되는지 확인합니다.
+
             previewFrame.src = previewUrl;
             
             preview.style.left = event.pageX + 20 + 'px';

@@ -102,17 +102,9 @@ if ($current_key !== false) {
 
 
 <!-- -------------------- -------------------- -------------------- -->
-<!-- <ul>
-    <?php foreach ($menu_items as $url => $label) { ?>
-        <li>
-            <a href="<?php echo $url; ?>" class="menu-item" data-url="<?php echo $url; ?>"><?php echo $label; ?></a>
-        </li>
-    <?php } ?>
-</ul> -->
-
-<!-- 미리보기 창 -->
-<div id="preview">
-    <iframe id="previewFrame" src=""></iframe>
+<!-- iframe for page preview -->
+<div id="preview" style="display:none; position: absolute; width: 400px; height: 300px; border: 1px solid #ccc;">
+    <iframe id="previewFrame" src="" style="width: 100%; height: 100%;"></iframe>
 </div>
 <!-- -------------------- -------------------- -------------------- -->
 

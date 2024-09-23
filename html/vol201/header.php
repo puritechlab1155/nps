@@ -100,6 +100,13 @@ if ($current_key !== false) {
     </label>
 </header>
 
+
+<!-- 미리보기 창 추가_________________________________________ -->
+<div id="preview" style="display: none; position: absolute; width: 300px; height: 200px; background-color: white; border: 1px solid #ccc; z-index: 1000;">
+    <iframe id="previewFrame" src="" style="width: 100%; height: 100%;"></iframe>
+</div>
+
+
     <!-- //header -->
 <script>
     // JavaScript to close menu when overlay is clicked
@@ -111,6 +118,9 @@ if ($current_key !== false) {
         document.getElementById('menuToggle').blur();
     });
 </script>
+
+
+
 
 <script>
 let lastScrollTop = 0; // 이전 스크롤 위치를 저장할 변수를 초기화합니다.
@@ -129,4 +139,26 @@ window.addEventListener("scroll", function() {
 
   lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // 스크롤이 맨 위에 도달하면 초기화합니다.
 });
+
+
+// 여기 아래에 미리보기 관련 코드를 추가_________________________________________
+document.querySelectorAll('ul li a').forEach(function (menuItem) {
+        menuItem.addEventListener('mouseover', function (event) {
+            const preview = document.getElementById('preview');
+            const previewFrame = document.getElementById('previewFrame');
+            
+            const previewUrl = event.target.getAttribute('href');
+            previewFrame.src = previewUrl;
+            
+            preview.style.left = event.pageX + 20 + 'px';
+            preview.style.top = event.pageY + 20 + 'px';
+            preview.style.display = 'block';
+        });
+
+        menuItem.addEventListener('mouseout', function () {
+            const preview = document.getElementById('preview');
+            preview.style.display = 'none';
+        });
+    });
+
 </script>

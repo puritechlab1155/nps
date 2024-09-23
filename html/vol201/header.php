@@ -105,10 +105,7 @@ if ($current_key !== false) {
 
 
 <!-- -------------------- -------------------- -------------------- -->
-<!-- iframe for page preview -->
-<div id="preview" style="display:none; position: absolute; width: 400px; height: 300px; border: 1px solid #ccc;">
-    <iframe id="previewFrame" src="" style="width: 100%; height: 100%;"></iframe>
-</div>
+
 <!-- -------------------- -------------------- -------------------- -->
 
     
@@ -122,27 +119,13 @@ if ($current_key !== false) {
         document.getElementById('menuToggle').blur();
     });
 
-// 메뉴 항목에 대한 마우스 오버 이벤트 처리<!-- -------------------- -------------------- -------------------- -->
-document.querySelectorAll('.menu-item').forEach(function(menuItem) {
-        menuItem.addEventListener('mouseover', function(event) {
-            const preview = document.getElementById('preview');
-            const previewFrame = document.getElementById('previewFrame');
-            
-            // 링크의 href 속성에 있는 URL을 iframe에 로드
-            const url = menuItem.getAttribute('data-url');
-            previewFrame.src = url;
-            
-            // 미리보기 창의 위치를 마우스 위치 근처로 설정
-            preview.style.left = event.pageX + 20 + 'px';
-            preview.style.top = event.pageY + 20 + 'px';
-            preview.style.display = 'block';
-        });
 
-        // 마우스가 항목에서 벗어날 때 미리보기 숨기기
-        menuItem.addEventListener('mouseout', function() {
-            const preview = document.getElementById('preview');
-            preview.style.display = 'none';
-            document.getElementById('previewFrame').src = '';  // iframe 초기화
+ // 메뉴 항목에 대한 마우스 오버 이벤트 처리!-- -------------------- -------------------- -------------------- -->
+ document.querySelectorAll('.menu-item').forEach(function(menuItem) {
+        menuItem.addEventListener('mouseover', function(event) {
+            // href 속성에 있는 URL로 즉시 이동
+            const url = menuItem.getAttribute('href');
+            window.location.href = url;
         });
     });
 

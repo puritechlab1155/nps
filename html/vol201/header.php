@@ -120,6 +120,10 @@ if ($current_key !== false) {
         document.getElementById('menuToggle').blur();
     });
 
+    document.getElementById('menuCheckbox').addEventListener('mouseover', function () {
+        document.getElementById('menuToggle').show();
+    });
+
 
 
 </script>

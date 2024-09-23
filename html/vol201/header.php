@@ -91,7 +91,7 @@ if ($current_key !== false) {
                         $is_external = strpos($url, "https://") !== false;
                         $target = $is_external ? '_blank' : '_self';
                     ?>
-                     <li class="menu-item <?php if (trim($current_url, '/') == trim($url, '/')) echo 'current'; ?>" data-url="<?php echo $url; ?>">
+                     <li class="menu-item" data-url="<?php echo $url; ?>">
                         <a href="<?php echo $url; ?>"><?php echo $label; ?></a>
                     </li>
                 <?php } ?>
@@ -121,22 +121,28 @@ if ($current_key !== false) {
     });
 
 
- // 메뉴 항목에 마우스 오버 이벤트 처리
- document.querySelectorAll('.menu-item').forEach(function(menuItem) {
+     // 메뉴 항목에 마우스 오버 이벤트 처리
+     document.querySelectorAll('.menu-item').forEach(function(menuItem) {
         menuItem.addEventListener('mouseover', function() {
             // data-url 속성에서 URL 가져오기
             const url = menuItem.getAttribute('data-url');
-            // URL을 화면에 표시
+            
+            // URL을 화면에 표시 (원하는 상세 페이지로 이동)
             document.getElementById('url-display').innerText = '해당 URL: ' + url;
+
+            // 해당 URL을 iframe에 로드
+            document.getElementById('iframe-content').src = url;
         });
 
         menuItem.addEventListener('mouseout', function() {
-            // 마우스가 항목에서 벗어나면 URL 표시를 지움
-            document.getElementById('url-display').innerText = 'URL이 여기에 표시됩니다.';
+            // 마우스가 항목에서 벗어나면 기본 페이지를 iframe에 로드
+            document.getElementById('iframe-content').src = '/html/vol201/index.php'; // 기본 페이지로 돌아감
         });
     });
-
 </script>
+
+<!-- iframe for page preview -->
+<iframe id="iframe-content" style="width: 100%; height: 600px;" src="/html/vol201/index.php"></iframe>
 
 
 

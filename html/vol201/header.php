@@ -91,8 +91,8 @@ if ($current_key !== false) {
                         $is_external = strpos($url, "https://") !== false;
                         $target = $is_external ? '_blank' : '_self';
                     ?>
-                    <li class="menu-item" <?php if ($current_url == $url) echo 'current'; ?> data-url="<?php echo $url; ?>">
-                        <a href="<?php echo $url; ?>"><?php echo $label; ?></a>
+                    <li class="menu-item <?php if ($current_url == $url) echo 'current'; ?>" data-url="<?php echo $url; ?>">
+                    <a href="<?php echo $url; ?>" target="<?php echo $target; ?>"><?php echo $label; ?></a>
                     </li>
                 <?php } ?>
             </ul>

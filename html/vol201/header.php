@@ -85,17 +85,18 @@ if ($current_key !== false) {
             <div class="close"><i class="xi-close-thin"></i></div>
             <div class="subscribe"><a href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp"  target='_blank'><img src="img/subscribe_bottom.svg"></a></div>
         
-            <ul>
-                <?php foreach ($menu_items as $url => $label) { ?>
+               <ul>
+               <?php foreach ($menu_items as $url => $label) { ?>
                     <?php
                         $is_external = strpos($url, "https://") !== false;
                         $target = $is_external ? '_blank' : '_self';
                     ?>
-                     <li class="menu-item" data-url="<?php echo $url; ?>">
+                    <li <?php if ($current_url == $url) echo 'class="current"'; ?>>
                         <a href="<?php echo $url; ?>"><?php echo $label; ?></a>
                     </li>
                 <?php } ?>
             </ul>
+
         </div>
         <div class="overlay" id="overlay"></div>
     </label>
@@ -104,7 +105,7 @@ if ($current_key !== false) {
 
 <!-- -------------------- -------------------- -------------------- -->
 <!-- iframe for page preview -->
-<iframe id="iframe-content" style="width: 100%; height: 600px;" src="/html/vol201/index.php"></iframe>
+
 
 <!-- -------------------- -------------------- -------------------- -->
 
@@ -120,19 +121,7 @@ if ($current_key !== false) {
     });
 
 
-     // 메뉴 항목에 마우스 오버 이벤트 처리
-     document.querySelectorAll('.menu-item').forEach(function(menuItem) {
-        menuItem.addEventListener('mouseover', function() {
-            // data-url 속성에서 URL 가져오기
-            const url = menuItem.getAttribute('data-url');
-            
-            // URL을 화면에 표시 (원하는 상세 페이지로 이동)
-            document.getElementById('url-display').innerText = '해당 URL: ' + url;
 
-            // 해당 URL을 iframe에 로드
-            document.getElementById('iframe-content').src = url;
-        });
-    });
 </script>
 
 

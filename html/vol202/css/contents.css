@@ -1564,17 +1564,17 @@
 }
 
 .sub10 .section01 .content .button { display: flex; gap: 40px; justify-content: center; }
-.sub10 .section01 .content .button a.subscribe { background: #ff7d3f; border: 0.7px solid #5d3100; text-align: center; color: #5d3100; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; border-radius: 999px; padding: 10px 0 7px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; transition: all 500ms; }
+.sub10 .section01 .content .button a.subscribe { background: #1E294F; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; border-radius: 999px; padding: 10px 0 7px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; transition: all 500ms; }
 .sub10 .section01 .content .button a.subscribe:hover { transform: translateY(-5px); box-shadow: 3.5px 3.5px #4a4a4a; }
-.sub10 .section01 .content .button a.send { background: #ffd92f; border: 0.7px solid #5d3100; text-align: center; color: #5d3100; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; padding: 10px 0 7px; border-radius: 999px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; transition: all 500ms; }
+.sub10 .section01 .content .button a.send { background: #BE221D; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; padding: 10px 0 7px; border-radius: 999px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; transition: all 500ms; }
 .sub10 .section01 .content .button a.send:hover { transform: translateY(-5px); box-shadow: 3.5px 3.5px #4a4a4a; }
 .sub10 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; padding: 10px 0 7px; border-radius: 36px; font-size: 25px; letter-spacing: -0.5px; }
 
-.sub10 .section01 .content .info { max-width: 600px; width: 100%; margin: 59px auto 0; border-top: 0.5px solid #fff; padding-top: 20px; font-size: 14.5px; }
+.sub10 .section01 .content .info { max-width: 600px; width: 100%; margin: 59px auto 0; border-top: 0.5px solid #000; padding-top: 20px; font-size: 14.5px; }
 .sub10 .section01 .content .info ul { padding-inline-start: 1em; letter-spacing: -0.3px; }
-.sub10 .section01 .content .info li { color: #fff; list-style: disc; }
+.sub10 .section01 .content .info li { color: #000; list-style: disc; line-height: 22px; }
 .sub10 .section01 .content .info li::marker { font-size: 8px; }
-.sub10 .section01 .content .info li span { color:#fff; position: relative; }
+.sub10 .section01 .content .info li span { color:#000; position: relative; }
 
 /* GSAP_ANIMATION */
 .sub10 .section01 .content .title {position: relative;}

@@ -25,14 +25,22 @@ $reward = false; //count 방식을 변경해야 겠음.
         <div class="section01 wow fadeBigInUp">
             <div class="content">
                 <div class="title">
-                    <div class="img_box img_box01"><img src="img/sub13/title.svg"></div>
-                    <div class="img_box img_box02"><img src="img/sub13/title-obj.svg"></div>
+                    <div class="img_box img_box01">
+                        <img src="img/sub13/title00.svg" class="img1">
+                        <img src="img/sub13/title01.svg" class="img2">
+                        <img src="img/sub13/title01-obj2.png" class="img3">
+                        <img src="img/sub13/title02.svg" class="img4">
+                        <img src="img/sub13/title02-obj.svg" class="img5">
+                        <img src="img/sub13/title03.svg" class="img6">
+                        <img src="img/sub13/title03-obj.svg" class="img7">
+                    </div>
+                    <div class="img_box img_box02"><img src="img/sub13/title-bg-obj.svg"></div>
                 </div>
                 <div class="text">
-                &lt;내  곁에 국민연금&gt;을 방문해 주신 구독자 여러분께 <br>
-                감사의 마음을 담아 산타의 양말 찾기 이벤트를 준비했습니다. <br>
-                이벤트 기간 내 행운이 담긴 양말을 클릭해 주신 <br>
-                구독자님 100분께 5천원 상당의 편의점 기프티콘을 드립니다.
+                    &lt;내  곁에 국민연금&gt;을 방문해 주신 구독자 여러분께 <br>
+                    감사의 마음을 담아 산타의 양말 찾기 이벤트를 준비했습니다. <br>
+                    이벤트 기간 내 행운이 담긴 양말을 클릭해 주신 <br>
+                    구독자님 100분께 5천원 상당의 편의점 기프티콘을 드립니다.
                 </div>
             </div>
             <div class="gift"><img src="img/sub13/gift.png"></div>
@@ -106,19 +114,19 @@ $reward = false; //count 방식을 변경해야 겠음.
                     <div class="event_cont">
                         <div class="star"><img src="img/sub13/star.svg"></div>
                         <div class="item_box">
-                            <div class="item item01"></div>
-                            <div class="item item02"></div>
-                            <div class="item item03"></div>
-                            <div class="item item04"></div>
-                            <div class="item item05"></div>
-                            <div class="item item06"></div>
+                            <div class="item item01"><img src="img/sub13/sock-item01.svg"></div>
+                            <div class="item item02"><img src="img/sub13/sock-item02.svg"></div>
+                            <div class="item item03"><img src="img/sub13/sock-item03.svg"></div>
+                            <div class="item item04"><img src="img/sub13/sock-item04.svg"></div>
+                            <div class="item item05"><img src="img/sub13/sock-item05.svg"></div>
+                            <div class="item item06"><img src="img/sub13/sock-item06.svg"></div>
                         </div>
                     </div>
                 </div>
 
                 <div class="text">
                     <ul>
-                        <li>내 곁에 국민연금 구독자가 아닐 경우, 차후에 당첨이 취소되오니 반드시 구독 후 이벤트에 참여해 주세요.</li>
+                        <li>&lt;내 곁에 국민연금&gt; 구독자가 아닐 경우, 차후에 당첨이 취소되오니 반드시 구독 후 이벤트에 참여해 주세요.</li>
                         <li>본 이벤트는 같은 이메일 주소, 같은 IP, 같은 이름, 같은 전화번호를 포함해 한 번만 응모 가능하며, 중복 참여는 불가능합니다.</li>
                     </ul>
                 </div>

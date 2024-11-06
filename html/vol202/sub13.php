@@ -11,7 +11,9 @@ $reward = false; //count 방식을 변경해야 겠음.
 	<meta property="og:image" content="../../img/logosns/logosns_vol199.jpg">
 	<?php include("../../inc/head.php"); ?>
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
-    <!-- <script src="js/main.js"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 
 <body>

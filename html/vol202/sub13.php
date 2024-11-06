@@ -399,8 +399,8 @@ function controlSendEnd() {
         // 현재 날짜 및 시간 객체 생성
         var currentDate = new Date();
 
-        // 비교할 날짜와 시간 설정 (2024년 11월 25일 23시 30분 59초)
-        var targetDate = new Date("2024-11-25T23:30:59");
+        // 비교할 날짜와 시간 설정 (2024년 12월 22일 23시 30분 59초)
+        var targetDate = new Date("2024-12-22T23:30:59");
 
         // 현재 날짜가 지정한 날짜보다 이후인 경우
         if (currentDate > targetDate) {
@@ -630,8 +630,8 @@ function controlSendEnd() {
     // 현재 날짜 및 시간 객체 생성
     var currentDate = new Date();
 
-    // 비교할 날짜와 시간 설정 (2024년 11월 25일 23시 30분 00초)
-    var targetDate = new Date("2024-11-25T23:30:00");
+    // 비교할 날짜와 시간 설정 (2024년 12월 22일 23시 30분 00초)
+    var targetDate = new Date("2024-12-22T23:30:00");
 
     // 현재 날짜가 지정한 날짜보다 이후인 경우
     if (currentDate > targetDate) {

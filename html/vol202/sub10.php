@@ -107,26 +107,40 @@
 
                     <div class="img_box img_box01"><img src="img/sub10/window.png"></div>
                     <div class="img_box img_box02"><img src="img/sub10/title-text.svg"></div>
-                    <div class="img_box img_box03"><img src="img/sub10/speech-bubble-wh.svg"></div>
-                    <div class="img_box img_box04"><img src="img/sub10/speech-bubble-red.svg"></div>
+                    <div class="img_box img_box03">
+                        <img src="img/sub10/speech-bubble-wh.svg">
+                        <div class="dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="img_box img_box04">
+                        <img src="img/sub10/speech-bubble-red.svg">
+                        <div class="dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
                     <div class="img_box img_box05"><img src="img/sub10/hearts.svg"></div>
                     
                 </div>
 				
                 <div class="title_txt">
-					독자 여러분의 목소리에 귀 기울여 <br>
-					늘 행복한 내곁에 국민연금을 만들어 가겠습니다.
+                    독자 여러분의 목소리에 귀 기울여 <br>
+                    늘 행복한 &lt;내 곁에 국민연금&gt;을 만들어 가겠습니다.
 				</div>
-				<div class="subtitle">좋은 의견을 남겨 주신 10분께는 1만원 상당의 <br class="mobile_display">베이커리 기프티콘을 보내 드립니다.</div>
+				<div class="subtitle">좋은 의견을 남겨 주신 10분께는 1만원 상당의 커피 기프티콘을 보내 드립니다.</div>
 				<div class="text">
-					독자 여러분이 남겨 주신 다양한 의견을 소개합니다. 국민연금 가을호 웹진에 대한 리뷰, 국민연금 제도에 대한 희망이 담긴 조언, 기대감 등 독자 여러분의 목소리를 기다리고 있겠습니다. 늘 관심을 갖고 웹진을 아껴 주시는 독자 여러분께 감사의 말씀을 전합니다.
+                    독자 여러분이 남겨 주신 다양한 의견을 소개합니다. 국민연금 겨울호 웹진에 대한 리뷰, 국민연금 제도에 대한 희망이 담긴 조언, 기대감 등 독자 여러분의 목소리를 기다리고 있겠습니다. 늘 관심을 갖고 웹진을 아껴 주시는 독자 여러분들께 감사의 말씀을 전합니다.
 				</div>
 				<div class="date_area">
 					<!-- TODO br처리에 pc, mobile을 나눈다 -->
-					<div class="top"><span>응모 기간</span><em>9월 13일 오후 2시 ~ <br class="mobile_display">11월 3일 오후 11시 30분</em></div>
-					<div><span>경품 발송</span><em>11월 11일 오후 5시</em></div>
+					<div class="top"><span>응모 기간</span><em>11월 25일 오후 2시 ~ <br class="mobile_display">12월 22일 오후 11시 30분</em></div>
+					<div><span>경품 발송</span><em>12월 30일 오후 5시</em></div>
 				</div>
-				<div class="gift"><img src="img/sub10/sub10_02.png"></div>
+				<div class="gift"><img src="img/sub10/gift.png"></div>
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a><a class="send" href="https://naver.me/FN779uYp" target="_blank">의견 보내기</a><span class="end" href="#" >마감되었습니다</span></div>
 				<div class="info">
 					<ul>
@@ -157,8 +171,8 @@
         // 현재 날짜 및 시간 객체 생성
         var currentDate = new Date();
 
-        // 비교할 날짜와 시간 설정 (2024년 11월 03일 23시 30분 00초)
-        var targetDate = new Date("2024-11-03T23:30:00");
+        // 비교할 날짜와 시간 설정 (2024년 12월 22일 23시 30분 00초)
+        var targetDate = new Date("2024-12-22T23:30:00");
 
         // 현재 날짜가 지정한 날짜보다 이후인 경우
         if (currentDate > targetDate) {

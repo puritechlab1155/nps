@@ -1893,58 +1893,37 @@
 }
 
 /* 이벤트4 */
-.sub13 #contents { position: relative; padding:0; }
-.sub13 .section01 { position: relative; padding-top: 106px; margin: 0; background: #9980ff; }
-.sub13 .section01 .content { position: relative; display: block; width: 100%; margin: 0 auto; padding:0 20px 49px; }
-.sub13 .section01 .content .title { width:100%; max-width: 706px; margin: 0 auto; }
+.sub13 #contents { position: relative; padding:0; background: linear-gradient(-120deg, #fdbc8f, #e94d57, #fdbc8f); }
+.sub13 .section01 { position: relative; padding-top: 145px; margin: 0; }
+.sub13 .section01 .content { position: relative; display: block; width: 100%; margin: 0 auto; padding:0 20px 76px; }
+.sub13 .section01 .content .title { position: relative; }
+.sub13 .section01 .content .title .img_box01 { width: 563px; margin: 0 auto; }
+.sub13 .section01 .content .title .img_box02 { width: 772px; position: absolute; left: 50%; top: 0; transform: translate(-50%, -17%); }
 .sub13 .section01 .content .title img { width:100%; }
+.sub13 .section01 .content .text { font-weight: 400; font-size: 17px; line-height: 27px; letter-spacing: -0.04em; text-align: center; color: #fff; padding-top: 35px; }
 
-.sub13 .gift { text-align: center; background: linear-gradient(#9980ff 50%, #7656f7 50%); width: 100%; }
+.sub13 .gift { text-align: center; width: 100%; }
 .sub13 .gift div { width: 100%; max-width: 600px; margin: 0 auto; }
 .sub13 .gift img { padding: 0 54px; width: 100%; max-width: 600px; opacity: 1; }
 .sub13 .gift img.on { animation: bounce 1s; opacity: 1; }
 
-.sub13 .section02 { background: #7656f7; padding: 6px 0 70px; }
+.sub13 .section02 { padding: 36px 0 70px; }
 .sub13 .section02 .content { padding: 0 20px; }
 .sub13 .section02 .content .howto { max-width: 600px; width: 100%; margin: 0 auto; }
 
-.sub13 .section02 .content .date_area { max-width: 600px; width: 100%; margin: 66px auto 55px; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff; padding: 10px 0; display: flex; flex-direction: column; color: #fff; font-size: 17px; font-weight: 400; }
+.sub13 .section02 .content .date_area { max-width: 600px; width: 100%; margin: 50px auto 62px; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff; padding: 10px 0; display: flex; flex-direction: column; color: #fff; font-size: 17px; font-weight: 400; }
 .sub13 .section02 .content .date_area .top { border-bottom: 0.5px solid #fff; padding-bottom: 10px; margin-bottom: 10px; }
 .sub13 .section02 .content .date_area span { font-weight: 700; margin-right: 44px; }
 
-.sub13 .section02 .content .button { display: flex; gap: 45px; justify-content: center; margin-bottom: 65px; }
-.sub13 .section02 .content .button a.subscribe { background: #9980ff; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: normal; border-radius: 999px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; transition: all 500ms; padding: 10px 0 7px; }
+.sub13 .section02 .content .button { display: flex; gap: 45px; justify-content: center; margin-bottom: 62px; }
+.sub13 .section02 .content .button a.subscribe { background: #FF2C2C; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: normal; border-radius: 999px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; transition: all 500ms; padding: 10px 0 7px; }
 .sub13 .section02 .content .button a.subscribe:hover { transform: translateY(-5px); box-shadow: 3.5px 3.5px #4a4a4a; }
 .sub13 .section02 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; line-height: 45px; border-radius: 36px; font-size: 25px; }
 
 
-.sub13 .section02 .content .event_wrap .event_cont { background: #fff; width: 100%; max-width: 600px; margin: 0 auto; padding: 42px 35px 41px; }
-.sub13 .section02 .content .event_wrap .event_cont .ladder_select { display: flex; justify-content: space-between; padding: 0 15px; }
-.sub13 .section02 .content .event_wrap .event_cont .ladder_select li { width: 50px; height: 50px; }
-.sub13 .section02 .content .event_wrap .event_cont .ladder { position: relative; }
-.sub13 .section02 .content .event_wrap .event_cont .ladder .ladder_list {  z-index: 2; position: absolute; left: 0; top: 0; width: 100%; max-width: 530px; }
-/* .sub13 .section02 .content .event_wrap .event_cont .ladder .ladder_list li { max-height: 0;  transition: all 2s linear; transition-delay: 0.2s; } */
-/* overflow: hidden; */
-.sub13 .section02 .content .event_wrap .event_cont .ladder .ladder_list li.on { max-height: 286px; }
-.sub13 .section02 .content .event_wrap .event_cont .button_list #destination_list { display: flex; justify-content: space-between; padding: 0 15px; }
-.sub13 .section02 .content .event_wrap .event_cont .button_list #destination_list li { width: 50px; height: 50px; }
-	
-.sub13 .section02 .content .event_wrap .event_cont .ladder .ladder_list li {
-	max-height: 0;
-    opacity: 0; /* 처음에는 투명하게 설정 */
-	transform: translateY(-10px); /*위로 살짝 이동된 상태로 시작 */
-	transition: opacity .5s ease-in-out, transform .5s ease-in-out;
-	/* 애니메이션 효과 추가 */
-}
-
-.sub13 .section02 .content .event_wrap .event_cont .ladder .ladder_list li.show {
-    opacity: 1; /* 완전히 보이도록 설정 */
-    transform: translateY(0); /* 원래 위치로 이동 */
-}
-.sub13 .section02 .content .event_wrap .event_cont .ladder .button_list #destination_list .goods_result {
-	display: none;
-	width: 100%;
-}
+.sub13 .section02 .content .event_wrap .event_cont { background: url(../img/sub13/tree.svg) no-repeat; background-size: contain; background-position: center; width: 100%; max-width: 668px; margin: 0 auto; }
+.sub13 .section02 .content .event_wrap .event_cont .star { text-align: center; }
+.sub13 .section02 .content .event_wrap .event_cont .star img { width: 62px; }
 
 .sub13 .popUp  { z-index: 10000;}
 

@@ -24,12 +24,18 @@ $reward = false; //count 방식을 변경해야 겠음.
     <section id="contents">
         <div class="section01 wow fadeBigInUp">
             <div class="content">
-                <div class="title"><img src="img/sub13/sub13_01.png" class="pc_display"><img src="img/sub13/sub13_01_mo.png" class="mobile_display"></div>
-                <div class="text mobile_display">
-                    내곁에 국민연금을 방문해 주신 구독자 여러분께 감사의 마음을 담아 사다리 타기 이벤트를 준비했습니다. 이벤트 기간 내 사다리를 타신 구독자님들 중 100분께 5천원 상당의 기프티콘을 드립니다.
+                <div class="title">
+                    <div class="img_box img_box01"><img src="img/sub13/title.svg"></div>
+                    <div class="img_box img_box02"><img src="img/sub13/title-obj.svg"></div>
+                </div>
+                <div class="text">
+                &lt;내  곁에 국민연금&gt;을 방문해 주신 구독자 여러분께 <br>
+                감사의 마음을 담아 산타의 양말 찾기 이벤트를 준비했습니다. <br>
+                이벤트 기간 내 행운이 담긴 양말을 클릭해 주신 <br>
+                구독자님 100분께 5천원 상당의 편의점 기프티콘을 드립니다.
                 </div>
             </div>
-            <div class="gift"><div><img src="img/sub13/sub13_02.png" class="pc_display"><img src="img/sub13/sub13_02_mo.png" class="mobile_display"></div></div>
+            <div class="gift"><img src="img/sub13/gift.png"></div>
         </div><!-- //section01 -->
 
         <div class="section02 wow fadeBigInUp">
@@ -39,12 +45,12 @@ $reward = false; //count 방식을 변경해야 겠음.
                     <img src="img/sub13/sub13_03_mo.svg" class="mobile_display">
                 </div>
                 <div class="date_area">
-                    <div class="top"><span>응모 기간</span><em>9월 13일 오후 2시 ~ <br class="mobile_display">11월 3일 오후 11시 30분</em></div>
-                    <div><span>경품 발송</span><em>11월 11일 오후 5시</em></div>
+                    <div class="top"><span>응모 기간</span><em>11월 25일 오후 2시 ~ <br class="mobile_display">12월 22일 오후 11시 30분</em></div>
+                    <div><span>경품 발송</span><em>12월 30일 오후 5시</em></div>
                 </div>
                 <div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <span class="end" href="#">마감되었습니다</span></div>
 
-                <div class="event_wrap">
+                <!-- <div class="event_wrap">
                     <div class="event_cont">
                         <ul class="ladder_select img_list_ul" id="ladder_text_image">
                             <li id="img1Id" class="imagDom img1" style="background: url('img/sub13/sub13_ladder01.png') no-repeat; background-size: 100%;" index=0></li>
@@ -93,7 +99,21 @@ $reward = false; //count 방식을 변경해야 겠음.
                                 </li>
                             </ul>
                         </div>
-                    </div><!-- //event_cont -->
+                    </div>
+                </div> -->
+
+                <div class="event_wrap">
+                    <div class="event_cont">
+                        <div class="star"><img src="img/sub13/star.svg"></div>
+                        <div class="item_box">
+                            <div class="item item01"></div>
+                            <div class="item item02"></div>
+                            <div class="item item03"></div>
+                            <div class="item item04"></div>
+                            <div class="item item05"></div>
+                            <div class="item item06"></div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="text">
@@ -416,8 +436,8 @@ function controlSendEnd() {
         // 현재 날짜 및 시간 객체 생성
         var currentDate = new Date();
 
-        // 비교할 날짜와 시간 설정 (2024년 08월 25일 23시 59분 59초)
-        var targetDate = new Date("2024-08-25T23:59:59");
+        // 비교할 날짜와 시간 설정 (2024년 11월 25일 23시 30분 59초)
+        var targetDate = new Date("2024-11-25T23:30:59");
 
         // 현재 날짜가 지정한 날짜보다 이후인 경우
         if (currentDate > targetDate) {
@@ -647,8 +667,8 @@ function controlSendEnd() {
     // 현재 날짜 및 시간 객체 생성
     var currentDate = new Date();
 
-    // 비교할 날짜와 시간 설정 (2024년 11월 03일 23시 30분 00초)
-    var targetDate = new Date("2024-11-03T23:30:00");
+    // 비교할 날짜와 시간 설정 (2024년 11월 25일 23시 30분 00초)
+    var targetDate = new Date("2024-11-25T23:30:00");
 
     // 현재 날짜가 지정한 날짜보다 이후인 경우
     if (currentDate > targetDate) {

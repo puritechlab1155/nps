@@ -36,10 +36,15 @@ $reward = false; //count 방식을 변경해야 겠음.
                     </div>
                     <div class="img_box img_box02"><img src="img/sub13/title-bg-obj.svg"></div>
                 </div>
-                <div class="text">
+                <div class="text pc_display">
                     &lt;내  곁에 국민연금&gt;을 방문해 주신 구독자 여러분께 <br>
                     감사의 마음을 담아 산타의 양말 찾기 이벤트를 준비했습니다. <br>
                     이벤트 기간 내 행운이 담긴 양말을 클릭해 주신 <br>
+                    구독자님 100분께 5천원 상당의 편의점 기프티콘을 드립니다.
+                </div>
+                <div class="text mobile_display">
+                    &lt;내  곁에 국민연금&gt;을 방문해 주신 구독자 여러분께 
+                    감사의 마음을 담아 산타의 양말 찾기 이벤트를 준비했습니다. 이벤트 기간 내 행운이 담긴 양말을 클릭해 주신 
                     구독자님 100분께 5천원 상당의 편의점 기프티콘을 드립니다.
                 </div>
             </div>
@@ -57,58 +62,6 @@ $reward = false; //count 방식을 변경해야 겠음.
                     <div><span>경품 발송</span><em>12월 30일 오후 5시</em></div>
                 </div>
                 <div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <span class="end" href="#">마감되었습니다</span></div>
-
-                <!-- <div class="event_wrap">
-                    <div class="event_cont">
-                        <ul class="ladder_select img_list_ul" id="ladder_text_image">
-                            <li id="img1Id" class="imagDom img1" style="background: url('img/sub13/sub13_ladder01.png') no-repeat; background-size: 100%;" index=0></li>
-                            <li id="img2Id" class="imagDom img2" style="background: url('img/sub13/sub13_ladder02.png') no-repeat; background-size: 100%;" index=1></li>
-                            <li id="img3Id" class="imagDom img3" style="background: url('img/sub13/sub13_ladder03.png') no-repeat; background-size: 100%;" index=2></li>
-                            <li id="img4Id" class="imagDom img4" style="background: url('img/sub13/sub13_ladder04.png') no-repeat; background-size: 100%;" index=3></li>
-                        </ul>
-
-                        <div class="ladder" id="ladder_body">
-                            <img src="img/sub13/sub13_ladder_body.png" id="backimage01">
-                            <img src="img/sub13/sub13_ladder_body02.png" id="backimage02">
-
-                            <ul class="ladder_list">
-                                <li class="ladder-line1"><img src="img/sub13/sub13_ladder_rline01.png"></li>
-                                <li class="ladder-line2"><img src="img/sub13/sub13_ladder_rline02.png"></li>
-                                <li class="ladder-line3"><img src="img/sub13/sub13_ladder_rline03.png"></li>
-                                <li class="ladder-line4"><img src="img/sub13/sub13_ladder_rline04.png"></li>
-                            </ul>
-                        </div>
-
-                        <div class="button_list">
-                            <ul id="destination_list">
-                                <li class="dest1">
-                                    <div class="goods_result">
-                                        <div class="winner"><img src="./img/sub13/sub13_winner.png" alt=""></div>
-                                        <div class="fail"><img src="./img/sub13/sub13_fail.jpg" alt=""></div>
-                                    </div>
-                                </li>
-                                <li class="dest2">
-                                    <div class="goods_result">
-                                        <div class="winner"><img src="./img/sub13/sub13_winner.png" alt=""></div>
-                                        <div class="fail"><img src="./img/sub13/sub13_fail.jpg" alt=""></div>
-                                    </div>
-                                </li>
-                                <li class="dest3">
-                                    <div class="goods_result">
-                                        <div class="winner"><img src="./img/sub13/sub13_winner.png" alt=""></div>
-                                        <div class="fail"><img src="./img/sub13/sub13_fail.jpg" alt=""></div>
-                                    </div>
-                                </li>
-                                <li class="dest4">
-                                    <div class="goods_result">
-                                        <div class="winner"><img src="./img/sub13/sub13_winner.png" alt=""></div>
-                                        <div class="fail"><img src="./img/sub13/sub13_fail.jpg" alt=""></div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> -->
 
                 <div class="event_wrap">
                     <div class="event_cont">

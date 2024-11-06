@@ -109,6 +109,7 @@
                     <div class="img_box img_box02"><img src="img/sub10/title-text.svg"></div>
                     <div class="img_box img_box03"><img src="img/sub10/speech-bubble-wh.svg"></div>
                     <div class="img_box img_box04"><img src="img/sub10/speech-bubble-red.svg"></div>
+                    <div class="img_box img_box05"><img src="img/sub10/hearts.svg"></div>
                     
                 </div>
 				

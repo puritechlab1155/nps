@@ -1939,11 +1939,11 @@
 .sub13 .section02 .content .event_wrap .event_cont .item_box .item05 { position: absolute; left: 26%; top: 67%; }
 .sub13 .section02 .content .event_wrap .event_cont .item_box .item06 { position: absolute; right: 7%; top: 58%; }
 .sub13 .section02 .content .event_wrap .event_cont .item_box .item { transform-origin: right top; }
-.sub13 .section02 .content .event_wrap .event_cont .item_box .item:hover { animation: shake 2.5s infinite linear; }
+.sub13 .section02 .content .event_wrap .event_cont .item_box .item:hover { animation: shake 0.5s infinite ease-in-out; }
 @keyframes shake {
-	0%{ transform: rotate(-5deg); }
-	50%{ transform: rotate(5deg); }
-	100%{ transform: rotate(-5deg); }
+	0%{ transform: rotate(1deg); }
+	50%{ transform: rotate(0deg); }
+	100%{ transform: rotate(1deg); }
 }
 @keyframes shining {
 	0%{ filter: brightness(1) drop-shadow(0 0 5px #E7C549); }

@@ -1541,14 +1541,19 @@
 .sub10 .section01 .content .title .img_box03 {  width: 100%; max-width: 142px; position: absolute; left: -7%; bottom: 120px; }
 .sub10 .section01 .content .title .img_box04 {  width: 100%; max-width: 140px; position: absolute; right: -22%; bottom: -4%; }
 .sub10 .section01 .content .title .img_box05 {  width: 100%; max-width: 116px; position: absolute; right: 0; bottom: 24%; }
+.sub10 .section01 .content .title .img_box .dots { display: flex; align-items: center; position: absolute; left: 50%; transform: translateX(-50%); }
+.sub10 .section01 .content .title .img_box03 .dots { gap: 24px; top: 30%; }
+.sub10 .section01 .content .title .img_box03 .dots span { width: 9.4px; height: 9.4px; border-radius: 50%; background: #BE221D; }
+.sub10 .section01 .content .title .img_box04 .dots { gap: 15px; top: 35%; }
+.sub10 .section01 .content .title .img_box04 .dots span { width: 14px; height: 14px; border-radius: 50%; background: #fff; }
 .sub10 .section01 .content .title .img_box img { width: 100%; }
-.sub10 .section01 .content .title_txt { width: 100%; text-align: center; font-family: 'WavvePADO'; font-size: 18px; font-weight: 400; line-height: 1.5; letter-spacing: -0.36px; color: #fff; margin: 20px auto 80px; }
-.sub10 .section01 .content .subtitle { background: #ffd92f; border-radius: 999px; border: 0.7px solid #5d3100; color: #5d3100; text-align: center; padding: 8px 0 5px; max-width: 600px; width: 100%; margin: 0 auto; font-family: 'Meetme'; font-size: 20px; font-weight: 400; letter-spacing: 0; height: 36px; }
-.sub10 .section01 .content .text { max-width: 600px; width: 100%; margin: 45px auto; color: #fff; font-weight: 400; font-size: 17px; line-height: 27px; letter-spacing: -0.34px; }
+.sub10 .section01 .content .title_txt { width: 100%; text-align: center; font-family: 'WavvePADO'; font-size: 18px; font-weight: 400; line-height: 20px; letter-spacing: -0.02em; color: #000; margin: 45px auto 43px; }
+.sub10 .section01 .content .subtitle { background: #BE221D; border-radius: 999px; color: #fff; text-align: center; padding: 8px 0 5px; max-width: 600px; width: 100%; margin: 0 auto; font-family: 'Meetme'; font-size: 20px; font-weight: 400; letter-spacing: 0; line-height: 23px; height: 36px; }
+.sub10 .section01 .content .text { max-width: 600px; width: 100%; margin: 43px auto 50px; color: #000; font-weight: 400; font-size: 17px; line-height: 27px; letter-spacing: -0.02em; }
 
-.sub10 .section01 .content .date_area { width: 100%; margin: 0 auto; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff; padding: 8px 0 10px; display: flex; color: #fff; font-size: 17px; font-weight: 400; flex-direction: column; }
-.sub10 .section01 .content .date_area .top { border-bottom: 0.5px solid #fff; padding-bottom: 10px; margin-bottom: 10px; }
-.sub10 .section01 .content .date_area span { color:#fff; font-weight: 700; margin-right: 44px; }
+.sub10 .section01 .content .date_area { width: 100%; margin: 0 auto; border-top: 0.5px solid #000; border-bottom: 0.5px solid #000; padding: 8px 0 10px; display: flex; color: #000; font-size: 17px; font-weight: 400; line-height: 25px; letter-spacing: -0.02em; flex-direction: column; }
+.sub10 .section01 .content .date_area .top { border-bottom: 0.5px solid #000; padding-bottom: 10px; margin-bottom: 10px; }
+.sub10 .section01 .content .date_area span { color:#000; font-weight: 700; margin-right: 44px; }
 
 .sub10 .section01 .content .gift { text-align: center; transition: all; margin: 47px auto 49px; }
 .sub10 .section01 .content .gift img { opacity: 0; width: 100%; max-width: 324px; }
@@ -1940,7 +1945,7 @@
 .sub13 .section02 .content .event_wrap .event_cont .item_box .item05 { position: absolute; left: 26%; top: 67%; }
 .sub13 .section02 .content .event_wrap .event_cont .item_box .item06 { position: absolute; right: 7%; top: 58%; }
 .sub13 .section02 .content .event_wrap .event_cont .item_box .item { transform-origin: right top; }
-.sub13 .section02 .content .event_wrap .event_cont .item_box .item:hover { animation: shake 2s infinite ease-in-out; }
+.sub13 .section02 .content .event_wrap .event_cont .item_box .item:hover { animation: shake 2.5s infinite linear; }
 @keyframes shake {
 	0%{ transform: rotate(5deg); }
 	50%{ transform: rotate(0deg); }

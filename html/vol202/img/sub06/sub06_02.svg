@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 980 1247">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #dcdcdc;
+      }
+
+      .cls-3 {
+        fill: #f8f8f8;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" y="0" width="980" height="1247" rx="16" ry="16"/>
+    </clipPath>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="_레이어_1" data-name="레이어_1">
+      <g class="cls-4">
+        <g>
+          <rect class="cls-3" y="0" width="980" height="1247" rx="16" ry="16"/>
+          <path class="cls-2" d="M0,101.7h980"/>
+          <path class="cls-2" d="M0,164.9h980"/>
+          <path class="cls-2" d="M0,228.2h980"/>
+          <path class="cls-2" d="M0,291.5h980"/>
+          <path class="cls-2" d="M0,354.7h980"/>
+          <path class="cls-2" d="M0,418h980"/>
+          <path class="cls-2" d="M0,481.2h980"/>
+          <path class="cls-2" d="M0,544.5h980"/>
+          <path class="cls-2" d="M0,607.7h980"/>
+          <path class="cls-2" d="M0,671h980"/>
+          <path class="cls-2" d="M0,734.3h980"/>
+          <path class="cls-2" d="M0,797.5h980"/>
+          <path class="cls-2" d="M0,860.8h980"/>
+          <path class="cls-2" d="M0,924.1h980"/>
+          <path class="cls-2" d="M0,987.3h980"/>
+          <path class="cls-2" d="M0,1050.6h980"/>
+          <path class="cls-2" d="M0,1113.8h980"/>
+          <path class="cls-2" d="M0,1177.1h980"/>
+          <path class="cls-2" d="M114.6-8.9v1255.9"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

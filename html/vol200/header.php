@@ -112,6 +112,28 @@ if ($current_key !== false) {
 </script>
 
 <script>
+
+document.getElementById('overlay').addEventListener('click', function () {
+        document.getElementById('menuToggle').blur();
+    });
+
+    // #menuToggle에 마우스가 올라가면 #menu가 보이도록
+    document.getElementById('menuToggle').addEventListener('mouseenter', function () {
+        document.getElementById('menu').style.display = 'block'; // 메뉴 보이기
+    });
+
+    // #menuToggle에서 마우스가 벗어나면 #menu가 다시 숨겨지도록
+    document.getElementById('menuToggle').addEventListener('mouseleave', function () {
+        document.getElementById('menu').style.display = 'none'; // 메뉴 숨기기
+    });
+
+    // .close 클래스를 클릭했을 때 #menu를 숨기도록
+    document.querySelector('.close').addEventListener('click', function () {
+        document.getElementById('menu').style.display = 'none'; // 메뉴 숨기기
+    });
+</script>
+
+<!-- <script>
 let lastScrollTop = 0; // 이전 스크롤 위치를 저장할 변수를 초기화합니다.
 
 window.addEventListener("scroll", function() {
@@ -128,4 +150,4 @@ window.addEventListener("scroll", function() {
 
   lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // 스크롤이 맨 위에 도달하면 초기화합니다.
 });
-</script>
+</script> -->

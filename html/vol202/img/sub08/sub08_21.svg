@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 128 127">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+      }
+
+      .cls-3 {
+        fill: #fdeb3f;
+      }
+
+      .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" y="0" width="127" height="127"/>
+    </clipPath>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="_레이어_1" data-name="레이어_1">
+      <g class="cls-5">
+        <g>
+          <path class="cls-3" d="M63.8,0c35,.1,63.4,28.7,63.2,63.8-.1,35-28.7,63.4-63.8,63.2C28.2,126.9-.1,98.3,0,63.2.1,28.2,28.7-.1,63.8,0Z"/>
+          <path class="cls-4" d="M49.6,46.6c3.3,0,5.9,2.7,5.9,6,0,3.3-2.7,6-5.9,6-3.3,0-5.9-2.7-5.9-6,0-3.3,2.7-6,5.9-6Z"/>
+          <path class="cls-4" d="M81.3,46.6c3.3,0,5.9,2.7,5.9,6,0,3.3-2.7,6-5.9,6-3.3,0-5.9-2.7-5.9-6,0-3.3,2.7-6,5.9-6Z"/>
+          <path class="cls-2" d="M49.5,78.5c8.7,8.5,22.9,8.9,31.8-.4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1649,7 +1649,7 @@
 .sub11 .gift .img_box { width: 100%; max-width: 415px; margin: 0 auto; }
 .sub11 .gift img { width: 100%; opacity: 1; }
 .sub11 .gift img.on { animation: bounce 1s; opacity: 1; }
-.sub11 .gift .text_box { width: 100%; max-width: 276px; height: 34px; background: #FFD152; border-radius: 999px; padding: 8px 0 3px; text-align: center; color: #000; font-family: 'laundrygothic'; font-size: 17px; font-weight: 700; letter-spacing: -0.02em; margin: 7px auto 0; }
+.sub11 .gift .text_box { width: 100%; max-width: 276px; height: 34px; background: #FFD152; border-radius: 999px; padding: 8px 0 3px; text-align: center; color: #000; font-family: 'laundrygothic'; font-size: 17px; font-weight: 700; line-height: 20px; letter-spacing: -0.02em; margin: 7px auto 0; }
 
 .sub11 .section02 { padding-bottom: 70px; }
 .sub11 .section02 .content { width: 100%; padding: 0 20px; }
@@ -1660,7 +1660,7 @@
 .sub11 .section02 .content .quiz { width: 100%; max-width: 600px; margin: 0 auto; }
 .sub11 .section02 .content .quiz .quiz_cont { background: #fff; }
 .sub11 .section02 .content .quiz .quiz_cont .q_title { text-align: center; padding: 41px 0 28px; }
-.sub11 .section02 .content .quiz .quiz_cont .q_text { color: #000; text-align: center; font-family: 'laundrygothic'; font-size: 17px; font-weight: 400; line-height: 27px; letter-spacing: -0.51px; padding: 0 22px 0 23px; }
+.sub11 .section02 .content .quiz .quiz_cont .q_text { color: #000; text-align: center; font-family: 'laundrygothic'; font-size: 17px; font-weight: 400; line-height: 27px; letter-spacing: -0.03em; padding: 0 22px 0 23px; }
 .sub11 .section02 .content .quiz .blank_box { padding: 56px 0 35px; }
 .sub11 .section02 .content .quiz .blank_box ul { display: flex; gap: 16px; justify-content: center; }
 .sub11 .section02 .content .quiz .blank_box ul li { color: #000; text-align: center; font-family: 'laundrygothic'; font-size: 43px; font-weight: 400; line-height: 27px; letter-spacing: -1.29px; padding: 22px 17px; background: #d9d9d9; border-radius: 8px; }
@@ -1743,28 +1743,27 @@
 }
 
 @media only all and (max-width:767px) {
-	.sub11 .section01 { padding-top: 48px; }
+	.sub11 .section01 { padding-top: 64px; }
 	.sub11 .section01 .content { padding-bottom: 0; }
 	.sub11 .section01 .content .title { width: 100%; }
-	.sub11 .section01 .content .title img { padding: 0 5px 0 6px; }
-	.sub11 .section01 .content .text { width: 100%; max-width: 360px; margin: 0 auto; position: unset; transform: translateX(0); text-align: left; padding-bottom: 25px; padding: 31px 0 16px; }
+	.sub11 .section01 .content .title img { transform: scale(1.15); }
 
-	.sub11 .gift { position: relative; }
-	.sub11 .gift::after { content: ''; width: 100%; height: 20px; background: #5499a5; position: absolute; left: 0; top: 0; transform: translateY(-50%); z-index: 1; }
-	.sub11 .gift .img_box { max-width: 313px; position: relative; z-index: 2; }
-	.sub11 .gift .text_box { max-width: 224px; padding: 10px 0 6px 1px; font-size: 15px; letter-spacing: -0.3px; margin: 6px auto 0; }
+	.sub11 .section01 .content .text { text-align: left; padding: 56px 0 34px; }
+
+	.sub11 .gift .img_box { max-width: 335px; position: relative; z-index: 2; }
+	.sub11 .gift .text_box { max-width: 224px; padding: 10px 0 7px; font-size: 15px; line-height: 17px; margin: 7px auto 0; }
 
 	.sub11 .section02 { padding-bottom: 50px; max-width: 360px; margin: 0 auto; }
-	.sub11 .section02 .content .date_area { margin: 32px auto 36px; padding: 6px 0 10px; line-height: 1.5; }
+	.sub11 .section02 .content .date_area { margin: 44px auto 36px; padding: 6px 0 10px; line-height: 1.5; }
 	.sub11 .section02 .content .date_area .top { display: flex; }
 	.sub11 .section02 .content .date_area span { margin-right: 20px; }
 
+	.sub11 .section02 .content .quiz .quiz_cont { margin-top: -0.5px; }
 	.sub11 .section02 .content .quiz .quiz_cont .q_title { padding: 20px 0; }
-	.sub11 .section02 .content .quiz .quiz_cont .q_text { text-align: left; }
 	.sub11 .section02 .content .quiz .blank_box { padding: 24px 0; }
 	.sub11 .section02 .content .quiz .blank_box ul { gap: 11px; }
 	.sub11 .section02 .content .quiz .blank_box ul li { font-size: 30px; line-height: 19px; letter-spacing: -0.9px; padding: 16px 12px; border-radius: 5px; }
-	.sub11 .section02 .content .quiz .hint_box { padding-bottom: 25px; }
+	.sub11 .section02 .content .quiz .hint_box { padding-bottom: 35px; }
 
 	.sub11 .section02 .content .button { display: flex; gap: 20px; justify-content: center; margin: 36px 0; }
 	.sub11 .section02 .content .button a.subscribe { max-width: 170px; width: 100%; height: 45px; border-radius: 36px; font-size: 20px; padding: 12px 0 10px; }

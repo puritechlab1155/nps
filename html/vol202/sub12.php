@@ -20,12 +20,14 @@
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="title">
-					<img src="img/sub12/sub12_01.svg">
-				</div>
-				<div class="tit_img">
-					<img src="img/sub12/sub12_02.svg" class="pc_display tit_img_main">
-					<img src="img/sub12/sub12_02_mo.svg" class="mobile_display">
-					<img src="img/sub12/sub12_02_item.svg" class="tit_img_item">
+					<img src="img/sub12/objects.svg" class="objs">
+					<img src="img/sub12/2024.svg" class="year">
+					<img src="img/sub12/trophy.svg" class="trophy">
+					<p class="text">
+						최고의 <br>
+						콘텐츠를 <br>
+						뽑아라!
+					</p>
 				</div>
 				<div class="text_box">
 					<ul class="rect_item_top">

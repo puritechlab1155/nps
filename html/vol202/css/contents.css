@@ -1826,21 +1826,18 @@
 }
 
 /* 이벤트3 */
-.sub12 #contents { position: relative; padding:0; background: #fbe0d9; }
-.sub12 .section01 { position: relative; padding-top: 108px; margin: 0; }
+.sub12 #contents { position: relative; padding: 0; background: #E6D9C7; }
+.sub12 .section01 { position: relative; margin: 0; }
 
-.sub12 .section01 .content { position: relative; display: block; width: 100%; max-width: 1100px; margin: 0 auto; padding:0 20px; }
-.sub12 .section01 .content .title { width:100%; max-width: 447px; margin: 0 auto; position: relative; }
+.sub12 .section01 .content { position: relative; display: block; width: 100%; max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+.sub12 .section01 .content .title { width: 100%; margin: 0 auto; position: relative; display: flex; flex-direction: column; align-items: center; }
 
-.sub12 .section01 .content .title::after { content: ''; width: 500px; height: 426px; background: url(../img/sub12/sub12_01_item.svg) no-repeat; position: absolute; left: 40px; top: 20px; z-index: 1; }
-/* GSAP */
-/* .sub12 .section01 .content .title::after { content: ''; width: 500px; height: 426px; background: url(../img/sub12/sub12_heart.png) no-repeat; position: absolute; left: 40px; top: 20px; z-index: 1; } */ 
+.sub12 .section01 .content .title .objs { width: 100%; max-width: 894px; }
+.sub12 .section01 .content .title .year { width: 100%; max-width: 285px; position: absolute; left: 50%; transform: translateX(-50%); top: 50%; }
+.sub12 .section01 .content .title .trophy { width: 100%; max-width: 567px; }
+.sub12 .section01 .content .title .text { font-family: 'GmarketSans'; font-weight: 500; font-size: 44px; line-height: 47px; letter-spacing: -0.05em; color: #6F4B1E; position: absolute; left: 50%; transform: translateX(-50%); bottom: 13%; text-align: center; }
 
-.sub12 .section01 .content .title img { width:100%; }
-.sub12 .section01 .content .tit_img { margin-left: 87px; margin-top: -40px; position: relative; }
-.sub12 .section01 .content .tit_img .tit_img_item { position: absolute; left: 84px; bottom: -5px; }
-
-.sub12 .section01 .text_box { position: relative; width: 100%; max-width: 600px; padding: 30px 10px; border: 2px solid #6b5950; background: #fff; margin: 85px auto 0; text-align: center; }
+.sub12 .section01 .text_box { position: relative; width: 100%; max-width: 600px; padding: 30px 10px; border: 2px solid #6b5950; background: #fff; margin: 0 auto; text-align: center; }
 .sub12 .section01 .text_box p { color: #6b5950; font-family: 'WavvePADO'; font-size: 17px; font-weight: 400; line-height: 27px; letter-spacing: -0.34px; }
 .sub12 .section01 .text_box span { color: #9ba7ce; -webkit-text-stroke-width: 2; -webkit-text-stroke-color: #6b5950; font-family: 'WavvePADO'; font-size: 18px; font-weight: 400; line-height: 27px; letter-spacing: -0.36px; text-shadow: -2px 0px #6b5950, -2px 2px #6b5950, 2px -2px #6b5950, -2px -2px #6b5950, 2px 2px #6b5950, 0px 2px #6b5950, 2px 0px #6b5950, 0px -2px #6b5950; }
 .sub12 .section01 .text_box ul { display: flex; }

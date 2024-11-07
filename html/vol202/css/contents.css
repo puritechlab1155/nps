@@ -1536,11 +1536,13 @@
 .sub10 .section01 { position: relative; display: block; width: 100%; max-width: 600px; margin: 0 auto; font-family:'Noto Sans CJK Kr'; }
 .sub10 .section01 .content { position: relative; }
 .sub10 .section01 .content .title { position: relative; }
-.sub10 .section01 .content .title .img_box01 {  width: 100%; max-width: 299px; margin: 0 auto; }
-.sub10 .section01 .content .title .img_box02 {  width: 100%; max-width: 497px; margin: 50px auto 0; }
-.sub10 .section01 .content .title .img_box03 {  width: 100%; max-width: 142px; position: absolute; left: -7%; bottom: 120px; }
-.sub10 .section01 .content .title .img_box04 {  width: 100%; max-width: 140px; position: absolute; right: -22%; bottom: -4%; }
-.sub10 .section01 .content .title .img_box05 {  width: 100%; max-width: 116px; position: absolute; right: 0; bottom: 24%; }
+.sub10 .section01 .content .title .img_box01 { width: 100%; max-width: 299px; margin: 0 auto; position: relative; height: fit-content; overflow: hidden; border-radius: 45% 45% 0 0; }
+.sub10 .section01 .content .title .img_box01 .img-wf { position: absolute; right: 0; top: 0; z-index: 2; filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.5)); }
+.sub10 .section01 .content .title .img_box01 .img-sc { position: absolute; right: -25px; top: 25%; width: 200px; z-index: 1; }
+.sub10 .section01 .content .title .img_box02 { width: 100%; max-width: 497px; margin: 50px auto 0; }
+.sub10 .section01 .content .title .img_box03 { width: 100%; max-width: 142px; position: absolute; left: -7%; bottom: 120px; }
+.sub10 .section01 .content .title .img_box04 { width: 100%; max-width: 140px; position: absolute; right: -22%; bottom: -4%; }
+.sub10 .section01 .content .title .img_box05 { width: 100%; max-width: 116px; position: absolute; right: 0; bottom: 24%; }
 .sub10 .section01 .content .title .img_box .dots { display: flex; align-items: center; position: absolute; left: 50%; transform: translateX(-50%); }
 .sub10 .section01 .content .title .img_box03 .dots { gap: 24px; top: 30%; }
 .sub10 .section01 .content .title .img_box03 .dots span { width: 9.4px; height: 9.4px; border-radius: 50%; background: #BE221D; }

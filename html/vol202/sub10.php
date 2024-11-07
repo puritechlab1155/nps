@@ -105,7 +105,11 @@
 			<div class="content">
 				<div class="title">
 
-                    <div class="img_box img_box01"><img src="img/sub10/window.png"></div>
+                    <div class="img_box img_box01">
+                        <img src="img/sub10/window-back.png" class="img-wb">
+                        <img src="img/sub10/window-frame.png" class="img-wf">
+                        <img src="img/sub10/smile-character.png" class="img-sc">
+                    </div>
                     <div class="img_box img_box02"><img src="img/sub10/title-text.svg"></div>
                     <div class="img_box img_box03">
                         <img src="img/sub10/speech-bubble-wh.svg">

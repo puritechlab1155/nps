@@ -62,17 +62,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
 			<div class="content">
 
 				<div class="title">
-
-                    <img id="backgroundImage" class="motion1"src="img/sub11/sub11_vis2.png" class="pc_display">
-                    <img class="motion2"src="img/sub11/sub11_text2.png" class="pc_display">
-
+					<img src="img/sub11/sub11_title_img.svg">
                 </div>
 
 				<div class="text pc_display">
-					내곁에 국민연금 가을호를 잘 읽어 보셨나요?<br>
+					&lt;내 곁에 국민연금&gt; 겨울호를 잘 읽어 보셨나요?<br>
 					여러분이 읽은 웹진 속에 정답이 숨어 있습니다.<br>
-					빈칸을 맞추신 분들 중 추첨을 통해 선정된 15분께는 <br>
-					1만원 상당의 커피 기프티콘을 드립니다.
+					빈칸을 맞히신 분들 중 추첨을 통해 선정된 15분께는 <br>
+					커피 기프티콘을 드립니다.
 				</div>
 				<div class="text mobile_display">
 					내곁에 국민연금 가을호를 잘 읽어 보셨나요? 여러분이 읽은 웹진 속에 정답이 숨어 있습니다. 빈칸을 맞추신 분들 중 추첨을 통해 선정된 15분께는 1만원 상당의 커피 기프티콘을 드립니다.
@@ -80,14 +77,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
 			</div>
 		</div>
 		<div class="gift">
-			<div class="img_box"><img src="img/sub11/sub11_02.png"></div>
-			<div class="text_box">이디야커피 디지털 상품권 1만 원권</div>
+			<div class="img_box"><img src="img/sub11/gift.png"></div>
+			<div class="text_box">커피 기프티콘</div>
 		</div>
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
 				<div class="date_area">
-					<div class="top"><span>응모 기간</span><em>9월 13일 오후 2시 ~ <br class="mobile_display">11월 3일 오후 11시 30분</em></div>
-					<div><span>경품 발송</span><em>11월 11일 오후 5시</em></div>
+					<div class="top"><span>응모 기간</span><em>11월 25일 오후 2시 ~ <br class="mobile_display">12월 22일 오후 11시 30분</em></div>
+					<div><span>경품 발송</span><em>12월 30일 오후 5시</em></div>
 				</div>
 				<div class="quiz">
 					<div class="img_box"><img src="img/sub11/sub11_03.svg"></div>
@@ -95,20 +92,19 @@ document.addEventListener("DOMContentLoaded", (event) => {
 						<div class="q_title pc_display"><img src="img/sub11/sub11_04.svg"></div>
 						<div class="q_title mobile_display"><img src="img/sub11/sub11_04_mo.svg"></div>
 						<div class="q_text pc_display">
-							국민연금의 기초가 되는 급여로 국민연금 가입자가 나이가 들어 소득활동에 <br>
-							종사하지 못할 경우 생활안정과 복지증진을 위하여 지급되는 급여로서 <br>
-							가입기간(연금보험료 납부기간)이 10년 이상이면 출생연도별 지급개시연령<br>
-							이후부터 평생 동안 매월 지급받는 연금은?
+							보험료율 13%와 소득대체율 42% 등 <br>
+							모수 개혁안을 중심으로 <br>
+							정부가 21년만에 내놓은 안건은?
 						</div>
 						<div class="q_text mobile_display">
 							국민연금의 기초가 되는 급여로 국민연금 가입자가 나이가 들어 소득활동에 종사하지 못할 경우 생활안정과 복지증진을 위하여 지급되는 급여로서 가입기간(연금보험료 납부기간)이 10년 이상이면 출생연도별 지급개시연령 이후부터 평생 동안 매월 지급받는 연금은?
 						</div>
 						<div class="blank_box">
 							<ul>
-								<li>ㄴ</li>
-								<li>ㄹ</li>
 								<li>ㅇ</li>
 								<li>ㄱ</li>
+								<li>ㄱ</li>
+								<li>ㅎ</li>
 							</ul>
 						</div>
 						<div class="hint_box">
@@ -146,8 +142,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
         // 현재 날짜 및 시간 객체 생성
         var currentDate = new Date();
 
-        // 비교할 날짜와 시간 설정 (2024년 11월 03일 23시 30분 00초)
-        var targetDate = new Date("2024-11-03T23:30:00");
+        // 비교할 날짜와 시간 설정 (2024년 12월 22일 23시 30분 00초)
+        var targetDate = new Date("2024-12-22T23:30:00");
 
         // 현재 날짜가 지정한 날짜보다 이후인 경우
         if (currentDate > targetDate) {

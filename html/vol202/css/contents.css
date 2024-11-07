@@ -1537,8 +1537,8 @@
 .sub10 .section01 .content { position: relative; }
 .sub10 .section01 .content .title { position: relative; }
 .sub10 .section01 .content .title .img_box01 { width: 100%; max-width: 299px; margin: 0 auto; position: relative; height: fit-content; overflow: hidden; border-radius: 45% 45% 0 0; }
-.sub10 .section01 .content .title .img_box01 .img-wf { position: absolute; right: 0; top: 0; z-index: 2; filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.5)); }
-.sub10 .section01 .content .title .img_box01 .img-sc { position: absolute; right: -25px; top: 25%; width: 200px; z-index: 1; }
+.sub10 .section01 .content .title .img_box01 .img-wf { position: absolute; right: 0; top: 0; z-index: 2; filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.5)); width: 100%; }
+.sub10 .section01 .content .title .img_box01 .img-sc { position: absolute; right: -25px; top: 25%; width: 100%; max-width: 200px; z-index: 1; }
 .sub10 .section01 .content .title .img_box02 { width: 100%; max-width: 497px; margin: 50px auto 0; }
 .sub10 .section01 .content .title .img_box03 { width: 100%; max-width: 142px; position: absolute; left: -7%; bottom: 120px; }
 .sub10 .section01 .content .title .img_box04 { width: 100%; max-width: 140px; position: absolute; right: -22%; bottom: -4%; }
@@ -1549,6 +1549,7 @@
 .sub10 .section01 .content .title .img_box04 .dots { gap: 15px; top: 35%; }
 .sub10 .section01 .content .title .img_box04 .dots span { width: 14px; height: 14px; border-radius: 50%; background: #fff; }
 .sub10 .section01 .content .title .img_box img { width: 100%; }
+
 .sub10 .section01 .content .title_txt { width: 100%; text-align: center; font-family: 'WavvePADO'; font-size: 18px; font-weight: 400; line-height: 20px; letter-spacing: -0.02em; color: #000; margin: 45px auto 43px; }
 .sub10 .section01 .content .subtitle { background: #BE221D; border-radius: 999px; color: #fff; text-align: center; padding: 8px 0 5px; max-width: 600px; width: 100%; margin: 0 auto; font-family: 'Meetme'; font-size: 20px; font-weight: 400; letter-spacing: 0; line-height: 23px; height: 36px; }
 .sub10 .section01 .content .text { max-width: 600px; width: 100%; margin: 43px auto 50px; color: #000; font-weight: 400; font-size: 17px; line-height: 27px; letter-spacing: -0.02em; }
@@ -1588,9 +1589,20 @@
 
 
 @media only all and (max-width:767px) {
-	.sub10 #contents { padding: 43px 0 50px; }
+	.sub10 #contents { padding: 44px 0 50px; }
 	.sub10 .section01 { max-width: 360px; width: 100%; }
-	.sub10 .section01 .content .title img { padding: 0 10px; }
+
+	.sub10 .section01 .content .title .img_box01 { width: 100%; max-width: 155px; }
+	.sub10 .section01 .content .title .img_box01 .img-wf { right: 0; top: 0; filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, 0.5)); }
+	.sub10 .section01 .content .title .img_box01 .img-sc { right: -15px; top: 25%; width: 100%; max-width: 110px; }
+	.sub10 .section01 .content .title .img_box02 { width: 100%; max-width: 203px; margin: 30px auto 0; }
+	.sub10 .section01 .content .title .img_box03 { width: 100%; max-width: 57px; left: 10%; bottom: 50px; }
+	.sub10 .section01 .content .title .img_box04 { width: 100%; max-width: 57px; right: 2%; bottom: -4%; }
+	.sub10 .section01 .content .title .img_box05 { width: 100%; max-width: 60px; right: 13%; bottom: 23%; }
+	.sub10 .section01 .content .title .img_box03 .dots { gap: 9px; }
+	.sub10 .section01 .content .title .img_box03 .dots span { width: 4px; height: 4px; }
+	.sub10 .section01 .content .title .img_box04 .dots { gap: 6px; }
+	.sub10 .section01 .content .title .img_box04 .dots span { width: 6px; height: 6px; }
 
 	.sub10 .section01 .content .title #backgroundImage {width: 100%; display: block !important;}
 	.sub10 .section01 .content .title .motion1 {width: 30%; }
@@ -1598,8 +1610,8 @@
 	.sub10 .section01 .content .title .motion3 {width: 30%; top: -8%;}
 	.sub10 .section01 .content .title .motion4 { width: 30%;}
 
-	.sub10 .section01 .content .title_txt { font-size: 16px; letter-spacing: -0.32px; margin: 43px auto 32px; }
-	.sub10 .section01 .content .subtitle { padding: 9px 0 7px; font-size: 16px; height: 54px; }
+	.sub10 .section01 .content .title_txt { font-size: 16px; line-height: 18px; margin: 14px auto 50px; }
+	.sub10 .section01 .content .subtitle { padding: 9px 0 7px; font-size: 16px; line-height: 18px; height: 54px; }
 	.sub10 .section01 .content .text { margin: 32px auto; }
 
 	.sub10 .section01 .content .date_area { display: inline-block; padding: 6px 0 10px; }
@@ -1607,8 +1619,8 @@
 	.sub10 .section01 .content .date_area .top { line-height: 1.5; }
 	.sub10 .section01 .content .date_area span { margin-right: 20px; width: 20% }
 
-	.sub10 .section01 .content .gift { margin: 42px auto 46px; }
-	.sub10 .section01 .content .gift img { padding: 0 32px; }
+	.sub10 .section01 .content .gift { margin: 62px auto 46px; }
+	.sub10 .section01 .content .gift img { padding: 0 37px; }
 
 	.sub10 .section01 .content .button { display: flex; gap: 20px; justify-content: center; }
 	.sub10 .section01 .content .button a.subscribe { max-width: 170px; width: 100%; height: 45px; border-radius: 36px; font-size: 20px; padding: 11px 0; }

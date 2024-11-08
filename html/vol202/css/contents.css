@@ -1539,7 +1539,7 @@
 .sub10 .section01 .content .title .img_box01 { width: 100%; max-width: 299px; margin: 0 auto; position: relative; height: fit-content; overflow: hidden; border-radius: 45% 45% 0 0; }
 .sub10 .section01 .content .title .img_box01 .img-wf { position: absolute; right: 0; top: 0; z-index: 2; filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.5)); width: 100%; }
 .sub10 .section01 .content .title .img_box01 .img-sc { position: absolute; right: -25px; top: 25%; width: 100%; max-width: 200px; z-index: 1; }
-.sub10 .section01 .content .title .img_box02 { width: 100%; max-width: 497px; margin: 50px auto 0; }
+.sub10 .section01 .content .title .img_box02 { width: 100%; max-width: 497px; margin: 58px auto 0; }
 .sub10 .section01 .content .title .img_box03 { width: 100%; max-width: 142px; position: absolute; left: -7%; bottom: 120px; }
 .sub10 .section01 .content .title .img_box04 { width: 100%; max-width: 140px; position: absolute; right: -22%; bottom: -4%; }
 .sub10 .section01 .content .title .img_box05 { width: 100%; max-width: 116px; position: absolute; right: 0; bottom: 24%; }
@@ -1547,7 +1547,6 @@
 .sub10 .section01 .content .title .img_box .dots { display: flex; align-items: center; position: absolute; left: 50%; transform: translateX(-50%); }
 .sub10 .section01 .content .title .img_box03 .dots { gap: 24px; top: 30%; }
 .sub10 .section01 .content .title .img_box03 .dots span { width: 9.4px; height: 9.4px; border-radius: 50%; background: #BE221D; animation: dots 4s infinite; opacity: 0; }
-.sub10 .section01 .content .title .img_box03 .dots span:nth-child(1) {  }
 .sub10 .section01 .content .title .img_box03 .dots span:nth-child(2) { animation-delay: 0.5s; }
 .sub10 .section01 .content .title .img_box03 .dots span:nth-child(3) { animation-delay: 1s; }
 .sub10 .section01 .content .title .img_box04 .dots { gap: 15px; top: 35%; }
@@ -1572,7 +1571,7 @@
 
 .sub10 .section01 .content .title .img_box img { width: 100%; }
 
-.sub10 .section01 .content .title_txt { width: 100%; text-align: center; font-family: 'WavvePADO'; font-size: 18px; font-weight: 400; line-height: 20px; letter-spacing: -0.02em; color: #000; margin: 45px auto 43px; }
+.sub10 .section01 .content .title_txt { width: 100%; text-align: center; font-family: 'WavvePADO'; font-size: 18px; font-weight: 400; line-height: 20px; letter-spacing: -0.02em; color: #000; margin: 40px auto 43px; }
 .sub10 .section01 .content .subtitle { background: #BE221D; border-radius: 999px; color: #fff; text-align: center; padding: 8px 0 5px; max-width: 600px; width: 100%; margin: 0 auto; font-family: 'Meetme'; font-size: 20px; font-weight: 400; letter-spacing: 0; line-height: 23px; height: 36px; }
 .sub10 .section01 .content .text { max-width: 600px; width: 100%; margin: 43px auto 50px; color: #000; font-weight: 400; font-size: 17px; line-height: 27px; letter-spacing: -0.02em; }
 
@@ -1580,8 +1579,8 @@
 .sub10 .section01 .content .date_area .top { border-bottom: 0.5px solid #000; padding-bottom: 10px; margin-bottom: 10px; }
 .sub10 .section01 .content .date_area span { color:#000; font-weight: 700; margin-right: 44px; }
 
-.sub10 .section01 .content .gift { text-align: center; transition: all; margin: 47px auto 49px; }
-.sub10 .section01 .content .gift img { opacity: 0; width: 100%; max-width: 324px; }
+.sub10 .section01 .content .gift { text-align: center; transition: all; margin: 50px auto 34px; }
+.sub10 .section01 .content .gift img { opacity: 0; width: 100%; max-width: 316px; }
 .sub10 .section01 .content .gift img.on { animation: bounce 1s; opacity: 1; }
 @keyframes bounce {
 	0%{ transform: scale(0); }
@@ -1589,26 +1588,17 @@
 }
 
 .sub10 .section01 .content .button { display: flex; gap: 40px; justify-content: center; }
-.sub10 .section01 .content .button a.subscribe { background: #1E294F; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; border-radius: 999px; padding: 10px 0 7px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; transition: all 500ms; }
+.sub10 .section01 .content .button a.subscribe { background: #1E294F; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; border-radius: 999px; padding: 10px 0 7px; font-size: 25px; font-weight: 400; line-height: 28px; letter-spacing: -0.02em; transition: all 500ms; }
 .sub10 .section01 .content .button a.subscribe:hover { transform: translateY(-5px); box-shadow: 3.5px 3.5px #4a4a4a; }
-.sub10 .section01 .content .button a.send { background: #BE221D; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; padding: 10px 0 7px; border-radius: 999px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; transition: all 500ms; }
+.sub10 .section01 .content .button a.send { background: #BE221D; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; padding: 10px 0 7px; border-radius: 999px; font-size: 25px; font-weight: 400; line-height: 28px; letter-spacing: -0.02em; transition: all 500ms; }
 .sub10 .section01 .content .button a.send:hover { transform: translateY(-5px); box-shadow: 3.5px 3.5px #4a4a4a; }
-.sub10 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; padding: 10px 0 7px; border-radius: 36px; font-size: 25px; letter-spacing: -0.5px; }
+.sub10 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; padding: 10px 0 7px; border-radius: 36px; font-size: 25px; line-height: 28px; letter-spacing: -0.02em; }
 
 .sub10 .section01 .content .info { max-width: 600px; width: 100%; margin: 59px auto 0; border-top: 0.5px solid #000; padding-top: 20px; font-size: 14.5px; }
-.sub10 .section01 .content .info ul { padding-inline-start: 1em; letter-spacing: -0.3px; }
+.sub10 .section01 .content .info ul { padding-inline-start: 1em; letter-spacing: -0.02em; }
 .sub10 .section01 .content .info li { color: #000; list-style: disc; line-height: 22px; }
 .sub10 .section01 .content .info li::marker { font-size: 8px; }
 .sub10 .section01 .content .info li span { color:#000; position: relative; }
-
-/* GSAP_ANIMATION */
-.sub10 .section01 .content .title {position: relative;}
-.sub10 .section01 .content .title #backgroundImage { position: relative; }
-.sub10 .section01 .content .title .motion1 { position: absolute; top:45%;}
-.sub10 .section01 .content .title .motion2 { position: absolute; top:68%; left:10%;}
-.sub10 .section01 .content .title .motion3 { position: absolute; top:0%; right:30%;}
-.sub10 .section01 .content .title .motion4 { position: absolute; top:15%; right:10%;}
-
 
 @media only all and (max-width:767px) {
 	.sub10 #contents { padding: 44px 0 50px; }
@@ -1626,23 +1616,16 @@
 	.sub10 .section01 .content .title .img_box04 .dots { gap: 6px; }
 	.sub10 .section01 .content .title .img_box04 .dots span { width: 6px; height: 6px; }
 
-	.sub10 .section01 .content .title #backgroundImage {width: 100%; display: block !important;}
-	.sub10 .section01 .content .title .motion1 {width: 30%; }
-	.sub10 .section01 .content .title .motion2 { width: 30%;}
-	.sub10 .section01 .content .title .motion3 {width: 30%; top: -8%;}
-	.sub10 .section01 .content .title .motion4 { width: 30%;}
-
-	.sub10 .section01 .content .title_txt { font-size: 16px; line-height: 18px; margin: 14px auto 50px; }
+	.sub10 .section01 .content .title_txt { font-size: 16px; line-height: 18px; margin: 25px auto 50px; }
 	.sub10 .section01 .content .subtitle { padding: 9px 0 7px; font-size: 16px; line-height: 18px; height: 54px; }
 	.sub10 .section01 .content .text { margin: 32px auto; }
 
 	.sub10 .section01 .content .date_area { display: inline-block; padding: 6px 0 10px; }
 	.sub10 .section01 .content .date_area > div { display: flex; }
-	.sub10 .section01 .content .date_area .top { line-height: 1.5; }
 	.sub10 .section01 .content .date_area span { margin-right: 20px; width: 20% }
 
 	.sub10 .section01 .content .gift { margin: 62px auto 46px; }
-	.sub10 .section01 .content .gift img { padding: 0 37px; }
+	.sub10 .section01 .content .gift img { padding: 0 37px; max-width: 100%; }
 
 	.sub10 .section01 .content .button { display: flex; gap: 20px; justify-content: center; }
 	.sub10 .section01 .content .button a.subscribe { max-width: 170px; width: 100%; height: 45px; border-radius: 36px; font-size: 20px; padding: 11px 0; }
@@ -1650,7 +1633,7 @@
 	.sub10 .section01 .content .button span.end { max-width: 170px; width: 100%; height: 45px; border-radius: 36px; font-size: 20px; padding: 11px 0; }
 
 	.sub10 .section01 .content .info { margin-top: 36px; }
-	.sub10 .section01 .content .info ul { letter-spacing: -0.75px; }
+	.sub10 .section01 .content .info ul { letter-spacing: -0.05em; }
 }
 
 @media only all and (max-width:375px) {

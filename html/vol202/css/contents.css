@@ -1860,9 +1860,10 @@
 .sub12 .section01 .content .title .objs .chr02 { left: 34%; top: 50%; width: 100%; max-width: 127px; }
 .sub12 .section01 .content .title .objs .chr03 { right: 34%; top: 37%; width: 100%; max-width: 95px; }
 .sub12 .section01 .content .title .objs .chr04 { right: 14%; top: 31%; width: 100%; max-width: 81px; }
-.sub12 .section01 .content .title .year { width: 100%; max-width: 285px; position: absolute; left: 50%; transform: translateX(-50%); top: 50%; }
-.sub12 .section01 .content .title .trophy { width: 100%; max-width: 567px; }
-.sub12 .section01 .content .title .text { font-family: 'GmarketSans'; font-weight: 500; font-size: 44px; line-height: 47px; letter-spacing: -0.05em; color: #6F4B1E; position: absolute; left: 50%; transform: translateX(-50%); bottom: 13%; text-align: center; }
+.sub12 .section01 .content .title .year { width: 100%; max-width: 285px; position: absolute; left: 50%; transform: translateX(-50%); top: 50%; z-index: 5; }
+.sub12 .section01 .content .title .trophy01 { width: 100%; max-width: 567px; z-index: 6; }
+.sub12 .section01 .content .title .trophy02 { width: 100%; max-width: 567px; position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; z-index: 4; }
+.sub12 .section01 .content .title .text { font-family: 'GmarketSans'; font-weight: 500; font-size: 44px; line-height: 47px; letter-spacing: -0.05em; color: #6F4B1E; position: absolute; left: 50%; transform: translateX(-50%); bottom: 13%; text-align: center; z-index: 11; }
 
 .sub12 .section01 .text_box { position: relative; width: 100%; max-width: 600px; padding: 30px 10px; border: 2px solid #6b5950; background: #fff; margin: 0 auto; text-align: center; }
 .sub12 .section01 .text_box p { color: #6b5950; font-family: 'WavvePADO'; font-size: 17px; font-weight: 400; line-height: 27px; letter-spacing: -0.02em; }

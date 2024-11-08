@@ -252,158 +252,253 @@ $reward = false; //count 방식을 변경해야 겠음.
 
     <script>
 
-	$('.popUp').hide();
+        // 여기서부터 js
 
-	$('.result_modal02 .submit_btn').click(function(event) {
-    event.preventDefault();
+        document.querySelectorAll('.item').forEach(function(item) {
+            item.addEventListener('click', function(event) {
+                // 이미 참여했는지 확인
+                if (sessionStorage.getItem('participated')) {
+                    openModal('result_modal04'); // 이미 응모한 경우
+                    return;
+                }
 
-    var name = $('[name="name"]').val();
-    var tel1 = $('[name="tel1"]').val();
-    var tel2 = $('[name="tel2"]').val();
-    var tel3 = $('[name="tel3"]').val();
-    var tel = tel1 + '-' + tel2 + '-' + tel3;
-    var email = $('[name="email"]').val();
-    var product = $('[name="product"]').val();
-    var ip = $('[name="ip"]').val();
-    var device = $('[name="device"]').val();
-    var agree = $('[name="agree"]').prop('checked');
+                // 30% 확률로 당첨 여부 결정
+                let isWinner = Math.random() < 0.3;
+                
+                // 당첨 인원 제한 (100명)
+                let currentWinners = parseInt(localStorage.getItem('winnersCount')) || 0;
+                const maxWinners = 100;
 
-    if (name == '') {
-        alert('성명을 입력해주세요');
-        $('[name="name"]').focus();
-        return;
-    }
+                if (currentWinners >= maxWinners) {
+                    openModal('result_modal06'); // 당첨 정원이 충족된 경우
+                    return;
+                }
 
-    if (tel2 == '' || tel3 == '') {
-        alert('휴대폰 번호를 입력해주세요');
-        $('[name="tel2"]').focus();
-        return;
-    }
+                if (isWinner) {
+                    // 당첨된 경우
+                    openModal('result_modal01');
+                    setTimeout(function() {
+                        openModal('result_modal02'); // 2초 후 result_modal02 열기
+                    }, 2000);
+                    
+                    // 당첨자 카운트 증가
+                    localStorage.setItem('winnersCount', currentWinners + 1);
+                } else {
+                    // 당첨되지 않은 경우
+                    openModal('result_modal04');
+                }
 
-    if (email == '') {
-        alert('이메일 주소를 입력해주세요');
-        $('[name="email"]').focus();
-        return;
-    }
+                // 참여 기록 저장
+                sessionStorage.setItem('participated', true);
+            });
+        });
 
-    if (!agree) {
-        alert('개인보호정책 및 이용약관 동의가 필요합니다.');
-        $('[name="agree"]').focus();
-        return;
-    }
-
-    var param = {
-        'mode': 'winner_save',
-        'vol_idx': $('[name="vol_idx"]').val(),
-        'name': name,
-        'tel': tel,
-        'email': email,
-        'product_name': product,
-        'ip': ip,
-        'device': device,
-        'agree': agree
-    };
-
-		var param2 = {
-        'vol': $('[name="vol_idx"]').val(),
-        'name': name,
-        'phone': tel,
-        'email': email,
-        'award': product,
-        'wip': ip,
-        'device': device,
-        'agree': agree
-    };
-
-    $.ajax({
-        type: "POST",
-        url: 'ajax.php', 
-        data: param,
-        cache: false,
-        dataType: "text",
-        error: function(xhr, textStatus, errorThrown) {
-            console.log("전송에 실패했습니다.");
-            console.log(xhr, textStatus, errorThrown);
-        },
-        success: function(res) {
-					console.log('success');
-                // Show success message or handle accordingly
-								$('.result_modal01').hide();
-        				$('.result_modal02').hide();
-        				$('.result_modal03').show();
-        				$('.result_modal04').hide();
+        // 모달 열기 함수
+        function openModal(modalClass) {
+            const modalElement = document.querySelector('.' + modalClass);
+            if (modalElement) {
+                modalElement.style.display = 'block';
+                modalElement.style.zIndex = '10000'; // 항상 위로 설정
+            }
         }
-    });
 
-});
-		$('.result_modal03 .button').click(function(){
-			$('.popUp').hide();
-			location.reload();
-		});
-		$('.result_modal04 .button').click(function(){
-			$('.popUp').hide();
-			location.reload();
-		});
+        // 모달 닫기 함수
+        function closeModal(event) {
+            const modal = event.target.closest('.popUp');
+            if (modal) {
+                modal.style.display = 'none';
+            }
+        }
 
-function boom_submit() {
-	
-	var ip = $('[name="ip"]').val();
-	var device = $('[name="device"]').val();
-	var param = {
-					'mode' : 'boom_save',
-					'vol_idx' : jQuery('[name="vol_idx"]').val(),
-					'product_name' : '꽝',
-					'ip' : ip,
-					'device' : device
-				};
+        // 닫기 버튼 이벤트 리스너 추가
+        document.querySelectorAll('.modal-close').forEach(function(button) {
+            button.addEventListener('click', function(event) {
+                closeModal(event);
+            });
+        });
 
-	var param2 = {
-        "vol": "201",
-        "award": "CU카드",
-        "name": "홍길동",
-        "phone": "0101255444",
-        "email": "githn1111@gmail.com",
-        "agree": 1
-    };
+        // 모달1의 버튼을 클릭하면 모달2(폼 작성 모달)를 열기
+        document.querySelector('.result_modal01 .modal-close').addEventListener('click', function () {
+            closeModal(event);  // 모달1 닫기
+            setTimeout(function () {
+                openModal('result_modal02');  // 모달2 열기
+            }, 500); // 모달2가 0.5초 뒤에 열리도록 설정
+        });
 
-			$.ajax({
-				type: "POST",
-				url: 'ajax.php',
-				timeout: 0,
-				data: param,
-				cache: false,
-				dataType: "text",
-				error: function(xhr, textStatus, errorThrown) { console.log("전송에 실패했습니다."); console.log(xhr, textStatus, errorThrown) },
-				success: function (res){
-					$.ajax({
+        // result_modal02의 등록 버튼 클릭 시 result_modal03 표시
+        document.querySelector('.result_modal02 .submit_btn').addEventListener('click', function(event) {
+            event.preventDefault();
+            openModal('result_modal03');
+            document.querySelector('.result_modal02').style.display = 'none'; // result_modal02 닫기
+        });
+
+        // result_modal03의 확인 버튼 클릭 시 페이지 리로드
+        document.querySelector('.result_modal03 .button').addEventListener('click', function() {
+            document.querySelectorAll('.popUp').forEach(function(modal) {
+                modal.style.display = 'none';
+            });
+            location.reload();
+        });
+
+
+        //Js끝
+
+        // modal 창 
+        $('.popUp').hide();
+
+        $('.result_modal02 .submit_btn').click(function(event) {
+            event.preventDefault();
+
+            var name = $('[name="name"]').val();
+            var tel1 = $('[name="tel1"]').val();
+            var tel2 = $('[name="tel2"]').val();
+            var tel3 = $('[name="tel3"]').val();
+            var tel = tel1 + '-' + tel2 + '-' + tel3;
+            var email = $('[name="email"]').val();
+            var product = $('[name="product"]').val();
+            var ip = $('[name="ip"]').val();
+            var device = $('[name="device"]').val();
+            var agree = $('[name="agree"]').prop('checked');
+
+            if (name == '') {
+                alert('성명을 입력해주세요');
+                $('[name="name"]').focus();
+                return;
+            }
+
+            if (tel2 == '' || tel3 == '') {
+                alert('휴대폰 번호를 입력해주세요');
+                $('[name="tel2"]').focus();
+                return;
+            }
+
+            if (email == '') {
+                alert('이메일 주소를 입력해주세요');
+                $('[name="email"]').focus();
+                return;
+            }
+
+            if (!agree) {
+                alert('개인보호정책 및 이용약관 동의가 필요합니다.');
+                $('[name="agree"]').focus();
+                return;
+            }
+
+            var param = {
+                'mode': 'winner_save',
+                'vol_idx': $('[name="vol_idx"]').val(),
+                'name': name,
+                'tel': tel,
+                'email': email,
+                'product_name': product,
+                'ip': ip,
+                'device': device,
+                'agree': agree
+            };
+
+                var param2 = {
+                'vol': $('[name="vol_idx"]').val(),
+                'name': name,
+                'phone': tel,
+                'email': email,
+                'award': product,
+                'wip': ip,
+                'device': device,
+                'agree': agree
+            };
+
+            $.ajax({
                 type: "POST",
-                url: 'http://ec2-13-209-64-4.ap-northeast-2.compute.amazonaws.com/api/prizes',
-                data: JSON.stringify(param2),
-                dataType: "json",
-                contentType: "application/json",
-                processData: false,
+                url: 'ajax.php', 
+                data: param,
                 cache: false,
-                headers: {
-                    'Accept': 'application/json'
-                },
+                dataType: "text",
                 error: function(xhr, textStatus, errorThrown) {
-                    console.log("Second AJAX request failed.");
+                    console.log("전송에 실패했습니다.");
                     console.log(xhr, textStatus, errorThrown);
+                },
+                success: function(res) {
+                            console.log('success');
+                        // Show success message or handle accordingly
+                                $('.result_modal01').hide();
+                                $('.result_modal02').hide();
+                                $('.result_modal03').show();
+                                $('.result_modal04').hide();
                 }
             });
-				
-				}
-			});
 
-}
+        });
+            $('.result_modal03 .button').click(function(){
+                $('.popUp').hide();
+                location.reload();
+            });
+            $('.result_modal04 .button').click(function(){
+                $('.popUp').hide();
+                location.reload();
+            });
 
-// 현재 날짜와 비교하여 send와 end 클래스를 제어하는 함수
-function controlSendEnd() {
+    function boom_submit() {
+        
+        var ip = $('[name="ip"]').val();
+        var device = $('[name="device"]').val();
+        var param = {
+                        'mode' : 'boom_save',
+                        'vol_idx' : jQuery('[name="vol_idx"]').val(),
+                        'product_name' : '꽝',
+                        'ip' : ip,
+                        'device' : device
+                    };
+
+        var param2 = {
+            "vol": "201",
+            "award": "CU카드",
+            "name": "홍길동",
+            "phone": "0101255444",
+            "email": "githn1111@gmail.com",
+            "agree": 1
+        };
+
+                $.ajax({
+                    type: "POST",
+                    url: 'ajax.php',
+                    timeout: 0,
+                    data: param,
+                    cache: false,
+                    dataType: "text",
+                    error: function(xhr, textStatus, errorThrown) { console.log("전송에 실패했습니다."); console.log(xhr, textStatus, errorThrown) },
+                    success: function (res){
+                        $.ajax({
+                    type: "POST",
+                    url: 'http://ec2-13-209-64-4.ap-northeast-2.compute.amazonaws.com/api/prizes',
+                    data: JSON.stringify(param2),
+                    dataType: "json",
+                    contentType: "application/json",
+                    processData: false,
+                    cache: false,
+                    headers: {
+                        'Accept': 'application/json'
+                    },
+                    error: function(xhr, textStatus, errorThrown) {
+                        console.log("Second AJAX request failed.");
+                        console.log(xhr, textStatus, errorThrown);
+                    }
+                });
+                    
+                    }
+                });
+
+    }
+
+
+
+
+    // 현재 날짜와 비교하여 send와 end 클래스를 제어하는 함수
+    function controlSendEnd() {
         // 현재 날짜 및 시간 객체 생성
         var currentDate = new Date();
 
-        // 비교할 날짜와 시간 설정 (2024년 12월 22일 23시 30분 59초)
-        var targetDate = new Date("2024-12-22T23:30:59");
+        // 비교할 날짜와 시간 설정 (2024년 12월 22일 23시 30분 00초)
+        var targetDate = new Date("2024-12-22T23:30:00");
 
         // 현재 날짜가 지정한 날짜보다 이후인 경우
         if (currentDate > targetDate) {
@@ -419,237 +514,6 @@ function controlSendEnd() {
 
     // 페이지가 로드될 때 controlSendEnd 함수 호출
     window.onload = controlSendEnd;
-	</script>
-
-    <script>
-
-document.addEventListener('DOMContentLoaded', function () {
-            // 이미지 클릭 이벤트 리스너를 설정
-            const ladderItems = document.querySelectorAll('.ladder_select li');
-
-            // 클릭 이벤트 설정
-            ladderItems.forEach(function (item) {
-                item.addEventListener('click', function () {
-                    const clickedIndex = item.getAttribute('index'); // 클릭된 이미지의 인덱스 추출
-
-                    // 나머지 이미지들의 배경을 img-change로 변경
-                    ladderItems.forEach(function (otherItem) {
-                        const otherIndex = otherItem.getAttribute('index');
-                        if (otherIndex !== clickedIndex) {
-                            switch (otherIndex) {
-                                case '0':
-                                    otherItem.style.background = "url('img/sub13/sub13_ladder01__01.png') no-repeat";
-                                    otherItem.style.backgroundSize = '100%';
-                                    break;
-                                case '1':
-                                    otherItem.style.background = "url('img/sub13/sub13_ladder02__02.png') no-repeat";
-                                    otherItem.style.backgroundSize = '100%';
-                                    break;
-                                case '2':
-                                    otherItem.style.background = "url('img/sub13/sub13_ladder03__03.png') no-repeat";
-                                    otherItem.style.backgroundSize = '100%';
-                                    break;
-                                case '3':
-                                    otherItem.style.background = "url('img/sub13/sub13_ladder04__04.png') no-repeat";
-                                    otherItem.style.backgroundSize = '100%';
-                                    break;
-                            }
-                        }
-                    });
-                });
-            });
-        });
-
-
-document.addEventListener('DOMContentLoaded', function () {
-    // 초기 상태 설정 등 나머지 코드를 여기에 포함시킵니다.
-    document.getElementById('backimage02').style.display = 'none';
-    const ladderListItems = document.querySelectorAll('.ladder_list li');
-    const destinationListItems = document.querySelectorAll('#destination_list li');
-
-    // 모든 goods_result의 이미지를 숨김
-    const goodsResults = document.querySelectorAll('.goods_result img');
-    goodsResults.forEach(function (img) {
-        img.style.display = 'none';
-    });
-
-    // 초기 설정: destination_list의 배경 이미지를 설정
-    destinationListItems.forEach(function (destItem) {
-        destItem.style.background = "url('img/sub13/sub13_ladder_rbtn.png') no-repeat";
-        destItem.style.backgroundSize = '100%';
-        destItem.style.position = 'relative';
-    });
-
-    let gamePlayed = false; // 게임이 한 번 실행되었는지 확인하는 변수
-
-
-
-    // var hasVoted = false;  // 이벤트에 참여하지 않은 상태로 테스트
-    // var hasVoted = true;  // 이벤트에 이미 참여한 상태로 테스트
-
-
-
-
-   // 이미 이벤트에 참여했는지 확인
-//    var hasVoted = <?php //echo json_encode($vote); ?>;
-
-
-
-    
-    // ladder_select 클릭 이벤트 설정
-    document.querySelectorAll('.ladder_select li').forEach(function (item) {
-        item.addEventListener('click', function () {
-
-
-
-
-            // if (hasVoted) {
-            //     // 이미 참여한 경우 팝업을 표시하고 더 이상 진행하지 않음
-            //     console.log("User has already participated. Showing modal 4.");
-            //     openModal('result_modal04');
-            //     return;
-            // }
-
-
-
-
-            if (gamePlayed) return; // 게임이 이미 실행되었다면 더 이상 진행하지 않음
-            gamePlayed = true; // 게임이 실행되었음을 표시
-
-            // 첫 번째 이미지 변경
-            document.getElementById('backimage01').style.display = 'none';
-            document.getElementById('backimage02').style.display = 'block';
-
-            // 모든 ladder_list 이미지를 숨김
-            ladderListItems.forEach(function (listItem) {
-                listItem.classList.remove('show');
-            });
-
-            // 클릭된 항목에 따라 ladder_list 이미지 표시
-            let index;
-            if (item.classList.contains('img1')) {
-                index = 2;
-            } else if (item.classList.contains('img2')) {
-                index = 3;
-            } else if (item.classList.contains('img3')) {
-                index = 0;
-            } else if (item.classList.contains('img4')) {
-                index = 1;
-            }
-
-            // ladder_list 항목을 지연 후 표시
-            if (index !== undefined) {
-                setTimeout(function () {
-                    ladderListItems[index].classList.add('show');
-                    
-                    // ladder_list 이미지가 표시된 후 1초 뒤에 goods_result를 표시
-                    setTimeout(function () {
-                        const goodsResult = destinationListItems[index].querySelector('.goods_result');
-
-                        if (goodsResult) {
-                            // 3분의 1 확률로 winner 이미지 표시
-                            const isWinner = <?php echo json_encode($reward); ?>;
-
-                            console.log("Index:", index, "Is Winner:", isWinner);
-
-                            // 선택된 goods_result의 이미지를 표시하고 나머지는 숨김
-                            if (isWinner) {
-                                goodsResult.querySelector('.winner img').style.display = 'block';
-                                goodsResult.querySelector('.fail img').style.display = 'none';
-                                // .8초 지연 후 모달1 표시
-                                setTimeout(function () {
-                                    openModal('result_modal01'); // "축하합니다! 당첨되셨습니다." 팝업 열기
-                                }, 800); // 모달 표시 지연 시간 (.8초)
-
-
-
-                            } else {
-                                goodsResult.querySelector('.winner img').style.display = 'none';
-                                goodsResult.querySelector('.fail img').style.display = 'block';
-
-                                console.log('Fail modal should open'); // 디버깅용 로그
-                                // .8초 지연 후 모달5 표시
-                                setTimeout(function () {
-                                    openModal('result_modal04'); // "당첨되지 않았습니다." 팝업 열기
-                                }, 800); // 모달 표시 지연 시간 (.8초)
-                            }
-
-                            // 선택된 goods_result를 보이게 함
-                            goodsResult.style.display = 'block';
-
-                        } else {
-                            console.error("goodsResult가 null입니다. HTML 구조를 확인하세요.");
-                        }
-                    }, 700); // ladder_list 이미지가 표시된 후 .7초 뒤에 goods_result 표시
-                }, 500); // ladder_list 이미지가 표시된 후 0.5초 지연
-            }
-        });
-    });
-
-    // 팝업 닫기 버튼에 이벤트 리스너 추가
-    document.querySelectorAll('.modal-close').forEach(function (button) {
-        button.addEventListener('click', function (event) {
-            closeModal(event);
-        });
-    });
-
-
-     // 모달1의 버튼을 클릭하면 모달2(폼 작성 모달)를 열기
-     document.querySelector('.result_modal01 .modal-close').addEventListener('click', function () {
-        closeModal(event);  // 모달1 닫기
-        setTimeout(function () {
-            openModal('result_modal02');  // 모달2 열기
-        }, 500); // 모달2가 0.5초 뒤에 열리도록 설정
-    });
-
-});
-
-
-// 팝업 열기 함수는 DOMContentLoaded 이벤트 핸들러 밖에서 정의.
-function openModal(modalClass) {
-    const modalElement = document.querySelector('.' + modalClass);
-    if (modalElement) {
-        console.log(`Modal with class ${modalClass} found`);  // 모달이 찾아졌는지 확인
-        modalElement.style.display = 'block';
-        modalElement.style.zIndex = '10000'; // 항상 위로 설정
-    } else {
-        console.error(`Modal with class ${modalClass} not found`);
-    }
-}
-
-// 팝업 닫기 함수
-function closeModal(event) {
-    // 현재 클릭된 버튼의 부모 요소 중 .popUp 클래스를 가진 요소를 찾아서 닫음
-    var modal = event.target.closest('.popUp');
-    if (modal) {
-        modal.style.display = 'none';
-    }
-}
-
-
-
-// 현재 날짜와 비교하여 send와 end 클래스를 제어하는 함수
-function controlSendEnd() {
-    // 현재 날짜 및 시간 객체 생성
-    var currentDate = new Date();
-
-    // 비교할 날짜와 시간 설정 (2024년 12월 22일 23시 30분 00초)
-    var targetDate = new Date("2024-12-22T23:30:00");
-
-    // 현재 날짜가 지정한 날짜보다 이후인 경우
-    if (currentDate > targetDate) {
-        // send 클래스 비활성화, end 클래스 활성화
-        document.querySelector('.subscribe').style.display = 'none';
-        document.querySelector('.end').style.display = 'block';
-    } else {
-        // send 클래스 활성화, end 클래스 비활성화
-        document.querySelector('.subscribe').style.display = 'block';
-        document.querySelector('.end').style.display = 'none';
-    }
-}
-
-// 페이지가 로드될 때 controlSendEnd 함수 호출
-window.onload = controlSendEnd;
 
 
     </script>

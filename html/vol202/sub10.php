@@ -21,7 +21,7 @@
             { x: 300, }, 
             { 
                 x: 0,
-                duration: 1,
+                duration: 2,
                 easy: "circ.out",
             }
         );

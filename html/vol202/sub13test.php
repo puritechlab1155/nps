@@ -437,20 +437,6 @@
             });
         });
 
-        // $('.result_modal03 .button').click(function(){
-        //     $('.popUp').hide();
-        //     location.reload();
-        // });
-        // $('.result_modal04 .button').click(function(){
-        //     $('.popUp').hide();
-        //     location.reload();
-        // });
-
-        // $('.result_modal05 .button').click(function(){
-        //     $('.popUp').hide();
-        //     location.reload();
-        // });
-
     function boom_submit() {
         
         var ip = $('[name="ip"]').val();

@@ -2122,7 +2122,7 @@
 .result_modal05 { position: fixed; background: rgba(0, 0, 0, 0.3); left: 0; top: 0; right: 0; bottom: 0; padding: 20px; }
 .result_modal05 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 500px; }
 .result_modal05 .modal .content { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 47px 0 46px; text-align: center; }
-.result_modal05 .modal .content .main_text { color: #1375db; font-family:'WavvePADO'; font-size: 40px; font-weight: 400; padding-top: 5px; padding-bottom: 10px; letter-spacing: -0.8px; }
+.result_modal05 .modal .content .main_text { color: #FF2C2C; font-family:'WavvePADO'; font-size: 40px; font-weight: 400; padding-top: 5px; padding-bottom: 10px; letter-spacing: -0.8px; }
 .result_modal05 .modal .content p { font-family:'WavvePADO'; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; margin: 26px auto 19px; }
 .result_modal05 .modal .content span { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; }
 .result_modal05 .modal .content .button { width: 200px; height: 45px; background: #b2b2b2; border-radius: 999px; color: #fff; font-family:'WavvePADO'; padding: 10px 0 7px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; margin-top: 33px; cursor: pointer; }
@@ -2131,7 +2131,7 @@
 .result_modal06 { position: fixed; background: rgba(0, 0, 0, 0.3); left: 0; top: 0; right: 0; bottom: 0; padding: 20px; }
 .result_modal06 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 500px; }
 .result_modal06 .modal .content { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 47px 0 46px; text-align: center; }
-.result_modal06 .modal .content .main_text { color: #1375db; font-family:'WavvePADO'; font-size: 40px; font-weight: 400; padding-top: 5px; padding-bottom: 10px; letter-spacing: -0.8px; }
+.result_modal06 .modal .content .main_text { color: #FF2C2C; font-family:'WavvePADO'; font-size: 40px; font-weight: 400; padding-top: 5px; padding-bottom: 10px; letter-spacing: -0.8px; }
 .result_modal06 .modal .content p { font-family:'WavvePADO'; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; margin: 26px auto 19px; }
 .result_modal06 .modal .content span { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; }
 .result_modal06 .modal .content .button { width: 200px; height: 45px; background: #b2b2b2; border-radius: 999px; color: #fff; font-family:'WavvePADO'; padding: 10px 0 7px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; margin-top: 33px; cursor: pointer; }
@@ -2170,11 +2170,13 @@
 
 	.result_modal04 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 280px; }
 	.result_modal04 .modal .content { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 47px 0 46px; text-align: center; }
-	.result_modal04 .modal .content .main_text { color: #1375db; font-family:'WavvePADO'; font-size: 25px; font-weight: 400; padding-top: 5px; padding-bottom: 10px; letter-spacing: -0.8px; }
+	.result_modal04 .modal .content .main_text { color: #FF2C2C; font-family:'WavvePADO'; font-size: 25px; font-weight: 400; padding-top: 5px; padding-bottom: 10px; letter-spacing: -0.8px; }
 	.result_modal04 .modal .content p { font-family:'WavvePADO'; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; margin: 26px auto 19px; }
 	.result_modal04 .modal .content span { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; }
 	.result_modal04 .modal .content .button { width: 170px; height: 45px; background: #b2b2b2; border-radius: 999px; color: #fff; font-family:'WavvePADO'; padding: 10px 0 7px; font-size: 20px; font-weight: 400; letter-spacing: -0.5px; margin-top: 33px; cursor: pointer; }
 	.result_modal04 .modal .content .sub_text { font-family:'WavvePADO'; font-size: 24px; letter-spacing: -0.48px; }
+	.result_modal04 .modal .content .message .img_box { text-align: center; }
+	.result_modal04 .modal .content .message .img_box img { width: 60%; }
 
 	.result_modal05 .modal { max-width: 280px; }
 	.result_modal05 .modal .content .main_text { font-size: 23px; margin-top: 15px; }
@@ -2187,7 +2189,7 @@
 
 	.result_modal06 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 280px; }
 	.result_modal06 .modal .content { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 47px 0 46px; text-align: center; }
-	.result_modal06 .modal .content .main_text { color: #1375db; font-family:'WavvePADO'; font-size: 25px; font-weight: 400; padding-top: 5px; padding-bottom: 10px; letter-spacing: -0.8px; }
+	.result_modal06 .modal .content .main_text { color: #FF2C2C; font-family:'WavvePADO'; font-size: 25px; font-weight: 400; padding-top: 5px; padding-bottom: 10px; letter-spacing: -0.8px; }
 	.result_modal06 .modal .content p { font-family:'WavvePADO'; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; margin: 26px auto 19px; }
 	.result_modal06 .modal .content span { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; }
 	.result_modal06 .modal .content .button { width: 170px; height: 45px; background: #b2b2b2; border-radius: 999px; color: #fff; font-family:'WavvePADO'; padding: 10px 0 7px; font-size: 20px; font-weight: 400; letter-spacing: -0.5px; margin-top: 33px; cursor: pointer; }
@@ -2241,16 +2243,14 @@
 .sub14 .section01 .content .title .bell02 { max-width: 52px; position: absolute; left: 53%; top: 27%; z-index: 1; transform-origin: left top; animation: bell02 4s infinite; }
 @keyframes bell01 {
 	0%{ transform: rotate(10deg); }
-	40%{ transform: rotate(-5deg); }
-	65%{ transform: rotate(-5deg); }
+	50%{ transform: rotate(-5deg); }
+	55%{ transform: rotate(-5deg); }
 	100%{ transform: rotate(10deg); }
 }
 @keyframes bell02 {
 	0%{ transform: rotate(5deg); }
-	20%{ transform: rotate(5deg); }
 	40%{ transform: rotate(-10deg); }
-	60%{ transform: rotate(-10deg); }
-	80%{ transform: rotate(5deg); }
+	65%{ transform: rotate(-10deg); }
 	100%{ transform: rotate(5deg); }
 }
 

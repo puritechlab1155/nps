@@ -1,9 +1,3 @@
-<?php
-
-$vote = false;
-$event_close = false;
-$reward = false; //count 방식을 변경해야 겠음.
-?>
 
 <!doctype html>
 <html lang="ko">
@@ -103,7 +97,6 @@ $reward = false; //count 방식을 변경해야 겠음.
 
 
         <!-- 이벤트 참여 상태에 따른 팝업 -->
-            <?php if($vote) { #echo '투표한 경우';// 투표한 경우 ?>
             <div class="popUp result_modal05" style="display:block;">
                 <div class="modal">
                     <div class="content">
@@ -113,7 +106,6 @@ $reward = false; //count 방식을 변경해야 겠음.
                 </div>
             </div>
 
-            <?php } else if(!$event_close && $reward) { #echo '성공한 경우'; // 성공한 경우 ?>
                 <!--  이벤트에 당첨된 경우 로직 -->
             <div class="popUp result_modal01">
                 <div class="modal">
@@ -136,7 +128,6 @@ $reward = false; //count 방식을 변경해야 겠음.
                 </div>
             </div>
 
-            <?php  } else if(!$event_close && !$reward) { #echo '실패한 경우'; //실패한 경우 ?>
             <div class="popUp result_modal04">
                 <div class="modal">
                     <div class="content">
@@ -150,7 +141,6 @@ $reward = false; //count 방식을 변경해야 겠음.
                 </div>
             </div>
 
-            <?php } else { // 더이상 신청이 불가한 경우 ?>
             <div class="popUp result_modal06">
                 <div class="modal">
                     <div class="content">
@@ -159,7 +149,6 @@ $reward = false; //count 방식을 변경해야 겠음.
                     </div>
                 </div>
             </div>
-            <?php } ?>
 
             <div class="popUp result_modal02" style="display:none;">
                 <div class="modal">
@@ -257,10 +246,10 @@ $reward = false; //count 방식을 변경해야 겠음.
         document.querySelectorAll('.item').forEach(function(item) {
             item.addEventListener('click', function(event) {
                 // 이미 참여했는지 확인
-                if (sessionStorage.getItem('participated')) {
-                    openModal('result_modal05'); // 이미 응모한 경우
-                    return;
-                }
+                // if (sessionStorage.getItem('participated')) {
+                //     openModal('result_modal05'); // 이미 응모한 경우
+                //     return;
+                // }
 
                 // 30% 확률로 당첨 여부 결정
                 let isWinner = Math.random() < 0.3;
@@ -279,7 +268,7 @@ $reward = false; //count 방식을 변경해야 겠음.
                     openModal('result_modal01');
                     setTimeout(function() {
                         openModal('result_modal02'); // 2초 후 result_modal02 열기
-                    }, 2000);
+                    }, 6000);
                     
                     // 당첨자 카운트 증가
                     localStorage.setItem('winnersCount', currentWinners + 1);
@@ -310,6 +299,13 @@ $reward = false; //count 방식을 변경해야 겠음.
             }
         }
 
+        // 초기 페이지 로딩 시 모든 모달 숨기기
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.popUp').forEach(function(modal) {
+                modal.style.display = 'none';
+            });
+        });
+
         // 닫기 버튼 이벤트 리스너 추가
         document.querySelectorAll('.modal-close').forEach(function(button) {
             button.addEventListener('click', function(event) {
@@ -337,7 +333,7 @@ $reward = false; //count 방식을 변경해야 겠음.
             document.querySelectorAll('.popUp').forEach(function(modal) {
                 modal.style.display = 'none';
             });
-            location.reload();
+            // location.reload();
         });
 
         // result_modal04의 확인 버튼 클릭 시 모달만 닫기
@@ -443,6 +439,7 @@ $reward = false; //count 방식을 변경해야 겠음.
         //     $('.popUp').hide();
         //     location.reload();
         // });
+
         // $('.result_modal05 .button').click(function(){
         //     $('.popUp').hide();
         //     location.reload();

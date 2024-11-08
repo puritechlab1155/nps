@@ -13,20 +13,30 @@
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
 
 	<script>
-		document.addEventListener("DOMContentLoaded", (event) => {
+		/* document.addEventListener("DOMContentLoaded", (event) => {
 
-			// 페이지 로드 시 애니메이션
 			gsap.fromTo(".bell01", 
-				{ rotate: 5, }, 
+				{ rotation: 10, transformOrigin: "right top", },
 				{ 
-					rotate: 0,
+					rotate: -5,
 					duration: 2,
 					ease: "power1.inOut",
 					yoyo: true,
 					repeat: -1,
 				}
 			);
-		});
+			gsap.fromTo(".bell02", 
+				{ rotation: 0, transformOrigin: "left top", },
+				{ 
+					rotate: -10,
+					duration: 2,
+					delay: 2,
+					ease: "power1.inOut",
+					yoyo: true,
+					repeat: -1,
+				}
+			);
+		}); */
 	</script>
 </head>
 <body>

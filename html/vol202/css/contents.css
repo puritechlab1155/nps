@@ -2068,7 +2068,7 @@
 .result_modal01 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 500px; height: 630px; }
 .result_modal01 .modal .content { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 31px 17px 44px; }
 .result_modal01 .modal .content .message { text-align: center; }
-.result_modal01 .modal .content .message .main_text { color: #1375db; font-family:'WavvePADO'; font-size: 40px; letter-spacing: -0.8px; margin: -55px auto 10px; }
+.result_modal01 .modal .content .message .main_text { color: #FF2C2C; font-family:'WavvePADO'; font-size: 40px; letter-spacing: -0.8px; margin: -55px auto 10px; }
 .result_modal01 .modal .content .message .sub_text { font-family:'WavvePADO'; font-size: 24px; letter-spacing: -0.48px; }
 .result_modal01 .modal .content .gift_area { width: 100%; max-width: 378px; border-radius: 5px; border: 2px solid #d9d9d9; padding: 22px 0 15px; margin: 30px auto 41px; }
 .result_modal01 .modal .content .gift_area .img_box { width: 100%; max-width: 142px; margin: 0 auto; box-shadow: 0 4px 3px rgba(0, 0, 0, 0.25); border-radius: 8px; }
@@ -2076,13 +2076,13 @@
 .result_modal01 .modal .content .text_box { text-align: center; }
 .result_modal01 .modal .content .text_box span { font-family:'WavvePADO'; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; }
 .result_modal01 .modal .content .text_box p { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; margin: 15px auto 25px; }
-.result_modal01 .modal .content .button { display: block; width: 200px; height: 45px; background: #1375db; border-radius: 999px; color: #fff; font-family:'WavvePADO'; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; text-align: center; padding: 10px 0 7px; margin: 0 auto; cursor: pointer; }
+.result_modal01 .modal .content .button { display: block; width: 200px; height: 45px; background: #FF2C2C; border-radius: 999px; color: #fff; font-family:'WavvePADO'; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; text-align: center; padding: 10px 0 7px; margin: 0 auto; cursor: pointer; }
 
 .result_modal02 { position: fixed; background: rgba(0, 0, 0, 0.3); left: 0; top: 0; right: 0; bottom: 0; padding: 20px; }
 .result_modal02 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 500px; height: 630px; }
 .result_modal02 .modal .content { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 38px 53px 31px 54px; }
 .result_modal02 .modal .content .winning_form .header { text-align: center; }
-.result_modal02 .modal .content .winning_form .header .main_txt { color: #1375db; font-family:'WavvePADO'; font-size: 24px; font-weight: 400; letter-spacing: -0.48px; }
+.result_modal02 .modal .content .winning_form .header .main_txt { color: #FF2C2C; font-family:'WavvePADO'; font-size: 24px; font-weight: 400; letter-spacing: -0.48px; }
 .result_modal02 .modal .content .winning_form .header .sub_txt { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; margin: 11px auto 32px; }
 .result_modal02 .modal .content .winning_form .input_area { display: flex; flex-direction: column; }
 .result_modal02 .modal .content .winning_form .input_area > div label { font-size: 15px; font-weight: 500; letter-spacing: -0.3px; }
@@ -2100,12 +2100,12 @@
 .result_modal02 .modal .content .winning_form .agreement .cont dl dd { font-size: 14px; font-weight: 300; letter-spacing: -0.28px; }
 .result_modal02 .modal .content .winning_form .agreement .winner_agree { margin: 12px 0; }
 .result_modal02 .modal .content .winning_form .agreement .winner_agree input { width: 24.5px; height: 24.5px; border-radius: 5px; border: 2px solid #d9d9d9; }
-.result_modal02 .modal .content .winning_form .submit_btn { display: block; width: 200px; height: 45px; background: #1375db; border-radius: 999px; color: #fff; font-family:'WavvePADO'; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; text-align: center; padding: 10px 0 7px; margin: 0 auto; cursor: pointer; }
+.result_modal02 .modal .content .winning_form .submit_btn { display: block; width: 200px; height: 45px; background: #FF2C2C; border-radius: 999px; color: #fff; font-family:'WavvePADO'; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; text-align: center; padding: 10px 0 7px; margin: 0 auto; cursor: pointer; }
 
 .result_modal03 { position: fixed; background: rgba(0, 0, 0, 0.3); left: 0; top: 0; right: 0; bottom: 0; padding: 20px; }
 .result_modal03 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 500px; height: 365px; }
 .result_modal03 .modal .content { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 47px 0 46px; text-align: center; }
-.result_modal03 .modal .content .main_text { color: #1375db; font-family:'WavvePADO'; font-size: 40px; font-weight: 400; letter-spacing: -0.8px; }
+.result_modal03 .modal .content .main_text { color: #FF2C2C; font-family:'WavvePADO'; font-size: 40px; font-weight: 400; letter-spacing: -0.8px; }
 .result_modal03 .modal .content p { font-family:'WavvePADO'; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; margin: 26px auto 19px; }
 .result_modal03 .modal .content span { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; }
 .result_modal03 .modal .content .button { width: 200px; height: 45px; background: #b2b2b2; border-radius: 999px; color: #fff; font-family:'WavvePADO'; padding: 10px 0 7px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; margin-top: 33px; cursor: pointer; }
@@ -2113,7 +2113,7 @@
 .result_modal04 { position: fixed; background: rgba(0, 0, 0, 0.3); left: 0; top: 0; right: 0; bottom: 0; padding: 20px; }
 .result_modal04 .modal { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 5px; width: 100%; max-width: 500px; }
 .result_modal04 .modal .content { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 47px 0 46px; text-align: center; }
-.result_modal04 .modal .content .main_text { color: #1375db; font-family:'WavvePADO'; font-size: 40px; font-weight: 400; padding-top: 5px; padding-bottom: 10px; letter-spacing: -0.8px; }
+.result_modal04 .modal .content .main_text { color: #FF2C2C; font-family:'WavvePADO'; font-size: 40px; font-weight: 400; padding-top: 5px; padding-bottom: 10px; letter-spacing: -0.8px; }
 .result_modal04 .modal .content p { font-family:'WavvePADO'; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; margin: 26px auto 19px; }
 .result_modal04 .modal .content span { font-size: 15px; font-weight: 400; letter-spacing: -0.3px; }
 .result_modal04 .modal .content .button { width: 200px; height: 45px; background: #b2b2b2; border-radius: 999px; color: #fff; font-family:'WavvePADO'; padding: 10px 0 7px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; margin-top: 33px; cursor: pointer; }
@@ -2237,8 +2237,23 @@
 .sub14 .section01 .content .title { width:100%; max-width: 724px; margin: 0 auto; position: relative; }
 .sub14 .section01 .content .title img { width: 100%; }
 .sub14 .section01 .content .title .ribbon { max-width: 119px; position: absolute; left: 45%; top: 24%; z-index: 3; }
-.sub14 .section01 .content .title .bell01 { max-width: 53px; position: absolute; left: 46%; top: 27%; z-index: 2; }
-.sub14 .section01 .content .title .bell02 { max-width: 52px; position: absolute; left: 53%; top: 27%; z-index: 1; }
+.sub14 .section01 .content .title .bell01 { max-width: 53px; position: absolute; left: 46%; top: 27%; z-index: 2; transform-origin: right top; animation: bell01 4s infinite; }
+.sub14 .section01 .content .title .bell02 { max-width: 52px; position: absolute; left: 53%; top: 27%; z-index: 1; transform-origin: left top; animation: bell02 4s infinite; }
+@keyframes bell01 {
+	0%{ transform: rotate(10deg); }
+	40%{ transform: rotate(-5deg); }
+	65%{ transform: rotate(-5deg); }
+	100%{ transform: rotate(10deg); }
+}
+@keyframes bell02 {
+	0%{ transform: rotate(5deg); }
+	20%{ transform: rotate(5deg); }
+	40%{ transform: rotate(-10deg); }
+	60%{ transform: rotate(-10deg); }
+	80%{ transform: rotate(5deg); }
+	100%{ transform: rotate(5deg); }
+}
+
 .sub14 .section01 .content .title .text_box { display: flex; flex-direction: column; gap: 20px; position: absolute; left: 42%; top: 39%; }
 .sub14 .section01 .content .title .text_box h3 { font-family: 'GmarketSans'; font-weight: 500; font-size: 50px; line-height: 50px; letter-spacing: -0.04em; text-align: center; color: #2F9170; }
 

@@ -116,7 +116,7 @@
                             <div class="sub_text">이벤트에 당첨되셨습니다.</div>
                         </div>
                         <div class="gift_area">
-                            <div class="img_box"><img src="img/sub13/sub13_modal_gift.png"></div>
+                            <div class="img_box"><img src="img/sub13/modal-gift.png"></div>
                             <p>GS25 모바일 상품권 5천원</p>
                         </div>
                         <div class="text_box">

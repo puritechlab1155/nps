@@ -17,8 +17,8 @@
 
 			// 페이지 로드 시 애니메이션
 			gsap.fromTo(".year", 
-				{ y: 300, }, 
-				{ 
+				{ y: 300, },
+				{
 					y: 0,
 					duration: 1,
 					easy: "circ.out",
@@ -26,9 +26,9 @@
 			);
 
 			gsap.fromTo(".chr01", 
-				{ y: 10, }, 
-				{ 
-					y: -10,
+				{ y: 10, },
+				{
+					y: 0,
 					duration: 2,
 					ease: "power1.inOut",
 					yoyo: true,
@@ -36,30 +36,30 @@
 				}
 			);
 			gsap.fromTo(".chr02", 
-				{ y: -20, }, 
-				{ 
-					y: 10,
-					duration: 2.5,
+				{ y: -20, },
+				{
+					y: 0,
+					duration: 2,
 					ease: "power1.inOut",
 					yoyo: true,
 					repeat: -1,
 				}
 			);
 			gsap.fromTo(".chr03", 
-				{ y: 20, }, 
-				{ 
-					y: -20,
-					duration: 2.2,
+				{ y: 20, },
+				{
+					y: 0,
+					duration: 2,
 					ease: "power1.inOut",
 					yoyo: true,
 					repeat: -1,
 				}
 			);
 			gsap.fromTo(".chr04", 
-				{ y: -10, }, 
-				{ 
-					y: 20,
-					duration: 1.8,
+				{ y: -10, },
+				{
+					y: 0,
+					duration: 2,
 					ease: "power1.inOut",
 					yoyo: true,
 					repeat: -1,

@@ -2240,8 +2240,8 @@
 .sub14 .section01 .content .title { width:100%; max-width: 724px; margin: 0 auto; position: relative; }
 .sub14 .section01 .content .title img { width: 100%; }
 .sub14 .section01 .content .title .ribbon { max-width: 119px; position: absolute; left: 45%; top: 24%; z-index: 3; }
-.sub14 .section01 .content .title .bell01 { max-width: 53px; position: absolute; left: 46%; top: 27%; z-index: 2; transform-origin: right top; animation: bell01 4s infinite; }
-.sub14 .section01 .content .title .bell02 { max-width: 52px; position: absolute; left: 53%; top: 27%; z-index: 1; transform-origin: left top; animation: bell02 4s infinite; }
+.sub14 .section01 .content .title .bell01 { max-width: 53px; position: absolute; left: 46%; top: 27%; z-index: 2; transform-origin: right top; animation: bell01 3.5s infinite; }
+.sub14 .section01 .content .title .bell02 { max-width: 52px; position: absolute; left: 53%; top: 27%; z-index: 1; transform-origin: left top; animation: bell02 3.5s infinite; }
 @keyframes bell01 {
 	0%{ transform: rotate(10deg); }
 	40%{ transform: rotate(-5deg); }

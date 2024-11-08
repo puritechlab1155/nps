@@ -340,6 +340,12 @@ $reward = false; //count 방식을 변경해야 겠음.
             location.reload();
         });
 
+        // result_modal04의 확인 버튼 클릭 시 모달만 닫기
+        document.querySelector('.result_modal04 .button').addEventListener('click', function() {
+            document.querySelector('.result_modal04').style.display = 'none';
+        });
+
+
 
         //Js끝
 
@@ -488,12 +494,6 @@ $reward = false; //count 방식을 변경해야 겠음.
                         console.log("Second AJAX request failed.");
                         console.log(xhr, textStatus, errorThrown);
                     },
-
-                    success: function() {
-                    // 두 번째 AJAX 요청 성공 후 모달 닫기
-                    $('.popUp').hide();
-                    location.reload();
-                    }
                  });      
             }
         });

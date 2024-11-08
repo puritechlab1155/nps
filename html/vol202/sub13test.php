@@ -245,7 +245,7 @@
 
         document.querySelectorAll('.item').forEach(function(item) {
             item.addEventListener('click', function(event) {
-                // 이미 참여했는지 확인
+                // 이미 참여했는지 확인__추후 재 등록해야함
                 // if (sessionStorage.getItem('participated')) {
                 //     openModal('result_modal05'); // 이미 응모한 경우
                 //     return;

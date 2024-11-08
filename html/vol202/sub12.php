@@ -20,9 +20,15 @@
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="title">
-					<img src="img/sub12/objects.svg" class="objs">
+					<div class="objs">
+						<img src="img/sub12/objects.svg" class="objs-item">
+						<img src="img/sub12/character01.svg" class="chr chr01">
+						<img src="img/sub12/character02.svg" class="chr chr02">
+						<img src="img/sub12/character03.svg" class="chr chr03">
+						<img src="img/sub12/character04.svg" class="chr chr04">
+					</div>
 					<img src="img/sub12/2024.svg" class="year">
-					<img src="img/sub12/trophy.svg" class="trophy">
+					<img src="img/sub12/trophy.png" class="trophy">
 					<p class="text">
 						최고의 <br>
 						콘텐츠를 <br>
@@ -36,16 +42,16 @@
 						<li class="rect_item"></li>
 					</ul>
 					<p class="pc_display">
-						&lt;내곁에 국민연금&gt; 가을호 중 구독자분들의 마음을 <br>
-						사로잡은 이야기는 무엇인가요? <br>
-						가을호 콘텐츠 중 구독자분들의 원픽 콘텐츠는 무엇이며, <br>
-						그 이유를 메시지로 보내주시는 분들 중 추첨을 통해 선정된
+						올 한 해, 구독자분들의 마음을 사로잡은 <br>
+						&lt;내 곁에 국민연금&gt; 콘텐츠를 선정해 주세요!<br>
+						기억에 남는 이야기 혹은 지인에게 보여주는 싶은 이야기 등을 <br>
+						그 이유와 함께 메시지로 보내주시길 바랍니다.<br>
+						추첨을 통해 선정된 15분께는 3만 원 상당의 피자 기프티콘을 드립니다.
 					</p>
 					<p class="mobile_display">
 						&lt;내곁에 국민연금&gt; 가을호 중 구독자분들의 마음을 사로잡은 이야기는 무엇인가요? <br>
 						가을호 콘텐츠 중 구독자분들의 원픽 콘텐츠는 무엇이며, 그 이유를 메시지로 보내주시는 분들 중 추첨을 통해 선정된
 					</p>
-					<span>15분께는 3만원 상당의 <br class="mobile_display">치킨 기프티콘을 드립니다.</span>
 					<ul class="rect_item_bottom">
 						<li class="rect_item"></li>
 						<li class="rect_item"></li>
@@ -58,10 +64,10 @@
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
 				<div class="date_area">
-					<div class="top"><span>응모 기간</span><em>9월 13일 오후 2시 ~ <br class="mobile_display">11월 3일 오후 11시 30분</em></div>
-					<div><span>경품 발송</span><em>11월 11일 오후 5시</em></div>
+					<div class="top"><span>응모 기간</span><em>11월 25일 오후 2시 ~ <br class="mobile_display">12월 22일 오후 11시 30분</em></div>
+					<div><span>경품 발송</span><em>12월 30일 오후 5시</em></div>
 				</div>
-				<div class="gift"><img src="img/sub12/sub12_03.png"></div>
+				<div class="gift"><img src="img/sub12/gift.png"></div>
 				<div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <a class="send" href="https://naver.me/FFGGTnNf" target="_blank">의견 보내기</a><span class="end" href="#" >마감되었습니다</span></div>
 				<div class="info">
 					<ul>
@@ -91,8 +97,8 @@
         // 현재 날짜 및 시간 객체 생성
         var currentDate = new Date();
 
-        // 비교할 날짜와 시간 설정 (2024년 11월 03일 23시 30분 00초)
-        var targetDate = new Date("2024-11-03T23:30:00");
+        // 비교할 날짜와 시간 설정 (2024년 12월 22일 23시 30분 00초)
+        var targetDate = new Date("2024-12-22T23:30:00");
 
         // 현재 날짜가 지정한 날짜보다 이후인 경우
         if (currentDate > targetDate) {

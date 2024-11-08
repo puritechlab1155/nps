@@ -1832,7 +1832,12 @@
 .sub12 .section01 .content { position: relative; display: block; width: 100%; max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 .sub12 .section01 .content .title { width: 100%; margin: 0 auto; position: relative; display: flex; flex-direction: column; align-items: center; }
 
-.sub12 .section01 .content .title .objs { width: 100%; max-width: 894px; }
+.sub12 .section01 .content .title .objs { width: 100%; max-width: 894px; position: relative; }
+.sub12 .section01 .content .title .objs .chr { position: absolute; }
+.sub12 .section01 .content .title .objs .chr01 { left: 17%; top: 38%; width: 100%; max-width: 84px; }
+.sub12 .section01 .content .title .objs .chr02 { left: 34%; top: 50%; width: 100%; max-width: 127px; }
+.sub12 .section01 .content .title .objs .chr03 { right: 34%; top: 37%; width: 100%; max-width: 95px; }
+.sub12 .section01 .content .title .objs .chr04 { right: 14%; top: 31%; width: 100%; max-width: 81px; }
 .sub12 .section01 .content .title .year { width: 100%; max-width: 285px; position: absolute; left: 50%; transform: translateX(-50%); top: 50%; }
 .sub12 .section01 .content .title .trophy { width: 100%; max-width: 567px; }
 .sub12 .section01 .content .title .text { font-family: 'GmarketSans'; font-weight: 500; font-size: 44px; line-height: 47px; letter-spacing: -0.05em; color: #6F4B1E; position: absolute; left: 50%; transform: translateX(-50%); bottom: 13%; text-align: center; }
@@ -1851,24 +1856,24 @@
 .sub12 .section01 .text_box ul.rect_item_bottom li:nth-child(2) { left: 50%; transform: translate(-50%, 50%); }
 .sub12 .section01 .text_box ul.rect_item_bottom li:nth-child(3) { left: 100%; transform: translate(-50%, 50%); }
 
-.sub12 .section02 { position: relative; padding: 58px 0 70px; margin: 0; }
+.sub12 .section02 { position: relative; padding: 77px 0 70px; margin: 0; }
 .sub12 .section02 .content { position: relative; display: block; width: 100%; max-width: 960px; margin: 0 auto;  padding:0 20px; } 
-.sub12 .section02 .content .date_area { max-width: 600px; width: 100%; margin: 0 auto; border-top: 0.5px solid #000; border-bottom: 0.5px solid #000; padding: 8px 0 10px; display: flex; flex-direction: column; font-size: 17px; font-weight: 400; letter-spacing: -0.34px; }
-.sub12 .section02 .content .date_area .top { border-bottom: 0.5px solid #000; padding-bottom: 10px; margin-bottom: 10px; }
-.sub12 .section02 .content .date_area span { font-weight: 700; margin-right: 44px; color: #6b5950; }
+.sub12 .section02 .content .date_area { max-width: 600px; width: 100%; margin: 0 auto; border-top: 0.5px solid #6F4B1E; border-bottom: 0.5px solid #6F4B1E; padding: 8px 0 10px; display: flex; flex-direction: column; font-size: 17px; font-weight: 400; line-height: 25px; letter-spacing: -0.34px; color: #6F4B1E; }
+.sub12 .section02 .content .date_area .top { border-bottom: 0.5px solid #6F4B1E; padding-bottom: 10px; margin-bottom: 10px; }
+.sub12 .section02 .content .date_area span { font-weight: 700; margin-right: 44px; color: #6F4B1E; }
 
-.sub12 .section02 .content .gift { text-align: center; margin: 76px auto 25px; }
+.sub12 .section02 .content .gift { text-align: center; margin: 77px auto 90px; }
 
 .sub12 .section02 .content .button { display: flex; gap: 45px; justify-content: center; margin: 0 0 69px; }
-.sub12 .section02 .content .button a.subscribe { background: #6b5950; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; border-radius: 999px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; transition: all 500ms; border: 0.7px solid #000; padding: 10px 0 7px; }
+.sub12 .section02 .content .button a.subscribe { background: #424242; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; border-radius: 999px; font-size: 25px; font-weight: 400; line-height: 28px; letter-spacing: -0.02em; transition: all 500ms; padding: 10px 0 7px; }
 .sub12 .section02 .content .button a.subscribe:hover { transform: translateY(-5px); box-shadow: 3.5px 3.5px #4a4a4a; }
-.sub12 .section02 .content .button a.send { background: #9ba7ce; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; border-radius: 999px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; transition: all 500ms; border: 0.7px solid #000; padding: 10px 0 7px; }
+.sub12 .section02 .content .button a.send { background: #F55C35; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; border-radius: 999px; font-size: 25px; font-weight: 400; line-height: 28px; letter-spacing: -0.02em; transition: all 500ms; padding: 10px 0 7px; }
 .sub12 .section02 .content .button a.send:hover { transform: translateY(-5px); box-shadow: 3.5px 3.5px #4a4a4a; }
 .sub12 .section02 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; border-radius: 999px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; padding: 10px 0 7px; }
 
 .sub12 .section02 .content .info {  max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #424242; padding-top: 20px; }
 .sub12 .section02 .content .info ul { padding-inline-start: 1em; letter-spacing: -0.3px;}
-.sub12 .section02 .content .info li { list-style: disc; font-family:'Noto Sans CJK Kr'; font-size: 15px; font-weight: 400; letter-spacing: -0.3px; line-height: 1.3; }
+.sub12 .section02 .content .info li { list-style: disc; font-family:'Noto Sans CJK Kr'; font-size: 15px; font-weight: 400; letter-spacing: -0.3px; line-height: 22px; }
 .sub12 .section02 .content .info li::marker { font-size: 8px; }
 .sub12 .section02 .content .info li span { position: relative; }
 

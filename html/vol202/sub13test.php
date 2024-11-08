@@ -104,7 +104,7 @@ $reward = false; //count 방식을 변경해야 겠음.
 
         <!-- 이벤트 참여 상태에 따른 팝업 -->
             <?php if($vote) { #echo '투표한 경우';// 투표한 경우 ?>
-            <div class="popUp result_modal04" style="display:block;">
+            <div class="popUp result_modal05" style="display:block;">
                 <div class="modal">
                     <div class="content">
                         <p>이미 응모하셨습니다.</p>
@@ -145,7 +145,7 @@ $reward = false; //count 방식을 변경해야 겠음.
                             <div class="main_text">당첨되지 않았습니다.</div>
                             <div class="sub_text">다음에 다시 참여해주세요.</div>
                         </div>
-                        <div class="button" onclick="boom_submit()">확인</div>
+                        <div class="button modal-close" onclick="boom_submit()">확인</div>
                     </div>
                 </div>
             </div>
@@ -258,7 +258,7 @@ $reward = false; //count 방식을 변경해야 겠음.
             item.addEventListener('click', function(event) {
                 // 이미 참여했는지 확인
                 if (sessionStorage.getItem('participated')) {
-                    openModal('result_modal04'); // 이미 응모한 경우
+                    openModal('result_modal05'); // 이미 응모한 경우
                     return;
                 }
 
@@ -298,7 +298,7 @@ $reward = false; //count 방식을 변경해야 겠음.
             const modalElement = document.querySelector('.' + modalClass);
             if (modalElement) {
                 modalElement.style.display = 'block';
-                modalElement.style.zIndex = '10000'; // 항상 위로 설정
+                modalElement.style.zindex = '10000'; // 항상 위로 설정
             }
         }
 
@@ -424,18 +424,23 @@ $reward = false; //count 방식을 변경해야 겠음.
                                 $('.result_modal02').hide();
                                 $('.result_modal03').show();
                                 $('.result_modal04').hide();
+                                $('.result_modal05').hide();
                 }
             });
-
         });
-            $('.result_modal03 .button').click(function(){
-                $('.popUp').hide();
-                location.reload();
-            });
-            $('.result_modal04 .button').click(function(){
-                $('.popUp').hide();
-                location.reload();
-            });
+
+        // $('.result_modal03 .button').click(function(){
+        //     $('.popUp').hide();
+        //     location.reload();
+        // });
+        // $('.result_modal04 .button').click(function(){
+        //     $('.popUp').hide();
+        //     location.reload();
+        // });
+        // $('.result_modal05 .button').click(function(){
+        //     $('.popUp').hide();
+        //     location.reload();
+        // });
 
     function boom_submit() {
         
@@ -450,24 +455,24 @@ $reward = false; //count 방식을 변경해야 겠음.
                     };
 
         var param2 = {
-            "vol": "201",
-            "award": "CU카드",
+            "vol": "202",
+            "award": "GS카드",
             "name": "홍길동",
             "phone": "0101255444",
             "email": "githn1111@gmail.com",
             "agree": 1
-        };
+                    };
 
+        $.ajax({
+            type: "POST",
+            url: 'ajax.php',
+            timeout: 0,
+            data: param,
+            cache: false,
+            dataType: "text",
+            error: function(xhr, textStatus, errorThrown) { console.log("전송에 실패했습니다."); console.log(xhr, textStatus, errorThrown) },
+            success: function (res){
                 $.ajax({
-                    type: "POST",
-                    url: 'ajax.php',
-                    timeout: 0,
-                    data: param,
-                    cache: false,
-                    dataType: "text",
-                    error: function(xhr, textStatus, errorThrown) { console.log("전송에 실패했습니다."); console.log(xhr, textStatus, errorThrown) },
-                    success: function (res){
-                        $.ajax({
                     type: "POST",
                     url: 'http://ec2-13-209-64-4.ap-northeast-2.compute.amazonaws.com/api/prizes',
                     data: JSON.stringify(param2),
@@ -478,14 +483,20 @@ $reward = false; //count 방식을 변경해야 겠음.
                     headers: {
                         'Accept': 'application/json'
                     },
+
                     error: function(xhr, textStatus, errorThrown) {
                         console.log("Second AJAX request failed.");
                         console.log(xhr, textStatus, errorThrown);
+                    },
+
+                    success: function() {
+                    // 두 번째 AJAX 요청 성공 후 모달 닫기
+                    $('.popUp').hide();
+                    location.reload();
                     }
-                });
-                    
-                    }
-                });
+                 });      
+            }
+        });
 
     }
 

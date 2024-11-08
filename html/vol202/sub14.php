@@ -11,33 +11,6 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
-
-	<script>
-		/* document.addEventListener("DOMContentLoaded", (event) => {
-
-			gsap.fromTo(".bell01", 
-				{ rotation: 10, transformOrigin: "right top", },
-				{ 
-					rotate: -5,
-					duration: 2,
-					ease: "power1.inOut",
-					yoyo: true,
-					repeat: -1,
-				}
-			);
-			gsap.fromTo(".bell02", 
-				{ rotation: 0, transformOrigin: "left top", },
-				{ 
-					rotate: -10,
-					duration: 2,
-					delay: 2,
-					ease: "power1.inOut",
-					yoyo: true,
-					repeat: -1,
-				}
-			);
-		}); */
-	</script>
 </head>
 <body>
 

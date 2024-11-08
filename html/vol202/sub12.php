@@ -5,7 +5,68 @@
 
 	<meta property="og:image" content="../../img/logosns/logosns_vol199.jpg">
 	<?php include("../../inc/head.php"); ?>
+
+	<!-- GSAP -->
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
+
+	<script>
+		document.addEventListener("DOMContentLoaded", (event) => {
+
+			// 페이지 로드 시 애니메이션
+			gsap.fromTo(".year", 
+				{ y: 300, }, 
+				{ 
+					y: 0,
+					duration: 1,
+					easy: "circ.out",
+				}
+			);
+
+			gsap.fromTo(".chr01", 
+				{ y: 10, }, 
+				{ 
+					y: -10,
+					duration: 2,
+					ease: "power1.inOut",
+					yoyo: true,
+					repeat: -1,
+				}
+			);
+			gsap.fromTo(".chr02", 
+				{ y: -20, }, 
+				{ 
+					y: 10,
+					duration: 2.5,
+					ease: "power1.inOut",
+					yoyo: true,
+					repeat: -1,
+				}
+			);
+			gsap.fromTo(".chr03", 
+				{ y: 20, }, 
+				{ 
+					y: -20,
+					duration: 2.2,
+					ease: "power1.inOut",
+					yoyo: true,
+					repeat: -1,
+				}
+			);
+			gsap.fromTo(".chr04", 
+				{ y: -10, }, 
+				{ 
+					y: 20,
+					duration: 1.8,
+					ease: "power1.inOut",
+					yoyo: true,
+					repeat: -1,
+				}
+			);
+		});
+	</script>
 </head>
 <body>
 
@@ -29,7 +90,8 @@
 						<img src="img/sub12/character04.svg" class="chr chr04">
 					</div>
 					<img src="img/sub12/2024.svg" class="year">
-					<img src="img/sub12/trophy.png" class="trophy">
+					<img src="img/sub12/trophy-front.png" class="trophy01">
+					<img src="img/sub12/trophy-back.png" class="trophy02">
 					<p class="text">
 						최고의 <br>
 						콘텐츠를 <br>

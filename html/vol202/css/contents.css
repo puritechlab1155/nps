@@ -2152,10 +2152,10 @@
 	.result_modal02 .modal .content .winning_form .header .main_txt { font-size: 20px; }
 	.result_modal02 .modal .content .winning_form .header .sub_txt { font-size: 13px; }
 	.result_modal02 .modal .content .winning_form .input_area > div label { font-size: 12px; padding-top: 5px; }
-	.result_modal02 .modal .content .winning_form .input_area .winner_name input { width: 170px; }
-	.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel select { width: 47px; }
-	.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel input { width: 47px; }
-	.result_modal02 .modal .content .winning_form .input_area .winner_email input { width: 170px; }
+	.result_modal02 .modal .content .winning_form .input_area .winner_name input { width: 180px; }
+	.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel select { width: 50px; }
+	.result_modal02 .modal .content .winning_form .input_area .winner_phone .sel input { width: 50px; }
+	.result_modal02 .modal .content .winning_form .input_area .winner_email input { width: 180px; }
 	.result_modal02 .modal .content .winning_form .agreement .title { font-size: 13px; }
 	.result_modal02 .modal .content .winning_form .agreement .cont dl dt { font-size: 12px; }
 	.result_modal02 .modal .content .winning_form .agreement .cont dl dd { font-size: 12px; }
@@ -2244,14 +2244,16 @@
 .sub14 .section01 .content .title .bell02 { max-width: 52px; position: absolute; left: 53%; top: 27%; z-index: 1; transform-origin: left top; animation: bell02 4s infinite; }
 @keyframes bell01 {
 	0%{ transform: rotate(10deg); }
-	50%{ transform: rotate(-5deg); }
-	55%{ transform: rotate(-5deg); }
+	40%{ transform: rotate(-5deg); }
+	65%{ transform: rotate(-5deg); }
 	100%{ transform: rotate(10deg); }
 }
 @keyframes bell02 {
 	0%{ transform: rotate(5deg); }
+	20%{ transform: rotate(5deg); }
 	40%{ transform: rotate(-10deg); }
-	65%{ transform: rotate(-10deg); }
+	60%{ transform: rotate(-10deg); }
+	80%{ transform: rotate(5deg); }
 	100%{ transform: rotate(5deg); }
 }
 

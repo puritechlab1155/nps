@@ -21,7 +21,8 @@
 			<div class="content">
 				<div class="title">
 					<div class="objs">
-						<img src="img/sub12/objects.svg" class="objs-item">
+						<img src="img/sub12/objects.svg" class="objs-item pc_display">
+						<img src="img/sub12/objects-mo.svg" class="objs-item mobile_display">
 						<img src="img/sub12/character01.svg" class="chr chr01">
 						<img src="img/sub12/character02.svg" class="chr chr02">
 						<img src="img/sub12/character03.svg" class="chr chr03">
@@ -49,8 +50,8 @@
 						추첨을 통해 선정된 15분께는 3만 원 상당의 피자 기프티콘을 드립니다.
 					</p>
 					<p class="mobile_display">
-						&lt;내곁에 국민연금&gt; 가을호 중 구독자분들의 마음을 사로잡은 이야기는 무엇인가요? <br>
-						가을호 콘텐츠 중 구독자분들의 원픽 콘텐츠는 무엇이며, 그 이유를 메시지로 보내주시는 분들 중 추첨을 통해 선정된
+						올 한 해, 구독자분들의 마음을 사로잡은 <br>
+						&lt;내 곁에 국민연금&gt; 콘텐츠를 선정해 주세요! 기억에 남는 이야기 혹은 지인에게 보여주는 싶은 이야기 등을 그 이유와 함께 메시지로 보내주시길 바랍니다. 추첨을 통해 선정된 15분께는 3만 원 상당의 피자 기프티콘을 드립니다.
 					</p>
 					<ul class="rect_item_bottom">
 						<li class="rect_item"></li>

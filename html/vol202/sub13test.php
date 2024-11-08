@@ -263,13 +263,32 @@
                     return;
                 }
 
+                // if (isWinner) {
+                //     // 당첨된 경우
+                //     openModal('result_modal01');
+                //     setTimeout(function() {
+                //         openModal('result_modal02'); // 2초 후 result_modal02 열기
+                //     }, 6000);
+                    
+                //     // 당첨자 카운트 증가
+                //     localStorage.setItem('winnersCount', currentWinners + 1);
+                // } else {
+                //     // 당첨되지 않은 경우
+                //     openModal('result_modal04');
+                // }
+
                 if (isWinner) {
                     // 당첨된 경우
                     openModal('result_modal01');
-                    setTimeout(function() {
-                        openModal('result_modal02'); // 2초 후 result_modal02 열기
-                    }, 6000);
                     
+                    // 모달 1의 버튼 클릭 시 모달 2를 열기
+                    document.querySelector('.result_modal01 .modal-close').addEventListener('click', function() {
+                        closeModal('result_modal01'); // 모달 1 닫기
+                        setTimeout(function() {
+                            openModal('result_modal02'); // 0.5초 후 모달 2 열기
+                        }, 500);
+                    });
+
                     // 당첨자 카운트 증가
                     localStorage.setItem('winnersCount', currentWinners + 1);
                 } else {
@@ -277,6 +296,7 @@
                     openModal('result_modal04');
                 }
 
+             
                 // 참여 기록 저장
                 sessionStorage.setItem('participated', true);
             });

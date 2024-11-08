@@ -5,7 +5,29 @@
 
 	<meta property="og:image" content="../../img/logosns/logosns_vol199.jpg">
 	<?php include("../../inc/head.php"); ?>
+
+	<!-- GSAP -->
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
+
+	<script>
+		document.addEventListener("DOMContentLoaded", (event) => {
+
+			// 페이지 로드 시 애니메이션
+			gsap.fromTo(".bell01", 
+				{ rotate: 5, }, 
+				{ 
+					rotate: 0,
+					duration: 2,
+					ease: "power1.inOut",
+					yoyo: true,
+					repeat: -1,
+				}
+			);
+		});
+	</script>
 </head>
 <body>
 

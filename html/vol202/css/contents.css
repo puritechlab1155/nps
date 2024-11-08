@@ -1543,11 +1543,33 @@
 .sub10 .section01 .content .title .img_box03 { width: 100%; max-width: 142px; position: absolute; left: -7%; bottom: 120px; }
 .sub10 .section01 .content .title .img_box04 { width: 100%; max-width: 140px; position: absolute; right: -22%; bottom: -4%; }
 .sub10 .section01 .content .title .img_box05 { width: 100%; max-width: 116px; position: absolute; right: 0; bottom: 24%; }
+
 .sub10 .section01 .content .title .img_box .dots { display: flex; align-items: center; position: absolute; left: 50%; transform: translateX(-50%); }
 .sub10 .section01 .content .title .img_box03 .dots { gap: 24px; top: 30%; }
-.sub10 .section01 .content .title .img_box03 .dots span { width: 9.4px; height: 9.4px; border-radius: 50%; background: #BE221D; }
+.sub10 .section01 .content .title .img_box03 .dots span { width: 9.4px; height: 9.4px; border-radius: 50%; background: #BE221D; animation: dots 4s infinite; opacity: 0; }
+.sub10 .section01 .content .title .img_box03 .dots span:nth-child(1) {  }
+.sub10 .section01 .content .title .img_box03 .dots span:nth-child(2) { animation-delay: 0.5s; }
+.sub10 .section01 .content .title .img_box03 .dots span:nth-child(3) { animation-delay: 1s; }
 .sub10 .section01 .content .title .img_box04 .dots { gap: 15px; top: 35%; }
-.sub10 .section01 .content .title .img_box04 .dots span { width: 14px; height: 14px; border-radius: 50%; background: #fff; }
+.sub10 .section01 .content .title .img_box04 .dots span { width: 14px; height: 14px; border-radius: 50%; background: #fff; animation: dots 4s infinite; animation-delay: 1s; opacity: 0; }
+.sub10 .section01 .content .title .img_box04 .dots span:nth-child(2) { animation-delay: 1.5s; }
+.sub10 .section01 .content .title .img_box04 .dots span:nth-child(3) { animation-delay: 2s; }
+@keyframes dots {
+    0% {
+        opacity: 0;
+    }
+	20% { opacity: 0; }
+	30% { opacity: 1; }
+    50% {
+        opacity: 1;
+    }
+	80% { opacity: 1; }
+	90% { opacity: 0; }
+    100% {
+        opacity: 0;
+    }
+}
+
 .sub10 .section01 .content .title .img_box img { width: 100%; }
 
 .sub10 .section01 .content .title_txt { width: 100%; text-align: center; font-family: 'WavvePADO'; font-size: 18px; font-weight: 400; line-height: 20px; letter-spacing: -0.02em; color: #000; margin: 45px auto 43px; }
@@ -2207,64 +2229,69 @@
 } */
 
 /* 이벤트5 */
-.sub14 #contents { position: relative; padding: 0; margin: 0; background: #576ce7;}
+.sub14 #contents { position: relative; padding: 0; margin: 0; background: #2F9170;}
 .sub14 .section01 { position: relative; display: block; width: 100%; max-width: 960px; margin: 0 auto; padding: 0 20px; }
-.sub14 .section01 .content { position: relative; padding: 126px 0 70px; }
-.sub14 .section01 .content .title { display: flex; justify-content: center; }
-.sub14 .section01 .content .title img { width:100%; max-width: 698px; }
-.sub14 .section01 .content .title_text { color: #152375; text-align: center; font-family: 'GmarketSans'; font-size: 17px; font-weight: 500; line-height: 27px; letter-spacing: -0.68px; }
-.sub14 .section01 .content .text { max-width: 690px; width: 100%; margin: 61px auto 63px; color: #fff; text-align: center; font-size: 17px; font-weight: 400; line-height: 27px; letter-spacing: -0.68px; }
+.sub14 .section01 .content { position: relative; padding: 38px 0 70px; }
 
-.sub14 .section01 .content .gift { text-align: center; position: relative; }
-.sub14 .section01 .content .gift img { opacity: 0; }
+.sub14 .section01 .content .title { width:100%; max-width: 724px; margin: 0 auto; position: relative; }
+.sub14 .section01 .content .title img { width: 100%; }
+.sub14 .section01 .content .title .ribbon { max-width: 119px; position: absolute; left: 45%; top: 24%; z-index: 3; }
+.sub14 .section01 .content .title .bell01 { max-width: 53px; position: absolute; left: 46%; top: 27%; z-index: 2; }
+.sub14 .section01 .content .title .bell02 { max-width: 52px; position: absolute; left: 53%; top: 27%; z-index: 1; }
+.sub14 .section01 .content .title .text_box { display: flex; flex-direction: column; gap: 20px; position: absolute; left: 42%; top: 39%; }
+.sub14 .section01 .content .title .text_box h3 { font-family: 'GmarketSans'; font-weight: 500; font-size: 50px; line-height: 50px; letter-spacing: -0.04em; text-align: center; color: #2F9170; }
+
+.sub14 .section01 .content .text { width: 100%; margin: 39px auto 66px; color: #fff; text-align: center; font-size: 17px; font-weight: 400; line-height: 27px; letter-spacing: -0.04em; }
+
+.sub14 .section01 .content .gift { text-align: center; }
+.sub14 .section01 .content .gift img { opacity: 0; width: 100%; max-width: 602px; padding: 0 75px; }
 .sub14 .section01 .content .gift img.on { animation: bounce 1s; opacity: 1; }
 
-.sub14 .section01 .content .date_area { max-width: 600px; width: 100%; margin: 31px auto 64px; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff; padding: 8px 0 10px; display: flex; color: #fff; font-size: 17px; font-weight: 400; letter-spacing: -0.34px; flex-direction: column; }
+.sub14 .section01 .content .date_area { max-width: 600px; width: 100%; margin: 53px auto 50px; border-top: 0.5px solid #fff; border-bottom: 0.5px solid #fff; padding: 8px 0 10px; display: flex; color: #fff; font-size: 17px; font-weight: 400; line-height: 25px; letter-spacing: -0.02em; flex-direction: column; }
 .sub14 .section01 .content .date_area .top { border-bottom: 0.5px solid #fff; padding-bottom: 10px; margin-bottom: 10px; }
 .sub14 .section01 .content .date_area span { font-weight: 700; margin-right: 44px; }
 
-.sub14 .section01 .content .pc_display .item_box ul { display: flex; flex-direction: column; gap: 32px; width: 100%; max-width: 600px; margin: 0 auto; justify-content: center; }
-.sub14 .section01 .content .pc_display .item_box ul li { width: 100%; background: #fff; border-radius: 24px; border: 3px solid #152375; padding: 31px 41px; }
-.sub14 .section01 .content .pc_display .item_box ul li:nth-child(1) { max-height: 250px; }
-.sub14 .section01 .content .pc_display .item_box ul li:nth-child(2) { max-height: 225px; }
-.sub14 .section01 .content .pc_display .item_box ul li:nth-child(3) { max-height: 250px; }
-.sub14 .section01 .content .pc_display .item_box ul li span { display: block; text-align: center; color: #152375; font-family: 'GmarketSans'; font-size: 25px; font-weight: 500; line-height: 27px; letter-spacing: -1px; }
-.sub14 .section01 .content .pc_display .item_box ul li p { padding: 19px 0 22px; color: #152375; font-family: 'GmarketSans'; font-size: 17px; font-weight: 300; line-height: 25px; letter-spacing: -0.5px; }
-.sub14 .section01 .content .pc_display .item_box ul li .ox_box { display: flex; gap: 33px; justify-content: center; align-items: center; }
-.sub14 .section01 .content .pc_display .item_box ul li .ox_box .line { width: 1px; height: 45px; background: #d9d9d9; }
-.sub14 .section01 .content .pc_display .item_box ul li .ox_box > div:not(.line) { font-family: 'GmarketSans'; font-size: 50px; font-weight: 500; line-height: 27px; letter-spacing: -2px; }
-.sub14 .section01 .content .pc_display .item_box ul li .ox_box .blue { color: #93cdff; }
-.sub14 .section01 .content .pc_display .item_box ul li .ox_box .red { color: #ff7676; }
-
-.sub14 .section01 .content .button { position: relative; display: flex; gap: 46px; justify-content: center; margin: 64px auto; }
-.sub14 .section01 .content .button a.subscribe { background: #424242; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; border-radius: 999px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; padding: 10px 0 7px; transition: all 500ms; }
+.sub14 .section01 .content .button { position: relative; display: flex; gap: 46px; justify-content: center; margin: 0 auto; }
+.sub14 .section01 .content .button a.subscribe { background: #424242; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; border-radius: 999px; font-size: 25px; font-weight: 400; line-height: 28px; letter-spacing: -0.02em; padding: 10px 0 7px; transition: all 500ms; }
 .sub14 .section01 .content .button a.subscribe:hover { transform: translateY(-5px); box-shadow: 3.5px 3.5px #4a4a4a; }
-.sub14 .section01 .content .button a.send { background: #ff7676; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; border-radius: 999px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; padding: 10px 0 7px; transition: all 500ms; }
+.sub14 .section01 .content .button a.send { background: #BC3B3B; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; border-radius: 999px; font-size: 25px; font-weight: 400; line-height: 28px; letter-spacing: -0.02em; padding: 10px 0 7px; transition: all 500ms; }
 .sub14 .section01 .content .button a.send:hover { transform: translateY(-5px); box-shadow: 3.5px 3.5px #4a4a4a; }
 .sub14 .section01 .content .button span.end { background: #777; text-align: center; color: #fff; font-family: 'WavvePADO'; max-width: 200px; width: 100%; height: 45px; border-radius: 999px; font-size: 25px; font-weight: 400; letter-spacing: -0.5px; padding: 10px 0 7px; }
 
-.sub14 .section01 .content .info { max-width: 600px; width: 100%; margin: 0px auto; border-top: 0.5px solid #fff; padding-top: 20px; }
+.sub14 .section01 .content .info { max-width: 600px; width: 100%; margin: 50px auto 0; border-top: 0.5px solid #fff; padding-top: 20px; }
 .sub14 .section01 .content .info ul { padding-inline-start: 1em; color: #fff; }
-.sub14 .section01 .content .info li { list-style: disc; font-family:'Noto Sans CJK Kr'; font-size: 15px; font-weight: 400; letter-spacing: -0.3px; line-height: 1.3; }
+.sub14 .section01 .content .info li { list-style: disc; font-family:'Noto Sans CJK Kr'; font-size: 15px; font-weight: 400; line-height: 22px; letter-spacing: -0.02em; }
 .sub14 .section01 .content .info li::marker { font-size: 8px; }
 .sub14 .section01 .content .info li span { position: relative; }
 
 @media only all and (max-width:767px) {
-	.sub14 .section01 .content { padding: 39px 0 50px; }
-	.sub14 .section01 .content .title_text { margin-top: 37px; }
-	.sub14 .section01 .content .text { margin: 36px auto 28px; text-align: left; }
+	.sub14 .section01 { overflow: hidden; }
+	.sub14 .section01 .content { padding: 35px 0 50px; }
 
-	.sub14 .section01 .content .date_area { margin-top: 47px; margin-bottom: 36px; padding: 6px 0 10px; }
+	.sub14 .section01 .content .title { max-width: 100%; }
+	.sub14 .section01 .content .title .main-img { transform: scale(1.07) translateX(-2%); }
+	.sub14 .section01 .content .title .ribbon { max-width: 68px; left: 39%; top: 16%; }
+	.sub14 .section01 .content .title .bell01 { max-width: 30px; left: 40%; top: 20%; }
+	.sub14 .section01 .content .title .bell02 { max-width: 30px; left: 48%; top: 20%; }
+	.sub14 .section01 .content .title .text_box { gap: 12px; left: 36%; top: 34%; }
+	.sub14 .section01 .content .title .text_box img { max-width: 90px; }
+	.sub14 .section01 .content .title .text_box h3 { font-size: 28px; line-height: 28px; }
+
+	.sub14 .section01 .content .text { margin: 44px auto 42px; text-align: left; }
+
+	.sub14 .section01 .content .gift img { padding: 0 17px; }
+
+	.sub14 .section01 .content .date_area { margin-top: 50px; margin-bottom: 36px; padding: 6px 0 10px; }
 	.sub14 .section01 .content .date_area > div { display: flex; }
-	.sub14 .section01 .content .date_area .top { line-height: 1.5; }
 	.sub14 .section01 .content .date_area span { margin-right: 20px; }
 
 	.sub14 .section01 .content .mobile_display .item_box ul { display: flex; flex-direction: column; gap: 32px; justify-content: center; }
 
 	.sub14 .section01 .content .button { display: flex; gap: 20px; justify-content: center; margin: 36px 0; }
-	.sub14 .section01 .content .button a.subscribe { max-width: 170px; width: 100%; height: 45px; font-size: 20px; letter-spacing: -0.4px; padding: 12px 0 10px; }
-	.sub14 .section01 .content .button a.send { max-width: 170px; width: 100%; height: 45px; font-size: 20px; letter-spacing: -0.4px; padding: 12px 0 10px; }
+	.sub14 .section01 .content .button a.subscribe { max-width: 170px; width: 100%; height: 45px; font-size: 20px; line-height: 22px; padding: 12px 0 10px; }
+	.sub14 .section01 .content .button a.send { max-width: 170px; width: 100%; height: 45px; font-size: 20px; line-height: 22px; padding: 12px 0 10px; }
 	.sub14 .section01 .content .button span.end { max-width: 170px; width: 100%; height: 45px; font-size: 20px; letter-spacing: -0.4px; padding: 12px 0 10px; }
 
-	.sub14 .section01 .content .info li { letter-spacing: -0.75px; }
+	.sub14 .section01 .content .info { margin: 36px auto 0; }
+	.sub14 .section01 .content .info li { letter-spacing: -0.05em; }
 }

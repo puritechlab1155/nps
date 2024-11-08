@@ -16,78 +16,15 @@
 
     document.addEventListener("DOMContentLoaded", (event) => {
 
-   // .motion1 애니메이션 (서서히 나타남 + 반복 애니메이션)
-    gsap.fromTo(".motion1", 
-        { opacity: 0, scale: 0 }, // 시작 상태: 불투명도 0, 크기 0
-        { 
-            opacity: 1,           // 최종 상태: 불투명도 1
-            duration: 4, 
-            scale: 1.1, 
-            // repeat: 1
-            scrollTrigger: {
-                trigger: ".motion1",  // 트리거 요소
-                start: "bottom 20%",     // 스크롤 트리거 위치 (top부터 80% 아래에서 트리거 시작)
-                toggleActions: "restart none none none", //
-                immediateRender: false // 첫 로드 시 즉시 렌더링 방지, 스크롤로 트리거됨
+        // 페이지 로드 시 애니메이션
+        gsap.fromTo(".img-sc", 
+            { x: 300, }, 
+            { 
+                x: 0,
+                duration: 1,
+                easy: "circ.out",
             }
-        }
-    );
-
-
-    // .motion2 애니메이션 (서서히 나타남 + 반복 애니메이션)
-    gsap.fromTo(".motion2", 
-        { opacity: 0, scale: 0 }, // 시작 상태: 불투명도 0, 크기 0
-        { 
-            opacity: 1,           // 최종 상태: 불투명도 1
-            duration: 3, 
-            scale: 0.9, 
-            // repeat: 1,
-            scrollTrigger: {
-                trigger: ".motion2",  // 트리거 요소
-                start: "bottom 20%",     // 스크롤 트리거 위치
-                toggleActions: "restart none none none", // 
-                immediateRender: false // 첫 로드 시 즉시 렌더링 방지, 스크롤로 트리거됨
-            }
-
-        }
-    );
-
-    // 페이지 로드 시 애니메이션
-    gsap.fromTo(".motion1", 
-        { opacity: 0, scale: 0 }, 
-        { 
-            opacity: 1, 
-            duration: 3, 
-            scale: 1.1 
-        }
-    );
-
-    gsap.fromTo(".motion2", 
-        { opacity: 0, scale: 0 }, 
-        { 
-            opacity: 1.5, 
-            duration: 1, 
-            scale: 0.9 
-        }
-    );
-
-        gsap.to(".motion3", { 
-            duration: 2, 
-            rotationY: 10, 
-            scale: 1.1, 
-            x: 10, 
-            yoyo: true, 
-            repeat: -1 
-        });
-
-        gsap.to(".motion4", { 
-            duration: 2, 
-            rotationY: 10, 
-            scale: 0.9, 
-            x: 10, 
-            yoyo: true, 
-            repeat: -1 
-        });
+        );
     });
 </script>
 </head>
@@ -114,17 +51,17 @@
                     <div class="img_box img_box03">
                         <img src="img/sub10/speech-bubble-wh.svg">
                         <div class="dots">
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                            <span class="dot01"></span>
+                            <span class="dot02"></span>
+                            <span class="dot03"></span>
                         </div>
                     </div>
                     <div class="img_box img_box04">
                         <img src="img/sub10/speech-bubble-red.svg">
                         <div class="dots">
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                            <span class="dot04"></span>
+                            <span class="dot05"></span>
+                            <span class="dot06"></span>
                         </div>
                     </div>
                     <div class="img_box img_box05"><img src="img/sub10/hearts.svg"></div>

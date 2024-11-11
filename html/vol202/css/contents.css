@@ -773,7 +773,7 @@
 
 /* 모두의 여행 */
 .sub05 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; color: #000; letter-spacing: normal; line-height: normal; }
-.sub05 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub05/sub05_00.png'); background-size: cover; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; position: relative; }
+.sub05 .section01 { height: 550px; width: 100%; background-image: url('../img/sub05/sub05_00.png'); background-size: cover; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; position: relative; }
 /* .sub05 .section01::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); } */
 .sub05 .section01 .content { text-align: center; margin-bottom: 89px; color: #fff; position: relative; z-index: 1; }
 .sub05 .section01 .content .cover_title { font-size: 27px; font-weight: 700; }
@@ -815,7 +815,6 @@
 .sub05 .content .info_area .info_box .info_list .list { color: #429FBD; font-family: 'laundrygothic'; font-size: 15px; font-weight: 400; line-height: 32px; display: flex; }
 .sub05 .content .info_area .info_box .info_list .list span { display: inline-block; position: relative; padding-right: 8px; margin-right: 8px; }
 .sub05 .content .info_area .info_box .info_list .list span::after { content: ''; position: absolute; top: 50%; transform: translateY(-50%); width: 0.5px; height: 50%; background-color: #429FBD; z-index: 0; right: 0; }
-.sub05 .content .info_area .info_box .info_list .list .point::after { content: ''; position: absolute; top: 0; transform: translateY(50%); width: 0.5px; height: 14px; background-color: #429FBD; z-index: 0; right: 0; }
 .sub05 .content .info_area .info_box .info_list .list span img { max-width: 14px; width: 100%; display: inline-block; margin-right: 4px; }
 .sub05 .content .info_area .info_box .info_list .list a { color: #429FBD; font-family: 'laundrygothic'; font-size: 15px; font-weight: 400; line-height: 25px; }
 
@@ -907,8 +906,8 @@
 .sub05 .section13 .content .info_area .info_box { padding-bottom: 31px; }
 
 @media only all and (max-width:767px) {
-	.sub05 .section01 { height: 275px; }
-	.sub05 .section01::before { background: rgba(0, 0, 0, 0.3); }
+	.sub05 .section01 { height: 275px; background-image: url('../img/sub05/sub05_00_mo.png'); background-size: cover; background-position: center; background-repeat: no-repeat; }
+	/* .sub05 .section01::before { background: rgba(0, 0, 0, 0.3); } */
 	.sub05 .section01 .content { margin-bottom: 12px; }
 	.sub05 .section01 .content .cover_title { font-size: 20px; }
 	.sub05 .section01 .content .cover_text { padding: 0; }
@@ -928,7 +927,7 @@
 	.sub05 .content .phototitle { line-height: 20px; height: 20px; padding: 0 3px; border-radius: 0 0 2.6px 2.6px; top: calc(100% - 31px); }
 
 	.sub05 .content .info_area { margin-top: 24px; padding: 13px 15px 17px; }
-	.sub05 .content .info_area .info_box { padding-top: 32px; }
+	.sub05 .content .info_area .info_box { padding-top: 32px; padding-left: 2%; }
 	.sub05 .content .info_area .info_box .info_title { margin: 0 auto 18px; width: 170px; padding: 5px 0 4px; }
 	.sub05 .content .info_area .info_box .info_list { max-width: 279px; width: 100%; margin: 0 auto; }
 	.sub05 .content .info_area .info_box .info_list .list { display: flex; align-items: center; font-size: 15px; padding-top: 4px; }
@@ -940,39 +939,36 @@
 	.sub05 .content .info_area .info_box .info_list .list .point::after { transform: translateY(35%); }
 
 	.sub05 .section03 .slide1-2 { margin-top: 24px; }
-	.sub05 .section03 .content .info_area .info_box { padding-bottom: 11px; padding-left: 2%;}
+	.sub05 .section03 .content .info_area .info_box { padding-bottom: 11px; }
 
 	.sub05 .section04 .content { width: 100%; }
-	.sub05 .section04 .content .info_area .info_box { padding-bottom: 15px; padding-left: 2%;}
+	.sub05 .section04 .content .info_area .info_box { padding-bottom: 15px; }
 
 	.sub05 .section05 .content { margin: 48px auto; }
-	.sub05 .section05 .content .info_area .info_box { padding-bottom: 17px; padding-left: 2%;}
-	.sub05 .section05 .content .info_area .info_box .info_list { max-width: 279px; width: 100%; }
+	.sub05 .section05 .content .info_area .info_box { padding-bottom: 17px; }
 
-	.sub05 .section06 .content .info_area .info_box { padding-bottom: 16px; padding-left: 2%;}
-	.sub05 .section06 .content .info_area .info_box .info_list { max-width: 279px; width: 100%; }
+	.sub05 .section06 .content .info_area .info_box { padding-bottom: 16px; }
 
 	.sub05 .section07 .content { margin: 48px auto 105px; }
-	.sub05 .section07 .content .info_area .info_box { padding-bottom: 9px; padding-left: 2%;}
-	.sub05 .section07 .content .info_area .info_box .info_list { max-width: 279px; width: 100%; }
+	.sub05 .section07 .content .info_area .info_box { padding-bottom: 9px; }
 
 	.sub05 .section08 .content { padding-top: 55px; }
 
 	.sub05 .section09 .content { margin: 50px auto 48px; }
-	.sub05 .section09 .content .info_area .info_box { padding-bottom: 14px; padding-left: 2%;}
-	.sub05 .section09 .content .info_area .info_box .info_list { max-width: 279px; width: 100%; }
+	.sub05 .section09 .content .info_area .info_box { padding-bottom: 14px; }
 
-	.sub05 .section10 .content .info_area .info_box { padding-bottom: 24px;padding-left: 2%; }
-	.sub05 .section10 .content .info_area .info_box .info_list { max-width: 286px; width: 100%; }
+	.sub05 .section10 .content .info_area .info_box { padding-bottom: 24px; }
 
 	.sub05 .section11 .content { margin: 48px auto; }
-	.sub05 .section11 .content .info_area .info_box { padding-bottom: 22px; padding-left: 2%;}
+	.sub05 .section11 .content .info_area .info_box { padding-bottom: 22px; }
 
 	.sub05 .section12 .content { margin: 0 auto 50px; }
-	.sub05 .section12 .content .info_area .info_box { padding-bottom: 24px; padding-left: 2%;}
-	.sub05 .section12 .content .info_area .info_box .info_list { max-width: 279px; width: 100%; }
+	.sub05 .section12 .content .info_area .info_box { padding-bottom: 24px; }
+
+	.sub05 .section13 .content { margin: 0 auto 50px; }
+	.sub05 .section13 .content .info_area .info_box { padding-bottom: 14px; }
 }
-@media only all and (max-width: 360px) {
+/* @media only all and (max-width: 360px) {
 	.sub05 .content .num_title .number { width: 36px; margin-right: 10px; }
 
 	.sub05 .content .info_area .info_box .info_list .point_list { align-items: flex-start; }
@@ -992,7 +988,7 @@
 
 	.sub05 .content .info_area .info_box .info_list .point_list { align-items: flex-start; }
 	.sub05 .content .info_area .info_box .info_list .list .point::after { transform: translateY(35%); }
-}
+} */
 
 /* 연금엔씨네마 */
 .sub06 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; color: #000; letter-spacing: normal; line-height: normal; }

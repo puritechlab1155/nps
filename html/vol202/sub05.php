@@ -26,14 +26,14 @@
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
 				<div class="title">
-					겨울 바다의 낭만과 설산의 품속으로 <br>
+					겨울 바다의 낭만과 <br class="mobile_display">설산의 품속으로 <br>
 					강원도 고성·속초
 				</div>
 				<div class="subcopy">
 					강원도에서 나고 자란 이들은 본능적으로 안다. 바람이 차가워질수록 바다는 깊고 진한 푸른색을 띤다는 것을. 설악산 사이 불 밝힌 스키장 야경도 잊을 수 없다. 이런 풍경은 오직 겨울에 만날 수 있는 낭만이다.
 				</div>
 				<img src="img/sub05/day1-map.svg" class="pc_display">
-				<img src="img/sub05/sub05_01_mo.svg" class="mobile_display">
+				<img src="img/sub05/day1-map-mo.svg" class="mobile_display">
 			</div>
 		</div><!-- //.section02 -->
 
@@ -105,12 +105,7 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list point_list">
-								<span class="point"><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>
-								<em>
-									강원 고성군 현내면 금강산로 481
-								</em>
-							</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>강원 고성군 현내면 금강산로 481</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>09:00~18:00</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-682-0088</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>성인 3천 원</em></div>
@@ -170,12 +165,7 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list point_list">
-								<span class="point"><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>
-								<em>
-									강원 고성군 현내면 통일전망대로 369
-								</em>
-							</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>강원 고성군 현내면 통일전망대로 369</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>하절기 09:00~18:00, 동절기 09:00~17:00</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-681-0625</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>무료</em></div>
@@ -253,7 +243,7 @@
 						<div class="info_title">INFO</div>
 						<div class="info_list">
 							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>강원 고성군 거진읍 화진포길 280</em></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>하절기 09:00~18:00, 동절기 09:00~17:30</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>하절기 09:00~18:00, <br class="mobile_display">동절기 09:00~17:30</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-680-3677</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>성인 3천 원</em></div>
 						</div>
@@ -399,7 +389,7 @@
 						<div class="info_title">INFO</div>
 						<div class="info_list">
 							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>강원 고성군 토성면 원암온천길 3길 37</em></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>하절기 09:00~18:00, 동절기 09:00~17:30</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>하절기 09:00~18:00, <br class="mobile_display">동절기 09:00~17:30</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-632-6632</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span>성인 9천 원</div>
 						</div>
@@ -411,7 +401,7 @@
 		<div class="section08 wow fadeBigInUp">
 			<div class="content">
 					<img src="img/sub05/day2-map.svg" class="pc_display">
-					<img src="img/sub05/sub05_05_mo.svg" class="mobile_display">
+					<img src="img/sub05/day2-map-mo.svg" class="mobile_display">
 			</div>
 		</div>
 
@@ -481,7 +471,7 @@
 						<div class="info_title">INFO</div>
 						<div class="info_list">
 							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>강원 속초시 설악산로 1085</em></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>07:30~17:00(기상 상황에 따라 변동)</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>07:30~17:00<br class="mobile_display">(기상 상황에 따라 변동)</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-636-4300</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span>성인 1만 5천 원</div>
 						</div>
@@ -557,7 +547,7 @@
 							<div class="list">
 								<span><img src="img/sub05/sub05_icon4.svg">운영시간</span>
 								<em>
-									하절기 09:00~18:00, 동절기 09:00~17:00
+									하절기 09:00~18:00, <br class="mobile_display">동절기 09:00~17:00
 								</em>
 							</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-639-2974</div>
@@ -626,7 +616,7 @@
 							<div class="list">
 								<span><img src="img/sub05/sub05_icon4.svg">운영시간</span>
 								<em>
-									하절기 09:00~18:00, 동절기 09:00~17:00
+									하절기 09:00~18:00, <br class="mobile_display">동절기 09:00~17:00
 								</em>
 							</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-638-4459</div>
@@ -854,7 +844,7 @@
 							<div class="list">
 								<span><img src="img/sub05/sub05_icon4.svg">운영시간</span>
 								<em>
-									06:00~19:30(기상 악화 시 통제)
+									06:00~19:30<br class="mobile_display">(기상 악화 시 통제)
 								</em>
 							</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-639-2362</div>

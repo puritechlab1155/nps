@@ -35,8 +35,7 @@
 				<div class="content">
 					<div class="content01 fadeBigInUp">
 						<div class="subtitle_top">나야 굴~, 바다의 우유</div>
-						<div class="title pc_display">영양이 오동통, 굴전 레시피</div>
-						<div class="title mobile_display">영양 듬뿍 담은 <br>‘송이버섯솥밥’ 레시피</div>
+						<div class="title">영양이 오동통, <br class="mobile_display">굴전 레시피</div>
 
 						<div class="subcopy">
 							통통하게 살이 오른 12월의 굴은 풍부한 영양분을 함유하고 깊고 진한 바다 향기를 머금어 가장 맛있게 즐길 수 있다. 동서양을 막론하고 사랑받는 식재료인 굴에 관해 이야기한다.
@@ -89,36 +88,33 @@
 										<li><img src="img/sub09/sub09_item2_num3.svg"><span>생굴을 무즙에 재우면 비린내 제거에 좋다.</span></li>
 									</ul>
 								</div>
-								<!-- <div class="mobile_display">
-									<ul>
-										<li><img src="img/sub09/sub09_item2_01.svg"></li>
-										<li><img src="img/sub09/sub09_item2_02.svg"></li>
-										<li><img src="img/sub09/sub09_item2_03.svg"></li>
-									</ul>
-								</div> -->
 							</div>
 						</div>
 
 						<div class="item_box2">
-							<div class="bg"><img src="img/sub09/store-oyster-bg.svg"></div>
+							<div class="bg pc_display"><img src="img/sub09/store-oyster-bg.svg"></div>
+							<div class="bg mobile_display"><img src="img/sub09/store-bg-mo.svg"></div>
 							<div class="item_cont">
 								<div class="item2_title">굴 보관 방법</div>
 								<ul>
 									<li>
-										<div class="img"><img src="img/sub09/store-oyster1.svg"></div>
-										<div class="text">
+										<div class="img mobile_display"><img src="img/sub09/store-oyster1-mo.svg"></div>
+										<div class="img pc_display"><img src="img/sub09/store-oyster1.svg"></div>
+										<div class="text pc_display">
 											소금물에 잠시 담갔다가 물기를 제거한 후 밀폐용기나 채반에 두고 그 아래 얼음을 깔아 냉장 보관한다. 반드시 2~5일 이내에 먹는다.
 										</div>
 									</li>
 									<li>
-										<div class="img"><img src="img/sub09/store-oyster2.svg"></div>
-										<div class="text">
+									<div class="img mobile_display"><img src="img/sub09/store-oyster2-mo.svg"></div>
+										<div class="img pc_display"><img src="img/sub09/store-oyster2.svg"></div>
+										<div class="text pc_display">
 											소금물에 담가 0~4℃에 보관하고 최대한 빠르게 먹는다.
 										</div>
 									</li>
 									<li>
-										<div class="img"><img src="img/sub09/store-oyster3.svg"></div>
-										<div class="text">
+									<div class="img mobile_display"><img src="img/sub09/store-oyster3-mo.svg"></div>
+										<div class="img pc_display"><img src="img/sub09/store-oyster3.svg"></div>
+										<div class="text pc_display">
 											냉장 보관하며 최대한 빠른 시일 내에 섭취한다. 
 										</div>
 									</li>
@@ -151,28 +147,11 @@
 					<ul>
 						<li class="item1 fadeBigInUp">
 							<div class="item_title"><img src="img/sub09/sub09_06.svg"></div>
-							<div class="item_text pc_display">
+							<div class="item_text">
 								굴 1팩(250g), 계란 2개, 실파 7대, 밀가루 2큰술 반, 소금 1작은술, 홍고추와 풋고추 1개, 후추
-							</div>
-							<div class="item_text mobile_display">
-								쌀 2컵, 송이버섯 2개, 은행 15알, 실파 5대, <br>
-								다시마 육수 2컵, 간장 3큰술, 맛술 1큰술, <br>
-								고춧가루 1작은술, 다진 마늘 1/2작은술, <br>
-								참기름 1큰술, 통깨 약간
 							</div>
 							<div class="item_img">
 								<img src="img/sub09/ingred-full.png">
-								<!-- <img src="img/sub09/ingred01.png" class="ingred1">
-								<img src="img/sub09/ingred02.png" class="ingred2">
-								<img src="img/sub09/ingred03.png" class="ingred3">
-								<img src="img/sub09/ingred04.png" class="ingred4">
-								<img src="img/sub09/ingred05.png" class="ingred5">
-								<img src="img/sub09/ingred06.png" class="ingred6">
-								<img src="img/sub09/ingred07.png" class="ingred7">
-								<img src="img/sub09/ingred08.png" class="ingred8">
-								<img src="img/sub09/ingred09.png" class="ingred9">
-								<img src="img/sub09/ingred10.png" class="ingred10">
-								<img src="img/sub09/ingred11.png" class="ingred11"> -->
 							</div>
 						</li>
 
@@ -197,7 +176,7 @@
 						<li class="item4 fadeBigInUp">
 							<div class="item_title"><img src="img/sub09/step-num3.svg"></div>
 							<div class="item_text">
-								계란 2개, 썰어 놓은 홍고추와 풋고추, 후추와 소금을 함께 섞어 계란물을 만든다. <br>
+								계란 2개, 썰어 놓은 홍고추와 풋고추, 후추와 소금을 함께 섞어 계란물을 만든다. <br class="pc_display">
 								굴에 밀가루를 입히고 계란물에 넣는다.
 							</div>
 							<div class="item_img">
@@ -208,7 +187,7 @@
 						<li class="item5 fadeBigInUp">
 							<div class="item_title"><img src="img/sub09/step-num4.svg"></div>
 							<div class="item_text">
-								프라이팬에 식용유를 두른 후 계란물을 입힌 굴을 노릇노릇 부치면 완성!<br>
+								프라이팬에 식용유를 두른 후 계란물을 입힌 굴을 노릇노릇 부치면 완성!<br class="pc_display">
 								곁들임용 실파와 함께 굴전을 즐기길 추천한다.
 							</div>
 							<div class="item_img">

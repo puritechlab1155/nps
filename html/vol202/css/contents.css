@@ -774,12 +774,12 @@
 /* 모두의 여행 */
 .sub05 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; color: #000; letter-spacing: normal; line-height: normal; }
 .sub05 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub05/sub05_00.png'); background-size: cover; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; position: relative; }
-.sub05 .section01::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); }
+/* .sub05 .section01::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); } */
 .sub05 .section01 .content { text-align: center; margin-bottom: 89px; color: #fff; position: relative; z-index: 1; }
 .sub05 .section01 .content .cover_title { font-size: 27px; font-weight: 700; }
 .sub05 .section01 .content .cover_text { font-size: 16px; font-weight: 400; padding: 13px 0; }
 
-.sub05 .section02 { position: relative; display: block; width: 100%; background: #558e83; padding-top: 120px;}
+.sub05 .section02 { position: relative; display: block; width: 100%; background: #429FBD; padding-top: 120px;}
 .sub05 .section02 .content { position: relative; max-width: 1020px; width: 100%; padding: 0 20px; margin: 0 auto; color: #fff; }
 .sub05 .section02 .content .title { font-size: 50px; font-weight: 700; line-height: 68px; padding-bottom: 30px; border-bottom: 1px solid #fff; text-align: center; }
 .sub05 .section02 .content .subcopy { font-size: 20px; font-weight: 700; letter-spacing: -0.4px; line-height: 32px; text-align: left; margin: 35px 0 76px; }
@@ -789,7 +789,7 @@
 .sub05 .content .num_title .number { float: left; width: 48px; padding: 8px 0; margin-right: 16px; }
 .sub05 .content .num_title .number img { width: 100%; }
 .sub05 .content .num_title span { color: #000; font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; }
-.sub05 .content .num_title h3 { color: #ff926a; font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; }
+.sub05 .content .num_title h3 { color: #7245AB; font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; }
 .sub05 .content .text { font-size: 18px; font-weight: 400; line-height: 32px; letter-spacing: -0.36px; margin: 32px 0 48px; }
 
 .sub05 .section03 { position: relative; width: 100%; display: block; }
@@ -809,15 +809,15 @@
 .sub05 .content .phototitle { background: #000; color: #fff; display: inline; font-size: 15px; font-weight: 400; line-height: 32px; height: 32px; padding: 0 10px; border-radius: 0 0 8px 8px; position: absolute; top: calc(100% - 49px); left: 0; z-index: 0; }
 
 .sub05 .content .info_area { background-color: #EBDED6; opacity: 1; background-image:  linear-gradient(#ffffff 1px, transparent 1px), linear-gradient(to right, #ffffff 1px, #EBDED6 1px); background-size: 18px 18px; margin-top: 48px; padding: 25px 25px 57px; }
-.sub05 .content .info_area .info_box { background: #fff; border: 2px solid #ff926a; padding-top: 40px; }
-.sub05 .content .info_area .info_box .info_title { text-align: center; margin: 0 auto 29px; width: 168px; height: 42px; background: #558e83; border-radius: 50%; font-family: 'laundrygothic'; color: #ff926a; font-size: 18px; font-weight: 700; line-height: 32px; padding: 5px 0; }
-.sub05 .content .info_area .info_box .info_list { max-width: 400px; width: 100%; margin: 0 auto; }
-.sub05 .content .info_area .info_box .info_list .list { color: #558e83; font-family: 'laundrygothic'; font-size: 15px; font-weight: 400; line-height: 32px; display: flex; }
+.sub05 .content .info_area .info_box { background: #fff; border: 2px solid #7245AB; padding-top: 40px; }
+.sub05 .content .info_area .info_box .info_title { text-align: center; margin: 0 auto 29px; width: 168px; height: 42px; background: #429FBD; border-radius: 50%; font-family: 'laundrygothic'; color: #fff; font-size: 18px; font-weight: 700; line-height: 32px; padding: 5px 0; }
+.sub05 .content .info_area .info_box .info_list { width: fit-content; margin: 0 auto; }
+.sub05 .content .info_area .info_box .info_list .list { color: #429FBD; font-family: 'laundrygothic'; font-size: 15px; font-weight: 400; line-height: 32px; display: flex; }
 .sub05 .content .info_area .info_box .info_list .list span { display: inline-block; position: relative; padding-right: 8px; margin-right: 8px; }
-.sub05 .content .info_area .info_box .info_list .list span::after { content: ''; position: absolute; top: 50%; transform: translateY(-50%); width: 0.5px; height: 50%; background-color: #558e83; z-index: 0; right: 0; }
-.sub05 .content .info_area .info_box .info_list .list .point::after { content: ''; position: absolute; top: 0; transform: translateY(50%); width: 0.5px; height: 14px; background-color: #558e83; z-index: 0; right: 0; }
+.sub05 .content .info_area .info_box .info_list .list span::after { content: ''; position: absolute; top: 50%; transform: translateY(-50%); width: 0.5px; height: 50%; background-color: #429FBD; z-index: 0; right: 0; }
+.sub05 .content .info_area .info_box .info_list .list .point::after { content: ''; position: absolute; top: 0; transform: translateY(50%); width: 0.5px; height: 14px; background-color: #429FBD; z-index: 0; right: 0; }
 .sub05 .content .info_area .info_box .info_list .list span img { max-width: 14px; width: 100%; display: inline-block; margin-right: 4px; }
-.sub05 .content .info_area .info_box .info_list .list a { color: #558e83; font-family: 'laundrygothic'; font-size: 15px; font-weight: 400; line-height: 25px; }
+.sub05 .content .info_area .info_box .info_list .list a { color: #429FBD; font-family: 'laundrygothic'; font-size: 15px; font-weight: 400; line-height: 25px; }
 
 .sub05 .section03 .content .info_area .info_box { padding-bottom: 37px; }
 
@@ -840,7 +840,6 @@
 .sub05 .section05 .content .slider3 li .vod {position:absolute;left:15px;bottom:15px;display:inline-block;width:50px;height:50px;text-indent:-9999px;overflow:hidden;background:url('../../img/vol197/main/ico_vod2.png') no-repeat 50% 50%;z-index:1;}
 
 .sub05 .section05 .content .info_area .info_box { padding-bottom: 30px; }
-.sub05 .section05 .content .info_area .info_box .info_list { max-width: 306px; width: 100%; margin: 0 auto; }
 
 .sub05 .section06 { position: relative; width: 100%; display: block; }
 .sub05 .section06 .content { width: 100%; max-width: 1020px; padding: 0 20px; margin: 0 auto; }
@@ -851,20 +850,8 @@
 .sub05 .section06 .content .slider4 li .vod {position:absolute;left:15px;bottom:15px;display:inline-block;width:50px;height:50px;text-indent:-9999px;overflow:hidden;background:url('../../img/vol197/main/ico_vod2.png') no-repeat 50% 50%;z-index:1;}
 
 .sub05 .section06 .content .info_area .info_box { padding-bottom: 29px; }
-.sub05 .section06 .content .info_area .info_box .info_list { max-width: 314px; width: 100%; margin: 0 auto; }
 
-.sub05 .section07 { position: relative; width: 100%; display: block; }
-.sub05 .section07 .content { width: 100%; max-width: 1020px; padding: 0 20px; margin: 100px auto; }
-
-.sub05 .section07 .content .slider5 {overflow:hidden; max-width:980px; width:100%; z-index: 2; }
-.sub05 .section07 .content .slider5 li {float:left;width:100%; position:relative;border-radius:0px;overflow:hidden;}
-.sub05 .section07 .content .slider5 li img {width:100%;}
-.sub05 .section07 .content .slider5 li .vod {position:absolute;left:15px;bottom:15px;display:inline-block;width:50px;height:50px;text-indent:-9999px;overflow:hidden;background:url('../../img/vol197/main/ico_vod2.png') no-repeat 50% 50%;z-index:1;}
-
-.sub05 .section07 .content .info_area .info_box { padding-bottom: 33px; }
-.sub05 .section07 .content .info_area .info_box .info_list { max-width: 297px; width: 100%; margin: 0 auto; }
-
-.sub05 .section08 { position: relative; display: block; width: 100%; background: #558e83;}
+.sub05 .section08 { position: relative; display: block; width: 100%; background: #7145AB; margin-top: 100px; }
 .sub05 .section08 .content { position: relative; max-width: 1020px; padding: 100px 20px 0; margin: 0 auto; }
 .sub05 .section08 .content img { width: 100%; }
 
@@ -877,7 +864,6 @@
 .sub05 .section09 .content .slider6 li .vod {position:absolute;left:15px;bottom:15px;display:inline-block;width:50px;height:50px;text-indent:-9999px;overflow:hidden;background:url('../../img/vol197/main/ico_vod2.png') no-repeat 50% 50%;z-index:1;}
 
 .sub05 .section09 .content .info_area .info_box { padding-bottom: 27px; }
-.sub05 .section09 .content .info_area .info_box .info_list { max-width: 264px; width: 100%; margin: 0 auto; }
 
 .sub05 .section10 { position: relative; width: 100%; display: block; }
 .sub05 .section10 .content { width: 100%; max-width: 1020px; padding: 0 20px; margin: 0 auto; }
@@ -886,9 +872,9 @@
 .sub05 .section10 .content .slider7 li {float:left;width:100%; position:relative;border-radius:0px;overflow:hidden;}
 .sub05 .section10 .content .slider7 li img {width:100%;}
 .sub05 .section10 .content .slider7 li .vod {position:absolute;left:15px;bottom:15px;display:inline-block;width:50px;height:50px;text-indent:-9999px;overflow:hidden;background:url('../../img/vol197/main/ico_vod2.png') no-repeat 50% 50%;z-index:1;}
+.sub05 .section10 .content .slider_wrap10-2 { margin-top: 48px; }
 
 .sub05 .section10 .content .info_area .info_box { padding-bottom: 36px; }
-.sub05 .section10 .content .info_area .info_box .info_list { max-width: 586px; width: 100%; margin: 0 auto; }
 
 .sub05 .section11 { position: relative; width: 100%; display: block; }
 .sub05 .section11 .content { width: 100%; max-width: 1020px; padding: 0 20px; margin: 100px auto; }
@@ -899,7 +885,6 @@
 .sub05 .section11 .content .slider8 li .vod {position:absolute;left:15px;bottom:15px;display:inline-block;width:50px;height:50px;text-indent:-9999px;overflow:hidden;background:url('../../img/vol197/main/ico_vod2.png') no-repeat 50% 50%;z-index:1;}
 
 .sub05 .section11 .content .info_area .info_box { padding-bottom: 30px; }
-.sub05 .section11 .content .info_area .info_box .info_list { max-width: 273px; width: 100%; margin: 0 auto; }
 
 .sub05 .section12 { position: relative; width: 100%; display: block; }
 .sub05 .section12 .content { width: 100%; max-width: 1020px; padding: 0 20px; margin: 0 auto 120px; }
@@ -910,7 +895,16 @@
 .sub05 .section12 .content .slider9 li .vod {position:absolute;left:15px;bottom:15px;display:inline-block;width:50px;height:50px;text-indent:-9999px;overflow:hidden;background:url('../../img/vol197/main/ico_vod2.png') no-repeat 50% 50%;z-index:1;}
 
 .sub05 .section12 .content .info_area .info_box { padding-bottom: 27px; }
-.sub05 .section12 .content .info_area .info_box .info_list { max-width: 384px; width: 100%; margin: 0 auto; }
+
+.sub05 .section13 { position: relative; width: 100%; display: block; }
+.sub05 .section13 .content { width: 100%; max-width: 1020px; padding: 0 20px; margin: 0 auto 120px; }
+
+.sub05 .section13 .content .slider5 {overflow:hidden; max-width:980px; width:100%; z-index: 2; }
+.sub05 .section13 .content .slider5 li {float:left;width:100%; position:relative;border-radius:0px;overflow:hidden;}
+.sub05 .section13 .content .slider5 li img {width:100%;}
+.sub05 .section13 .content .slider5 li .vod {position:absolute;left:15px;bottom:15px;display:inline-block;width:50px;height:50px;text-indent:-9999px;overflow:hidden;background:url('../../img/vol197/main/ico_vod2.png') no-repeat 50% 50%;z-index:1;}
+
+.sub05 .section13 .content .info_area .info_box { padding-bottom: 31px; }
 
 @media only all and (max-width:767px) {
 	.sub05 .section01 { height: 275px; }

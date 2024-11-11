@@ -26,13 +26,13 @@
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
 				<div class="title">
-					초가을에 거닐기 좋은 <br>
-					완주·전주
+					겨울 바다의 낭만과 설산의 품속으로 <br>
+					강원도 고성·속초
 				</div>
 				<div class="subcopy">
-					웅장한 산자락 깊숙이 맑고 깨끗한 자연이 품은 멋스러운 고택과 근대사의 아픈 상처를 딛고 일어선 찬연한 예술공간이 어우러진 완주의 속살은 붉은 단풍보다 더 곱고 아름답다. 이웃한 전주에도 고즈넉한 매력의 한옥마을과 개성 넘치는 예술가 마을이 기다린다. 잘 여문 가을을 꼭 닮은 이곳을, 사랑하는 부모님과 함께 사이좋게 걸어보면 어떨까.
+					강원도에서 나고 자란 이들은 본능적으로 안다. 바람이 차가워질수록 바다는 깊고 진한 푸른색을 띤다는 것을. 설악산 사이 불 밝힌 스키장 야경도 잊을 수 없다. 이런 풍경은 오직 겨울에 만날 수 있는 낭만이다.
 				</div>
-				<img src="img/sub05/sub05_01.svg" class="pc_display">
+				<img src="img/sub05/day1-map.svg" class="pc_display">
 				<img src="img/sub05/sub05_01_mo.svg" class="mobile_display">
 			</div>
 		</div><!-- //.section02 -->
@@ -42,13 +42,14 @@
 
 				<div class="num_title fadeBigInUp">
 					<div class="number"><img src="img/sub05/sub05_title-1.svg"></div>
-					<span>BTS도 반했다는</span>
-					<h3>위봉산성·위봉사</h3>
+					<span>다시 금강산을 꿈꾸다</span>
+					<h3>통일전망대·DMZ박물관</h3>
 				</div>
 
 				<div class="text fadeBigInUp">
-					완주 위봉산성은 조선시대에 쌓은 것으로 알려진다. 전쟁이나 병란이 발생했을 때 전주 경기전에서 태조 이성계의 어진을 모셔 와 봉안하려는 목적으로 축조되었다. 위봉산 능선을 따라 성곽을 쌓고 행궁을 설치했는데, 동학농민운동 당시 전주부성이 함락되자 이곳으로 옮겨진 일이 있었다고 한다. 원래 길이 16km에 달하는 대규모 성곽이었으나 지금은 전주로 통하는 서문과 일부 성벽만 남아 있다. 문루도 없이 아치형 석문만 남은 형태이긴 하지만 옛 성곽의 웅장함을 짐작하기엔 충분하다. 짙푸른 산자락을 배경으로 자리한 석문은 케이팝 아이돌그룹 BTS가 여름휴가를 보내며 사진 촬영을 했던 곳으로 유명하다. BTS 멤버 정국은 “영화에서나 볼 법한 곳”이라며 그 풍경에 감탄했다. <br>
-					위봉산성 내부에 위치하고 있는 위봉사는 낡은 행궁을 대신해 태조어진과 선조들의 위패가 이곳 대웅전에 모셔지면서 경기전의 말사가 되었다. 보물로 지정된 보광명전 내에는 화려한 후불벽화가 눈길을 끌고, 앞마당 한편에 자리한 멋스러운 소나무는 산자락에 둘러싸인 아늑한 사찰에 운치를 더한다. 위봉사는 일주문 우측 도로를 이용하면 휠체어나 유모차로도 이동할 수 있고, 보광명전에는 나무 데크 경사로가 설치돼 부모님도 부담 없이 둘러볼 수 있다.
+					『조선왕조실록』에는 태종이 ‘조선을 찾은 중국 사신들이 금강산을 꼭 보려 한다’라고 불평하는 내용이 기록되어 있다. 일찍이 송나라 시인도 ‘한 번만이라도 금강산을 보고 싶다’라는 시를 남겼다고 하니 금강산의 명성은 우리나라에만 한정되지 않았던 모양이다. 『한국과 그 이웃 나라들』을 쓴 영국 여행작가 이사벨라 버드 비숍(Isabella Bird Bishop)도 “아름다움의 모든 요소로 가득 찬 금강산은 너무도 황홀하여 사람을 마비시킬 지경”이라고 표현했다. 세계의 명산들을 두루 둘러보았을 그녀조차도 이렇게 예찬할 정도이니 금강산의 아름다움은 독보적이라고 해도 과언이 아니다.<br>
+					고성에 자리한 통일전망대에 오르면 금강산이 펼쳐진 모습을 한눈에 감상할 수 있다. 금강산을 조금 더 선명하게 보고 싶다면 통일전망타워에 오르길 추천한다. 금강산의 웅장한 산자락을 가깝게 만날 수 있을 뿐만 아니라 분단의 역사와 이산가족의 아픔, 통일된 미래를 꿈꿔볼 수 있는 전시관도 함께 둘러볼 수 있다.<br>
+					통일전망대에서 1km 남짓 떨어진 거리엔 DMZ박물관이 자리한다. 비극적인 전쟁으로 만들어진 DMZ이지만, 그 안에서는 여전히 수많은 생명이 자유롭게 어우러지며 살아가고 있다. 이러한 자연의 모습을 감상하며 평화와 통일의 의미를 되새겨 보기에도 좋다. 야외전시장에는 1960년대 동부전선에 설치됐다가 2010년 철거된 실제 철책과 대북 선전 장비, 통일을 기원하는 강원도 지역 학생들의 그림이 전시돼 있어 관람객들의 눈길을 사로잡는다.
 				</div>
 
 				<div class="slider_wrap slide1-1">
@@ -56,100 +57,50 @@
 						<li class="item"><img src="img/sub05/sub05_11.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_12.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_13.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_14.jpg"></li>
 					</ul>
-					<div class="phototitle">위봉산성</div>
+					<div class="phototitle">통일전망대</div>
 					<div class="ctrl_wrap">
 						<span class="slider_dots1-1"></span>
 						<button type="button" class="btn_pause">정지</button>
 						<button type="button" class="btn_play">재생</button>
 					</div> 
 					<ul class="as_slider1-1">
-						<li></li><li></li><li></li><li></li>
+						<li></li><li></li><li></li>
 					</ul>
 				</div><!-- //.slider_wrap -->
-					<script>
-						var $mainSlider0 = $('.slider1-1');
-							$mainSlider0.slick({
-				 			dots: true,
-				 			appendDots: $('.slider_tab1-1'),
-				 			asNavFor:'.as_slider1-1',
-				 			arrows: false,
-				 			autoplay: true,
-				 			autoplaySpeed: 3000,
-				 			speed: 500,
-				 			slidesToShow: 1,
-				 			pauseOnHover: false,
-				 			pauseOnDotsHover: false,
-				 			pauseOnFocus: true,
-							touchThreshold: 15,
-        					swipe: true
-						});
-						$('.as_slider1-1').slick({
-							asNavFor:'.slider1-1',
-							dots: true,
-							appendDots: $('.slider_dots1-1'),
-							arrows: false
-						});
-						$('.section03 .slide1-1 .ctrl_wrap .btn_pause').click(function() {
-							$mainSlider0.slick('slickPause');
-							$(this).hide().next('.btn_play').show().focus();
-						});
-						$('.section03 .slide1-1 .ctrl_wrap .btn_play').click(function() {
-							$mainSlider0.slick('slickPlay');
-							$(this).hide().prev('.btn_pause').show().focus();
-						});
-					</script>
+				<script>
+					var $mainSlider0 = $('.slider1-1');
+						$mainSlider0.slick({
+						dots: true,
+						appendDots: $('.slider_tab1-1'),
+						asNavFor:'.as_slider1-1',
+						arrows: false,
+						autoplay: true,
+						autoplaySpeed: 3000,
+						speed: 500,
+						slidesToShow: 1,
+						pauseOnHover: false,
+						pauseOnDotsHover: false,
+						pauseOnFocus: true,
+						touchThreshold: 15,
+						swipe: true
+					});
+					$('.as_slider1-1').slick({
+						asNavFor:'.slider1-1',
+						dots: true,
+						appendDots: $('.slider_dots1-1'),
+						arrows: false
+					});
+					$('.section03 .slide1-1 .ctrl_wrap .btn_pause').click(function() {
+						$mainSlider0.slick('slickPause');
+						$(this).hide().next('.btn_play').show().focus();
+					});
+					$('.section03 .slide1-1 .ctrl_wrap .btn_play').click(function() {
+						$mainSlider0.slick('slickPlay');
+						$(this).hide().prev('.btn_pause').show().focus();
+					});
+				</script>
 
-				<div class="slider_wrap slide1-2">
-					<ul class="slider1-2">
-						<li class="item"><img src="img/sub05/sub05_15.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_16.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_17.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_18.jpg"></li>
-					</ul>
-					<div class="phototitle">위봉사</div>
-					<div class="ctrl_wrap">
-						<span class="slider_dots1-2"></span>
-						<button type="button" class="btn_pause">정지</button>
-						<button type="button" class="btn_play">재생</button>
-					</div> 
-					<ul class="as_slider1-2">
-						<li></li><li></li><li></li><li></li>
-					</ul>
-				</div><!-- //.slider_wrap -->
-					<script>
-						var $mainSlider1 = $('.slider1-2');
-							$mainSlider1.slick({
-				 			dots: true,
-				 			appendDots: $('.slider_tab1-2'),
-				 			asNavFor:'.as_slider1-2',
-				 			arrows: false,
-				 			autoplay: true,
-				 			autoplaySpeed: 3000,
-				 			speed: 500,
-				 			slidesToShow: 1,
-				 			pauseOnHover: false,
-				 			pauseOnDotsHover: false,
-				 			pauseOnFocus: true,
-							touchThreshold: 15,
-        					swipe: true
-						});
-						$('.as_slider1-2').slick({
-							asNavFor:'.slider1-2',
-							dots: true,
-							appendDots: $('.slider_dots1-2'),
-							arrows: false
-						});
-						$('.section03 .slide1-2 .ctrl_wrap .btn_pause').click(function() {
-							$mainSlider1.slick('slickPause');
-							$(this).hide().next('.btn_play').show().focus();
-						});
-						$('.section03 .slide1-2 .ctrl_wrap .btn_play').click(function() {
-							$mainSlider1.slick('slickPlay');
-							$(this).hide().prev('.btn_pause').show().focus();
-						});
-					</script>
 				<div class="info_area">
 					<div class="info_box">
 						<div class="info_title">INFO</div>
@@ -157,11 +108,77 @@
 							<div class="list point_list">
 								<span class="point"><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>
 								<em>
-									전북 완주군 소양면 위봉길 <br class="mobile_display">53(위봉사)<br>
-									전북 완주군 소양면 송광수만로 <br class="mobile_display">706-9(위봉산성)
+									강원 고성군 현내면 금강산로 481
 								</em>
 							</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-243-7657(위봉사)</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>09:00~18:00</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-682-0088</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>성인 3천 원</em></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="slider_wrap slide1-2">
+					<ul class="slider1-2">
+						<li class="item"><img src="img/sub05/sub05_14.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_15.jpg"></li>
+					</ul>
+					<div class="phototitle">DMZ박물관</div>
+					<div class="ctrl_wrap">
+						<span class="slider_dots1-2"></span>
+						<button type="button" class="btn_pause">정지</button>
+						<button type="button" class="btn_play">재생</button>
+					</div> 
+					<ul class="as_slider1-2">
+						<li></li><li></li>
+					</ul>
+				</div><!-- //.slider_wrap -->
+				<script>
+					var $mainSlider1 = $('.slider1-2');
+						$mainSlider1.slick({
+						dots: true,
+						appendDots: $('.slider_tab1-2'),
+						asNavFor:'.as_slider1-2',
+						arrows: false,
+						autoplay: true,
+						autoplaySpeed: 3000,
+						speed: 500,
+						slidesToShow: 1,
+						pauseOnHover: false,
+						pauseOnDotsHover: false,
+						pauseOnFocus: true,
+						touchThreshold: 15,
+						swipe: true
+					});
+					$('.as_slider1-2').slick({
+						asNavFor:'.slider1-2',
+						dots: true,
+						appendDots: $('.slider_dots1-2'),
+						arrows: false
+					});
+					$('.section03 .slide1-2 .ctrl_wrap .btn_pause').click(function() {
+						$mainSlider1.slick('slickPause');
+						$(this).hide().next('.btn_play').show().focus();
+					});
+					$('.section03 .slide1-2 .ctrl_wrap .btn_play').click(function() {
+						$mainSlider1.slick('slickPlay');
+						$(this).hide().prev('.btn_pause').show().focus();
+					});
+				</script>
+
+				<div class="info_area">
+					<div class="info_box">
+						<div class="info_title">INFO</div>
+						<div class="info_list">
+							<div class="list point_list">
+								<span class="point"><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>
+								<em>
+									강원 고성군 현내면 통일전망대로 369
+								</em>
+							</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>하절기 09:00~18:00, 동절기 09:00~17:00</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-681-0625</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>무료</em></div>
 						</div>
 					</div>
 				</div>
@@ -172,12 +189,15 @@
 			<div class="content">
 				<div class="num_title fadeBigInUp">
 					<div class="number"><img src="img/sub05/sub05_title-2.svg"></div>
-					<span>자연을 병풍 삼은 고즈넉한 고택</span>
-					<h3>아원</h3>
+					<span>모두가 탐낼 만한 풍경</span>
+					<h3>화진포</h3>
 				</div>
 				<div class="text fadeBigInUp">
-					소양면은 완주군 내에서도 풍성한 역사 유적을 간직한 지역이다. 최근에는 회화나 조각, 음악, 건축, 디자인 등 다양한 분야에서 활동하는 예술가들이 들어와 완주에서 가장 현대적이고 감각적인 공간들을 만들어냈다. 그 대표적인 곳이 아원이다.<br>
-					경남 진주의 250년 된 한옥을 위봉산 자락으로 옮겨온 아원은 땅의 모양새에 따라 자연스레 건물을 배치해 어디서든 탁 트인 전망과 멀리 종남산의 사계절을 눈에 담을 수 있도록 했다. 특히 대청마루의 운치를 고스란히 간직한 만휴당과 소나무 한 그루가 그림처럼 자리한 연못이 내려다보이는 설화당은 전통 한옥의 아름다움과 품위를 제대로 느껴볼 수 있는 공간이다. 전통 한옥 사이에 자리한 현대 건축물인 천목다실과 뮤지엄은 이질감 없이 절묘하게 어우러진다. 뮤지엄은 갤러리와 카페, 음악감상실로 구성되는데 진공관으로 들리는 음악이 꽤 매력적이다. BTS가 숙소로 선택했다는 고택은 투숙객이 없는 시간 동안 관람이 가능하다. 뮤지엄이나 만휴당 대청마루에서는 차와 커피도 즐길 수 있다.
+					화진포(花津浦)는 지명에 ‘바닷가’라는 뜻인 ‘포(浦)’자가 들어가 배가 드나드는 포구로 생각할 수 있지만, 석호(潟湖)이다. 석호는 만의 입구에 토사가 쌓여 바다로부터 분리된 호수이다. 대표적으로 강릉 경포호, 주문진 향호, 속초 청초호 등이 잘 알려져 있는데, 화진포는 둘레 16Km, 넓이 2.3㎢를 자랑하는 국내 최대 규모이다. <br>
+					화진포는 남호와 북호로 나뉜다. 남호에는 갈대밭 등 자연 탐방 지대가 자리하고, 북호에는 옛 유명인사들의 별장과 각종 전시관 등 관광시설이 있다. 그중에서도 김일성 별장으로 불리는 ‘화진포의 성’을 비롯해 ‘이승만 초대 대통령 별장’과 당시 부통령을 지낸 ‘이기붕 별장’이 북호에 자리한다. <br>
+					‘화진포의 성’은 우리나라 최초 결핵 전문 요양병원을 설립하고 크리스마스실을 도입했던 선교사 셔우드 홀(Sherwood Hall) 부부가 살던 석조건물이다. 이국적인 건물 그 앞으로 펼쳐진 화진포 바다 풍경이 아름답다. 김일성도 1948년부터 1950년까지 이곳에서 가족들과 여름휴가를 보냈다고 해서 김일성 별장으로 더 많이 불린다. 당시 어린 김정일이 이곳 돌계단에서 찍은 사진도 남아있다. 성 내부엔 셔우드 홀 부부와 북한 관련 자료들도 전시되어 있다.<br>
+					‘화진포의 성’에서 도보로 2~3분 거리에 ‘이기붕 별장’이 자리한다. 이 또한 외국인 선교사들이 지은 건물로, 규모는 크지 않으나 돌을 쌓아 올린 외관이 멋스럽다. 북한 공산당 간부 휴양소였던 곳을 휴전 후 이기붕 아내가 개인 별장으로 사용했으며, 내부에 집무실과 응접실 등이 재현돼 있다.<br>
+					이승만 별장도 근거리에 자리한다. 유족에게 기증받은 물품들로 전시관이 꾸며져 있는데, 정치적으로 대립 관계에 놓였던 백범 김구에게 보낸 편지도 전시돼 눈길을 끈다.
 				</div>
 				<div class="slider_wrap">
 					<ul class="slider2">
@@ -186,7 +206,7 @@
 				   		<li class="item"><img src="img/sub05/sub05_23.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_24.jpg"></li>
 					</ul>
-					<div class="phototitle">아원</div>
+					<div class="phototitle">화진포</div>
 					<div class="ctrl_wrap">
 						<span class="slider_dots2"></span>
 						<button type="button" class="btn_pause">정지</button>
@@ -232,11 +252,10 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 완주군 소양면 송광수만로 <br class="mobile_display">516-7</em></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-241-8195</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>아원고택 12:00~16:00, <br class="mobile_display">아원갤러리 12:00~17:00</em></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>아원갤러리 1인 10,000원 <br class="mobile_display">*8세 미만 입장 불가</em></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><a href="http://www.awon.kr" target="_blank">awon.kr</a></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>강원 고성군 거진읍 화진포길 280</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>하절기 09:00~18:00, 동절기 09:00~17:30</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-680-3677</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>성인 3천 원</em></div>
 						</div>
 					</div>
 				</div>
@@ -247,25 +266,28 @@
 			<div class="content">
 				<div class="num_title fadeBigInUp">
 					<div class="number"><img src="img/sub05/sub05_title-3.svg"></div>
-					<span>정다운 집에서 건강한 한 끼</span>
-					<h3>기양초</h3>
+					<span>고성의 새로운 명소</span>
+					<h3>가진해변</h3>
 				</div>
 				<div class="text fadeBigInUp">
-					옛 주택을 새롭게 단장한 식당은 외관부터 정다운 느낌이 든다. 내부도 좌식의 편안함을 그대로 살렸다. 부추를 뜻하는 기양초란 이름처럼 이곳에선 부추를 이용한 다양한 요리를 낸다. 그중에서도 다슬기와 콩 등을 넣고 갓 지은 돌솥밥과 새콤하고 매콤한 양념에 무쳐낸 부추를 함께 비벼 먹는 다슬기부추돌솥밥이 대표메뉴다. 쫄깃한 다슬기의 식감과 씹을수록 쌉쌀한 부추의 맛과 향이 의외로 잘 어울린다. 고소한 부추전도 별미다.
+					가진해변은 지역민들이 한가롭게 물놀이를 즐기던 작고 오붓한 해변이었다. 그러나 최근 피크닉 카페 ‘테일’의 인기로 젊은이의 발길이 끊이지 않는 관광지가 됐다. 낡고 오래된 주택을 리모델링한 카페는 마치 제주의 어느 바닷가 마을을 떠올리게 하는 소박하고 정다운 매력을 풍긴다. 인기 메뉴는 피크닉 바구니와 매트, 보온병에 담긴 진한 커피와 달콤한 마들렌을 함께 제공하는 ‘피크닉 세트’다. 방문객은 피크닉 바구니가 준비되면 근처 해변에 매트를 깔고 앉아 하얀 파도를 바라보며 커피 한 잔의 여유를 즐길 수 있다.<br>
+					‘테일’ 외에도 탁 트인 바다 전망을 자랑하는 카페들이 가진해변에 문을 열고 있다. 지역민들이 추천하는 식당도 곳곳에 숨어 있으니, 고성의 새로운 명소에서 맛있는 식사와 감성 넘치는 커피 한잔을 즐겨 봐도 좋겠다.
 				</div>
 				<div class="slider_wrap">
 					<ul class="slider3">
 						<li class="item"><img src="img/sub05/sub05_31.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_32.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_33.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_34.jpg"></li>
 					</ul>
-					<div class="phototitle">기양초</div>
+					<div class="phototitle">가진해변</div>
 					<div class="ctrl_wrap">
 						<span class="slider_dots3"></span>
 						<button type="button" class="btn_pause">정지</button>
 						<button type="button" class="btn_play">재생</button>
 					</div>
 					<ul class="as_slider3">
-						<li></li><li></li>
+						<li></li><li></li><li></li><li></li>
 					</ul>
 				</div>
 					<script>
@@ -304,8 +326,7 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 완주군 소양면 송광수만로 <br class="mobile_display">508</em></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-247-6667</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>강원 고성군 죽왕면 가진해변길</em></div>
 						</div>
 					</div>
 				</div>
@@ -316,12 +337,13 @@
 			<div class="content">
 				<div class="num_title fadeBigInUp">
 					<div class="number"><img src="img/sub05/sub05_title-4.svg"></div>
-					<span>수탈의 역사가 예술로 꽃피다</span>
-					<h3>삼례문화예술촌</h3>
+					<span>자연과 건축, 예술이 한데 어우러진</span>
+					<h3>바우지움조각미술관</h3>
 				</div>
 				<div class="text fadeBigInUp">
-					완주 삼례는 과거 국가 통신 기관인 역참이 설치될 만큼 교통의 요지였다. “모든 길은 삼례로 통한다”는 말이 있을 정도였다. 게다가 만경강 상류에 자리해 일 년 내내 곡식이 풍성하고 물길이 마르지 않았다. 이 같은 천혜의 환경은 일제강점기에 접어들면서 비극의 원인이 되고 만다. 만경평야에서 생산되는 막대한 양곡에 편리한 교통요건까지 갖췄으니 군량미 수탈에 열을 올리던 일본의 눈을 피할 수 없었던 것. 일제는 삼례역을 짓고 철도를 이용해 근처 군산을 통해 대량의 쌀을 빼돌렸다. 삼례역 주변에는 농민들에게 빼앗은 쌀을 저장하기 위한 양곡 창고들이 세워졌고 밤마다 “한 말 한 섬” 쌀 세는 소리가 끊이지 않았다. 지금도 당시에 지어진 양곡 창고들이 삼례역 주변에 일부 남아 있다.<br>
-					가슴 아픈 수탈의 역사를 담고 있는 이 양곡 창고들이 최근에는 책과 예술작품 등 색다른 볼거리들이 가득한 ‘삼례문화예술촌’으로 재탄생했다. 일본인 대지주가 사용했다는 삼례양곡창고는 다양한 장르의 작가를 소개하는 미술관으로, ‘협동생산 공동판매’란 글귀가 눈길을 끄는 삼례농협창고는 예술공연과 영화 상영이 이뤄지는 소극장으로 변신했다. 여행자들을 위한 휴식공간도 빼놓을 수 없다. 삼례로스터리는 오래된 나무골조 사이, 커피 향이 은은하게 나는 카페로 커피와 함께 색다른 분위기를 즐길 수 있다.
+					아름다운 자연과 감각적인 건축, 유려한 곡선의 조각 작품들이 한데 어우러진 바우지움조각미술관도 빼놓을 수 없는 공간이다. 울산바위가 한눈에 들어오는 설악산 자락 아래 바우지움조각미술관이 자리한다. 미술관에 소나무정원, 물의 정원, 돌의 정원, 잔디정원, 테라코타 정원이 각각의 테마로 꾸며져 있어 느긋하게 산책하듯 둘러보기 좋다.<br>
+					‘바우’는 바위를 뜻하는 강원도 사투리다. 이름에 걸맞게 건물 곳곳에 돌이 많이 사용되었는데, 대관령 터널 공사 당시 나온 파편도 바우지움조각미술관 건축 재료로 쓰였다.<br>
+					입장권에는 따뜻한 커피 한잔이 포함되어 있어, 관람 후 미술관 건너편 카페에서 커피를 마실 수 있다. 아트숍에선 작가들의 작품은 물론 나만의 컵 만들기 등 체험 프로그램도 운영한다.
 				</div>
 				<div class="slider_wrap">
 					<ul class="slider4">
@@ -330,7 +352,7 @@
 				   		<li class="item"><img src="img/sub05/sub05_43.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_44.jpg"></li>
 					</ul>
-					<div class="phototitle">삼례문화예술촌</div>
+					<div class="phototitle">바우지움조각미술관</div>
 					<div class="ctrl_wrap">
 						<span class="slider_dots4"></span>
 						<button type="button" class="btn_pause">정지</button>
@@ -376,82 +398,10 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 완주군 삼례읍 삼례역로 <br class="mobile_display">81-13</em></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-290-3862~3</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>화~일요일 10:00~18:00</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span>무료</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><a href="http://www.samnyecav.kr" target="_blank">samnyecav.kr</a></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="section07 wow fadeBigInUp">
-			<div class="content">
-				<div class="num_title fadeBigInUp">
-					<div class="number"><img src="img/sub05/sub05_title-5.svg"></div>
-					<span>삼례는 책이다</span>
-					<h3>삼례책마을</h3>
-				</div>
-				<div class="text fadeBigInUp">
-					삼례책마을도 놓쳐선 안 된다. 이곳 역시 일제강점기 양곡창고를 활용한 공간으로, 고서점과 헌책방 그리고 북카페가 서정적인 분위기를 자아낸다. 다양한 주제의 기획전시와 북 페스티벌, 학술 세미나가 열리기 때문에 미리 홈페이지에서 관련 정보를 확인하고 가면 더욱 알차게 즐길 수 있다. 이곳 또한 점자 안내도와 장애인 화장실을 설치하고 노약자들을 위한 휠체어가 비치되어있다. 2층까지 자유롭게 이동이 가능한 엘리베이터도 마련됐으며, 무엇보다 시각장애인들을 위한 자료실을 따로 조성해 유명 문학작품들을 누구나 즐길 수 있도록 배려한 점이 눈길을 끈다.
-				</div>
-				<div class="slider_wrap">
-					<ul class="slider5">
-						<li class="item"><img src="img/sub05/sub05_51.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_52.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_53.jpg"></li>
-					</ul>
-					<div class="phototitle">삼례책마을</div>
-					<div class="ctrl_wrap">
-						<span class="slider_dots5"></span>
-						<button type="button" class="btn_pause">정지</button>
-						<button type="button" class="btn_play">재생</button>
-					</div>
-					<ul class="as_slider5">
-						<li></li><li></li><li></li>
-					</ul>
-				</div>
-					<script>
-						var $mainSlider5 = $('.slider5');
-							$mainSlider5.slick({
-				 			dots: true,
-				 			appendDots: $('.slider_tab5'),
-				 			asNavFor:'.as_slider5',
-				 			arrows: false,
-				 			autoplay: true,
-				 			autoplaySpeed: 3000,
-				 			speed: 500,
-				 			slidesToShow: 1,
-				 			pauseOnHover: false,
-				 			pauseOnDotsHover: false,
-				 			pauseOnFocus: true,
-							touchThreshold: 15,
-        					swipe: true
-						});
-						$('.as_slider5').slick({
-							asNavFor:'.slider5',
-							dots: true,
-							appendDots: $('.slider_dots5'),
-							arrows: false
-						});
-						$('.section07 .ctrl_wrap .btn_pause').click(function() {
-							$mainSlider5.slick('slickPause');
-							$(this).hide().next('.btn_play').show().focus();
-						});
-						$('.section07 .ctrl_wrap .btn_play').click(function() {
-							$mainSlider5.slick('slickPlay');
-							$(this).hide().prev('.btn_pause').show().focus();
-						});
-					</script>
-				<div class="info_area">
-					<div class="info_box">
-						<div class="info_title">INFO</div>
-						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 완주군 삼례읍 삼례역로 <br class="mobile_display">68</em></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-291-7820</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon1.svg">홈페이지</span><a href="http://www.koreabookcity.com" target="_blank">koreabookcity.com</a></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>강원 고성군 토성면 원암온천길 3길 37</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>하절기 09:00~18:00, 동절기 09:00~17:30</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-632-6632</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span>성인 9천 원</div>
 						</div>
 					</div>
 				</div>
@@ -460,7 +410,7 @@
 
 		<div class="section08 wow fadeBigInUp">
 			<div class="content">
-					<img src="img/sub05/sub05_05.svg" class="pc_display">
+					<img src="img/sub05/day2-map.svg" class="pc_display">
 					<img src="img/sub05/sub05_05_mo.svg" class="mobile_display">
 			</div>
 		</div>
@@ -469,26 +419,29 @@
 			<div class="content">
 				<div class="num_title fadeBigInUp">
 					<div class="number"><img src="img/sub05/sub05_title-1.svg"></div>
-					<span>한국 최초의 천주교 순교지</span>
-					<h3>전동성당</h3>
+					<span>가장 쉽게 겨울 산을 즐기는 방법</span>
+					<h3>설악케이블카·신흥사</h3>
 				</div>
 				<div class="text fadeBigInUp">
-					‘전주의 명동성당’이라고도 불리는 전동성당, 붉은 벽돌과 로마네스크 양식의 종탑들이 어우러져 웅장한 건축미를 뽐낸다. 화려한 외관뿐 아니라 스테인드글라스로 장식한 내부가 아름다워 다수의 영화와 드라마 배경으로 등장했다. 하지만 전동성당을 단순히 아름다운 서양식 근대건축물로만 이해해선 안 된다. 이곳은 한국 최초의 천주교 순교자 윤지충과 권상연이 처형되었던 곳으로, 천주교 신자들에겐 숭고한 종교적 희생을 떠올리게 하는 의미 있는 장소이다. 이들 천주교 순교자의 희생을 기억하기 위해 100년이 지난 1891년 초대 주임신부인 보두네 신부가 순교 터 부지를 매입했으며, 실제 명동성당을 설계했던 프와넬 신부가 참여해 1914년 전동성당이 완공됐다. 지난 2011년엔 사제관 뒤편에 한국 최초 천주교 순교자 기념관을 지어 이들의 뜻을 기리고 있다.
+					설악산을 처음 찾았다면 케이블카를 타고 오르는 권금성 코스를 추천한다. 권금성 코스는 깎아지른 봉우리들이 아찔한 절벽을 이루어 환상적인 풍경을 자랑한다. 고려시대에 쌓은 산성으로 알려진 권금성은 워낙 높은 곳에 있어서인지 성벽 대부분이 허물어져 터만 남고 사람들의 발길이 끊어졌다. 그러나 1970년 10분이면 해발 700m 높이의 하차장에 닿는 설악케이블카가 설치되면서 다시 이름을 알리게 되었다.<br>
+					하차장에서 내려 평평한 바위가 이어진 길을 10~20분 정도 걸으면 권금성에 오른다. 권금성 정상에서는 설악산의 비경으로 꼽히는 울산바위와 토왕성 폭포, 멀리 푸른 동해까지 조망할 수 있다.<br>
+					권금성을 둘러본 후에는 신라 승려 자장이 창건한 것으로 알려지는 신흥사로 향하자. 완만한 평지에 자리한 사찰이라 산책하듯 둘러볼 수 있을 뿐 아니라 1997년 당시 세계 최대 규모였다는 청동 불좌상이 압도적인 경건함을 뽐낸다.
 				</div>
 				<div class="slider_wrap">
 					<ul class="slider6">
-						<li class="item"><img src="img/sub05/sub05_63.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_61.jpg"></li>
-				   		<li class="item"><img src="img/sub05/sub05_64.jpg"></li>
+						<li class="item"><img src="img/sub05/sub05_51.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_52.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_53.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_54.jpg"></li>
 					</ul>
-					<div class="phototitle">전동성당</div>
+					<div class="phototitle">설악케이블카·신흥사</div>
 					<div class="ctrl_wrap">
 						<span class="slider_dots6"></span>
 						<button type="button" class="btn_pause">정지</button>
 						<button type="button" class="btn_play">재생</button>
 					</div>
 					<ul class="as_slider6">
-						<li></li><li></li><li></li>
+						<li></li><li></li><li></li><li></li>
 					</ul>
 				</div>
 					<script>
@@ -527,7 +480,10 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 전주시 완산구 태조로 51</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>강원 속초시 설악산로 1085</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span>07:30~17:00(기상 상황에 따라 변동)</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-636-4300</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span>성인 1만 5천 원</div>
 						</div>
 					</div>
 				</div>
@@ -538,18 +494,19 @@
 			<div class="content">
 				<div class="num_title fadeBigInUp">
 					<div class="number"><img src="img/sub05/sub05_title-2.svg"></div>
-					<span>이성계의 어진을 모시다</span>
-					<h3>경기전</h3>
+					<span>볼거리 알찬 박물관 여행</span>
+					<h3>속초시립박물관·국립산악박물관</h3>
 				</div>
 				<div class="text fadeBigInUp">
-					전주한옥마을은 단순히 오래된 한옥들만 모인 곳이 아니다. 500년 유구한 역사를 지닌 조선 왕조의 뿌리 ‘경기전’이 바로 이곳에 있다. 태종 10년 완산(전주), 계림(경주), 평양에 태조 이성계의 초상화를 모신 어용전이 지어졌는데, 세종 때는 소재지마다 이름을 달리하여 경기전, 집경전, 영종전이라 불렀다. ‘경기전’이란 이름은 ‘경사스러운 땅에 지어진 궁궐’이란 의미로 조선의 뿌리로서 전주가 가지는 역사성을 그대로 함축한다. 현존 유일 태조 어진은 국보로 지정되어 경기전 뒤편 어진박물관에 모셔져 있다. 여기엔 세종, 정조, 고종 등 역대 조선 임금의 초상화 7점이 함께 전시되어 있어 둘러보는 재미도 있다.
+					속초시립박물관에 들어서면 가장 먼저 실향민문화촌이 반겨준다. 정면에는 한때 북한 원산까지 이어졌던 동해북부선의 기차역인 옛 속초역이 재현돼 있다. 옛 속초역은 한국전쟁 중 대규모 폭격으로 철로가 파괴되면서 기차역의 기능을 잃게 되었는데, 국군이 북진할 때는 화장장으로 쓰였고 미군정 당시엔 취사장과 댄스홀로 사용되기도 했다고 한다.<br>
+					지난 2014년에 문을 연 국립산악박물관은 세계적인 산악 강국인 우리나라 등산의 역사와 문화를 한눈에 담을 수 있는 곳이다. 특히 2층에 자리한 산악체험실이 눈길을 끈다. 이곳에서는 10m 높이 인공 암벽을 오르거나 해발 3,000~5,000m 같은 환경 조건에서 러닝머신을 걷는 등 다양한 산악 경험을 체험할 수 있다.
 				</div>
 				<div class="slider_wrap">
 					<ul class="slider7">
 						<li class="item"><img src="img/sub05/sub05_71.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_72.jpg"></li>
 					</ul>
-					<div class="phototitle">경기전</div>
+					<div class="phototitle">속초시립박물관</div>
 					<div class="ctrl_wrap">
 						<span class="slider_dots7"></span>
 						<button type="button" class="btn_pause">정지</button>
@@ -559,54 +516,123 @@
 						<li></li><li></li>
 					</ul>
 				</div>
-					<script>
-						var $mainSlider7 = $('.slider7');
-							$mainSlider7.slick({
-				 			dots: true,
-				 			appendDots: $('.slider_tab7'),
-				 			asNavFor:'.as_slider7',
-				 			arrows: false,
-				 			autoplay: true,
-				 			autoplaySpeed: 3000,
-				 			speed: 500,
-				 			slidesToShow: 1,
-				 			pauseOnHover: false,
-				 			pauseOnDotsHover: false,
-				 			pauseOnFocus: true,
-							touchThreshold: 15,
-        					swipe: true
-						});
-						$('.as_slider7').slick({
-							asNavFor:'.slider7',
-							dots: true,
-							appendDots: $('.slider_dots7'),
-							arrows: false
-						});
-						$('.section10 .ctrl_wrap .btn_pause').click(function() {
-							$mainSlider7.slick('slickPause');
-							$(this).hide().next('.btn_play').show().focus();
-						});
-						$('.section10 .ctrl_wrap .btn_play').click(function() {
-							$mainSlider7.slick('slickPlay');
-							$(this).hide().prev('.btn_pause').show().focus();
-						});
-					</script>
+				<script>
+					var $mainSlider7 = $('.slider7');
+						$mainSlider7.slick({
+						dots: true,
+						appendDots: $('.slider_tab7'),
+						asNavFor:'.as_slider7',
+						arrows: false,
+						autoplay: true,
+						autoplaySpeed: 3000,
+						speed: 500,
+						slidesToShow: 1,
+						pauseOnHover: false,
+						pauseOnDotsHover: false,
+						pauseOnFocus: true,
+						touchThreshold: 15,
+						swipe: true
+					});
+					$('.as_slider7').slick({
+						asNavFor:'.slider7',
+						dots: true,
+						appendDots: $('.slider_dots7'),
+						arrows: false
+					});
+					$('.section10 .ctrl_wrap .btn_pause').click(function() {
+						$mainSlider7.slick('slickPause');
+						$(this).hide().next('.btn_play').show().focus();
+					});
+					$('.section10 .ctrl_wrap .btn_play').click(function() {
+						$mainSlider7.slick('slickPlay');
+						$(this).hide().prev('.btn_pause').show().focus();
+					});
+				</script>
+
 				<div class="info_area">
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>전북 전주시 완산구 태조로 44</em></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-281-2788</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>강원 속초시 신흥2길 16</em></div>
 							<div class="list">
 								<span><img src="img/sub05/sub05_icon4.svg">운영시간</span>
 								<em>
-									3~5월·9~10월 09:00~19:00, <br class="mobile_display">6~8월 09:00~20:00, <br class="mobile_display">11~2월 09:00~18:00
+									하절기 09:00~18:00, 동절기 09:00~17:00
 								</em>
 							</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-639-2974</div>
 							<div class="list">
 								<span><img src="img/sub05/sub05_icon5.svg">이용요금</span>
-								<em class="pc_display">성인 3천 원 청소년 2천 원 어린이 1천 원 *65세 이상 무료</em>
-								<em class="mobile_display">성인 3천 원 청소년 2천 원, <br>어린이 1천 원, *65세 이상 무료</em>
+								<em>성인 2천 원</em>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="slider_wrap slider_wrap10-2">
+					<ul class="slider7-2">
+						<li class="item"><img src="img/sub05/sub05_73.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_74.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_75.jpg"></li>
+					</ul>
+					<div class="phototitle">국립산악박물관</div>
+					<div class="ctrl_wrap">
+						<span class="slider_dots7-2"></span>
+						<button type="button" class="btn_pause btn_pause2">정지</button>
+						<button type="button" class="btn_play btn_play2">재생</button>
+					</div>
+					<ul class="as_slider7-2">
+						<li></li><li></li><li></li>
+					</ul>
+				</div>
+				<script>
+					var $mainSlider72 = $('.slider7-2');
+						$mainSlider72.slick({
+						dots: true,
+						appendDots: $('.slider_tab7-2'),
+						asNavFor:'.as_slider7-2',
+						arrows: false,
+						autoplay: true,
+						autoplaySpeed: 3000,
+						speed: 500,
+						slidesToShow: 1,
+						pauseOnHover: false,
+						pauseOnDotsHover: false,
+						pauseOnFocus: true,
+						touchThreshold: 15,
+						swipe: true
+					});
+					$('.as_slider7-2').slick({
+						asNavFor:'.slider7-2',
+						dots: true,
+						appendDots: $('.slider_dots7-2'),
+						arrows: false
+					});
+					$('.section10 .ctrl_wrap .btn_pause2').click(function() {
+						$mainSlider72.slick('slickPause');
+						$(this).hide().next('.btn_play2').show().focus();
+					});
+					$('.section10 .ctrl_wrap .btn_play2').click(function() {
+						$mainSlider72.slick('slickPlay');
+						$(this).hide().prev('.btn_pause2').show().focus();
+					});
+				</script>
+
+				<div class="info_area">
+					<div class="info_box">
+						<div class="info_title">INFO</div>
+						<div class="info_list">
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>강원 속초시 미시령로 3054</em></div>
+							<div class="list">
+								<span><img src="img/sub05/sub05_icon4.svg">운영시간</span>
+								<em>
+									하절기 09:00~18:00, 동절기 09:00~17:00
+								</em>
+							</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-638-4459</div>
+							<div class="list">
+								<span><img src="img/sub05/sub05_icon5.svg">이용요금</span>
+								<em>무료</em>
 							</div>
 						</div>
 					</div>
@@ -618,11 +644,12 @@
 			<div class="content">
 				<div class="num_title fadeBigInUp">
 					<div class="number"><img src="img/sub05/sub05_title-3.svg"></div>
-					<span>조선 인재들의 배움터</span>
-					<h3>전주향교</h3>
+					<span>희망과 그리움으로 일군 실향민 마을</span>
+					<h3>아바이마을</h3>
 				</div>
 				<div class="text fadeBigInUp">
-				고려시대 창건되었다고 전해지는 전주향교는 조선시대 수많은 인재가 학문을 닦던 배움터였다. 가을이면 노란 은행잎이 짙어지며 더욱 운치를 더하는 이곳은 지금도 지역 유림들이 모여 공자와 맹자 등 다섯 성인에 대한 예를 올리고 있다. 특히 매년 음력 2월과 8월 초정일에 치러지는 석전대제는 유교 의식 중 가장 규모가 큰 행사라 한 번쯤 참여해 볼 만하다. 전주향교 내에는 오래된 은행나무 4그루가 남아 있는데, 그중 일월문 앞에 자리한 수령 250년 된 은행나무의 은행을 따서 기도하면 과거에 급제한다는 이야기도 전해진다. 영화 &lt;YMCA 야구단&gt;, 드라마 &lt;성균관 스캔들&gt;의 촬영지이기도 하다. 현재 남아 있는 300여 개의 향교 중 가장 아름다운 전경을 간직한 곳으로 꼽힌다.
+					한국전쟁 당시 함경도 지역 피난민들은 아바이마을에 움막을 짓고 모여 살기 시작했다. 이들이 속초에 정착한 이유는 단 하나, 고향으로 돌아가기에 제일 가까운 곳이기 때문이다. 원래 아바이마을은 오랫동안 사람이 살지 않았던 척박한 땅이었지만, 쫓겨날 걱정이 없으니 피난민들에게는 보금자리가 되어주었다. 남자들은 고깃배를 타고 여자들은 포구에서 생선을 손질해 주고 받은 내장으로 젓갈을 담가서 시장에 내다 팔았다. 원래는 함경도 지역 음식이었으나 지금은 속초의 이색 먹거리로 통하는 명태식해와 회냉면, 아바이순대 등이 유명해진 이유이기도 하다.<br>
+					분단의 아픔과 실향민들의 애환이 서린 아바이마을이 관광명소로 유명해진 건 드라마 &lt;가을동화&gt; 덕분이었다. 드라마에서 은서(송혜교 분)가 사는 동네가 아바이마을이었는데, 남녀주인공이 갯배를 타고 스쳐 지나가는 장면이 방송된 이후 이곳은 속초 여행의 필수코스가 되었다.
 				</div>
 				<div class="slider_wrap">
 					<ul class="slider8">
@@ -631,7 +658,7 @@
 				   		<li class="item"><img src="img/sub05/sub05_83.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_84.jpg"></li>
 					</ul>
-					<div class="phototitle">전주향교</div>
+					<div class="phototitle">아바이마을</div>
 					<div class="ctrl_wrap">
 						<span class="slider_dots8"></span>
 						<button type="button" class="btn_pause">정지</button>
@@ -677,8 +704,7 @@
 					<div class="info_box">
 						<div class="info_title">INFO</div>
 						<div class="info_list">
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>전북 전주시 완산구 향교길 139</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>063-288-4544</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>강원 속초시 청호로 122</div>
 						</div>
 					</div>
 				</div>
@@ -689,11 +715,11 @@
 			<div class="content">
 				<div class="num_title fadeBigInUp">
 					<div class="number"><img src="img/sub05/sub05_title-4.svg"></div>
-					<span>전주천 건너 예술가들이 모여 산다</span>
-					<h3>서학동예술마을</h3>
+					<span>속초만의 감성 가득 골목길</span>
+					<h3>소호거리</h3>
 				</div>
 				<div class="text fadeBigInUp">
-					서학동에는 20여 명의 화가와 소설가, 음악가들이 모여 사는 예술인 창작마을이 있다. 각자의 작업에 열중하면서도 때론 함께 모여 문화반상회를 하는가 하면 주민들과도 격의 없이 소통하는 멋진 마을이다. ‘서학동 사진관’은 ‘계남정미소’ 기획전으로 큰 화제를 모았던 사진작가 김지연이 운영하고 있으며, 소박하고 친근한 예술공간으로 자리매김했다. ‘선재미술관’은 장자의 ‘호접몽’ 등 무위자연의 동양적 세계관을 현대적 감각으로 재해석해 주목받은 화가 이희춘의 대표작들을 만날 수 있다. 이곳은 화가의 작업실도 겸하고 있다. 아뜰리에 ‘적요 숨쉬다’는 독특한 화풍을 지닌 화가 이적요의 작품과 작업실을 둘러볼 수 있는 공간이다. 오픈 시간은 불규칙하지만, 인연이 닿는다면 따뜻한 커피 한잔에 속 깊은 이야기를 나눌 수 있는 특별한 공간이다.
+					과거 속초의 중심지였던 소호거리가 청년들에 의해 변화하고 있다. 소호거리에서는 오래된 여관을 리모델링해 오픈한 게스트하우스와 낡은 주택을 개조한 동네 책방을 만날 수 있다. 주민들의 정다운 사랑방이었던 방앗간은 커뮤니티 기능을 담은 살롱으로, 작은 슈퍼마켓은 식당으로 변신하면서 속초만의 감성을 듬뿍 담은 골목길을 여행할 수 있다. 다양한 여행 프로그램과 지역 청년들이 직접 운영하는 책방 등 다채로운 매력을 만날 수 있다.
 				</div>
 				<div class="slider_wrap">
 					<ul class="slider9">
@@ -702,7 +728,7 @@
 				   		<li class="item"><img src="img/sub05/sub05_93.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_94.jpg"></li>
 					</ul>
-					<div class="phototitle">서학동예술마을</div>
+					<div class="phototitle">소호거리</div>
 					<div class="ctrl_wrap">
 						<span class="slider_dots9"></span>
 						<button type="button" class="btn_pause">정지</button>
@@ -750,8 +776,88 @@
 						<div class="info_list">
 							<div class="list">
 								<span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>
-								<em>전북 전주시 완산구 서학3길 <br class="mobile_display">85(선재미술관) 일대</em>
+								<em>강원 속초시 수복로259번길 11(소호259호스텔) 일대</em>
 							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- //section12 -->
+
+		<div class="section13 wow fadeBigInUp">
+			<div class="content">
+				<div class="num_title fadeBigInUp">
+					<div class="number"><img src="img/sub05/sub05_title-5.svg"></div>
+					<span>분단의 아픔을 간직한 해안 산책로</span>
+					<h3>외옹치바다향기로</h3>
+				</div>
+				<div class="text fadeBigInUp">
+					지난 2018년에 완공된 외옹치바다향기로는 속초해수욕장에서 외옹치항까지 1.74km에 걸쳐 이어진 해안 산책로이다. 어른 걸음으로 20~30분 정도면 완주할 수 있지만, 에메랄드 바다에 마음을 빼앗기면 1시간도 부족하게 느껴진다. 산책로 곳곳에 자리한 바위 안내판도 볼거리이다. 주민들이 배를 타고 나가 소풍을 즐겼다는 마당바위, 물개들이 쉬어 간다는 해구바위 같은 재미있는 이름들을 볼 수 있다.<br>
+					산책로 중간에 남아있는 해안초소와 철책선도 눈길을 끈다. 사실 이 지역은 1968년 울진·삼척 무장 공비 침투 사건의 영향으로 일반인들이 접근할 수 없었던 곳이다. 하지만 남북의 화해 분위기가 조성되고 언덕에 대형 리조트가 들어서면서 개방되었다. 그러나 여전히 군 작전지역에 속해 개방 시간이 정해져 있다. 바다와 가까워 기상 상황에 따라 출입이 안 될 수도 있으니, 방문 전 개방 여부를 확인해야 한다.
+				</div>
+				<div class="slider_wrap">
+					<ul class="slider5">
+						<li class="item"><img src="img/sub05/sub05_101.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_102.jpg"></li>
+				   		<li class="item"><img src="img/sub05/sub05_103.jpg"></li>
+					</ul>
+					<div class="phototitle">외옹치바다향기로</div>
+					<div class="ctrl_wrap">
+						<span class="slider_dots5"></span>
+						<button type="button" class="btn_pause btn_pause5">정지</button>
+						<button type="button" class="btn_play btn_play5">재생</button>
+					</div>
+					<ul class="as_slider5">
+						<li></li><li></li><li></li>
+					</ul>
+				</div>
+					<script>
+						var $mainSlider5 = $('.slider5');
+							$mainSlider5.slick({
+				 			dots: true,
+				 			appendDots: $('.slider_tab5'),
+				 			asNavFor:'.as_slider5',
+				 			arrows: false,
+				 			autoplay: true,
+				 			autoplaySpeed: 3000,
+				 			speed: 500,
+				 			slidesToShow: 1,
+				 			pauseOnHover: false,
+				 			pauseOnDotsHover: false,
+				 			pauseOnFocus: true,
+							touchThreshold: 15,
+        					swipe: true
+						});
+						$('.as_slider5').slick({
+							asNavFor:'.slider5',
+							dots: true,
+							appendDots: $('.slider_dots5'),
+							arrows: false
+						});
+						$('.section13 .ctrl_wrap .btn_pause5').click(function() {
+							$mainSlider5.slick('slickPause');
+							$(this).hide().next('.btn_play5').show().focus();
+						});
+						$('.section13 .ctrl_wrap .btn_play5').click(function() {
+							$mainSlider5.slick('slickPlay');
+							$(this).hide().prev('.btn_pause5').show().focus();
+						});
+					</script>
+				<div class="info_area">
+					<div class="info_box">
+						<div class="info_title">INFO</div>
+						<div class="info_list">
+							<div class="list">
+								<span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span>
+								<em>강원 속초시 대포동</em>
+							</div>
+							<div class="list">
+								<span><img src="img/sub05/sub05_icon4.svg">운영시간</span>
+								<em>
+									06:00~19:30(기상 악화 시 통제)
+								</em>
+							</div>
+							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-639-2362</div>
 						</div>
 					</div>
 				</div>

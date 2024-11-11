@@ -1308,18 +1308,18 @@
 /* 오늘의 레시피 */
 .sub09 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; color: #000; letter-spacing: normal; line-height: normal; }
 .sub09 .section01 { height: 550px; width: 100%;  background-image: url('../img/sub09/sub09_00.jpg'); background-size: cover; background-position: center 35%; background-repeat: no-repeat; display: flex;  justify-content: center;  align-items: flex-end; position: relative; }
-.sub09 .section01::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); }
+/* .sub09 .section01::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); } */
 .sub09 .section01 .content { text-align: center; margin-bottom: 90px; color: #fff; position: relative; z-index: 1; }
 .sub09 .section01 .content .title { font-size: 27px; font-weight: 700; }
 .sub09 .section01 .content .text { font-size: 16px; font-weight: 400; padding: 13px 0; }
 
 .sub09 .section02 { position: relative; display: flex; width: 100%; max-width: 1020px; padding: 0 20px; margin: 139px auto 120px; }
 .sub09 .section02 .content01 { width: 100%; margin: 0 auto; }
-.sub09 .section02 .content01 .subtitle_top { color: #f68044; font-size: 24px; font-weight: 700; text-align: center; }
+.sub09 .section02 .content01 .subtitle_top { color: #5062AB; font-size: 24px; font-weight: 700; text-align: center; }
 .sub09 .section02 .content01 .title { font-size: 50px; font-weight: 700; line-height: 68px; padding-bottom: 30px; border-bottom: 1px solid #000; text-align: center; }
 .sub09 .section02 .content01 .subcopy { font-size: 20px; font-weight: 700; line-height: 32px; margin-top: 35px; letter-spacing: -0.4px; }
 
-.sub09 .section02 .content .subtitle { color: #f68044; font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; }
+.sub09 .section02 .content .subtitle { color: #5062AB; font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; }
 .sub09 .section02 .content .text { font-size: 18px; font-weight: 400; line-height: 32px; letter-spacing: -0.36px; }
 
 .sub09 .section02 .content02 { position: relative; width: 100%; margin: 120px 0 70px; }
@@ -1331,13 +1331,22 @@
 .sub09 .section02 .content04 .item_box .item { flex: 1; padding: 22px 0 29px; }
 .sub09 .section02 .content04 .item_box .item .item_title { font-family:'Meetme'; font-size: 35px; font-weight: 400; line-height: 32px; text-align: center; }
 .sub09 .section02 .content04 .item_box .item01 { border-right: 1px solid #000; }
-.sub09 .section02 .content04 .item_box .item01 .item_title { color: #f68044; }
-.sub09 .section02 .content04 .item_box .item02 .item_title { color: #b8b949; }
+.sub09 .section02 .content04 .item_box .item01 .item_title { color: #5062AB; }
+.sub09 .section02 .content04 .item_box .item02 .item_title { color: #05C1EB; }
 .sub09 .section02 .content04 .item_box .item .img_box { text-align: center; margin: 16px 0; }
 .sub09 .section02 .content04 .item_box .item ul { width: fit-content; display: flex; flex-direction: column; gap: 10px; margin: 0 auto; }
 .sub09 .section02 .content04 .item_box .item ul li { display: flex; gap: 8px; align-items: center; }
 .sub09 .section02 .content04 .item_box .item01 ul li img { width: 100%; max-width: 25px; }
 .sub09 .section02 .content04 .item_box .item ul li span { font-family:'Meetme'; font-size: 20px; font-weight: 400; }
+
+.sub09 .section02 .content04 .item_box2 { margin-top: 48px; position: relative; width: 100%; }
+.sub09 .section02 .content04 .item_box2 .item_cont { position: absolute; left: 50%; transform: translateX(-50%); top: 15%; width: 100%; padding: 0 67px 0 58px; }
+.sub09 .section02 .content04 .item_box2 .item_cont .item2_title { font-family: 'laundrygothic'; font-weight: 700; font-size: 39px; line-height: 44px; color: #5062AB; text-align: center; border-bottom: 2px solid #5062AB; padding-bottom: 30px; margin-bottom: 30px; }
+.sub09 .section02 .content04 .item_box2 .item_cont ul { display: flex; }
+.sub09 .section02 .content04 .item_box2 .item_cont ul li { flex: 1 1 auto; width: 33.333333%; }
+.sub09 .section02 .content04 .item_box2 .item_cont ul li:nth-child(2) { padding: 0 30px; margin: 0 30px; border-left: 1px solid #000; border-right: 1px solid #000; box-sizing: content-box; }
+.sub09 .section02 .content04 .item_box2 .item_cont ul li .img img { width: 100%; }
+.sub09 .section02 .content04 .item_box2 .item_cont ul li .text { font-family:'Meetme'; font-weight: 400; font-size: 20px; line-height: 26px; margin-top: 21px; }
 
 .sub09 .section03 { position: relative; display: flex; background-image: url('../img/sub09/sub09_04.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; box-sizing: border-box; }
 .sub09 .section03 .content { width:100%; max-width: 1020px; padding: 0 20px; margin: 113px auto 120px; overflow: hidden; }
@@ -1389,7 +1398,7 @@
 }
 
 .sub09 .section03 .content .item1 .item_img { position: relative; }
-.ingred2, .ingred3, .ingred4, .ingred5, .ingred6, .ingred7, .ingred8, .ingred9, .ingred10, .ingred11 { position: absolute; left: 0; bottom: 0; }
+/* .ingred2, .ingred3, .ingred4, .ingred5, .ingred6, .ingred7, .ingred8, .ingred9, .ingred10, .ingred11 { position: absolute; left: 0; bottom: 0; } */
 
 .sub09 .section03 .content .item2 .item_img { position: relative; }
 .sub09 .section03 .content .item2 .item_img .img1 { animation: shaking 2s infinite; }

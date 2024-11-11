@@ -161,7 +161,12 @@
 								그릇에 굴과 소금을 넣고 물을 부어 10분간 휴지한 후, 흐르는 물에 3~4번 헹군다.
 							</div>
 							<div class="item_img">
-								<img src="img/sub09/cooking01.png">
+								<img src="img/sub09/cooking01-1.png" class="img1-1">
+								<img src="img/sub09/cooking01-2.png" class="img1-2">
+								<img src="img/sub09/cooking01-3.png" class="img1-3">
+								<img src="img/sub09/cooking01-4.png" class="img1-4">
+								<img src="img/sub09/cooking01-5.png" class="img1-5">
+								<img src="img/sub09/cooking01-6.png" class="img1-6">
 							</div>
 						</li>
 
@@ -169,7 +174,12 @@
 							<div class="item_title"><img src="img/sub09/step-num2.svg"></div>
 							<div class="item_text">고명으로 쓰일 홍고추와 풋고추, 곁들임으로 먹을 실파를 썬다.</div>
 							<div class="item_img">
-								<img src="img/sub09/cooking02.png">
+								<img src="img/sub09/cooking02-1.png" class="img2-1">
+								<img src="img/sub09/cooking02-2.png" class="img2-2">
+								<img src="img/sub09/cooking02-3.png" class="img2-3">
+								<img src="img/sub09/cooking02-4.png" class="img2-4">
+								<img src="img/sub09/cooking02-5.png" class="img2-5">
+								<img src="img/sub09/cooking02-6.png" class="img2-6">
 							</div>
 						</li>
 
@@ -180,7 +190,11 @@
 								굴에 밀가루를 입히고 계란물에 넣는다.
 							</div>
 							<div class="item_img">
-								<img src="img/sub09/cooking03.png">
+								<img src="img/sub09/cooking03-1.png" class="img3-1">
+								<img src="img/sub09/cooking03-2.png" class="img3-2">
+								<img src="img/sub09/cooking03-3.png" class="img3-3">
+								<img src="img/sub09/cooking03-4.png" class="img3-4">
+								<img src="img/sub09/cooking03-5.png" class="img3-5">
 							</div>
 						</li>
 
@@ -191,7 +205,11 @@
 								곁들임용 실파와 함께 굴전을 즐기길 추천한다.
 							</div>
 							<div class="item_img">
-								<img src="img/sub09/cooking04.png">
+								<img src="img/sub09/cooking04-1.png" class="img4-1">
+								<img src="img/sub09/cooking04-2.png" class="img4-2">
+								<img src="img/sub09/cooking04-3.png" class="img4-3">
+								<img src="img/sub09/cooking04-4.png" class="img4-4">
+								<img src="img/sub09/cooking04-5.png" class="img4-5">
 							</div>
 						</li>
 					</ul>

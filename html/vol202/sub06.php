@@ -81,173 +81,40 @@
 
 		<div class="section05 wow fadeBigInUp">
 			<div class="content">
-				<div class="pc_display_only">
-					<div class="cont_box">
-						<div class="item item1">
-							<div class="text_box">
-								<div class="box_title">
-									한눈에 보는
-									<span>실업 크레딧</span>
-								</div>
-								<div class="item_q">
-									<img src="img/sub06/sub06_check.svg">
-									<span>실업 크레딧이란?</span>
-								</div>
-								<p>
-									만 18세 이상 60세 미만의 ‘구직급여 수급자’가 국민연금 가입기간 추가를 희망하는 경우, 1인 생애 최대 12개월까지 국가가 국민연금 보험료의 75%를 지원하고 그 기간만큼 국민연금 가입기간을 추가로 인정해 국민연금 수급 기회를 확대하는 제도이다.
-								</p>
-							</div>
-							<div class="img_box">
-								<img src="img/sub06/sub06_03.svg">
-							</div>
-						</div>
-
-						<div class="item item2">
-							<div class="text_box">
-								<div class="item_q">
-									<img src="img/sub06/sub06_check.svg">
-									<span>지원 대상</span>
-								</div>
-								<p>
-									구직급여 수급자 중 국민연금 보험료를 1개월 이상 납부한 이력이 있는 가입자(였던자 포함)가 재산 및 소득 기준을 모두 충족한 경우 지원 가능하다.
-								</p>
-								<ul>
-									<li><span>재산 기준</span>재산세 과세표준의 합 6억 원 이하</li>
-									<li><span>소득 기준</span>종합소득(사업·근로소득 제외) 연 1,680만 원 이하</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="item item3">
-							<div class="text_box">
-								<div class="item_q">
-									<img src="img/sub06/sub06_check.svg">
-									<span>보험료 산정 기준</span>
-								</div>
-								<p>
-									실업 크레딧 보험료는 인정소득을 기준으로 산정하여 납부한다. 인정소득은 실직하기 직전에 받았던 3개월간 평균소득의 50%에 해당하는 금액으로, 최대 70만 원을 초과할 수 없다.
-								</p>
-								<div class="list_box">
-									<div class="list_title"><span>예시</span>실직 전 3개월간 평균소득이 100만 원일 경우</div>
-									<ul>
-										<li><img src="img/sub06/sub06_check2.svg">보험료 부과 기준: 100만 원(3개월간 평균소득)의 50% = 500,000원(인정소득)</li>
-										<li><img src="img/sub06/sub06_check2.svg">월 보험료: 50만 원(인정소득) X 9%(국민연금 보험료율) = 45,000원</li>
-										<li><img src="img/sub06/sub06_check2.svg">본인 부담분(실제 납부할 보험료): 월 보험료의 25% = 11,250원</li>
-										<li><img src="img/sub06/sub06_check2.svg">국가 지원분: 월 보험료의 75% = 33,750원</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-
-						<div class="item item4">
-							<div class="text_box">
-								<div class="item_q">
-									<img src="img/sub06/sub06_check.svg">
-									<span>신청 방법</span>
-								</div>
-								<p>
-									구직급여 신청 시 고용노동부 고용복지플러스센터에서 신청 가능하다. 구직급여를 받는 중이라면 구직급여 종료일이 속하는 달의 다음 달 15일까지 국민연금공단 지사 방문 또는 홈페이지를 통해 신청할 수 있다.
-								</p>
-							</div>
-						</div>
-					</div>
+				<h4>그럼에도 살아가는 것</h4>
+				<br class="pc_display">
+				<div class="text">
+					윌은 신체적 고통과 함께 심한 정신적 고통에 빠져 있다. 꿈속에서 사고 전의 훨훨 날던 자신을 만나다가 꿈을 깨고 사지 마비가 된 현실을 마주하는 고통을 참을 수 없다. 그는 택시 승차를 거부당하고, 고급 레스토랑 출입을 제한당하며 전동 휠체어를 충전할 곳을 찾아 헤매야 한다.
 				</div>
-
-				<div class="tablet_display_only">
-					<img src="img/sub06/sub06_02_tablet.svg">
+				<div class="line_text line_text01 pc_display">
+					<div class="sub_text fadeBigInUp">“난 진짜 ‘나’로 파리에 가고 싶어요.</div>
+					<div class="sub_text fadeBigInUp">프랑스 아가씨들의 시선을 받던 나요.</div>
+					<div class="sub_text fadeBigInUp">지금도 눈감으면 퐁네프 다리 옆 도핀 광장이 생생하게 떠올라요.</div>
+					<div class="sub_text fadeBigInUp">아주 작은 부분까지.”</div>
 				</div>
-
-				<div class="mobile_display_only">
-					<div class="cont_box">
-						<div class="text_box">
-							<div class="box_title">
-								한눈에 보는
-								<span>실업 <br class="mobile_display">크레딧</span>
-							</div>
-							<div class="img_box">
-								<img src="img/sub06/sub06_03_mo.svg">
-							</div>
-						</div>
-
-						<div class="item_area">
-							<div class="item item0">
-								<div class="text_box">
-									<div class="item_q">
-										<img src="img/sub06/sub06_check.svg">
-										<span>실업 크레딧이란?</span>
-									</div>
-									<p>
-										만 18세 이상 60세 미만의 ‘구직급여 수급자’가 국민연금 가입기간 추가를 희망하는 경우, 1인 생애 최대 12개월까지 국가가 국민연금 보험료의 75%를 지원하고 그 기간만큼 국민연금 가입기간을 추가로 인정해 국민연금 수급 기회를 확대하는 제도이다.
-									</p>
-								</div>
-							</div>
-
-							<div class="item item2">
-								<div class="text_box">
-									<div class="item_q">
-										<img src="img/sub06/sub06_check.svg">
-										<span>지원 대상</span>
-									</div>
-									<p>
-										구직급여 수급자 중 국민연금 보험료를 1개월 이상 납부한 이력이 있는 가입자(였던자 포함)가 재산 및 소득 기준을 모두 충족한 경우 지원 가능하다.
-									</p>
-									<ul>
-										<li><span>재산 기준</span><em>재산세 과세표준의 합 6억 원 이하</em></li>
-										<li><span>소득 기준</span><em>종합소득(사업·근로소득 제외) <br>연 1,680만 원 이하</em></li>
-									</ul>
-								</div>
-							</div>
-
-							<div class="item item3">
-								<div class="text_box">
-									<div class="item_q">
-										<img src="img/sub06/sub06_check.svg">
-										<span>보험료 산정 기준</span>
-									</div>
-									<p>
-										실업 크레딧 보험료는 인정소득을 기준으로 산정하여 납부한다. 인정소득은 실직하기 직전에 받았던 3개월간 평균소득의 50%에 해당하는 금액으로, 최대 70만 원을 초과할 수 없다.
-									</p>
-									<div class="list_box">
-										<div class="list_title"><span>예시</span><em>실직 전 3개월간 평균소득이 100만 원일 경우</em></div>
-										<ul>
-											<li><img src="img/sub06/sub06_check2.svg"><em>보험료 부과 기준: 100만 원(3개월간 평균소득)의 50% = 500,000원(인정소득)</em></li>
-											<li><img src="img/sub06/sub06_check2.svg"><em>월 보험료: 50만 원(인정소득) X 9%(국민연금 보험료율) = 45,000원</em></li>
-											<li><img src="img/sub06/sub06_check2.svg"><em>본인 부담분(실제 납부할 보험료): <br>월 보험료의 25% = 11,250원</em></li>
-											<li><img src="img/sub06/sub06_check2.svg"><em>국가 지원분: <br>월 보험료의 75% = 33,750원</em></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-
-							<div class="item item4">
-								<div class="text_box">
-									<div class="item_q">
-										<img src="img/sub06/sub06_check.svg">
-										<span>신청 방법</span>
-									</div>
-									<p>
-										구직급여 신청 시 고용노동부 고용복지플러스센터에서 신청 가능하다. 구직급여를 받는 중이라면 구직급여 종료일이 속하는 달의 다음 달 15일까지 국민연금공단 지사 방문 또는 홈페이지를 통해 신청할 수 있다.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
+				<div class="line_text line_text01 mobile_display">
+					<div class="sub_text fadeBigInUp">삶의 벼랑에 선 무뚝뚝한 이 남자,</div>
+					<div class="sub_text fadeBigInUp">그의 성질을 살살 긁는 이웃과의 마지막은</div>
+					<div class="sub_text fadeBigInUp">어떤 모습이 될까?</div>
+				</div>
+				<div class="img_box"><img src="img/sub06/sub06_03.svg"></div>
+				<div class="text">
+					그는 자신이 나아질 수 없다는 것을 안다. 평생을 휠체어에 의지하며 살아야 하는데 이런 삶을 자신의 인생으로 도저히 받아들일 수 없다. 달라도 너무 다른 삶이기 때문이다. 그의 선택은 존엄사였다. 그는 스위스의 한 병원에서 삶을 중단하기로 마음먹는다. 6개월은 그의 선택을 바꾸기 위해 윌의 부모들이 요구했던 유예기간이었다. 루이자는 윌의 선택을 되돌려 보기로 한다. 세상의 아름다움을 함께 느끼게 되면 윌도 생각을 바꾸게 될까? 루이자는 윌의 버킷 리스트를 작성하고 하나씩 이뤄간다. <br>
+					루이자 역으로 열연한 에밀리아 클라크는 실제 장애를 갖고 있다. 그는 HBO 시리즈 &lt;왕좌의 게임&gt; 촬영 중 발생한 뇌출혈로 두 차례 수술을 받아 뇌의 상당 부분을 잃었다. 그는 기적적으로 정상적인 생활을 이어가고 있는데 이 같은 사례는 매우 적은 것으로 알려져 있다. <br>
+					2019년 그는 뇌 손상 피해자들의 회복을 위한 자선단체 ‘세임유(SameYou)’를 설립했다. 클라크는 “삶에 대한 자신감을 떨어뜨리는 만성 질환을 앓는다는 것은 너무나 쇠약하고 외로운 일”이라면서 “뇌 손상으로 가장 크게 느꼈던 것 중 하나는 지독한 외로움이었는데 우리는 이것을 극복해야 한다”고 말했다.<br>
+					장애는 누구에게나 닥칠 수 있는 불행이다. 그것은 사고라는 형태로, 질병이라는 형태로 예상치 못하게 닥칠 수 있다. 회복하지 못할 장애에 직면했을 때 우리는 어떤 선택을 할 수 있을까. 삶을 스스로 중단하는 것도 선택지 중 하나가 될 수 있을까. 
+				</div>
+				<div class="line_text line_text02 pc_display">
+					<div class="sub_text fadeBigInUp">윌은 루이자에게 말한다.</div>
+					<div class="sub_text fadeBigInUp">“최대한 열심히 사는 게 삶에 대한 의무예요”라고.</div>
+				</div>
+				<div class="line_text line_text02 mobile_display">
+					<div class="sub_text fadeBigInUp">삶의 벼랑에 선 무뚝뚝한 이 남자,</div>
+					<div class="sub_text fadeBigInUp">그의 성질을 살살 긁는 이웃과의 마지막은</div>
+					<div class="sub_text fadeBigInUp">어떤 모습이 될까?</div>
 				</div>
 			</div>
 		</div><!-- //section05 -->
-
-		<div class="section06 wow fadeBigInUp">
-			<div class="content">
-				<div class="text">
-					영화 &lt;오베라는 남자&gt;는 퇴직 후 중년의 삶을 그린다는 점에서 캔 로치 감독의 영국 영화 &lt;나, 다니엘 블레이크&gt;와 닮았다. 두 영화 모두 2016년 개봉됐다는 공통점도 있다. 하지만 두 영화에서 느낄 수 있는 분위기는 크게 상반된다. &lt;오베라는 남자&gt;는 안정되고 밝은, 공동체가 살아있는 마을이 무대인 반면 &lt;나, 다니엘 블레이크&gt;는 불안하고 음습하며 공동체가 무너진 뉴캐슬 뒷골목이 배경이다. 오베와 다니엘은 모두 심장 이상으로 죽음을 맞이하게 되지만, 장례식의 분위기는 한쪽은 밝게, 한쪽은 매우 어둡게 그려진다. 이는 작가적 상상력의 차이에서 비롯된 것이겠지만 영화 속 배경이 되는 스웨덴과 영국의 사회보장제도가 만든 차이일 수도 있다.<br>
-					“정직한 게 최선이야. 하지만 그게 항상 쉽지는 않아. 그럴 때면 도움을 받아서 옳은 길로 가면 되는 거야” 어린 시절 오베의 아버지가 소년 오베에게 남긴 말이다. 
-				</div>
-				<div class="closing_text">
-					<div class="sub_text fadeBigInUp">오베는 정말 괴짜였을까,</div>
-					<div class="sub_text fadeBigInUp">아니면 원칙론자였을까?</div>
-				</div>
-			</div>
-		</div>
 	</section>
 	<!-- contents -->
 

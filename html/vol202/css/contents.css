@@ -2350,7 +2350,7 @@
 
 	.sub14 .section01 .content .text { margin: 44px auto 42px; text-align: left; }
 
-	.sub14 .section01 .content .gift img { padding: 0 17px; }
+	.sub14 .section01 .content .gift img { padding: 0; }
 
 	.sub14 .section01 .content .date_area { margin-top: 50px; margin-bottom: 36px; padding: 6px 0 10px; }
 	.sub14 .section01 .content .date_area > div { display: flex; }

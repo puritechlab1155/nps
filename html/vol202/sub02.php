@@ -18,7 +18,7 @@
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="cover_title">NPS 칼럼</div>
-				<div class="cover_text">글. 서한기 연합뉴스 기자</div>
+				<div class="cover_text">글. 한국일보 김창훈 기자</div>
 				<div class="angle-down"><img src="../../img/common/ico_angle_down_wh.svg"></div>
 			</div>
 		</div>

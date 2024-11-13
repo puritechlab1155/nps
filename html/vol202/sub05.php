@@ -424,7 +424,7 @@
 				   		<li class="item"><img src="img/sub05/sub05_53.jpg"></li>
 				   		<li class="item"><img src="img/sub05/sub05_54.jpg"></li>
 					</ul>
-					<div class="phototitle">설악케이블카·신흥사</div>
+					<div class="phototitle">설악케이블카 · 신흥사</div>
 					<div class="ctrl_wrap">
 						<span class="slider_dots6"></span>
 						<button type="button" class="btn_pause">정지</button>

@@ -6,6 +6,9 @@
 	<meta property="og:image" content="../../img/logosns/logosns_vol199.jpg">
 	<?php include("../../inc/head.php"); ?>
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
 <div id="wrap" class="sub07">
@@ -18,61 +21,98 @@
 		<div class="section01 wow fadeBigInUp">
 			<div class="content">
 				<div class="title">키워드로 보는 세상</div>
-				<div class="cover_text">글. 김경록 미래에셋자산운용 고문</div>
+				<div class="cover_text">참고 자료. 도서 『트렌드 코리아 2025』</div>
 				<div class="angle-down"><img src="../../img/common/ico_angle_down_wh.svg"></div>
 			</div>
 		</div>
 
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
-				<div class="subtitle_top">은퇴 후의 삶을 준비하는 <br class="mobile_display">우리들의 자세</div>
-				<div class="title">
-					더 길게 더 멀리 보는 <br>
-					튼튼한 노후 자금 준비법
-				</div>
-				<div class="subcopy">
-					의학의 발달과 복지 제도의 정착 등으로 100세 시대가 도래했고, 평균 수명은 계속해서 길어질 전망이다. 그렇다면 늘어난 은퇴 이후의 삶을 행복하고 건강하게 보내기 위해서 무엇이 필요할까. 바로 똑똑한 ‘자산관리’이다. 예상하지 못한 순간에도 기초적인 생활 수준을 유지하는 것이야말로 행복한 노후의 토대이다. 은퇴 전, 후에 알아두면 좋은 노후 자산관리 방법을 소개한다.
-				</div>
+					<div class="subtitle_top">『트렌드 코리아 2025』 살펴보기</div>
+					<div class="title">
+						뱀처럼 예리한 감각으로 <br>
+						기회를 포착한다
+					</div>
+					<div class="subcopy">
+						2025년 대한민국의 소비 전망을 소개하는 『트렌드 코리아 2025』(김난도 저)가 나왔다. 책에 따르면, 내년은 큰 성장의 기회나 거대한 위기의 징후는 보이지 않을 것이고, 이와 같이 환경에 대한 기대가 높지 않을 때는 사소한 움직임이 중요하다고 한다. 『트렌드 코리아 2025』에서 제시된 키워드 10개를 둘러본다.
+					</div>
 			</div>
 		</div>
 
 		<div class="section03 wow fadeBigInUp">
 			<div class="content">
-				<div class="img_box"><img src="img/sub07/sub07_01.svg"></div>
-				<div class="subtitle">60대에도 노동시장에 머무르기</div>
-				<br class="pc_display">
-				<div class="text fadeBigInUp">
-					한국은 정년이 60세이다 보니 노후의 기준이 60세에 맞추어져 있다. 60세를 넘어 일하면 괜히 오래 일하는 것처럼 느껴지기도 하지만, 실상은 다르다. 2023년 기준 한국의 60대 초반(60~64세) 고용률은 64%에 이르고 60대 후반(65~69세)도 51%이다. 성별로 보면 60대 남성 고용률은 69%이며, 이는 60대 남성 10명 중 7명이 일한다는 뜻이다. 서구권도 사정이 비슷하다. 미국과 영국은 정년이 없고 서구 국가도 65~70세가 정년이다. 서구 국가의 60대도 노동시장에 오래 머무르는 셈이다.<br>
-					노동시장에 오래 머무르면 자산을 넉넉하게 관리할 수 있다. 60세의 A와 B가 있다. 이들은 5억 원의 금융자산을 갖고 있고 생활비로 매년 4천만 원을 지출한다. A는 5억 원을 4% 수익률로 운용해서 불리며, 노동시장에서 근로소득을 얻어 생활비를 충당했다. B는 다른 소득이 없어서 금융자산에서 매년 생활비 4천만 원을 인출했다. 10년이 지난 70세에 이들의 자산은 어떻게 되어 있을까? A는 5억 원이 불어나 7억 4,000만 원의 자산을 갖게 됐지만, B는 2억 원이 남았다. 60세에 출발점이 같았지만, 70세에 이르러서는 차이가 벌어진 셈이다.<br>
-					이런 차이가 70세 이후를 결정한다. 70세를 2억 원으로 시작하는 B는 76세가 되면 이미 자산이 소진되어 넉넉한 노후를 보내지 못한다. 반면 A는 101세가 되어서야 자산이 소진된다. A와 B의 자산소진 기간(혹은 노후 빈곤 시점)은 25년 차이가 난다. 자산 규모가 줄어든 B의 경우 70세 이후에 자산 운용수익률을 높여도 이미 자산 규모가 너무 줄었기 때문에 노후 빈곤시점을 뒤로 늦추지 못한다.<br>
-					주목할 점은, A는 근로소득으로 60대 생활비를 충당하고 보유자산은 계속 불려 복리 효과를 극대화했고, B는 보유자산에서 생활비를 인출해 자산 규모가 일찍부터 줄어들었다는 점이다. 60세까지 차이 없는 삶을 살았을지라도 60세 이후 자산관리 방식에 따라 70세 이후에 격차가 확대된다. 그때 가서는 바로잡기가 어렵고 노후 자산관리의 승부는 대충 판가름이 난다. 그런 의미에서 60세 이후 10년은 자산관리의 골든타임이며 근로소득이 중요한 이유다.
+				<div class="swiper s3-swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="img/sub07/slide1.svg"></div>
+						<div class="swiper-slide"><img src="img/sub07/slide2.svg"></div>
+						<div class="swiper-slide"><img src="img/sub07/slide3.svg"></div>
+						<div class="swiper-slide"><img src="img/sub07/slide4.svg"></div>
+						<div class="swiper-slide"><img src="img/sub07/slide5.svg"></div>
+					</div>
 				</div>
+				<div class="swiper-button-next"><img src="img/sub07/slide-next.svg"></div>
+				<div class="swiper-button-prev"><img src="img/sub07/slide-prev.svg"></div>
 			</div>
 		</div>
+		<script>
+			var swiper = new Swiper(".s3-swiper", {
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
+			});
+		</script>
 
 		<div class="section04 wow fadeBigInUp">
 			<div class="content">
-				<div class="subtitle">세 가지 리스크 파악하기</div>
-				<br class="pc_display">
-				<div class="text fadeBigInUp">
-					은퇴소득을 만들기 위해 먼저 ①구매력 리스크, ②장수 리스크, ③수익률 순서 리스크를 파악하면 좋다.<br>
-					구매력 리스크는 예금과 관련이 있다. 노후에는 예금이 안전하다고 한다. 과연 그럴까? 베네수엘라는 2018년 공식적으로 물가가 13만% 올랐다. 그럴 경우, 현금이나 예금 1억 원의 구매력(물가를 반영한 예금 1억 원의 실질 가치)은 7만 7천 원에 불과하다. 젊을 때 물가가 오르면 임금도 오르지만, 나이 들어서는 근로소득이 없기에 물가가 오르면 같이 따라 오를 소득이 없다. 즉, 노후 자금 역시 물가가 상승하는 만큼 가치가 따라 올라가도록 다양한 분야에 투자해 두는 게 좋다.<br>
-					장수 리스크는 몇 년 치의 은퇴소득을 만들어야 하는지에 관한 문제이다. 생명표 기준 60세 남성은 75세 이전에 사망할 확률이 22%이며, 92세 이후까지 생존할 확률도 마찬가지이다. 은퇴소득을 92세 이후까지 계획했는데 75세 이전에 사망할 확률, 75세까지 계획했는데 92세 이후까지 생존할 확률이 같다면 어느 수명 장단에 맞추어야 할지 난감하다. 이를 해결하는 게 죽을 때까지 연금을 주는 종신연금이다. 하지만 종신연금은 필요할 때 내가 돈을 꺼내 쓸 수 있는 자유가 없다.<br>
-					수익률 순서 리스크는 은퇴 후 투자수익률 순서에 따라 노후 자금이 고갈되는 시기가 달라질 수 있는 위험을 말한다. 투자수익률이 3년 동안 (+27%, +7%, -13%)인 A와 (-13%, +7%, +27%)인 B가 있다고 하자. 연 투자수익률은 5.7%로 같지만, 수익률 순서가 다르다. A와 B 모두 1억 원을 가지고 있고 매년 2천만 원을 지출한다고 예를 들어 보자. A의 경우 1억 원을 가지고 있는 첫해의 수익률이 +27%로 높고, 매년 2천만 원을 빼서 지출한 후의 3년째 투자수익률이 –13%로 낮은 경우 3년 뒤에 6,220만 원이 남는다. 반면, B는 1억원을 갖고 있는 첫해의 초기 수익률이 –13%로 낮고, 매년 2천만 원을 빼서 지출한 후의 3년째 투자수익률이 +27%로 높아 3년 뒤에 4,560만 원이 남는다. 초기에 수익률이 좋은 게 유리함을 볼 수 있다. 이유는 간단하다. 돈을 지출하면 자산은 계속 줄어들므로 자산을 가장 많이 확보한 투자 초기에 수익률이 높은 게 유리하기 때문이다.<br>
-					이 세 가지 리스크를 모두 견고하게 방어하는 게 국민연금이다. 국민연금은 물가에 연동하여 연금액을 조정하고, 죽을 때까지 지급하며, 주식시장 급락 여부와 관계없이 약정한 연금액을 지급하기 때문이다. 참고로 세 가지 리스크를 모두 방어하는 민간 금융상품은 없다. 국민연금을 충실히 준비해야 하는 이유다. 
+				<div class="stitle_area">
+					<div class="img_box"><img src="img/sub07/stars.svg"></div>
+					<span>『트렌드 코리아 2025』</span>
+					<h3>10대 키워드</h3>
 				</div>
-				<div class="img_box"><img src="img/sub07/sub07_02.svg"></div>
-			</div>
-		</div>
-
-		<div class="section05 wow fadeBigInUp">
-			<div class="content">
-				<div class="subtitle second_st">선(先)계좌 후(後)연금</div>
-				<br class="pc_display">
-				<div class="text fadeBigInUp">
-					세 가지 리스크에 대비하면서 은퇴소득을 만들려면 종신연금, 계좌인출, 그리고 투자와 연금이 혼합된 하이브리드 상품군을 잘 섞을 필요가 있다. 종신연금에는 국민연금 등의 공적연금, 주택연금, 민간의 종신연금이 있다. 계좌인출에는 채권, 월 분배형 펀드, 인컴 펀드 등이 있으며, 하이브리드는 최저분배금이 보장되는 변액연금이 있다. 자산 축적 때는 주식, 채권, 부동산을 적절히 섞어 효율적으로 자산을 배분해야 하고, 노후에 인출을 통해 은퇴소득을 만들 때는 세 가지 인출상품군을 잘 섞는 방식으로 상품을 배분하기를 바란다.<br>
-					상품배분 이외에 주의할 한 가지가 있다. 은퇴소득의 시간에 따른 배치 문제이다. 채권 등 계좌인출 은퇴소득은 노후 전반기에 배치하고 종신연금은 노후 후반기에 배치하는 게 좋다. 80세 이후에는 언제까지 살지 모를 수명 불확실성뿐만 아니라 인지증(치매) 등으로 자산관리가 어렵기에 자동으로 은퇴소득이 나와야 한다. 국민연금, 주택연금, 민간의 종신연금 등의 수령 시기를 늦추는 게 좋은 이유이다. 이미 서구에서는 종신연금의 수령을 80세 이후로 늦추는 장수연금의 필요성을 강조하고 있다. 일본은 65세 후생연금 수령을 10년까지 연기할 수 있다.<br>
-					60대에 노동시장에 머무르기, 세 가지 리스크 파악하기, 선(先)계좌 후(後)연금을 생각하며 노후 준비를 하면 불확실한 노후에 대비할 수 있을 것이다.
+				<div class="card-img fadeBigInUp">
+					<ul>
+						<li>
+							<div class="basic"><img src="img/sub07/1f.svg"></div>
+							<div class="hover"><img src="img/sub07/1b.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/2f.svg"></div>
+							<div class="hover"><img src="img/sub07/2b.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/3f.svg"></div>
+							<div class="hover"><img src="img/sub07/3b.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/4f.svg"></div>
+							<div class="hover"><img src="img/sub07/4b.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/5f.svg"></div>
+							<div class="hover"><img src="img/sub07/5b.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/6f.svg"></div>
+							<div class="hover"><img src="img/sub07/6b.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/7f.svg"></div>
+							<div class="hover"><img src="img/sub07/7b.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/8f.svg"></div>
+							<div class="hover"><img src="img/sub07/8b.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/9f.svg"></div>
+							<div class="hover"><img src="img/sub07/9b.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/10f.svg"></div>
+							<div class="hover"><img src="img/sub07/10b.svg"></div>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>

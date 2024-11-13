@@ -81,7 +81,7 @@
 					국민연금 장애연금은 장애인연금법에 따르는 장애인연금과는 다른 연금이다. 국민연금은 소득과 관계없이 연금가입자에게 지급되지만, 장애인연금은 일정 소득 이하인 경우만 지급된다. 장애연금은 국민연금에, 장애인연금은 행정복지센터에 신청할 수 있다. 만약 총소득이 적다면 장애연금과 장애인연금을 동시 수령할 수도 있다.
 				</div>
 				<div class="img_box pc_display"><img src="img/sub06/sub06_02.svg"></div>
-				<div class="img_box mobile_display"><img src="img/sub06/sub06_02_mo.svg"></div>
+				<div class="img_box mobile_display"><img src="img/sub06/sub06_02_mo.jpg"></div>
 			</div>
 		</div><!-- //section04 -->
 

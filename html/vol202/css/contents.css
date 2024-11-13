@@ -1297,7 +1297,7 @@
 .sub09 .section02 .content04 .item_box2 .item_cont ul li .text { font-family:'Meetme'; font-weight: 400; font-size: 20px; line-height: 26px; margin-top: 21px; }
 
 .sub09 .section03 { position: relative; display: flex; background-image: url('../img/sub09/sub09_04.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; box-sizing: border-box; }
-.sub09 .section03 .content { width:100%; max-width: 1020px; padding: 0 20px; margin: 113px auto 120px; overflow: hidden; }
+.sub09 .section03 .content { width:100%; max-width: 1020px; padding: 0 20px; margin: 113px auto 120px;}
 .sub09 .section03 .content .title { width: 100%; max-width: 980px;  margin: 0 auto; text-align: center; }
 
 .sub09 .section03 .content .title .scroll-image { opacity: 0; }

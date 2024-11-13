@@ -727,7 +727,7 @@
 .sub04 .section06 .conts_wrap .conts_area02 .cont02 img { width: 100%; }
 .sub04 .section06 .conts_wrap .conts_area02 .cont02 .cap_text { font-weight: 400; font-size: 14px; line-height: 28px; letter-spacing: -0.02em; display: block; padding-top: 8px; }
 
-@media (min-width: 1600px) {
+@media (min-width: 1700px) {
 	.sub04 .section06 .conts_wrap { padding-bottom: 200px; }
 }
 
@@ -759,7 +759,7 @@
 	.sub04 .section06 { margin-top: 60px; background: #D6CEC8; padding: 20px 0 60px; }
 	.sub04 .section06 .content { padding: 0; }
 	.sub04 .section06 .content .stitle_area { flex-direction: column; padding: 0 20px 16px; align-items: flex-start; }
-	.sub04 .section06 .content .stitle_area .title_interview { font-size: 47px; line-height: 70px; }
+	.sub04 .section06 .content .stitle_area .title_interview { font-size: 47px; line-height: 70px; margin-bottom: 24px; }
 	.sub04 .section06 .content .stitle_area .info span { font-size: 20px; line-height: 23px; }
 	.sub04 .section06 .content .stitle_area .info .main_text { font-size: 30px; line-height: 40px; }
 	.sub04 .section06 .content .img_box { width: 100%; }
@@ -1017,6 +1017,7 @@
 .sub06 .section04 { position: relative; width: 100%; display: block; background:#fff;}
 .sub06 .section04 .content { width: 100%; max-width: 1020px; padding: 0 20px; margin: 120px auto; z-index: 10;}
 .sub06 .section04 .content .img_box { margin-top: 48px; }
+.sub06 .section04 .content .img_box img { width: 100%; }
 
 .sub06 .section05 { position: relative; width: 100%; display: block; }
 .sub06 .section05 .content { width: 100%; max-width: 1020px; margin: 0 auto 120px; padding: 0 20px; }

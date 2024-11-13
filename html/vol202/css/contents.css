@@ -597,7 +597,7 @@
 .sub02 .content .subtitle { color: #627A3E; font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; text-align: left; }
 .sub02 .content .text { font-size: 18px; font-weight: 400; letter-spacing: -0.02em; line-height: 32px; }
 
-.sub02 .section01 { height: 550px; width: 100%;  background: url('../img/sub02/sub02_00.png') no-repeat; background-size: cover; background-position: center; background-repeat: no-repeat; display: flex; justify-content: center; align-items: flex-end; }
+.sub02 .section01 { height: 550px; width: 100%;  background: url('../img/sub02/sub02_00.jpg') no-repeat; background-size: cover; background-position: center; background-repeat: no-repeat; display: flex; justify-content: center; align-items: flex-end; }
 .sub02 .section01 .content { text-align: center; margin-bottom: 89px; color: #fff; }
 .sub02 .section01 .content .cover_title { font-size: 27px; font-weight: 700; }
 .sub02 .section01 .content .cover_text { font-size: 16px; font-weight: 400; padding: 13px 0; }
@@ -1151,17 +1151,17 @@
 
 /* 헬스 앤 라이프 */
 .sub08 #contents { position: relative; padding: 0; color: #000; font-family:'Noto Sans KR'; line-height: normal; letter-spacing: normal; }
-.sub08 .content .subtitle { color: #87c878; font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; }
-.sub08 .content .text { font-size: 18px; font-weight: 400; line-height: 32px; letter-spacing: -0.36px; }
+.sub08 .content .subtitle { color: #6A9BEA; font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; }
+.sub08 .content .text { font-size: 18px; font-weight: 400; line-height: 32px; letter-spacing: -0.02em; }
 
 .sub08 .section01 { height: 550px; width: 100%; background: url('../img/sub08/sub08_00.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; display: flex;  justify-content: center; align-items: flex-end; }
 .sub08 .section01 .content { text-align: center; margin-bottom: 89px; color: #fff; }
 .sub08 .section01 .content .cover_title { font-size: 27px; font-weight: 700; }
 .sub08 .section01 .content .cover_text { opacity: 0; padding: 13px 0; font-size: 16px; }
 
-.sub08 .section02 { position: relative; display: block; width: 100%; max-width: 1020px; padding: 0 20px; margin: 120px auto 81px; }
+.sub08 .section02 { position: relative; display: block; width: 100%; max-width: 1020px; padding: 0 20px; margin: 120px auto 49px; }
 .sub08 .section02 .content { position: relative; width: 100%; max-width: 980px; }
-.sub08 .section02 .content .subtitle_top { color: #87c878; font-size: 24px; font-weight: 700; text-align: center; }
+.sub08 .section02 .content .subtitle_top { color: #6A9BEA; font-size: 24px; font-weight: 700; text-align: center; }
 .sub08 .section02 .content .title { font-size: 50px; font-weight: 700; line-height: 68px; padding-bottom: 30px; text-align: center; border-bottom: 1px solid #000; }
 .sub08 .section02 .content .subcopy { font-size: 20px; font-weight: 700; line-height: 32px; margin-top: 35px; letter-spacing: -0.4px; }
 

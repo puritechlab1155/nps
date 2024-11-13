@@ -31,199 +31,57 @@
 
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
-					<div class="subtitle_top">불볕더위가 끝나고 난 뒤</div>
-					<div class="title">계절성 우울증 예방법</div>
+					<div class="subtitle_top">동절기엔 이것을 조심하세요!</div>
+					<div class="title">낙상과 심혈관 질환</div>
 					<div class="subcopy">
-						불볕더위가 끝나고 선선한 바람이 부는 가을이 코앞이다. 하늘은 높고 선선한 바람이 살랑이는 가을을 만끽하려는데 어쩐지 기분이 울적하다면, 계절성 우울증에 주목해 보자.
+						겨울은 노년층이 생활하는데 쉽지 않은 계절이다. 매서운 추위로 외출이 어렵고, 외출하더라도 추운 날씨에 근육과 관절 유연성이 저하돼 빙판길에서 미끄러질 가능성이 높다. 또한 실내외 극심한 온도 차는 혈관 수축과 혈압 상승을 일으켜 심혈관에 영향을 미치기도 한다. 겨울철 주의해야 할 낙상 사고와 심혈관 질환을 알아본다.
 					</div>
 			</div>
 		</div><!-- //.section02 -->
 
 		<div class="section03 wow fadeBigInUp">
 			<div class="content">
-				<div class="img_box">
-					<img src="img/sub08/sub08_01.svg" class="pc_display">
-					<img src="img/sub08/sub08_01_mo.svg" class="mobile_display">
+				<div class="subtitle">걷다가 ‘꽈당’ 낙상 주의보</div>
+				<br class="pc_display">
+				<div class="text fadeBigInUp">
+					나이 들면 체력과 호르몬 변화로 근력이 감소하고 균형 감각이 약해져 쉽게 미끄러지거나 넘어진다. 게다가 겨울에는 체온이 떨어지는 것을 막기 위해 혈관이 수축하고 혈류량이 줄어든다. 이로 인해 근육이 더욱 경직돼 낙상 발생 위험이 커진다. 실제로 질병관리청은 2021년 발표한 자료에서 겨울철 낙상으로 응급실에 내원한 65세 이상 환자가 2015년 3,647명에서 2018년 5,546명으로 급증했다고 밝혔다. <br>
+					낙상은 환부에 따라 머리, 척추, 고관절, 손·발목 유형으로 나뉜다. 넘어지며 머리를 바닥이나 물체에 부딪히는 경우 두통과 어지럼증이 발생하고 심하면 뇌 손상이 올 수 있다. 엉덩방아를 찧으며 넘어질 때는 척추에 가해진 하중으로 골절이 발생하거나, 으스러진 뼛조각이 신경을 압박해 마비 증상을 일으킬 수 있다. 고관절 골절은 골반과 다리뼈를 결합하는 고관절에 금이 가거나 손상이 생기는 질환이다. 주로 골다공증이 있는 고령자가 침대에서 구르거나 의자에서 일어나는 등 일상을 보낼 때 갑자기 고관절에 부하가 걸리며 발생한다. 심한 통증으로 보행이 어렵고, 폐렴, 순환기 질환, 욕창 등 합병증을 동반하기도 한다. 손·발목은 넘어질 때 잘못 짚거나 디뎠을 때 인대나 근육이 늘어나는 증상으로 낙상 사고 시 가장 많이 다치는 부위이다.<br>
+					낙상 시 환부를 확인하는 게 우선이다. 머리를 부딪쳤다면, 바로 검진을 받아야 한다. 증상이 가볍고 의식이 명료할 뿐만 아니라 검진 결과가 정상이더라도 집에서 추적 관찰하며 두통, 어지럼증 등 이상 현상이 일어나는지 지켜보는 게 좋다. <br>
+					척추, 고관절, 손·발목 골절에는 즉시 주변에 도움을 요청하고 움직이지 않는 것이 중요하다. 환부에 출혈이 있다면 지혈하고 부목으로 고정한 후 곧바로 병원으로 이동해야 한다. 가벼운 증상은 찜질로 통증을 완화하면 좋다.
 				</div>
 			</div>
 		</div><!-- //.section03 -->
 
 		<div class="section04 wow fadeBigInUp">
 			<div class="content">
-				<div class="subtitle">우울증과 햇볕의 상관관계</div>
-				<br class="pc_display">
-				<div class="text fadeBigInUp">
-					‘가을 탄다’는 말처럼 가을만 되면 심적 침체, 피로 증가, 의욕 및 집중력 저하 등으로 불편감을 호소하는 사람들이 많다. 가볍게 지나가는 증상일 수도 있지만, ‘계절성 우울증’이라는 의학적 명칭을 가진 우울증 증상일 수 있으니 주의가 필요하다.<br>
-					계절성 우울증의 발생 원인은 명확히 알려지지 않았지만, 대체로 신체 균형 및 호르몬 변화, 햇빛의 양과 관련이 있다고 알려져 있다. 햇빛의 양이 줄어들어 신체 활력이 떨어지는 가을에서 이듬해 봄까지 계절성 우울증을 많이 겪게 된다.<br>
-					햇볕을 많이 받을 때는 세로토닌과 도파민 분비가 활발해 행복감이 충만해지지만, 햇볕을 적게 받으면 세로토닌의 농도가 떨어지고 수면을 유도하는 멜라토닌이 분비돼 평소보다 쉽게 피로감을 느끼고 잠이 많아진다. 극야와 백야 현상으로 일조량의 변화폭이 극심한 북유럽 지역에서 우울증 환자가 많은 것도 같은 이유 때문이다.<br>
-					가을철 단순히 잠이 많아졌다며 ‘계절성 우울증’이라고 단정하는 건 금물이다. 우울장애 진단 기준에 따라 우울한 기분, 흥미나 즐거움의 감소, 체중 변화, 수면 이상, 정신운동 이상, 피로 등의 증상이 한 해의 일정 기간 사이에 규칙적으로 반복되는 양상을 보일 때 ‘계절성 우울증’이라고 진단할 수 있다.
-				</div>
-				<div class="pc_display">
-					<div class="item_box">
-						<ul class="item_list">
-							<li>
-								<div class="img_box motion1" ><img src="img/sub08/sub08_21.svg"></div>
-								<div class="text_box">
-									<span class="black">세로토닌</span>
-									<p>
-										긍정적인 감정이나 행복감을 높이는 신경 전달 물질.
-									</p>
-								</div>
-							</li>
-							<li>
-								<div class="img_box motion2"><img src="img/sub08/sub08_22.svg"></div>
-								<div class="text_box">
-									<span class="yellow">도파민</span>
-									<p>
-										쾌감 또는 즐거움을 조절하는 신경 전달 물질.
-									</p>
-								</div>
-							</li>
-							<li>
-								<div class="img_box motion3"><img src="img/sub08/sub08_23.svg"></div>
-								<div class="text_box">
-									<span class="blue">멜라토닌</span>
-									<p>
-										수면과 생체리듬을 조절하는 호르몬.
-									</p>
-								</div>
-							</li>
-							<li>
-								<div class="img_box motion4"><img src="img/sub08/sub08_24.svg"></div>
-								<div class="text_box">
-									<span class="green">엔도르핀</span>
-									<p>
-										통증을 완화하는 호르몬.
-									</p>
-								</div>
-							</li>
-							<li>
-								<div class="img_box img_pink motion5"><img src="img/sub08/sub08_25.svg"></div>
-								<div class="text_box">
-									<span class="pink">옥시토신</span>
-									<p>
-										사랑과 신뢰라는 감정을 조절하는 호르몬.
-									</p>
-								</div>
-							</li>
-						</ul>
-						<div class="cap_box">
+				<div class="item_box">
+					<div class="item_title">겨울철 낙상예방 가이드</div>
+					<div class="item1">
+						<div class="img_box"><img src="img/sub08/item1.svg"></div>
+						<div class="text_box">
+							<div class="bold">외출 시 가급적 장갑을 끼고, 손은 주머니에서 빼고 활동하기</div>
 							<p>
-								<span>신경 전달 물질 </span>: 내분비기관에서 생성돼 혈액을 통해 이동하며 내분비 시스템을 조절한다.<br>
-								<span>호르몬 </span>: 뉴런에서 생성돼 시냅스 간 화학적 신호를 전달하며 신경망을 조절한다.
+								악천후일 때는 외출을 삼가는 게 가장 좋지만, 부득이하게 외출할 경우에는 장갑을 챙기는 게 좋다. 주머니에 손을 넣고 다니면 몸의 균형 감각을 잃어 부상 위험이 커지므로 장갑을 착용하고 지팡이로 중심을 잡아가며 활동하는 것을 추천한다.
 							</p>
 						</div>
 					</div>
-				</div>
-
-				<!-- GSAP -->
-				<script>
-		
-                    document.addEventListener("DOMContentLoaded", function () {
-                        gsap.registerPlugin(ScrollTrigger);
-
-                        // 타임라인 생성
-                        const tl = gsap.timeline({
-                            scrollTrigger: {
-                                trigger: ".item_list", // 전체 리스트가 트리거가 됨
-                                start: "top 80%",      // 리스트가 화면 상단에서 80% 지점에 도달할 때 시작
-                                end: "bottom 20%",     // 리스트가 화면 하단에서 20% 지점에 도달할 때 종료
-                                toggleActions: "restart none none none", // 스크롤 시 다시 시작
-                                markers: false,        // 디버그 마커 비활성화
-                                scrub: false,          // 스크롤에 따라 부드럽게 진행되진 않음
-                                onLeaveBack: () => tl.restart(), // 스크롤이 끝나면 다시 재시작
-                            }
-                        });
-
-                        // 순차적으로 motion1부터 motion5까지 애니메이션 추가
-                        tl.fromTo(".motion1", 
-                            { scale: 1, opacity: 0 }, 
-                            { scale: 1.5, opacity: 1, duration: 0.6, ease: "power1.inOut" }
-                        )
-                        .to(".motion1", { scale: 1, duration: 0.6, ease: "power1.inOut" })
-                        .fromTo(".motion2", 
-                            { scale: 1, opacity: 0 }, 
-                            { scale: 1.5, opacity: 1, duration: 0.6, ease: "power1.inOut" }
-                        )
-                        .to(".motion2", { scale: 1, duration: 0.6, ease: "power1.inOut" })
-                        .fromTo(".motion3", 
-                            { scale: 1, opacity: 0 }, 
-                            { scale: 1.5, opacity: 1, duration: 0.6, ease: "power1.inOut" }
-                        )
-                        .to(".motion3", { scale: 1, duration: 0.6, ease: "power1.inOut" })
-                        .fromTo(".motion4", 
-                            { scale: 1, opacity: 0 }, 
-                            { scale: 1.5, opacity: 1, duration: 0.6, ease: "power1.inOut" }
-                        )
-                        .to(".motion4", { scale: 1, duration: 0.6, ease: "power1.inOut" })
-                        .fromTo(".motion5", 
-                            { scale: 1, opacity: 0 }, 
-                            { scale: 1.5, opacity: 1, duration: 0.6, ease: "power1.inOut" }
-                        )
-                        .to(".motion5", { scale: 1, duration: 0.6, ease: "power1.inOut" });
-                    });
-				</script>
-
-
-				<div class="mobile_display">
-					<div class="item_box">
-						<ul class="item_list">
-							<li>
-								<div class="img_box motion1"><img src="img/sub08/sub08_21.svg"></div>
-								<div class="text_box">
-									<span class="purple">세로토닌</span>
-									<p>
-										긍정적인 감정이나 행복감을 높이는 신경 전달 물질.
-									</p>
-								</div>
-							</li>
-							<li>
-								<div class="img_box motion2"><img src="img/sub08/sub08_22.svg"></div>
-								<div class="text_box">
-									<span class="yellow">도파민</span>
-									<p>
-										쾌감 또는 즐거움을 조절하는 신경 전달 물질.
-									</p>
-								</div>
-							</li>
-						</ul>
-						<ul class="item_list">
-							<li>
-								<div class="img_box motion3"><img src="img/sub08/sub08_23.svg"></div>
-								<div class="text_box">
-									<span class="blue">멜라토닌</span>
-									<p>
-										수면과 생체리듬을 조절하는 호르몬.
-									</p>
-								</div>
-							</li>
-							<li>
-								<div class="img_box motion4"><img src="img/sub08/sub08_24.svg"></div>
-								<div class="text_box">
-									<span class="green">엔도르핀</span>
-									<p>
-										통증을 완화하는 호르몬.
-									</p>
-								</div>
-							</li>
-						</ul>
-						<ul class="item_list">
-							<li>
-								<div class="img_box img_pink motion5"><img src="img/sub08/sub08_25.svg"></div>
-								<div class="text_box">
-									<span class="pink">옥시토신</span>
-									<p>
-										사랑과 신뢰라는 감정을 조절하는 호르몬.
-									</p>
-								</div>
-							</li>
-							<li class="cap_box">
-								<p>
-									<span>신경 전달 물질 </span>: 내분비기관에서 생성돼 혈액을 통해 이동하며 내분비 시스템을 조절한다.<br>
-									<span>호르몬 </span>: 뉴런에서 생성돼 시냅스 간 화학적 신호를 전달하며 신경망을 조절한다.
-								</p>
-							</li>
-						</ul>
+					<div class="item2">
+						<div class="img_box"><img src="img/sub08/item2.svg"></div>
+						<div class="text_box">
+							<div class="bold">안전한 실내 환경 조성하기</div>
+							<p>
+								화장실이나 주방 등 낙상 위험이 있는 곳의 물기를 말끔히 제거하고 바닥이 미끄럽다면 매트를 깔거나 주변에 손잡이를 설치한다. 또한 충분한 조명을 확보해 야간 낙상을 방지하고, 카펫 또는 전선 코드에 걸려 넘어지지 않도록 주변을 정리하는 게 좋다.
+							</p>
+						</div>
+					</div>
+					<div class="item3">
+						<div class="img_box"><img src="img/sub08/item3.svg"></div>
+						<div class="text_box">
+							<div class="bold">규칙적으로 운동하기</div>
+							<p>
+								약해진 근력과 운동 신경을 강화하는 게 우선이다. 스트레칭을 생활화하고, 걷기나 가벼운 근력 운동을 꾸준히 병행하면서 몸의 균형 감각을 향상해야 한다. 아래는 집에서 할 수 있는 낙상 예방 운동법이다.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>

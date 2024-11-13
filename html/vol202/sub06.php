@@ -27,10 +27,14 @@
 
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
-				<div class="subtitle">장애에 관한 제법 묵직한 질문에 마주하다</div>
-				<div class="title">
+				<div class="subtitle">장애에 관한 <br class="mobile_display">제법 묵직한 질문에 마주하다</div>
+				<div class="title pc_display">
 					영화 &lt;미 비포 유&gt;로 읽는 <br>
 					장애연금
+				</div>
+				<div class="title mobile_display">
+					영화 &lt;미 비포 유&gt;로 <br>
+					읽는 장애연금
 				</div>
 				<div class="subcopy">
 					영화 &lt;미 비포 유&gt;는 사랑하는 두 사람이 서로를 통해 변화하는 모습을 그린다. 장애가 있는 윌의 도움으로 새로운 세상으로 나간 임시 간병인 루이자와 루이자를 통해 웃음을 되찾은 윌. 로맨스라는 장르를 입고 인간의 존엄성과 생명 윤리에 관한 묵직한 질문을 던지는 영화 &lt;미 비포 유&gt;를 소개한다.
@@ -51,9 +55,10 @@
 					<div class="sub_text fadeBigInUp">기간은 딱 6개월. 보수도 좋고 특별한 기술을 요구하지도 않아요.”</div>
 				</div>
 				<div class="line_text mobile_display">
-					<div class="sub_text fadeBigInUp">삶의 벼랑에 선 무뚝뚝한 이 남자,</div>
-					<div class="sub_text fadeBigInUp">그의 성질을 살살 긁는 이웃과의 마지막은</div>
-					<div class="sub_text fadeBigInUp">어떤 모습이 될까?</div>
+					<div class="sub_text fadeBigInUp">“장애가 있는 사람을 돌보는 일인데,</div>
+					<div class="sub_text fadeBigInUp">운전, 식사, 각종 도우미를 해야 해요.</div>
+					<div class="sub_text fadeBigInUp">기간은 딱 6개월.</div>
+					<div class="sub_text fadeBigInUp">보수도 좋고 특별한 기술을 요구하지도 않아요.”</div>
 				</div>
 				<div class="text">
 					테아 샤록 감독의 &lt;미 비포 유&gt;는 사고로 전신마비가 된 윌(샘 클라플린)과 그를 임시로 간병하게 된 루이자(에밀리아 클라크 분)의 이야기이다. 삶의 의욕을 잃어 세상 까칠하고 냉소적이던 윌은 우스꽝스러운 옷을 즐겨 입고, 썰렁한 농담을 툭툭 던지는 루이자를 만나 조금씩 생기를 되찾는다. 가족을 위해 희생하고 고향을 떠나지 않는 것을 당연하게 생각하는 루이자는 윌을 통해 점차 자신을 위한 새로운 세상을 선망하게 된다. 윌은 루이자로 인해, 루이자는 윌로 인해 변한다.
@@ -75,7 +80,8 @@
 					장애연금 월평균 수령액도 증가하고 하고 있다. 2023년 기준 월평균 50만 5,000원이 지급된다. 2021년은 45만 8,236원, 2021년은 46만 1,510원, 2022년은 47만 4,879원이었다. 장애연금 월 최고 수령액은 222만 8,000원, 최장기 수급기간은 34년 10개월로 집계됐다. 1988년 제도 시행 이후 지금까지 29만 4,793명에게 7조 7,955억 원이 지급됐다. 장애연금이 장애로 인한 노동력 상실에 따른 구제를 일정 부분 담당하고 있다는 의미다.<br>
 					국민연금 장애연금은 장애인연금법에 따르는 장애인연금과는 다른 연금이다. 국민연금은 소득과 관계없이 연금가입자에게 지급되지만, 장애인연금은 일정 소득 이하인 경우만 지급된다. 장애연금은 국민연금에, 장애인연금은 행정복지센터에 신청할 수 있다. 만약 총소득이 적다면 장애연금과 장애인연금을 동시 수령할 수도 있다.
 				</div>
-				<div class="img_box"><img src="img/sub06/sub06_02.svg"></div>
+				<div class="img_box pc_display"><img src="img/sub06/sub06_02.svg"></div>
+				<div class="img_box mobile_display"><img src="img/sub06/sub06_02_mo.svg"></div>
 			</div>
 		</div><!-- //section04 -->
 
@@ -93,9 +99,10 @@
 					<div class="sub_text fadeBigInUp">아주 작은 부분까지.”</div>
 				</div>
 				<div class="line_text line_text01 mobile_display">
-					<div class="sub_text fadeBigInUp">삶의 벼랑에 선 무뚝뚝한 이 남자,</div>
-					<div class="sub_text fadeBigInUp">그의 성질을 살살 긁는 이웃과의 마지막은</div>
-					<div class="sub_text fadeBigInUp">어떤 모습이 될까?</div>
+					<div class="sub_text fadeBigInUp">“난 진짜 ‘나’로 파리에 가고 싶어요.</div>
+					<div class="sub_text fadeBigInUp">프랑스 아가씨들의 시선을 받던 나요.</div>
+					<div class="sub_text fadeBigInUp">지금도 눈감으면 퐁네프 다리 옆 도핀 광장이</div>
+					<div class="sub_text fadeBigInUp">생생하게 떠올라요. 아주 작은 부분까지.”</div>
 				</div>
 				<div class="img_box"><img src="img/sub06/sub06_03.svg"></div>
 				<div class="text">
@@ -109,9 +116,8 @@
 					<div class="sub_text fadeBigInUp">“최대한 열심히 사는 게 삶에 대한 의무예요”라고.</div>
 				</div>
 				<div class="line_text line_text02 mobile_display">
-					<div class="sub_text fadeBigInUp">삶의 벼랑에 선 무뚝뚝한 이 남자,</div>
-					<div class="sub_text fadeBigInUp">그의 성질을 살살 긁는 이웃과의 마지막은</div>
-					<div class="sub_text fadeBigInUp">어떤 모습이 될까?</div>
+					<div class="sub_text fadeBigInUp">윌은 루이자에게 말한다.</div>
+					<div class="sub_text fadeBigInUp">“최대한 열심히 사는 게 삶에 대한 의무예요”라고.</div>
 				</div>
 			</div>
 		</div><!-- //section05 -->

@@ -25,9 +25,9 @@
 
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
-				<div class="subtitle_top">더는 못 미룰 연금개혁도 “럭키 비키” 외칠 수 있다면</div>
+				<div class="subtitle_top">더는 못 미룰 연금개혁도 <br class="mobile_display">“럭키 비키” 외칠 수 있다면</div>
 				<div class="main_title">
-					2024 국민연금개혁의 필요성
+					2024 <br class="mobile_display">국민연금개혁의 <br class="mobile_display">필요성
 				</div>
 				<div class="subcopy">
 					세대 간, 진영 간 갈등이 폭발하는 연금개혁은 언제나 난제다. 정부는 올해 9월 단일 개혁안을 내놓았지만 반발은 거세고 국회에서는 논의조차 안 되고 있다. 기금 소진은 다가오는데 17년 만의 연금개혁 기회를 놓칠 수 있다는 우려가 커지고 있다. 어느 때보다 긍정적 사고가 필요한 시기다.

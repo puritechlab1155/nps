@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
       .fromTo(".sub13 .img2", 
         { opacity: 0, y: -10, x: 25 }, 
         { 
-            opacity: 1, y: 50, x: -55, 
+            opacity: 1, y: 70, x: 50, 
             duration: 0.5,
             repeat: 1, // 반복 횟수
             yoyo: true, // 왔다 갔다 하는 효과

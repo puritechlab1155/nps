@@ -28,7 +28,7 @@
 
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
-					<div class="subtitle_top">『트렌드 코리아 2025』 살펴보기</div>
+					<div class="subtitle_top">『트렌드 코리아 2025』 <br class="mobile_display">살펴보기</div>
 					<div class="title">
 						뱀처럼 예리한 감각으로 <br>
 						기회를 포착한다
@@ -39,19 +39,39 @@
 			</div>
 		</div>
 
-		<div class="section03 wow fadeBigInUp">
-			<div class="content">
-				<div class="swiper s3-swiper">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide"><img src="img/sub07/slide1.svg"></div>
-						<div class="swiper-slide"><img src="img/sub07/slide2.svg"></div>
-						<div class="swiper-slide"><img src="img/sub07/slide3.svg"></div>
-						<div class="swiper-slide"><img src="img/sub07/slide4.svg"></div>
-						<div class="swiper-slide"><img src="img/sub07/slide5.svg"></div>
+		<div class="pc_display">
+			<div class="section03 wow fadeBigInUp">
+				<div class="content">
+					<div class="swiper s3-swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img src="img/sub07/slide1.svg"></div>
+							<div class="swiper-slide"><img src="img/sub07/slide2.svg"></div>
+							<div class="swiper-slide"><img src="img/sub07/slide3.svg"></div>
+							<div class="swiper-slide"><img src="img/sub07/slide4.svg"></div>
+							<div class="swiper-slide"><img src="img/sub07/slide5.svg"></div>
+						</div>
 					</div>
+					<div class="swiper-button-next"><img src="img/sub07/slide-next.svg"></div>
+					<div class="swiper-button-prev"><img src="img/sub07/slide-prev.svg"></div>
 				</div>
-				<div class="swiper-button-next"><img src="img/sub07/slide-next.svg"></div>
-				<div class="swiper-button-prev"><img src="img/sub07/slide-prev.svg"></div>
+			</div>
+		</div>
+		<div class="mobile_display">
+			<div class="section03 wow fadeBigInUp">
+				<div class="content">
+					<div class="swiper s3-swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img src="img/sub07/slide1_mo.svg"></div>
+							<div class="swiper-slide"><img src="img/sub07/slide2_mo.svg"></div>
+							<div class="swiper-slide"><img src="img/sub07/slide3_mo.svg"></div>
+							<div class="swiper-slide"><img src="img/sub07/slide4_mo.svg"></div>
+							<div class="swiper-slide"><img src="img/sub07/slide5_mo.svg"></div>
+							<div class="swiper-slide"><img src="img/sub07/slide6_mo.svg"></div>
+						</div>
+					</div>
+					<div class="swiper-button-next"><img src="img/sub07/slide-next.svg"></div>
+					<div class="swiper-button-prev"><img src="img/sub07/slide-prev.svg"></div>
+				</div>
 			</div>
 		</div>
 		<script>
@@ -70,7 +90,7 @@
 					<span>『트렌드 코리아 2025』</span>
 					<h3>10대 키워드</h3>
 				</div>
-				<div class="card-img fadeBigInUp">
+				<div class="card-img pc_display fadeBigInUp">
 					<ul>
 						<li>
 							<div class="basic"><img src="img/sub07/1f.svg"></div>
@@ -111,6 +131,50 @@
 						<li>
 							<div class="basic"><img src="img/sub07/10f.svg"></div>
 							<div class="hover"><img src="img/sub07/10b.svg"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="card-img mobile_display fadeBigInUp">
+					<ul>
+						<li>
+							<div class="basic"><img src="img/sub07/1f_mo.svg"></div>
+							<div class="hover"><img src="img/sub07/1b_mo.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/2f_mo.svg"></div>
+							<div class="hover"><img src="img/sub07/2b_mo.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/3f_mo.svg"></div>
+							<div class="hover"><img src="img/sub07/3b_mo.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/4f_mo.svg"></div>
+							<div class="hover"><img src="img/sub07/4b_mo.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/5f_mo.svg"></div>
+							<div class="hover"><img src="img/sub07/5b_mo.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/6f_mo.svg"></div>
+							<div class="hover"><img src="img/sub07/6b_mo.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/7f_mo.svg"></div>
+							<div class="hover"><img src="img/sub07/7b_mo.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/8f_mo.svg"></div>
+							<div class="hover"><img src="img/sub07/8b_mo.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/9f_mo.svg"></div>
+							<div class="hover"><img src="img/sub07/9b_mo.svg"></div>
+						</li>
+						<li>
+							<div class="basic"><img src="img/sub07/10f_mo.svg"></div>
+							<div class="hover"><img src="img/sub07/10b_mo.svg"></div>
 						</li>
 					</ul>
 				</div>

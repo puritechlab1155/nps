@@ -688,8 +688,8 @@
 .sub04 .content .subtitle { color: #D70C16; font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; }
 .sub04 .content .text { font-size: 18px; font-weight: 400; line-height: 32px; }
 
-.sub04 .section03 { position: relative; width: 100%; display: block; overflow: hidden; }
-.sub04 .section03 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding: 0 20px; }
+.sub04 .section03 { position: relative; width: 100%; max-width: 1020px; display: block; overflow: hidden; margin: 0 auto; padding: 0 20px; }
+.sub04 .section03 .content { width: 100%; max-width: 980px; }
 .sub04 .section03 .content .img_box01 { margin-bottom: 80px; text-align: center; }
 .sub04 .section03 .content .img_box01 img { width: 100%; max-width: 417px; }
 .sub04 .section03 .content .img_box02 { margin: 36px 0; }
@@ -700,11 +700,11 @@
 .sub04 .section04 .content .img_box01 { margin: 36px 0; }
 .sub04 .section04 .content .img_box02 { margin-top: 36px; }
 
-.sub04 .section05 { position: relative; width: 100%; display: block; margin: 0 auto; }
-.sub04 .section05 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding: 0 20px; }
+.sub04 .section05 { position: relative; width: 100%; max-width: 1020px; display: block; margin: 0 auto; padding: 0 20px; }
+.sub04 .section05 .content { width: 100%; max-width: 980px; }
 .sub04 .section05 .content .img_box01 { margin: 36px 0; }
 
-.sub04 .section06 { position: relative; width: 100%; display: block; margin-top: 100px; background: #D6CEC8; padding: 100px 0; }
+.sub04 .section06 { position: relative; width: 100%; display: block; margin-top: 100px; background: #D6CEC8; padding: 100px 0; overflow: hidden; }
 .sub04 .section06 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding: 0 20px; }
 .sub04 .section06 .content .stitle_area { display: flex; width: 100%; justify-content: space-between; align-items: center; padding: 11px 0 16px; border-bottom: 1px solid #000; color: #000; }
 .sub04 .section06 .content .stitle_area .info { font-family: 'laundrygothic'; font-weight: 700; }
@@ -732,34 +732,46 @@
 }
 
 @media only all and (max-width:767px) {
-	.sub04 .section01 { height: 275px; }
-	.sub04 .section01::before { background: rgba(0, 0, 0, 0.3); }
-	.sub04 .section01 .content { margin-bottom: 12px; }
+	.sub04 .section01 { height: 275px; background-image: url('../img/sub04/sub04_00_mo.jpg'); background-size: cover; background-position: center 86%; background-repeat: no-repeat; position: relative; }
+	.sub04 .section01::before { position: absolute; content: ''; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); z-index: 3; }
+	.sub04 .section01 .content { margin-bottom: 12px; position: relative; z-index: 4; }
 	.sub04 .section01 .content .cover_title { font-size: 20px; }
 	.sub04 .section01 .content .cover_text { padding: 0; }
-	.sub04 .section01 .content .cap { margin-top: 12px; }
 
-	.sub04 .section02 { position: relative; display: block; width: 100%; margin: 50px auto 60px; padding:0 20px; }
+	.sub04 .section02 { position: relative; display: block; width: 100%; margin: 60px auto 23px; padding: 0 20px; }
 	.sub04 .section02 .content .subtitle_top { line-height: 30px; }
 	.sub04 .section02 .content .title { font-size: 36px; line-height: 48px; padding-bottom: 35px; margin-top: 8px; }
-	.sub04 .section02 .content .subcopy { font-size: 18px; line-height: 29px; letter-spacing: -0.36px; margin: 35px 0 16px; }
-	.sub04 .section02 .content .not_box { padding: 14px 20px; }
+	.sub04 .section02 .content .subcopy { font-size: 18px; line-height: 29px; }
 
 	.sub04 .content .subtitle { font-size: 16px; line-height: 28px; }
 	.sub04 .content .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; }
 
-	.sub04 .section04 { margin: 60px auto 0; }
-	.sub04 .section04 .content .conts_box { flex-direction: column; }
-	.sub04 .section04 .content .conts_box .text_box { padding: 24px 0 60px; }
+	.sub04 .section03 .content .img_box01 { margin-bottom: 24px; }
+	.sub04 .section03 .content .img_box02 { margin: 24px 0; }
+	.sub04 .section03 .content .img_box03 { margin-top: 24px; }
 
-	.sub04 .section05 { flex-direction: column; }
-	.sub04 .section05 .content { width: 100%; max-width: 100%; padding: 0 20px; }
-	.sub04 .section05 .img_box { margin-left: 0; }
-	.sub04 .section05 .content .text_box { padding-top: 24px; }
+	.sub04 .section04 { margin: 45px auto 32px; }
+	.sub04 .section04 .content .img_box01 { margin: 24px 0; }
+	.sub04 .section04 .content .img_box02 { margin-top: 24px; }
 
-	.sub04 .section06 { margin-top: 59px; }
-	.sub04 .section06 .content .conts_box { flex-direction: column; }
-	.sub04 .section06 .content .conts_box .text_box { padding: 24px 0 59px; }
+	.sub04 .section05 .content .img_box01 { margin: 24px 0; }
+
+	.sub04 .section06 { margin-top: 60px; background: #D6CEC8; padding: 20px 0 60px; }
+	.sub04 .section06 .content { padding: 0; }
+	.sub04 .section06 .content .stitle_area { flex-direction: column; padding: 0 20px 16px; align-items: flex-start; }
+	.sub04 .section06 .content .stitle_area .title_interview { font-size: 47px; line-height: 70px; }
+	.sub04 .section06 .content .stitle_area .info span { font-size: 20px; line-height: 23px; }
+	.sub04 .section06 .content .stitle_area .info .main_text { font-size: 30px; line-height: 40px; }
+	.sub04 .section06 .content .img_box { width: 100%; }
+	.sub04 .section06 .content .img_box img { width: 100%; }
+	.sub04 .section06 .content .cap_text { font-weight: 400; font-size: 14px; line-height: 28px; letter-spacing: -0.02em; display: block; padding: 8px 20px 0; }
+	.sub04 .section06 .content ul { margin-top: 60px; padding: 0 20px; }
+	.sub04 .section06 .content ul li { display: flex; align-items: flex-start; gap: 23px; }
+	.sub04 .section06 .content ul li:not(:nth-child(1)) { margin-top: 20px; }
+	.sub04 .section06 .content ul li .q_mark { width: 100%; max-width: 40px; height: 40px; }
+	.sub04 .section06 .content ul li .q_mark img { width: 100%; }
+	.sub04 .section06 .content ul li .text_box .question { font-family: 'laundrygothic'; font-weight: 700; font-size: 16px; line-height: 28px; }
+	.sub04 .section06 .content ul li .text_box p { font-weight: 400; font-size: 18px; line-height: 32px; }
 }
 
 /* 모두의 여행 */

@@ -25,9 +25,9 @@
 
 		<div class="section02 wow fadeBigInUp">
 			<div class="content">
-				<div class="subtitle_top">&lt;흑백요리사&gt;의 열풍 뒤에는 품격이 남다른 그들이 있었다!</div>
+				<div class="subtitle_top">&lt;흑백요리사&gt;의 열풍 뒤에는 <br class="mobile_display">품격이 남다른 그들이 있었다!</div>
 				<div class="title">
-					&lt;흑백요리사&gt; 인기 이끈 <br>
+					&lt;흑백요리사&gt; <br class="mobile_display">인기 이끈 <br>
 					베테랑 셰프들
 				</div>
 				<div class="subcopy">
@@ -203,6 +203,59 @@
 							<span class="cap_text">©어드밴스드 퀴진</span>
 						</div>
 					</div>
+				</div>
+			</div><!-- //pc_display -->
+
+			<div class="mobile_display">
+				<div class="content">
+					<div class="stitle_area">
+						<div class="title_interview">INTERVIEW</div>
+						<div class="info">
+							<span>&lt;흑백요리사&gt; TOP 8</span>
+							<div class="main_text">이모카세1호 김미령 셰프</div>
+						</div>
+					</div>
+					<div class="img_box"><img src="img/sub04/sub04_07.jpg"></div>
+					<span class="cap_text">©어드밴스드 퀴진</span>
+
+					<ul>
+						<li>
+							<div class="q_mark"><img src="img/sub04/q_mark.svg"></div>
+							<div class="text_box">
+								<div class="question">&lt;흑백요리사&gt; 출연 이후 어떻게 지내시고 계신가요?</div>
+								<p>
+									안녕하세요. 김미령 셰프입니다. &lt;흑백요리사&gt; 출연 덕분에 제 인생의 터닝 포인트를 맞이할 수 있었습니다. 그동안 똑같은 일을 오래 해서 힘들기도 하고 지친 상황이었거든요. 그런데 &lt;흑백요리사&gt;에 출연하여 유명하신 셰프님들과 함께 할 수 있어서 똑같고 지루하기만 하던 일상이 생기로 가득 차게 됐습니다.
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="q_mark"><img src="img/sub04/q_mark.svg"></div>
+							<div class="text_box">
+								<div class="question">나만의 요리 비법이 있다면?</div>
+								<p>
+									특별한 요리 비법이라기보다는 음식을 할 때 항상 갖는 마음가짐이 있습니다. 저희 식당을 방문해 주시는 손님들의 취향, 연령, 성별 등을 고려해 같은 요리라도 드시는 분들의 입맛에 맞게 매번 요리를 달리하려고 해요.
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="q_mark"><img src="img/sub04/q_mark.svg"></div>
+							<div class="text_box">
+								<div class="question">차후에 국민연금을 수령하실 것 같은데요. 연금 수령에 대한 기대감 혹은 수령하신 연금으로 무엇을 하실 것인지에 대한 계획이 있다면 말씀 부탁드립니다.</div>
+								<p>
+									항상 가게를 운영하며 바쁘게 앞만 보며 살아왔어요. 노후에는 국민연금으로 남편과 같이 소소한 취미생활을 즐기며 지금까지는 모르고 살았었던 여유를 즐길 거예요.
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="q_mark"><img src="img/sub04/q_mark.svg"></div>
+							<div class="text_box">
+								<div class="question">4060대 중 새로운 도전에 관해 고민하는 분들께 독려의 한마디 부탁드립니다.</div>
+								<p>
+									저는 어떤 일을 시작할 때 고민을 오래 하지 않는 편이에요. 고민할 시간에 조금이라도 더 일찍 시작하고, 도전하는 것이 더 낫다고 생각하기 때문에 여러분들도 새로운 도전을 하고싶은 마음이 들면 가능한 빨리 도전을 했으면 좋겠습니다!
+								</p>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>

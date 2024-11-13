@@ -7,8 +7,8 @@
 	<?php include("../../inc/head.php"); ?>
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script type="module" src="js/main.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script type="module" src="js/main.js"></script> -->
 </head>
 
 <body>

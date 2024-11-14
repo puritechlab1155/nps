@@ -327,7 +327,7 @@
 /* NPS 뉴스 */
 .sub01 #contents { position: relative; padding: 0; font-family:'Noto Sans KR'; color: #000; line-height: normal; letter-spacing: normal; }
 
-.sub01 .section01 { height: 550px; width: 100%; background: #ffd6de url('../img/sub01/sub01_00.jpg'); background-size: contain; background-position: center top; background-repeat: no-repeat; display: flex; justify-content: center;  align-items: flex-end; overflow: hidden; }
+.sub01 .section01 { height: 550px; width: 100%; background: #c6e7e0 url('../img/sub01/sub01_00.jpg'); background-size: contain; background-position: center top; background-repeat: no-repeat; display: flex; justify-content: center;  align-items: flex-end; overflow: hidden; }
 .sub01 .section01 .content { text-align: center; margin-bottom: 89px; }
 .sub01 .section01 .content .cover_title { font-size: 27px; font-weight: 700; }
 .sub01 .section01 .content .cover_text { font-size: 16px; font-weight: 400; padding: 13px 0; opacity: 0; }
@@ -336,14 +336,14 @@
 .sub01 .section02 .content { position: relative; width: 100%; max-width: 1020px; margin: 120px auto; padding: 0 20px; display: flex; gap: 46px; }
 .sub01 .section02 .content .title { width: 100%; max-width: 120px; margin-top: 9px; }
 .sub01 .section02 .content .title img { width: 100%; }
-.sub01 .section02 .content .subcopy { flex-grow: 1; font-size: 20px; font-weight: 700; line-height: 32px; letter-spacing: -0.4px; }
+.sub01 .section02 .content .subcopy { flex-grow: 1; font-size: 20px; font-weight: 700; line-height: 32px; letter-spacing: -0.02em; }
 
 .sub01 .section03 { position: relative; width: 100%; height: 100%; display: block; border-bottom: 1px solid #000; }
 .sub01 .section03 .content { width: 100%; max-width: 1020px; margin: 0 auto; padding: 0 20px; position: relative; }
 .sub01 .section03 .content .tabs { display: flex; gap: 36px; margin: 0 auto; padding: 33px 0; justify-content: center; }
 .sub01 .section03 .content .tabs div { background: #000; color: #fff; font-family: 'GmarketSans'; font-size: 18px; font-weight: 500; padding: 5px 16px; width: 143px; height: 34px; border-radius: 999px; position: relative; cursor: pointer; line-height: 25px; }
 .sub01 .section03 .content .tabs div::after { content: ''; background: url(../img/sub01/sub01_02.svg) no-repeat; width: 24px; height: 24px; background-size: contain; background-position: center; position: absolute; right: 16px; top: 50%; transform: translateY(-50%); }
-.sub01 .section03 .content .tabs div.on { background: #6464d8; color: #fff; }
+.sub01 .section03 .content .tabs div.on { background: #E05D5D; color: #fff; }
 
 .sticky-element {
 	width: 100%;
@@ -375,11 +375,11 @@
 .sub01 .section05 .content .anchor { display: flex; gap: 36px; }
 .sub01 .section05 .content .alignCenter { align-items: center; }
 .sub01 .section05 .content .anchor .img { width: 130px; }
-.sub01 .section05 .content .anchor .question { flex: 1; font-size: 18px; font-weight: 400; letter-spacing: -0.36px; line-height: 32px; }
+.sub01 .section05 .content .anchor .question { flex: 1; font-size: 18px; font-weight: 400; letter-spacing: -0.02em; line-height: 32px; }
 .sub01 .section05 .content .reporter { position: relative; width: calc(100% - 166px); margin-left: 166px; background: #fff; box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.25); }
 .sub01 .section05 .content .reporter .answer { padding: 36px; position: relative; }
 .sub01 .section05 .content .reporter .quotes { width: 25px; margin-bottom: 16px; }
-.sub01 .section05 .content .reporter .answer .text { width: calc(100% - 158px); font-size: 18px; font-weight: 400; letter-spacing: -0.36px; line-height: 32px; }
+.sub01 .section05 .content .reporter .answer .text { width: calc(100% - 158px); font-size: 18px; font-weight: 400; letter-spacing: -0.02em; line-height: 32px; }
 .sub01 .section05 .content .reporter .answer .img { width: 130px; position: absolute; top: 36px; right: 36px; }
 
 .sub01 .section05 .content .reporter .cap_text { font-size: 16px; font-weight: 400; line-height: 32px; letter-spacing: -0.32px; margin-top: 16px; }
@@ -423,20 +423,20 @@
 @media (min-width: 1200px) and (max-width: 1439px) {
 	.sub01 .section01 { background-size: cover; }
 
-	.sub01 .section04 .pc_display_only { display: block; }
+/* 	.sub01 .section04 .pc_display_only { display: block; }
 	.sub01 .section04 .tablet_display_only { display: none; }
 	.sub01 .section04 .mobile_display_only { display: none; }
 
-	.sub01 .section05 .content .reporter .none_pad { padding: 0; }
+	.sub01 .section05 .content .reporter .none_pad { padding: 0; } */
 }
 @media (min-width: 768px) and (max-width: 1119px) {
 	.sub01 .section01 { background-size: cover; }
 
-	.sub01 .section04 .pc_display_only { display: none; }
+/* 	.sub01 .section04 .pc_display_only { display: none; }
 	.sub01 .section04 .tablet_display_only { display: block; }
 	.sub01 .section04 .mobile_display_only { display: none; }
 
-	.sub01 .section05 .content .reporter .none_pad { padding: 0; }
+	.sub01 .section05 .content .reporter .none_pad { padding: 0; } */
 }
 
 @media (min-width: 376px) and (max-width:767px) {
@@ -445,9 +445,9 @@
 	.sub01 .section01 .content .cover_title { font-size: 20px; }
 	.sub01 .section01 .content .cover_text { padding: 0; }
 
-	.sub01 .section02 .content { flex-direction: column; align-items: center; gap: 24px; margin: 50px auto; }
+	.sub01 .section02 .content { flex-direction: column; align-items: center; gap: 24px; margin: 64px auto 50px; }
 	.sub01 .section02 .content .title { margin-top: 0; }
-	.sub01 .section02 .content .subcopy { width: 100%; font-size: 18px; font-weight: 700; letter-spacing: -0.36px; line-height: 29px; }
+	.sub01 .section02 .content .subcopy { width: 100%; font-size: 18px; font-weight: 700; line-height: 29px; }
 
 	.sticky-element {
 		width: 100%;
@@ -465,7 +465,8 @@
 	.sub01 .section05 .content .anchor { flex-direction: column; gap: 36px; align-items: center; }
 	.sub01 .section05 .content .moSmall { gap: 16px; }
 	.sub01 .section05 .content .moSmall .img { width: 120px; }
-	.sub01 .section05 .content .anchor .question { font-size: 16px; letter-spacing: -0.32px; line-height: 28px; }
+	.sub01 .section05 .content .anchor .question { font-size: 16px; line-height: 28px; }
+	.sub01 .section05 .content .anchor .question-p { letter-spacing: -0.07em; }
 	.sub01 .section05 .content .reporter { width: 100%; margin-left: 0; }
 	.sub01 .section05 .content .reporter .quotes { padding-top: 146px; }
 	.sub01 .section05 .content .reporter .padMore { padding-top: 158px; }

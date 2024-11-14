@@ -68,7 +68,7 @@
 						<div class="item_box">
 							<div class="item item01">
 								<div class="item_title">신선한 굴의 조건</div>
-								<div class="img_box"><img src="img/sub09/sub09_02.jpg"></div>
+								<div class="img_box"><img src="img/sub09/sub09_02.png"></div>
 								<ul>
 									<li><img src="img/sub09/sub09_item_num1.svg"><span>색이 선명하고 탱탱하다.</span></li>
 									<li><img src="img/sub09/sub09_item_num2.svg"><span>껍데기가 닫혔다.</span></li>

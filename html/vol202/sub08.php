@@ -187,9 +187,9 @@
 						<li><img src="img/sub08/board-img03.svg"></li>
 						<li><img src="img/sub08/board-img04.svg"></li>
 						<li><img src="img/sub08/board-img05.svg"></li>
-						<li><img src="img/sub08/board-img06.svg"></li>
+						<li><img src="img/sub08/board-img06.svg" class="pc_display"><img src="img/sub08/board-img06-mo.svg" class="mobile_display"></li>
 						<li><img src="img/sub08/board-img07.svg"></li>
-						<li><img src="img/sub08/board-img08.svg"></li>
+						<li><img src="img/sub08/board-img08.svg" class="pc_display"><img src="img/sub08/board-img08-mo.svg" class="mobile_display"></li>
 						<li><img src="img/sub08/board-img09.svg"></li>
 					</ul>
 					<div class="caption">출처: 질병관리청</div>

@@ -58,6 +58,7 @@
 		</div>
 		<script>
 			var swiper = new Swiper(".s3-swiper", {
+				speed: 700,
 				navigation: {
 					nextEl: ".swiper-button-next",
 					prevEl: ".swiper-button-prev",

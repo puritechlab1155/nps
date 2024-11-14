@@ -1,3 +1,60 @@
+// sub04
+// pc interview
+gsap.fromTo(".title_interview", 
+    {
+        y: 0, // 원래 위치에서 시작
+        opacity: 1 // 초기 상태의 불투명도
+    },
+    {
+        y: -20, // 위로 이동할 위치
+        opacity: 1, // 이동 중의 불투명도
+        duration: 0.5, // 개별 애니메이션 지속 시간
+        stagger: {
+            each: 0.2, // 각 텍스트 사이의 지연 시간
+            repeat: 1, // 각 텍스트의 애니메이션을 한 번 반복
+            yoyo: true, // 역방향 재생 (원래 위치로 돌아오기)
+            repeatDelay: 0.1 // 각 텍스트가 돌아온 후 다음 텍스트가 시작되기 전 지연 시간
+        },
+        ease: "sine.inOut", // 애니메이션의 이징 효과,
+        scrollTrigger: {
+            trigger: ".interview", // 트리거 요소
+            start: "top 80%", // 트리거가 시작되는 위치 (요소의 상단과 뷰포트의 80% 지점)
+            end: "bottom 20%", // 트리거가 끝나는 위치
+            toggleActions: "play none none none", // 스크롤 시 애니메이션 동작 (재생, 역방향 재생, 정지, 정지)
+            markers: false // 디버깅을 위한 마커 표시 (개발 시 유용)
+        }
+    }
+);
+// mo interview
+gsap.fromTo(".title_interview", 
+    {
+        y: 0, // 원래 위치에서 시작
+        opacity: 1 // 초기 상태의 불투명도
+    },
+    {
+        y: -20, // 위로 이동할 위치
+        opacity: 1, // 이동 중의 불투명도
+        duration: 0.5, // 개별 애니메이션 지속 시간
+        stagger: {
+            each: 0.2, // 각 텍스트 사이의 지연 시간
+            repeat: 1, // 각 텍스트의 애니메이션을 한 번 반복
+            yoyo: true, // 역방향 재생 (원래 위치로 돌아오기)
+            repeatDelay: 0.1 // 각 텍스트가 돌아온 후 다음 텍스트가 시작되기 전 지연 시간
+        },
+        ease: "sine.inOut", // 애니메이션의 이징 효과,
+        scrollTrigger: {
+            trigger: ".interview_mo", // 트리거 요소
+            start: "top 10%", // 트리거가 시작되는 위치 (요소의 상단과 뷰포트의 80% 지점)
+            end: "bottom 5%", // 트리거가 끝나는 위치
+            toggleActions: "play none none none", // 스크롤 시 애니메이션 동작 (재생, 역방향 재생, 정지, 정지)
+            markers: true // 디버깅을 위한 마커 표시 (개발 시 유용)
+        }
+    }
+);
+
+
+
+
 // sub13 gsap.timeline
 
 // document.addEventListener('DOMContentLoaded', () => {

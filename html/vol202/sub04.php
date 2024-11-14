@@ -6,7 +6,10 @@
 	<meta property="og:image" content="../../img/logosns/logosns_vol199.jpg">
 	<?php include("../../inc/head.php"); ?>
 	<link rel="stylesheet" type="text/css" href="css/contents.css">
-</head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+	<script type="module" src="js/main.js"></script>
+	</head>
 <body>
 <div id="wrap" class="sub04">
 
@@ -106,7 +109,19 @@
 							<span>&lt;흑백요리사&gt; TOP 8</span>
 							<div class="main_text">이모카세1호 김미령 셰프</div>
 						</div>
-						<div class="title_interview">INTERVIEW</div>
+						<!-- <div class="title_interview">INTERVIEW</div> -->
+						<div class="interview"> 
+							<div class="title_interview">I</div>
+							<div class="title_interview">N</div>
+							<div class="title_interview">T</div>
+							<div class="title_interview">E</div>
+							<div class="title_interview">R</div>
+							<div class="title_interview">V</div>
+							<div class="title_interview">I</div>
+							<div class="title_interview">E</div>
+							<div class="title_interview">W</div>
+						</div>
+
 					</div>
 				</div>
 				<div class="conts_wrap">
@@ -209,7 +224,21 @@
 			<div class="mobile_display">
 				<div class="content">
 					<div class="stitle_area">
-						<div class="title_interview">INTERVIEW</div>
+
+						<!-- <div class="title_interview">INTERVIEW</div> -->
+
+						<div class="interview_mo"> 
+							<div class="title_interview">I</div>
+							<div class="title_interview">N</div>
+							<div class="title_interview">T</div>
+							<div class="title_interview">E</div>
+							<div class="title_interview">R</div>
+							<div class="title_interview">V</div>
+							<div class="title_interview">I</div>
+							<div class="title_interview">E</div>
+							<div class="title_interview">W</div>
+						</div>
+
 						<div class="info">
 							<span>&lt;흑백요리사&gt; TOP 8</span>
 							<div class="main_text">이모카세1호 김미령 셰프</div>

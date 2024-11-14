@@ -710,6 +710,7 @@
 .sub04 .section06 .content .stitle_area .info { font-family: 'laundrygothic'; font-weight: 700; }
 .sub04 .section06 .content .stitle_area .info span { font-size: 23px; line-height: 26px; }
 .sub04 .section06 .content .stitle_area .info .main_text { font-size: 33px; line-height: 45px; }
+.sub04 .section06 .content .stitle_area .interview { display: flex;}
 .sub04 .section06 .content .stitle_area .title_interview { font-family: "Poppins", sans-serif; font-weight: 700; font-size: 60px; line-height: 90px; }
 .sub04 .section06 .conts_wrap { margin-top: 80px; position: relative; padding-bottom: 100px; }
 .sub04 .section06 .conts_wrap .conts_area { display: flex; width: 100%; max-width: 1020px; margin: 0 auto; padding: 0 20px; }
@@ -759,6 +760,7 @@
 	.sub04 .section06 { margin-top: 60px; background: #D6CEC8; padding: 20px 0 60px; }
 	.sub04 .section06 .content { padding: 0; }
 	.sub04 .section06 .content .stitle_area { flex-direction: column; padding: 0 20px 16px; align-items: flex-start; }
+	.sub04 .section06 .content .stitle_area .interview_mo { display: flex;}
 	.sub04 .section06 .content .stitle_area .title_interview { font-size: 47px; line-height: 70px; margin-bottom: 24px; }
 	.sub04 .section06 .content .stitle_area .info span { font-size: 20px; line-height: 23px; }
 	.sub04 .section06 .content .stitle_area .info .main_text { font-size: 30px; line-height: 40px; }

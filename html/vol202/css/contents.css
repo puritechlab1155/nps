@@ -1524,6 +1524,19 @@
 	.sub09 .section03 .content .item1 .item_text { margin: 13px 0; }
 	.sub09 .section03 .content .item_img { width: 100%; max-width: 980px; margin: 0 auto; }
 	.sub09 .section03 .content .item_img img { width: 100%; }
+
+	.sub09 .section03 .content .item3 .item_img .img2-5 { position: absolute; left: 0; bottom: 0; animation: ingred1Mo 3s infinite; z-index: 3; }
+	@keyframes ingred1Mo {
+		0%{ transform: translate(8px, -10px); }
+		50%{ transform: translate(4px, -5px); }
+		100%{ transform: translate(0, 0); }
+	}
+	.sub09 .section03 .content .item3 .item_img .img2-6 { position: absolute; left: 0; bottom: 0; animation: ingred2Mo 3s infinite; }
+	@keyframes ingred2Mo {
+		0%{ transform: translate(-10px, 10px); }
+		50%{ transform: translate(-5px, 5px); }
+		100%{ transform: translate(0, 0); }
+	}
 }
 
 /* 이벤트1 */

@@ -157,7 +157,7 @@
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">NPS 칼럼</p>
-							<p class="txt">노후소득보장의 중추 지속가능하고 튼튼한 버팀목 국민연금</p>
+							<p class="txt">2024 국민연금개혁의 필요성</p>
 						</a>
 					</div>
 					<div data-title="M&Z일상수다" class="swiper-slide item3 wow fadeUp">
@@ -178,7 +178,7 @@
 								<!--<i class="vod">영상</i>-->
 							</div>
 							<p class="tit">꼬리에 꼬리를 무는 문화탐구</p>
-							<p class="txt">트로트를 신드롬으로 만든 임영웅이라는 세계</p>
+							<p class="txt">&lt;흑백요리사&gt; 인기 이끈 베테랑 셰프들</p>
 						</a>
 					</div>
 					<div data-title="모두의 여행" class="swiper-slide item5 wow fadeUp">
@@ -188,7 +188,7 @@
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">모두의 여행</p>
-							<p class="txt">초가을에 거닐기 좋은 완주·전주</p>
+							<p class="txt">겨울 바다의 낭만과 설산의 품속으로 강원도 고성·속초</p>
 						</a>
 					</div>
 				   	<div data-title="연금엔씨네마" class="swiper-slide item6 wow fadeUp">
@@ -198,7 +198,7 @@
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">연금엔씨네마</p>
-							<p class="txt">영화 &lt;오베라는 남자&gt;로 읽는 국민연금 실업 크레딧</p>
+							<p class="txt">영화 &lt;미 비포 유&gt;로 읽는 장애연금</p>
 						</a>
 					</div>
 					<div data-title="키워드로 보는 세상" class="swiper-slide item7 wow fadeUp">
@@ -208,7 +208,7 @@
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">키워드로 보는 세상</p>
-							<p class="txt">더 길게 더 멀리 보는 튼튼한 노후 자금 준비법</p>
+							<p class="txt">뱀처럼 예리한 감각으로 기회를 포착한다</p>
 						</a>
 					</div>
 					<div data-title="헬스 앤 라이프" class="swiper-slide item8 wow fadeUp">
@@ -219,7 +219,7 @@
 								<!--<i class="vod">영상</i>-->
 							</div>
 							<p class="tit">헬스 앤 라이프</p>
-							<p class="txt">계절성 우울증 예방법</p>
+							<p class="txt">낙상과 심혈관 질환</p>
 						</a>
 					</div>
 					<div data-title="오늘의 레시피" class="swiper-slide item9 wow fadeUp">
@@ -230,7 +230,7 @@
 								<!--<i class="vod">영상</i>-->
 							</div>
 							<p class="tit">오늘의 레시피</p>
-							<p class="txt">영양 듬뿍 담은 ‘송이버섯솥밥’ 레시피</p>
+							<p class="txt">영양이 오동통, 굴전 레시피</p>
 						</a>
 					</div>
 				</div>
@@ -313,7 +313,7 @@
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">NPS 칼럼</p>
-							<p class="txt">노후소득보장의 중추 지속가능하고 튼튼한 버팀목 국민연금</p>
+							<p class="txt">2024 국민연금개혁의 필요성</p>
 						</a>
 					</div>
 					<div data-title="꼬리에 꼬리를 무는 문화탐구" class="swiper-slide item4 wow fadeUp">
@@ -324,7 +324,7 @@
 								<!--<i class="vod">영상</i>-->
 							</div>
 							<p class="tit">꼬리에 꼬리를 무는 문화탐구</p>
-							<p class="txt">트로트를 신드롬으로 만든 임영웅이라는 세계</p>
+							<p class="txt">&lt;흑백요리사&gt; 인기 이끈 베테랑 셰프들</p>
 						</a>
 					</div>
 				   	<div data-title="연금엔씨네마" class="swiper-slide item6 wow fadeUp">
@@ -334,7 +334,7 @@
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">연금엔씨네마</p>
-							<p class="txt">영화 &lt;오베라는 남자&gt;로 읽는 국민연금 실업 크레딧</p>
+							<p class="txt">영화 &lt;미 비포 유&gt;로 읽는 장애연금</p>
 						</a>
 					</div>
 				</div>
@@ -381,7 +381,7 @@
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">모두의 여행</p>
-							<p class="txt">초가을에 거닐기 좋은 완주&middot;전주</p>
+							<p class="txt">겨울 바다의 낭만과 설산의 품속으로 강원도 고성·속초</p>
 						</a>
 					</div>
 					<div data-title="키워드로 보는 세상" class="swiper-slide item7 wow fadeUp">
@@ -391,7 +391,7 @@
 								<span class="cover like"><i></i></span>
 							</div>
 							<p class="tit">키워드로 보는 세상</p>
-							<p class="txt">더 길게 더 멀리 보는 튼튼한 노후 자금 준비법</p>
+							<p class="txt">뱀처럼 예리한 감각으로 기회를 포착한다</p>
 						</a>
 					</div>
 					<div data-title="헬스 앤 라이프" class="swiper-slide item8 wow fadeUp">
@@ -402,7 +402,7 @@
 								<!--<i class="vod">영상</i>-->
 							</div>
 							<p class="tit">헬스 앤 라이프</p>
-							<p class="txt">계절성 우울증 예방법</p>
+							<p class="txt">낙상과 심혈관 질환</p>
 						</a>
 					</div>
 					<div data-title="오늘의 레시피" class="swiper-slide item9 wow fadeUp">
@@ -413,7 +413,7 @@
 								<!--<i class="vod">영상</i>-->
 							</div>
 							<p class="tit">오늘의 레시피</p>
-							<p class="txt">영양 듬뿍 담은 ‘송이버섯솥밥’ 레시피</p>
+							<p class="txt">영양이 오동통, 굴전 레시피</p>
 						</a>
 					</div>
 				</div>

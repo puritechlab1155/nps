@@ -26,7 +26,7 @@
 			<div class="content">
 				<div class="title"><img src="img/sub01/sub01_01.svg"></div>
 				<div class="subcopy">
-					안녕하십니까? 국민연금 뉴스 진행을 맡은 앵커 Z입니다. 이제 곧 추석인데, 명절 준비는 잘 하고 계시나요? 올해 추석은 지난해보다 2주나 빨라 여름의 끝자락에 명절을 맞이하는 기분입니다. 고향을 찾거나 가족, 친척들을 빨리 만나볼 수 있다는 생각에 설레기도 하는데요. 추석 연휴에는 오랜만에 만난 소중한 사람들과 행복한 하루를 보내고 밤하늘에 뜬 보름달을 보며 가족의 안녕을 기원하시길 바랍니다. 풍성한 소식을 담은 국민연금 주요 뉴스 시작합니다.
+					안녕하십니까? 국민연금 뉴스 진행을 맡은 앵커 Z입니다. 2024년이 시작된 지 얼마 안 된 것 같은데, 어느새 한 해를 마무리하는 연말이 돌아왔습니다. 올해도 &lt;내 곁에 국민연금&gt;과 함께해 주신 구독자분들께 감사 말씀을 드리며 언제나 건강과 행운이 함께 하길 기원하겠습니다. 그럼 포근한 소식을 담은 국민연금 주요 뉴스 시작합니다.
 				</div>
 			</div>
 		</div>
@@ -46,9 +46,9 @@
 
 		<div class="news news01 on">
 			<div class="section04">
-				<img src="img/sub01/sub01_11.svg" class="pc_display_only">
-				<img src="img/sub01/sub01_11_tablet.jpg" class="tablet_display_only">
-				<img src="img/sub01/sub01_11_mo.svg" class="mobile_display_only">
+				<img src="img/sub01/news01-cover.jpg" class="pc_display">
+				<!-- <img src="img/sub01/sub01_11_tablet.jpg" class="tablet_display_only"> -->
+				<img src="img/sub01/news01-cover-mo.jpg" class="mobile_display">
 			</div><!-- //.section04 -->
 
 			<div class="section05 wow fadeBigInUp">
@@ -57,167 +57,79 @@
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
 							첫 번째 뉴스입니다. <br>
-							‘전 국민의 든든한 노후 보장! 노령, 장애, 사망에 대한 연금급여 지급!’하면 바로 떠오르실 텐데요. <br class="pc_display">
-							네, 바로 국민연금입니다. 국민연금 제도를 운영하는 국민연금공단이 37주년이 되었다고 합니다.<br>
-							자세한 소식 취재기자 M과 알아보겠습니다. M기자 국민연금공단을 소개해 주세요.
+							외국 국적 민원인분들께서 주목하실 만한 뉴스인데요. 국민연금공단이 공공기관 최초로 동시통역이 가능한 인공지능 사원 서비스를 11개 지사로 확대 운영한다는 소식입니다. <br>
+							자세한 소식 취재기자 M과 알아보겠습니다. M기자, 인공지능 사원에 대해 자세히 설명해 주세요.
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
-							<div class="text">국민연금공단은 국민의 노령, 장애, 사망에 대해 연금급여를 지급하여 국민의 생활 안정과 복지 증진에 이바지하기 위한 목적으로 1987년 9월 18일 설립되어, 올해로 창립 37주년을 맞이하게 되었습니다.</div>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+							<div class="text">
+								지난 11월 11일 국민연금공단 안산지사 민원실에서 ‘외국인도 국민연금에 가입해야 하냐?’는 질문에 베트남어로 설명하는 목소리가 들렸습니다. 주인공은 올해 1월 임용된 인공지능 사원 ‘국연아 주임’인데요. 영어, 중국어, 베트남어, 인도네시아어, 필리핀어, 일본어, 스페인어, 러시아어, 태국어, 스리랑카어 등 10개 국어 동시통역이 가능해 지난 6월부터 외국 국적 민원인이 많은 지역에 배치돼 업무하고 있습니다.
+							</div>
+							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
 						</div>
 						<div class="graph_area graph_area01">
-							<img src="img/sub01/sub01_12.jpg">
+							<img src="img/sub01/news01-01.jpg" class="pc_display">
+							<img src="img/sub01/news01-01-mo.jpg" class="mobile_display">
 						</div>
 					</div>
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							37주년! 어느덧 청년을 넘어 완숙한 중년을 바라보는 시간이 흘렀네요. 국민의 든든한 노후 보장, 말만 들어도 든든합니다. 그동안 국민연금공단의 발자취가 궁금한데요?
+						외국 국적 민원인분들께서 더욱 편리하게 상담하셨을 것 같습니다! 그동안 ‘국연아 주임’은 어떤 업무를 했는지 자세한 설명 부탁드립니다.
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								국민연금 제도 시행을 목적으로 설립된 만큼, 제도 확대부터 소개해 드리겠습니다. 1988년 1월 1일, 10인 이상 사업장을 대상으로 제도 시행 후 1995년 농어촌지역, 1999년 도시지역 확대 적용을 통해 마침내 전 국민 연금시대를 열었습니다. 2000년대에 들어오며 더욱 많은 변화가 있었는데요. 2008년 노후설계서비스, 2011년 장애인지원서비스, 2014년 기초연금 지원 사업 등 업무 영역을 확장하여 종합복지서비스제공 기관으로 발돋움하였습니다.
-								<br><br>
-								기관 운영 측면에서는 국민연금뿐만 아니라 사회보험제도 및 기금운용 관련 연구 수행을 위해 1995년 국민연금연구원 설치, 국민의 소중한 노후 재원인 국민연금기금을 보다 체계적이고 전문적으로 운용하기 위해 1999년 기금운용본부를 설치하였습니다. 2007년에는 국민의 입장에서 생각하고 보다 나은 서비스 제공을 위해 ‘국민연금관리공단’에서 현재 사용하고 있는 ‘국민연금공단’으로 명칭을 변경하였습니다. 그리고 2015년 6월, 공단 본부는 공공기관 지방 이전 계획에 따라 전주로 이전하였습니다. 장애심사를 위한 별도의 장애심사센터가 설치되어 있으며, 전국 112개 지사와 뉴욕, 런던, 싱가포르, 샌프란시스코 등 세계 금융시장 중심지 및 투자 거점지 4곳에는 해외사무소가 설치되어 있습니다.
+								네. ‘국연아 주임’은 화성오산 &middot; 평택안성 &middot; 안산 &middot; 김해밀양지사와 부산지역본부 민원실에서 다양한 외국 국적 민원인들을 만났는데요. 무인 안내기를 통해 질의하는 내 &middot; 외국인 문의에 성실히 답변하고, 국민연금공단 직원과 외국 국적 민원인 사이에서 동시통역 역할도 수행했습니다.
 							</div>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
-						</div>
-						<div class="graph_area graph_area01 graph_area03">
-							<img src="img/sub01/sub01_13.jpg" class="pc_display">
-							<img src="img/sub01/sub01_13_mo.jpg" class="mobile_display">
+							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
 						</div>
 					</div>
 
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							그렇군요. 국민연금공단의 다양한 발자취를 모아서 보니 감회가 새로운 느낌입니다. 제도 시행 이후 가입자, 수급자의 수치도 큰 변화가 있었을 것 같습니다.
+							임용 후 각종 업무를 수행한 만큼 다양한 데이터가 쌓였을 것 같습니다. ‘국연아 주임’에게 쌓인 데이터는 어떻게 활용 중인 가요?
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								네, 1988년 443만 명이던 가입자는 2024년 5월 말 기준 2,210만 명이 되었고, 연금 수급자는 687만 명을 돌파하였습니다. 국민연금공단은 전 국민에게 연금 혜택이 두루 미칠 수 있도록 노후 준비 취약 계층을 제도층으로 편입하는 노력과 저소득층 보험료 지원사업을 확대하여 시행하고 있습니다.
+								네. 지난 5개월간 수집한 데이터를 바탕으로 언어 능력을 고도화했다고 합니다. 이후 11월 서울북부지역본부, 영등포지사, 광명지사, 남인천지사(인천국제공항상담센터), 포항지사, 국제연금지원센터 등 국민연금공단 6개 지사에 추가 배치됐습니다. 
 							</div>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
 						</div>
 						<div class="graph_area graph_area01">
-							<img src="img/sub01/sub01_14.jpg" class="pc_display">
-							<img src="img/sub01/sub01_14_mo.jpg" class="mobile_display">
+							<img src="img/sub01/news01-02.jpg" class="pc_display">
+							<img src="img/sub01/news01-02-mo.jpg" class="mobile_display">
 						</div>
 					</div>
 
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
-						<div class="question">
-							국민연금기금이 세계 3대 연기금이라고 하는데요. 어떤가요?
+						<div class="question question-p">
+							앞으로 더 많은 지사에서 ‘국연아 주임’을 만날 수 있겠네요.
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								맞습니다. 2023년 말 기준 기금 적립금이 1,000조를 달성한 부분은 봄·여름호의 NPS뉴스를 통해 소개해 드렸는데요. 특히 2023년 한 해에만 기금 수익금 127조 원, 수익률 13.59%를 기록하며 기금운용본부 출범 이후 역대 최고 성과를 거두었습니다. 2024년 6월 말 기준 기금적립금 1,147조 원, 수익률은 9.71%를 기록하였습니다.
-								<br><br>
-								기금운용본부는 앞으로도 급변하는 운용환경에 대응하여 투자 다변화, 운용전략 고도화 등을 통해 수익 기반을 더욱 확충해 나갈 계획입니다.
+								네. 국민연금공단은 앞으로도 데이터를 꾸준히 수집해 인공지능 사원 ‘국연아 주임’ 서비스 품질을 향상하고, 활용 방안도 확대한다는 방침입니다. 또한, 국민연금공단 전국 지사에 ‘국연아 주임’을 배치하는 것도 검토할 계획입니다. 
 							</div>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
-						</div>
-						<div class="graph_area graph_area04">
-							<div class="inner inner01">
-								<a href="https://npswebzine.kr/html/vol199/sub01.php" target="_blank" class="a_orange">
-									<img src="img/sub01/sub01_15-1.svg">
-								</a>
-							</div>
-							<div class="inner_line"></div>
-							<div class="inner inner02">
-								<a href="https://npswebzine.kr/html/vol200/sub01.php" target="_blank" class="a_purple">
-									<img src="img/sub01/sub01_15-2.svg">
-								</a>
-							</div>
+							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
 						</div>
 					</div>
 
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							국민연금공단은 다양한 복지서비스사업도 진행하고 있는 것으로 알고 있는데요. 자세히 알 수 있을까요?
-						</div>
-					</div>
-					<div class="reporter">
-						<div class="answer">
-							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
-							<div class="text">
-								네 맞습니다. 공단은 가입, 급여관리 업무, 기금관리사업과 같은 제도의 집행업무 외에도 다양한 복지서비스사업을 실시해왔습니다. 현재 시행 중인 복지서비스사업에는 노후준비지원사업, 장애등록심사사업, 장애인활동지원사업, 기초연금지원사업 등이 있습니다.<br>
-								2008년 노후준비지원사업이 실시되었고 장애 관련 복지서비스사업이 2007년(장애등급심사사업), 2011년(장애인활동지원사업), 2012년(기초수급자 근로능력평가사업)에 걸쳐 차례로 도입되었습니다. 2014년부터는 기초연금 지원사업이 정착되었습니다.<br>
-								이처럼 복지사서비스사업은 공단의 핵심 업무 중 하나로 자리매김해가고 있습니다. 앞으로도 다양한 복지서비스사업을 포괄하는 종합복지서비스 기관으로의 역할을 더욱 공고히 할 계획입니다.
-							</div>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
-						</div>
-					</div>
-
-					<div class="anchor alignCenter">
-						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
-						<div class="question">
-								네, 잘 들었습니다. 앞으로도 다양한 복지사업분야에서 많은 역할을 하는 공단의 모습이 기대가 됩니다.<br>
-								인터넷과 디지털 환경의 변화도 이전과 많이 달라졌을 것 같은데요. 변화하는 디지털 환경 속에서 공단의 모습은 어떠한가요?
-						</div>
-					</div>
-					<div class="reporter">
-						<div class="answer">
-							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
-							<div class="text">
-								디지털 플랫폼·데이터 기반 행정 등 지능 정보를 활용한 일상생활이 보편화된 시대에 발맞춰 공단은 국민 눈높이에 맞춘 혁신 서비스 강화에도 노력을 기울이고 있습니다. 국민 불편을 경감하고 선제적으로 챙겨주는 사용자 중심의 비대면 서비스 개편(모바일 ‘MY알리미’, 전자문서 금융 채널 도입 등)을 추진하고, 공공기관 최초로 여러 매체를 거치지 않고 기관의 소식을 한눈에 볼 수 있는 SNS콘텐츠 플랫폼 ‘국민연금 온에어’ 사이트를 운영하고 있습니다. 여러분께서 보고 계신 웹진 ‘내 곁에 국민연금’도 인쇄 환경에서 벗어나 더 많은 분이 편리하게 보실 수 있도록 디지털화한 결과물입니다. 또, 다양한 연금 정보와 트렌디한 영상이 올라오는 국민연금 유튜브 채널과 인스타그램, 블로그도 운영하고 있으니 많은 관심 가져 주시면 좋겠습니다.
-							</div>
-							<ul class="sns_icons">
-								<li><a href="index.php" target="_blank"><img src="img/sub01/sub01_16.png"></a></li>
-								<li><a href="https://www.youtube.com/user/NaionalPensionServic" target="_blank"><img src="img/sub01/sub01_17.png"></a></li>
-								<li><a href="https://www.instagram.com/accounts/login/?next=/npstagram/" target="_blank"><img src="img/sub01/sub01_18.png"></a></li>
-							</ul>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
-						</div>
-					</div>
-
-					<div class="anchor alignCenter">
-						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
-						<div class="question">
-							창립 37주년을 맞이하여 앞으로의 포부도 궁금합니다.
-						</div>
-					</div>
-					<div class="reporter">
-						<div class="answer">
-							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
-							<div class="text s_text">
-								네, 국민연금공단은 아래와 같이 포부를 전해왔습니다.
-							</div>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
-						</div>
-						<div class="graph_area graph_area05">
-							<img src="img/sub01/sub01_19.svg" class="pc_display">
-							<img src="img/sub01/sub01_19_mo.svg" class="mobile_display">
-							<p>
-								국민연금공단은 지난 37년 국민여러분과 함께 힘차게 달려왔습니다. 앞으로도 국민여러분의 든든한 노후준비를 함께하는 기관으로 더욱 열심히 달리겠습니다.<br>
-								이를 위해, 국민 모두가 신뢰하는 ‘미래에도 지속 가능한 국민연금’을 위해 최선의 노력을 다하겠습니다. 가입자 확대 등 연금수급권을 강화하고, 소외계층의 연금보험료 부담을 줄이면서 가입 기회와 가입 기간을 늘릴 수 있도록 지원하여 국민 노후 소득 보장의 울타리를 더욱 튼튼히 하겠습니다.<br>
-								또한 성공적인 연금개혁을 위한 과정에서 공단이 할 수 있는 지원을 아끼지 않겠습니다. 국민연금을 올바르게 알리고, 개혁에 대한 사회적 공감대 형성을 위한 다방면의 대국민 소통 활동을 강화해 나가겠습니다.<br>
-								마지막으로 한계를 극복하는 끊임없는 혁신과 책임있는 자세로 국민 기대에 부응하는 공단이 되겠습니다.
-							</p>
-							<img src="img/sub01/sub01_110.svg" class="pc_display">
-							<img src="img/sub01/sub01_110_mo.svg" class="mobile_display">
-						</div>
-					</div>
-
-					<div class="anchor alignCenter">
-						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
-						<div class="question">
-							네, 창립 37주년을 맞이하여 국민연금공단의 역사를 함께 알아보는 시간을 가졌습니다. 국민연금공단의 37년 발자취는 국민 여러분이 공단을 믿고 함께해 주셨기에 가능했습니다. <br>
-							국민연금공단은 국민에게 신뢰받는 연금제도를 만들고 국민연금과 희망찬 미래를 준비할 수 있도록 앞으로도 임직원 모두 최선의 노력을 다하겠다고 밝혔습니다.
+							‘국연아 주임’의 활약을 기대해 보겠습니다! 국민연금공단 김태현 이사장은 “2014년 23만 명이었던 외국인 가입자 수가 10년 만에 46만 명으로 늘었고, 계속 늘어날 전망이다.”라며, “공단은 앞으로도 다양한 기술과 끊임없는 노력으로 외국인의 의무 이행과 권리 보장에 힘쓰겠다.”라고 인공지능 사원 ‘국연아 주임’ 서비스에 관한 포부를 전했습니다.
 						</div>
 					</div>
 				</div>

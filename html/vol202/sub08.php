@@ -56,7 +56,7 @@
 			<div class="content">
 				<div class="item_box">
 					<div class="item_title">겨울철 낙상예방 가이드</div>
-					<div class="item1">
+					<div class="item item1">
 						<div class="img_box"><img src="img/sub08/item1.svg"></div>
 						<div class="text_box">
 							<div class="bold">외출 시 가급적 장갑을 끼고, 손은 주머니에서 빼고 활동하기</div>
@@ -65,7 +65,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="item2">
+					<div class="item item2">
 						<div class="img_box"><img src="img/sub08/item2.svg"></div>
 						<div class="text_box">
 							<div class="bold">안전한 실내 환경 조성하기</div>
@@ -74,13 +74,79 @@
 							</p>
 						</div>
 					</div>
-					<div class="item3">
+					<div class="item item3">
 						<div class="img_box"><img src="img/sub08/item3.svg"></div>
 						<div class="text_box">
 							<div class="bold">규칙적으로 운동하기</div>
 							<p>
 								약해진 근력과 운동 신경을 강화하는 게 우선이다. 스트레칭을 생활화하고, 걷기나 가벼운 근력 운동을 꾸준히 병행하면서 몸의 균형 감각을 향상해야 한다. 아래는 집에서 할 수 있는 낙상 예방 운동법이다.
 							</p>
+							<ul>
+								<li>
+									<div class="card">
+										<div class="card-header">
+											<p>
+												양손 힘을 주어 5초 동안 주먹을 쥐었다 편다.
+											</p>
+										</div>
+										<div class="card-body">
+											<div class="card-img">
+												<img src="img/sub08/card-img01.svg">
+												<img class="up" src="img/sub08/card-img01-up.svg">
+												<img class="down" src="img/sub08/card-img01-down.svg">
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="card">
+										<div class="card-header">
+											<p>
+												양손을 양옆으로 벌리고 천천히 시계 방향과 반시계 방향으로 원을 그린다.
+											</p>
+										</div>
+										<div class="card-body">
+											<div class="card-img">
+												<img src="img/sub08/card-img02.svg">
+												<img class="left" src="img/sub08/card-img02-left.svg">
+												<img class="right" src="img/sub08/card-img02-right.svg">
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="card">
+										<div class="card-header">
+											<p>
+												양발을 모으고 선 상태로 무릎을 들었다 내린다.
+											</p>
+										</div>
+										<div class="card-body">
+											<div class="card-img">
+												<img src="img/sub08/card-img03.svg">
+												<img class="down" src="img/sub08/card-img03-down.svg">
+												<img class="up" src="img/sub08/card-img03-up.svg">
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="card">
+										<div class="card-header">
+											<p>
+												양발을 11자로 붙인 상태로 의자를 잡고 발뒤꿈치를 올렸다 내린다.
+											</p>
+										</div>
+										<div class="card-body">
+											<div class="card-img">
+												<img src="img/sub08/card-img04.svg">
+												<img class="up" src="img/sub08/card-img04-up.svg">
+												<img class="down" src="img/sub08/card-img04-down.svg">
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -89,34 +155,12 @@
 
 		<div class="section05 wow fadeBigInUp">
 			<div class="content">
-				<div class="subtitle">
-					유난히 울적한 기분이 든다면?<br>
-					계절성 우울증 예방법
-				</div>
-				<div class="type_explain">
-					<div class="types">
-						<div class="type1">
-							<div class="img_box"><img src="img/sub08/sub08_31.svg" class="hover-image"></div>
-							<span class="purple">햇빛 받고 기분 전환하기</span>
-							<p>
-								햇볕을 쬐는 것만으로도 금세 기분이 좋아질 수 있기 때문에 1~2시간 정도 외출 또는 운동을 추천한다. 운동은 스트레스 지수를 낮추고 에너지를 높여주며 정신적, 신체적 만족감을 준다. 또한 산소 섭취량을 늘려 주기 때문에 울적한 기분을 털어내는 데 도움을 준다. 야외 활동이 어렵다면, 실내조명을 높이고, 커튼을 열어 밝은 환경을 만드는 것도 좋다. 
-							</p>
-						</div>
-						<div class="type2">
-							<div class="img_box"><img src="img/sub08/sub08_32.svg" class="hover-image"></div>
-							<span class="blue">규칙적인 생활하기</span>
-							<p>
-								신체 리듬을 유지하는 것도 계절성 우울증을 예방하는 데 좋다. 정해진 시간마다 잠자리에 들고, 일정한 시간에 식사하고, 운동을 습관화하는 등 규칙적인 생활은 몸과 마음의 건강을 유지하는 데 필수 요건이다. 잠자리에서 스마트폰을 사용하지 않는 것도 규칙적인 생활에 도움을 준다.
-							</p>
-						</div>
-						<div class="type3">
-							<div class="img_box"><img src="img/sub08/sub08_33.svg" class="hover-image"></div>
-							<span class="green">균형 잡힌 식사하기</span>
-							<p>
-								비타민D와 엽산을 섭취한다. 비타민D와 엽산은 체내 대사량이 부족할 경우 우울증을 일으키기도 한다. 또한, 하루 8잔의 수분을 섭취해 몸의 신진대사를 활성화하는 것도 추천한다. 수면을 방해하는 술, 카페인은 물론 설탕은 섭취하지 않는 편이 좋다.
-							</p>
-						</div>
-					</div>
+				<div class="subtitle">겨울철 불청객, ‘심혈관 질환’</div>
+				<br class="pc_display">
+				<div class="text fadeBigInUp">
+					겨울철에 호흡이 불편하거나 가슴 통증을 느낀 경험이 있다면 심혈관 질환을 살펴볼 필요가 있다. 날씨가 갑자기 추워지면 혈관이 수축하면서 맥박이 빨라진다. 이로 인해 혈압이 상승하면서 심혈관 질환 발생 확률이 높아진다. 또한, 우리 몸은 겨울철 체온을 유지하려고 많은 지방을 축적한다. 그러나 육류, 고지방 유제품 등 포화지방과 트랜스 지방이 포함된 음식들을 과하게 섭취하면, 혈액 속에 콜레스테롤이 필요 이상으로 쌓여 혈액 순환을 방해하고 심혈관 질환 발생 위험을 높인다. <br>
+					대표적인 심혈관 질환은 심근경색과 뇌졸중이다. 심근경색은 심장 근육에 혈액을 공급하는 동맥이 갑자기 막히는 질환으로, 2시간 이내에 올바른 치료를 받지 못하면 사망에 이르기도 한다. 뇌졸중은 뇌에 혈액을 공급하는 혈관이 막히거나 터져서 신체장애가 나타나는 질환으로, 시간 이내에 올바른 처치를 하지 않으면 사망에 이를 수 있다. <br>
+					두 질환 모두 꾸준한 건강 관리를 통해 예방하는 게 우선이다. 먼저 가벼운 유산소 운동, 무산소 운동, 스트레칭을 지속적으로 실천하는 것을 추천한다. 만약, 이미 심혈관 질환이 있거나 일상생활이 어려울 정도로 운동 능력이 떨어진 경우라면 운동처방 전문가와 상담 후 안전한 운동 방법을 찾는 게 좋다. 식단 관리도 심혈관 질환을 예방하는 데 도움을 준다. 생선, 콩, 신선한 채소와 과일, 견과류 등을 섭취하고, 육류, 튀김, 단 음식은 피하는 게 좋다. 
 				</div>
 			</div>
 		</div><!-- //section05 -->
@@ -126,39 +170,29 @@
 				<div class="pc_display">
 					<div class="title_box fadeBigInUp">
 						<img src="img/sub08/sub08-item.png">
-						<div class="title">우울감을 해소해 주는 요가</div>
+						<div class="title">심혈관 질환 예방 관리 9대 수칙</div>
 						<img src="img/sub08/sub08-item.png" class="title_item2">
 					</div>
 				</div>
 				<div class="mobile_display">
 					<div class="title_box fadeBigInUp">
 						<img src="img/sub08/sub08-item.png">
-						<div class="title">우울감을 해소해 주는 요가</div>
+						<div class="title">심혈관 질환 예방 관리 9대 수칙</div>
 					</div>
 				</div>
-				<div class="items">
-					<div class="item item1 fadeBigInUp">
-						<div class="item_img"><img src="img/sub08/sub08_41.svg" class="hover-image"></div>
-						<span>삼각 자세</span>
-						<p>두 발을 1m 간격으로 벌리고 팔은 어깨와 일직선이 되도록 들어 올린다. 숨을 들이켜며 척추를 길게 늘리고, 숨을 내쉬며 오른쪽으로 팔과 몸을 기울인다.</p>
-					</div>
-					<div class="item item2 fadeBigInUp">
-						<div class="item_img"><img src="img/sub08/sub08_42.svg" class="hover-image"></div>
-						<span>낙타 자세</span>
-						<p>무릎을 꿇은 상태에서 엉덩이를 들어 올리고 양손을 발뒤꿈치에 짚는다. 골반과 가슴을 앞으로 밀면서 척추를 늘린다.</p>
-					</div>
-					<div class="item item3 fadeBigInUp">
-						<div class="pc_display"><div class="item_img"><img src="img/sub08/sub08_43.svg" class="hover-image"></div></div>
-						<div class="mobile_display"><div class="item_img"><img src="img/sub08/sub08_43_mo.svg" class="hover-image"></div></div>
-						<span>전사 자세</span>
-						<p>매트 위에 서서 등을 곧게 펴준 후 두 발을 벌리고 팔을 들어 올린다. 앞에 디딘 무릎이 90도가 되도록 굽히고 등을 곧게 편다.</p>
-					</div>
-					<div class="item item4 fadeBigInUp">
-						<div class="pc_display"><div class="item_img"><img src="img/sub08/sub08_44.svg" class="hover-image"></div></div>
-						<div class="mobile_display"><div class="item_img"><img src="img/sub08/sub08_44_mo.svg" class="hover-image"></div></div>
-						<span>머리 들어 올린 강아지 자세</span>
-						<p>매트 위에 배를 대고 지면을 누르면서 상체를 들어 올린다. 하늘을 바라본 후 10초간 자세를 유지한다.</p>
-					</div>
+				<div class="board">
+					<ul>
+						<li><img src="img/sub08/board-img01.svg"></li>
+						<li><img src="img/sub08/board-img02.svg"></li>
+						<li><img src="img/sub08/board-img03.svg"></li>
+						<li><img src="img/sub08/board-img04.svg"></li>
+						<li><img src="img/sub08/board-img05.svg"></li>
+						<li><img src="img/sub08/board-img06.svg"></li>
+						<li><img src="img/sub08/board-img07.svg"></li>
+						<li><img src="img/sub08/board-img08.svg"></li>
+						<li><img src="img/sub08/board-img09.svg"></li>
+					</ul>
+					<div class="caption">출처: 질병관리청</div>
 				</div>
 			</div>
 		</div>

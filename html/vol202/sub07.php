@@ -56,10 +56,18 @@
 				</div>
 			</div>
 		</div>
+		<script>
+			var swiper = new Swiper(".s3-swiper", {
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
+			});
+		</script>
 		<div class="mobile_display">
 			<div class="section03 wow fadeBigInUp">
 				<div class="content">
-					<div class="swiper s3-swiper">
+					<div class="swiper s3-swiper-mo">
 						<div class="swiper-wrapper">
 							<div class="swiper-slide"><img src="img/sub07/slide1_mo.svg"></div>
 							<div class="swiper-slide"><img src="img/sub07/slide2_mo.svg"></div>
@@ -69,16 +77,16 @@
 							<div class="swiper-slide"><img src="img/sub07/slide6_mo.svg"></div>
 						</div>
 					</div>
-					<div class="swiper-button-next"><img src="img/sub07/slide-next.svg"></div>
-					<div class="swiper-button-prev"><img src="img/sub07/slide-prev.svg"></div>
+					<div class="swiper-button-next swiper-button-next-mo"><img src="img/sub07/slide-next.svg"></div>
+					<div class="swiper-button-prev swiper-button-prev-mo"><img src="img/sub07/slide-prev.svg"></div>
 				</div>
 			</div>
 		</div>
 		<script>
-			var swiper = new Swiper(".s3-swiper", {
+			var swiper = new Swiper(".s3-swiper-mo", {
 				navigation: {
-					nextEl: ".swiper-button-next",
-					prevEl: ".swiper-button-prev",
+					nextEl: ".swiper-button-next-mo",
+					prevEl: ".swiper-button-prev-mo",
 				},
 			});
 		</script>

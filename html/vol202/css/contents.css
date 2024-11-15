@@ -818,6 +818,7 @@
 .sub05 .content .info_area .info_box { background: #fff; border: 2px solid #7245AB; padding-top: 40px; }
 .sub05 .content .info_area .info_box .info_title { text-align: center; margin: 0 auto 29px; width: 168px; height: 42px; background: #429FBD; border-radius: 50%; font-family: 'laundrygothic'; color: #fff; font-size: 18px; font-weight: 700; line-height: 32px; padding: 5px 0; }
 .sub05 .content .info_area .info_box .info_list { width: fit-content; margin: 0 auto; }
+.sub05 .content .info_area .info_box .info_list .info_loca { font-family: 'laundrygothic'; font-weight: 700; font-size: 15px; line-height: 32px; }
 .sub05 .content .info_area .info_box .info_list .list { color: #429FBD; font-family: 'laundrygothic'; font-size: 15px; font-weight: 400; line-height: 32px; display: flex; }
 .sub05 .content .info_area .info_box .info_list .list span { display: inline-block; position: relative; padding-right: 8px; margin-right: 8px; }
 .sub05 .content .info_area .info_box .info_list .list span::after { content: ''; position: absolute; top: 50%; transform: translateY(-50%); width: 0.5px; height: 50%; background-color: #429FBD; z-index: 0; right: 0; }

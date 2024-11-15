@@ -19,7 +19,7 @@ $menu_items = array(
     "/html/vol202/sub10.php" => "독자 목소리",
     "/html/vol202/sub11.php" => "빈칸 채우기",
     "/html/vol202/sub12.php" => "최고의 콘텐츠를 뽑아라!",
-	"/html/vol202/sub13.php" => "행운이 든 산타의 양말을 찾아라~!",
+	"/html/vol202/sub13.php" => "산타의 양말을 찾아라~!",
     "/html/vol202/sub14.php" => "연말 응원 이벤트"
 );
 

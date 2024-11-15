@@ -47,7 +47,7 @@ gsap.fromTo(".title_interview",
             start: "top 10%", // 트리거가 시작되는 위치 (요소의 상단과 뷰포트의 80% 지점)
             end: "bottom 5%", // 트리거가 끝나는 위치
             toggleActions: "play none none none", // 스크롤 시 애니메이션 동작 (재생, 역방향 재생, 정지, 정지)
-            markers: true // 디버깅을 위한 마커 표시 (개발 시 유용)
+            markers: false // 디버깅을 위한 마커 표시 (개발 시 유용)
         }
     }
 );

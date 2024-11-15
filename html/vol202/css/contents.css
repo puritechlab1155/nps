@@ -937,6 +937,7 @@
 	.sub05 .content .info_area .info_box { padding-top: 32px; padding-left: 2%; }
 	.sub05 .content .info_area .info_box .info_title { margin: 0 auto 18px; width: 170px; padding: 5px 0 4px; }
 	.sub05 .content .info_area .info_box .info_list { max-width: 279px; width: 100%; margin: 0 auto; }
+	.sub05 .content .info_area .info_box .info_list .info_loca { line-height: 21px; }
 	.sub05 .content .info_area .info_box .info_list .list { display: flex; align-items: center; font-size: 15px; padding-top: 4px; }
 	.sub05 .content .info_area .info_box .info_list .list:nth-child(1) { padding-top: 0; }
 	.sub05 .content .info_area .info_box .info_list .list span { width: 29%; }

@@ -57,15 +57,16 @@
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
 							첫 번째 뉴스입니다. <br>
-							외국 국적 민원인분들께서 주목하실 만한 뉴스인데요. 국민연금공단이 공공기관 최초로 동시통역이 가능한 인공지능 사원 서비스를 11개 지사로 확대 운영한다는 소식입니다. <br>
-							자세한 소식 취재기자 M과 알아보겠습니다. M기자, 인공지능 사원에 대해 자세히 설명해 주세요.
+							외국 국적 민원인분들께서 주목하실 만한 뉴스입니다. 국민연금공단은 공공기관 최초로 동시통역이 가능한 인공지능(AI) 사원 서비스를 지난 6월부터 5개 지사에서 시범운영 해왔는데요. 11월부터는 11개 지사로 확대 운영한다는 소식입니다. <br>
+							자세한 소식 취재기자 M과 함께 알아보겠습니다. M기자, 인공지능(AI) 사원 ‘국연아 주임’에 대해 자세히 설명해 주세요.
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								지난 11월 11일 국민연금공단 안산지사 민원실에서 ‘외국인도 국민연금에 가입해야 하냐?’는 질문에 베트남어로 설명하는 목소리가 들렸습니다. 주인공은 올해 1월 임용된 인공지능 사원 ‘국연아 주임’인데요. 영어, 중국어, 베트남어, 인도네시아어, 필리핀어, 일본어, 스페인어, 러시아어, 태국어, 스리랑카어 등 10개 국어 동시통역이 가능해 지난 6월부터 외국 국적 민원인이 많은 지역에 배치돼 업무하고 있습니다.
+								지난 11월 11일 국민연금공단 안산지사 민원실에서 ‘외국인도 국민연금에 가입해야 하냐?’는 질문에 베트남어로 설명하는 목소리가 들렸습니다. 그 주인공은 올해 1월 임용된 국민연금 인공지능(AI) 사원 ‘국연아 주임’입니다.<br>
+								‘국연아 주임’은 영어, 중국어, 베트남어, 인도네시아어, 필리핀어, 일본어, 스페인어, 러시아어, 태국어, 스리랑카어 등 10개 국어의 동시통역이 가능한 인공지능(AI) 사원입니다. 지난 6월부터 외국 국적 민원인이 많은 지역인 화성오산·평택안성·안산·김해밀양지사와 부산지역본부 민원실에서 활약하고 있습니다.
 							</div>
 							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
 						</div>
@@ -77,14 +78,14 @@
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-						외국 국적 민원인분들께서 더욱 편리하게 상담하셨을 것 같습니다! 그동안 ‘국연아 주임’은 어떤 업무를 했는지 자세한 설명 부탁드립니다.
+							그렇군요. ‘국연아 주임’은 어떤 역할을 하고 있나요?
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								네. ‘국연아 주임’은 화성오산 &middot; 평택안성 &middot; 안산 &middot; 김해밀양지사와 부산지역본부 민원실에서 다양한 외국 국적 민원인들을 만났는데요. 무인 안내기를 통해 질의하는 내 &middot; 외국인 문의에 성실히 답변하고, 국민연금공단 직원과 외국 국적 민원인 사이에서 동시통역 역할도 수행했습니다.
+								‘국연아 주임’은 무인 안내기를 통해 질의하는 외국인 문의에 답변하고, 국민연금공단 직원과 외국 국적 민원인 사이에서 동시통역 역할을 수행하고 있습니다. 언어의 장벽으로 상담에 어려움을 겪었던 외국인에게 도움을 주는 서비스라고 할 수 있습니다.
 							</div>
 							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
 						</div>
@@ -93,14 +94,14 @@
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							임용 후 각종 업무를 수행한 만큼 다양한 데이터가 쌓였을 것 같습니다. ‘국연아 주임’에게 쌓인 데이터는 어떻게 활용 중인 가요?
+							정말 많은 도움이 될 것 같습니다. 인공지능(AI) 사원 ‘국연아 주임’을 잘 활용하면 앞으로의 기대효과도 상당할 것으로 보이는데요.
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								네. 지난 5개월간 수집한 데이터를 바탕으로 언어 능력을 고도화했다고 합니다. 이후 11월 서울북부지역본부, 영등포지사, 광명지사, 남인천지사(인천국제공항상담센터), 포항지사, 국제연금지원센터 등 국민연금공단 6개 지사에 추가 배치됐습니다. 
+								네, 맞습니다. 외국인 입장에서는 한국어가 서툴더라도 편하게 지사에 방문하여 상담을 받을 수 있습니다. 직원 입장에서는 원활한 의사소통을 통해 착오 처리에 대한 부담이 줄어드는 장점이 있습니다. 궁극적으로는 연금 서비스 취약계층의 진입장벽을 제거함으로써 누구에게나 평등한 국민연금 정보를 제공하는 기대효과를 얻을 수 있겠습니다.
 							</div>
 							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
 						</div>
@@ -113,14 +114,30 @@
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question question-p">
+							네 그렇군요, 인공지능(AI) 사원 ‘국연아 주임’이 11월 이후 추가 배치 되었다고 하는데, 어디에서 만나볼 수 있나요?
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer answer-p">
+							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								서울북부지역본부, 영등포지사, 광명지사, 남인천지사(인천국제공항상담센터), 포항지사, 국제연금지원센터 등 국민연금공단 6개 지사에 추가 배치됐습니다.
+							</div>
+							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
+						</div>
+					</div>
+
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question question-p">
 							앞으로 더 많은 지사에서 ‘국연아 주임’을 만날 수 있겠네요.
 						</div>
 					</div>
 					<div class="reporter">
-						<div class="answer">
+						<div class="answer answer-p">
 							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								네. 국민연금공단은 앞으로도 데이터를 꾸준히 수집해 인공지능 사원 ‘국연아 주임’ 서비스 품질을 향상하고, 활용 방안도 확대한다는 방침입니다. 또한, 국민연금공단 전국 지사에 ‘국연아 주임’을 배치하는 것도 검토할 계획입니다. 
+								네. 국민연금공단은 앞으로도 데이터를 꾸준히 수집해 인공지능(AI) 사원 ‘국연아 주임’ 서비스의 품질을 향상하고, 활용 방안을 확대한다는 방침입니다. 또한, 국민연금공단 전국 지사에 인공지능(AI) 사원 ‘국연아 주임’을 배치하는 것도 검토할 계획입니다. 
 							</div>
 							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
 						</div>
@@ -129,7 +146,7 @@
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							‘국연아 주임’의 활약을 기대해 보겠습니다! 국민연금공단 김태현 이사장은 “2014년 23만 명이었던 외국인 가입자 수가 10년 만에 46만 명으로 늘었고, 계속 늘어날 전망이다.”라며, “공단은 앞으로도 다양한 기술과 끊임없는 노력으로 외국인의 의무 이행과 권리 보장에 힘쓰겠다.”라고 인공지능 사원 ‘국연아 주임’ 서비스에 관한 포부를 전했습니다.
+							‘국연아 주임’의 활약을 기대해 보겠습니다! 국민연금공단 김태현 이사장은 “2014년 23만 명이었던 외국인 가입자 수가 10년 만에 46만 명으로 늘었고, 계속 늘어날 전망이다.”라며, “공단은 앞으로도 다양한 기술과 끊임없는 노력으로 외국인의 의무 이행과 권리 보장에 힘쓰겠다.”라고 인공지능(AI) 사원 ‘국연아 주임’ 서비스에 관한 포부를 전했습니다.
 						</div>
 					</div>
 				</div>

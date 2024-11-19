@@ -138,73 +138,105 @@
 
 		<div class="news news02">
 			<div class="section04">
-				<img src="img/sub01/sub01_21-2.svg" class="pc_display_only">
-				<img src="img/sub01/sub01_21_tablet-2.jpg" class="tablet_display_only">
-				<img src="img/sub01/sub01_21_mo.svg" class="mobile_display_only">
+				<img src="img/sub01/news02-cover.jpg" class="pc_display">
+				<img src="img/sub01/news02-cover-mo.jpg" class="mobile_display">
 			</div><!-- //.section04 -->
 
 			<div class="section05 wow fadeBigInUp">
 				<div class="content">
-					<div class="anchor moSmall alignCenter">
+					<div class="anchor moSmall">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
-						<div class="question">
-							가을호 두 번째 뉴스는 지난 9월 4일 발표된 연금개혁안에 대한 소식입니다. 정부가 이번 발표를 통해 연금개혁 논의에 본격적인 시동을 건 것으로 보이는데요. 관련 내용 취재기자 M과 함께 알아보겠습니다.
+						<div class="question question-flex">
+							<div class="text">
+								두 번째 뉴스입니다. <br>
+								국민연금공단에 희소식이 날아들었는데요! 국민연금공단이 지난 11월 6일 제36회 통계작성기관 워크숍에서 ‘국가통계 통합DB 자료관리’ 우수기관으로 선정돼 통계청창 표창을 받았습니다. 관련 내용 취재기자 M과 함께 알아보겠습니다. M기자 ‘국가통계 통합DB 자료관리’란 무엇인가요?
+							</div>
+							<div class="img_box"><img src="img/sub01/news02-01.jpg"></div>
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								네, 보건복지부는 지난 9월 4일, 2024년 제3차 국민연금심의위원회를 개최해 「연금개혁 추진계획」을 심의하고 확정하였다고 밝혔습니다. 복지부는 지난해 10월 「제5차 국민연금 종합운영계획」을 통해 연금개혁 방향성을 제시하고, 21대 국회 산하 연금개혁특별위원회는 이를 토대로 공론화를 실시하여 국민 의견을 수렴하였는데요. <br>
-								복지부는 연금개혁이 매우 시급한 과제인 만큼 개혁 논의의 계기를 마련하고, 여·야 간 조속한 합의를 견인하기 위해 개혁안을 마련하였다면서, 이번 연금개혁 추진계획은 새로운 재정 전망, 공론화 등에서 나타난 국민 의견을 세밀하게 검토하여 수립했다고 덧붙였습니다.
+								네, ‘국가통계 통합DB’는 중앙행정기관(통계청 제외), 지방자치단체, 통계청장의 승인을 받은 금융·공사 및 공단·연구기관·협회·조합 등 통계작성기관이 자체적으로 통계자료를 한 곳에 입력하고 관리하는 시스템입니다. 통계청은 ‘국가통계 통합DB 자료관리’에 대한 국민의 관심도를 높이고 적정한 관리를 위해 매년 통계작성기관의 자료실적을 평가해 우수기관을 선정하고 있습니다.
 							</div>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
 						</div>
 					</div>
 
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							그렇군요. 정부 발표 연금개혁안의 추진 방향은 어떻게 되나요?
+							그렇군요. 우수기관을 선정하는 기준은 어떻게 되나요?
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								네, 정부에서는 ‘모수개혁, 기금수익률 제고로 장기 재정 안정성 확보’, ‘세대별 보험료율 인상 속도 차등, 지급보장 명확화 등 미래세대 신뢰 강화’, ‘국민·기초·퇴직·개인연금 등 다층 연금체계 내실화로 실질소득 제고’라고 밝혔습니다.
+								네, 시의성과 정확성 등을 기준으로 평가하는데요. 이번에 수상한 국민연금공단은 국민들에게 정확한 통계정보를 신속하게 제공할 뿐만 아니라 노후소득보장 대책 수립을 위한 기초자료 수집에도 기여해 우수기관으로 선정됐습니다.
 							</div>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
 						</div>
 					</div>
 
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							정부안을 발표한 보건복지부의 최종 목표는 무엇인가요?
+							그렇다면 국민연금공단이 통계청에 제공하는 자료는 무엇인가요?
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								네, 직접 정부안을 발표한 조규홍 보건복지부 장관은 “정부가 마련한 개혁안의 핵심은 모든 세대가 제도의 혜택을 공평하게 누릴 수 있도록 지속가능성을 높이는 것”이라면서, “세대 간 형성을 제고하고 국민들의 노후생활을 더욱 든든히 보장하기 위한 방안들도 세밀하게 검토해 마련했다”라고 말했고, 아울러, “이번 개혁안이 연금개혁 논의를 다시금 촉발하는 계기가 되길 희망하며, 국회가 조속히 연금특위, 여·야·정 협의체 등 논의구조를 통해 개혁을 마무리할 수 있길 기대한다”라고 덧붙였습니다.
+								네, 국민연금공단은 ‘국민연금통계’와 ‘국민노후보장패널조사’를 국가승인통계로 관리하고 있고, 이를 국가 통계포털(KOSIS)에게 제공하고 있습니다. ‘국민연금통계’는 가입종별·지역별·성별 등 109종 유형에 해당하는 가입자 및 수급자 현황은 물론, 2011년 이후 건강보험공단으로 이관돼 통계 수록이 중단됐던 징수현황도 작년부터 ‘국민연금통계’에 복원해 통계정보의 변동 내용을 신속하게 반영하고 있습니다. 또한 이용자의 정확한 통계 해석을 위해 지속해서 제공 항목을 개선하고 있으며, 국민연금 빅데이터 포털에서 ‘국민연금통계’ 수치를 시각화해 이용자가 분석 정보를 쉽게 이해할 수 있도록 제공하고 있습니다.
 							</div>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
+							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
 						</div>
 					</div>
 
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question text_left">
-							연금개혁은 시급하고도 중요한 과제임이 분명합니다. 국회 논의, 사회적 합의 등을 통해 앞으로 보험료를 내야 할 젊은 세대는 물론 전 세대가 공감하는 연금개혁이 이루어지기를 기대하겠습니다.
+							그렇군요. 국민연금연구원도 기초자료를 수집하는 데 도움을 주었다고 하는데, 어떤 자료를 수집하고 있나요?
 						</div>
 					</div>
 					<div class="reporter">
-						<div class="answer pad_0">
-							<img src="img/sub01/sub01_22.jpg">
-							<img src="img/sub01/sub01_23.jpg">
-							<img src="img/sub01/sub01_24.jpg">
+						<div class="answer">
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								국민연금연구원은 가계경제, 경제활동상태, 사회보장 적용실태 등 재무·비재무적 영역을 포괄하는 ‘국민노후보장패널조사’를 실시하고 2년마다 그 결과를 공개하고 있는데요. 우리나라 중·고령층 노후준비실태 및 노후생활을 지속적으로 파악해 노후소득보장과 관련된 정책의 기초자료를 수집하는 데 도움을 주고 있습니다.
+							</div>
+							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
+						</div>
+					</div>
+
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question text_left">
+							자세한 소식 감사합니다. <br>
+							국민연금은 이외에도 다양한 자료를 수집하는데 기여하고 있습니다. 1988년 제1호 통계연보를 시작으로 제36호 통계연보까지 국민연금 가입자, 수급자는 물론 기금 전반에 대한 현황을 공표해 사회복지정책 수립에 대한 기여도를 인정받기도 했습니다.
+						</div>
+					</div>
+
+					<div class="news02_bottom">
+						<div class="cont_box">
+							<div class="text_box">
+								<p class="pc_display">
+									김태현 이사장은 <br>
+									<span>“국민연금 통계자료는 초고령사회로 진입속도가 빠른 대한민국의 <br>
+									노후소득보장 실태 등을 파악하는데 소중한 공적자료”</span>라며<br>
+									<span>“앞으로도 양질의 통계자료를 제공하기 위해 더욱 노력하겠다”</span><br>
+									라고 전하였습니다.
+								</p>
+								<p class="mobile_display">
+									김태현 이사장은 <br>
+									<span>“국민연금 통계자료는 초고령사회로 진입속도가 빠른 대한민국의 노후소득보장 실태 등을 파악하는데 소중한 공적자료”</span>라며 <span>“앞으로도 양질의 통계자료를 제공하기 위해 더욱 노력하겠다”</span><br>
+									라고 전하였습니다.
+								</p>
+							</div>
+							<div class="img_box"><img src="img/sub01/news02-bottom-obj.svg"></div>
 						</div>
 					</div>
 				</div>

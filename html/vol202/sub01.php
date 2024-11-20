@@ -47,7 +47,6 @@
 		<div class="news news01 on">
 			<div class="section04">
 				<img src="img/sub01/news01-cover.jpg" class="pc_display">
-				<!-- <img src="img/sub01/sub01_11_tablet.jpg" class="tablet_display_only"> -->
 				<img src="img/sub01/news01-cover-mo.jpg" class="mobile_display">
 			</div><!-- //.section04 -->
 

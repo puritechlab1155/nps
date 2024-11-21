@@ -37,8 +37,8 @@
 					<div class="tabs">
 						<div class="tab01 on">News 1</div>
 						<div class="tab02">News 2</div>
-						<div class="tab03">News 3</div>
-						<div class="tab04">News 4</div>
+						<!-- <div class="tab03">News 3</div>
+						<div class="tab04">News 4</div> -->
 					</div>
 				</div>
 			</div><!-- //.section03 -->

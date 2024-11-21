@@ -215,7 +215,7 @@
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question text_left">
-							그렇군요. 국민연금연구원도 기초자료를 수집하는 데 도움을 주었다고 하는데, 어떤 자료를 수집하고 있나요?
+							그렇군요. 국민연금연구원도 기초자료를 수집하는 데 도움을 주었다고 들었습니다.
 						</div>
 					</div>
 					<div class="reporter">

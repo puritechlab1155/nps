@@ -168,7 +168,7 @@
 						<div class="info_list">
 							<div class="info_loca">DMZ박물관</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>강원 고성군 현내면 통일전망대로 369</em></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>하절기 09:00~18:00, 동절기 09:00~17:00</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>하절기 09:00~18:00, 동절기 09:00~17:00 (월요일 휴무)</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-681-0625</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span><em>무료</em></div>
 						</div>
@@ -393,8 +393,8 @@
 						<div class="info_title">INFO</div>
 						<div class="info_list">
 							<div class="info_loca">바우지움조각미술관</div>
-							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>강원 고성군 토성면 원암온천길 3길 37</em></div>
-							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>하절기 09:00~18:00, <br class="mobile_display">동절기 09:00~17:30</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon2.svg">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</span><em>강원 고성군 토성면 원암온천3길 37</em></div>
+							<div class="list"><span><img src="img/sub05/sub05_icon4.svg">운영시간</span><em>하절기 09:00~18:00, <br class="mobile_display">동절기 09:00~17:30 (월요일 휴무)</em></div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-632-6632</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon5.svg">이용요금</span>성인 9천 원</div>
 						</div>
@@ -554,7 +554,7 @@
 							<div class="list">
 								<span><img src="img/sub05/sub05_icon4.svg">운영시간</span>
 								<em>
-									하절기 09:00~18:00, <br class="mobile_display">동절기 09:00~17:00
+									하절기 09:00~18:00, <br class="mobile_display">동절기 09:00~17:00 (월요일 휴무)
 								</em>
 							</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-639-2974</div>
@@ -624,7 +624,7 @@
 							<div class="list">
 								<span><img src="img/sub05/sub05_icon4.svg">운영시간</span>
 								<em>
-									하절기 09:00~18:00, <br class="mobile_display">동절기 09:00~17:00
+									하절기 09:00~18:00, <br class="mobile_display">동절기 09:00~17:00 (월요일 휴무)
 								</em>
 							</div>
 							<div class="list"><span><img src="img/sub05/sub05_icon3.svg">전화번호</span>033-638-4459</div>

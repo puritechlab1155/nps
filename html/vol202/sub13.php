@@ -300,10 +300,11 @@ $event_close = true; // 이벤트 종료 선언
 
 		$('.popUp').hide();
 
-		$('.draw div').click(function(){
+		$('.item_box div').click(function(){
 			var event_close = <?php echo json_encode($event_close); ?>;
     var reward = <?php echo json_encode($reward); ?>;
     console.log(event_close);
+    console.log(reward);
 
     if (!event_close && reward) {
         $('.result_modal01').show();

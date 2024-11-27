@@ -1,7 +1,7 @@
 <?php
 include_once("config.php");
 
-//변수
+//변수 vol 200
 $max_count = 100; //최대 당첨자 수
 $event_close = false; 
 $vote = false;

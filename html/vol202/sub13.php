@@ -46,7 +46,7 @@ if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
 	//$reward = (($all_count + 1) % 20 == 0);
 } 
 
-//$reward = ($random_number <= 50); //count 방식을 변경해야 겠음.
+$reward = ($random_number <= 50); //count 방식을 변경해야 겠음.
 
 $my_regno = mysqli_num_rows($result); //내가 투표한지 여부
 if($my_regno > 0) {
@@ -54,7 +54,7 @@ if($my_regno > 0) {
 	$event_close = true;
 	$reward = false;
 }
-$event_close = true; // 이벤트 종료 선언
+//$event_close = true; // 이벤트 종료 선언
 
 #echo '내가 투표한지 여부:' . $voteName . ' 총 응모자 수:' . $all_count . ' 현재 당첨자 수:' . $current_count;
 

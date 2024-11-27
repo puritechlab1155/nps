@@ -325,10 +325,15 @@ if($my_regno > 0) {
         $('.result_modal04').show();  // This block should also show result_modal04 if none of the above conditions match
     }
 		});
+        
 	$('.result_modal01 .button').click(function(){
 			$('.result_modal01').hide();
 			$('.result_modal02').show();
 			$('.result_modal03').hide();
+		});
+
+    $('.result_modal05 .button').click(function(){
+			$('.result_modal05').hide();
 		});
 	$('.result_modal02 .submit_btn').click(function(event) {
     event.preventDefault();

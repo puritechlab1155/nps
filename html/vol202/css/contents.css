@@ -370,6 +370,7 @@
 .sub01 .news01 .section05 .content .reporter .s_text { padding-bottom: 57px; }
 .sub01 .news01 .section05 .content .reporter div.graph_area05 { background: #ffdab5; }
 .sub01 .news01 .section05 .content .reporter div.graph_area05 p { color: #444448; font-family: 'laundrygothic'; font-size: 18px; font-weight: 400; line-height: 32px; letter-spacing: -0.36px; margin: 6px 0; }
+.sub01 .news01 .section05 .content .reporter .graph_area .text { font-weight: 400; font-size: 18px; line-height: 32px; letter-spacing: -0.02em; }
 .sub01 .news01 .section05 .content .interview-box { width: 100%; }
 .sub01 .news01 .section05 .content .interview-box img { width: 100%; }
 
@@ -502,11 +503,17 @@
 
 	.sub01 .section05 .content .reporter .graph_area { padding: 36px; background-color: #e5e8e8; opacity: 1; background-image:  linear-gradient(#ffffff 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(to right, #ffffff 1.2000000000000002px, #e5e8e8 1.2000000000000002px); background-size: 24px 24px; }
 	.sub01 .section05 .content .reporter .none_pad { padding: 0; }
+	.sub01 .section05 .content .reporter .graph_area .cap-text { font-size: 15px; line-height: 26px; }
 
 	.sub01 .news01 .section05 .content .reporter div.graph_area04 { flex-direction: column; gap: 20px; }
 	.sub01 .news01 .section05 .content .reporter div.graph_area04 .inner_line { display: none; }
 	.sub01 .news01 .section05 .content .reporter .s_text { padding-bottom: 0; }
 	.sub01 .news01 .section05 .content .reporter .graph_area03 img { width: 100%; }
+	.sub01 .news01 .section05 .content .reporter .graph_area .text { font-size: 16px; line-height: 28px; }
+
+	.sub01 .news01 .section05 .content .bottom-area .exp-list { margin: 18px auto 60px; padding: 26px 0 10px; }
+	.sub01 .news01 .section05 .content .bottom-area .exp-list li { flex-direction: column; align-items: flex-start; gap: 0; }
+	.sub01 .news01 .section05 .content .bottom-area .exp-list li .right p { font-size: 16px; line-height: 27px; }
 
 	.sub01 .news02 .section05 .content .reporter .graph_area .text_box .text { font-size: 16px; line-height: 28px; letter-spacing: -0.32px; margin-top: 8px; }
 	.sub01 .news02 .section05 .content .reporter .graph_area .text_box .text:nth-child(1) { margin-top: 0; }

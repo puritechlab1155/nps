@@ -9,7 +9,6 @@ $random_number = mt_rand(1, 100);
 
 //데이터 불러오기
 $vol_idx = mysqli_real_escape_string($connect, $vol_idx);
-
 //쿼리
 $query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx}";
 $result = mysqli_query($connect, $query);
@@ -29,6 +28,7 @@ if (!$result) {
 }
 
 $current_count = mysqli_num_rows($result); //현재 당첨자 수
+
 $my_query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `ip`='{$current_ip}' AND `device`='{$current_device}'";
 $result = mysqli_query($connect, $my_query);
 
@@ -39,20 +39,24 @@ if (!$result) {
 if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
 	$event_close = true; // 이벤트 종료 선언
 } else {
-	$reward = (($all_count + 1) % 20 == 0);
+	$reward = true;
+    //$reward = ($random_number <= 100);
+	//$reward = (($all_count + 1) % 20 == 0);
 } 
 
-$reward = ($random_number <= 50); //count 방식을 변경해야 겠음.
-
-echo 'reward:' . $reward;
+//$reward = ($random_number <= 50); //count 방식을 변경해야 겠음.
 
 $my_regno = mysqli_num_rows($result); //내가 투표한지 여부
-
 if($my_regno > 0) {
 	$vote = true;
 	$event_close = true;
 	$reward = false;
 }
+$event_close = true; // 이벤트 종료 선언
+
+#echo '내가 투표한지 여부:' . $voteName . ' 총 응모자 수:' . $all_count . ' 현재 당첨자 수:' . $current_count;
+
+
 
 ?>
 <!doctype html>
@@ -137,8 +141,6 @@ if($my_regno > 0) {
 						<div class="main_title"><img src="img/sub13/sub13_01-title.svg"></div>
 						<div class="text1">덥다 더워~ 행운 잡고,<br> 무더위 날리자~</div>
 						<div class="text2">
-							<?php 
-								echo '내가 투표한지 여부:' . $vote . $current_count . '내 결과:' . $reward . ' 총 응모자 수:' . $all_count . ' 현재 당첨자 수:'; ?>
 							내곁에 국민연금을 방문해 주신 구독자 여러분께 <br>
 							감사의 마음을 담아 뽑기 이벤트를 준비했습니다. <br>
 							이벤트 기간 내 뽑기를 해 주신 구독자님들 중 100분께 경품을 드립니다.
@@ -497,7 +499,7 @@ function boom_submit() {
         "agree": 1
     };
 
-		$.ajax({
+			$.ajax({
 				type: "POST",
 				url: 'ajax.php',
 				timeout: 0,
@@ -526,6 +528,7 @@ function boom_submit() {
 				}
 			});
 
+		
 }
 
 // 현재 날짜와 비교하여 send와 end 클래스를 제어하는 함수

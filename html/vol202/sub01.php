@@ -26,7 +26,7 @@
 			<div class="content">
 				<div class="title"><img src="img/sub01/sub01_01.svg"></div>
 				<div class="subcopy">
-					안녕하십니까? 국민연금 뉴스 진행을 맡은 앵커 Z입니다. 2024년이 시작된 지 얼마 안 된 것 같은데, 어느새 한 해를 마무리하는 연말이 돌아왔습니다. 올해도 &lt;내 곁에 국민연금&gt;과 함께해 주신 구독자분들께 감사 말씀을 드리며 언제나 건강과 행운이 함께 하길 기원하겠습니다. 그럼 포근한 소식을 담은 국민연금 주요 뉴스 시작합니다.
+					안녕하십니까? 국민연금 뉴스 진행을 맡은 앵커 Z입니다. 2024년이 시작된 지 얼마 안 된 것 같은데, 어느새 한 해를 마무리하는 연말이 다가왔습니다. 올해도 &lt;내 곁에 국민연금&gt;과 함께해 주신 구독자분들께 감사 말씀을 드리며 언제나 건강과 행운이 함께 하길 기원하겠습니다. 그럼 포근한 소식을 담은 국민연금 주요 뉴스 시작합니다.
 				</div>
 			</div>
 		</div>
@@ -332,52 +332,6 @@
 	<!-- contents -->
 
 		<script>
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     // 모든 탭 요소와 섹션 요소 선택
-//     const tabs = document.querySelectorAll('.tabs div');
-//     const sections = document.querySelectorAll('.news');
-
-	
-
-//     tabs.forEach(function(tab, index) {
-//         tab.addEventListener('click', function() {
-
-
-// 			// 섹션을 화면에 보이게 설정 (클릭 즉시 보이도록)
-// 			sections[index].style.display = 'block';  // 해당 섹션을 보이게 설정
-
-//             // 현재 클릭된 탭에 'on' 클래스를 추가하고, 다른 탭에서는 제거
-//             tabs.forEach(t => t.classList.remove('on'));
-//             tab.classList.add('on');
-
-//             // 클릭된 탭에 해당하는 뉴스 섹션을 보이고, 다른 섹션은 숨기기
-//             sections.forEach(section => section.classList.remove('on'));
-//             sections[index].classList.add('on');
-
-//             // 모바일과 데스크탑에 따라 다른 스크롤 위치 설정
-//             const isMobile = window.innerWidth <= 768;  // 768px 이하를 모바일로 간주
-//             let offsetTop;
-
-//             if (isMobile) {
-//                 // 모바일일 때: 다른 스크롤 여백을 설정 (예: 50px)
-//                 offsetTop = sections[index].offsetTop - 50;
-//             } else {
-//                 // 데스크탑일 때: 100px 여백
-//                 offsetTop = sections[index].offsetTop - 100;
-//             }
-
-			
-
-//             // 해당 섹션으로 부드럽게 스크롤 이동
-//             window.scrollTo({
-//                 top: offsetTop,
-//                 behavior: 'smooth' // 부드러운 스크롤
-//             });
-
-//         });
-//     });
-// });
 
 
 document.addEventListener('DOMContentLoaded', function() {

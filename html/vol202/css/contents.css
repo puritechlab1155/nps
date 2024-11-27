@@ -634,7 +634,7 @@
 .sub02 .content .subtitle { color: #627A3E; font-family: 'laundrygothic'; font-size: 23px; font-weight: 700; line-height: 32px; text-align: left; }
 .sub02 .content .text { font-size: 18px; font-weight: 400; letter-spacing: -0.02em; line-height: 32px; }
 
-.sub02 .section01 { height: 550px; width: 100%;  background: url('../img/sub02/sub02_00.jpg') no-repeat; background-size: cover; background-position: center; background-repeat: no-repeat; display: flex; justify-content: center; align-items: flex-end; }
+.sub02 .section01 { height: 550px; width: 100%;  background: url('../img/sub02/sub02_00.jpg') no-repeat; background-size: cover; background-position: center top; background-repeat: no-repeat; display: flex; justify-content: center; align-items: flex-end; }
 .sub02 .section01 .content { text-align: center; margin-bottom: 89px; color: #fff; }
 .sub02 .section01 .content .cover_title { font-size: 27px; font-weight: 700; }
 .sub02 .section01 .content .cover_text { font-size: 16px; font-weight: 400; padding: 13px 0; }

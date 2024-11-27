@@ -62,9 +62,9 @@ if ($current_key !== false) {
 			<a href="#" class="vol_tit">2024 Vol.202</a>
 			<div class="vol_list">
 				<ul>
-                    <li><a href="/html/vol201/index.php" target='_blank'>2023 Vol.201</a></li>
-                    <li><a href="/html/vol200/index.php" target='_blank'>2023 Vol.200</a></li>
-                    <li><a href="/html/vol199/index.php" target='_blank'>2023 Vol.199</a></li>
+                    <li><a href="/html/vol201/index.php" target='_blank'>2024 Vol.201</a></li>
+                    <li><a href="/html/vol200/index.php" target='_blank'>2024 Vol.200</a></li>
+                    <li><a href="/html/vol199/index.php" target='_blank'>2024 Vol.199</a></li>
                     <li><a href="/html/vol198/index.php" target='_blank'>2023 Vol.198</a></li>
 			        <li><a href="/html/vol197/index.php" target='_blank'>2023 Vol.197</a></li>
 				    <li><a href="/html/vol196/index.php" target='_blank'>2023 Vol.196</a></li>

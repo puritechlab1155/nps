@@ -45,9 +45,8 @@
 
 		<div class="news news01 on">
 			<div class="section04">
-				<img src="img/sub01/news03-cover.jpg" class="pc_display">
-				<!-- <img src="img/sub01/sub01_31_tablet.jpg" class="tablet_display_only"> -->
-				<img src="img/sub01/news03-cover-mo.jpg" class="mobile_display">
+				<img src="img/sub01/news01-cover.svg" class="pc_display">
+				<img src="img/sub01/news01-cover-mo.svg" class="mobile_display">
 			</div><!-- //.section04 -->
 
 			<div class="section05 wow fadeBigInUp">
@@ -137,8 +136,8 @@
 
 		<div class="news news02">
 			<div class="section04">
-				<img src="img/sub01/news01-cover.jpg" class="pc_display">
-				<img src="img/sub01/news01-cover-mo.jpg" class="mobile_display">
+				<img src="img/sub01/news02-cover.svg" class="pc_display">
+				<img src="img/sub01/news02-cover-mo.svg" class="mobile_display">
 			</div><!-- //.section04 -->
 
 			<div class="section05 wow fadeBigInUp">
@@ -245,8 +244,8 @@
 
 		<div class="news news03">
 			<div class="section04">
-				<img src="img/sub01/news02-cover.jpg" class="pc_display">
-				<img src="img/sub01/news02-cover-mo.jpg" class="mobile_display">
+				<img src="img/sub01/news03-cover.svg" class="pc_display">
+				<img src="img/sub01/news03-cover-mo.svg" class="mobile_display">
 			</div><!-- //.section04 -->
 
 			<div class="section05 wow fadeBigInUp">

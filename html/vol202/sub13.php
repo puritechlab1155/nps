@@ -159,7 +159,7 @@ if($my_regno > 0) {
 
             <!-- 이벤트 참여 상태에 따른 팝업 -->
             <?php if($vote) { #echo '투표한 경우';// 투표한 경우 ?>
-                <div class="popUp result_modal05" style="display: block">
+                <div class="popUp result_modal05">
                     <div class="modal">
                         <div class="content">
                             <p>이미 응모하셨습니다.</p>
@@ -316,6 +316,8 @@ if($my_regno > 0) {
         $('.result_modal02').hide();
         $('.result_modal03').hide();
         $('.result_modal04').show();  // This block should show result_modal04
+    } else if(event_close && !reward) { 
+        $('.result_modal05').show();
     } else {
         $('.result_modal01').hide();
         $('.result_modal02').hide();

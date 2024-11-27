@@ -37,14 +37,103 @@
 					<div class="tabs">
 						<div class="tab01 on">News 1</div>
 						<div class="tab02">News 2</div>
-						<!-- <div class="tab03">News 3</div>
-						<div class="tab04">News 4</div> -->
+						<div class="tab03">News 3</div>
+						<!-- <div class="tab04">News 4</div> -->
 					</div>
 				</div>
 			</div><!-- //.section03 -->
 		</div>
 
 		<div class="news news01 on">
+			<div class="section04">
+				<img src="img/sub01/news03-cover.jpg" class="pc_display">
+				<!-- <img src="img/sub01/sub01_31_tablet.jpg" class="tablet_display_only"> -->
+				<img src="img/sub01/sub01_31_mo.svg" class="mobile_display">
+			</div><!-- //.section04 -->
+
+			<div class="section05 wow fadeBigInUp">
+				<div class="content">
+					<div class="anchor moSmall alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							첫 번째 뉴스는 국민연금 수급자 700만 명을 돌파했다는 소식으로 시작합니다. <br>
+							자세한 내용 M기자와 함께 알아보겠습니다.
+						</div>
+					</div>
+					<div class="reporter">
+						<div class="answer">
+							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
+							<div class="text">
+								네, 국민연금 제도가 시행된 지 36년 만에 연금 수급자 700만 명 시대를 열었습니다. 국민연금공단은 이를 기념하여 700만 번째 수급자 박○○(63세) 씨에게 국민연금 수급증서와 기념품을 전달했습니다.
+							</div>
+							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
+						</div>
+						<div class="graph_area none_pad bg-white">
+							<img src="img/sub01/news03-01.jpg">
+							<span class="cap-text">
+								수급자 700만 명 돌파 기념식에서 촬영 중인 수급자 박○○ 씨(왼쪽에서 세 번째)와 정태규 연금이사(왼쪽에서 네 번째) 그리고 국민연금공단 직원들
+							</span>
+						</div>
+						<div class="graph_area bg-white">
+							<p class="text">
+								박○○ 씨는 1988년 4월 2일 사업장가입자로 가입하여 반납금과 추납보험료를 포함하여 298개월분 보험료 4,395만 원을 납부하였습니다. 또한 다자녀 부모에게 주어지는 출산크레딧 혜택을 받아, 가입기간 18개월을 추가로 인정받았는데요. 이와 같은 제도 활용과 납부를 통해 월 4만 7천 원이 늘어난 90여만 원을 이번 달부터 매월 수령하게 되었습니다. <br>
+								이날 박○○ 씨는 “반납금과 추납보험료를 납부해 더 많은 연금을 받게 된 게 참 다행이다. 특별한 노후 준비가 없는 상황에서 매월 꼬박꼬박 들어오는 연금 90만 원은 내게 너무나 소중하다.”라며 소감을 전했습니다.
+							</p>
+						</div>
+					</div>
+
+					<div class="anchor alignCenter">
+						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
+						<div class="question">
+							실제 수급자 사례를 들으니 국민연금의 필요성이 더욱 와 닿네요. 박○○ 님이 활용하신 제도는 하단의 박스를 참고해 주시면 좋겠습니다. 마지막으로 정태규 연금이사의 소감을 전하며 첫 번째 뉴스 마치겠습니다.
+						</div>
+					</div>
+					
+					<div class="interview-box">
+						<img src="img/sub01/news03-02.svg">
+					</div>
+
+					<div class="bottom-area">
+						<ul class="exp-list">
+							<li>
+								<div class="left">
+									<img src="img/sub01/icon-coin.svg">
+									<span>반납금</span>
+								</div>
+
+								<div class="right">
+									<p>지급받은 반환일시금에 이자를 더해 납부하여 가입기간을 늘리는 제도</p>
+								</div>
+							</li>
+							<li>
+								<div class="left">
+									<img src="img/sub01/icon-coin.svg">
+									<span>추납보험료</span>
+								</div>
+
+								<div class="right">
+									<p>가입기간 중 실직 등으로 보험료를 납부할 수 없었던 기간을 추후 납부능력이 되었을 때 납부하여 가입기간을 늘리는 제도</p>
+								</div>
+							</li>
+							<li>
+								<div class="left">
+									<img src="img/sub01/icon-coin.svg">
+									<span>출산크레딧</span>
+								</div>
+
+								<div class="right">
+									<p>2008년 1월 1일 이후 둘째 자녀 이상을 얻은 경우, 가입기간을 12개월에서 50개월(2024년 금액 기준 31,380원에서 130,770원 추가 지급)까지 인정하는 제도</p>
+								</div>
+							</li>
+						</ul>
+
+						<div class="img-box"><img src="img/sub01/news03-03.svg"></div>
+					</div>
+				</div>
+			</div><!-- //.section05 -->
+		</div><!-- //.news01 -->
+
+		<div class="news news02">
 			<div class="section04">
 				<img src="img/sub01/news01-cover.jpg" class="pc_display">
 				<img src="img/sub01/news01-cover-mo.jpg" class="mobile_display">
@@ -55,7 +144,7 @@
 					<div class="anchor moSmall">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question">
-							첫 번째 뉴스입니다. <br>
+							두 번째 뉴스입니다. <br>
 							외국 국적 민원인분들께서 주목하실 만한 뉴스입니다. 국민연금공단은 공공기관 최초로 동시통역이 가능한 인공지능(AI) 사원 서비스를 지난 6월부터 5개 지사에서 시범운영 해왔는데요. 11월부터는 11개 지사로 확대 운영한다는 소식입니다. <br>
 							자세한 소식 취재기자 M과 함께 알아보겠습니다. M기자, 인공지능(AI) 사원 ‘국연아 주임’에 대해 자세히 설명해 주세요.
 						</div>
@@ -69,7 +158,7 @@
 							</div>
 							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
 						</div>
-						<div class="graph_area graph_area01">
+						<div class="graph_area none_pad">
 							<img src="img/sub01/news01-01.jpg" class="pc_display">
 							<img src="img/sub01/news01-01-mo.jpg" class="mobile_display">
 						</div>
@@ -104,7 +193,7 @@
 							</div>
 							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
 						</div>
-						<div class="graph_area graph_area01">
+						<div class="graph_area none_pad">
 							<img src="img/sub01/news01-02.jpg" class="pc_display">
 							<img src="img/sub01/news01-02-mo.jpg" class="mobile_display">
 						</div>
@@ -150,9 +239,9 @@
 					</div>
 				</div>
 			</div><!-- //.section05 -->
-		</div><!-- //.news01 -->
+		</div><!-- //.news02 -->
 
-		<div class="news news02">
+		<div class="news news03">
 			<div class="section04">
 				<img src="img/sub01/news02-cover.jpg" class="pc_display">
 				<img src="img/sub01/news02-cover-mo.jpg" class="mobile_display">
@@ -164,8 +253,7 @@
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question question-flex">
 							<div class="text">
-								두 번째 뉴스입니다. <br>
-								국민연금공단에 희소식이 날아들었습니다. 국민연금공단이 지난 11월 6일 제36회 통계작성기관 워크숍에서 ‘국가통계 통합DB 자료관리’ 우수기관으로 선정돼 통계청창 표창을 받았습니다. 관련 내용 취재기자 M과 함께 알아보겠습니다. M기자 ‘국가통계 통합DB 자료관리’란 무엇인가요?
+								세 번째 뉴스입니다. 국민연금공단이 지난 11월 6일 제36회 통계작성기관 워크숍에서 ‘국가통계 통합DB 자료관리’ 우수기관으로 선정돼 통계청창 표창을 받았다는 소식입니다. 관련 내용 취재기자 M과 함께 알아보겠습니다. M기자 ‘국가통계 통합DB 자료관리’란 무엇인가요?
 							</div>
 							<div class="img_box"><img src="img/sub01/news02-01.jpg"></div>
 						</div>
@@ -174,7 +262,8 @@
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								네, ‘국가통계 통합DB’는 중앙행정기관(통계청 제외), 지방자치단체, 통계청장의 승인을 받은 금융·공사 및 공단·연구기관·협회·조합 등 통계작성기관이 자체적으로 통계자료를 한 곳에 입력하고 관리하는 시스템입니다. 통계청은 ‘국가통계 통합DB 자료관리’에 대한 국민의 관심도를 높이고 적정한 관리를 위해 매년 통계작성 우수기관을 선정하고 있는데, 바로 이 평가에서 국민연금공단이 우수기관으로 선정된 것입니다.
+								네, ‘국가통계 통합DB’는 중앙행정기관(통계청 제외), 지방자치단체, 통계청장의 승인을 받은 금융·공사 및 공단·연구기관·협회·조합 등 통계작성기관이 자체적으로 통계자료를 한 곳에 입력하고 관리하는 시스템입니다.<br>
+								통계청은 ‘국가통계 통합DB 자료관리’에 대한 국민의 관심도를 높이고 적정한 관리를 위해 매년 통계작성 우수기관을 선정하고 있는데, 바로 이 평가에서 국민연금공단이 우수기관으로 선정된 것입니다. 
 							</div>
 							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
 						</div>
@@ -190,7 +279,7 @@
 						<div class="answer">
 							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								네, 평가 기준은 통계정보의 시의성과 정확성입니다. 이번에 수상한 국민연금공단은 국민들에게 정확한 통계정보를 신속하게 제공할 뿐만 아니라 노후소득보장 대책 수립을 위한 기초자료 수집에도 기여했습니다.
+								네, 평가 기준은 통계정보의 시의성과 정확성입니다. 국민연금공단은 국민들에게 정확한 통계정보를 신속하게 제공하고, 노후소득보장 대책 수립을 위한 기초자료 수집에 기여한 점을 인정받아 우수기관으로 선정되었습니다. 
 							</div>
 							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
 						</div>
@@ -206,7 +295,7 @@
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								네, 국민연금공단은 ‘국민연금통계’와 ‘국민노후보장패널조사’를 국가승인통계로 관리하고 있고, 이를 국가 통계포털(KOSIS)에 제공하고 있습니다. ‘국민연금통계’는 가입종별·지역별·성별 등 109종 유형에 해당하는 가입자 및 수급자 현황은 물론, 2011년 이후 건강보험공단으로 이관돼 통계 수록이 중단됐던 징수현황도 작년부터 ‘국민연금통계’에 복원해 통계정보의 변동 내용을 신속하게 반영하고 있습니다. 또한 이용자의 정확한 통계 해석을 위해 지속해서 제공 항목을 개선하고 있을 뿐만 아니라 국민연금 빅데이터 포털에서 ‘국민연금통계’ 수치를 시각화해 이용자가 분석 정보를 쉽게 이해할 수 있도록 제공하고 있습니다.
+								네, 국민연금공단은 ‘국민연금통계’와 ‘국민노후보장패널조사’를 국가승인통계로 관리, 이를 국가 통계포털(KOSIS)에 제공하고 있습니다. 또한 이용자의 정확한 통계 해석을 위해 지속해서 제공 항목을 개선하고 있을 뿐만 아니라 국민연금 빅데이터 포털에서 ‘국민연금통계’ 수치를 시각화해 이용자가 분석 정보를 쉽게 이해할 수 있도록 제공하고 있습니다.
 							</div>
 							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
 						</div>
@@ -215,14 +304,14 @@
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question text_left">
-							그렇군요. 국민연금연구원도 기초자료를 수집하는 데 도움을 주었다고 들었습니다.
+							그렇군요. 국민연금연구원도 노후소득보장 관련 정책 기초자료를 수집하는 데 도움을 주었다고 들었습니다.
 						</div>
 					</div>
 					<div class="reporter">
 						<div class="answer">
 							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
 							<div class="text">
-								맞습니다. 국민연금연구원은 가계경제, 경제활동상태, 사회보장 적용실태 등 재무·비재무적 영역을 포괄하는 ‘국민노후보장패널조사’를 실시하고 2년마다 그 결과를 공개하고 있습니다. 우리나라 중·고령층 노후준비실태 및 노후생활을 지속적으로 파악해 노후소득보장과 관련된 정책의 기초자료를 수집하는 데에도 도움을 주고 있습니다.
+								맞습니다. 국민연금연구원은 가계경제, 경제활동상태, 사회보장 적용실태 등 재무·비재무적 영역을 포괄하는 ‘국민노후보장패널조사’를 실시하고, 2년마다 그 결과를 공개하고 있습니다. 우리나라 중·고령층의 노후준비실태 및 노후생활을 지속적으로 파악해 노후소득보장과 관련된 정책의 기초자료를 수집하는 데에도 도움을 주고 있습니다.
 							</div>
 							<div class="img"><img src="img/sub01/reporter-chr.svg"></div>
 						</div>
@@ -231,147 +320,7 @@
 					<div class="anchor alignCenter">
 						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
 						<div class="question text_left">
-							자세한 소식 감사합니다. <br>
-							국민연금은 이외에도 다양한 자료를 수집하는데 기여하고 있습니다. 1988년 제1호 통계연보를 시작으로 제36호 통계연보까지 국민연금 가입자, 수급자는 물론 기금 전반에 대한 현황을 공표해 사회복지정책 수립에 대한 기여도를 인정받기도 했습니다.
-						</div>
-					</div>
-
-					<div class="news02_bottom">
-						<div class="cont_box">
-							<div class="text_box">
-								<p class="pc_display">
-									김태현 이사장은 <br>
-									<span>“국민연금 통계자료는 초고령사회로 진입속도가 빠른 대한민국의 <br>
-									노후소득보장 실태 등을 파악하는데 소중한 공적자료”</span>라며<br>
-									<span>“앞으로도 양질의 통계자료를 제공하기 위해 더욱 노력하겠다”</span><br>
-									라고 전하였습니다.
-								</p>
-								<p class="mobile_display">
-									김태현 이사장은 <br>
-									<span>“국민연금 통계자료는 초고령사회로 진입속도가 빠른 대한민국의 노후소득보장 실태 등을 파악하는데 소중한 공적자료”</span>라며 <span>“앞으로도 양질의 통계자료를 제공하기 위해 더욱 노력하겠다”</span><br>
-									라고 전하였습니다.
-								</p>
-							</div>
-							<div class="img_box"><img src="img/sub01/news02-bottom-obj.svg"></div>
-						</div>
-					</div>
-				</div>
-			</div><!-- //.section05 -->
-		</div><!-- //.news02 -->
-
-		<div class="news news03">
-			<div class="section04">
-				<img src="img/sub01/sub01_31.svg" class="pc_display_only">
-				<img src="img/sub01/sub01_31_tablet.jpg" class="tablet_display_only">
-				<img src="img/sub01/sub01_31_mo.svg" class="mobile_display_only">
-			</div><!-- //.section04 -->
-
-			<div class="section05 wow fadeBigInUp">
-				<div class="content">
-					<div class="anchor moSmall">
-						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
-						<div class="question">
-							세 번째 뉴스입니다.<br>
-							&lt;내 곁에 국민연금&gt; 봄호와 여름호에서 말씀드린 국민연금기금의 성과 기억하시나요? 국민연금기금이 작년 사상 최대 기금적립금 1,000조 원을 돌파했고, 올해 1분기에는 5.82%의 기금 운용수익률을 올리며 호조세를 이어 나가고 있다고 말씀드렸는데요. 올해 상반기에도 1분기 못지않은 기금 운용수익률을 기록했다고 합니다.<br>
-							자세한 소식 취재기자 M과 알아보겠습니다. M기자 올해 상반기 기금 운용수익률에 대해 자세히 설명해 주세요.
-						</div>
-					</div>
-					<div class="reporter">
-						<div class="answer">
-							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
-							<div class="text">
-								네, 1분기에 이어 기쁜 소식을 전해드립니다. 8월 29일 국민연금공단 기금운용본부는 2024년 6월 말 기준 올해 상반기 기금 운용수익률 9.71%, 운용 수익금 102조 4,000억을 기록했다고 밝혔습니다.<br>
-								1988년 국민연금제도가 도입된 이래 총 680조 4,000억 원의 누적 수익금이 쌓이고, 1,147조 원의 기금이 적립된 것입니다.
-							</div>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
-						</div>
-						<div class="graph_area graph_area01">
-							<div class="graph_text">
-								<div class="textBold">국민연금기금 적립금 추이</div>
-								<p>(단위: 조 원, 2024. 6월 말 기준)</p>
-							</div>
-							<img src="img/sub01/sub01_32.svg" class="pc_display">
-							<img src="img/sub01/sub01_32_mo.svg" class="mobile_display">
-						</div>
-					</div>
-
-					<div class="anchor alignCenter">
-						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
-						<div class="question">
-							기금적립금 1,200조 원을 바라보게 됐네요! 그렇다면 상반기 자산별 잠정수익률은 어떻게 되나요?
-						</div>
-					</div>
-					<div class="reporter">
-						<div class="answer">
-							<div class="quotes"><img src="img/sub01/quotes.svg"></div>
-							<div class="text">
-								네, 금액가중수익률 기준 상반기 자산별 잠정수익률을 말씀드리겠습니다. 해외주식 20.47%, 국내주식 8.61%, 해외채권 7.95%, 대체투자 7.79%, 국내채권 1.66% 순으로 각각 집계됐습니다.
-							</div>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
-						</div>
-						<div class="graph_area graph_area02">
-							<div class="textBold">
-								자산별 잠정수익률<br class="mobile_display">(금액가중수익률 기준)
-							</div>
-							<div class="img_box pc_display"><img src="img/sub01/sub01_33.svg"></div>
-							<div class="img_box mobile_display"><img src="img/sub01/sub01_33_mo.svg"></div>
-						</div>
-					</div>
-
-					<div class="anchor alignCenter">
-						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
-						<div class="question">
-							변동성이 큰 시장에서도 안정적인 수익률을 지속해서 창출하고 있군요. 올해 상반기에 큰 수익률을 낼 수 있었던 요인은 무엇인가요?
-						</div>
-					</div>
-					<div class="reporter">
-						<div class="answer">
-							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
-							<div class="text">
-								올해 여섯 달 동안 9.71%의 기금 운용수익률을 기록한 요인을 말씀드리겠습니다. 먼저 미국 기술주 강세로 국내 및 해외주식 수익률이 양호했습니다. 이와 더불어 원·달러 환율이 상승해 해외자산 기금 운용수익률에 긍정적인 영향을 주었습니다.
-							</div>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
-						</div>
-					</div>
-
-					<div class="anchor alignCenter">
-						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
-						<div class="question text_left">
-							주식 부문부터 더욱 자세히 설명해 주시겠어요?
-						</div>
-					</div>
-					<div class="reporter">
-						<div class="answer">
-							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
-							<div class="text">
-								구체적으로 말씀드리겠습니다. 국내주식과 해외주식은 미국 물가 상승 우려에도 인공지능(AI) 수요와 기대가 커지면서 대형 기술주 중심으로 주가가 상승했습니다. 그중에서도 해외주식은 원·달러 환율 상승으로 원화 약세 효과가 더해지며 기금 운용수익률이 20%를 넘었는데요. 그 때문에 해외주식이 올해 상반기 국민연금의 수익률을 견인했습니다.
-							</div>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
-						</div>
-					</div>
-
-					<div class="anchor alignCenter">
-						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
-						<div class="question">
-							그렇다면 여러 사정으로 불안했던 채권 부문은 어떤가요?
-						</div>
-					</div>
-					<div class="reporter">
-						<div class="answer">
-							<div class="quotes padMore"><img src="img/sub01/quotes.svg"></div>
-							<div class="text s_text">
-								국내채권과 해외채권은 미국의 기준금리 인하 시점 지연 우려로 금리가 상승했는데요. 해외채권은 원·달러 환율 상승세 유지 효과로 개선된 수익률을 보였습니다.
-							</div>
-							<div class="img"><img src="img/sub01/sub01_05.svg"></div>
-						</div>
-					</div>
-
-					<div class="anchor">
-						<div class="img"><img src="img/sub01/sub01_04.svg"></div>
-						<div class="question">
-							네. 국민연금 기금 운용수익률 중 국내외 주식은 대형 기술주 중심으로 주가가 상승했으며, 국내외 채권은 금리 상승에도 원·달러 환율 상승세 유지 효과로 수익률을 냈습니다. 한편, 부동산투자, 사모벤처투자, 인프라투자 등 대체투자 자산에 대한 공정가치 평가는 추후 연말에 이루어질 예정입니다.
-							<br><br>
-							지금까지 2024년 상반기 국민연금공단의 기금 운용수익률을 알아봤습니다. 작년에 이어 호조세를 유지하고 있는 국민연금공단의 기금 운용수익률이 앞으로도 상승 곡선을 타기를 기대해 봅니다.
+							네, 국민연금공단의 수상을 진심으로 축하드립니다. 국민연금공단 김태현 이사장은 “국민연금 통계자료는 초고령사회로 진입속도가 빠른 대한민국의 노후소득보장 실태 등을 파악하는데 소중한 공적자료”라며, “앞으로도 양질의 통계자료를 제공하기 위해 더욱 노력하겠다”라고 밝혔습니다. 앞으로 더 좋은 뉴스로 찾아 뵙겠습니다. 감사합니다.
 						</div>
 					</div>
 				</div>

@@ -246,7 +246,7 @@ if($my_regno > 0) {
                                             </div>
                                         </div>
                                         <div class="winner_email"><label for="winning_email">E-mail</label><input type="email" name="email" placeholder=""></div>
-                                        <input type="hidden" name="product" value="CU카드">
+                                        <input type="hidden" name="product" value="GS25">
                                         <input type="hidden" name="ip" value="<?php echo $current_ip?>">
                                         <input type="hidden" name="device" value="<?php echo $current_device?>">
                                         <input type="hidden" name="vol_idx" value="<?php echo $vol_idx?>">

@@ -12,26 +12,26 @@ $random_number = mt_rand(1, 100);
 //데이터 불러오기
 $vol_idx = mysqli_real_escape_string($connect, $vol_idx);
 //쿼리
-$query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx}";
+$query = "SELECT * FROM `christmas_list` WHERE `vol_idx`={$vol_idx}";
 $result = mysqli_query($connect, $query);
 
 if (!$result) {
-    die('Error fetching ocean_event_list: ' . mysqli_error($connect));
+    die('Error fetching christmas_list: ' . mysqli_error($connect));
 }
 
 //총 응모자 수
 $all_count = mysqli_num_rows($result);
 //쿼리
-$query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `product_name`!='꽝'";
+$query = "SELECT * FROM `christmas_list` WHERE `vol_idx`={$vol_idx} AND `product_name`!='꽝'";
 $result = mysqli_query($connect, $query);
 
 if (!$result) {
-    die('Error fetching ocean_event_list: ' . mysqli_error($connect));
+    die('Error fetching christmas_list: ' . mysqli_error($connect));
 }
 
 $current_count = mysqli_num_rows($result); //현재 당첨자 수
 
-$my_query = "SELECT * FROM `ocean_event_list` WHERE `vol_idx`={$vol_idx} AND `ip`='{$current_ip}' AND `device`='{$current_device}'";
+$my_query = "SELECT * FROM `christmas_list` WHERE `vol_idx`={$vol_idx} AND `ip`='{$current_ip}' AND `device`='{$current_device}'";
 $result = mysqli_query($connect, $my_query);
 
 if (!$result) {

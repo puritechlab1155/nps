@@ -4,10 +4,10 @@
 include_once("config.php");
 
 //변수 vol 202
-$max_count = 100; //최대 당첨자 수
+$max_count = 10; //최대 당첨자 수 원래 100
 $event_close = false; 
 $vote = false;
-$random_number = mt_rand(1, 100); 
+$random_number = mt_rand(1, 10);  //원래 1, 100
 
 //데이터 불러오기
 $vol_idx = mysqli_real_escape_string($connect, $vol_idx);
@@ -46,7 +46,7 @@ if ($max_count <= $current_count) { //최대 당첨자 수를 넘을 경우
 	//$reward = (($all_count + 1) % 20 == 0);
 } 
 
-$reward = ($random_number <= 50); //count 방식을 변경해야 겠음.
+$reward = ($random_number <= 2); //count 방식을 변경해야 겠음.
 
 $my_regno = mysqli_num_rows($result); //내가 투표한지 여부
 if($my_regno > 0) {

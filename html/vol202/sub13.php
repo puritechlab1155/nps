@@ -119,7 +119,7 @@ if($my_regno > 0) {
                         <div class="top"><span>응모 기간</span><em>11월 28일 오후 2시 ~ <br class="mobile_display">12월 22일 오후 11시 30분</em></div>
                         <div><span>경품 발송</span><em>12월 30일 오후 5시</em></div>
                     </div>
-                    <div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <span class="end" href="#">마감되었습니다</span></div>
+                    <div class="button"><a class="subscribe" href="https://www.nps.or.kr/jsppage/cyber_pr/subscribe/intro.jsp" target='_blank'>구독하기</a> <!-- <span class="end" href="#">마감되었습니다</span> --></div>
 
                     <div class="event_wrap">
                         <div class="event_cont">

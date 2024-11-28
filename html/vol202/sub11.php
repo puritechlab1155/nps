@@ -93,8 +93,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 						<div class="q_title pc_display"><img src="img/sub11/sub11_04.svg"></div>
 						<div class="q_title mobile_display"><img src="img/sub11/sub11_04_mo.svg"></div>
 						<div class="q_text">
-							보험료율 13%와 소득대체율 42% 등 <br>
-							모수 개혁안을 중심으로 <br>
+							보험료율 13%와 소득대체율 42% 등을 중심으로 <br>
 							정부가 21년만에 내놓은 안건은?
 						</div>
 						<div class="blank_box">
